@@ -1,4 +1,5 @@
 name: Host videos (GitHub Pages)
+# rev: 2026-10-12 token+pages activation
 on:
   push:
     branches: [main]
