@@ -1,0 +1,102 @@
+{
+ "fetched_at": "2026-10-12T05:45:52.148754+00:00",
+ "account": {
+  "user_id": "17841423398900553",
+  "username": "koru.tokyo_guide",
+  "account_type": "MEDIA_CREATOR",
+  "media_count": 6,
+  "id": "28241506535529259",
+  "followers_count": 0,
+  "follows_count": 0
+ },
+ "media": [
+  {
+   "id": "18458564113143223",
+   "permalink": "https://www.instagram.com/reel/DdnqBADOl96/",
+   "timestamp": "2026-09-23T06:22:54+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
+   "reach": 156,
+   "views": 173,
+   "likes": 0,
+   "comments": 0,
+   "saved": 2,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 5888,
+   "ig_reels_video_view_total_time": 959764
+  },
+  {
+   "id": "18233989189318614",
+   "permalink": "https://www.instagram.com/reel/Ddnp7bIOuft/",
+   "timestamp": "2026-09-23T06:22:09+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Skip Nakamise for food. Denboin-dori (Edo storefronts), Shin",
+   "reach": 136,
+   "views": 145,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 5081,
+   "ig_reels_video_view_total_time": 736801
+  },
+  {
+   "id": "18093948824560003",
+   "permalink": "https://www.instagram.com/reel/DdnpnRuuSfp/",
+   "timestamp": "2026-09-23T06:19:29+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
+   "reach": 204,
+   "views": 240,
+   "likes": 1,
+   "comments": 0,
+   "saved": 2,
+   "shares": 0,
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 7547,
+   "ig_reels_video_view_total_time": 1637742
+  },
+  {
+   "id": "18630692956037100",
+   "permalink": "https://www.instagram.com/reel/DdnphFiOGv6/",
+   "timestamp": "2026-09-23T06:18:44+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
+   "reach": 176,
+   "views": 188,
+   "likes": 0,
+   "comments": 0,
+   "saved": 3,
+   "shares": 0,
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 7499,
+   "ig_reels_video_view_total_time": 1334971
+  },
+  {
+   "id": "18000027392807753",
+   "permalink": "https://www.instagram.com/reel/DdnpRFTOQop/",
+   "timestamp": "2026-09-23T06:16:25+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Lost in Akihabara? You're not alone. Two exits, one giant st",
+   "reach": 209,
+   "views": 228,
+   "likes": 1,
+   "comments": 0,
+   "saved": 4,
+   "shares": 2,
+   "total_interactions": 7,
+   "ig_reels_avg_watch_time": 8979,
+   "ig_reels_video_view_total_time": 1885661
+  },
+  {
+   "id": "18119883476304861",
+   "permalink": "https://www.instagram.com/p/DdnUlSwGLH7/",
+   "timestamp": "2026-09-23T03:15:22+0000",
+   "media_product_type": "FEED",
+   "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ALYtEi6IphFHw1h5BeQ_0Bp\"}}"
+  }
+ ]
+}
