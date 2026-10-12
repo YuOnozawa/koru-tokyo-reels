@@ -139,7 +139,12 @@ if __name__ == '__main__':
         raise SystemExit('IG_TOKEN secret is missing')
     a = sys.argv[1:]
     if not a or a[0] == 'check':
-        print(json.dumps(me(), ensure_ascii=False))
+        u = me(); print(json.dumps(u, ensure_ascii=False))
+        q = load('queue.json', [])
+        probe = public_url(q[0]['file']) if q else None
+        save('state/account.json', {'checked_at': datetime.now(timezone.utc).isoformat(),
+                                    'username': u.get('username'), 'account_type': u.get('account_type'),
+                                    'media_count': u.get('media_count'), 'video_url_used': probe})
     elif a[0] == 'publish':
         cmd_publish(a[2] if len(a) > 2 and a[1] == '--id' else None)
     elif a[0] == 'insights':
