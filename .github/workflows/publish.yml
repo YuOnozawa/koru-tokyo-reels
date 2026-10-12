@@ -1,7 +1,8 @@
 name: Publish reel
 on:
   schedule:
-    - cron: '3 12 * * *'   # 21:03 JST daily
+    - cron: '3 12 * * *'   # 21:03 JST
+    - cron: '3 22 * * *'   # 07:03 JST
   workflow_dispatch:
     inputs:
       id:
