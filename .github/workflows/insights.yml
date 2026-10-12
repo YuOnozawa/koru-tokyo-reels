@@ -1,0 +1,24 @@
+name: Fetch insights
+on:
+  schedule:
+    - cron: '17 0 * * *'   # 09:17 JST daily
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ig-insights
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python scripts/ig.py insights
+      - name: Save
+        run: |
+          git config user.name "koru-bot"; git config user.email "koru-bot@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || (git commit -m "state: insights $(date -u +%F)" && git pull --rebase && git push)

@@ -1,0 +1,32 @@
+name: Publish reel
+on:
+  schedule:
+    - cron: '3 12 * * *'   # 21:03 JST daily
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 'queue id to publish now (blank = whatever is due)'
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: ig-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish due reel
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          FORCE_ID: ${{ github.event.inputs.id }}
+        run: |
+          if [ -n "$FORCE_ID" ]; then python scripts/ig.py publish --id "$FORCE_ID"; else python scripts/ig.py publish; fi
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "koru-bot"; git config user.email "koru-bot@users.noreply.github.com"
+          git add state || true
+          git diff --cached --quiet || (git commit -m "state: publish $(date -u +%FT%TZ)" && git pull --rebase && git push)
