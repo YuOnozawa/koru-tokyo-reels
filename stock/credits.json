@@ -233,15 +233,6 @@
   "source": "https://wordpress.org/photos/photo/45669caef8/",
   "provider": "wordpress"
  },
- "sushi_plate_0.jpg": {
-  "query": "sushi plate",
-  "title": "Sushi Food",
-  "creator": "Chevanon",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://stocksnap.io/photo/sushi-food-BBD3AU9NSR",
-  "provider": "stocksnap"
- },
  "sushi_plate_1.jpg": {
   "query": "sushi plate",
   "title": "Sushi Food",
@@ -251,24 +242,6 @@
   "source": "https://stocksnap.io/photo/sushi-food-PLEZCN4ULI",
   "provider": "stocksnap"
  },
- "sushi_plate_2.jpg": {
-  "query": "sushi plate",
-  "title": "sushi bowl in tokyo japan",
-  "creator": "Maja Eriksson",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://wordpress.org/photos/photo/59663ecff3/",
-  "provider": "wordpress"
- },
- "sushi_plate_3.jpg": {
-  "query": "sushi plate",
-  "title": "Sushi dinner",
-  "creator": "fevion88",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://wordpress.org/photos/photo/271636e34e/",
-  "provider": "wordpress"
- },
  "takoyaki_0.jpg": {
   "query": "takoyaki",
   "title": "Takoyaki shop in Tokyo. Osaka’s soul food found in Tokyo.",
@@ -277,15 +250,6 @@
   "license_version": "1.0",
   "source": "https://wordpress.org/photos/photo/24640d91a0/",
   "provider": "wordpress"
- },
- "tokyo_station_0.jpg": {
-  "query": "tokyo station",
-  "title": "Tokyo Station, series “Recollections Tokyo”",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/8883507/image-art-public-domain-person",
-  "provider": "rawpixel"
  },
  "tokyo_station_1.jpg": {
   "query": "tokyo station",
@@ -305,24 +269,6 @@
   "source": "https://www.rawpixel.com/image/11189131/image-person-public-domain-green",
   "provider": "rawpixel"
  },
- "tokyo_station_3.jpg": {
-  "query": "tokyo station",
-  "title": "東急世田谷線三軒茶屋駅前のランドマーク ／ Landmark in front of Sangenjaya Station on the Tokyu Setagaya Line",
-  "creator": "渡邉厚夫(たいちょ渡邉)",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://wordpress.org/photos/photo/281640d956/",
-  "provider": "wordpress"
- },
- "sake_cup_0.jpg": {
-  "query": "sake cup",
-  "title": "Large Lacquer Sake Cup Reading",
-  "creator": "themet",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/9241262/image-paper-vintage-public-domain",
-  "provider": "rawpixel"
- },
  "sake_cup_1.jpg": {
   "query": "sake cup",
   "title": "Sake Cup",
@@ -330,24 +276,6 @@
   "license": "cc0",
   "license_version": "1.0",
   "source": "https://www.rawpixel.com/image/9328782/sake-cup",
-  "provider": "rawpixel"
- },
- "sake_cup_2.jpg": {
-  "query": "sake cup",
-  "title": "Three Sake Cups (1820) Ryûryûkyo",
-  "creator": "rijksmuseum",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/13765916/image-paper-cartoon-art",
-  "provider": "rawpixel"
- },
- "sake_cup_3.jpg": {
-  "query": "sake cup",
-  "title": "Shōjō Under a Sake Cup",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/7423926/shojo-under-sake-cup",
   "provider": "rawpixel"
  },
  "sake_cup_4.jpg": {

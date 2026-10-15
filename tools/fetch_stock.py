@@ -33,4 +33,5 @@ for q in sys.argv[1:]:
                          'source': r.get('foreign_landing_url') or r.get('url'), 'provider': r.get('provider')}
         n += 1
     print(q, '->', n)
+    import time; time.sleep(4)
 json.dump(credits, open(cred_p, 'w'), ensure_ascii=False, indent=1)
