@@ -17,24 +17,6 @@
   "source": "https://commons.wikimedia.org/w/index.php?curid=39923890",
   "provider": "wikimedia"
  },
- "ramen_bowl_2.jpg": {
-  "query": "ramen bowl",
-  "title": "Ramen noodles clipart, Japanese food",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/6742390/vector-public-domain-illustrations-food",
-  "provider": "rawpixel"
- },
- "ramen_bowl_3.jpg": {
-  "query": "ramen bowl",
-  "title": "Ramen noodles png sticker, Japanese",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/6743650/png-sticker-public-domain",
-  "provider": "rawpixel"
- },
  "sushi_conveyor_belt_0.jpg": {
   "query": "sushi conveyor belt",
   "title": "File:Kaiten-zushi 005.jpg",
@@ -44,15 +26,6 @@
   "source": "https://commons.wikimedia.org/w/index.php?curid=62678373",
   "provider": "wikimedia"
  },
- "sushi_conveyor_belt_1.jpg": {
-  "query": "sushi conveyor belt",
-  "title": "Interior Sushi Rama Japanese restaurant",
-  "creator": "libraryofcongress",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/6283548/photo-image-cat-people-lights",
-  "provider": "rawpixel"
- },
  "soba_noodles_0.jpg": {
   "query": "soba noodles",
   "title": "Soba Noodle Restaurant, Taito City",
@@ -61,15 +34,6 @@
   "license_version": "1.0",
   "source": "https://www.rawpixel.com/image/6113838/photo-image-face-mask-public-domain-covid",
   "provider": "rawpixel"
- },
- "soba_noodles_1.jpg": {
-  "query": "soba noodles",
-  "title": "Squid, clams, mussels, shrimp, and corn on soba noodles, with shoyu and Ning Chi garlic chili paste - Massachusetts",
-  "creator": "Daderot",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://commons.wikimedia.org/w/index.php?curid=110595842",
-  "provider": "wikimedia"
  },
  "izakaya_0.jpg": {
   "query": "izakaya",
@@ -89,15 +53,6 @@
   "source": "https://www.rawpixel.com/image/7657136/photo-image-vintage-art-public-domain",
   "provider": "rawpixel"
  },
- "sake_bottle_1.jpg": {
-  "query": "sake bottle",
-  "title": "Mobile Woman Figure Sake Bottle",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/7637575/image-art-vintage-public-domain",
-  "provider": "rawpixel"
- },
  "sake_bottle_2.jpg": {
   "query": "sake bottle",
   "title": "Sake Bottle Impressed Flower Motifs",
@@ -105,42 +60,6 @@
   "license": "cc0",
   "license_version": "1.0",
   "source": "https://www.rawpixel.com/image/11798375/sake-bottle-with-impressed-flower-motifs",
-  "provider": "rawpixel"
- },
- "onigiri_0.jpg": {
-  "query": "onigiri",
-  "title": "Onigiri, Japanese food png clipart",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/9994615/png-people-cartoon",
-  "provider": "rawpixel"
- },
- "onigiri_1.jpg": {
-  "query": "onigiri",
-  "title": "Onigiri Japanese food clipart vector",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/8786767/vector-people-cartoon-illustrations",
-  "provider": "rawpixel"
- },
- "onigiri_2.jpg": {
-  "query": "onigiri",
-  "title": "Onigiri Japanese food png sticker",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/8786775/png-people-cartoon",
-  "provider": "rawpixel"
- },
- "onigiri_3.jpg": {
-  "query": "onigiri",
-  "title": "Girl eating Onigiri Japanese rice",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/9069498/png-moon-cartoon",
   "provider": "rawpixel"
  },
  "bento_box_0.jpg": {
@@ -152,33 +71,6 @@
   "source": "https://www.rawpixel.com/image/6022891/photo-image-public-domain-food-free",
   "provider": "rawpixel"
  },
- "bento_box_1.jpg": {
-  "query": "bento box",
-  "title": "Bento box Japanese food illustration",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/11729222/vector-face-person-collage",
-  "provider": "rawpixel"
- },
- "bento_box_2.jpg": {
-  "query": "bento box",
-  "title": "Bento box Japanese food illustration",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/11728602/image-face-person-collage",
-  "provider": "rawpixel"
- },
- "bento_box_3.jpg": {
-  "query": "bento box",
-  "title": "PNG Bento box Japanese food",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/11728666/png-face-person",
-  "provider": "rawpixel"
- },
  "tonkatsu_0.jpg": {
   "query": "tonkatsu",
   "title": "Japanese-style meal tray with breaded cutlet, shredded cabbage, rice, and miso soup.",
@@ -188,15 +80,6 @@
   "source": "https://wordpress.org/photos/photo/79069775d7/",
   "provider": "wordpress"
  },
- "japanese_curry_rice_0.jpg": {
-  "query": "japanese curry rice",
-  "title": "Japanese curry rice png sticker",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/10094152/png-people-cartoon",
-  "provider": "rawpixel"
- },
  "japanese_curry_rice_1.jpg": {
   "query": "japanese curry rice",
   "title": "Japanese curry rice with meat and soft-boiled egg.",
@@ -205,24 +88,6 @@
   "license_version": "1.0",
   "source": "https://wordpress.org/photos/photo/4736973225/",
   "provider": "wordpress"
- },
- "japanese_curry_rice_2.jpg": {
-  "query": "japanese curry rice",
-  "title": "Japanese curry rice collage element",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/9988230/vector-cartoon-illustrations-public-domain",
-  "provider": "rawpixel"
- },
- "japanese_curry_rice_3.jpg": {
-  "query": "japanese curry rice",
-  "title": "Japanese curry rice illustration",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/9987904/image-cartoon-illustrations-public-domain",
-  "provider": "rawpixel"
  },
  "tempura_0.jpg": {
   "query": "tempura",
@@ -242,15 +107,6 @@
   "source": "https://wordpress.org/photos/photo/2266973125/",
   "provider": "wordpress"
  },
- "tempura_2.jpg": {
-  "query": "tempura",
-  "title": "Png Japanese tempura clipart, transparent",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/10097072/png-face-person",
-  "provider": "rawpixel"
- },
  "japanese_breakfast_0.jpg": {
   "query": "japanese breakfast",
   "title": "Free Japanese breakfast image",
@@ -268,24 +124,6 @@
   "license_version": "1.0",
   "source": "https://stocksnap.io/photo/sushi-food-BBD3AU9NSR",
   "provider": "stocksnap"
- },
- "japanese_breakfast_2.jpg": {
-  "query": "japanese breakfast",
-  "title": "Gyoza png sticker, transparent background",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/8925744/png-people-cartoon",
-  "provider": "rawpixel"
- },
- "japanese_breakfast_3.jpg": {
-  "query": "japanese breakfast",
-  "title": "Gyoza clipart vector",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/8925864/vector-cartoon-illustrations-public-domain",
-  "provider": "rawpixel"
  },
  "tokyo_street_night_0.jpg": {
   "query": "tokyo street night",
@@ -368,15 +206,6 @@
   "source": "https://stocksnap.io/photo/asian-people-B9R4A8RXBW",
   "provider": "stocksnap"
  },
- "japanese_lantern_street_1.jpg": {
-  "query": "japanese lantern street",
-  "title": "Childrens' Lantern Float, Kojimachi 1,2",
-  "creator": "themet",
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/9185335/image-paper-art-vintage",
-  "provider": "rawpixel"
- },
  "matcha_0.jpg": {
   "query": "matcha",
   "title": "Iced coffee with Matcha cake",
@@ -403,14 +232,5 @@
   "license_version": "1.0",
   "source": "https://wordpress.org/photos/photo/45669caef8/",
   "provider": "wordpress"
- },
- "matcha_3.jpg": {
-  "query": "matcha",
-  "title": "Png matcha two tone ice-cream",
-  "creator": null,
-  "license": "cc0",
-  "license_version": "1.0",
-  "source": "https://www.rawpixel.com/image/6482273/png-sticker-public-domain",
-  "provider": "rawpixel"
  }
 }
