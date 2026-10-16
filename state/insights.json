@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-10-15T04:47:56.343165+00:00",
+ "fetched_at": "2026-10-16T04:38:35.239419+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 12,
+  "media_count": 14,
   "id": "28241506535529259",
-  "followers_count": 0,
+  "followers_count": 1,
   "follows_count": 0
  },
  "media": [
+  {
+   "id": "18109787804243749",
+   "permalink": "https://www.instagram.com/reel/DeiJoMNEY3A/",
+   "timestamp": "2026-10-15T23:35:19+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Izakaya survival: just 3 phrases 🍻\n\n🍺 \"Toriaezu nama\" = a dr",
+   "reach": 35,
+   "views": 39,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3762,
+   "ig_reels_video_view_total_time": 131685
+  },
+  {
+   "id": "18142678945720156",
+   "permalink": "https://www.instagram.com/reel/DehbjN2k9Rn/",
+   "timestamp": "2026-10-15T16:52:53+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo's real fast food: standing soba 🍜\n\n1. Buy a ticket (sh",
+   "reach": 109,
+   "views": 109,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3591,
+   "ig_reels_video_view_total_time": 380706
+  },
   {
    "id": "18356965174221847",
    "permalink": "https://www.instagram.com/reel/DefpryLDzCD/",
    "timestamp": "2026-10-15T00:17:41+0000",
    "media_product_type": "REELS",
    "caption_head": "3 things most tourists miss at conveyor sushi 🍣\n\n1️⃣ The gre",
-   "reach": 21,
-   "views": 30,
+   "reach": 102,
+   "views": 116,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 7631,
-   "ig_reels_video_view_total_time": 160262
+   "ig_reels_avg_watch_time": 5718,
+   "ig_reels_video_view_total_time": 588973
   },
   {
    "id": "18094713647439209",
@@ -32,15 +64,15 @@
    "timestamp": "2026-10-14T17:03:12+0000",
    "media_product_type": "REELS",
    "caption_head": "Going to Tokyo? Send me your restaurant list ✉️\n\nI'm a Japan",
-   "reach": 122,
-   "views": 128,
+   "reach": 130,
+   "views": 137,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2001,
-   "ig_reels_video_view_total_time": 244152
+   "ig_reels_avg_watch_time": 2130,
+   "ig_reels_video_view_total_time": 279160
   },
   {
    "id": "18007674449786812",
@@ -48,15 +80,15 @@
    "timestamp": "2026-10-14T00:51:58+0000",
    "media_product_type": "REELS",
    "caption_head": "My 3 lunch rules as a Japanese office worker in Akihabara 🍱\n",
-   "reach": 152,
-   "views": 169,
+   "reach": 153,
+   "views": 170,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5320,
-   "ig_reels_video_view_total_time": 808697
+   "ig_reels_avg_watch_time": 5258,
+   "ig_reels_video_view_total_time": 809806
   },
   {
    "id": "17978398245130801",
@@ -87,8 +119,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 3564,
-   "ig_reels_video_view_total_time": 534736
+   "ig_reels_avg_watch_time": 3557,
+   "ig_reels_video_view_total_time": 537241
   },
   {
    "id": "17951425371324212",
@@ -103,8 +135,8 @@
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 9497,
-   "ig_reels_video_view_total_time": 1823493
+   "ig_reels_avg_watch_time": 9461,
+   "ig_reels_video_view_total_time": 1826098
   },
   {
    "id": "18458564113143223",
@@ -112,15 +144,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 157,
-   "views": 174,
+   "reach": 159,
+   "views": 176,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 5838,
-   "ig_reels_video_view_total_time": 963300
+   "ig_reels_avg_watch_time": 6048,
+   "ig_reels_video_view_total_time": 1010159
   },
   {
    "id": "18233989189318614",
@@ -160,15 +192,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 178,
-   "views": 191,
+   "reach": 180,
+   "views": 193,
    "likes": 0,
    "comments": 0,
-   "saved": 3,
+   "saved": 4,
    "shares": 0,
-   "total_interactions": 3,
-   "ig_reels_avg_watch_time": 7463,
-   "ig_reels_video_view_total_time": 1343386
+   "total_interactions": 4,
+   "ig_reels_avg_watch_time": 7515,
+   "ig_reels_video_view_total_time": 1367739
   },
   {
    "id": "18000027392807753",
@@ -192,7 +224,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A_JRSebbc3DJS44hTzDvOXO\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A3QdfNQAb0yQ3BEB_wln-0t\"}}"
   }
  ]
 }
