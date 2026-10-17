@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-10-16T04:38:35.239419+00:00",
+ "fetched_at": "2026-10-17T04:35:34.933220+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 14,
+  "media_count": 16,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
   {
-   "id": "18109787804243749",
-   "permalink": "https://www.instagram.com/reel/DeiJoMNEY3A/",
-   "timestamp": "2026-10-15T23:35:19+0000",
+   "id": "18116867669322008",
+   "permalink": "https://www.instagram.com/reel/DektlOOiuk_/",
+   "timestamp": "2026-10-16T23:27:56+0000",
    "media_product_type": "REELS",
-   "caption_head": "Izakaya survival: just 3 phrases 🍻\n\n🍺 \"Toriaezu nama\" = a dr",
-   "reach": 35,
-   "views": 39,
+   "caption_head": "Sunday lunch in Akihabara? Check this first 🗓️\n\nMany small l",
+   "reach": 12,
+   "views": 13,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3762,
-   "ig_reels_video_view_total_time": 131685
+   "ig_reels_avg_watch_time": 1314,
+   "ig_reels_video_view_total_time": 15772
+  },
+  {
+   "id": "18132494446764018",
+   "permalink": "https://www.instagram.com/reel/DejgvZJgif7/",
+   "timestamp": "2026-10-16T12:16:28+0000",
+   "media_product_type": "REELS",
+   "caption_head": "How to order sake without the menu panic 🍶\n\n📏 Ichigō (一合) = ",
+   "reach": 108,
+   "views": 113,
+   "likes": 2,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 4032,
+   "ig_reels_video_view_total_time": 443559
+  },
+  {
+   "id": "18109787804243749",
+   "permalink": "https://www.instagram.com/reel/DeiJoMNEY3A/",
+   "timestamp": "2026-10-15T23:35:19+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Izakaya survival: just 3 phrases 🍻\n\n🍺 \"Toriaezu nama\" = a dr",
+   "reach": 102,
+   "views": 107,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4732,
+   "ig_reels_video_view_total_time": 473270
   },
   {
    "id": "18142678945720156",
@@ -135,8 +167,8 @@
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 9461,
-   "ig_reels_video_view_total_time": 1826098
+   "ig_reels_avg_watch_time": 9446,
+   "ig_reels_video_view_total_time": 1832584
   },
   {
    "id": "18458564113143223",
@@ -144,15 +176,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 159,
-   "views": 176,
+   "reach": 162,
+   "views": 179,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6048,
-   "ig_reels_video_view_total_time": 1010159
+   "ig_reels_avg_watch_time": 6017,
+   "ig_reels_video_view_total_time": 1022912
   },
   {
    "id": "18233989189318614",
@@ -224,7 +256,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A3QdfNQAb0yQ3BEB_wln-0t\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AJy4VvpJiKXpMWPqDHsrmgY\"}}"
   }
  ]
 }
