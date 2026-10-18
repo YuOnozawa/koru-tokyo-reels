@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-10-17T04:35:34.933220+00:00",
+ "fetched_at": "2026-10-18T04:40:43.612579+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 16,
+  "media_count": 18,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
   {
-   "id": "18116867669322008",
-   "permalink": "https://www.instagram.com/reel/DektlOOiuk_/",
-   "timestamp": "2026-10-16T23:27:56+0000",
+   "id": "18131531791829971",
+   "permalink": "https://www.instagram.com/reel/DenJrl3gIRW/",
+   "timestamp": "2026-10-17T22:11:59+0000",
    "media_product_type": "REELS",
-   "caption_head": "Sunday lunch in Akihabara? Check this first 🗓️\n\nMany small l",
-   "reach": 12,
-   "views": 13,
+   "caption_head": "Can't read the ramen ticket machine? 🍜\n\n👆 The top-left butto",
+   "reach": 107,
+   "views": 116,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1314,
-   "ig_reels_video_view_total_time": 15772
+   "ig_reels_avg_watch_time": 3601,
+   "ig_reels_video_view_total_time": 392533
+  },
+  {
+   "id": "18109228660912013",
+   "permalink": "https://www.instagram.com/reel/DemOwuDDN9r/",
+   "timestamp": "2026-10-17T13:37:08+0000",
+   "media_product_type": "REELS",
+   "caption_head": "How to open a konbini onigiri without ripping the seaweed 🍙\n",
+   "reach": 114,
+   "views": 119,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2805,
+   "ig_reels_video_view_total_time": 322649
+  },
+  {
+   "id": "18116867669322008",
+   "permalink": "https://www.instagram.com/reel/DektlOOiuk_/",
+   "timestamp": "2026-10-16T23:27:56+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Sunday lunch in Akihabara? Check this first 🗓️\n\nMany small l",
+   "reach": 56,
+   "views": 59,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3341,
+   "ig_reels_video_view_total_time": 190468
   },
   {
    "id": "18132494446764018",
@@ -32,15 +64,15 @@
    "timestamp": "2026-10-16T12:16:28+0000",
    "media_product_type": "REELS",
    "caption_head": "How to order sake without the menu panic 🍶\n\n📏 Ichigō (一合) = ",
-   "reach": 108,
-   "views": 113,
+   "reach": 110,
+   "views": 116,
    "likes": 2,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 4032,
-   "ig_reels_video_view_total_time": 443559
+   "ig_reels_avg_watch_time": 4206,
+   "ig_reels_video_view_total_time": 471084
   },
   {
    "id": "18109787804243749",
@@ -176,15 +208,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 162,
-   "views": 179,
+   "reach": 165,
+   "views": 182,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6017,
-   "ig_reels_video_view_total_time": 1022912
+   "ig_reels_avg_watch_time": 6245,
+   "ig_reels_video_view_total_time": 1080550
   },
   {
    "id": "18233989189318614",
@@ -208,15 +240,15 @@
    "timestamp": "2026-09-23T06:19:29+0000",
    "media_product_type": "REELS",
    "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
-   "reach": 206,
-   "views": 243,
+   "reach": 207,
+   "views": 245,
    "likes": 1,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 7637,
-   "ig_reels_video_view_total_time": 1672520
+   "ig_reels_avg_watch_time": 7715,
+   "ig_reels_video_view_total_time": 1697474
   },
   {
    "id": "18630692956037100",
@@ -224,7 +256,7 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 180,
+   "reach": 181,
    "views": 193,
    "likes": 0,
    "comments": 0,
@@ -240,15 +272,15 @@
    "timestamp": "2026-09-23T06:16:25+0000",
    "media_product_type": "REELS",
    "caption_head": "Lost in Akihabara? You're not alone. Two exits, one giant st",
-   "reach": 209,
-   "views": 228,
+   "reach": 210,
+   "views": 229,
    "likes": 1,
    "comments": 0,
    "saved": 4,
    "shares": 2,
    "total_interactions": 7,
-   "ig_reels_avg_watch_time": 8979,
-   "ig_reels_video_view_total_time": 1885661
+   "ig_reels_avg_watch_time": 8962,
+   "ig_reels_video_view_total_time": 1891106
   },
   {
    "id": "18119883476304861",
@@ -256,7 +288,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AJy4VvpJiKXpMWPqDHsrmgY\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ATZsWKq2GfmqrHFXJc_fg-S\"}}"
   }
  ]
 }
