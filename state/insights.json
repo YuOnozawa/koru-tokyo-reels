@@ -1,21 +1,21 @@
 {
- "fetched_at": "2026-10-20T04:57:39.511797+00:00",
+ "fetched_at": "2026-10-21T04:57:00.731597+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 22,
+  "media_count": 24,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
   {
-   "id": "18664875253032616",
-   "permalink": "https://www.instagram.com/reel/DescifpDA8f/",
-   "timestamp": "2026-10-19T23:32:57+0000",
+   "id": "18064355615539899",
+   "permalink": "https://www.instagram.com/reel/Deu-eEnDrEG/",
+   "timestamp": "2026-10-20T23:08:03+0000",
    "media_product_type": "REELS",
-   "caption_head": "Jet lag woke you up at 5 a.m.? 🌅\n\n🥢 Beef bowl (gyūdon) chain",
+   "caption_head": "How to eat tsukemen (dipping noodles) 🍜\n\n1️⃣ Dip the noodles",
    "reach": 24,
    "views": 26,
    "likes": 0,
@@ -23,8 +23,40 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4204,
-   "ig_reels_video_view_total_time": 100902
+   "ig_reels_avg_watch_time": 4113,
+   "ig_reels_video_view_total_time": 98734
+  },
+  {
+   "id": "17992524198064746",
+   "permalink": "https://www.instagram.com/reel/DeuGOdjiodf/",
+   "timestamp": "2026-10-20T14:56:27+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Black ramen for ¥880, right by Akihabara 🍜\n\nKyoto-style: the",
+   "reach": 141,
+   "views": 152,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3778,
+   "ig_reels_video_view_total_time": 528985
+  },
+  {
+   "id": "18664875253032616",
+   "permalink": "https://www.instagram.com/reel/DescifpDA8f/",
+   "timestamp": "2026-10-19T23:32:57+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Jet lag woke you up at 5 a.m.? 🌅\n\n🥢 Beef bowl (gyūdon) chain",
+   "reach": 105,
+   "views": 109,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3234,
+   "ig_reels_video_view_total_time": 336384
   },
   {
    "id": "17887221075687070",
@@ -32,15 +64,15 @@
    "timestamp": "2026-10-19T12:55:34+0000",
    "media_product_type": "REELS",
    "caption_head": "Card or cash? Ask before you order 💳\n\n🗣️ \"Kādo tsukaemasu ka",
-   "reach": 136,
-   "views": 150,
+   "reach": 137,
+   "views": 151,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3353,
-   "ig_reels_video_view_total_time": 456134
+   "ig_reels_avg_watch_time": 3335,
+   "ig_reels_video_view_total_time": 457002
   },
   {
    "id": "18134056723716058",
@@ -49,14 +81,14 @@
    "media_product_type": "REELS",
    "caption_head": "Great Japanese food for less: depachika before closing 🍱\n\n🏬 ",
    "reach": 106,
-   "views": 114,
+   "views": 115,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3003,
-   "ig_reels_video_view_total_time": 315395
+   "ig_reels_avg_watch_time": 3000,
+   "ig_reels_video_view_total_time": 318104
   },
   {
    "id": "17924215407441758",
@@ -304,15 +336,15 @@
    "timestamp": "2026-09-23T06:19:29+0000",
    "media_product_type": "REELS",
    "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
-   "reach": 207,
-   "views": 245,
+   "reach": 209,
+   "views": 249,
    "likes": 1,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 7715,
-   "ig_reels_video_view_total_time": 1697474
+   "ig_reels_avg_watch_time": 7898,
+   "ig_reels_video_view_total_time": 1753435
   },
   {
    "id": "18630692956037100",
@@ -320,15 +352,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 185,
-   "views": 200,
+   "reach": 186,
+   "views": 201,
    "likes": 0,
    "comments": 0,
    "saved": 4,
    "shares": 0,
    "total_interactions": 4,
-   "ig_reels_avg_watch_time": 7732,
-   "ig_reels_video_view_total_time": 1445934
+   "ig_reels_avg_watch_time": 7750,
+   "ig_reels_video_view_total_time": 1457168
   },
   {
    "id": "18000027392807753",
@@ -352,7 +384,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AEggCQLLgOFzu0---XEuJ12\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AbXd6-IgBgmyqnq0z8POpBS\"}}"
   }
  ]
 }
