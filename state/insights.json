@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-10-21T04:57:00.731597+00:00",
+ "fetched_at": "2026-10-22T04:57:07.096733+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 24,
+  "media_count": 26,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
   {
+   "id": "17978931267135374",
+   "permalink": "https://www.instagram.com/reel/DexdSk4DaCQ/",
+   "timestamp": "2026-10-21T22:15:45+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Food allergy? Learn this before you fly to Japan ⚠️\n\n🗣️ \"___",
+   "reach": 107,
+   "views": 117,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 2299,
+   "ig_reels_video_view_total_time": 250605
+  },
+  {
+   "id": "17963439753238848",
+   "permalink": "https://www.instagram.com/reel/DewiltljV_c/",
+   "timestamp": "2026-10-21T13:43:07+0000",
+   "media_product_type": "REELS",
+   "caption_head": "My favorite spicy noodles in Tokyo have no soup 🌶️\n\n🥢 Souple",
+   "reach": 102,
+   "views": 110,
+   "likes": 1,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 11689,
+   "ig_reels_video_view_total_time": 1180644
+  },
+  {
    "id": "18064355615539899",
    "permalink": "https://www.instagram.com/reel/Deu-eEnDrEG/",
    "timestamp": "2026-10-20T23:08:03+0000",
    "media_product_type": "REELS",
    "caption_head": "How to eat tsukemen (dipping noodles) 🍜\n\n1️⃣ Dip the noodles",
-   "reach": 24,
-   "views": 26,
+   "reach": 102,
+   "views": 108,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4113,
-   "ig_reels_video_view_total_time": 98734
+   "ig_reels_avg_watch_time": 4854,
+   "ig_reels_video_view_total_time": 504860
   },
   {
    "id": "17992524198064746",
@@ -32,15 +64,15 @@
    "timestamp": "2026-10-20T14:56:27+0000",
    "media_product_type": "REELS",
    "caption_head": "Black ramen for ¥880, right by Akihabara 🍜\n\nKyoto-style: the",
-   "reach": 141,
+   "reach": 142,
    "views": 152,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3778,
-   "ig_reels_video_view_total_time": 528985
+   "ig_reels_avg_watch_time": 3838,
+   "ig_reels_video_view_total_time": 545108
   },
   {
    "id": "18664875253032616",
@@ -55,8 +87,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3234,
-   "ig_reels_video_view_total_time": 336384
+   "ig_reels_avg_watch_time": 3337,
+   "ig_reels_video_view_total_time": 350470
   },
   {
    "id": "17887221075687070",
@@ -71,8 +103,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3335,
-   "ig_reels_video_view_total_time": 457002
+   "ig_reels_avg_watch_time": 3340,
+   "ig_reels_video_view_total_time": 460947
   },
   {
    "id": "18134056723716058",
@@ -87,8 +119,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3000,
-   "ig_reels_video_view_total_time": 318104
+   "ig_reels_avg_watch_time": 3046,
+   "ig_reels_video_view_total_time": 325991
   },
   {
    "id": "17924215407441758",
@@ -103,8 +135,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2651,
-   "ig_reels_video_view_total_time": 270423
+   "ig_reels_avg_watch_time": 2649,
+   "ig_reels_video_view_total_time": 272945
   },
   {
    "id": "18131531791829971",
@@ -304,15 +336,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 167,
-   "views": 184,
+   "reach": 168,
+   "views": 185,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6384,
-   "ig_reels_video_view_total_time": 1117326
+   "ig_reels_avg_watch_time": 6386,
+   "ig_reels_video_view_total_time": 1124041
   },
   {
    "id": "18233989189318614",
@@ -336,15 +368,15 @@
    "timestamp": "2026-09-23T06:19:29+0000",
    "media_product_type": "REELS",
    "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
-   "reach": 209,
-   "views": 249,
+   "reach": 211,
+   "views": 253,
    "likes": 1,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 7898,
-   "ig_reels_video_view_total_time": 1753435
+   "ig_reels_avg_watch_time": 8104,
+   "ig_reels_video_view_total_time": 1815433
   },
   {
    "id": "18630692956037100",
@@ -384,7 +416,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AbXd6-IgBgmyqnq0z8POpBS\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A_N2TaI86VnD77aq5E9OmJV\"}}"
   }
  ]
 }
