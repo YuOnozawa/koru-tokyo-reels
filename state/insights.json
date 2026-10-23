@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-10-22T04:57:07.096733+00:00",
+ "fetched_at": "2026-10-23T04:58:53.603269+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 26,
+  "media_count": 28,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
+  {
+   "id": "18640868590019520",
+   "permalink": "https://www.instagram.com/reel/De0CD0QjG8_/",
+   "timestamp": "2026-10-22T22:15:30+0000",
+   "media_product_type": "REELS",
+   "caption_head": "The first question at every Tokyo restaurant 🚪\n\n🗣️ \"Nan-mei ",
+   "reach": 117,
+   "views": 132,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4223,
+   "ig_reels_video_view_total_time": 494178
+  },
+  {
+   "id": "18346972468284268",
+   "permalink": "https://www.instagram.com/reel/DezHdfbAB51/",
+   "timestamp": "2026-10-22T13:43:28+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Vegetarian in Japan? Read this 🥢\n\nMost soups and noodle brot",
+   "reach": 111,
+   "views": 132,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4464,
+   "ig_reels_video_view_total_time": 508959
+  },
   {
    "id": "17978931267135374",
    "permalink": "https://www.instagram.com/reel/DexdSk4DaCQ/",
@@ -135,8 +167,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2649,
-   "ig_reels_video_view_total_time": 272945
+   "ig_reels_avg_watch_time": 2636,
+   "ig_reels_video_view_total_time": 274196
   },
   {
    "id": "18131531791829971",
@@ -336,15 +368,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 168,
-   "views": 185,
+   "reach": 169,
+   "views": 186,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6386,
-   "ig_reels_video_view_total_time": 1124041
+   "ig_reels_avg_watch_time": 6358,
+   "ig_reels_video_view_total_time": 1125385
   },
   {
    "id": "18233989189318614",
@@ -384,15 +416,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 186,
-   "views": 201,
+   "reach": 187,
+   "views": 205,
    "likes": 0,
    "comments": 0,
-   "saved": 4,
+   "saved": 5,
    "shares": 0,
-   "total_interactions": 4,
-   "ig_reels_avg_watch_time": 7750,
-   "ig_reels_video_view_total_time": 1457168
+   "total_interactions": 5,
+   "ig_reels_avg_watch_time": 7986,
+   "ig_reels_video_view_total_time": 1509366
   },
   {
    "id": "18000027392807753",
@@ -416,7 +448,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A_N2TaI86VnD77aq5E9OmJV\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AxxW81b_jeiTPR8EBH8nD5I\"}}"
   }
  ]
 }
