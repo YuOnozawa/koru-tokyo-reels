@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-10-23T04:58:53.603269+00:00",
+ "fetched_at": "2026-10-24T04:43:52.063216+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 28,
+  "media_count": 30,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
+  {
+   "id": "18372804169212568",
+   "permalink": "https://www.instagram.com/reel/De22N85hiYl/",
+   "timestamp": "2026-10-24T00:29:47+0000",
+   "media_product_type": "REELS",
+   "caption_head": "3 things that are free at Tokyo restaurants 🙌\n\n💧 Water or te",
+   "reach": 120,
+   "views": 129,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3094,
+   "ig_reels_video_view_total_time": 368244
+  },
+  {
+   "id": "18178406353459785",
+   "permalink": "https://www.instagram.com/reel/De1pjeHjdkK/",
+   "timestamp": "2026-10-23T13:19:52+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Open till 22:00? You may need to order by 21:30 ⏰\n\n🔎 \"L.O.\" ",
+   "reach": 122,
+   "views": 129,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3202,
+   "ig_reels_video_view_total_time": 390718
+  },
   {
    "id": "18640868590019520",
    "permalink": "https://www.instagram.com/reel/De0CD0QjG8_/",
@@ -97,14 +129,14 @@
    "media_product_type": "REELS",
    "caption_head": "Black ramen for ¥880, right by Akihabara 🍜\n\nKyoto-style: the",
    "reach": 142,
-   "views": 152,
+   "views": 153,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3838,
-   "ig_reels_video_view_total_time": 545108
+   "ig_reels_avg_watch_time": 3819,
+   "ig_reels_video_view_total_time": 546242
   },
   {
    "id": "18664875253032616",
@@ -416,15 +448,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 187,
-   "views": 205,
+   "reach": 188,
+   "views": 207,
    "likes": 0,
    "comments": 0,
    "saved": 5,
    "shares": 0,
    "total_interactions": 5,
-   "ig_reels_avg_watch_time": 7986,
-   "ig_reels_video_view_total_time": 1509366
+   "ig_reels_avg_watch_time": 8077,
+   "ig_reels_video_view_total_time": 1534817
   },
   {
    "id": "18000027392807753",
@@ -448,7 +480,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AxxW81b_jeiTPR8EBH8nD5I\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AgR7h2bBs3a5jDN7ThTS2Kd\"}}"
   }
  ]
 }
