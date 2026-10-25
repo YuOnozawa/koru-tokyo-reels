@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-10-24T04:43:52.063216+00:00",
+ "fetched_at": "2026-10-25T04:50:09.947550+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 30,
+  "media_count": 32,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
   {
-   "id": "18372804169212568",
-   "permalink": "https://www.instagram.com/reel/De22N85hiYl/",
-   "timestamp": "2026-10-24T00:29:47+0000",
+   "id": "18047536772818230",
+   "permalink": "https://www.instagram.com/reel/De5Re1PxpcU/",
+   "timestamp": "2026-10-24T23:06:41+0000",
    "media_product_type": "REELS",
-   "caption_head": "3 things that are free at Tokyo restaurants 🙌\n\n💧 Water or te",
-   "reach": 120,
-   "views": 129,
+   "caption_head": "How I pick dinner on a business trip in Japan 🚄\n\n🏢 Go to the",
+   "reach": 114,
+   "views": 122,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3094,
-   "ig_reels_video_view_total_time": 368244
+   "ig_reels_avg_watch_time": 2425,
+   "ig_reels_video_view_total_time": 274101
+  },
+  {
+   "id": "18034394543897151",
+   "permalink": "https://www.instagram.com/reel/De4WBmSv9Bk/",
+   "timestamp": "2026-10-24T14:27:05+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Don't wait for the bill at your table in Japan 🧾\n\n📄 At most ",
+   "reach": 146,
+   "views": 154,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3373,
+   "ig_reels_video_view_total_time": 492583
+  },
+  {
+   "id": "18372804169212568",
+   "permalink": "https://www.instagram.com/reel/De22N85hiYl/",
+   "timestamp": "2026-10-24T00:29:47+0000",
+   "media_product_type": "REELS",
+   "caption_head": "3 things that are free at Tokyo restaurants 🙌\n\n💧 Water or te",
+   "reach": 121,
+   "views": 130,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3074,
+   "ig_reels_video_view_total_time": 368966
   },
   {
    "id": "18178406353459785",
@@ -49,14 +81,14 @@
    "media_product_type": "REELS",
    "caption_head": "The first question at every Tokyo restaurant 🚪\n\n🗣️ \"Nan-mei ",
    "reach": 117,
-   "views": 132,
+   "views": 133,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4223,
-   "ig_reels_video_view_total_time": 494178
+   "ig_reels_avg_watch_time": 4188,
+   "ig_reels_video_view_total_time": 494242
   },
   {
    "id": "18346972468284268",
@@ -400,15 +432,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 169,
-   "views": 186,
+   "reach": 170,
+   "views": 187,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6358,
-   "ig_reels_video_view_total_time": 1125385
+   "ig_reels_avg_watch_time": 6329,
+   "ig_reels_video_view_total_time": 1126664
   },
   {
    "id": "18233989189318614",
@@ -432,15 +464,15 @@
    "timestamp": "2026-09-23T06:19:29+0000",
    "media_product_type": "REELS",
    "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
-   "reach": 211,
-   "views": 253,
+   "reach": 212,
+   "views": 255,
    "likes": 1,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 8104,
-   "ig_reels_video_view_total_time": 1815433
+   "ig_reels_avg_watch_time": 8196,
+   "ig_reels_video_view_total_time": 1844266
   },
   {
    "id": "18630692956037100",
@@ -480,7 +512,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AgR7h2bBs3a5jDN7ThTS2Kd\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A-hcsdMbhbu_9jm7ztWK3WV\"}}"
   }
  ]
 }
