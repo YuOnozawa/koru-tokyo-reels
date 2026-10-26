@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-10-25T04:50:09.947550+00:00",
+ "fetched_at": "2026-10-26T04:54:55.268887+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 32,
+  "media_count": 34,
   "id": "28241506535529259",
   "followers_count": 1,
   "follows_count": 0
  },
  "media": [
+  {
+   "id": "17988320109082969",
+   "permalink": "https://www.instagram.com/reel/De79JDBSybq/",
+   "timestamp": "2026-10-26T00:06:26+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Free refills at some tonkatsu shops 🍚\n\nNot everywhere, but a",
+   "reach": 106,
+   "views": 118,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4024,
+   "ig_reels_video_view_total_time": 430599
+  },
+  {
+   "id": "18129983995696317",
+   "permalink": "https://www.instagram.com/reel/De7FopxOBkA/",
+   "timestamp": "2026-10-25T16:01:19+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Ameyoko (Ueno) street food rule 🍢\n\n🧍 Eat at the stall. Many ",
+   "reach": 117,
+   "views": 119,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2294,
+   "ig_reels_video_view_total_time": 261623
+  },
   {
    "id": "18047536772818230",
    "permalink": "https://www.instagram.com/reel/De5Re1PxpcU/",
@@ -23,8 +55,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2425,
-   "ig_reels_video_view_total_time": 274101
+   "ig_reels_avg_watch_time": 2501,
+   "ig_reels_video_view_total_time": 285196
   },
   {
    "id": "18034394543897151",
@@ -480,15 +512,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 188,
-   "views": 207,
+   "reach": 190,
+   "views": 208,
    "likes": 0,
    "comments": 0,
    "saved": 5,
    "shares": 0,
    "total_interactions": 5,
-   "ig_reels_avg_watch_time": 8077,
-   "ig_reels_video_view_total_time": 1534817
+   "ig_reels_avg_watch_time": 8038,
+   "ig_reels_video_view_total_time": 1535421
   },
   {
    "id": "18000027392807753",
@@ -512,7 +544,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A-hcsdMbhbu_9jm7ztWK3WV\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ADiJQ7Dsj_CAONmJFY4GzMC\"}}"
   }
  ]
 }
