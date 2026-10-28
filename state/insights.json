@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-27T05:12:37.905842+00:00",
+ "fetched_at": "2026-10-28T05:50:23.875724+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -23,8 +23,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3671,
-   "ig_reels_video_view_total_time": 403850
+   "ig_reels_avg_watch_time": 3664,
+   "ig_reels_video_view_total_time": 406750
   },
   {
    "id": "18079295534406858",
@@ -39,8 +39,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6056,
-   "ig_reels_video_view_total_time": 684329
+   "ig_reels_avg_watch_time": 6034,
+   "ig_reels_video_view_total_time": 687888
   },
   {
    "id": "17988320109082969",
@@ -119,8 +119,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3074,
-   "ig_reels_video_view_total_time": 368966
+   "ig_reels_avg_watch_time": 3060,
+   "ig_reels_video_view_total_time": 370331
   },
   {
    "id": "18178406353459785",
@@ -183,8 +183,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2299,
-   "ig_reels_video_view_total_time": 250605
+   "ig_reels_avg_watch_time": 2326,
+   "ig_reels_video_view_total_time": 255963
   },
   {
    "id": "17963439753238848",
@@ -528,15 +528,15 @@
    "timestamp": "2026-09-23T06:19:29+0000",
    "media_product_type": "REELS",
    "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
-   "reach": 212,
-   "views": 255,
+   "reach": 213,
+   "views": 256,
    "likes": 1,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 8196,
-   "ig_reels_video_view_total_time": 1844266
+   "ig_reels_avg_watch_time": 8164,
+   "ig_reels_video_view_total_time": 1845091
   },
   {
    "id": "18630692956037100",
@@ -576,7 +576,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ASwiPidN4DJpsiUfx_ZaZZx\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Aolnjk9Z0gMKyku0nXAxe6m\"}}"
   }
  ]
 }
