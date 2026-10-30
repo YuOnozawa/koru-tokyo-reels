@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T05:54:44.309752+00:00",
+ "fetched_at": "2026-10-30T05:55:55.856964+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -496,15 +496,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 171,
-   "views": 187,
+   "reach": 172,
+   "views": 189,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6329,
-   "ig_reels_video_view_total_time": 1126664
+   "ig_reels_avg_watch_time": 6321,
+   "ig_reels_video_view_total_time": 1131600
   },
   {
    "id": "18233989189318614",
@@ -576,7 +576,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Ao7owr5hjBrhpL0jykXp9qT\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AgG--QW2nSmqSGNfkxldiJk\"}}"
   }
  ]
 }
