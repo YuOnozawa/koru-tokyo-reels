@@ -108,6 +108,51 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
   .keys.five{grid-template-columns:repeat(3,minmax(0,1fr))}
   .t-name{padding-right:70px}
 }
+
+/* ----- modes ----- */
+.modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:4px 0 6px}
+.modes .face{min-height:64px}
+.mode[hidden]{display:none!important}
+/* ----- gacha ----- */
+.gacha{display:grid;justify-items:center;gap:14px;margin-top:10px}
+.gmachine{position:relative;width:min(300px,86%);aspect-ratio:3/4}
+.dome{position:absolute;z-index:0;inset:0 6% 42% 6%;border-radius:50% 50% 14px 14px;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,255,255,.25) 40%,rgba(200,220,235,.35));box-shadow:inset 0 0 0 4px rgba(255,255,255,.7),inset 0 -10px 30px rgba(0,0,0,.08);overflow:hidden}
+.cap{position:absolute;width:24%;aspect-ratio:1;border-radius:50%;background:linear-gradient(180deg,var(--c) 50%,#fff 50%);box-shadow:inset 0 0 0 2px rgba(0,0,0,.08)}
+.gbody{position:absolute;left:0;right:0;bottom:0;height:46%;background:var(--red);border-radius:12px 12px 18px 18px;box-shadow:inset 0 -8px 0 var(--red-deep),inset 0 3px 0 rgba(255,255,255,.3)}
+.gbody .label{position:absolute;top:10px;left:0;right:0;text-align:center;color:#fff;font:400 22px/1 var(--dela)}
+.handle{position:absolute;left:14%;top:70%;width:78px;height:78px;border-radius:50%;border:0;background:var(--btn);cursor:pointer;box-shadow:0 4px 0 var(--btn-edge);display:grid;place-items:center}
+.handle::before{content:"";width:56px;height:14px;border-radius:7px;background:var(--steel-muted)}
+.handle:focus-visible{outline:3px solid var(--lamp);outline-offset:3px}
+.handle.turn{animation:turn .7s cubic-bezier(.3,.1,.2,1)}
+@keyframes turn{to{transform:rotate(360deg)}}
+.chute{position:absolute;right:12%;bottom:9%;width:28%;aspect-ratio:1.4;background:#0d1114;border-radius:10px 10px 6px 6px}
+.drop{width:70px;height:70px;border-radius:50%;background:linear-gradient(180deg,var(--c,#2f6db5) 50%,#fff 50%);box-shadow:inset 0 0 0 3px rgba(0,0,0,.1);animation:drop .6s cubic-bezier(.3,1.4,.5,1) both}
+@keyframes drop{from{transform:translateY(-80px) scale(.6);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.handle.turn,.drop{animation:none}}
+#gout{max-width:560px;margin:0 auto;padding:0 6px}
+.gacha p{margin:0;color:var(--steel-muted);text-align:center}
+/* ----- search ----- */
+.sbar{display:grid;gap:10px;margin-top:10px}
+.sbar input[type=search]{font:16px var(--zen);padding:12px;border-radius:8px;border:2px solid var(--btn-edge);background:var(--btn);color:var(--steel-ink);width:100%}
+.toggles{display:flex;flex-wrap:wrap;gap:10px}
+.toggles .key .face{min-height:46px;padding:8px 12px}
+.sel{font:15px var(--zen);padding:10px;border-radius:8px;border:2px solid var(--btn-edge);background:var(--btn);color:var(--steel-ink);width:100%}
+#sout{max-width:560px;margin:0 auto;padding:0 6px}
+.count{font:16px/1.4 var(--dot);color:var(--steel-ink);margin:18px 4px 8px}
+/* ----- keep / share / email ----- */
+.t-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.mini{font:700 13px/1 var(--zen);border:2px solid var(--paper-ink);background:transparent;color:var(--paper-ink);border-radius:999px;padding:7px 12px;cursor:pointer}
+.mini[aria-pressed=true]{background:var(--paper-ink);color:var(--paper)}
+.mini:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.box{max-width:560px;margin:24px auto 0;background:var(--steel);border-radius:16px;padding:20px}
+.box h2{font:400 22px/1.3 var(--dela);margin:0 0 6px}
+.box p{margin:0 0 12px;color:var(--steel-muted)}
+.mail{display:grid;gap:10px}
+.mail input[type=email],.mail select{font:16px var(--zen);padding:12px;border-radius:8px;border:2px solid var(--btn-edge);background:var(--btn);color:var(--steel-ink);width:100%}
+.mail label.ok{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--steel-muted)}
+.mail button,.sharebtn{font:900 16px var(--zen);border:0;border-radius:10px;padding:14px;cursor:pointer;background:var(--steel-ink);color:var(--steel)}
+.mail button:focus-visible,.sharebtn:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.status{font:15px/1.4 var(--dot);color:var(--steel-ink);min-height:1.4em;margin:0}
 </style>
 </head>
 <body>
@@ -120,6 +165,14 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
   </div>
   <p class="intro">I work in Akihabara and eat out every day. Press the buttons and this machine prints a food plan for your trip: lunch, a sweet stop and dinner, with hours, closed days and what to order. Red stamps mark places I eat at myself.</p>
 
+
+  <div class="modes" role="tablist" aria-label="Machine mode">
+    <label class="key"><input type="radio" name="mode" value="plan" checked><span class="face cap-red"><span><span class="jp">券売機</span><span class="en">Plan my trip</span></span></span></label>
+    <label class="key"><input type="radio" name="mode" value="gacha"><span class="face cap-yellow"><span><span class="jp">ガチャ</span><span class="en">Surprise me</span></span></span></label>
+    <label class="key"><input type="radio" name="mode" value="search"><span class="face cap-blue"><span><span class="jp">検索</span><span class="en">Search all</span></span></span></label>
+  </div>
+
+  <div class="mode" data-mode="plan">
   <form id="f">
     <div class="row2">
       <label class="field" for="start">First day<input type="date" id="start" required></label>
@@ -145,10 +198,61 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
 
     <button class="print" type="submit" id="go">発券 Print my tickets<small>Free. Nothing is sent or saved.</small></button>
   </form>
+  </div>
+
+  <div class="mode" data-mode="gacha" hidden>
+    <div class="gacha">
+      <div class="gmachine">
+        <div class="dome" id="dome"></div>
+        <div class="gbody"><span class="label">めしガチャ</span></div>
+        <div class="chute" aria-hidden="true"></div>
+        <button class="handle" id="spin" type="button" aria-label="Turn the handle for a random restaurant"></button>
+      </div>
+      <p>Turn the handle. Each turn drops a different place from the areas you picked on the Plan tab.</p>
+      <div id="capsule" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="mode" data-mode="search" hidden>
+    <div class="sbar">
+      <label class="field" for="q">Name, dish or genre<input type="search" id="q" placeholder="ramen, tempura, 1884…"></label>
+      <div class="row2">
+        <label class="field" for="sarea">Area<select id="sarea" class="sel"><option value="">All areas</option></select></label>
+        <label class="field" for="sday">Open on<select id="sday" class="sel"><option value="">Any day</option><option value="1">Monday</option><option value="2">Tuesday</option><option value="3">Wednesday</option><option value="4">Thursday</option><option value="5">Friday</option><option value="6">Saturday</option><option value="0">Sunday</option></select></label>
+      </div>
+      <div class="toggles" id="toggles"></div>
+    </div>
+  </div>
   <div class="slot" aria-hidden="true"></div>
 </main>
 
+<section id="gout" aria-live="polite"></section>
+<section id="sout"></section>
+
 <section id="out" aria-live="polite"></section>
+
+<aside class="box" id="mailbox" hidden>
+  <h2>Email me these tickets</h2>
+  <p>Get this plan in your inbox, so you can open it offline in Tokyo.</p>
+  <form class="mail" id="mail">
+    <label for="email" class="field">Email<input type="email" id="email" required autocomplete="email" placeholder="you@example.com"></label>
+    <label for="country" class="field">Where are you travelling from? <small>(optional)</small>
+      <select id="country"><option value="">Choose</option><option>USA</option><option>Canada</option><option>UK</option><option>Australia</option><option>Germany</option><option>France</option><option>Singapore</option><option>Korea</option><option>Taiwan</option><option>Hong Kong</option><option>Other Europe</option><option>Other Asia</option><option>Other</option></select>
+    </label>
+    <label class="ok"><input type="checkbox" id="tips"> Also send me occasional Tokyo food tips. Unsubscribe anytime.</label>
+    <button type="submit">Email my tickets</button>
+    <p class="status" id="mstatus" role="status"></p>
+    <p class="note" style="font-size:12px">I only use your email to send this plan (and tips if you ticked the box). <a href="../privacy/">Privacy</a></p>
+  </form>
+  <button class="sharebtn" id="share" type="button" style="margin-top:14px;width:100%">Copy a link to this plan</button>
+  <p class="status" id="sstatus" role="status"></p>
+</aside>
+
+<aside class="box" id="kept" hidden>
+  <h2>My kept tickets</h2>
+  <p>Saved on this phone only.</p>
+  <div id="keptlist"></div>
+</aside>
 
 <aside class="cta" id="cta" hidden>
   <h2>Want me to check your tickets?</h2>
@@ -158,100 +262,6 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
 
 <footer>Facts were checked on the date printed on each ticket. Hours change, so check Google Maps the same morning.<br>Yu &amp; Koru, <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a></footer>
 
-<script>
-(function(){
-  var AREAS=[['akiba','秋葉原','Akihabara','cap-red',['Akihabara','Suehirocho']],['ueno','上野・湯島','Ueno & Yushima','cap-green',['Ueno','Okachimachi','Yushima']],['asakusa','浅草','Asakusa','cap-yellow',['Asakusa','Kuramae']],['kanda','神田・神保町','Kanda & Jimbocho','cap-blue',['Kanda','Jimbocho','Ochanomizu']]];
-  var BUDGETS=[['under1500','¥1,500','Cheap eats','cap-green'],['1500-4000','¥4,000','Everyday','cap-blue'],['4000-10000','¥10,000','Treat','cap-yellow'],['10000plus','上限なし','No limit','cap-red']];
-  var AVOID=[['rawfish','生魚','Raw fish'],['seafood','魚介','Seafood'],['pork','豚','Pork'],['spicy','辛い','Spicy'],['meat','肉','Meat']];
-  var GROUP={},LABEL={};AREAS.forEach(function(a){LABEL[a[0]]=a[2];a[4].forEach(function(x){GROUP[x]=a[0];});});
-  var BANDS=['under1500','1500-4000','4000-10000','10000plus'];
-  var DOW=['sun','mon','tue','wed','thu','fri','sat'],DOWFULL=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
-  var f=document.getElementById('f'),out=document.getElementById('out'),cta=document.getElementById('cta');
-  function key(box,type,name,val,jp,en,cap,checked,small){
-    var l=document.createElement('label');l.className='key'+(small?' small':'');
-    var i=document.createElement('input');i.type=type;i.name=name;i.value=val;i.checked=!!checked;
-    var face=document.createElement('span');face.className='face '+(cap||'cap-grey');
-    var a=document.createElement('span');a.className='jp';a.textContent=jp;
-    var b=document.createElement('span');b.className='en';b.textContent=en;
-    var w=document.createElement('span');w.append(a,b);face.appendChild(w);l.append(i,face);box.appendChild(l);
-  }
-  AREAS.forEach(function(a){key(document.getElementById('areas'),'checkbox','area',a[0],a[1],a[2],a[3],a[0]==='akiba'||a[0]==='ueno');});
-  BUDGETS.forEach(function(b){key(document.getElementById('budget'),'radio','budget',b[0],b[1],b[2],b[3],b[0]==='1500-4000');});
-  AVOID.forEach(function(a){key(document.getElementById('avoid'),'checkbox','avoid',a[0],a[1],a[2],'cap-grey',false,true);});
-  var d=new Date();d.setDate(d.getDate()+14);document.getElementById('start').value=d.toISOString().slice(0,10);
-  var SHOPS=[];
-  fetch('shops.json').then(function(r){return r.json();}).then(function(j){SHOPS=j;}).catch(function(){out.textContent='The restaurant list did not load. Reload the page to try again.';});
-  function has(s,w){s=(s||'').toLowerCase();return w.some(function(x){return s.indexOf(x)>=0;});}
-  function excluded(s,av){
-    var g=(s.genre+' '+s.what_to_order).toLowerCase();
-    if(av.indexOf('rawfish')>=0&&has(g,['sushi','sashimi','kaisendon','seafood bowl','raw','oyster','tokumori']))return true;
-    if(av.indexOf('seafood')>=0&&has(g,['sushi','sashimi','seafood','fish','unagi','eel','tempura','oden','takoyaki','octopus','oyster','monkfish','clam','shellfish','shrimp']))return true;
-    if(av.indexOf('pork')>=0&&has(g,['tonkatsu','pork','ramen','tsukemen','gyoza','katsu','menchi','shabu','motsu','offal']))return true;
-    if(av.indexOf('spicy')>=0&&has(g,['dandan','tantan','spicy','sichuan','karashibi','curry']))return true;
-    if(av.indexOf('meat')>=0&&has(g,['tonkatsu','pork','beef','chicken','yakitori','ramen','tsukemen','gyudon','sukiyaki','gyunabe','katsu','menchi','meat','curry','gyoza','unagi','eel','fish','sushi','sashimi','seafood','tempura','oden','motsu','oyakodon','horse']))return true;
-    return false;
-  }
-  function closedOn(s,date){var c=(s.closed_days||'').toLowerCase(),k=date.getDay();return c.indexOf(DOWFULL[k])>=0||new RegExp('\\b'+DOW[k]+'\\b').test(c);}
-  function fits(s,band){return BANDS.indexOf(s.budget_band)<=BANDS.indexOf(band);}
-  var FAMS=['curry','ramen','tsukemen','soba','udon','sushi','tonkatsu','katsu','tempura','unagi','yakitori','izakaya','sukiyaki','gyudon','dandan','okonomiyaki','yoshoku'];
-  function fam(s){var g=(s.genre||'').toLowerCase();for(var i=0;i<FAMS.length;i++){if(g.indexOf(FAMS[i])>=0)return FAMS[i]==='katsu'&&g.indexOf('curry')>=0?'curry':FAMS[i];}return g;}
-  function score(s){return (s.yu_pick?3:0)+((s.awards||[]).length?2:0)+Math.random()*1.5;}
-  function plan(){
-    var areas=[].slice.call(f.querySelectorAll('input[name=area]:checked')).map(function(i){return i.value;});
-    var av=[].slice.call(f.querySelectorAll('input[name=avoid]:checked')).map(function(i){return i.value;});
-    var band=(f.querySelector('input[name=budget]:checked')||{}).value||'1500-4000';
-    var days=+document.getElementById('days').value,start=new Date(document.getElementById('start').value+'T12:00:00');
-    if(!areas.length)areas=['akiba'];
-    var used={},res=[];
-    for(var i=0;i<days;i++){
-      var date=new Date(start.getTime()+i*86400000),area=areas[i%areas.length];
-      var pool=SHOPS.filter(function(s){return !used[s.name_ja]&&!excluded(s,av)&&fits(s,band)&&!closedOn(s,date);});
-      var local=pool.filter(function(s){return GROUP[s.area]===area;});if(local.length<3)local=pool;
-      local.sort(function(a,b){return score(b)-score(a);});
-      var meals=local.filter(function(s){return s.kind!=='snack';}),snacks=local.filter(function(s){return s.kind==='snack';});
-      var lunch=meals.find(function(s){return s.lunch_ok!==false&&(s.budget_band==='under1500'||s.budget_band==='1500-4000');})||meals.find(function(s){return s.lunch_ok!==false;});
-      if(lunch)used[lunch.name_ja]=1;
-      var snack=snacks.find(function(s){return !used[s.name_ja];});if(snack)used[snack.name_ja]=1;
-      var dinner=meals.find(function(s){return !used[s.name_ja]&&s.dinner_ok!==false&&fam(s)!==fam(lunch||{genre:''});})||meals.find(function(s){return !used[s.name_ja]&&s.dinner_ok!==false;});
-      if(dinner)used[dinner.name_ja]=1;
-      res.push({date:date,area:LABEL[area],meals:[['昼','LUNCH',lunch],['甘','SWEET STOP',snack],['夜','DINNER',dinner]]});
-    }
-    return res;
-  }
-  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
-  function render(){
-    out.replaceChildren();
-    if(!SHOPS.length){out.appendChild(el('p','empty','Loading the restaurant list. Press print again in a second.'));return;}
-    var p=plan(),n=0;
-    p.forEach(function(day,k){
-      var sec=el('section','day');
-      var head=el('div','day-head');head.append(el('b',null,(k+1)+'日目'),el('span',null,day.area+', '+day.date.toLocaleDateString('en',{weekday:'short',month:'short',day:'numeric'})));
-      sec.appendChild(head);
-      day.meals.forEach(function(m){
-        var s=m[2],t=el('article','ticket printing');t.style.animationDelay=(n++*90)+'ms';
-        var top=el('div','t-top');top.append(el('span','slotname','食券 '+m[0]+' '+m[1]),el('span',null,'No.'+String(k+1)+String(n).padStart(2,'0')));
-        t.appendChild(top);
-        if(!s){t.appendChild(el('p','empty','Sold out for these buttons. Try a bigger budget or another area.'));sec.appendChild(t);return;}
-        var h=el('h3','t-name',s.name_en);h.appendChild(el('span','t-ja',s.name_ja));t.appendChild(h);
-        if(s.yu_pick){var hk=el('div','hanko');hk.setAttribute('aria-label',"Yu's pick");hk.append(el('b',null,'推し'),document.createTextNode("Yu's pick"));t.appendChild(hk);}
-        if(s.what_to_order&&s.what_to_order!=='unknown')t.appendChild(el('p','t-order','▶ '+s.what_to_order));
-        var dl=el('dl','t-facts');
-        function row(a,b){if(!b||b==='unknown')return;dl.append(el('dt',null,a),el('dd',null,b));}
-        row('Genre',s.genre);row('Price',m[1]==='DINNER'?s.dinner_price_yen:s.lunch_price_yen);row('Hours',s.hours);row('Closed',s.closed_days);
-        row('Station',s.station+(s.walk_min&&s.walk_min!=='unknown'?', '+s.walk_min+' min walk':''));
-        if((s.awards||[]).length)row('Awards',s.awards.slice(0,2).join('; '));
-        row('Tip',s.tourist_tip);
-        t.appendChild(dl);
-        var links=el('div','t-links');var a=el('a',null,'Open in Google Maps');a.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(s.name_ja);a.target='_blank';a.rel='noopener';
-        links.append(a,el('span','t-note','Checked '+s.checked));t.appendChild(links);
-        sec.appendChild(t);
-      });
-      out.appendChild(sec);
-    });
-    cta.hidden=false;
-  }
-  f.addEventListener('submit',function(e){e.preventDefault();render();out.scrollIntoView({behavior:'smooth',block:'start'});});
-})();
-</script>
+<script src="planner.js"></script>
 </body>
 </html>
