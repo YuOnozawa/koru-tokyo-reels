@@ -378,7 +378,7 @@
   "reservation": "not_needed",
   "what_to_order": "Soup curry",
   "tourist_tip": "No reservations; pay before eating",
-  "yu_pick": true,
+  "yu_pick": false,
   "sources": [
    "https://tabelog.com/tokyo/A1310/A131002/13121713/",
    "https://tabelog.com/curry/tokyo/A1310/rank/"
