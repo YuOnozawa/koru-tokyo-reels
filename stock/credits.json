@@ -340,5 +340,185 @@
   "license_version": "1.0",
   "source": "https://www.rawpixel.com/image/6111358/photo-image-public-domain-celebration-glass",
   "provider": "rawpixel"
+ },
+ "dorayaki_0.jpg": {
+  "query": "dorayaki",
+  "title": "Dorayaki",
+  "creator": "Hideaki Sekine",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://wordpress.org/photos/photo/258636baa5/",
+  "provider": "wordpress"
+ },
+ "dorayaki_1.jpg": {
+  "query": "dorayaki",
+  "title": "Dorayaki",
+  "creator": "Hideaki Sekine",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://wordpress.org/photos/photo/848636baad/",
+  "provider": "wordpress"
+ },
+ "pancakes_0.jpg": {
+  "query": "pancakes",
+  "title": "Waffle Pancake",
+  "creator": "Joseph Gonzalez",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/waffle-pancake-F0X48BFRXZ",
+  "provider": "stocksnap"
+ },
+ "pancakes_1.jpg": {
+  "query": "pancakes",
+  "title": "Breakfast Pancake",
+  "creator": "Brooke Lark",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/breakfast-pancake-7KW3GHDZPP",
+  "provider": "stocksnap"
+ },
+ "pancakes_2.jpg": {
+  "query": "pancakes",
+  "title": "Pancake Orange",
+  "creator": "Joseph Gonzalez",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/pancake-orange-O7DP22SOXC",
+  "provider": "stocksnap"
+ },
+ "pancakes_3.jpg": {
+  "query": "pancakes",
+  "title": "Pancake Food",
+  "creator": "Ornella Binni",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/pancake-food-3I0V8DURJL",
+  "provider": "stocksnap"
+ },
+ "pancakes_4.jpg": {
+  "query": "pancakes",
+  "title": "Pancake Breakfast",
+  "creator": "Adrianna Calvo",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/pancake-breakfast-HOTZO4T2G3",
+  "provider": "stocksnap"
+ },
+ "hot_pot_0.jpg": {
+  "query": "hot pot",
+  "title": null,
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/6058700/free-public-domain-cc0-photo",
+  "provider": "rawpixel"
+ },
+ "hot_pot_1.jpg": {
+  "query": "hot pot",
+  "title": "Rolls raw meat bowl soup",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/3294325/free-photo-image-appliance-bowl-buffet",
+  "provider": "rawpixel"
+ },
+ "hot_pot_2.jpg": {
+  "query": "hot pot",
+  "title": "Baeksuk (whole chicken soup)",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/3338475/free-photo-image-stew-bowl-cc0",
+  "provider": "rawpixel"
+ },
+ "hot_pot_3.jpg": {
+  "query": "hot pot",
+  "title": "A potted hot chili plant",
+  "creator": "Tinjure20",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://wordpress.org/photos/photo/50061f996e/",
+  "provider": "wordpress"
+ },
+ "curry_rice_0.jpg": {
+  "query": "curry rice",
+  "title": "'Curry & rice,' forty plates",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/9179201/image-books-art-public-domain",
+  "provider": "rawpixel"
+ },
+ "curry_rice_1.jpg": {
+  "query": "curry rice",
+  "title": "curry",
+  "creator": "yoshikawakazuhiro0405",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://wordpress.org/photos/photo/46563faf4a/",
+  "provider": "wordpress"
+ },
+ "curry_rice_2.jpg": {
+  "query": "curry rice",
+  "title": "Leto Caffe, London, United Kingdom",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/3298426/free-photo-image-bowl-cc0-citrus-fruit",
+  "provider": "rawpixel"
+ },
+ "curry_rice_3.jpg": {
+  "query": "curry rice",
+  "title": "Lunch, WCAsia, Bangkok, Thailand",
+  "creator": "Michelle Frechette",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://wordpress.org/photos/photo/89363f1e1a/",
+  "provider": "wordpress"
+ },
+ "sashimi_0.jpg": {
+  "query": "sashimi",
+  "title": "Free raw fish sashimi dish",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/5920852/photo-image-light-public-domain-food",
+  "provider": "rawpixel"
+ },
+ "sashimi_1.jpg": {
+  "query": "sashimi",
+  "title": "Women Preparing Sashimi",
+  "creator": "themet",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/9099925/women-preparing-sashimi",
+  "provider": "rawpixel"
+ },
+ "sashimi_2.jpg": {
+  "query": "sashimi",
+  "title": "Pho Soup",
+  "creator": "Lizette Carrasco",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/pho-soup-PGXW3EOZVU",
+  "provider": "stocksnap"
+ },
+ "sashimi_3.jpg": {
+  "query": "sashimi",
+  "title": null,
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/5935502/free-public-domain-cc0-photo",
+  "provider": "rawpixel"
+ },
+ "sashimi_4.jpg": {
+  "query": "sashimi",
+  "title": "Free sushi image",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/5905084/photo-image-light-public-domain-food",
+  "provider": "rawpixel"
  }
 }
