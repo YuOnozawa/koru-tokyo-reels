@@ -158,14 +158,13 @@
   "reservation": "unknown",
   "what_to_order": "Sashimi or tuna kirioshi set lunch ¥880; dinner courses ¥3,000-7,000 for food only, or ¥5,000-9,000 with 2-hour all-you-can-drink",
   "tourist_tip": "Cards (Visa/MC/Amex/JCB) and PayPay accepted",
-  "yu_pick": false,
+  "yu_pick": true,
   "sources": [
    "https://retty.me/area/PRE13/ARE11/SUB1102/100000065225/",
    "https://www.hotpepper.jp/strJ000115784/course/"
   ],
   "checked": "2026-10-31",
   "kind": "meal",
-  "needs_yu_check": true,
   "lunch_ok": true,
   "dinner_ok": true
  },

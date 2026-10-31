@@ -3,194 +3,252 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Tokyo Food Planner by Yu & Koru</title>
-<meta name="description" content="Free Tokyo food plan for Akihabara, Ueno, Asakusa and Kanda. Picked from places a local office worker actually eats at, with hours, closed days and what to order.">
-<meta property="og:title" content="Tokyo Food Planner — free, by a local">
-<meta property="og:description" content="Tell me your dates, area and budget. Get a day-by-day food plan with what to order.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@700&display=swap">
+<title>Tokyo Food Ticket Machine</title>
+<meta name="description" content="Press the buttons, get your Tokyo meal tickets: a free day-by-day food plan for Akihabara, Ueno, Asakusa and Kanda, from a local office worker.">
+<meta property="og:title" content="Tokyo Food Ticket Machine — free food plan by a local">
+<meta property="og:description" content="Press the buttons, get your meal tickets. Hours, closed days and what to order, for Akihabara, Ueno, Asakusa and Kanda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
 <style>
-/* Layout: a menu board on washi paper — controls on top, then one "ticket" per meal, grouped by day */
+/* Concept: the page is a ramen-shop ticket machine (券売機).
+   Buttons choose, the big red button prints, and the plan comes out as paper meal tickets.
+   Machine body = cool painted steel. One loud element: the amber LED display. */
 :root{
-  --ink:#1e1a17; --paper:#f3ead8; --card:#fbf6ec; --shu:#c8402b; --muted:#6c5f53; --line:#e0d4bf; --ok:#2f7d4f;
-  --display:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;
-  --body:"Poppins","Helvetica Neue",Arial,sans-serif;
-  --jp:"Noto Sans JP","Hiragino Sans",sans-serif;
+  --steel:#dfe5e8; --steel-2:#c9d2d7; --steel-ink:#22303a; --steel-muted:#5d6b75;
+  --btn:#fbfcfc; --btn-edge:#aeb9c0;
+  --red:#d7262e; --red-deep:#9d141a; --amber:#ffa22b; --led-bg:#17110c;
+  --paper:#fffef8; --paper-ink:#2b2f45; --paper-muted:#6f7287; --stamp:#d7262e;
+  --lamp:#ffd84a;
+  --dela:"Dela Gothic One","Zen Kaku Gothic New",system-ui,sans-serif;
+  --dot:"DotGothic16","Zen Kaku Gothic New",ui-monospace,monospace;
+  --zen:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{--ink:#f1e8da;--paper:#1a1613;--card:#241e1a;--shu:#e2583f;--muted:#b5a796;--line:#3b322b;--ok:#62c48f;color-scheme:dark}}
+@media (prefers-color-scheme:dark){:root{
+  --steel:#2a3238; --steel-2:#20272c; --steel-ink:#e9eef1; --steel-muted:#9aa8b1;
+  --btn:#39434a; --btn-edge:#151a1e; --paper:#f6f3e8; --lamp:#ffcf33; color-scheme:dark}}
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background-color:var(--paper);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .38 0 0 0 0 .28 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");color:var(--ink);font:16px/1.6 var(--body);padding-inline:16px;padding-block:0 56px}
-a{color:var(--shu)}
-.hero{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:start;margin-top:28px}
-.hero h1{margin:0 0 8px}
-.hanko{width:72px;height:72px;border-radius:8px;background:var(--shu);color:#fff;display:grid;place-items:center;font:900 22px/1.05 var(--display);text-align:center;transform:rotate(-6deg);box-shadow:inset 0 0 0 4px var(--shu),inset 0 0 0 6px #fff3;margin-top:6px}
-.noren{position:relative}
-.noren span+span{border-left:3px solid var(--paper);padding-left:20px}
-.wrap{max-width:720px;margin:0 auto}
-.noren{background:var(--shu);color:#fff;margin-inline:-16px;padding:14px 16px 16px;display:flex;justify-content:center;gap:28px;font:900 15px/1 var(--jp);letter-spacing:.35em}
-.noren span{padding:0 6px}
-h1{font:900 clamp(32px,8vw,46px)/1.1 var(--display);text-wrap:balance}
-.lede{color:var(--muted);margin:0 0 20px}
-.by{display:flex;gap:12px;align-items:center;margin-bottom:20px;font-size:14px;color:var(--muted)}
-.by img{width:48px;height:48px;border-radius:50%;border:2px solid var(--shu)}
-form{display:grid;gap:14px;background:var(--card);border:2px solid var(--line);border-radius:14px;padding:18px}
-label,fieldset{display:grid;gap:6px;font-weight:700;font-size:14px;border:0;padding:0;margin:0}
-legend{font-weight:700;font-size:14px;margin-bottom:6px}
-input[type=date],select{font:16px var(--body);color:var(--ink);background:var(--paper);border:2px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
-.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{position:relative}
-.chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
-.chip span{display:inline-block;padding:8px 12px;border:2px solid var(--line);border-radius:999px;font-weight:500;font-size:14px;background:var(--paper)}
-.chip input:checked+span{background:var(--shu);border-color:var(--shu);color:#fff}
-.chip input:focus-visible+span{outline:3px solid var(--shu);outline-offset:2px}
-button{font:900 18px/1 var(--body);border:0;border-radius:12px;padding:16px;cursor:pointer;background:var(--shu);color:#fff;box-shadow:0 4px 0 #86281a}
-button:active{transform:translateY(3px);box-shadow:0 1px 0 #86281a}
-button:focus-visible,a:focus-visible{outline:3px solid var(--shu);outline-offset:2px}
-#out{margin-top:28px;display:grid;gap:22px}
-.day h2{font:900 24px/1.2 var(--display);margin:0 0 10px;display:flex;gap:10px;align-items:baseline}
-.day h2 small{font:500 14px var(--body);color:var(--muted)}
-.meal{position:relative;display:grid;grid-template-columns:64px 1fr;gap:14px;background:var(--card);border:2px solid var(--line);border-radius:12px;padding:14px 14px 14px 0;margin-bottom:12px}
-.meal::before{content:"";position:absolute;left:64px;top:10px;bottom:10px;border-left:2px dashed var(--line)}
-.meal::after{content:"";position:absolute;left:55px;top:-9px;width:18px;height:18px;border-radius:50%;background:var(--paper);border:2px solid var(--line);clip-path:inset(50% 0 0 0)}
-.meal .slot{width:40px;height:40px;border-radius:6px;background:var(--shu);color:#fff;display:grid;place-items:center;font:900 20px/1 var(--display);justify-self:center;transform:rotate(-4deg)}
-.meal h3{margin:0;font:700 18px/1.3 var(--body)}
-.meal .ja{font:700 14px var(--jp);color:var(--muted);margin-left:6px}
-.meal .tags{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
-.tag{font-size:12px;font-weight:700;border-radius:999px;padding:3px 9px;background:var(--paper);border:1px solid var(--line)}
-.tag.yu{background:var(--shu);color:#fff;border-color:var(--shu)}
-.meal dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:6px 0 8px;font-size:14px}
-.meal dt{color:var(--muted)}
-.meal dd{margin:0;min-width:0}
-.meal a{color:var(--shu);font-weight:700;font-size:14px}
-.note{font-size:13px;color:var(--muted)}
-.cta{background:var(--card);border:2px dashed var(--shu);border-radius:14px;padding:18px;text-align:center}
-.cta b{font:900 20px/1.3 var(--display);display:block;margin-bottom:6px}
-.cta a{display:inline-block;margin-top:10px;background:var(--ink);color:var(--paper);padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
-.empty{color:var(--muted)}
-footer{margin-top:40px;font-size:13px;color:var(--muted);text-align:center}
-@media (max-width:440px){.row{grid-template-columns:1fr}.meal{grid-template-columns:52px 1fr}.meal::before{left:52px}.meal::after{left:43px}.meal .slot{width:34px;height:34px;font-size:17px}}
+body{background:var(--steel-2);color:var(--steel-ink);font:16px/1.65 var(--zen);padding-inline:16px;padding-block:20px 64px}
+a{color:inherit}
+.machine{max-width:640px;margin:0 auto;background:var(--steel);border-radius:22px;padding:22px 20px 26px;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.55),inset 0 -6px 0 rgba(0,0,0,.08),0 18px 40px -18px rgba(20,30,40,.45)}
+.led{background:var(--led-bg);border-radius:10px;padding:12px 14px;box-shadow:inset 0 0 0 3px #000,inset 0 0 22px rgba(255,140,30,.15);overflow:hidden}
+.led-track{display:flex;gap:56px;white-space:nowrap;font:24px/1.2 var(--dot);color:var(--amber);text-shadow:0 0 6px rgba(255,150,40,.75);animation:marquee 18s linear infinite;width:max-content}
+@keyframes marquee{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.led-track{animation:none}}
+.plate{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;margin:20px 2px 6px}
+.plate img{width:64px;height:64px;border-radius:12px;border:3px solid var(--btn);box-shadow:0 0 0 2px var(--btn-edge)}
+h1{font:400 clamp(30px,8.4vw,48px)/1 var(--dela);margin:0;letter-spacing:.01em}
+h1 span{display:block;font:700 15px/1.4 var(--zen);color:var(--steel-muted);letter-spacing:0;margin-top:8px}
+.intro{color:var(--steel-muted);margin:10px 2px 22px;max-width:56ch}
+.panel{margin-top:18px}
+.panel h2{font:900 15px/1.3 var(--zen);margin:0 0 8px 2px}
+.panel h2 small{font-weight:400;color:var(--steel-muted);margin-left:6px}
+.keys{display:grid;gap:10px}
+.keys.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.keys.five{grid-template-columns:repeat(5,minmax(0,1fr))}
+.key{position:relative;display:block;cursor:pointer}
+.key input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.key .face{display:grid;place-items:center;text-align:center;min-height:76px;padding:10px 6px 8px;background:var(--btn);border-radius:8px;
+  box-shadow:0 4px 0 var(--btn-edge),inset 0 1px 0 rgba(255,255,255,.7);border-top:9px solid var(--cap,#2f6db5);transition:transform .06s}
+.key .jp{display:block;font:900 19px/1.15 var(--zen)}
+.key .en{display:block;font:700 12px/1.25 var(--zen);color:var(--steel-muted);margin-top:3px}
+.key input:checked+.face{transform:translateY(3px);box-shadow:0 1px 0 var(--btn-edge),0 0 0 3px var(--lamp),0 0 18px var(--lamp)}
+.key input:focus-visible+.face{outline:3px solid var(--red);outline-offset:3px}
+.key.small .face{min-height:58px}
+.key.small .jp{font-size:15px}
+.cap-red{--cap:#d7262e}.cap-yellow{--cap:#f2b705}.cap-blue{--cap:#2f6db5}.cap-green{--cap:#2e9c5a}.cap-grey{--cap:#7d8a93}
+.row2{display:grid;grid-template-columns:1.4fr 1fr;gap:10px}
+.field{display:grid;gap:6px;font:900 15px/1.3 var(--zen)}
+.field input,.field select{font:22px/1 var(--dot);color:var(--amber);background:var(--led-bg);border:0;border-radius:8px;padding:12px;box-shadow:inset 0 0 0 3px #000;width:100%;color-scheme:dark}
+.print{margin-top:24px;width:100%;border:0;cursor:pointer;background:var(--red);color:#fff;border-radius:12px;padding:18px 12px;
+  font:400 26px/1 var(--dela);box-shadow:0 6px 0 var(--red-deep),inset 0 2px 0 rgba(255,255,255,.35)}
+.print small{display:block;font:700 13px/1.3 var(--zen);opacity:.9;margin-top:8px}
+.print:active{transform:translateY(4px);box-shadow:0 2px 0 var(--red-deep)}
+.print:focus-visible{outline:3px solid var(--lamp);outline-offset:3px}
+.slot{height:16px;margin:26px 18px 0;background:#0d1114;border-radius:8px;box-shadow:inset 0 4px 6px rgba(0,0,0,.8)}
+#out{max-width:560px;margin:-8px auto 0;padding:0 6px}
+.day{margin-top:26px}
+.day-head{display:flex;align-items:baseline;gap:12px;margin:0 4px 10px}
+.day-head b{font:400 34px/1 var(--dela)}
+.day-head span{font:700 15px/1.3 var(--zen);color:var(--steel-muted)}
+.ticket{position:relative;background:var(--paper);color:var(--paper-ink);margin-bottom:12px;padding:16px 18px 16px 20px;
+  -webkit-mask:radial-gradient(circle 7px at 0 50%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 98%,#000) right/51% 100% no-repeat;
+          mask:radial-gradient(circle 7px at 0 50%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 98%,#000) right/51% 100% no-repeat;
+  filter:drop-shadow(0 2px 2px rgba(30,40,50,.18))}
+.ticket.printing{animation:print .55s cubic-bezier(.2,.8,.2,1) both}
+@keyframes print{from{transform:translateY(-36px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.ticket.printing{animation:none}}
+.t-top{display:flex;justify-content:space-between;gap:10px;font:16px/1.2 var(--dot);color:var(--paper-muted);border-bottom:2px dashed #d8d6cc;padding-bottom:8px;margin-bottom:10px}
+.t-top .slotname{color:var(--paper-ink)}
+.t-name{font:900 21px/1.25 var(--zen);margin:0;padding-right:78px}
+.t-ja{display:block;font:700 14px/1.4 var(--zen);color:var(--paper-muted);margin-top:2px}
+.t-order{font:16px/1.5 var(--dot);margin:10px 0 8px}
+.t-facts{display:grid;grid-template-columns:4.6em 1fr;gap:3px 10px;font-size:14px;margin:0}
+.t-facts dt{color:var(--paper-muted)}
+.t-facts dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.t-links{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:10px;font-weight:700;font-size:14px}
+.t-links a{color:var(--red)}
+.t-note{font-size:13px;color:var(--paper-muted)}
+.hanko{position:absolute;top:44px;right:16px;width:66px;height:66px;border:3px solid var(--stamp);border-radius:50%;color:var(--stamp);display:grid;place-items:center;text-align:center;font:900 12px/1.05 var(--zen);transform:rotate(-12deg);opacity:.9}
+.hanko b{display:block;font:400 17px/1 var(--dela)}
+.empty{font:16px/1.5 var(--dot);color:var(--paper-muted)}
+.cta{max-width:560px;margin:30px auto 0;background:var(--steel);border-radius:16px;padding:20px;text-align:center}
+.cta h2{font:400 22px/1.3 var(--dela);margin:0 0 6px}
+.cta p{margin:0 0 14px;color:var(--steel-muted)}
+.cta a{display:inline-block;background:var(--steel-ink);color:var(--steel);padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:900}
+.cta a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted);text-align:center}
+@media (max-width:520px){
+  .keys.four{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .keys.five{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .t-name{padding-right:70px}
+}
 </style>
 </head>
 <body>
-<div class="noren"><span>東</span><span>京</span><span>め</span><span>し</span></div>
-<main class="wrap">
-  <div class="hero"><h1>Tokyo Food Planner</h1><div class="hanko" aria-hidden="true">コ<br>ル</div></div>
-  <p class="lede">Pick your dates, area and budget. Get a day-by-day plan with hours, closed days and what to order.</p>
-  <div class="by"><img src="../list/koru.jpg" alt="Koru, a white Japanese Spitz" width="48" height="48"><span>By Yu, an office worker in Akihabara, and Koru. Places marked <b>Yu's pick</b> are where I actually eat.</span></div>
+<main class="machine" aria-labelledby="ttl">
+  <div class="led" aria-hidden="true"><div class="led-track"><span>いらっしゃいませ　WELCOME　PRESS THE BUTTONS　GET YOUR TOKYO MEAL TICKETS</span><span>いらっしゃいませ　WELCOME　PRESS THE BUTTONS　GET YOUR TOKYO MEAL TICKETS</span></div></div>
+
+  <div class="plate">
+    <img src="../list/koru.jpg" alt="Koru, a white Japanese Spitz" width="64" height="64">
+    <h1 id="ttl">東京めし券売機<span>Tokyo Food Ticket Machine by Yu &amp; Koru</span></h1>
+  </div>
+  <p class="intro">I work in Akihabara and eat out every day. Press the buttons and this machine prints a food plan for your trip: lunch, a sweet stop and dinner, with hours, closed days and what to order. Red stamps mark places I eat at myself.</p>
 
   <form id="f">
-    <div class="row">
-      <label for="start">First day<input type="date" id="start" required></label>
-      <label for="days">Days
+    <div class="row2">
+      <label class="field" for="start">First day<input type="date" id="start" required></label>
+      <label class="field" for="days">Days
         <select id="days"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select>
       </label>
     </div>
-    <fieldset><legend>Areas</legend>
-      <div class="chips" id="areas"></div>
-    </fieldset>
-    <label for="budget">Budget per meal
-      <select id="budget">
-        <option value="under1500">Under ¥1,500</option>
-        <option value="1500-4000" selected>Up to ¥4,000</option>
-        <option value="4000-10000">Up to ¥10,000</option>
-        <option value="10000plus">No limit</option>
-      </select>
-    </label>
-    <fieldset><legend>Don't eat</legend>
-      <div class="chips" id="avoid"></div>
-    </fieldset>
-    <button type="submit" id="go">Make my plan</button>
+
+    <section class="panel" aria-labelledby="h-area">
+      <h2 id="h-area">Where<small>pick one or more</small></h2>
+      <div class="keys four" id="areas"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-budget">
+      <h2 id="h-budget">Budget per meal</h2>
+      <div class="keys four" id="budget"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-avoid">
+      <h2 id="h-avoid">I don't eat<small>optional</small></h2>
+      <div class="keys five" id="avoid"></div>
+    </section>
+
+    <button class="print" type="submit" id="go">発券 Print my tickets<small>Free. Nothing is sent or saved.</small></button>
   </form>
-
-  <section id="out" aria-live="polite"></section>
-
-  <div class="cta" id="cta" hidden>
-    <b>Want me to check it before you go?</b>
-    <span class="note">I'll swap anything I wouldn't eat myself and tell you how to order. First 3 each month are free.</span><br>
-    <a href="https://ig.me/m/koru.tokyo_guide" target="_blank" rel="noopener">DM me "PLAN" on Instagram</a>
-  </div>
-
-  <footer>Facts checked on the date shown for each place. Hours change, so check Google Maps the same morning.<br>Yu & Koru · <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a></footer>
+  <div class="slot" aria-hidden="true"></div>
 </main>
+
+<section id="out" aria-live="polite"></section>
+
+<aside class="cta" id="cta" hidden>
+  <h2>Want me to check your tickets?</h2>
+  <p>I'll swap anything I wouldn't eat myself and tell you how to order. The first 3 each month are free.</p>
+  <a href="https://ig.me/m/koru.tokyo_guide" target="_blank" rel="noopener">DM me "PLAN" on Instagram</a>
+</aside>
+
+<footer>Facts were checked on the date printed on each ticket. Hours change, so check Google Maps the same morning.<br>Yu &amp; Koru, <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a></footer>
+
 <script>
 (function(){
-  var AREAS=[['akiba','Akihabara',['Akihabara','Suehirocho']],['ueno','Ueno & Yushima',['Ueno','Okachimachi','Yushima']],['asakusa','Asakusa',['Asakusa','Kuramae']],['kanda','Kanda & Jimbocho',['Kanda','Jimbocho','Ochanomizu']]];
-  var GROUP={};AREAS.forEach(function(a){a[2].forEach(function(x){GROUP[x]=a[0];});});
-  var LABEL={};AREAS.forEach(function(a){LABEL[a[0]]=a[1];});
-  var AVOID=[['rawfish','Raw fish'],['pork','Pork'],['spicy','Spicy'],['seafood','All seafood'],['meat','Meat (vegetarian)']];
+  var AREAS=[['akiba','秋葉原','Akihabara','cap-red',['Akihabara','Suehirocho']],['ueno','上野・湯島','Ueno & Yushima','cap-green',['Ueno','Okachimachi','Yushima']],['asakusa','浅草','Asakusa','cap-yellow',['Asakusa','Kuramae']],['kanda','神田・神保町','Kanda & Jimbocho','cap-blue',['Kanda','Jimbocho','Ochanomizu']]];
+  var BUDGETS=[['under1500','¥1,500','Cheap eats','cap-green'],['1500-4000','¥4,000','Everyday','cap-blue'],['4000-10000','¥10,000','Treat','cap-yellow'],['10000plus','上限なし','No limit','cap-red']];
+  var AVOID=[['rawfish','生魚','Raw fish'],['seafood','魚介','Seafood'],['pork','豚','Pork'],['spicy','辛い','Spicy'],['meat','肉','Meat']];
+  var GROUP={},LABEL={};AREAS.forEach(function(a){LABEL[a[0]]=a[2];a[4].forEach(function(x){GROUP[x]=a[0];});});
   var BANDS=['under1500','1500-4000','4000-10000','10000plus'];
-  var DOW=['sun','mon','tue','wed','thu','fri','sat'];
-  var DOWFULL=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
-  var f=document.getElementById('f'), out=document.getElementById('out'), cta=document.getElementById('cta');
-  function chip(box,name,val,label,checked){var l=document.createElement('label');l.className='chip';var i=document.createElement('input');i.type='checkbox';i.name=name;i.value=val;i.checked=!!checked;var s=document.createElement('span');s.textContent=label;l.append(i,s);box.appendChild(l);}
-  AREAS.forEach(function(a){chip(document.getElementById('areas'),'area',a[0],a[1],a[0]==='akiba'||a[0]==='ueno');});
-  AVOID.forEach(function(a){chip(document.getElementById('avoid'),'avoid',a[0],a[1],false);});
+  var DOW=['sun','mon','tue','wed','thu','fri','sat'],DOWFULL=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+  var f=document.getElementById('f'),out=document.getElementById('out'),cta=document.getElementById('cta');
+  function key(box,type,name,val,jp,en,cap,checked,small){
+    var l=document.createElement('label');l.className='key'+(small?' small':'');
+    var i=document.createElement('input');i.type=type;i.name=name;i.value=val;i.checked=!!checked;
+    var face=document.createElement('span');face.className='face '+(cap||'cap-grey');
+    var a=document.createElement('span');a.className='jp';a.textContent=jp;
+    var b=document.createElement('span');b.className='en';b.textContent=en;
+    var w=document.createElement('span');w.append(a,b);face.appendChild(w);l.append(i,face);box.appendChild(l);
+  }
+  AREAS.forEach(function(a){key(document.getElementById('areas'),'checkbox','area',a[0],a[1],a[2],a[3],a[0]==='akiba'||a[0]==='ueno');});
+  BUDGETS.forEach(function(b){key(document.getElementById('budget'),'radio','budget',b[0],b[1],b[2],b[3],b[0]==='1500-4000');});
+  AVOID.forEach(function(a){key(document.getElementById('avoid'),'checkbox','avoid',a[0],a[1],a[2],'cap-grey',false,true);});
   var d=new Date();d.setDate(d.getDate()+14);document.getElementById('start').value=d.toISOString().slice(0,10);
   var SHOPS=[];
-  fetch('shops.json').then(function(r){return r.json();}).then(function(j){SHOPS=j;render();}).catch(function(){out.textContent='Could not load the restaurant list. Please reload.';});
-  function has(s,words){s=(s||'').toLowerCase();return words.some(function(w){return s.indexOf(w)>=0;});}
-  function excluded(shop,avoid){
-    var g=(shop.genre+' '+shop.what_to_order).toLowerCase();
-    if(avoid.indexOf('rawfish')>=0&&has(g,['sushi','sashimi','kaisendon','seafood bowl','raw']))return true;
-    if(avoid.indexOf('seafood')>=0&&has(g,['sushi','sashimi','seafood','fish','unagi','eel','tempura','oden','takoyaki','octopus']))return true;
-    if(avoid.indexOf('pork')>=0&&has(g,['tonkatsu','pork','ramen','tsukemen','gyoza','katsu','menchi','shabu','yakiton']))return true;
-    if(avoid.indexOf('spicy')>=0&&has(g,['dandan','tantan','spicy','mala','sichuan','curry']))return true;
-    if(avoid.indexOf('meat')>=0&&has(g,['tonkatsu','pork','beef','chicken','yakitori','ramen','tsukemen','gyudon','sukiyaki','katsu','menchi','meat','curry','gyoza','unagi','eel','fish','sushi','sashimi','seafood','tempura','oden']))return true;
+  fetch('shops.json').then(function(r){return r.json();}).then(function(j){SHOPS=j;}).catch(function(){out.textContent='The restaurant list did not load. Reload the page to try again.';});
+  function has(s,w){s=(s||'').toLowerCase();return w.some(function(x){return s.indexOf(x)>=0;});}
+  function excluded(s,av){
+    var g=(s.genre+' '+s.what_to_order).toLowerCase();
+    if(av.indexOf('rawfish')>=0&&has(g,['sushi','sashimi','kaisendon','seafood bowl','raw','oyster','tokumori']))return true;
+    if(av.indexOf('seafood')>=0&&has(g,['sushi','sashimi','seafood','fish','unagi','eel','tempura','oden','takoyaki','octopus','oyster','monkfish','clam','shellfish','shrimp']))return true;
+    if(av.indexOf('pork')>=0&&has(g,['tonkatsu','pork','ramen','tsukemen','gyoza','katsu','menchi','shabu','motsu','offal']))return true;
+    if(av.indexOf('spicy')>=0&&has(g,['dandan','tantan','spicy','sichuan','karashibi','curry']))return true;
+    if(av.indexOf('meat')>=0&&has(g,['tonkatsu','pork','beef','chicken','yakitori','ramen','tsukemen','gyudon','sukiyaki','gyunabe','katsu','menchi','meat','curry','gyoza','unagi','eel','fish','sushi','sashimi','seafood','tempura','oden','motsu','oyakodon','horse']))return true;
     return false;
   }
-  function closedOn(shop,date){var c=(shop.closed_days||'').toLowerCase();var k=date.getDay();return c.indexOf(DOWFULL[k])>=0||new RegExp('\\b'+DOW[k]+'\\b').test(c);}
-  function fits(shop,band){return BANDS.indexOf(shop.budget_band)<=BANDS.indexOf(band);}
+  function closedOn(s,date){var c=(s.closed_days||'').toLowerCase(),k=date.getDay();return c.indexOf(DOWFULL[k])>=0||new RegExp('\\b'+DOW[k]+'\\b').test(c);}
+  function fits(s,band){return BANDS.indexOf(s.budget_band)<=BANDS.indexOf(band);}
   var FAMS=['curry','ramen','tsukemen','soba','udon','sushi','tonkatsu','katsu','tempura','unagi','yakitori','izakaya','sukiyaki','gyudon','dandan','okonomiyaki','yoshoku'];
   function fam(s){var g=(s.genre||'').toLowerCase();for(var i=0;i<FAMS.length;i++){if(g.indexOf(FAMS[i])>=0)return FAMS[i]==='katsu'&&g.indexOf('curry')>=0?'curry':FAMS[i];}return g;}
-  function score(s){return (s.yu_pick?3:0)+((s.awards||[]).length?2:0)+Math.random();}
-  function render(){
+  function score(s){return (s.yu_pick?3:0)+((s.awards||[]).length?2:0)+Math.random()*1.5;}
+  function plan(){
     var areas=[].slice.call(f.querySelectorAll('input[name=area]:checked')).map(function(i){return i.value;});
-    var avoid=[].slice.call(f.querySelectorAll('input[name=avoid]:checked')).map(function(i){return i.value;});
-    var days=+document.getElementById('days').value, band=document.getElementById('budget').value;
-    var start=new Date(document.getElementById('start').value+'T12:00:00');
-    out.replaceChildren(); if(!SHOPS.length)return;
-    if(!areas.length){out.textContent='Pick at least one area.';return;}
-    var used={}, plan=[];
+    var av=[].slice.call(f.querySelectorAll('input[name=avoid]:checked')).map(function(i){return i.value;});
+    var band=(f.querySelector('input[name=budget]:checked')||{}).value||'1500-4000';
+    var days=+document.getElementById('days').value,start=new Date(document.getElementById('start').value+'T12:00:00');
+    if(!areas.length)areas=['akiba'];
+    var used={},res=[];
     for(var i=0;i<days;i++){
-      var date=new Date(start.getTime()+i*86400000), area=areas[i%areas.length];
-      var pool=SHOPS.filter(function(s){return !used[s.name_en]&&!excluded(s,avoid)&&fits(s,band)&&!closedOn(s,date);});
-      var local=pool.filter(function(s){return GROUP[s.area]===area;}); if(local.length<3)local=pool;
+      var date=new Date(start.getTime()+i*86400000),area=areas[i%areas.length];
+      var pool=SHOPS.filter(function(s){return !used[s.name_ja]&&!excluded(s,av)&&fits(s,band)&&!closedOn(s,date);});
+      var local=pool.filter(function(s){return GROUP[s.area]===area;});if(local.length<3)local=pool;
       local.sort(function(a,b){return score(b)-score(a);});
-      var meals=local.filter(function(s){return s.kind!=='snack';}), snacks=local.filter(function(s){return s.kind==='snack';});
+      var meals=local.filter(function(s){return s.kind!=='snack';}),snacks=local.filter(function(s){return s.kind==='snack';});
       var lunch=meals.find(function(s){return s.lunch_ok!==false&&(s.budget_band==='under1500'||s.budget_band==='1500-4000');})||meals.find(function(s){return s.lunch_ok!==false;});
-      if(lunch)used[lunch.name_en]=1;
-      var snack=snacks.find(function(s){return !used[s.name_en];}); if(snack)used[snack.name_en]=1;
-      var dinner=meals.find(function(s){return !used[s.name_en]&&s.dinner_ok!==false&&fam(s)!==fam(lunch||{genre:''});})||meals.find(function(s){return !used[s.name_en]&&s.dinner_ok!==false;});
-      if(dinner)used[dinner.name_en]=1;
-      plan.push({date:date,area:LABEL[area],meals:[['昼','Lunch',lunch],['甘','Snack',snack],['夜','Dinner',dinner]]});
+      if(lunch)used[lunch.name_ja]=1;
+      var snack=snacks.find(function(s){return !used[s.name_ja];});if(snack)used[snack.name_ja]=1;
+      var dinner=meals.find(function(s){return !used[s.name_ja]&&s.dinner_ok!==false&&fam(s)!==fam(lunch||{genre:''});})||meals.find(function(s){return !used[s.name_ja]&&s.dinner_ok!==false;});
+      if(dinner)used[dinner.name_ja]=1;
+      res.push({date:date,area:LABEL[area],meals:[['昼','LUNCH',lunch],['甘','SWEET STOP',snack],['夜','DINNER',dinner]]});
     }
-    plan.forEach(function(p,k){
-      var sec=document.createElement('section');sec.className='day';
-      var h=document.createElement('h2');h.textContent='Day '+(k+1)+' · '+p.area;
-      var sm=document.createElement('small');sm.textContent=p.date.toLocaleDateString('en',{weekday:'short',month:'short',day:'numeric'});h.appendChild(sm);sec.appendChild(h);
-      p.meals.forEach(function(m){
-        var s=m[2];var box=document.createElement('article');box.className='meal';
-        var slot=document.createElement('div');slot.className='slot';slot.textContent=m[0];slot.setAttribute('aria-label',m[1]);
-        var body=document.createElement('div');
-        if(!s){body.className='empty';body.textContent='Nothing fits these filters. Try a bigger budget or another area.';box.append(slot,body);sec.appendChild(box);return;}
-        var h3=document.createElement('h3');h3.textContent=s.name_en;var ja=document.createElement('span');ja.className='ja';ja.textContent=s.name_ja;h3.appendChild(ja);
-        var tags=document.createElement('div');tags.className='tags';
-        function tag(t,c){var e=document.createElement('span');e.className='tag'+(c?' '+c:'');e.textContent=t;tags.appendChild(e);}
-        if(s.yu_pick)tag("Yu's pick",'yu'); tag(s.genre); (s.awards||[]).slice(0,1).forEach(function(a){tag(a);});
-        if(s.english_menu==='yes')tag('English menu');
-        var dl=document.createElement('dl');
-        function row(k,v){if(!v||v==='unknown')return;var dt=document.createElement('dt');dt.textContent=k;var dd=document.createElement('dd');dd.textContent=v;dl.append(dt,dd);}
-        row('Order',s.what_to_order);row('Price',m[1]==='Dinner'?s.dinner_price_yen:s.lunch_price_yen);row('Hours',s.hours);row('Closed',s.closed_days);row('Station',s.station+(s.walk_min&&s.walk_min!=='unknown'?' · '+s.walk_min+' min walk':''));row('Tip',s.tourist_tip);row('Checked',s.checked);
-        var a=document.createElement('a');a.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(s.name_ja+' '+s.area);a.target='_blank';a.rel='noopener';a.textContent='Open in Google Maps';
-        body.append(h3,tags,dl,a);box.append(slot,body);sec.appendChild(box);
+    return res;
+  }
+  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
+  function render(){
+    out.replaceChildren();
+    if(!SHOPS.length){out.appendChild(el('p','empty','Loading the restaurant list. Press print again in a second.'));return;}
+    var p=plan(),n=0;
+    p.forEach(function(day,k){
+      var sec=el('section','day');
+      var head=el('div','day-head');head.append(el('b',null,(k+1)+'日目'),el('span',null,day.area+', '+day.date.toLocaleDateString('en',{weekday:'short',month:'short',day:'numeric'})));
+      sec.appendChild(head);
+      day.meals.forEach(function(m){
+        var s=m[2],t=el('article','ticket printing');t.style.animationDelay=(n++*90)+'ms';
+        var top=el('div','t-top');top.append(el('span','slotname','食券 '+m[0]+' '+m[1]),el('span',null,'No.'+String(k+1)+String(n).padStart(2,'0')));
+        t.appendChild(top);
+        if(!s){t.appendChild(el('p','empty','Sold out for these buttons. Try a bigger budget or another area.'));sec.appendChild(t);return;}
+        var h=el('h3','t-name',s.name_en);h.appendChild(el('span','t-ja',s.name_ja));t.appendChild(h);
+        if(s.yu_pick){var hk=el('div','hanko');hk.setAttribute('aria-label',"Yu's pick");hk.append(el('b',null,'推し'),document.createTextNode("Yu's pick"));t.appendChild(hk);}
+        if(s.what_to_order&&s.what_to_order!=='unknown')t.appendChild(el('p','t-order','▶ '+s.what_to_order));
+        var dl=el('dl','t-facts');
+        function row(a,b){if(!b||b==='unknown')return;dl.append(el('dt',null,a),el('dd',null,b));}
+        row('Genre',s.genre);row('Price',m[1]==='DINNER'?s.dinner_price_yen:s.lunch_price_yen);row('Hours',s.hours);row('Closed',s.closed_days);
+        row('Station',s.station+(s.walk_min&&s.walk_min!=='unknown'?', '+s.walk_min+' min walk':''));
+        if((s.awards||[]).length)row('Awards',s.awards.slice(0,2).join('; '));
+        row('Tip',s.tourist_tip);
+        t.appendChild(dl);
+        var links=el('div','t-links');var a=el('a',null,'Open in Google Maps');a.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(s.name_ja);a.target='_blank';a.rel='noopener';
+        links.append(a,el('span','t-note','Checked '+s.checked));t.appendChild(links);
+        sec.appendChild(t);
       });
       out.appendChild(sec);
     });
     cta.hidden=false;
   }
-  f.addEventListener('submit',function(e){e.preventDefault();render();out.scrollIntoView({behavior:'smooth'});});
+  f.addEventListener('submit',function(e){e.preventDefault();render();out.scrollIntoView({behavior:'smooth',block:'start'});});
 })();
 </script>
 </body>
