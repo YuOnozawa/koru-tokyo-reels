@@ -116,14 +116,16 @@ footer{margin-top:40px;font-size:13px;color:var(--muted);text-align:center}
 </main>
 <script>
 (function(){
-  var AREAS=[['Akihabara','Akihabara'],['Suehirocho','Suehirocho'],['Kanda','Kanda'],['Jimbocho','Jimbocho'],['Ochanomizu','Ochanomizu'],['Ueno','Ueno'],['Okachimachi','Okachimachi'],['Yushima','Yushima'],['Asakusa','Asakusa'],['Kuramae','Kuramae']];
+  var AREAS=[['akiba','Akihabara',['Akihabara','Suehirocho']],['ueno','Ueno & Yushima',['Ueno','Okachimachi','Yushima']],['asakusa','Asakusa',['Asakusa','Kuramae']],['kanda','Kanda & Jimbocho',['Kanda','Jimbocho','Ochanomizu']]];
+  var GROUP={};AREAS.forEach(function(a){a[2].forEach(function(x){GROUP[x]=a[0];});});
+  var LABEL={};AREAS.forEach(function(a){LABEL[a[0]]=a[1];});
   var AVOID=[['rawfish','Raw fish'],['pork','Pork'],['spicy','Spicy'],['seafood','All seafood'],['meat','Meat (vegetarian)']];
   var BANDS=['under1500','1500-4000','4000-10000','10000plus'];
   var DOW=['sun','mon','tue','wed','thu','fri','sat'];
   var DOWFULL=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
   var f=document.getElementById('f'), out=document.getElementById('out'), cta=document.getElementById('cta');
   function chip(box,name,val,label,checked){var l=document.createElement('label');l.className='chip';var i=document.createElement('input');i.type='checkbox';i.name=name;i.value=val;i.checked=!!checked;var s=document.createElement('span');s.textContent=label;l.append(i,s);box.appendChild(l);}
-  AREAS.forEach(function(a,k){chip(document.getElementById('areas'),'area',a[0],a[1],a[0]==='Akihabara'||a[0]==='Ueno');});
+  AREAS.forEach(function(a){chip(document.getElementById('areas'),'area',a[0],a[1],a[0]==='akiba'||a[0]==='ueno');});
   AVOID.forEach(function(a){chip(document.getElementById('avoid'),'avoid',a[0],a[1],false);});
   var d=new Date();d.setDate(d.getDate()+14);document.getElementById('start').value=d.toISOString().slice(0,10);
   var SHOPS=[];
@@ -140,6 +142,8 @@ footer{margin-top:40px;font-size:13px;color:var(--muted);text-align:center}
   }
   function closedOn(shop,date){var c=(shop.closed_days||'').toLowerCase();var k=date.getDay();return c.indexOf(DOWFULL[k])>=0||new RegExp('\\b'+DOW[k]+'\\b').test(c);}
   function fits(shop,band){return BANDS.indexOf(shop.budget_band)<=BANDS.indexOf(band);}
+  var FAMS=['curry','ramen','tsukemen','soba','udon','sushi','tonkatsu','katsu','tempura','unagi','yakitori','izakaya','sukiyaki','gyudon','dandan','okonomiyaki','yoshoku'];
+  function fam(s){var g=(s.genre||'').toLowerCase();for(var i=0;i<FAMS.length;i++){if(g.indexOf(FAMS[i])>=0)return FAMS[i]==='katsu'&&g.indexOf('curry')>=0?'curry':FAMS[i];}return g;}
   function score(s){return (s.yu_pick?3:0)+((s.awards||[]).length?2:0)+Math.random();}
   function render(){
     var areas=[].slice.call(f.querySelectorAll('input[name=area]:checked')).map(function(i){return i.value;});
@@ -152,13 +156,15 @@ footer{margin-top:40px;font-size:13px;color:var(--muted);text-align:center}
     for(var i=0;i<days;i++){
       var date=new Date(start.getTime()+i*86400000), area=areas[i%areas.length];
       var pool=SHOPS.filter(function(s){return !used[s.name_en]&&!excluded(s,avoid)&&fits(s,band)&&!closedOn(s,date);});
-      var local=pool.filter(function(s){return s.area===area;}); if(local.length<2)local=pool;
+      var local=pool.filter(function(s){return GROUP[s.area]===area;}); if(local.length<3)local=pool;
       local.sort(function(a,b){return score(b)-score(a);});
-      var lunch=local.find(function(s){return s.lunch_price_yen!=='unknown'||s.budget_band==='under1500';})||local[0];
+      var meals=local.filter(function(s){return s.kind!=='snack';}), snacks=local.filter(function(s){return s.kind==='snack';});
+      var lunch=meals.find(function(s){return s.lunch_ok!==false&&(s.budget_band==='under1500'||s.budget_band==='1500-4000');})||meals.find(function(s){return s.lunch_ok!==false;});
       if(lunch)used[lunch.name_en]=1;
-      var dinner=local.find(function(s){return !used[s.name_en]&&s.genre!==(lunch||{}).genre&&s.dinner_price_yen!=='unknown';})||local.find(function(s){return !used[s.name_en];});
+      var snack=snacks.find(function(s){return !used[s.name_en];}); if(snack)used[snack.name_en]=1;
+      var dinner=meals.find(function(s){return !used[s.name_en]&&s.dinner_ok!==false&&fam(s)!==fam(lunch||{genre:''});})||meals.find(function(s){return !used[s.name_en]&&s.dinner_ok!==false;});
       if(dinner)used[dinner.name_en]=1;
-      plan.push({date:date,area:area,meals:[['昼','Lunch',lunch],['夜','Dinner',dinner]]});
+      plan.push({date:date,area:LABEL[area],meals:[['昼','Lunch',lunch],['甘','Snack',snack],['夜','Dinner',dinner]]});
     }
     plan.forEach(function(p,k){
       var sec=document.createElement('section');sec.className='day';
@@ -176,7 +182,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted);text-align:center}
         if(s.english_menu==='yes')tag('English menu');
         var dl=document.createElement('dl');
         function row(k,v){if(!v||v==='unknown')return;var dt=document.createElement('dt');dt.textContent=k;var dd=document.createElement('dd');dd.textContent=v;dl.append(dt,dd);}
-        row('Order',s.what_to_order);row('Price',m[1]==='Lunch'?s.lunch_price_yen:s.dinner_price_yen);row('Hours',s.hours);row('Closed',s.closed_days);row('Station',s.station+(s.walk_min&&s.walk_min!=='unknown'?' · '+s.walk_min+' min walk':''));row('Tip',s.tourist_tip);row('Checked',s.checked);
+        row('Order',s.what_to_order);row('Price',m[1]==='Dinner'?s.dinner_price_yen:s.lunch_price_yen);row('Hours',s.hours);row('Closed',s.closed_days);row('Station',s.station+(s.walk_min&&s.walk_min!=='unknown'?' · '+s.walk_min+' min walk':''));row('Tip',s.tourist_tip);row('Checked',s.checked);
         var a=document.createElement('a');a.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(s.name_ja+' '+s.area);a.target='_blank';a.rel='noopener';a.textContent='Open in Google Maps';
         body.append(h3,tags,dl,a);box.append(slot,body);sec.appendChild(box);
       });
