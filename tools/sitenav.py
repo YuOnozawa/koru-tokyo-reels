@@ -2,7 +2,7 @@
 Keep in sync with the copies inside site/planner/planner.js (phraseFor) if you change PHRASE_RULES."""
 
 NAV_CSS = (
-    '.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;'
+    '.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;'
     'background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}'
     '.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;'
     'font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}'
@@ -10,7 +10,7 @@ NAV_CSS = (
     '.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}'
     '.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}'
 )
-ITEMS = [('planner', '券売機', 'Plan meals'), ('phrases', '日本語', 'Phrases'), ('shops', 'お店', 'All shops')]
+ITEMS = [('planner', '券売機', 'Plan'), ('shops', 'お店', 'Shops'), ('phrases', '日本語', 'Phrases'), ('tips', '準備', 'Tips')]
 
 
 def nav(prefix, current):
@@ -37,3 +37,19 @@ def phrase_for(s):
         if any(w in hay for w in words):
             return ja, ro, en, anchor
     return 'ごちそうさまでした', 'gochisōsama deshita', 'thank you for the meal (when leaving)', 'pay'
+
+
+def sync_static(root):
+    """Re-write the nav block inside hand-made pages so they all match ITEMS."""
+    import os, re
+    pages = {'index.html': ('', ''), 'planner/index.html': ('../', 'planner'), 'phrases/index.html': ('../', 'phrases'),
+             'privacy/index.html': ('../', ''), 'tips/index.html': ('../', 'tips')}
+    for rel, (prefix, cur) in pages.items():
+        f = os.path.join(root, 'site', rel)
+        if not os.path.exists(f):
+            continue
+        h = open(f, encoding='utf-8').read()
+        h2 = re.sub(r'<nav class="kn" aria-label="Site">.*?</nav>', nav(prefix, cur), h, count=1, flags=re.S)
+        h2 = re.sub(r'\.kn\{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat\(\d,', '.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(%d,' % len(ITEMS), h2)
+        if h2 != h:
+            open(f, 'w', encoding='utf-8').write(h2)
