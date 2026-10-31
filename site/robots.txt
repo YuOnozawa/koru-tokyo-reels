@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yuonozawa.github.io/koru-tokyo-reels/sitemap.xml
