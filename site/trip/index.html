@@ -49,6 +49,31 @@ ul.check a{color:var(--red);font-weight:700}
 .soon{background:var(--led);color:var(--amber);border-radius:14px;padding:16px;font:15px/1.5 "DotGothic16",monospace;box-shadow:inset 0 0 0 3px #000}
 .soon h3{font:400 20px "Dela Gothic One",sans-serif;color:#ffd27a;margin:0 0 6px}
 .soon ul{margin:6px 0 10px;padding-left:20px}
+
+.banner{background:var(--red);color:#fff;border-radius:14px;padding:14px 16px;margin-top:16px;box-shadow:0 4px 0 var(--red-deep)}
+.banner b{font:400 18px "Dela Gothic One",sans-serif}
+.banner .row .btn{background:#fff;color:var(--red);box-shadow:none}
+.banner .row .btn.ghost{background:transparent;color:#fff;border-color:#fff}
+.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.form label{display:grid;gap:2px;font:700 13px "Zen Kaku Gothic New",sans-serif;color:var(--pmuted)}
+.form label.wide{grid-column:span 2}
+.form input,.form select{font:16px "Zen Kaku Gothic New",sans-serif;padding:9px;border-radius:8px;border:2px solid #d8d6cc;background:#fff;color:#22303a;width:100%;min-width:0}
+.taxi{margin-top:12px}
+.money-top{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;text-align:center}
+.money-top div{background:#f3f1e8;border-radius:10px;padding:8px 4px}
+.money-top b{display:block;font:400 20px "Dela Gothic One",sans-serif;color:var(--pink)}
+.money-top span{font-size:12px;color:var(--pmuted)}
+.cats{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.cats label{display:inline-flex;align-items:center;gap:4px;background:#f3f1e8;border-radius:999px;padding:7px 11px;font:700 13px "Zen Kaku Gothic New",sans-serif;cursor:pointer}
+.cats input{position:absolute;opacity:0}
+.cats label:has(input:checked){background:var(--pink);color:#fff}
+.add{display:grid;grid-template-columns:1fr 1.4fr auto;gap:8px}
+.add input{font:16px "Zen Kaku Gothic New",sans-serif;padding:9px;border-radius:8px;border:2px solid #d8d6cc;background:#fff;color:#22303a;min-width:0}
+.exp{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-top:2px dashed #e4e1d6;font-size:14px}
+.exp button{border:0;background:none;color:var(--pmuted);cursor:pointer;font-size:15px}
+.budget{height:12px;border-radius:6px;background:#e9e6da;overflow:hidden;margin:8px 0 2px}
+.budget i{display:block;height:100%;background:var(--green)}
+.budget.over i{background:var(--red)}
 footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
 .kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
 </style>
@@ -62,12 +87,43 @@ footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
   <p class="note">Everything here is saved on this phone only. Nothing is sent anywhere.</p>
 </main>
 
+<div class="banner" id="importBanner" hidden><b id="importTitle">A friend shared a Tokyo trip</b><div id="importInfo" style="font-size:14px;margin-top:4px"></div><div class="row"><button class="btn" type="button" id="importYes">Add to my trip</button><button class="btn ghost" type="button" id="importNo">Just look</button></div></div>
+
+<section class="blk"><h2>Flight &amp; hotel</h2><div class="card">
+  <div class="form">
+    <label>Landing (date + time)<input type="datetime-local" id="fArr"></label>
+    <label>Airport<select id="fAp"><option value="">–</option><option>Haneda (HND)</option><option>Narita (NRT)</option><option>Other</option></select></label>
+    <label>Flight no. (optional)<input type="text" id="fNo" placeholder="e.g. JL 5" maxlength="12"></label>
+    <label>Leaving (date + time)<input type="datetime-local" id="fDep"></label>
+    <label class="wide">Hotel name<input type="text" id="hName" placeholder="Hotel name as it appears in Japanese, if you can" maxlength="80"></label>
+    <label class="wide">Hotel address (for the taxi card)<input type="text" id="hAddr" placeholder="Copy the Japanese address from your booking" maxlength="120"></label>
+  </div>
+  <div class="taxi" id="taxi"></div>
+</div></section>
 <section class="blk" id="planBlk"><h2>My meal plan <a href="../planner/" id="editPlan">Edit</a></h2><div id="plan"></div></section>
 <section class="blk"><h2>Saved places <a href="../planner/?m=search">Find more</a></h2><div id="kept"></div></section>
+<section class="blk"><h2>Money</h2><div class="card">
+  <div class="money-top"><div><b id="mToday">¥0</b><span>today</span></div><div><b id="mTrip">¥0</b><span>whole trip</span></div><div><b id="mHome">–</b><span id="mHomeLbl">in your currency</span></div></div>
+  <div class="budget" id="mBudgetBar"><i></i></div><div style="font-size:12px;color:var(--pmuted)" id="mBudgetTxt"></div>
+  <div class="cats" id="mCats"></div>
+  <form class="add" id="mForm"><input type="number" inputmode="numeric" min="1" id="mAmt" placeholder="¥ amount" required><input type="text" id="mNote" placeholder="What (optional)" maxlength="40"><button class="btn" type="submit">Add</button></form>
+  <div id="mList"></div>
+  <details style="margin-top:10px;font-size:14px"><summary style="cursor:pointer;color:var(--pmuted);font-weight:700">Budget &amp; currency</summary>
+    <div class="form" style="margin-top:8px"><label>Daily budget (¥)<input type="number" inputmode="numeric" id="mBudget" placeholder="e.g. 10000"></label>
+    <label>Your currency<input type="text" id="mCur" placeholder="USD" maxlength="3" style="text-transform:uppercase"></label>
+    <label>1 of your currency = ¥<input type="number" step="0.01" id="mRate" placeholder="e.g. 150"></label>
+    <label>&nbsp;<button class="btn ghost" type="button" id="mFetch">Get today's rate</button></label></div>
+    <p class="note" id="mRateNote" style="color:var(--pmuted)"></p></details>
+</div></section>
 <section class="blk"><h2>Before you go</h2><div class="card"><ul class="check" id="check"></ul></div></section>
 <section class="blk"><h2>Japanese <a href="../phrases/">Practice</a></h2><div class="card" id="jp"></div></section>
 <section class="blk" id="cardBlk"><h2>Show-staff card <a href="../phrases/#diet">Change</a></h2><div class="card" id="allergy"></div></section>
 
+<section class="blk"><h2>Travel with friends</h2><div class="card">
+  <p style="margin:0 0 6px">Send your plan and saved places. Friends open the link and add them to their own My Trip. No sign-up.</p>
+  <label style="display:flex;gap:8px;align-items:center;font-size:14px"><input type="checkbox" id="shareFlight"> Include my dates (not flight or hotel)</label>
+  <div class="row"><button class="btn" type="button" id="shareTrip">Share my trip</button><span id="shareMsg" style="font-size:14px;align-self:center"></span></div>
+</div></section>
 <section class="blk"><div class="soon">
   <h3>Coming: Trip Notebook</h3>
   <div>I'm thinking about a paid version of this page for your trip:</div>
@@ -120,7 +176,8 @@ footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
       return r;
     }
     // plan
-    var lp = store('koru-lastplan'), box = $('plan');
+    var lp = window.__preview || store('koru-lastplan'), box = $('plan');
+    if (window.__preview) document.querySelector('#planBlk h2').firstChild.textContent = 'Shared plan (preview) ';
     if (lp && lp.days && lp.days.length) {
       $('editPlan').href = lp.url;
       lp.days.forEach(function (d, i) {
@@ -170,7 +227,99 @@ footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
     store('koru-want', 1); $('wantMsg').textContent = 'Thanks! Noted.'; $('want').disabled = true;
   });
   if (store('koru-want')) { $('wantMsg').textContent = 'Thanks! Noted.'; $('want').disabled = true; }
-  renderCount();
+
+  // ---------- flight & hotel ----------
+  var fl = store('koru-flight') || {};
+  [['fArr', 'arr'], ['fAp', 'ap'], ['fNo', 'no'], ['fDep', 'dep'], ['hName', 'hotel'], ['hAddr', 'addr']].forEach(function (x) {
+    var i = $(x[0]); i.value = fl[x[1]] || '';
+    i.addEventListener('change', function () { fl[x[1]] = i.value.trim(); store('koru-flight', fl);
+      if (x[1] === 'arr' && fl.arr) { var t = store('koru-trip') || {}; t.start = fl.arr.slice(0, 10); if (fl.dep) t.days = Math.max(1, Math.round((new Date(fl.dep.slice(0, 10)) - new Date(t.start)) / 86400000) + 1); store('koru-trip', t); }
+      renderCount(); renderTaxi(); });
+  });
+  function renderTaxi() {
+    var t = $('taxi'); t.replaceChildren(); if (!fl.hotel && !fl.addr) return;
+    var c = el('div', 'showcard'); c.append(el('div', null, 'ここまでお願いします。'), el('div', null, fl.hotel || ''), fl.addr ? el('div', null, fl.addr) : el('span'));
+    t.append(el('div', null, 'Show this to a taxi driver:'), c);
+  }
+  var baseCount = renderCount;
+  renderCount = function () {
+    baseCount();
+    if (fl.arr) {
+      var ms = new Date(fl.arr) - new Date(), c = $('count');
+      if (ms > 0) { var d = Math.floor(ms / 86400000), h = Math.floor(ms % 86400000 / 3600000); c.firstChild.textContent = 'Landing' + (fl.ap ? ' at ' + fl.ap.split(' (')[0] : '') + ' in'; c.children[1].textContent = d + 'd ' + h + 'h'; }
+    }
+  };
+
+  // ---------- money ----------
+  var CATS = [['food', '🍜 Food'], ['train', '🚃 Transit'], ['shop', '🛍 Shopping'], ['stay', '🏨 Stay'], ['fun', '🎟 Fun'], ['other', '• Other']];
+  var M = store('koru-money') || { items: [], budget: '', cur: '', rate: '' };
+  CATS.forEach(function (c, k) { var l = el('label'), i = document.createElement('input'); i.type = 'radio'; i.name = 'mcat'; i.value = c[0]; i.checked = k === 0; l.append(i, document.createTextNode(c[1])); $('mCats').appendChild(l); });
+  $('mBudget').value = M.budget || ''; $('mCur').value = M.cur || ''; $('mRate').value = M.rate || '';
+  function dkey(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  function yen(n) { return '¥' + Math.round(n).toLocaleString('en'); }
+  function renderMoney() {
+    var td = dkey(new Date()), tot = 0, day = 0, list = $('mList'); list.replaceChildren();
+    M.items.slice().reverse().forEach(function (x) {
+      tot += x.amt; if (x.d === td) day += x.amt;
+      var r = el('div', 'exp'), cat = (CATS.find(function (c) { return c[0] === x.cat; }) || CATS[5])[1];
+      r.append(el('span', null, x.d.slice(5) + ' · ' + cat + (x.note ? ' · ' + x.note : '')), el('b', null, yen(x.amt)));
+      var del = el('button', null, '✕'); del.type = 'button'; del.setAttribute('aria-label', 'Delete');
+      del.addEventListener('click', function () { M.items.splice(M.items.indexOf(x), 1); store('koru-money', M); renderMoney(); }); r.appendChild(del);
+      list.appendChild(r);
+    });
+    $('mToday').textContent = yen(day); $('mTrip').textContent = yen(tot);
+    var rate = +M.rate; $('mHome').textContent = rate > 0 ? (tot / rate).toFixed(0) + ' ' + (M.cur || '') : '–'; $('mHomeLbl').textContent = rate > 0 ? 'whole trip in ' + (M.cur || 'your currency') : 'set your currency below';
+    var b = +M.budget, bar = $('mBudgetBar'); bar.hidden = !b; $('mBudgetTxt').textContent = b ? 'Today ' + yen(day) + ' of ' + yen(b) + (day > b ? ' (over)' : '') : '';
+    if (b) { bar.firstChild.style.width = Math.min(100, day / b * 100) + '%'; bar.classList.toggle('over', day > b); }
+  }
+  $('mForm').addEventListener('submit', function (e) {
+    e.preventDefault(); var a = Math.round(+$('mAmt').value); if (!(a > 0)) return;
+    M.items.push({ d: dkey(new Date()), amt: a, cat: (document.querySelector('input[name=mcat]:checked') || {}).value || 'other', note: $('mNote').value.trim() });
+    store('koru-money', M); $('mAmt').value = ''; $('mNote').value = ''; renderMoney();
+  });
+  ['mBudget', 'mCur', 'mRate'].forEach(function (id) { $(id).addEventListener('change', function () { M.budget = $('mBudget').value; M.cur = $('mCur').value.toUpperCase(); M.rate = $('mRate').value; store('koru-money', M); renderMoney(); }); });
+  $('mFetch').addEventListener('click', function () {
+    var cur = ($('mCur').value || '').toUpperCase(); if (!/^[A-Z]{3}$/.test(cur)) { $('mRateNote').textContent = 'Type your 3-letter currency first (USD, EUR, GBP, AUD...).'; return; }
+    $('mRateNote').textContent = 'Getting the rate…';
+    fetch('https://open.er-api.com/v6/latest/' + cur).then(function (r) { return r.json(); }).then(function (j) {
+      var r = j && j.rates && j.rates.JPY; if (!r) throw 0;
+      $('mRate').value = r.toFixed(2); M.cur = cur; M.rate = r.toFixed(2); store('koru-money', M); renderMoney();
+      $('mRateNote').textContent = 'Rate from open.er-api.com, updated ' + (j.time_last_update_utc || 'recently') + '. Your bank\'s rate will differ a little.';
+    }).catch(function () { $('mRateNote').textContent = 'Could not get the rate. Type it in instead.'; });
+  });
+
+  // ---------- share / import a trip ----------
+  function b64e(o) { return btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); }
+  function b64d(s) { s = s.replace(/-/g, '+').replace(/_/g, '/'); while (s.length % 4) s += '='; return JSON.parse(decodeURIComponent(escape(atob(s)))); }
+  $('shareTrip').addEventListener('click', function () {
+    var lp = store('koru-lastplan'), pack = { v: 1, plan: lp ? { url: lp.url, days: lp.days } : null, kept: store('koru-kept') || [] };
+    if ($('shareFlight').checked) { var t = store('koru-trip'); if (t) pack.trip = { start: t.start, days: t.days }; }
+    var url = location.href.split('?')[0].split('#')[0] + '?t=' + b64e(pack);
+    var text = 'Our Tokyo food trip 🎫 Open it and add it to your own My Trip:';
+    if (window.koruEvent) koruEvent('share_trip');
+    if (navigator.share) navigator.share({ title: 'Our Tokyo trip', text: text, url: url }).catch(function () {});
+    else if (navigator.clipboard) navigator.clipboard.writeText(text + ' ' + url).then(function () { $('shareMsg').textContent = 'Link copied. Paste it to your friends.'; });
+    else $('shareMsg').textContent = url;
+  });
+  var tq = new URLSearchParams(location.search).get('t');
+  if (tq) {
+    try {
+      var pk = b64d(tq), n = pk.plan && pk.plan.days ? pk.plan.days.length : 0;
+      $('importBanner').hidden = false;
+      $('importInfo').textContent = (n ? n + '-day meal plan' : 'No plan') + ' · ' + (pk.kept || []).length + ' saved places' + (pk.trip && pk.trip.start ? ' · starts ' + pk.trip.start : '');
+      $('importYes').addEventListener('click', function () {
+        if (pk.plan) store('koru-lastplan', { url: pk.plan.url, saved: new Date().toISOString(), days: pk.plan.days, from: 'friend' });
+        var k = store('koru-kept') || []; (pk.kept || []).forEach(function (x) { if (k.indexOf(x) < 0) k.push(x); }); store('koru-kept', k);
+        if (pk.trip && pk.trip.start) store('koru-trip', pk.trip);
+        if (window.koruEvent) koruEvent('import_trip');
+        location.replace(location.pathname);
+      });
+      $('importNo').addEventListener('click', function () { $('importBanner').hidden = true; });
+      if (pk.plan) { var cur = store('koru-lastplan'); window.__preview = pk.plan; }
+    } catch (e) {}
+  }
+
+  renderCount(); renderTaxi(); renderMoney();
 })();
 </script>
 </body>

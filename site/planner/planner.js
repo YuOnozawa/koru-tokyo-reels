@@ -227,6 +227,8 @@
     store('koru-trip', { start: o.start, days: o.days });
     // overview
     var ov = el('section', 'overview'); ov.appendChild(el('h2', null, 'Your plan at a glance'));
+    var nb = el('a', 'nbcta'); nb.href = '../trip/'; nb.append(el('b', null, '📒 Make this my trip notebook'), el('span', null, 'Add flights, hotel, a money tracker and your checklist. Share it with friends.'));
+    nb.addEventListener('click', function () { if (window.koruEvent) koruEvent('to_trip'); });
     lastPlan.days.forEach(function (day, k) {
       var line = el('a', 'ov-day'); line.href = '#day' + (k + 1);
       line.append(el('b', null, 'Day ' + (k + 1)), el('span', 'ov-date', day.date.toLocaleDateString('en', { weekday: 'short', month: 'short', day: 'numeric' }) + ' · ' + day.area),
@@ -242,9 +244,8 @@
       rs.addEventListener('click', function () { HISTORY.push(JSON.stringify({ e: EDITS, y: DAYAREA })); EDITS = {}; DAYAREA = {}; rerender(null, 'Back to the original tickets.'); });
       ovActs.appendChild(rs);
     }
-    var mt = el('a', 'mini', '📒 Open My Trip'); mt.href = '../trip/'; ovActs.appendChild(mt);
     var ph = el('a', 'mini', '🗣 Learn 30 restaurant phrases'); ph.href = '../phrases/'; ovActs.appendChild(ph);
-    ov.appendChild(ovActs); out.appendChild(ov);
+    ov.appendChild(ovActs); ov.appendChild(nb); out.appendChild(ov);
     var n = 0;
     lastPlan.days.forEach(function (day, k) {
       var sec = el('section', 'day'); sec.id = 'day' + (k + 1);
