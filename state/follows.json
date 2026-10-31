@@ -1,0 +1,69 @@
+{
+ "rules": "<=30 per 2-3h (run 10/hour max), targets: people asking for Tokyo/Japan guides or planning trips; stop on any IG warning",
+ "log": [
+  {
+   "user": "andie_pay",
+   "state": "following",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "kookietaetae9597",
+   "state": "requested",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "kopisodapia",
+   "state": "requested",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "bridglandsteve",
+   "state": "requested",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "nehanandi",
+   "state": "requested",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "itsaso.ub",
+   "state": "requested",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "shimabaughman",
+   "state": "following",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "gemelosammy",
+   "state": "requested",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "csanyi.judit_official",
+   "state": "following",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  },
+  {
+   "user": "ella.cupid",
+   "state": "following",
+   "at": "2026-10-31T01:30 Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/ (#tokyoitinerary)"
+  }
+ ],
+ "candidates": [
+  "rushmiik",
+  "fideito45"
+ ]
+}
