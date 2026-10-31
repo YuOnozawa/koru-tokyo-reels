@@ -1,12 +1,13 @@
 (function () {
   // Apps Script web app URL that stores the request in Yu's sheet and emails the plan.
   // Empty = the email box stays hidden.
-  var ENDPOINT = '';
+  var CFG = window.KORU || {};
+  var ENDPOINT = CFG.ENDPOINT || '';
   // Tips. TIP_URL = the tip page (Ko-fi, Buy Me a Coffee, Stripe Payment Link with "customer chooses price", PayPal.me...).
   // TIP_AMOUNT_URL (optional) = a page that takes a preset amount, with {amt} replaced, e.g. 'https://paypal.me/NAME/{amt}USD'.
   // Empty TIP_URL = the tip jar stays hidden.
-  var TIP_URL = '';
-  var TIP_AMOUNT_URL = '';
+  var TIP_URL = CFG.TIP_URL || '';
+  var TIP_AMOUNT_URL = CFG.TIP_AMOUNT_URL || '';
 
   var AREAS = [['akiba', '秋葉原', 'Akihabara', 'cap-red', ['Akihabara', 'Suehirocho']], ['ueno', '上野・湯島', 'Ueno & Yushima', 'cap-green', ['Ueno', 'Okachimachi', 'Yushima']], ['asakusa', '浅草', 'Asakusa', 'cap-yellow', ['Asakusa', 'Kuramae']], ['kanda', '神田・神保町', 'Kanda & Jimbocho', 'cap-blue', ['Kanda', 'Jimbocho', 'Ochanomizu']]];
   var BUDGETS = [['under1500', '¥1,500', 'Cheap eats', 'cap-green'], ['1500-4000', '¥4,000', 'Everyday', 'cap-blue'], ['4000-10000', '¥10,000', 'Treat', 'cap-yellow'], ['10000plus', '上限なし', 'No limit', 'cap-red']];
@@ -241,6 +242,7 @@
       rs.addEventListener('click', function () { HISTORY.push(JSON.stringify({ e: EDITS, y: DAYAREA })); EDITS = {}; DAYAREA = {}; rerender(null, 'Back to the original tickets.'); });
       ovActs.appendChild(rs);
     }
+    var mt = el('a', 'mini', '📒 Open My Trip'); mt.href = '../trip/'; ovActs.appendChild(mt);
     var ph = el('a', 'mini', '🗣 Learn 30 restaurant phrases'); ph.href = '../phrases/'; ovActs.appendChild(ph);
     ov.appendChild(ovActs); out.appendChild(ov);
     var n = 0;
@@ -277,6 +279,8 @@
       });
       out.appendChild(sec);
     });
+    store('koru-lastplan', { url: shareUrl(), saved: new Date().toISOString(), days: lastPlan.days.map(function (d) { return { date: isoD(d.date), area: d.area, meals: d.meals.map(function (m) { return [m[0], m[1], m[2] ? m[2].slug : null]; }) }; }) });
+    if (!quiet && window.koruEvent) koruEvent('plan_print', o.areas.join('+'));
     cta.hidden = false; $('mailbox').hidden = !ENDPOINT; $('sharebox').hidden = false; $('tipjar').hidden = !TIP_URL;
     $('storyimg').hidden = true; updateShareLinks();
     history.replaceState(null, '', shareUrl());
@@ -289,6 +293,7 @@
     var y = Object.keys(DAYAREA).map(function (k) { return k + ':' + DAYAREA[k]; }); if (y.length) u.searchParams.set('y', y.join(','));
     return u.toString();
   }
+  function isoD(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
   function ymd(d) { return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0'); }
   function downloadIcs() {
     var times = [['120000', '133000'], ['153000', '161500'], ['190000', '203000']], L = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Tokyo Food Ticket Machine//EN', 'CALSCALE:GREGORIAN'];
@@ -490,6 +495,7 @@
     $('s-fb').href = 'https://www.facebook.com/sharer/sharer.php?u=' + u;
   }
   $('nshare').addEventListener('click', function () {
+    if (window.koruEvent) koruEvent('share_plan');
     var st = $('sstatus');
     if (navigator.share) navigator.share({ title: 'My Tokyo meal tickets', text: shareText(), url: shareUrl() }).catch(function () {});
     else navigator.clipboard && navigator.clipboard.writeText(shareText() + '\n' + shareUrl()).then(function () { st.textContent = 'Plan and link copied. Paste it anywhere.'; });

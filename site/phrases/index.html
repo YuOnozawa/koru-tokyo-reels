@@ -122,13 +122,13 @@ dialog::backdrop{background:rgba(10,15,20,.6)}
 .ctaRow a.red{background:var(--red);color:#fff;box-shadow:0 4px 0 var(--red-deep)}
 footer{margin:26px auto 0;font-size:13px;color:var(--steel-muted);text-align:center}
 #toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);width:max-content;max-width:min(92vw,520px);z-index:50;background:#17110c;color:var(--amber);font:15px/1.4 var(--dot);padding:12px 16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}
+.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
 .find{display:block;text-align:right;font:700 14px var(--zen);color:var(--red);margin:-2px 6px 0}
 </style>
 </head>
 <body>
 <div class="wrap">
-<nav class="kn" aria-label="Site"><a href="../planner/">券売機<span>Plan</span></a><a href="../shops/">お店<span>Shops</span></a><a href="../phrases/" aria-current="page">日本語<span>Phrases</span></a><a href="../tips/">準備<span>Tips</span></a></nav>
+<nav class="kn" aria-label="Site"><a href="../planner/">券売機<span>Plan</span></a><a href="../shops/">お店<span>Shops</span></a><a href="../phrases/" aria-current="page">日本語<span>Phrases</span></a><a href="../tips/">準備<span>Tips</span></a><a href="../trip/">旅<span>My trip</span></a></nav>
 <main class="machine">
   <div class="led" aria-hidden="true"><div class="led-track"><span>覚えて行こう　LEARN BEFORE YOU GO　いただきます　ごちそうさまでした</span><span>覚えて行こう　LEARN BEFORE YOU GO　いただきます　ごちそうさまでした</span></div></div>
   <h1>Restaurant Japanese</h1>
@@ -350,5 +350,6 @@ footer{margin:26px auto 0;font-size:13px;color:var(--steel-muted);text-align:cen
   renderCount(); renderProgress();
 })();
 </script>
+<script src="../config.js"></script><script>window.koruEvent&&koruEvent("phrases_open")</script>
 </body>
 </html>

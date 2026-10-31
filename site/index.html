@@ -38,11 +38,11 @@ h1{font:400 30px/1.15 "Dela Gothic One",sans-serif;margin:0}
 .key.main span{color:#ffe9e9}
 .ig{display:block;text-align:center;margin-top:18px;font:900 16px "Zen Kaku Gothic New",sans-serif;color:var(--ink)}
 footer{max-width:640px;margin:22px auto 0;font-size:13px;color:var(--muted);text-align:center}
-.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}
+.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
 </style>
 </head>
 <body>
-<nav class="kn" aria-label="Site"><a href="planner/">券売機<span>Plan</span></a><a href="shops/">お店<span>Shops</span></a><a href="phrases/">日本語<span>Phrases</span></a><a href="tips/">準備<span>Tips</span></a></nav>
+<nav class="kn" aria-label="Site"><a href="planner/">券売機<span>Plan</span></a><a href="shops/">お店<span>Shops</span></a><a href="phrases/">日本語<span>Phrases</span></a><a href="tips/">準備<span>Tips</span></a><a href="trip/">旅<span>My trip</span></a></nav>
 <main class="machine">
   <div class="led" aria-hidden="true">いらっしゃいませ　WELCOME TO TOKYO FOOD</div>
   <div class="hello"><img src="list/koru.jpg" alt="Koru the dog" width="76" height="76"><div><h1>Tokyo Food Ticket Machine</h1><p>Free tools from Yu, an office worker in Akihabara, and Koru. No sign-up.</p></div></div>
@@ -53,9 +53,11 @@ footer{max-width:640px;margin:22px auto 0;font-size:13px;color:var(--muted);text
     <a class="key" href="shops/" style="--c:#2f6db5"><b>お店</b><strong>298 shops</strong><span>Akihabara, Ueno, Asakusa, Kanda. Facts checked.</span></a>
     <a class="key" href="planner/?m=search" style="--c:#7b5cd6"><b>検索</b><strong>Search</strong><span>Ramen, sushi, open on Monday, under ¥1,500…</span></a>
     <a class="key" href="tips/" style="--c:#ff8fb1"><b>準備</b><strong>Before you go</strong><span>Cash or card, Suica, no tipping, tax-free rules.</span></a>
+    <a class="key" href="trip/" style="--c:#17110c"><b>旅</b><strong>My trip</strong><span>Your plan, saved places, checklist and countdown.</span></a>
   </div>
   <a class="ig" href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">New spots 3 times a day on Instagram: @koru.tokyo_guide →</a>
 </main>
 <footer>Facts only, no paid placement. <a href="privacy/">Privacy</a></footer>
+<script src="config.js"></script><script>window.koruEvent&&koruEvent("home_open")</script>
 </body>
 </html>

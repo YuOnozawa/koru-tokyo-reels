@@ -18,6 +18,7 @@ function doPost(e) {
   try {
     var d = JSON.parse((e && e.postData && e.postData.contents) || '{}');
     if (d.action === 'archive') return out(archive(d));
+    if (d.action === 'event') return out(countEvent(d));
     if (d.action === 'react') return out(react(d));
     if (d.action === 'review') return out(review(d));
     var email = String(d.email || '').trim();
@@ -73,6 +74,18 @@ function archive(d) {
 function doGet(e) {
   if (e && e.parameter && e.parameter.action === 'community') return out(community());
   return out({ ok: true, service: 'koru planner backend' });
+}
+
+// ---------- anonymous usage counts: one row per day + event name ----------
+function countEvent(d) {
+  var name = String(d.name || '').replace(/[^a-z0-9_]/gi, '').slice(0, 40); if (!name) return { ok: false };
+  var day = Utilities.formatDate(new Date(), 'Asia/Tokyo', 'yyyy-MM-dd');
+  var sh = sheet('events', ['date', 'event', 'count']), rows = sh.getDataRange().getValues();
+  for (var i = rows.length - 1; i >= 1 && i >= rows.length - 400; i--) {
+    var rd = rows[i][0] instanceof Date ? Utilities.formatDate(rows[i][0], 'Asia/Tokyo', 'yyyy-MM-dd') : String(rows[i][0]);
+    if (rd === day && rows[i][1] === name) { sh.getRange(i + 1, 3).setValue((+rows[i][2] || 0) + 1); return { ok: true }; }
+  }
+  sh.appendRow([day, name, 1]); return { ok: true };
 }
 
 // ---------- community: reactions, comments, photos ----------
