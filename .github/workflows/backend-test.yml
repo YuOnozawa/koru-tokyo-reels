@@ -19,13 +19,14 @@ jobs:
         run: |
           U="${{ inputs.url }}"; [ -n "$U" ] || U=$(python3 -c "import re;print(re.search(r\"ENDPOINT: '([^']*)'\",open('site/config.js').read()).group(1))")
           [ -n "$U" ] || { echo "ENDPOINT empty"; exit 1; }
-          post() { curl -sSL -m 60 -H 'Content-Type: text/plain' -d "$1" "$U"; echo; }
-          echo "== community";  curl -sSL -m 60 "$U?action=community" | head -c 400; echo
-          echo "== event";      post '{"action":"event","name":"backend_test","page":"ci"}'
-          echo "== react +1";   post '{"action":"react","slug":"zz-test","type":"like"}'
-          echo "== react -1";   post '{"action":"react","slug":"zz-test","type":"like","delta":-1}'
-          echo "== sync_save";  post '{"action":"sync_save","code":"KORU-TEST-TEST","data":{"test":true}}'
-          echo "== sync_load";  curl -sSL -m 60 "$U?action=sync_load&code=KORU-TEST-TEST" | head -c 300; echo
+          note() { echo "::notice title=$1::$(echo "$2" | tr -d '\n' | head -c 300)"; }
+          post() { curl -sSL -m 60 -H 'Content-Type: text/plain' -d "$1" "$U"; }
+          note community "$(curl -sSL -m 60 "$U?action=community")"
+          note event "$(post '{"action":"event","name":"backend_test","page":"ci"}')"
+          note react_plus "$(post '{"action":"react","slug":"zz-test","type":"like"}')"
+          note react_minus "$(post '{"action":"react","slug":"zz-test","type":"like","delta":-1}')"
+          note sync_save "$(post '{"action":"sync_save","code":"KORU-TEST-TEST","data":{"test":true}}')"
+          note sync_load "$(curl -sSL -m 60 "$U?action=sync_load&code=KORU-TEST-TEST")"
           if [ -n "${{ inputs.archive }}" ]; then
-            echo "== archive"; post "{\"action\":\"archive\",\"name\":\"${{ inputs.archive }}\",\"url\":\"https://github.com/YuOnozawa/koru-tokyo-reels/releases/download/video-store/${{ inputs.archive }}\"}"
+            note archive "$(post "{\"action\":\"archive\",\"name\":\"${{ inputs.archive }}\",\"url\":\"https://github.com/YuOnozawa/koru-tokyo-reels/releases/download/video-store/${{ inputs.archive }}\"}")"
           fi
