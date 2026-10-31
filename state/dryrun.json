@@ -1,11 +1,11 @@
 {
- "at": "2026-10-12T05:46:49.757971+00:00",
+ "at": "2026-10-31T02:26:27.969946+00:00",
  "item": "w2_01_taxfree",
- "video_url": "https://yuonozawa.github.io/koru-tokyo-reels/videos/w2_01_taxfree.mp4",
+ "video_url": "https://github.com/YuOnozawa/koru-tokyo-reels/releases/download/video-store/w2_01_taxfree.mp4",
  "result": {
   "status_code": "FINISHED",
   "status": "FINISHED",
-  "id": "18123856741779964"
+  "id": "18129774628779964"
  },
  "published": false
 }
