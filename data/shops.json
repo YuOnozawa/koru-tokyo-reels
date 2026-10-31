@@ -378,7 +378,7 @@
   "reservation": "not_needed",
   "what_to_order": "Soup curry",
   "tourist_tip": "No reservations; pay before eating",
-  "yu_pick": false,
+  "yu_pick": true,
   "sources": [
    "https://tabelog.com/tokyo/A1310/A131002/13121713/",
    "https://tabelog.com/curry/tokyo/A1310/rank/"
@@ -2670,6 +2670,33 @@
    "https://tabelog.com/en/tokyo/A1311/A131103/13191776/dtlrvwlst/B238835910/",
    "https://retty.me/restaurant/100001258079/",
    "https://tokyobyfood.com/kuramae-food-guide/"
+  ],
+  "checked": "2026-10-31",
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true
+ },
+ {
+  "name_en": "Mochizuki Curry",
+  "name_ja": "モチヅキカレー",
+  "area": "Suehirocho",
+  "genre": "Japanese curry",
+  "station": "Suehirocho (Ginza Line Exit 4)",
+  "walk_min": 1,
+  "hours": "Mon-Thu & Sat 11:00-19:30 (LO 19:00); Fri 11:00-21:30 (LO 21:00) per Tabelog (Retty lists closing 30 min earlier)",
+  "closed_days": "Sunday and public holidays",
+  "lunch_price_yen": "under 1000",
+  "dinner_price_yen": "1000-2000",
+  "budget_band": "under1500",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "not_needed",
+  "what_to_order": "Chicken curry",
+  "tourist_tip": "16 seats. Tabelog says no cards, e-money or QR payments; Retty lists PayPay, so bring cash to be safe. 9 min walk from JR Akihabara.",
+  "yu_pick": true,
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1311/A131101/13249556/",
+   "https://retty.me/area/PRE13/ARE11/SUB1102/100001549947/"
   ],
   "checked": "2026-10-31",
   "kind": "meal",
