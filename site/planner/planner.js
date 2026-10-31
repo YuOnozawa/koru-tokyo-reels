@@ -284,7 +284,7 @@
     });
     store('koru-lastplan', { url: shareUrl(), saved: new Date().toISOString(), days: lastPlan.days.map(function (d) { return { date: isoD(d.date), area: d.area, meals: d.meals.map(function (m) { return [m[0], m[1], m[2] ? m[2].slug : null]; }) }; }) });
     if (!quiet && window.koruEvent) koruEvent('plan_print', o.areas.join('+'));
-    cta.hidden = false; $('mailbox').hidden = !ENDPOINT; $('sharebox').hidden = false; $('tipjar').hidden = !TIP_URL;
+    cta.hidden = false; $('mailbox').hidden = !(ENDPOINT && CFG.MAIL); $('sharebox').hidden = false; $('tipjar').hidden = !TIP_URL;
     $('storyimg').hidden = true; updateShareLinks();
     history.replaceState(null, '', shareUrl());
   }
@@ -429,7 +429,7 @@
   function setMode(m) {
     document.querySelectorAll('.mode').forEach(function (x) { x.hidden = x.dataset.mode !== m; });
     out.hidden = m !== 'plan'; $('gout').hidden = m !== 'gacha'; $('sout').hidden = m !== 'search';
-    $('mailbox').hidden = m !== 'plan' || !lastPlan || !ENDPOINT; cta.hidden = m !== 'plan' || !lastPlan;
+    $('mailbox').hidden = m !== 'plan' || !lastPlan || !(ENDPOINT && CFG.MAIL); cta.hidden = m !== 'plan' || !lastPlan;
     $('sharebox').hidden = m !== 'plan' || !lastPlan; $('tipjar').hidden = !TIP_URL || (m === 'plan' && !lastPlan);
     if (m === 'search') search();
     store('koru-mode', m);

@@ -408,6 +408,7 @@ footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
       var em = prompt('The email you saved with your code:'); if (!em) return;
       fetch(EP, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'sync_recover', email: em }) }).finally(function () { $('syncMsg').textContent = 'If that email has a code, it is on its way.'; });
     });
+    if (!(window.KORU || {}).MAIL) { $('syncEmail').closest('.form').hidden = true; $('syncLost').hidden = true; }
     paint();
     // pull newer data when opening the page; push when leaving it
     if (SY.code) load(SY.code, false, true).then(function (ok) { if (ok && SY.at && !sessionStorage.getItem('koru-synced')) { try { sessionStorage.setItem('koru-synced', '1'); } catch (e) {} location.reload(); } });

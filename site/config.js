@@ -1,9 +1,12 @@
 /* Site-wide settings. Fill these in and every page picks them up.
    ENDPOINT       = Apps Script web app URL (plan emails, likes/photos, usage counts). Empty = those features stay hidden.
    TIP_URL        = tip page (Ko-fi, Buy Me a Coffee, Stripe Payment Link with "customer chooses price", PayPal.me...). Empty = tip jar hidden.
+   MAIL           = true lets the site send emails (plan email, lost sync code). Keep false until the web app runs on the project-only Google account,
+                    because emails go out from the account that deployed it.
    TIP_AMOUNT_URL = optional page that takes a preset amount, {amt} is replaced, e.g. 'https://paypal.me/NAME/{amt}USD'. */
 window.KORU = {
-  ENDPOINT: '',
+  ENDPOINT: 'https://script.google.com/macros/s/AKfycbze7BiocZZyiys_i6Wau08TUdZleUMT_u4bM2dUsZNVPnn3PsvYo1SEtgeVP5AJN-8nkQ/exec',
+  MAIL: false,
   TIP_URL: '',
   TIP_AMOUNT_URL: ''
 };
