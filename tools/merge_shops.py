@@ -46,7 +46,8 @@ def main(dry):
             x['yu_pick'] = False; x['checked'] = x.get('checked') or '2026-10-31'
             errs = check(x)
             nj, ne = norm(x.get('name_ja', '')), norm(x.get('name_en', ''))
-            if not errs and (nj in seen_ja or ne in seen_en): errs.append('duplicate')
+            dup = nj in seen_ja or ne in seen_en or any(len(a) >= 3 and len(nj) >= 3 and (a in nj or nj in a) for a in seen_ja)
+            if not errs and dup: errs.append('duplicate')
             if errs:
                 dropped.append((os.path.basename(f), x.get('name_en'), errs)); continue
             seen_ja.add(nj); seen_en.add(ne); added.append(x)
