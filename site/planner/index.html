@@ -55,6 +55,8 @@ h1 span{display:block;font:700 15px/1.4 var(--zen);color:var(--steel-muted);lett
   box-shadow:0 4px 0 var(--btn-edge),inset 0 1px 0 rgba(255,255,255,.7);border-top:9px solid var(--cap,#2f6db5);transition:transform .06s}
 .key .jp{display:block;font:900 19px/1.15 var(--zen)}
 .key .en{display:block;font:700 12px/1.25 var(--zen);color:var(--steel-muted);margin-top:3px}
+.key .face::after{content:"";position:absolute;top:6px;right:8px;width:9px;height:9px;border-radius:50%;background:var(--btn-edge)}
+.key input:checked+.face::after{background:var(--lamp);box-shadow:0 0 8px 2px var(--lamp)}
 .key input:checked+.face{transform:translateY(3px);box-shadow:0 1px 0 var(--btn-edge),0 0 0 3px var(--lamp),0 0 18px var(--lamp)}
 .key input:focus-visible+.face{outline:3px solid var(--red);outline-offset:3px}
 .key.small .face{min-height:58px}
