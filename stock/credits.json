@@ -304,5 +304,41 @@
   "license_version": "1.0",
   "source": "https://wordpress.org/photos/photo/47638e2776/",
   "provider": "wordpress"
+ },
+ "bar_counter_0.jpg": {
+  "query": "bar counter",
+  "title": "Free cocktail glass bar counter",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/5907784/photo-image-public-domain-person-glass",
+  "provider": "rawpixel"
+ },
+ "bar_counter_1.jpg": {
+  "query": "bar counter",
+  "title": "Stool Bar",
+  "creator": "Brodie Vissers",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/stool-bar-4QXLX5ZULO",
+  "provider": "stocksnap"
+ },
+ "bar_counter_2.jpg": {
+  "query": "bar counter",
+  "title": "Bar Whisky",
+  "creator": "EVG Photos",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://stocksnap.io/photo/bar-whisky-KNNX4MHSPK",
+  "provider": "stocksnap"
+ },
+ "bar_counter_3.jpg": {
+  "query": "bar counter",
+  "title": "Irish bar, draft beer dispensing",
+  "creator": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.rawpixel.com/image/6111358/photo-image-public-domain-celebration-glass",
+  "provider": "rawpixel"
  }
 }
