@@ -277,6 +277,12 @@ def main():
     with open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(index_page(by_area, slugs))
 
+    # keep the shop count on the home page in sync
+    hub = os.path.join(ROOT, 'site', 'index.html')
+    if os.path.exists(hub):
+        h = open(hub, encoding='utf-8').read()
+        open(hub, 'w', encoding='utf-8').write(re.sub(r'\b\d+ shops', '%d shops' % len(shops), h))
+
     # planner data: same facts plus the page slug (used for share links and "shop page" links)
     with open(os.path.join(ROOT, 'site', 'planner', 'shops.json'), 'w', encoding='utf-8') as f:
         json.dump([dict(s, slug=slugs[id(s)]) for s in shops], f, ensure_ascii=False)
