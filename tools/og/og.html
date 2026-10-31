@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Dela;src:url(/home/claude/fonts/DelaGothicOne-Regular.ttf)}
+@font-face{font-family:Dot;src:url(/home/claude/fonts/DotGothic16-Regular.ttf)}
+@font-face{font-family:Zen;font-weight:900;src:url(/home/claude/fonts/ZenKakuGothicNew-Black.ttf)}
+@font-face{font-family:Zen;font-weight:700;src:url(/home/claude/fonts/ZenKakuGothicNew-Bold.ttf)}
+*{box-sizing:border-box}body{margin:0;width:1200px;height:630px;background:#c9d2d7;font-family:Zen;overflow:hidden}
+.m{position:absolute;inset:34px 470px 34px 34px;background:#dfe5e8;border-radius:28px;padding:30px 34px;box-shadow:inset 0 3px 0 rgba(255,255,255,.6),0 20px 40px -20px rgba(20,30,40,.5)}
+.led{background:#17110c;border-radius:12px;padding:14px 20px;box-shadow:inset 0 0 0 4px #000;font:30px/1.2 Dot;color:#ffa22b;text-shadow:0 0 8px rgba(255,150,40,.8);white-space:nowrap}
+h1{font:400 74px/1.05 Dela;color:#22303a;margin:30px 0 8px}
+p{font:700 27px/1.45 Zen;color:#5d6b75;margin:0}
+.keys{display:flex;gap:12px;margin-top:26px}
+.k{flex:1;background:#fbfcfc;border-radius:10px;box-shadow:0 5px 0 #aeb9c0;border-top:12px solid var(--c);padding:10px 6px;text-align:center;font:900 22px/1.15 Zen;color:#22303a}
+.k small{display:block;font:700 15px Zen;color:#5d6b75}
+.btn{position:absolute;left:34px;right:34px;bottom:30px;background:#d7262e;color:#fff;border-radius:14px;box-shadow:0 7px 0 #9d141a;text-align:center;font:400 34px/1 Dela;padding:20px}
+.t{position:absolute;width:380px;background:#fffef8;padding:20px 24px;filter:drop-shadow(0 6px 8px rgba(30,40,50,.25));
+ -webkit-mask:radial-gradient(circle 9px at 0 50%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 9px at 100% 50%,#0000 98%,#000) right/51% 100% no-repeat}
+.t .top{display:flex;justify-content:space-between;font:22px/1.2 Dot;color:#6f7287;border-bottom:3px dashed #d8d6cc;padding-bottom:10px;margin-bottom:12px}
+.t .top b{color:#2b2f45;font-weight:400}
+.t h2{font:900 30px/1.2 Zen;color:#2b2f45;margin:0}
+.t .ja{font:700 18px Zen;color:#6f7287;margin-top:2px}
+.t .o{font:20px/1.4 Dot;color:#2b2f45;margin-top:10px}
+.hk{position:absolute;right:20px;top:58px;width:84px;height:84px;border:4px solid #d7262e;border-radius:50%;color:#d7262e;display:grid;place-items:center;text-align:center;font:900 15px/1.05 Zen;transform:rotate(-12deg)}
+.hk b{display:block;font:400 22px Dela}
+</style></head><body>
+<div class="m">
+ <div class="led">いらっしゃいませ ・ FREE TOKYO FOOD PLAN</div>
+ <h1>東京めし券売機</h1>
+ <p>Tokyo Food Ticket Machine. Press the buttons,<br>get a day-by-day food plan from a local.</p>
+ <div class="keys"><div class="k" style="--c:#d7262e">秋葉原<small>Akihabara</small></div><div class="k" style="--c:#2e9c5a">上野<small>Ueno</small></div><div class="k" style="--c:#f2b705">浅草<small>Asakusa</small></div><div class="k" style="--c:#2f6db5">神田<small>Kanda</small></div></div>
+ <div class="btn">発券 PRINT MY TICKETS</div>
+</div>
+<div class="t" style="right:70px;top:46px;transform:rotate(4deg)"><div class="top"><b>食券 昼 LUNCH</b><span>No.101</span></div><h2>Curry, 4 kinds<br>on one plate</h2><div class="ja">秋葉原</div><div class="o">▶ what to order</div><div class="hk"><div><b>推し</b>Yu's pick</div></div></div>
+<div class="t" style="right:40px;top:262px;transform:rotate(-3deg)"><div class="top"><b>食券 甘 SWEET</b><span>No.102</span></div><h2>Dorayaki since 1913</h2><div class="ja">上野</div></div>
+<div class="t" style="right:82px;top:430px;transform:rotate(2deg)"><div class="top"><b>食券 夜 DINNER</b><span>No.103</span></div><h2>Beef hotpot, 1886</h2><div class="ja">浅草</div></div>
+</body></html>

@@ -120,7 +120,8 @@ def page(title, desc, canonical, body, jsonld=None, og_type='website'):
             '<title>%s</title><meta name="description" content="%s"><link rel="canonical" href="%s">'
             '<meta property="og:type" content="%s"><meta property="og:title" content="%s"><meta property="og:description" content="%s">'
             '<meta property="og:url" content="%s"><meta property="og:site_name" content="Tokyo Food Ticket Machine">'
-            '<meta name="twitter:card" content="summary">%s<style>%s</style>%s</head><body><div class="wrap">%s'
+            '<meta property="og:image" content="' + BASE + '/planner/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            '<meta name="twitter:card" content="summary_large_image">%s<style>%s</style>%s</head><body><div class="wrap">%s'
             '<footer>Facts only, no paid placement. Yu &amp; Koru · <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a>'
             ' · <a href="../privacy/">Privacy</a></footer></div></body></html>') % (
         e(title), e(desc), e(canonical), og_type, e(title), e(desc), e(canonical), FONTS, CSS, ld, body)
@@ -259,6 +260,10 @@ def main():
                 f.write(fix_rel(shop_page(s, slugs[id(s)], [(slugs[id(p)], p) for p in peers]), 2))
     with open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(index_page(by_area, slugs))
+
+    # planner data: same facts plus the page slug (used for share links and "shop page" links)
+    with open(os.path.join(ROOT, 'site', 'planner', 'shops.json'), 'w', encoding='utf-8') as f:
+        json.dump([dict(s, slug=slugs[id(s)]) for s in shops], f, ensure_ascii=False)
 
     lastmod = max(s.get('checked', '') for s in shops) or None
     urls = ['planner/', 'list/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v]

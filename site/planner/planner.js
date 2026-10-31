@@ -20,7 +20,7 @@
 
   var $ = function (id) { return document.getElementById(id); };
   var f = $('f'), out = $('out'), cta = $('cta');
-  var SHOPS = [], lastPlan = null, lastSeed = 0;
+  var SHOPS = [], BY_SLUG = {}, lastPlan = null, lastSeed = 0;
 
   // ---------- helpers ----------
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -63,64 +63,205 @@
   }
 
   // ---------- ticket ----------
-  function ticket(s, slot, no, anim, priceField) {
+  // opts.slot = [dayIndex, slotIndex] adds the edit buttons (swap / choose / skip) used on plan tickets.
+  function ticket(s, slot, no, anim, priceField, opts) {
+    opts = opts || {};
     var t = el('article', 'ticket' + (anim ? ' printing' : ''));
+    if (opts.slot) t.dataset.slot = opts.slot.join('.');
     var top = el('div', 't-top'); top.append(el('span', 'slotname', slot), el('span', null, no)); t.appendChild(top);
     var h = el('h3', 't-name', s.name_en); h.appendChild(el('span', 't-ja', s.name_ja)); t.appendChild(h);
     if (s.yu_pick) { var hk = el('div', 'hanko'); hk.setAttribute('aria-label', "Yu's pick"); hk.append(el('b', null, '推し'), document.createTextNode("Yu's pick")); t.appendChild(hk); }
     if (s.what_to_order && s.what_to_order !== 'unknown') t.appendChild(el('p', 't-order', '▶ ' + s.what_to_order));
+    var price = priceField === 'dinner' ? s.dinner_price_yen : s.lunch_price_yen;
+    var chips = el('div', 't-chips');
+    if (price && price !== 'unknown' && price !== 'n/a') chips.appendChild(el('span', 'chip', '¥ ' + price.replace(/^about /, '~')));
+    if (s.station && s.station !== 'unknown') chips.appendChild(el('span', 'chip', '🚉 ' + s.station.replace(/\s*\(.*\)/, '') + (s.walk_min && s.walk_min !== 'unknown' ? ' · ' + s.walk_min + ' min' : '')));
+    if ((s.awards || []).length) chips.appendChild(el('span', 'chip award', '🏅 ' + s.awards.length + (s.awards.length > 1 ? ' awards' : ' award')));
+    t.appendChild(chips);
     var dl = el('dl', 't-facts');
-    function row(a, b) { if (!b || b === 'unknown') return; dl.append(el('dt', null, a), el('dd', null, b)); }
-    row('Genre', s.genre); row('Price', priceField === 'dinner' ? s.dinner_price_yen : s.lunch_price_yen); row('Hours', s.hours); row('Closed', s.closed_days);
-    row('Station', s.station + (s.walk_min && s.walk_min !== 'unknown' ? ', ' + s.walk_min + ' min walk' : ''));
-    if ((s.awards || []).length) row('Awards', s.awards.slice(0, 2).join('; '));
-    row('Tip', s.tourist_tip); t.appendChild(dl);
+    function row(d, a, b) { if (!b || b === 'unknown') return; d.append(el('dt', null, a), el('dd', null, b)); }
+    row(dl, 'Hours', s.hours); row(dl, 'Closed', s.closed_days); t.appendChild(dl);
+    var more = el('details', 't-more'); more.appendChild(el('summary', null, 'More: tips, awards, station'));
+    var dl2 = el('dl', 't-facts'); row(dl2, 'Genre', s.genre);
+    row(dl2, 'Station', s.station + (s.walk_min && s.walk_min !== 'unknown' ? ', ' + s.walk_min + ' min walk' : ''));
+    if ((s.awards || []).length) row(dl2, 'Awards', s.awards.join('; '));
+    row(dl2, 'Tip', s.tourist_tip); row(dl2, 'Checked', s.checked);
+    more.appendChild(dl2);
+    if (dl2.childNodes.length) t.appendChild(more);
     var acts = el('div', 't-actions');
+    if (opts.slot) {
+      var sw = el('button', 'mini edit', '↻ Swap'); sw.type = 'button'; sw.title = 'Show me a different place for this ticket';
+      sw.addEventListener('click', function () { swap(opts.slot[0], opts.slot[1]); });
+      var ch = el('button', 'mini edit', '☰ Choose'); ch.type = 'button';
+      ch.addEventListener('click', function () { choose(opts.slot[0], opts.slot[1]); });
+      var sk = el('button', 'mini edit', '✕ Skip'); sk.type = 'button';
+      sk.addEventListener('click', function () { setEdit(opts.slot[0] + '.' + opts.slot[1], '-'); });
+      acts.append(sw, ch, sk);
+    }
     var keepB = el('button', 'mini', kept().indexOf(s.name_ja) >= 0 ? '★ Kept' : '☆ Keep'); keepB.type = 'button';
     keepB.setAttribute('aria-pressed', kept().indexOf(s.name_ja) >= 0); keepB.addEventListener('click', function () { toggleKeep(s, keepB); });
-    var a = el('a', 'mini', 'Google Maps'); a.href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.name_ja); a.target = '_blank'; a.rel = 'noopener'; a.style.textDecoration = 'none';
-    acts.append(keepB, a, el('span', 't-note', 'Checked ' + s.checked)); t.appendChild(acts);
+    var a = el('a', 'mini', 'Map'); a.href = mapsUrl(s); a.target = '_blank'; a.rel = 'noopener';
+    acts.append(keepB, a);
+    if (s.slug) { var pg = el('a', 'mini', 'Shop page'); pg.href = '../shops/' + s.slug + '/'; acts.appendChild(pg); }
+    t.appendChild(acts);
     return t;
   }
+  function mapsUrl(s) { return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.name_ja); }
 
   // ---------- plan ----------
+  // EDITS: {"day.slot": slug or "-"(skipped)}; DAYAREA: {day: areaKey}. Both live in the share link.
+  var EDITS = {}, DAYAREA = {}, HISTORY = [], SWAPSEEN = {};
+  var SLOTS = [['昼', 'LUNCH', 'lunch'], ['甘', 'SWEET STOP', 'lunch'], ['夜', 'DINNER', 'dinner']];
   function readPlanInputs() {
     return { start: $('start').value, days: +$('days').value, areas: picked('area'), band: (f.querySelector('input[name=budget]:checked') || {}).value || '1500-4000', avoid: picked('avoid') };
   }
+  function slotOk(s, j) { return j === 1 ? s.kind === 'snack' : s.kind !== 'snack' && (j === 0 ? s.lunch_ok !== false : s.dinner_ok !== false); }
+  function baseOk(s, o, k) { return !excluded(s, o.avoid) && fits(s, o.band) && !closedOn(s, k); }
+  function dayArea(o, i) { var areas = o.areas.length ? o.areas : ['akiba']; return DAYAREA[i] || areas[i % areas.length]; }
   function plan(o, seed) {
-    var R = rng(seed), areas = o.areas.length ? o.areas : ['akiba'];
     var start = new Date(o.start + 'T12:00:00'), used = {}, res = [];
-    var score = function (s) { return (s.yu_pick ? 3 : 0) + ((s.awards || []).length ? 2 : 0) + R() * 2; };
+    Object.keys(EDITS).forEach(function (key) { if (EDITS[key] !== '-') used[EDITS[key]] = 1; });
     for (var i = 0; i < o.days; i++) {
-      var date = new Date(start.getTime() + i * 86400000), area = areas[i % areas.length], k = date.getDay();
-      var pool = SHOPS.filter(function (s) { return !used[s.name_ja] && !excluded(s, o.avoid) && fits(s, o.band) && !closedOn(s, k); });
+      var R = rng(seed + i * 7919), date = new Date(start.getTime() + i * 86400000), area = dayArea(o, i), k = date.getDay();
+      var score = function (s) { return (s.yu_pick ? 3 : 0) + ((s.awards || []).length ? 2 : 0) + R() * 2; };
+      var pool = SHOPS.filter(function (s) { return !used[s.slug] && baseOk(s, o, k); });
       var local = pool.filter(function (s) { return GROUP[s.area] === area; }); if (local.length < 3) local = pool;
-      var sc = {}; local.forEach(function (s) { sc[s.name_ja] = score(s); });
-      local.sort(function (a, b) { return sc[b.name_ja] - sc[a.name_ja]; });
-      var meals = local.filter(function (s) { return s.kind !== 'snack'; }), snacks = local.filter(function (s) { return s.kind === 'snack'; });
-      var lunch = meals.find(function (s) { return s.lunch_ok !== false && (s.budget_band === 'under1500' || s.budget_band === '1500-4000'); }) || meals.find(function (s) { return s.lunch_ok !== false; });
-      if (lunch) used[lunch.name_ja] = 1;
-      var snack = snacks.find(function (s) { return !used[s.name_ja]; }); if (snack) used[snack.name_ja] = 1;
-      var dinner = meals.find(function (s) { return !used[s.name_ja] && s.dinner_ok !== false && fam(s) !== fam(lunch || { genre: '' }); }) || meals.find(function (s) { return !used[s.name_ja] && s.dinner_ok !== false; });
-      if (dinner) used[dinner.name_ja] = 1;
-      res.push({ date: date, area: LABEL[area], meals: [['昼', 'LUNCH', lunch, 'lunch'], ['甘', 'SWEET STOP', snack, 'lunch'], ['夜', 'DINNER', dinner, 'dinner']] });
+      var sc = {}; local.forEach(function (s) { sc[s.slug] = score(s); });
+      local.sort(function (a, b) { return sc[b.slug] - sc[a.slug]; });
+      var picks = [null, null, null], state = ['auto', 'auto', 'auto'];
+      [0, 1, 2].forEach(function (j) {
+        var e = EDITS[i + '.' + j];
+        if (e === '-') { state[j] = 'skipped'; return; }
+        if (e && BY_SLUG[e]) { picks[j] = BY_SLUG[e]; state[j] = 'chosen'; }
+      });
+      if (state[0] === 'auto') {
+        picks[0] = local.find(function (s) { return !used[s.slug] && slotOk(s, 0) && (s.budget_band === 'under1500' || s.budget_band === '1500-4000'); }) || local.find(function (s) { return !used[s.slug] && slotOk(s, 0); }) || null;
+        if (picks[0]) used[picks[0].slug] = 1;
+      }
+      if (state[1] === 'auto') { picks[1] = local.find(function (s) { return !used[s.slug] && slotOk(s, 1); }) || null; if (picks[1]) used[picks[1].slug] = 1; }
+      if (state[2] === 'auto') {
+        var lf = fam(picks[0] || { genre: '' });
+        picks[2] = local.find(function (s) { return !used[s.slug] && slotOk(s, 2) && fam(s) !== lf; }) || local.find(function (s) { return !used[s.slug] && slotOk(s, 2); }) || null;
+        if (picks[2]) used[picks[2].slug] = 1;
+      }
+      res.push({ date: date, k: k, areaKey: area, area: LABEL[area], meals: SLOTS.map(function (sl, j) { return [sl[0], sl[1], picks[j], sl[2], state[j]]; }) });
     }
     return res;
   }
-  function renderPlan(seed) {
+  function planSlugs() { var u = {}; lastPlan.days.forEach(function (d) { d.meals.forEach(function (m) { if (m[2]) u[m[2].slug] = 1; }); }); return u; }
+  function alternatives(i, j, allAreas) {
+    var o = lastPlan.inputs, d = lastPlan.days[i], used = planSlugs();
+    return SHOPS.filter(function (s) { return !used[s.slug] && slotOk(s, j) && baseOk(s, o, d.k) && (allAreas || GROUP[s.area] === d.areaKey); })
+      .sort(function (a, b) { return (b.yu_pick - a.yu_pick) || ((b.awards || []).length - (a.awards || []).length) || a.name_en.localeCompare(b.name_en); });
+  }
+  function setEdit(key, val, msg) {
+    HISTORY.push(JSON.stringify({ e: EDITS, y: DAYAREA }));
+    if (val === null) delete EDITS[key]; else EDITS[key] = val;
+    rerender(key, msg || (val === '-' ? 'Ticket skipped.' : 'Ticket changed.'));
+  }
+  function undo() {
+    var h = HISTORY.pop(); if (!h) return; h = JSON.parse(h); EDITS = h.e; DAYAREA = h.y; rerender(null, 'Undone.');
+  }
+  function swap(i, j) {
+    var key = i + '.' + j, seenL = SWAPSEEN[key] = SWAPSEEN[key] || [];
+    var cur = lastPlan.days[i].meals[j][2]; if (cur && seenL.indexOf(cur.slug) < 0) seenL.push(cur.slug);
+    var alts = alternatives(i, j, false); if (alts.length < 2) alts = alts.concat(alternatives(i, j, true).filter(function (s) { return alts.indexOf(s) < 0; }));
+    if (!alts.length) { toast('No other place fits this slot. Try a bigger budget.'); return; }
+    var next = alts.find(function (s) { return seenL.indexOf(s.slug) < 0; });
+    if (!next) { SWAPSEEN[key] = []; next = alts[0]; }
+    setEdit(key, next.slug, 'Swapped to ' + next.name_en + '.');
+  }
+  function choose(i, j) {
+    var dlg = $('picker'), list = $('pickerlist'), all = $('pickerall');
+    $('pickertitle').textContent = 'Day ' + (i + 1) + ' · ' + SLOTS[j][1].toLowerCase();
+    function fill() {
+      list.replaceChildren();
+      var alts = alternatives(i, j, all.checked);
+      if (!alts.length) list.appendChild(el('p', 'empty', 'Nothing else fits. Tick "all areas" or change the budget.'));
+      alts.forEach(function (s) {
+        var b = el('button', 'pick'); b.type = 'button';
+        var nm = el('span', 'p-name', s.name_en); if (s.yu_pick) nm.appendChild(el('span', 'p-pick', '推し'));
+        b.append(nm, el('span', 'p-meta', [s.genre, (j === 2 ? s.dinner_price_yen : s.lunch_price_yen), all.checked ? s.area : ''].filter(function (x) { return x && x !== 'unknown'; }).join(' · ')));
+        b.addEventListener('click', function () { dlg.close(); setEdit(i + '.' + j, s.slug, 'Changed to ' + s.name_en + '.'); });
+        list.appendChild(b);
+      });
+    }
+    all.checked = false; all.onchange = fill; fill();
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+  }
+  function rerender(anchorKey, msg) {
+    var a = anchorKey && out.querySelector('[data-slot="' + anchorKey + '"]'), before = a ? a.getBoundingClientRect().top : null;
+    renderPlan(lastSeed, true);
+    var b = anchorKey && out.querySelector('[data-slot="' + anchorKey + '"]');
+    if (b && before !== null) window.scrollBy(0, b.getBoundingClientRect().top - before);
+    if (msg) toast(msg, HISTORY.length ? undo : null);
+  }
+  var toastTimer;
+  function toast(msg, onUndo) {
+    var t = $('toast'); t.replaceChildren(el('span', null, msg));
+    if (onUndo) { var u = el('button', null, 'Undo'); u.type = 'button'; u.addEventListener('click', function () { t.hidden = true; onUndo(); }); t.appendChild(u); }
+    t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.hidden = true; }, 5000);
+  }
+  function routeUrl(day) {
+    var stops = day.meals.filter(function (m) { return m[2]; }).map(function (m) { return m[2].name_ja; });
+    if (stops.length < 2) return stops.length ? mapsUrl(day.meals.filter(function (m) { return m[2]; })[0][2]) : null;
+    var u = 'https://www.google.com/maps/dir/?api=1&travelmode=transit&origin=' + encodeURIComponent(stops[0]) + '&destination=' + encodeURIComponent(stops[stops.length - 1]);
+    if (stops.length > 2) u += '&waypoints=' + encodeURIComponent(stops.slice(1, -1).join('|'));
+    return u;
+  }
+  function renderPlan(seed, quiet) {
     out.replaceChildren();
     if (!SHOPS.length) { out.appendChild(el('p', 'empty', 'Loading the restaurant list. Press print again in a second.')); return; }
     var o = readPlanInputs(); lastSeed = seed; lastPlan = { inputs: o, days: plan(o, seed) };
+    // overview
+    var ov = el('section', 'overview'); ov.appendChild(el('h2', null, 'Your plan at a glance'));
+    lastPlan.days.forEach(function (day, k) {
+      var line = el('a', 'ov-day'); line.href = '#day' + (k + 1);
+      line.append(el('b', null, 'Day ' + (k + 1)), el('span', 'ov-date', day.date.toLocaleDateString('en', { weekday: 'short', month: 'short', day: 'numeric' }) + ' · ' + day.area),
+        el('span', 'ov-stops', day.meals.filter(function (m) { return m[2]; }).map(function (m) { return m[2].name_en.replace(/\s*\(.*\)/, ''); }).join(' → ') || 'nothing yet'));
+      ov.appendChild(line);
+    });
+    var ovActs = el('div', 'ov-acts');
+    var cal = el('button', 'mini', '📅 Add to calendar'); cal.type = 'button'; cal.addEventListener('click', downloadIcs);
+    ovActs.append(cal);
+    ov.appendChild(el('p', 'ov-hint', 'Want to change one thing? Each ticket has ↻ Swap, ☰ Choose and ✕ Skip, and each day has its own area. The rest stays put.'));
+    if (Object.keys(EDITS).length || Object.keys(DAYAREA).length) {
+      var rs = el('button', 'mini', '⟲ Reset my changes'); rs.type = 'button';
+      rs.addEventListener('click', function () { HISTORY.push(JSON.stringify({ e: EDITS, y: DAYAREA })); EDITS = {}; DAYAREA = {}; rerender(null, 'Back to the original tickets.'); });
+      ovActs.appendChild(rs);
+    }
+    ov.appendChild(ovActs); out.appendChild(ov);
     var n = 0;
     lastPlan.days.forEach(function (day, k) {
-      var sec = el('section', 'day'), head = el('div', 'day-head');
-      head.append(el('b', null, (k + 1) + '日目'), el('span', null, day.area + ', ' + day.date.toLocaleDateString('en', { weekday: 'short', month: 'short', day: 'numeric' })));
+      var sec = el('section', 'day'); sec.id = 'day' + (k + 1);
+      var head = el('div', 'day-head');
+      head.append(el('b', null, (k + 1) + '日目'), el('span', null, day.date.toLocaleDateString('en', { weekday: 'short', month: 'short', day: 'numeric' })));
+      var sel = el('select', 'daysel'); sel.setAttribute('aria-label', 'Area for day ' + (k + 1));
+      AREAS.forEach(function (a) { var op = new Option(a[2], a[0]); op.selected = a[0] === day.areaKey; sel.appendChild(op); });
+      sel.addEventListener('change', function () {
+        HISTORY.push(JSON.stringify({ e: EDITS, y: DAYAREA }));
+        DAYAREA[k] = sel.value; Object.keys(EDITS).forEach(function (key) { if (key.split('.')[0] === String(k)) delete EDITS[key]; });
+        rerender(null, 'Day ' + (k + 1) + ' moved to ' + LABEL[sel.value] + '.');
+      });
+      head.appendChild(sel);
+      var ru = routeUrl(day); if (ru) { var r = el('a', 'route', 'Route ↗'); r.href = ru; r.target = '_blank'; r.rel = 'noopener'; head.appendChild(r); }
       sec.appendChild(head);
-      day.meals.forEach(function (m) {
+      day.meals.forEach(function (m, j) {
         n++;
-        if (!m[2]) { var t = el('article', 'ticket printing'); t.appendChild(el('p', 'empty', 'Sold out for these buttons. Try a bigger budget or another area.')); sec.appendChild(t); return; }
-        var tk = ticket(m[2], '食券 ' + m[0] + ' ' + m[1], 'No.' + (k + 1) + String(n).padStart(2, '0'), true, m[3]);
-        tk.style.animationDelay = (n * 90) + 'ms'; sec.appendChild(tk);
+        if (m[4] === 'skipped') {
+          var sk = el('div', 'skipped'); sk.dataset.slot = k + '.' + j;
+          sk.appendChild(el('span', null, '食券 ' + m[0] + ' ' + m[1] + ' · skipped'));
+          var ab = el('button', 'mini', '+ Add back'); ab.type = 'button'; ab.addEventListener('click', function () { setEdit(k + '.' + j, null, 'Added back.'); });
+          sk.appendChild(ab); sec.appendChild(sk); return;
+        }
+        if (!m[2]) {
+          var t = el('article', 'ticket'); t.dataset.slot = k + '.' + j; t.appendChild(el('p', 'empty', 'Sold out for these buttons. Try a bigger budget or another area.'));
+          var cb = el('button', 'mini', '☰ Choose'); cb.type = 'button'; cb.addEventListener('click', function () { choose(k, j); }); t.appendChild(cb);
+          sec.appendChild(t); return;
+        }
+        var tk = ticket(m[2], '食券 ' + m[0] + ' ' + m[1] + (m[4] === 'chosen' ? ' ✎' : ''), 'No.' + (k + 1) + String(n).padStart(2, '0'), !quiet, m[3], { slot: [k, j] });
+        if (!quiet) tk.style.animationDelay = (n * 90) + 'ms';
+        sec.appendChild(tk);
       });
       out.appendChild(sec);
     });
@@ -129,10 +270,30 @@
     history.replaceState(null, '', shareUrl());
   }
   function shareUrl() {
-    var o = lastPlan.inputs, u = new URL(location.href.split('?')[0]);
+    var o = lastPlan.inputs, u = new URL(location.href.split('?')[0].split('#')[0]);
     u.searchParams.set('d', o.start); u.searchParams.set('n', o.days); u.searchParams.set('a', o.areas.join(','));
     u.searchParams.set('b', o.band); if (o.avoid.length) u.searchParams.set('x', o.avoid.join(',')); u.searchParams.set('s', lastSeed);
+    var e = Object.keys(EDITS).map(function (k) { return k + ':' + EDITS[k]; }); if (e.length) u.searchParams.set('e', e.join(','));
+    var y = Object.keys(DAYAREA).map(function (k) { return k + ':' + DAYAREA[k]; }); if (y.length) u.searchParams.set('y', y.join(','));
     return u.toString();
+  }
+  function ymd(d) { return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0'); }
+  function downloadIcs() {
+    var times = [['120000', '133000'], ['153000', '161500'], ['190000', '203000']], L = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Tokyo Food Ticket Machine//EN', 'CALSCALE:GREGORIAN'];
+    function esc(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\;').replace(/,/g, '\\,').replace(/\n/g, '\\n'); }
+    lastPlan.days.forEach(function (day, k) {
+      day.meals.forEach(function (m, j) {
+        if (!m[2]) return; var s = m[2], dt = ymd(day.date);
+        L.push('BEGIN:VEVENT', 'UID:' + dt + '-' + j + '-' + s.slug + '@koru-tokyo', 'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z',
+          'DTSTART;TZID=Asia/Tokyo:' + dt + 'T' + times[j][0], 'DTEND;TZID=Asia/Tokyo:' + dt + 'T' + times[j][1],
+          'SUMMARY:' + esc(m[1].charAt(0) + m[1].slice(1).toLowerCase() + ': ' + s.name_en), 'LOCATION:' + esc(s.name_ja),
+          'DESCRIPTION:' + esc(['Order: ' + s.what_to_order, 'Hours: ' + s.hours, 'Closed: ' + s.closed_days, 'Times here are a suggestion. Check hours the same morning.', mapsUrl(s)].join('\n')),
+          'URL:' + mapsUrl(s), 'END:VEVENT');
+      });
+    });
+    L.push('END:VCALENDAR');
+    var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([L.join('\r\n')], { type: 'text/calendar' })); a.download = 'tokyo-meal-tickets.ics';
+    document.body.appendChild(a); a.click(); a.remove(); toast('Calendar file downloaded. Open it to add the meals.');
   }
 
   // ---------- gacha ----------
@@ -199,9 +360,11 @@
     document.querySelectorAll('input[name=avoid]').forEach(function (i) { i.checked = X.indexOf(i.value) >= 0; });
     document.querySelectorAll('input[name=budget]').forEach(function (i) { i.checked = i.value === P.get('b'); });
     sharedSeed = +P.get('s');
+    (P.get('e') || '').split(',').forEach(function (x) { var p = x.split(':'); if (p.length === 2 && /^\d+\.[0-2]$/.test(p[0])) EDITS[p[0]] = p[1]; });
+    (P.get('y') || '').split(',').forEach(function (x) { var p = x.split(':'); if (p.length === 2 && LABEL[p[1]]) DAYAREA[p[0]] = p[1]; });
   }
 
-  f.addEventListener('submit', function (e) { e.preventDefault(); renderPlan(Math.floor(Math.random() * 1e9)); out.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  f.addEventListener('submit', function (e) { e.preventDefault(); EDITS = {}; DAYAREA = {}; HISTORY = []; SWAPSEEN = {}; renderPlan(Math.floor(Math.random() * 1e9)); out.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   $('spin').addEventListener('click', spin);
   document.querySelectorAll('input[name=mode]').forEach(function (i) { i.addEventListener('change', function () { setMode(i.value); }); });
   ['q', 'sarea', 'sday'].forEach(function (id) { $(id).addEventListener('input', search); });
@@ -225,18 +388,26 @@
 
 
   // ---------- sharing ----------
-  function shareText() { return 'My Tokyo food plan, printed on the Tokyo Food Ticket Machine by a local in Akihabara 🎫'; }
+  function shareText(short) {
+    var head = 'My Tokyo food plan 🎫';
+    if (short || !lastPlan) return head + ' (made on the Tokyo Food Ticket Machine, by a local in Akihabara)';
+    var icons = ['🍜', '🍡', '🏮'];
+    return head + '\n' + lastPlan.days.map(function (d, k) {
+      return 'Day ' + (k + 1) + ' · ' + d.date.toLocaleDateString('en', { weekday: 'short', month: 'short', day: 'numeric' }) + ' · ' + d.area + '\n' +
+        d.meals.filter(function (m) { return m[2]; }).map(function (m, j) { return icons[SLOTS.findIndex(function (x) { return x[1] === m[1]; })] + ' ' + m[2].name_en.replace(/\s*\(.*\)/, ''); }).join('\n');
+    }).join('\n\n') + '\n\nOpen the tickets (hours, what to order, maps):';
+  }
   function updateShareLinks() {
     var u = encodeURIComponent(shareUrl()), t = encodeURIComponent(shareText());
     $('s-wa').href = 'https://wa.me/?text=' + t + '%20' + u;
     $('s-line').href = 'https://social-plugins.line.me/lineit/share?url=' + u;
-    $('s-x').href = 'https://twitter.com/intent/tweet?text=' + t + '&url=' + u;
+    $('s-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText(true)) + '&url=' + u;
     $('s-fb').href = 'https://www.facebook.com/sharer/sharer.php?u=' + u;
   }
   $('nshare').addEventListener('click', function () {
     var st = $('sstatus');
     if (navigator.share) navigator.share({ title: 'My Tokyo meal tickets', text: shareText(), url: shareUrl() }).catch(function () {});
-    else navigator.clipboard && navigator.clipboard.writeText(shareUrl()).then(function () { st.textContent = 'Link copied. Paste it anywhere.'; });
+    else navigator.clipboard && navigator.clipboard.writeText(shareText() + '\n' + shareUrl()).then(function () { st.textContent = 'Plan and link copied. Paste it anywhere.'; });
   });
   function storyCanvas() {
     var W = 1080, H = 1920, c = document.createElement('canvas'); c.width = W; c.height = H; var g = c.getContext('2d');
@@ -287,7 +458,7 @@
   });
 
   fetch('shops.json').then(function (r) { return r.json(); }).then(function (j) {
-    SHOPS = j; renderKept();
+    SHOPS = j; j.forEach(function (s) { BY_SLUG[s.slug] = s; }); renderKept();
     if (sharedSeed !== null) renderPlan(sharedSeed);
     var m = store('koru-mode'); if (m && m !== 'plan' && sharedSeed === null) { var r = document.querySelector('input[name=mode][value=' + m + ']'); if (r) { r.checked = true; setMode(m); } }
   }).catch(function () { out.textContent = 'The restaurant list did not load. Reload the page to try again.'; });

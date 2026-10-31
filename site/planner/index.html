@@ -7,6 +7,14 @@
 <meta name="description" content="Press the buttons, get your Tokyo meal tickets: a free day-by-day food plan for Akihabara, Ueno, Asakusa and Kanda, from a local office worker.">
 <meta property="og:title" content="Tokyo Food Ticket Machine — free food plan by a local">
 <meta property="og:description" content="Press the buttons, get your meal tickets. Hours, closed days and what to order, for Akihabara, Ueno, Asakusa and Kanda.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuonozawa.github.io/koru-tokyo-reels/planner/">
+<meta property="og:site_name" content="Tokyo Food Ticket Machine">
+<meta property="og:image" content="https://yuonozawa.github.io/koru-tokyo-reels/planner/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tokyo Food Ticket Machine: a ticket machine that prints meal tickets for Akihabara, Ueno, Asakusa and Kanda">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#c9d2d7">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
@@ -169,6 +177,49 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
 .tip.any b{font-size:18px}
 .tip span{font-size:12px;color:var(--steel-muted)}
 .tip:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+
+/* ----- plan editing / overview (v2) ----- */
+[hidden]{display:none!important}
+a.mini{text-decoration:none;display:inline-block}
+.mini.edit{border-color:var(--red);color:var(--red)}
+.t-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.chip{font:700 13px/1.2 var(--zen);background:#efece0;color:var(--paper-ink);border-radius:999px;padding:5px 10px}
+.chip.award{background:#fde8c7}
+.t-more{margin-top:6px;font-size:14px}
+.t-more summary{cursor:pointer;color:var(--paper-muted);font-weight:700;padding:4px 0}
+.t-more .t-facts{margin-top:6px}
+.overview{background:var(--paper);color:var(--paper-ink);border-radius:14px;padding:16px 18px;margin-top:26px;box-shadow:0 2px 3px rgba(30,40,50,.18)}
+.overview h2{font:400 20px/1.2 var(--dela);margin:0 0 8px}
+.ov-day{display:grid;gap:2px;padding:10px 0;border-top:2px dashed #d8d6cc;text-decoration:none;color:inherit}
+.ov-day b{font:400 17px/1.2 var(--dela)}
+.ov-date{font:700 13px var(--zen);color:var(--paper-muted)}
+.ov-stops{font:15px/1.5 var(--dot)}
+.ov-hint{font-size:13px;color:var(--paper-muted);margin:10px 0 0}
+.ov-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.day-head{flex-wrap:wrap;align-items:center}
+.daysel{font:700 14px var(--zen);padding:6px 8px;border-radius:8px;border:2px solid var(--btn-edge);background:var(--btn);color:var(--steel-ink)}
+.route{font:700 14px var(--zen);color:var(--red);margin-left:auto}
+.skipped{display:flex;justify-content:space-between;align-items:center;gap:10px;border:2px dashed var(--btn-edge);border-radius:10px;padding:10px 14px;margin-bottom:12px;font:15px var(--dot);color:var(--steel-muted)}
+.skipped .mini{border-color:var(--steel-muted);color:var(--steel-ink)}
+#toast{position:fixed;left:50%;width:max-content;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:50;display:flex;gap:14px;align-items:center;max-width:min(92vw,520px);
+  background:#17110c;color:var(--amber);font:15px/1.4 var(--dot);padding:12px 16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+#toast button{font:900 14px var(--zen);background:var(--amber);color:#17110c;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+dialog#picker{width:min(560px,94vw);max-height:80vh;border:0;border-radius:16px;padding:0;background:var(--steel);color:var(--steel-ink)}
+dialog#picker::backdrop{background:rgba(10,15,20,.55)}
+.pk-head{position:sticky;top:0;background:var(--steel);padding:16px 18px 10px;display:grid;gap:8px;border-bottom:2px solid var(--btn-edge)}
+.pk-head h2{font:400 20px/1.2 var(--dela);margin:0}
+.pk-head label{font-size:14px;display:flex;gap:8px;align-items:center}
+.pk-close{position:absolute;right:12px;top:12px;font:900 15px var(--zen);border:0;background:var(--btn);border-radius:8px;padding:6px 10px;box-shadow:0 3px 0 var(--btn-edge);cursor:pointer;color:var(--steel-ink)}
+#pickerlist{display:grid;gap:8px;padding:12px 18px 18px}
+.pick{display:grid;gap:2px;text-align:left;background:var(--paper);color:var(--paper-ink);border:0;border-radius:10px;padding:12px 14px;cursor:pointer;box-shadow:0 2px 0 #d8d6cc}
+.pick:focus-visible,.pick:hover{outline:3px solid var(--red)}
+.p-name{font:900 16px/1.3 var(--zen)}
+.p-pick{font:400 12px var(--dela);color:var(--stamp);border:2px solid var(--stamp);border-radius:999px;padding:1px 6px;margin-left:8px;vertical-align:2px}
+.p-meta{font-size:13px;color:var(--paper-muted)}
+.sharegrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.sharegrid .big{grid-column:span 4}
+.sharegrid #share{grid-column:span 4;background:transparent;color:var(--steel-ink);border:2px solid var(--steel-ink);box-shadow:none}
+.sharegrid a.sharebtn{font-size:13px;padding:12px 2px}
 </style>
 </head>
 <body>
@@ -297,10 +348,20 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
 </aside>
 
 <aside class="cta" id="cta" hidden>
-  <h2>Want me to check your tickets?</h2>
-  <p>I'll swap anything I wouldn't eat myself and tell you how to order. The first 3 each month are free.</p>
-  <a href="https://ig.me/m/koru.tokyo_guide" target="_blank" rel="noopener">DM me "PLAN" on Instagram</a>
+  <h2>More places, every day</h2>
+  <p>I post a new spot near Akihabara, Ueno, Asakusa or Kanda three times a day, with what to order and when it's closed.</p>
+  <a href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">Follow @koru.tokyo_guide</a>
 </aside>
+
+<dialog id="picker" aria-labelledby="pickertitle">
+  <div class="pk-head">
+    <h2 id="pickertitle">Choose a place</h2>
+    <label><input type="checkbox" id="pickerall"> Show all areas</label>
+    <button class="pk-close" type="button" onclick="this.closest('dialog').close()">Close</button>
+  </div>
+  <div id="pickerlist"></div>
+</dialog>
+<div id="toast" role="status" aria-live="polite" hidden></div>
 
 <footer>Facts were checked on the date printed on each ticket. Hours change, so check Google Maps the same morning.<br>Yu &amp; Koru, <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a> · <a href="../shops/">All shops</a></footer>
 
