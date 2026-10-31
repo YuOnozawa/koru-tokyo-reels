@@ -2,10 +2,12 @@
  * Tokyo Food Ticket Machine backend (Google Apps Script web app, the Sheet is the database):
  * email my plan, reactions (like / want to go / been here), visitor comments + photos (shown only after approval),
  * anonymous usage counts, My Trip sync codes (cross-device, no account), video archive.
- * Setup (once, by Yu):
- *  1. Open the Google Sheet "Koru planner leads" > Extensions > Apps Script, paste this file, Save.
- *  2. Deploy > New deployment > Web app. Execute as: Me. Who has access: Anyone. Deploy, allow access.
- *  3. Send the Web app URL to Claude (it goes into planner.js as ENDPOINT).
+ * Setup (once, by Yu, signed in as the project-only Google account so emails come from that address):
+ *  1. New Google Sheet "Koru planner DB" > Extensions > Apps Script, paste this file, Save.
+ *  2. Project Settings > Script properties: NOTIFY_EMAIL = the address that should get moderation notices.
+ *  3. Run "community" once to grant access. Deploy > New deployment > Web app. Execute as: Me. Who has access: Anyone.
+ *  4. Send the Web app URL to Claude (it goes into site/config.js ENDPOINT and config/archive.json).
+ *  The archive folder (ARCHIVE_FOLDER_ID) must be shared with this account as Editor.
  * Each plan email appends one row to the "leads" sheet, then emails the plan from this Google account.
  * Moderation: new comments/photos land in the "reviews" sheet with status "pending" and you get an email.
  * Change status to "approved" to show it on the site (or "rejected"). Photos stay private until approved.
@@ -162,12 +164,18 @@ function review(d) {
   var sh = sheet('reviews', ['received_at', 'slug', 'name', 'text', 'photo_file_id', 'status', 'photo_public']);
   sh.appendRow([new Date(), d.slug, name, text, fileId, 'pending', '']);
   try {
-    MailApp.sendEmail({ to: Session.getEffectiveUser().getEmail(), subject: 'New visitor comment to check: ' + d.slug,
+    MailApp.sendEmail({ to: notifyTo(), subject: 'New visitor comment to check: ' + d.slug,
       body: (name || 'Someone') + ' wrote about ' + d.slug + ':\n\n' + text + (fileId ? '\n\nPhoto: https://drive.google.com/file/d/' + fileId + '/view' : '') +
         '\n\nTo show it on the site, set status to "approved" in the reviews sheet: ' + SpreadsheetApp.getActiveSpreadsheet().getUrl() });
   } catch (err) {}
   return { ok: true, pending: true };
 }
+// Where moderation notices go: Project Settings > Script properties > NOTIFY_EMAIL (kept out of the public code).
+// Falls back to the account the web app runs as.
+function notifyTo() {
+  return PropertiesService.getScriptProperties().getProperty('NOTIFY_EMAIL') || Session.getEffectiveUser().getEmail();
+}
+
 function community() {
   var cache = CacheService.getScriptCache(), hit = cache.get('community');
   if (hit) return JSON.parse(hit);
