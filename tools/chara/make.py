@@ -69,7 +69,7 @@ def yu(x=0,y=0,arm='wave'):
     S+='</g>'
     return S
 
-from koru2 import koru
+from koru3 import koru, ANCHOR, BOTTOM
 
 def full(arm='wave', bg=None, W=780, H=960):
     out=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">'
@@ -77,8 +77,8 @@ def full(arm='wave', bg=None, W=780, H=960):
     out+=f'<ellipse cx="420" cy="930" rx="320" ry="22" fill="#000" opacity=".12"/>'
     out+=yu(20,0,arm)
     # leash from hand (256,726) to koru collar
-    kx,ky,ks=452,606,1.08
-    cx,cy=kx+110*ks,ky+156*ks
+    ks=1.08; kx,ky=440,928-BOTTOM*ks
+    cx,cy=kx+ANCHOR[0]*ks,ky+ANCHOR[1]*ks
     out+=f'<path d="M256,736 Q{(256+cx)/2:.0f},{max(736,cy)+70:.0f} {cx:.0f},{cy:.0f}" stroke="#ef5a24" stroke-width="7" fill="none" stroke-linecap="round"/>'
     out+=koru(kx,ky,ks)
     out+='</svg>'
@@ -88,7 +88,7 @@ def avatar(bg='#ffa22b'):
     out='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs><clipPath id="c"><circle cx="300" cy="300" r="300"/></clipPath></defs><g clip-path="url(#c)">'
     out+=f'<rect width="600" height="600" fill="{bg}"/>'
     out+=yu(-90,40,'none')
-    out+=koru(318,318,1.15)
+    out+=koru(322,300,1.18)
     out+='</g></svg>'
     return out
 
