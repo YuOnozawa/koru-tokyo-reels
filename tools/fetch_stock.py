@@ -14,10 +14,13 @@ for q in sys.argv[1:]:
     slug = re.sub(r'[^a-z0-9]+', '_', q.lower()).strip('_')
     api = 'https://api.openverse.org/v1/images/?' + urllib.parse.urlencode(
         {'q': q, 'license': 'cc0,pdm', 'size': 'large', 'category': 'photograph', 'page_size': 20, 'mature': 'false'})
-    try:
-        res = json.loads(get(api)).get('results', [])
-    except Exception as e:
-        print('search failed', q, e); continue
+    res = None
+    for attempt in range(4):
+        try:
+            res = json.loads(get(api)).get('results', []); break
+        except Exception as e:
+            print('search failed', q, attempt, e); import time; time.sleep(20 * (attempt + 1))
+    if res is None: continue
     n = 0
     for r in res:
         if n >= 5: break
@@ -33,5 +36,5 @@ for q in sys.argv[1:]:
                          'source': r.get('foreign_landing_url') or r.get('url'), 'provider': r.get('provider')}
         n += 1
     print(q, '->', n)
-    import time; time.sleep(4)
+    import time; time.sleep(10)
 json.dump(credits, open(cred_p, 'w'), ensure_ascii=False, indent=1)
