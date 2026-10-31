@@ -2,8 +2,11 @@
   // Apps Script web app URL that stores the request in Yu's sheet and emails the plan.
   // Empty = the email box stays hidden.
   var ENDPOINT = '';
-  // Tip page (Ko-fi / Buy Me a Coffee / Stripe link). Empty = the tip jar stays hidden.
+  // Tips. TIP_URL = the tip page (Ko-fi, Buy Me a Coffee, Stripe Payment Link with "customer chooses price", PayPal.me...).
+  // TIP_AMOUNT_URL (optional) = a page that takes a preset amount, with {amt} replaced, e.g. 'https://paypal.me/NAME/{amt}USD'.
+  // Empty TIP_URL = the tip jar stays hidden.
   var TIP_URL = '';
+  var TIP_AMOUNT_URL = '';
 
   var AREAS = [['akiba', '秋葉原', 'Akihabara', 'cap-red', ['Akihabara', 'Suehirocho']], ['ueno', '上野・湯島', 'Ueno & Yushima', 'cap-green', ['Ueno', 'Okachimachi', 'Yushima']], ['asakusa', '浅草', 'Asakusa', 'cap-yellow', ['Asakusa', 'Kuramae']], ['kanda', '神田・神保町', 'Kanda & Jimbocho', 'cap-blue', ['Kanda', 'Jimbocho', 'Ochanomizu']]];
   var BUDGETS = [['under1500', '¥1,500', 'Cheap eats', 'cap-green'], ['1500-4000', '¥4,000', 'Everyday', 'cap-blue'], ['4000-10000', '¥10,000', 'Treat', 'cap-yellow'], ['10000plus', '上限なし', 'No limit', 'cap-red']];
@@ -279,7 +282,9 @@
       }, 'image/png');
     });
   });
-  if (TIP_URL) document.querySelectorAll('.tip').forEach(function (a) { a.href = TIP_URL; });
+  if (TIP_URL) document.querySelectorAll('.tip').forEach(function (a) {
+    var amt = a.dataset.amt; a.href = amt && TIP_AMOUNT_URL ? TIP_AMOUNT_URL.replace('{amt}', amt) : TIP_URL;
+  });
 
   fetch('shops.json').then(function (r) { return r.json(); }).then(function (j) {
     SHOPS = j; renderKept();
