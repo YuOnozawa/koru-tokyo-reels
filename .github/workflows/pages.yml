@@ -3,7 +3,7 @@ name: Host videos (GitHub Pages)
 on:
   push:
     branches: [main]
-    paths: ['videos/**', 'site/**', 'state/posted.json', '.github/workflows/pages.yml']
+    paths: ['site/**', 'scripts/store.py', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -24,10 +24,12 @@ jobs:
         with:
           enablement: true
       - name: Build site
-        # Only unposted videos are hosted (Instagram keeps its own copy after publishing), so the site stays far below the 1 GB Pages limit.
+        # Only unposted videos are hosted (Instagram keeps its own copy after publishing). Videos come from the
+        # 'video-store' release, so they never bloat the git repository.
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p _site/videos
-          python3 -c "import json,os,shutil; done={p['id'] for p in json.load(open('state/posted.json'))}; [shutil.copy('videos/'+f,'_site/videos/') for f in os.listdir('videos') if f.endswith('.mp4') and f[:-4] not in done]"
+          python3 scripts/store.py site _site/videos
           cp -r site/. _site/ && printf '<!doctype html><meta http-equiv="refresh" content="0;url=list/"><title>Yu & Koru</title>' > _site/index.html
       - uses: actions/upload-pages-artifact@v3
         with:

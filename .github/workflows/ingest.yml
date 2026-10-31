@@ -1,0 +1,53 @@
+name: Ingest videos (into release store)
+# Claude pushes rendered videos to the throwaway branch 'incoming'. This moves them to release assets,
+# deletes the branch (so the repo stays small), and redeploys Pages.
+on:
+  push:
+    branches: [incoming]
+  workflow_dispatch:
+    inputs:
+      migrate_main:
+        description: 'also move videos/*.mp4 on main into the store and remove them from main'
+        default: 'false'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      R: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Ensure release
+        run: gh release view video-store -R "$R" >/dev/null 2>&1 || gh release create video-store -R "$R" --title "Video store" --notes "Rendered reels waiting to be posted (pickup for Instagram). Not a software release."
+      - name: Upload videos from incoming
+        run: |
+          if git ls-remote --exit-code origin incoming >/dev/null 2>&1; then
+            git fetch --depth 1 origin incoming
+            mkdir -p /tmp/in && git archive FETCH_HEAD | tar -x -C /tmp/in
+            files=$(find /tmp/in -name '*.mp4')
+            if [ -n "$files" ]; then gh release upload video-store $files -R "$R" --clobber; fi
+            for f in $files; do gh release view video-store -R "$R" --json assets -q '.assets[].name' | grep -qx "$(basename $f)" || { echo "missing $f"; exit 1; }; done
+            git push origin --delete incoming
+          fi
+      - name: Migrate videos committed on main
+        if: github.event.inputs.migrate_main == 'true'
+        run: |
+          files=$(ls videos/*.mp4 2>/dev/null || true)
+          [ -z "$files" ] && exit 0
+          gh release upload video-store $files -R "$R" --clobber
+          names=$(gh release view video-store -R "$R" --json assets -q '.assets[].name')
+          for f in $files; do echo "$names" | grep -qx "$(basename $f)" || { echo "missing $f"; exit 1; }; done
+          git config user.name "koru-bot"; git config user.email "koru-bot@users.noreply.github.com"
+          git rm -q $files && touch videos/.keep && git add videos/.keep
+          git commit -m "videos: moved to the video-store release" && git pull --rebase && git push
+      - name: Redeploy Pages
+        run: gh workflow run pages.yml -R "$R" --ref main

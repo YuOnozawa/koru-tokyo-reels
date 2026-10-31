@@ -9,6 +9,7 @@ on:
         required: false
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: ig-publish
   cancel-in-progress: false
@@ -24,6 +25,13 @@ jobs:
           FORCE_ID: ${{ github.event.inputs.id }}
         run: |
           if [ -n "$FORCE_ID" ]; then python scripts/ig.py publish --id "$FORCE_ID"; else python scripts/ig.py publish; fi
+      - name: Archive posted videos to Drive, then drop them from the store and the site
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/store.py archive || true
+          if ! git diff --quiet state/posted.json; then gh workflow run pages.yml -R "${{ github.repository }}" --ref main || true; fi
       - name: Save state
         if: always()
         run: |

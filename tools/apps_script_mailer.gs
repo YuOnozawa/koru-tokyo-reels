@@ -14,6 +14,7 @@ function doPost(e) {
   lock.tryLock(10000);
   try {
     var d = JSON.parse((e && e.postData && e.postData.contents) || '{}');
+    if (d.action === 'archive') return out(archive(d));
     var email = String(d.email || '').trim();
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return out({ ok: false, error: 'bad email' });
     var ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -31,6 +32,37 @@ function doPost(e) {
   } finally {
     lock.releaseLock();
   }
+}
+
+/**
+ * Video archive: GitHub Actions posts {action:'archive', url, name} after a reel is published.
+ * Only our own repo's videos are accepted. Saves the mp4 into ARCHIVE_FOLDER_ID (falls back to a
+ * "koru_reels_archive" folder in My Drive). Skips files that are already there.
+ */
+var ARCHIVE_FOLDER_ID = '1rzsrehXDUuC1UH_0aTb7msJmGpEYZoEg'; // Drive: TokyoGuide_動画プロジェクト/04_完成動画
+var ARCHIVE_URL_PREFIXES = [
+  'https://github.com/YuOnozawa/koru-tokyo-reels/releases/download/video-store/',
+  'https://yuonozawa.github.io/koru-tokyo-reels/videos/'
+];
+
+function archive(d) {
+  var url = String(d.url || ''), name = String(d.name || '');
+  if (!/^[a-z0-9_]+\.mp4$/i.test(name)) return { ok: false, error: 'bad name' };
+  if (!ARCHIVE_URL_PREFIXES.some(function (p) { return url.indexOf(p) === 0; })) return { ok: false, error: 'url not allowed' };
+  var folder;
+  try { folder = ARCHIVE_FOLDER_ID ? DriveApp.getFolderById(ARCHIVE_FOLDER_ID) : null; } catch (err) { folder = null; }
+  if (!folder) {
+    var it = DriveApp.getFoldersByName('koru_reels_archive');
+    folder = it.hasNext() ? it.next() : DriveApp.createFolder('koru_reels_archive');
+  }
+  var existing = folder.getFilesByName(name);
+  if (existing.hasNext()) { var f0 = existing.next(); return { ok: true, id: f0.getId(), size: f0.getSize(), existed: true }; }
+  var res = UrlFetchApp.fetch(url, { followRedirects: true, muteHttpExceptions: true });
+  if (res.getResponseCode() !== 200) return { ok: false, error: 'fetch ' + res.getResponseCode() };
+  var blob = res.getBlob().setName(name).setContentType('video/mp4');
+  if (blob.getBytes().length < 100000) return { ok: false, error: 'too small' };
+  var f = folder.createFile(blob);
+  return { ok: true, id: f.getId(), size: f.getSize() };
 }
 
 function doGet() { return out({ ok: true, service: 'koru planner mailer' }); }

@@ -57,7 +57,8 @@ def public_url(rel):
                 return pages
     except Exception:
         pass
-    return f'https://raw.githubusercontent.com/{REPO}/{BRANCH}/{rel}'
+    # Videos live in the 'video-store' release (not in git). Fallback when Pages doesn't have the file.
+    return f'https://github.com/{REPO}/releases/download/video-store/{os.path.basename(rel)}'
 
 
 def publish_one(uid, item):
