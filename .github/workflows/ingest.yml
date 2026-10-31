@@ -2,9 +2,7 @@ name: Ingest videos (into release store)
 # Claude pushes rendered videos to the throwaway branch 'incoming'. This moves them to release assets,
 # deletes the branch (so the repo stays small), and redeploys Pages.
 on:
-  push:
-    branches: [incoming]
-  workflow_dispatch:
+  workflow_dispatch:   # started by tools/push_videos.sh (a push to 'incoming' alone can't trigger it)
     inputs:
       migrate_main:
         description: 'also move videos/*.mp4 on main into the store and remove them from main'
