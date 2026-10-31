@@ -2,6 +2,8 @@
   // Apps Script web app URL that stores the request in Yu's sheet and emails the plan.
   // Empty = the email box stays hidden.
   var ENDPOINT = '';
+  // Tip page (Ko-fi / Buy Me a Coffee / Stripe link). Empty = the tip jar stays hidden.
+  var TIP_URL = '';
 
   var AREAS = [['akiba', '秋葉原', 'Akihabara', 'cap-red', ['Akihabara', 'Suehirocho']], ['ueno', '上野・湯島', 'Ueno & Yushima', 'cap-green', ['Ueno', 'Okachimachi', 'Yushima']], ['asakusa', '浅草', 'Asakusa', 'cap-yellow', ['Asakusa', 'Kuramae']], ['kanda', '神田・神保町', 'Kanda & Jimbocho', 'cap-blue', ['Kanda', 'Jimbocho', 'Ochanomizu']]];
   var BUDGETS = [['under1500', '¥1,500', 'Cheap eats', 'cap-green'], ['1500-4000', '¥4,000', 'Everyday', 'cap-blue'], ['4000-10000', '¥10,000', 'Treat', 'cap-yellow'], ['10000plus', '上限なし', 'No limit', 'cap-red']];
@@ -119,8 +121,8 @@
       });
       out.appendChild(sec);
     });
-    cta.hidden = false; $('mailbox').hidden = false;
-    $('mail').hidden = !ENDPOINT;
+    cta.hidden = false; $('mailbox').hidden = !ENDPOINT; $('sharebox').hidden = false; $('tipjar').hidden = !TIP_URL;
+    $('storyimg').hidden = true; updateShareLinks();
     history.replaceState(null, '', shareUrl());
   }
   function shareUrl() {
@@ -170,7 +172,8 @@
   function setMode(m) {
     document.querySelectorAll('.mode').forEach(function (x) { x.hidden = x.dataset.mode !== m; });
     out.hidden = m !== 'plan'; $('gout').hidden = m !== 'gacha'; $('sout').hidden = m !== 'search';
-    $('mailbox').hidden = m !== 'plan' || !lastPlan; cta.hidden = m !== 'plan' || !lastPlan;
+    $('mailbox').hidden = m !== 'plan' || !lastPlan || !ENDPOINT; cta.hidden = m !== 'plan' || !lastPlan;
+    $('sharebox').hidden = m !== 'plan' || !lastPlan; $('tipjar').hidden = !TIP_URL || (m === 'plan' && !lastPlan);
     if (m === 'search') search();
     store('koru-mode', m);
   }
@@ -216,6 +219,67 @@
       .then(function () { st.textContent = 'Sent. Check your inbox in a minute (and the spam folder).'; })
       .catch(function () { st.textContent = 'That did not send. Check your connection and try again.'; });
   });
+
+
+  // ---------- sharing ----------
+  function shareText() { return 'My Tokyo food plan, printed on the Tokyo Food Ticket Machine by a local in Akihabara 🎫'; }
+  function updateShareLinks() {
+    var u = encodeURIComponent(shareUrl()), t = encodeURIComponent(shareText());
+    $('s-wa').href = 'https://wa.me/?text=' + t + '%20' + u;
+    $('s-line').href = 'https://social-plugins.line.me/lineit/share?url=' + u;
+    $('s-x').href = 'https://twitter.com/intent/tweet?text=' + t + '&url=' + u;
+    $('s-fb').href = 'https://www.facebook.com/sharer/sharer.php?u=' + u;
+  }
+  $('nshare').addEventListener('click', function () {
+    var st = $('sstatus');
+    if (navigator.share) navigator.share({ title: 'My Tokyo meal tickets', text: shareText(), url: shareUrl() }).catch(function () {});
+    else navigator.clipboard && navigator.clipboard.writeText(shareUrl()).then(function () { st.textContent = 'Link copied. Paste it anywhere.'; });
+  });
+  function storyCanvas() {
+    var W = 1080, H = 1920, c = document.createElement('canvas'); c.width = W; c.height = H; var g = c.getContext('2d');
+    g.fillStyle = '#c9d2d7'; g.fillRect(0, 0, W, H);
+    g.fillStyle = '#dfe5e8'; roundRect(g, 60, 60, W - 120, H - 120, 40); g.fill();
+    g.fillStyle = '#17110c'; roundRect(g, 110, 110, W - 220, 120, 20); g.fill();
+    g.fillStyle = '#ffa22b'; g.font = '56px "DotGothic16", monospace'; g.textBaseline = 'middle'; g.fillText('MY TOKYO MEAL TICKETS', 150, 172);
+    g.fillStyle = '#22303a'; g.font = '84px "Dela Gothic One", sans-serif'; g.textBaseline = 'alphabetic'; g.fillText('東京めし券売機', 120, 350);
+    var y = 420, days = lastPlan.days.slice(0, 3);
+    days.forEach(function (day, k) {
+      g.fillStyle = '#22303a'; g.font = '50px "Dela Gothic One", sans-serif'; g.fillText((k + 1) + '日目', 120, y + 52);
+      g.fillStyle = '#5d6b75'; g.font = 'bold 34px "Zen Kaku Gothic New", sans-serif'; g.fillText(day.area, 310, y + 50);
+      y += 72;
+      day.meals.forEach(function (m) {
+        if (!m[2]) return;
+        g.fillStyle = '#fffef8'; roundRect(g, 120, y, W - 240, 96, 10); g.fill();
+        g.fillStyle = '#d7262e'; g.font = '40px "Dela Gothic One", sans-serif'; g.fillText(m[0], 150, y + 64);
+        g.fillStyle = '#2b2f45'; g.font = 'bold 40px "Zen Kaku Gothic New", sans-serif'; g.fillText(fitText(g, m[2].name_en, W - 420), 220, y + 46);
+        g.fillStyle = '#6f7287'; g.font = '30px "Zen Kaku Gothic New", sans-serif'; g.fillText(fitText(g, m[2].name_ja, W - 420), 220, y + 82);
+        if (m[2].yu_pick) { g.strokeStyle = '#d7262e'; g.lineWidth = 5; g.beginPath(); g.arc(W - 190, y + 48, 36, 0, Math.PI * 2); g.stroke(); g.fillStyle = '#d7262e'; g.font = '26px "Dela Gothic One", sans-serif'; g.textAlign = 'center'; g.fillText('推し', W - 190, y + 58); g.textAlign = 'left'; }
+        y += 108;
+      });
+      y += 16;
+    });
+    g.fillStyle = '#22303a'; g.font = 'bold 38px "Zen Kaku Gothic New", sans-serif'; g.fillText('Make yours free: link in @koru.tokyo_guide bio', 120, H - 190);
+    g.fillStyle = '#5d6b75'; g.font = '30px "Zen Kaku Gothic New", sans-serif'; g.fillText('By Yu, an office worker in Akihabara, and Koru 🐕', 120, H - 135);
+    return c;
+  }
+  function roundRect(g, x, y, w, h, r) { g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath(); }
+  function fitText(g, t, max) { if (g.measureText(t).width <= max) return t; while (t.length > 3 && g.measureText(t + '…').width > max) t = t.slice(0, -1); return t + '…'; }
+  $('story').addEventListener('click', function () {
+    var st = $('sstatus');
+    (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () {
+      var c = storyCanvas();
+      c.toBlob(function (blob) {
+        var file = new File([blob], 'tokyo-meal-tickets.png', { type: 'image/png' });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          navigator.share({ files: [file], title: 'My Tokyo meal tickets' }).catch(function () {});
+        } else {
+          var img = $('storyimg'); img.src = URL.createObjectURL(blob); img.hidden = false;
+          st.textContent = 'Long-press (or right-click) the image to save it, then add it to your story.';
+        }
+      }, 'image/png');
+    });
+  });
+  if (TIP_URL) document.querySelectorAll('.tip').forEach(function (a) { a.href = TIP_URL; });
 
   fetch('shops.json').then(function (r) { return r.json(); }).then(function (j) {
     SHOPS = j; renderKept();

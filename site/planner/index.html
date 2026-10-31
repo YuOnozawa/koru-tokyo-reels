@@ -153,6 +153,20 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
 .mail button,.sharebtn{font:900 16px var(--zen);border:0;border-radius:10px;padding:14px;cursor:pointer;background:var(--steel-ink);color:var(--steel)}
 .mail button:focus-visible,.sharebtn:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 .status{font:15px/1.4 var(--dot);color:var(--steel-ink);min-height:1.4em;margin:0}
+
+.sharegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.sharegrid .big{grid-column:span 3;background:var(--red);color:#fff;font-size:18px;box-shadow:0 4px 0 var(--red-deep)}
+.sharegrid #story{background:var(--steel-ink);color:var(--steel);box-shadow:none}
+.sharegrid a.sharebtn{text-align:center;text-decoration:none;font-size:14px;padding:12px 6px}
+#storyimg{display:block;width:60%;margin:14px auto 0;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,.25)}
+.tipjar{text-align:center}
+.tipkoru img{width:72px;height:72px;border-radius:50%;border:3px solid var(--btn);box-shadow:0 0 0 2px var(--btn-edge)}
+.tips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:6px}
+.tip{display:grid;gap:2px;place-items:center;padding:14px 6px;border-radius:10px;background:var(--btn);color:var(--steel-ink);text-decoration:none;box-shadow:0 4px 0 var(--btn-edge);border-top:8px solid var(--cap,#f2b705)}
+.tip:nth-child(2){--cap:#2e9c5a}.tip:nth-child(3){--cap:#d7262e}
+.tip b{font:400 26px/1 var(--dela)}
+.tip span{font-size:12px;color:var(--steel-muted)}
+.tip:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 </style>
 </head>
 <body>
@@ -244,8 +258,33 @@ footer{max-width:560px;margin:28px auto 0;font-size:13px;color:var(--steel-muted
     <p class="status" id="mstatus" role="status"></p>
     <p class="note" style="font-size:12px">I only use your email to send this plan (and tips if you ticked the box). <a href="../privacy/">Privacy</a></p>
   </form>
-  <button class="sharebtn" id="share" type="button" style="margin-top:14px;width:100%">Copy a link to this plan</button>
+</aside>
+
+<aside class="box" id="sharebox" hidden>
+  <h2>Share your tickets</h2>
+  <p>Send the plan to your travel buddies, or post the tickets to your Instagram story.</p>
+  <div class="sharegrid">
+    <button class="sharebtn big" id="nshare" type="button">Share plan</button>
+    <button class="sharebtn big" id="story" type="button">Story image</button>
+    <a class="sharebtn" id="s-wa" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="sharebtn" id="s-line" target="_blank" rel="noopener">LINE</a>
+    <a class="sharebtn" id="s-x" target="_blank" rel="noopener">X</a>
+    <a class="sharebtn" id="s-fb" target="_blank" rel="noopener">Facebook</a>
+    <button class="sharebtn" id="share" type="button">Copy link</button>
+  </div>
   <p class="status" id="sstatus" role="status"></p>
+  <img id="storyimg" alt="Your meal tickets as a story image" hidden>
+</aside>
+
+<aside class="box tipjar" id="tipjar" hidden>
+  <div class="tipkoru"><img src="../list/koru.jpg" alt="Koru" width="72" height="72"></div>
+  <h2>Did the machine help?</h2>
+  <p>This planner is free. If it saved you a bad meal, you can buy Koru a treat. Tips keep me checking hours and adding places.</p>
+  <div class="tips">
+    <a class="tip" data-amt="3" target="_blank" rel="noopener"><b>$3</b><span>a dog treat</span></a>
+    <a class="tip" data-amt="5" target="_blank" rel="noopener"><b>$5</b><span>Yu's coffee</span></a>
+    <a class="tip" data-amt="10" target="_blank" rel="noopener"><b>$10</b><span>a ramen for Yu</span></a>
+  </div>
 </aside>
 
 <aside class="box" id="kept" hidden>
