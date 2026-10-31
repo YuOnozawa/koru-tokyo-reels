@@ -377,21 +377,43 @@
    "liked": true,
    "at": "2026-10-31T20:45Z",
    "source": "commenter on Japan tips post"
+  },
+  {
+   "user": "viebydaphne",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T21:44Z",
+   "source": "'Saving this for my Japan trip' on Japan apps post"
+  },
+  {
+   "user": "thesharronkeogh",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T21:44Z",
+   "source": "asked how to set up Suica on Japan apps post"
+  },
+  {
+   "user": "heatherinnewyork",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T21:44Z",
+   "source": "commenter on Tokyo solo itinerary post"
   }
  ],
- "candidates": [
-  "matjeffery",
-  "chanelgal26",
-  "the_travel_in_pink",
-  "earlgreyce"
- ],
+ "candidates": [],
  "skipped_big": [
   "indulgenteats",
   "otakuqueue",
   "laurabushnell",
   "thisism3lissa",
   "rocknroamgirl",
-  "love.christina.xo"
+  "love.christina.xo",
+  "chanelgal26",
+  "the_travel_in_pink",
+  "chaewonkim",
+  "its.eilleen",
+  "clarhens",
+  "kimberllyvuong"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -404,6 +426,10 @@
   "kiki.d3",
   "kylejs88",
   "josianeavisser1969",
-  "ashteabags"
+  "ashteabags",
+  "matjeffery",
+  "earlgreyce",
+  "bunnybrie_",
+  "hallodinni"
  ]
 }
