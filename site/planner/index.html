@@ -207,7 +207,7 @@ a.mini{text-decoration:none;display:inline-block}
 dialog#picker{width:min(560px,94vw);max-height:80vh;border:0;border-radius:16px;padding:0;background:var(--steel);color:var(--steel-ink)}
 dialog#picker::backdrop{background:rgba(10,15,20,.55)}
 .pk-head{position:sticky;top:0;background:var(--steel);padding:16px 18px 10px;display:grid;gap:8px;border-bottom:2px solid var(--btn-edge)}
-.pk-head h2{font:400 20px/1.2 var(--dela);margin:0}
+.pk-head h2{font:400 20px/1.2 var(--dela);margin:0;padding-right:84px;overflow-wrap:anywhere}
 .pk-head label{font-size:14px;display:flex;gap:8px;align-items:center}
 .pk-close{position:absolute;right:12px;top:12px;font:900 15px var(--zen);border:0;background:var(--btn);border-radius:8px;padding:6px 10px;box-shadow:0 3px 0 var(--btn-edge);cursor:pointer;color:var(--steel-ink)}
 #pickerlist{display:grid;gap:8px;padding:12px 18px 18px}
@@ -220,6 +220,28 @@ dialog#picker::backdrop{background:rgba(10,15,20,.55)}
 .sharegrid .big{grid-column:span 4}
 .sharegrid #share{grid-column:span 4;background:transparent;color:var(--steel-ink);border:2px solid var(--steel-ink);box-shadow:none}
 .sharegrid a.sharebtn{font-size:13px;padding:12px 2px}
+
+/* ----- community ----- */
+.t-social{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;padding-top:10px;border-top:2px dashed #d8d6cc}
+.rx{display:inline-flex;gap:6px;align-items:center;font:700 13px/1 var(--zen);background:#f3f1e8;color:var(--paper-ink);border:0;border-radius:999px;padding:8px 11px;cursor:pointer}
+.rx[aria-pressed=true]{background:var(--paper-ink);color:var(--paper)}
+.rx .n:empty{display:none}
+.rx:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+dialog#reviews{width:min(560px,94vw);max-height:86vh;border:0;border-radius:16px;padding:0;background:var(--steel);color:var(--steel-ink)}
+dialog#reviews::backdrop{background:rgba(10,15,20,.55)}
+#rvlist{display:grid;gap:12px;padding:12px 18px}
+.rv{margin:0;background:var(--paper);color:var(--paper-ink);border-radius:12px;overflow:hidden}
+.rv img{display:block;width:100%;max-height:360px;object-fit:cover}
+.rv figcaption{padding:10px 14px;font-size:15px}
+.rv figcaption p{margin:0 0 4px}
+.rv figcaption span{font-size:13px;color:var(--paper-muted)}
+#rvform{display:grid;gap:10px;padding:6px 18px 20px}
+#rvform h3{font:400 18px var(--dela);margin:6px 0 0}
+#rvform input[type=text],#rvform textarea{font:16px var(--zen);padding:10px;border-radius:8px;border:2px solid var(--btn-edge);background:var(--btn);color:var(--steel-ink);width:100%}
+#rvform textarea{min-height:84px;resize:vertical}
+#rvform label.ok{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--steel-muted)}
+#rvform button[type=submit]{font:900 16px var(--zen);border:0;border-radius:10px;padding:13px;background:var(--red);color:#fff;box-shadow:0 4px 0 var(--red-deep);cursor:pointer}
+#rvprev{max-width:100%;max-height:200px;border-radius:10px;justify-self:start}
 </style>
 </head>
 <body>
@@ -360,6 +382,24 @@ dialog#picker::backdrop{background:rgba(10,15,20,.55)}
     <button class="pk-close" type="button" onclick="this.closest('dialog').close()">Close</button>
   </div>
   <div id="pickerlist"></div>
+</dialog>
+<dialog id="reviews" aria-labelledby="rvtitle">
+  <div class="pk-head">
+    <h2 id="rvtitle">Photos & notes</h2>
+    <button class="pk-close" type="button" onclick="this.closest('dialog').close()">Close</button>
+  </div>
+  <div id="rvlist"></div>
+  <form id="rvform">
+    <h3>Been here? Share a photo or a note</h3>
+    <input type="text" id="rvname" maxlength="40" placeholder="Your name or @instagram (optional)" autocomplete="nickname">
+    <textarea id="rvtext" maxlength="500" placeholder="What did you order? Was there a line? Any tip for the next traveler?"></textarea>
+    <input type="file" id="rvphoto" accept="image/*">
+    <img id="rvprev" alt="Your photo" hidden>
+    <label class="ok"><input type="checkbox" id="rvok" required> I took this photo, it doesn't show other people's faces up close, and Yu & Koru may show it here and on Instagram with my name.</label>
+    <button type="submit">Send</button>
+    <p class="status" id="rvstatus" role="status"></p>
+    <p class="note" style="font-size:12px;margin:0">Everything is checked by a human before it appears. <a href="../privacy/">Privacy</a></p>
+  </form>
 </dialog>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 

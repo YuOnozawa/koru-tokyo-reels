@@ -88,6 +88,7 @@
     row(dl2, 'Tip', s.tourist_tip); row(dl2, 'Checked', s.checked);
     more.appendChild(dl2);
     if (dl2.childNodes.length) t.appendChild(more);
+    if (ENDPOINT && s.slug) t.appendChild(social(s));
     var acts = el('div', 't-actions');
     if (opts.slot) {
       var sw = el('button', 'mini edit', '↻ Swap'); sw.type = 'button'; sw.title = 'Show me a different place for this ticket';
@@ -296,6 +297,79 @@
     document.body.appendChild(a); a.click(); a.remove(); toast('Calendar file downloaded. Open it to add the meals.');
   }
 
+
+  // ---------- community: reactions, comments, photos (needs ENDPOINT) ----------
+  var COMM = { counts: {}, reviews: {} };
+  var RX = [['like', '❤️', 'Like'], ['want', '📍', 'Want to go'], ['been', '✅', 'Been here']];
+  function myReacts() { return store('koru-react') || {}; }
+  function social(s) {
+    var row = el('div', 't-social');
+    RX.forEach(function (r) {
+      var b = el('button', 'rx'); b.type = 'button'; b.dataset.rx = s.slug + '|' + r[0];
+      b.setAttribute('aria-pressed', !!(myReacts()[s.slug] || {})[r[0]]); b.setAttribute('aria-label', r[2]);
+      b.append(el('span', null, r[1] + ' ' + r[2]), el('b', 'n'));
+      b.addEventListener('click', function () { toggleReact(s.slug, r[0]); });
+      row.appendChild(b);
+    });
+    var rv = el('button', 'rx rv'); rv.type = 'button'; rv.dataset.rv = s.slug;
+    rv.append(el('span', null, '💬 Photos & notes'), el('b', 'n'));
+    rv.addEventListener('click', function () { openReviews(s); });
+    row.appendChild(rv);
+    paintSocial(row);
+    return row;
+  }
+  function paintSocial(root) {
+    var mine = myReacts();
+    (root || document).querySelectorAll('[data-rx]').forEach(function (b) {
+      var p = b.dataset.rx.split('|'), on = !!(mine[p[0]] || {})[p[1]], n = ((COMM.counts[p[0]] || {})[p[1]] || 0);
+      b.setAttribute('aria-pressed', on); b.querySelector('.n').textContent = n ? String(n) : '';
+    });
+    (root || document).querySelectorAll('[data-rv]').forEach(function (b) { var n = (COMM.reviews[b.dataset.rv] || []).length; b.querySelector('.n').textContent = n ? String(n) : ''; });
+  }
+  function toggleReact(slug, type) {
+    var m = myReacts(); m[slug] = m[slug] || {}; var on = !m[slug][type];
+    if (on) m[slug][type] = 1; else delete m[slug][type]; store('koru-react', m);
+    COMM.counts[slug] = COMM.counts[slug] || { like: 0, want: 0, been: 0 }; COMM.counts[slug][type] = Math.max(0, (COMM.counts[slug][type] || 0) + (on ? 1 : -1));
+    paintSocial();
+    post({ action: 'react', slug: slug, type: type, delta: on ? 1 : -1 });
+    if (on && type === 'been') toast('Nice! Add a photo or a note for the next traveler?', null);
+  }
+  function post(obj) {
+    return fetch(ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(obj) });
+  }
+  function openReviews(s) {
+    var dlg = $('reviews'), list = $('rvlist'), form = $('rvform'), st = $('rvstatus');
+    $('rvtitle').textContent = s.name_en; list.replaceChildren(); st.textContent = ''; form.reset(); $('rvprev').hidden = true;
+    var rs = COMM.reviews[s.slug] || [];
+    if (!rs.length) list.appendChild(el('p', 'empty', 'No photos or notes yet. Been here? You could be the first.'));
+    rs.forEach(function (r) {
+      var c = el('figure', 'rv');
+      if (r.photo) { var im = el('img'); im.src = r.photo; im.alt = 'Photo by ' + r.name; im.loading = 'lazy'; c.appendChild(im); }
+      var cap = el('figcaption'); if (r.text) cap.appendChild(el('p', null, r.text)); cap.appendChild(el('span', null, '— ' + r.name + ', ' + r.date)); c.appendChild(cap);
+      list.appendChild(c);
+    });
+    form.onsubmit = function (e) {
+      e.preventDefault();
+      var file = $('rvphoto').files[0], text = $('rvtext').value.trim();
+      if (!text && !file) { st.textContent = 'Add a photo or a note first.'; return; }
+      st.textContent = 'Sending…';
+      (file ? shrink(file) : Promise.resolve('')).then(function (photo) {
+        return post({ action: 'review', slug: s.slug, name: $('rvname').value.trim(), text: text, photo: photo, consent: $('rvok').checked });
+      }).then(function () { st.textContent = 'Thank you! It will show up here after a quick check.'; form.reset(); $('rvprev').hidden = true; },
+        function () { st.textContent = 'That did not send. Check your connection and try again.'; });
+    };
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+  }
+  function shrink(file) {
+    return new Promise(function (ok, bad) {
+      var img = new Image(); img.onload = function () {
+        var k = Math.min(1, 1280 / Math.max(img.width, img.height)), c = document.createElement('canvas');
+        c.width = Math.round(img.width * k); c.height = Math.round(img.height * k); c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        ok(c.toDataURL('image/jpeg', 0.82)); URL.revokeObjectURL(img.src);
+      }; img.onerror = bad; img.src = URL.createObjectURL(file);
+    });
+  }
+
   // ---------- gacha ----------
   var seen = {};
   function fillDome() {
@@ -457,6 +531,8 @@
     var amt = a.dataset.amt; a.href = amt && TIP_AMOUNT_URL ? TIP_AMOUNT_URL.replace('{amt}', amt) : TIP_URL;
   });
 
+  if (ENDPOINT) fetch(ENDPOINT + '?action=community').then(function (r) { return r.json(); }).then(function (j) { if (j && j.ok) { COMM.counts = j.counts || {}; COMM.reviews = j.reviews || {}; paintSocial(); } }).catch(function () {});
+  $('rvphoto') && $('rvphoto').addEventListener('change', function () { var f0 = this.files[0], pv = $('rvprev'); if (f0) { pv.src = URL.createObjectURL(f0); pv.hidden = false; } else pv.hidden = true; });
   fetch('shops.json').then(function (r) { return r.json(); }).then(function (j) {
     SHOPS = j; j.forEach(function (s) { BY_SLUG[s.slug] = s; }); renderKept();
     if (sharedSeed !== null) renderPlan(sharedSeed);

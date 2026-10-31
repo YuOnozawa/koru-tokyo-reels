@@ -1,10 +1,13 @@
 /**
- * Tokyo Food Ticket Machine: "email my plan" backend (Google Apps Script web app).
+ * Tokyo Food Ticket Machine backend (Google Apps Script web app): email my plan, reactions
+ * (like / want to go / been here), visitor comments + photos (shown only after approval), video archive.
  * Setup (once, by Yu):
  *  1. Open the Google Sheet "Koru planner leads" > Extensions > Apps Script, paste this file, Save.
  *  2. Deploy > New deployment > Web app. Execute as: Me. Who has access: Anyone. Deploy, allow access.
  *  3. Send the Web app URL to Claude (it goes into planner.js as ENDPOINT).
- * Each request appends one row to the "leads" sheet, then emails the plan from this Google account.
+ * Each plan email appends one row to the "leads" sheet, then emails the plan from this Google account.
+ * Moderation: new comments/photos land in the "reviews" sheet with status "pending" and you get an email.
+ * Change status to "approved" to show it on the site (or "rejected"). Photos stay private until approved.
  */
 var SHEET = 'leads';
 var FROM_NAME = 'Yu & Koru (Tokyo food)';
@@ -15,6 +18,8 @@ function doPost(e) {
   try {
     var d = JSON.parse((e && e.postData && e.postData.contents) || '{}');
     if (d.action === 'archive') return out(archive(d));
+    if (d.action === 'react') return out(react(d));
+    if (d.action === 'review') return out(review(d));
     var email = String(d.email || '').trim();
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return out({ ok: false, error: 'bad email' });
     var ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -65,7 +70,73 @@ function archive(d) {
   return { ok: true, id: f.getId(), size: f.getSize() };
 }
 
-function doGet() { return out({ ok: true, service: 'koru planner mailer' }); }
+function doGet(e) {
+  if (e && e.parameter && e.parameter.action === 'community') return out(community());
+  return out({ ok: true, service: 'koru planner backend' });
+}
+
+// ---------- community: reactions, comments, photos ----------
+var REACTIONS = ['like', 'want', 'been'];
+var UGC_FOLDER = 'koru_ugc_photos';
+function sheet(name, header) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet(), sh = ss.getSheetByName(name) || ss.insertSheet(name);
+  if (sh.getLastRow() === 0) sh.appendRow(header);
+  return sh;
+}
+function validSlug(s) { return /^[a-z0-9-]{2,80}$/.test(String(s || '')); }
+function react(d) {
+  if (!validSlug(d.slug) || REACTIONS.indexOf(d.type) < 0) return { ok: false, error: 'bad input' };
+  var delta = d.delta === -1 ? -1 : 1;
+  var sh = sheet('reactions', ['slug'].concat(REACTIONS)), rows = sh.getDataRange().getValues(), col = REACTIONS.indexOf(d.type) + 2;
+  for (var i = 1; i < rows.length; i++) {
+    if (rows[i][0] === d.slug) { var c = sh.getRange(i + 1, col); c.setValue(Math.max(0, (+c.getValue() || 0) + delta)); CacheService.getScriptCache().remove('community'); return { ok: true }; }
+  }
+  if (delta < 0) return { ok: true };
+  var row = [d.slug, 0, 0, 0]; row[col - 1] = 1; sh.appendRow(row);
+  CacheService.getScriptCache().remove('community');
+  return { ok: true };
+}
+function review(d) {
+  var name = String(d.name || '').trim().slice(0, 40), text = String(d.text || '').trim().slice(0, 500);
+  if (!validSlug(d.slug) || !d.consent || (!text && !d.photo)) return { ok: false, error: 'bad input' };
+  var fileId = '';
+  if (d.photo) {
+    var m = /^data:image\/(jpeg|png|webp);base64,(.+)$/.exec(String(d.photo));
+    if (!m) return { ok: false, error: 'bad photo' };
+    var bytes = Utilities.base64Decode(m[2]);
+    if (bytes.length > 2500000) return { ok: false, error: 'photo too big' };
+    var it = DriveApp.getFoldersByName(UGC_FOLDER), folder = it.hasNext() ? it.next() : DriveApp.createFolder(UGC_FOLDER);
+    fileId = folder.createFile(Utilities.newBlob(bytes, 'image/' + m[1], d.slug + '_' + Date.now() + '.' + (m[1] === 'jpeg' ? 'jpg' : m[1]))).getId();
+  }
+  var sh = sheet('reviews', ['received_at', 'slug', 'name', 'text', 'photo_file_id', 'status', 'photo_public']);
+  sh.appendRow([new Date(), d.slug, name, text, fileId, 'pending', '']);
+  try {
+    MailApp.sendEmail({ to: Session.getEffectiveUser().getEmail(), subject: 'New visitor comment to check: ' + d.slug,
+      body: (name || 'Someone') + ' wrote about ' + d.slug + ':\n\n' + text + (fileId ? '\n\nPhoto: https://drive.google.com/file/d/' + fileId + '/view' : '') +
+        '\n\nTo show it on the site, set status to "approved" in the reviews sheet: ' + SpreadsheetApp.getActiveSpreadsheet().getUrl() });
+  } catch (err) {}
+  return { ok: true, pending: true };
+}
+function community() {
+  var cache = CacheService.getScriptCache(), hit = cache.get('community');
+  if (hit) return JSON.parse(hit);
+  var counts = {}, reviews = {};
+  var r = sheet('reactions', ['slug'].concat(REACTIONS)).getDataRange().getValues();
+  for (var i = 1; i < r.length; i++) counts[r[i][0]] = { like: +r[i][1] || 0, want: +r[i][2] || 0, been: +r[i][3] || 0 };
+  var sh = sheet('reviews', ['received_at', 'slug', 'name', 'text', 'photo_file_id', 'status', 'photo_public']), v = sh.getDataRange().getValues();
+  for (var j = 1; j < v.length; j++) {
+    if (String(v[j][5]).toLowerCase() !== 'approved') continue;
+    var fid = v[j][4];
+    if (fid && v[j][6] !== 'yes') {
+      try { DriveApp.getFileById(fid).setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW); sh.getRange(j + 1, 7).setValue('yes'); } catch (err) { fid = ''; }
+    }
+    (reviews[v[j][1]] = reviews[v[j][1]] || []).push({ name: v[j][2] || 'A traveler', text: v[j][3], date: Utilities.formatDate(new Date(v[j][0]), 'Asia/Tokyo', 'yyyy-MM'),
+      photo: fid ? 'https://drive.google.com/thumbnail?id=' + fid + '&sz=w1000' : '' });
+  }
+  var res = { ok: true, counts: counts, reviews: reviews };
+  cache.put('community', JSON.stringify(res), 300);
+  return res;
+}
 
 function out(o) {
   return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON);
