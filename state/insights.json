@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-10-30T05:55:55.856964+00:00",
+ "fetched_at": "2026-10-31T05:52:04.408107+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 36,
+  "media_count": 38,
   "id": "28241506535529259",
   "followers_count": 1,
-  "follows_count": 0
+  "follows_count": 12
  },
  "media": [
+  {
+   "id": "17921142897245580",
+   "permalink": "https://www.instagram.com/reel/DfJWCYMtaSj/",
+   "timestamp": "2026-10-31T04:54:08+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Learn these before you eat out in Tokyo 🗣\n\n🙏 いただきます itadakim",
+   "reach": 5,
+   "views": 12,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 6770,
+   "ig_reels_video_view_total_time": 40624
+  },
+  {
+   "id": "17965677222235221",
+   "permalink": "https://www.instagram.com/reel/DfJVJXuNYcl/",
+   "timestamp": "2026-10-31T04:46:21+0000",
+   "media_product_type": "REELS",
+   "caption_head": "I made a free Tokyo food planner 🎫\n\nI work in Akihabara and ",
+   "reach": 3,
+   "views": 3,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 20198,
+   "ig_reels_video_view_total_time": 80792
+  },
   {
    "id": "18168020833419295",
    "permalink": "https://www.instagram.com/reel/De-XnwlKPVN/",
@@ -23,8 +55,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3664,
-   "ig_reels_video_view_total_time": 406750
+   "ig_reels_avg_watch_time": 3814,
+   "ig_reels_video_view_total_time": 427234
   },
   {
    "id": "18079295534406858",
@@ -39,8 +71,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6034,
-   "ig_reels_video_view_total_time": 687888
+   "ig_reels_avg_watch_time": 6049,
+   "ig_reels_video_view_total_time": 695704
   },
   {
    "id": "17988320109082969",
@@ -87,8 +119,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2501,
-   "ig_reels_video_view_total_time": 285196
+   "ig_reels_avg_watch_time": 2670,
+   "ig_reels_video_view_total_time": 307050
   },
   {
    "id": "18034394543897151",
@@ -97,14 +129,14 @@
    "media_product_type": "REELS",
    "caption_head": "Don't wait for the bill at your table in Japan 🧾\n\n📄 At most ",
    "reach": 146,
-   "views": 154,
+   "views": 155,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3362,
-   "ig_reels_video_view_total_time": 494341
+   "ig_reels_avg_watch_time": 3386,
+   "ig_reels_video_view_total_time": 504515
   },
   {
    "id": "18372804169212568",
@@ -119,8 +151,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3060,
-   "ig_reels_video_view_total_time": 370331
+   "ig_reels_avg_watch_time": 3058,
+   "ig_reels_video_view_total_time": 373121
   },
   {
    "id": "18178406353459785",
@@ -135,8 +167,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3202,
-   "ig_reels_video_view_total_time": 390718
+   "ig_reels_avg_watch_time": 112784,
+   "ig_reels_video_view_total_time": 14210878
   },
   {
    "id": "18640868590019520",
@@ -151,8 +183,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4188,
-   "ig_reels_video_view_total_time": 494242
+   "ig_reels_avg_watch_time": 4196,
+   "ig_reels_video_view_total_time": 499376
   },
   {
    "id": "18346972468284268",
@@ -199,8 +231,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 11689,
-   "ig_reels_video_view_total_time": 1180644
+   "ig_reels_avg_watch_time": 11583,
+   "ig_reels_video_view_total_time": 1181472
   },
   {
    "id": "18064355615539899",
@@ -215,8 +247,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4854,
-   "ig_reels_video_view_total_time": 504860
+   "ig_reels_avg_watch_time": 4820,
+   "ig_reels_video_view_total_time": 506118
   },
   {
    "id": "17992524198064746",
@@ -327,8 +359,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2845,
-   "ig_reels_video_view_total_time": 330064
+   "ig_reels_avg_watch_time": 2852,
+   "ig_reels_video_view_total_time": 333751
   },
   {
    "id": "18116867669322008",
@@ -528,15 +560,15 @@
    "timestamp": "2026-09-23T06:19:29+0000",
    "media_product_type": "REELS",
    "caption_head": "Empty Kaminarimon. Yes, it's possible. Be there at 7am. Shop",
-   "reach": 213,
-   "views": 256,
+   "reach": 214,
+   "views": 257,
    "likes": 1,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 8164,
-   "ig_reels_video_view_total_time": 1845091
+   "ig_reels_avg_watch_time": 8221,
+   "ig_reels_video_view_total_time": 1866275
   },
   {
    "id": "18630692956037100",
@@ -544,7 +576,7 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 192,
+   "reach": 193,
    "views": 209,
    "likes": 0,
    "comments": 0,
@@ -576,7 +608,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AgG--QW2nSmqSGNfkxldiJk\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ACUEbkeWzIrPj6MGVS7ofLM\"}}"
   }
  ]
 }
