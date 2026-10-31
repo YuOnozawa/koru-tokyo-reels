@@ -120,21 +120,70 @@
    "state": "following",
    "at": "2026-10-31T02:40Z",
    "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "reefalon1",
+   "state": "following",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'All' (wants itinerary) on /p/Dc7SuNyy6Yh/ (5 days in Tokyo)"
+  },
+  {
+   "user": "jositorl",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'All' (wants itinerary) on /p/Dc7SuNyy6Yh/ (5 days in Tokyo)"
+  },
+  {
+   "user": "thaisyonoki",
+   "state": "following",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'All' (wants itinerary) on /p/Dc7SuNyy6Yh/ (5 days in Tokyo)"
+  },
+  {
+   "user": "anumajhail",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'All' (wants itinerary) on /p/Dc7SuNyy6Yh/ (5 days in Tokyo)"
+  },
+  {
+   "user": "mr_tri_guy",
+   "state": "following",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "ivy.thao",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "kwathey3",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "brandonc1976",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "hjloo2826",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "pinkzel_10",
+   "state": "requested",
+   "at": "2026-10-31T03:45Z",
+   "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
   }
  ],
  "candidates": [
   "rushmiik",
-  "fideito45",
-  "outdoor_eaters?",
-  "reefalon1",
-  "jositorl",
-  "thaisyonoki",
-  "anumajhail",
-  "mr_tri_guy",
-  "ivy.thao",
-  "kwathey3",
-  "brandonc1976",
-  "hjloo2826",
-  "pinkzel_10"
+  "fideito45"
  ]
 }
