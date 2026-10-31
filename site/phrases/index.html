@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Japanese Restaurant Phrases</title>
+<meta name="description" content="30 Japanese phrases for eating out in Tokyo, with sound, a daily phrase, a 1-minute quiz and an allergy card to show staff. Free, by a local in Akihabara.">
+<link rel="canonical" href="https://yuonozawa.github.io/koru-tokyo-reels/phrases/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="30 Japanese phrases for Tokyo restaurants (with sound)">
+<meta property="og:description" content="Itadakimasu, gochisousama, 'firm noodles please' and an allergy card to show staff. Learn 2 a day before your trip.">
+<meta property="og:url" content="https://yuonozawa.github.io/koru-tokyo-reels/phrases/">
+<meta property="og:site_name" content="Tokyo Food Ticket Machine">
+<meta property="og:image" content="https://yuonozawa.github.io/koru-tokyo-reels/phrases/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#c9d2d7">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
+<style>
+/* Same machine as the planner: painted steel, amber LED, paper tickets. Each phrase is a ticket. */
+:root{
+  --steel:#dfe5e8; --steel-2:#c9d2d7; --steel-ink:#22303a; --steel-muted:#5d6b75;
+  --btn:#fbfcfc; --btn-edge:#aeb9c0;
+  --red:#d7262e; --red-deep:#9d141a; --amber:#ffa22b; --led-bg:#17110c;
+  --paper:#fffef8; --paper-ink:#2b2f45; --paper-muted:#6f7287; --green:#2e9c5a;
+  --dela:"Dela Gothic One","Zen Kaku Gothic New",system-ui,sans-serif;
+  --dot:"DotGothic16","Zen Kaku Gothic New",ui-monospace,monospace;
+  --zen:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --steel:#2a3238; --steel-2:#20272c; --steel-ink:#e9eef1; --steel-muted:#9aa8b1;
+  --btn:#39434a; --btn-edge:#151a1e; --paper:#f6f3e8; color-scheme:dark}}
+:root[data-theme="dark"]{--steel:#2a3238; --steel-2:#20272c; --steel-ink:#e9eef1; --steel-muted:#9aa8b1; --btn:#39434a; --btn-edge:#151a1e; --paper:#f6f3e8; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--steel-2);color:var(--steel-ink);font:16px/1.6 var(--zen);padding:20px 16px 72px}
+a{color:inherit}
+.wrap{max-width:640px;margin:0 auto}
+.machine{background:var(--steel);border-radius:22px;padding:22px 20px 24px;box-shadow:inset 0 2px 0 rgba(255,255,255,.55),inset 0 -6px 0 rgba(0,0,0,.08),0 18px 40px -18px rgba(20,30,40,.45)}
+.led{background:var(--led-bg);border-radius:10px;padding:12px 14px;box-shadow:inset 0 0 0 3px #000,inset 0 0 22px rgba(255,140,30,.15);overflow:hidden}
+.led-track{display:flex;gap:56px;white-space:nowrap;font:22px/1.2 var(--dot);color:var(--amber);text-shadow:0 0 6px rgba(255,150,40,.75);animation:marquee 20s linear infinite;width:max-content}
+@keyframes marquee{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.led-track{animation:none}}
+h1{font:400 34px/1.15 var(--dela);margin:18px 0 6px}
+.lede{margin:0 0 4px;color:var(--steel-muted)}
+nav.top{display:flex;gap:14px;flex-wrap:wrap;font:700 14px var(--zen);margin:0 0 12px}
+nav.top a{color:var(--steel-muted)}
+nav.top a[aria-current]{color:var(--steel-ink);text-decoration:none}
+
+/* countdown + progress */
+.count{margin-top:16px;background:var(--led-bg);color:var(--amber);border-radius:12px;padding:14px 16px;font:18px/1.4 var(--dot);box-shadow:inset 0 0 0 3px #000}
+.count b{font:400 30px/1 var(--dela);color:#ffd27a}
+.count label{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px;font:15px var(--dot)}
+.count input{font:16px var(--dot);background:#000;color:var(--amber);border:2px solid #4a3a20;border-radius:8px;padding:6px 8px}
+.meter{display:flex;align-items:center;gap:12px;margin-top:14px}
+.bar{flex:1;height:14px;border-radius:7px;background:var(--btn);box-shadow:inset 0 2px 3px rgba(0,0,0,.15);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--green);transition:width .4s}
+.meter span{font:700 14px var(--zen);color:var(--steel-muted);white-space:nowrap}
+.tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
+.tool{font:900 16px/1.2 var(--zen);border:0;border-radius:12px;padding:14px 10px;cursor:pointer;background:var(--btn);color:var(--steel-ink);box-shadow:0 5px 0 var(--btn-edge);border-top:8px solid var(--cap)}
+.tool small{display:block;font:700 12px var(--zen);color:var(--steel-muted);margin-top:2px}
+.tool:active{transform:translateY(3px);box-shadow:0 2px 0 var(--btn-edge)}
+.tool:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+
+/* sections + phrase tickets */
+.cats{display:flex;gap:8px;overflow-x:auto;padding:16px 2px 4px;scrollbar-width:none}
+.cats a{flex:none;font:700 14px var(--zen);text-decoration:none;background:var(--steel);border-radius:999px;padding:8px 14px;box-shadow:0 3px 0 var(--btn-edge)}
+section.cat{margin-top:26px}
+section.cat h2{font:400 22px/1.2 var(--dela);margin:0 4px 10px}
+.ticket{position:relative;background:var(--paper);color:var(--paper-ink);margin-bottom:12px;padding:16px 18px 14px 20px;
+  -webkit-mask:radial-gradient(circle 7px at 0 50%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 98%,#000) right/51% 100% no-repeat;
+          mask:radial-gradient(circle 7px at 0 50%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 98%,#000) right/51% 100% no-repeat;
+  filter:drop-shadow(0 2px 2px rgba(30,40,50,.18))}
+.ticket.learned{background:#f1f8f0}
+.jp{font:900 28px/1.3 var(--zen);margin:0;padding-right:56px;overflow-wrap:anywhere;word-break:auto-phrase}
+.ro{font:19px/1.35 var(--dot);color:var(--paper-ink);margin:4px 0 0}
+.en{font:700 16px/1.4 var(--zen);margin:6px 0 0}
+.tip{font-size:14px;color:var(--paper-muted);margin:6px 0 0}
+.play{position:absolute;top:14px;right:14px;width:46px;height:46px;border-radius:50%;border:0;background:var(--red);color:#fff;font-size:18px;cursor:pointer;box-shadow:0 3px 0 var(--red-deep)}
+.play:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.play.on{animation:pulse .8s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.08)}}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.mini{font:700 13px/1 var(--zen);border:2px solid var(--paper-ink);background:transparent;color:var(--paper-ink);border-radius:999px;padding:8px 12px;cursor:pointer;text-decoration:none}
+.mini[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
+.mini:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.today{border:3px solid var(--amber)}
+.today::before{content:"今日の一言 · PHRASE OF THE DAY";display:block;font:14px var(--dot);color:#a35f00;margin-bottom:6px}
+
+/* show-card + quiz overlays */
+dialog{border:0;padding:0;border-radius:18px;width:min(600px,94vw);max-height:92vh;background:var(--steel);color:var(--steel-ink)}
+dialog::backdrop{background:rgba(10,15,20,.6)}
+.dl-head{position:sticky;top:0;background:var(--steel);padding:16px 18px 10px;border-bottom:2px solid var(--btn-edge)}
+.dl-head h2{font:400 20px/1.2 var(--dela);margin:0;padding-right:84px}
+.close{position:absolute;right:12px;top:12px;font:900 15px var(--zen);border:0;background:var(--btn);border-radius:8px;padding:6px 10px;box-shadow:0 3px 0 var(--btn-edge);cursor:pointer;color:var(--steel-ink)}
+.dl-body{padding:14px 18px 20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{display:inline-flex;gap:6px;align-items:center;background:var(--btn);border-radius:999px;padding:8px 12px;font:700 14px var(--zen);box-shadow:0 3px 0 var(--btn-edge);cursor:pointer}
+.chips input{accent-color:var(--red)}
+.seg{display:flex;gap:8px;margin:12px 0}
+.seg label{flex:1;text-align:center;background:var(--btn);border-radius:10px;padding:10px;font:700 14px var(--zen);box-shadow:0 3px 0 var(--btn-edge);cursor:pointer}
+.seg input{position:absolute;opacity:0}
+.seg label:has(input:checked){background:var(--steel-ink);color:var(--steel)}
+.card{background:#fff;color:#111;border-radius:14px;padding:20px;margin-top:14px;font:900 26px/1.5 var(--zen);border:4px solid var(--red);word-break:auto-phrase}
+.card small{display:block;font:700 15px/1.5 var(--zen);color:#555;margin-top:10px}
+.big{display:block;width:100%;font:900 17px var(--zen);border:0;border-radius:12px;padding:14px;margin-top:12px;background:var(--red);color:#fff;box-shadow:0 4px 0 var(--red-deep);cursor:pointer}
+.note{font-size:13px;color:var(--steel-muted);margin:10px 0 0}
+.q{background:var(--paper);color:var(--paper-ink);border-radius:14px;padding:18px}
+.q .ask{font:700 14px var(--zen);color:var(--paper-muted);margin:0}
+.q .say{font:900 22px/1.35 var(--zen);margin:4px 0 12px}
+.opts{display:grid;gap:8px}
+.opt{font:700 17px/1.3 var(--zen);text-align:left;border:2px solid #d8d6cc;background:#fff;color:var(--paper-ink);border-radius:10px;padding:12px 14px;cursor:pointer}
+.opt.right{border-color:var(--green);background:#e7f6ea}
+.opt.wrong{border-color:var(--red);background:#fdeaea}
+.qfoot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;font:15px var(--dot)}
+.ctaRow{display:grid;gap:10px;margin-top:28px}
+.ctaRow a{display:block;text-align:center;text-decoration:none;font:900 16px var(--zen);border-radius:12px;padding:14px;background:var(--steel-ink);color:var(--steel)}
+.ctaRow a.red{background:var(--red);color:#fff;box-shadow:0 4px 0 var(--red-deep)}
+footer{margin:26px auto 0;font-size:13px;color:var(--steel-muted);text-align:center}
+#toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);width:max-content;max-width:min(92vw,520px);z-index:50;background:#17110c;color:var(--amber);font:15px/1.4 var(--dot);padding:12px 16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="top" aria-label="Site"><a href="../planner/">Food planner</a><a href="../shops/">All shops</a><a href="./" aria-current="page">Phrases</a></nav>
+<main class="machine">
+  <div class="led" aria-hidden="true"><div class="led-track"><span>覚えて行こう　LEARN BEFORE YOU GO　いただきます　ごちそうさまでした</span><span>覚えて行こう　LEARN BEFORE YOU GO　いただきます　ごちそうさまでした</span></div></div>
+  <h1>Restaurant Japanese</h1>
+  <p class="lede">30 phrases I'd want a friend to know before eating out in Tokyo. Tap ▶ to hear them, tick the ones you know.</p>
+
+  <div class="count" id="count"></div>
+  <div class="meter"><div class="bar" aria-hidden="true"><i id="barfill"></i></div><span id="progress">0 / 30 learned</span></div>
+  <div class="tools">
+    <button class="tool" type="button" id="quizBtn" style="--cap:#2f6db5">1-minute quiz<small>5 questions</small></button>
+    <button class="tool" type="button" id="cardBtn" style="--cap:#d7262e">Show-staff card<small>allergies &amp; diet</small></button>
+  </div>
+</main>
+
+<nav class="cats" id="cats" aria-label="Sections"></nav>
+<div id="list"></div>
+
+<div class="ctaRow">
+  <a class="red" href="../planner/">Plan where to eat (free) →</a>
+  <a href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">Follow @koru.tokyo_guide</a>
+</div>
+<footer>Made by Yu, an office worker in Akihabara, and Koru the dog. Sound uses your device's Japanese voice.<br><a href="../privacy/">Privacy</a> · Your progress is saved on this device only.</footer>
+</div>
+
+<dialog id="cardDlg" aria-labelledby="cardTitle">
+  <div class="dl-head"><h2 id="cardTitle">Show this to the staff</h2><button class="close" type="button" data-close>Close</button></div>
+  <div class="dl-body">
+    <div class="seg" role="radiogroup" aria-label="Why">
+      <label><input type="radio" name="why" value="allergy" checked>Allergy</label>
+      <label><input type="radio" name="why" value="diet">I don't eat</label>
+    </div>
+    <div class="chips" id="foods"></div>
+    <div class="card" id="card" aria-live="polite"></div>
+    <button class="big" type="button" id="cardFull">Show full screen</button>
+    <p class="note">This helps you ask. It can't guarantee a dish is safe: small kitchens often can't avoid cross-contact, so for severe allergies please also carry a professionally translated allergy card.</p>
+  </div>
+</dialog>
+
+<dialog id="quizDlg" aria-labelledby="quizTitle">
+  <div class="dl-head"><h2 id="quizTitle">1-minute quiz</h2><button class="close" type="button" data-close>Close</button></div>
+  <div class="dl-body" id="quizBody"></div>
+</dialog>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+(function () {
+  // ja, romaji, english, tip. Section order follows a meal: walk in -> order -> ramen -> eat -> pay -> diet.
+  var CATS = [
+    ['enter', 'Walking in', [
+      ['いらっしゃいませ', 'irasshaimase', '"Welcome!" (you will hear this)', "No need to answer. A small nod is perfect."],
+      ['二人です', 'futari desu', '"Two people."', 'Hold up fingers too. 1 = hitori, 3 = san-nin, 4 = yo-nin.'],
+      ['予約していません', 'yoyaku shite imasen', '"We don\'t have a reservation."', ''],
+      ['待ちます', 'machimasu', '"We\'ll wait."', 'When they tell you there is a wait.']]],
+    ['order', 'Ordering', [
+      ['すみません！', 'sumimasen!', '"Excuse me!" (to call staff)', 'Raise your hand and say it out loud. That is normal here, not rude.'],
+      ['これをください', 'kore o kudasai', '"This one, please."', 'Point at the menu or the photo.'],
+      ['おすすめは何ですか？', 'osusume wa nan desu ka?', '"What do you recommend?"', ''],
+      ['英語のメニューはありますか？', 'eigo no menyū wa arimasu ka?', '"Do you have an English menu?"', ''],
+      ['二つください', 'futatsu kudasai', '"Two of these, please."', 'hitotsu = 1, futatsu = 2, mittsu = 3.'],
+      ['大盛りで', 'ōmori de', '"Large portion, please."', 'At some ramen and curry shops a large portion costs nothing extra. Check the menu.'],
+      ['ネギ抜きで', 'negi nuki de', '"No green onion, please."', 'Put any ingredient before "nuki de" to leave it out.'],
+      ['お水をください', 'omizu o kudasai', '"Water, please."', 'Water is free. Many shops have a self-serve water jug.']]],
+    ['ramen', 'Ticket machines & ramen', [
+      ['食券', 'shokken', '"Meal ticket"', 'Buy it at the machine by the door, then hand it to the staff.'],
+      ['現金だけですか？', 'genkin dake desu ka?', '"Cash only?"', ''],
+      ['麺かためで', 'men katame de', '"Firm noodles, please."', 'futsū = normal, yawarakame = soft.'],
+      ['替え玉ください', 'kaedama kudasai', '"Extra noodles, please."', 'At tonkotsu ramen shops. Keep some soup in your bowl.']]],
+    ['table', 'At the table', [
+      ['いただきます', 'itadakimasu', '"Thank you for this food" (before eating)', 'Say it softly before the first bite. Hands together is optional.'],
+      ['おいしい！', 'oishii!', '"Delicious!"', 'Say it to the cook at a counter shop. It goes a long way.'],
+      ['乾杯！', 'kanpai!', '"Cheers!"', ''],
+      ['生ビールください', 'nama bīru kudasai', '"A draft beer, please."', ''],
+      ['おかわりください', 'okawari kudasai', '"A refill, please."', 'For rice, drinks or miso soup. Sometimes it costs extra.']]],
+    ['pay', 'Paying & leaving', [
+      ['お会計お願いします', 'okaikei onegaishimasu', '"The check, please."', 'Many shops want you to pay at the register by the door, not at the table.'],
+      ['カードは使えますか？', 'kādo wa tsukaemasu ka?', '"Can I pay by card?"', ''],
+      ['別々でお願いします', 'betsubetsu de onegaishimasu', '"Separate checks, please."', 'Not every shop can do this, especially when busy.'],
+      ['持ち帰りで', 'mochikaeri de', '"To go, please."', 'Eating in is "tennai de" (店内で).'],
+      ['ごちそうさまでした', 'gochisōsama deshita', '"Thank you for the meal" (when leaving)', 'Say it on your way out. Watch the staff smile.'],
+      ['ありがとうございます', 'arigatō gozaimasu', '"Thank you very much."', '']]],
+    ['diet', 'Diet & allergies', [
+      ['アレルギーがあります', 'arerugī ga arimasu', '"I have an allergy."', 'Use the Show-staff card above to say which foods.'],
+      ['肉と魚は食べません', 'niku to sakana wa tabemasen', '"I don\'t eat meat or fish."', 'Most soups use fish stock (dashi). Ask: だしに魚は入っていますか？ dashi ni sakana wa haitte imasu ka?'],
+      ['豚肉は食べられません', 'butaniku wa taberaremasen', '"I can\'t eat pork."', 'Ramen broth and gyoza often contain pork.']]]
+  ];
+  var FOODS = [['豚肉', 'pork'], ['牛肉', 'beef'], ['鶏肉', 'chicken'], ['魚', 'fish'], ['えび・かに', 'shrimp & crab'], ['貝', 'shellfish'], ['卵', 'egg'], ['乳製品', 'dairy'], ['小麦', 'wheat'], ['そば', 'buckwheat'], ['ピーナッツ', 'peanuts'], ['ナッツ類', 'tree nuts'], ['ごま', 'sesame'], ['大豆', 'soy'], ['アルコール', 'alcohol']];
+
+  var $ = function (id) { return document.getElementById(id); };
+  function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
+  function store(k, v) { try { if (v === undefined) return JSON.parse(localStorage.getItem(k) || 'null'); localStorage.setItem(k, JSON.stringify(v)); } catch (e) { return null; } }
+  var ALL = []; CATS.forEach(function (c) { c[2].forEach(function (p) { ALL.push({ cat: c[0], ja: p[0], ro: p[1], en: p[2], tip: p[3] }); }); });
+  var learned = store('koru-learned') || {};
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var dayNo = Math.floor(today.getTime() / 86400000);
+  var daily = ALL[dayNo % ALL.length];
+
+  // ---- visit streak (days you opened this page) ----
+  var visits = store('koru-visits') || []; var dk = today.toISOString().slice(0, 10);
+  if (visits.indexOf(dk) < 0) { visits.push(dk); visits = visits.slice(-60); store('koru-visits', visits); }
+  function streak() { var n = 0, d = new Date(today); while (visits.indexOf(d.toISOString().slice(0, 10)) >= 0) { n++; d.setDate(d.getDate() - 1); } return n; }
+
+  // ---- sound: the device's Japanese voice ----
+  var voice = null;
+  function pickVoice() { if (!('speechSynthesis' in window)) return; var v = speechSynthesis.getVoices().filter(function (x) { return /^ja/i.test(x.lang); }); voice = v.find(function (x) { return /Kyoko|Otoya|Google/i.test(x.name); }) || v[0] || null; document.body.classList.toggle('novoice', !voice); }
+  if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+  function say(text, btn) {
+    if (!('speechSynthesis' in window)) { toast('Sound is not available in this browser.'); return; }
+    speechSynthesis.cancel(); var u = new SpeechSynthesisUtterance(text.replace(/[〇]/g, '')); u.lang = 'ja-JP'; u.rate = 0.85; if (voice) u.voice = voice;
+    if (btn) { btn.classList.add('on'); u.onend = u.onerror = function () { btn.classList.remove('on'); }; }
+    speechSynthesis.speak(u);
+    if (!voice) toast('No Japanese voice on this device yet. Add one in your phone settings (Accessibility > Spoken content).');
+  }
+
+  // ---- countdown to the trip (date comes from the planner, or typed here) ----
+  function renderCount() {
+    var c = $('count'), trip = store('koru-trip'); c.replaceChildren();
+    var left = ALL.length - Object.keys(learned).length;
+    if (trip && trip.start) {
+      var s = new Date(trip.start + 'T00:00:00'), days = Math.round((s - today) / 86400000), len = +trip.days || 1;
+      if (days > 0) {
+        var per = Math.max(1, Math.ceil(left / days));
+        c.append(el('div', null, 'Your Tokyo trip starts in'), el('b', null, days + (days === 1 ? ' day' : ' days')),
+          el('div', null, left ? 'Learn ' + per + ' a day and you will know all 30 by then.' : 'You know all 30. You are ready.'));
+      } else if (days > -len) {
+        c.append(el('div', null, 'You are in Tokyo!'), el('b', null, 'Day ' + (1 - days)), el('div', null, 'Open the Show-staff card at the counter if you need it. 楽しんで!'));
+      } else {
+        c.append(el('div', null, 'Welcome back. How was Tokyo?'), el('div', null, 'Planning another trip? Change the date below.'));
+      }
+    } else {
+      c.append(el('div', null, 'When does your trip start? I will count down and tell you how many phrases a day to learn.'));
+    }
+    var lab = el('label', null, 'Trip starts'); var inp = document.createElement('input'); inp.type = 'date'; inp.value = trip && trip.start || '';
+    inp.addEventListener('change', function () { store('koru-trip', { start: inp.value, days: trip && trip.days || 3 }); renderCount(); });
+    lab.appendChild(inp); c.appendChild(lab);
+    var st = streak(); if (st > 1) c.appendChild(el('div', null, '🔥 ' + st + '-day streak. Come back tomorrow for a new phrase of the day.'));
+  }
+  function renderProgress() {
+    var n = Object.keys(learned).length; $('progress').textContent = n + ' / ' + ALL.length + ' learned'; $('barfill').style.width = (n / ALL.length * 100) + '%';
+  }
+
+  // ---- phrase tickets ----
+  function ticket(p, isToday) {
+    var t = el('article', 'ticket' + (learned[p.ja] ? ' learned' : '') + (isToday ? ' today' : ''));
+    var pl = el('button', 'play', '▶'); pl.type = 'button'; pl.setAttribute('aria-label', 'Play ' + p.ro); pl.addEventListener('click', function () { say(p.ja, pl); });
+    t.append(pl, el('p', 'jp', p.ja), el('p', 'ro', p.ro), el('p', 'en', p.en)); if (p.tip) t.appendChild(el('p', 'tip', p.tip));
+    var row = el('div', 'row'), lb = el('button', 'mini', learned[p.ja] ? '✓ Learned' : '☐ I know this'); lb.type = 'button'; lb.setAttribute('aria-pressed', !!learned[p.ja]);
+    lb.addEventListener('click', function () {
+      if (learned[p.ja]) delete learned[p.ja]; else learned[p.ja] = dk; store('koru-learned', learned);
+      document.querySelectorAll('.ticket').forEach(function (x) { if (x.dataset.ja === p.ja) { x.classList.toggle('learned', !!learned[p.ja]); var b = x.querySelector('.mini'); b.textContent = learned[p.ja] ? '✓ Learned' : '☐ I know this'; b.setAttribute('aria-pressed', !!learned[p.ja]); } });
+      renderProgress(); renderCount(); if (learned[p.ja] && Object.keys(learned).length === ALL.length) toast('All 30 learned! You are ready for Tokyo.');
+    });
+    row.appendChild(lb); t.appendChild(row); t.dataset.ja = p.ja; return t;
+  }
+  var list = $('list'), cats = $('cats');
+  list.appendChild(ticket(daily, true));
+  CATS.forEach(function (c) {
+    var a = el('a', null, c[1]); a.href = '#' + c[0]; cats.appendChild(a);
+    var s = el('section', 'cat'); s.id = c[0]; s.appendChild(el('h2', null, c[1]));
+    ALL.filter(function (p) { return p.cat === c[0]; }).forEach(function (p) { s.appendChild(ticket(p)); }); list.appendChild(s);
+  });
+
+  // ---- show-staff card ----
+  var foodsBox = $('foods');
+  FOODS.forEach(function (f) { var l = el('label'), i = document.createElement('input'); i.type = 'checkbox'; i.value = f[0]; l.append(i, document.createTextNode(f[1] + ' ' + f[0])); foodsBox.appendChild(l); });
+  var saved = store('koru-card') || { why: 'allergy', foods: [] };
+  document.querySelectorAll('input[name=why]').forEach(function (r) { r.checked = r.value === saved.why; });
+  foodsBox.querySelectorAll('input').forEach(function (i) { i.checked = saved.foods.indexOf(i.value) >= 0; });
+  function renderCard() {
+    var why = (document.querySelector('input[name=why]:checked') || {}).value || 'allergy';
+    var foods = [].slice.call(foodsBox.querySelectorAll('input:checked')).map(function (i) { return i.value; });
+    store('koru-card', { why: why, foods: foods });
+    var c = $('card'); c.replaceChildren();
+    if (!foods.length) { c.appendChild(el('span', null, 'Pick the foods above.')); return; }
+    var list = foods.join('・');
+    var main = why === 'allergy' ? '私は ' + list + ' のアレルギーがあります。' : '私は ' + list + ' を口にできません。';
+    c.append(el('div', null, main), el('div', null, 'これが入っていない料理はありますか？'), el('div', null, 'ありがとうございます。'));
+    var en = FOODS.filter(function (f) { return foods.indexOf(f[0]) >= 0; }).map(function (f) { return f[1]; }).join(', ');
+    c.appendChild(el('small', null, (why === 'allergy' ? 'I am allergic to ' : 'I cannot eat or drink ') + en + '. Is there a dish without them? Thank you.'));
+  }
+  foodsBox.addEventListener('change', renderCard); document.querySelectorAll('input[name=why]').forEach(function (r) { r.addEventListener('change', renderCard); });
+  $('cardBtn').addEventListener('click', function () { renderCard(); $('cardDlg').showModal(); });
+  $('cardFull').addEventListener('click', function () { var c = $('card'); if (c.requestFullscreen) c.requestFullscreen().catch(function () {}); });
+
+  // ---- 1-minute quiz: English -> pick the Japanese ----
+  var qi = 0, qs = [], score = 0;
+  function startQuiz() {
+    var pool = ALL.filter(function (p) { return !learned[p.ja]; }); if (pool.length < 5) pool = ALL.slice();
+    qs = pool.sort(function () { return Math.random() - .5; }).slice(0, 5); qi = 0; score = 0; renderQ(); $('quizDlg').showModal();
+  }
+  function renderQ() {
+    var b = $('quizBody'); b.replaceChildren();
+    if (qi >= qs.length) {
+      var box = el('div', 'q'); box.append(el('p', 'say', score + ' / 5'), el('p', 'ask', score === 5 ? 'Perfect. Those are marked as learned.' : 'Nice try. The ones you got right are marked as learned.'));
+      var again = el('button', 'big', 'Another 5'); again.type = 'button'; again.addEventListener('click', startQuiz); box.appendChild(again); b.appendChild(box); return;
+    }
+    var p = qs[qi], others = ALL.filter(function (x) { return x !== p; }).sort(function () { return Math.random() - .5; }).slice(0, 3);
+    var opts = others.concat([p]).sort(function () { return Math.random() - .5; });
+    var box = el('div', 'q'); box.append(el('p', 'ask', 'How do you say…'), el('p', 'say', p.en));
+    var o = el('div', 'opts');
+    opts.forEach(function (x) {
+      var btn = el('button', 'opt'); btn.type = 'button'; btn.append(document.createTextNode(x.ja)); btn.appendChild(el('div', 'tip', x.ro));
+      btn.addEventListener('click', function () {
+        if (o.dataset.done) return; o.dataset.done = 1;
+        if (x === p) { btn.classList.add('right'); score++; learned[p.ja] = learned[p.ja] || dk; store('koru-learned', learned); renderProgress(); renderCount(); }
+        else { btn.classList.add('wrong'); [].forEach.call(o.children, function (c, k) { if (opts[k] === p) c.classList.add('right'); }); }
+        say(p.ja); setTimeout(function () { qi++; renderQ(); }, 1300);
+      });
+      o.appendChild(btn);
+    });
+    box.appendChild(o); box.appendChild(el('div', 'qfoot', (qi + 1) + ' / 5')); b.appendChild(box);
+  }
+  $('quizBtn').addEventListener('click', startQuiz);
+  document.querySelectorAll('[data-close]').forEach(function (b) { b.addEventListener('click', function () { b.closest('dialog').close(); }); });
+  $('quizDlg').addEventListener('close', function () { document.querySelectorAll('.ticket').forEach(function (x) { var on = !!learned[x.dataset.ja]; x.classList.toggle('learned', on); var m = x.querySelector('.mini'); m.textContent = on ? '✓ Learned' : '☐ I know this'; m.setAttribute('aria-pressed', on); }); });
+
+  var tt; function toast(m) { var t = $('toast'); t.textContent = m; t.hidden = false; clearTimeout(tt); tt = setTimeout(function () { t.hidden = true; }, 4500); }
+  renderCount(); renderProgress();
+})();
+</script>
+</body>
+</html>

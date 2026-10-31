@@ -266,7 +266,7 @@ def main():
         json.dump([dict(s, slug=slugs[id(s)]) for s in shops], f, ensure_ascii=False)
 
     lastmod = max(s.get('checked', '') for s in shops) or None
-    urls = ['planner/', 'list/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v]
+    urls = ['planner/', 'phrases/', 'list/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
         sm.append('  <url><loc>%s/%s</loc>%s</url>' % (BASE, u, '<lastmod>%s</lastmod>' % lastmod if lastmod and u.startswith('shops') else ''))

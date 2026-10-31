@@ -214,6 +214,7 @@
     out.replaceChildren();
     if (!SHOPS.length) { out.appendChild(el('p', 'empty', 'Loading the restaurant list. Press print again in a second.')); return; }
     var o = readPlanInputs(); lastSeed = seed; lastPlan = { inputs: o, days: plan(o, seed) };
+    store('koru-trip', { start: o.start, days: o.days });
     // overview
     var ov = el('section', 'overview'); ov.appendChild(el('h2', null, 'Your plan at a glance'));
     lastPlan.days.forEach(function (day, k) {
@@ -231,6 +232,7 @@
       rs.addEventListener('click', function () { HISTORY.push(JSON.stringify({ e: EDITS, y: DAYAREA })); EDITS = {}; DAYAREA = {}; rerender(null, 'Back to the original tickets.'); });
       ovActs.appendChild(rs);
     }
+    var ph = el('a', 'mini', '🗣 Learn 30 restaurant phrases'); ph.href = '../phrases/'; ovActs.appendChild(ph);
     ov.appendChild(ovActs); out.appendChild(ov);
     var n = 0;
     lastPlan.days.forEach(function (day, k) {
