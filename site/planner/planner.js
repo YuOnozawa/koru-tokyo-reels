@@ -245,7 +245,9 @@
       ovActs.appendChild(rs);
     }
     var ph = el('a', 'mini', '🗣 Learn 30 restaurant phrases'); ph.href = '../phrases/'; ovActs.appendChild(ph);
-    ov.appendChild(ovActs); ov.appendChild(nb); out.appendChild(ov);
+    ov.appendChild(ovActs); ov.appendChild(nb);
+    if (window.koruInApp) ov.appendChild(el('p', 'ov-hint', 'Tip: you are in Instagram\'s browser. Open this page in Safari or Chrome (⋯ menu → Open in browser) so your tickets stay saved.'));
+    out.appendChild(ov);
     var n = 0;
     lastPlan.days.forEach(function (day, k) {
       var sec = el('section', 'day'); sec.id = 'day' + (k + 1);

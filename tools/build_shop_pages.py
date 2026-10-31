@@ -130,7 +130,7 @@ def page(title, desc, canonical, body, jsonld=None, og_type='website', prefix='.
             '<meta property="og:type" content="%s"><meta property="og:title" content="%s"><meta property="og:description" content="%s">'
             '<meta property="og:url" content="%s"><meta property="og:site_name" content="Tokyo Food Ticket Machine">'
             '<meta property="og:image" content="' + BASE + '/planner/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
-            '<meta name="twitter:card" content="summary_large_image">%s<style>%s</style>%s</head><body><div class="wrap">' + nav(prefix, 'shops') + '%s'
+            '<meta name="twitter:card" content="summary_large_image"><link rel="manifest" href="' + prefix + 'manifest.webmanifest"><link rel="apple-touch-icon" href="' + prefix + 'apple-touch-icon.png">%s<style>%s</style>%s</head><body><div class="wrap">' + nav(prefix, 'shops') + '%s'
             '<footer>Facts only, no paid placement. Yu &amp; Koru · <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a>'
             ' · <a href="../privacy/">Privacy</a></footer></div></body></html>') % (
         e(title), e(desc), e(canonical), og_type, e(title), e(desc), e(canonical), FONTS, CSS + NAV_CSS, ld, body)

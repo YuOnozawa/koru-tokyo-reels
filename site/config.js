@@ -16,3 +16,14 @@ window.koruEvent = function (name, extra) {
     else fetch(window.KORU.ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain' }, body: body });
   } catch (e) {}
 };
+
+/* Offline support + install as an app (saved trips last longer when opened from the home screen). */
+(function () {
+  try {
+    var base = (document.currentScript && document.currentScript.src || '').replace(/config\.js.*$/, '');
+    if ('serviceWorker' in navigator && base) navigator.serviceWorker.register(base + 'sw.js', { scope: base }).catch(function () {});
+  } catch (e) {}
+  window.koruInApp = /Instagram|FBAN|FBAV|FB_IAB|Line\/|TikTok|musical_ly/i.test(navigator.userAgent || '');
+  window.koruIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+  window.koruStandalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+})();
