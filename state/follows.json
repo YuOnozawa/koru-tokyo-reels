@@ -1,5 +1,5 @@
 {
- "rules": "<=30 per 2-3h (run 10/hour max), targets: people asking for Tokyo/Japan guides or planning trips; stop on any IG warning",
+ "rules": "Yu 11/1: <=50 follow actions per JST day, <=30 per 3h, public accounts only, like 1 post per followed account; run JST 4-11 and 18-25 only",
  "log": [
   {
    "user": "andie_pay",
@@ -300,6 +300,55 @@
    "state": "requested",
    "at": "2026-10-31T07:05Z",
    "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "ameliastaffordnz",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "commented 'Yes' (wants Japan guide) on #japantrip post"
+  },
+  {
+   "user": "michelina1025",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "commented 'Yes' (wants Japan guide)"
+  },
+  {
+   "user": "madeleinefromasmallseed",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "commented 'Yes' (wants Japan guide)"
+  },
+  {
+   "user": "iamjaysmoove",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "'just in Tokyo, booking a flight back' on Tokyo burger post"
+  },
+  {
+   "user": "ruthieolivas",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "'favorite bite in my 2 weeks in Japan'"
+  },
+  {
+   "user": "wine_about_food",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "'Brb off to Japan' on Tokyo sweets post"
+  },
+  {
+   "user": "lorraine.eats",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:20Z",
+   "source": "'Miss Japan' on Tokyo sweets post"
   }
  ],
  "candidates": [
@@ -307,6 +356,21 @@
  ],
  "skipped_big": [
   "indulgenteats",
-  "otakuqueue"
+  "otakuqueue",
+  "laurabushnell",
+  "thisism3lissa"
+ ],
+ "skipped_private": [
+  "julie_wilson89",
+  "hlbaker",
+  "laurenlamar",
+  "korstanjem",
+  "andi_piper_brown",
+  "li.annem",
+  "matthew_mazzarelli",
+  "kiki.d3",
+  "kylejs88",
+  "josianeavisser1969",
+  "ashteabags"
  ]
 }
