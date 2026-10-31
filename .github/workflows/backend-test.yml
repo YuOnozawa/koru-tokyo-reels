@@ -1,0 +1,31 @@
+name: Backend test (Apps Script)
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'Web app URL to test (empty = ENDPOINT in site/config.js)'
+        default: ''
+      archive:
+        description: 'Also test the video archive with this posted video name (e.g. lr_01_planner.mp4), empty = skip'
+        default: ''
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Call each endpoint
+        run: |
+          U="${{ inputs.url }}"; [ -n "$U" ] || U=$(python3 -c "import re;print(re.search(r\"ENDPOINT: '([^']*)'\",open('site/config.js').read()).group(1))")
+          [ -n "$U" ] || { echo "ENDPOINT empty"; exit 1; }
+          post() { curl -sSL -m 60 -H 'Content-Type: text/plain' -d "$1" "$U"; echo; }
+          echo "== community";  curl -sSL -m 60 "$U?action=community" | head -c 400; echo
+          echo "== event";      post '{"action":"event","name":"backend_test","page":"ci"}'
+          echo "== react +1";   post '{"action":"react","slug":"zz-test","type":"like"}'
+          echo "== react -1";   post '{"action":"react","slug":"zz-test","type":"like","delta":-1}'
+          echo "== sync_save";  post '{"action":"sync_save","code":"KORU-TEST-TEST","data":{"test":true}}'
+          echo "== sync_load";  curl -sSL -m 60 "$U?action=sync_load&code=KORU-TEST-TEST" | head -c 300; echo
+          if [ -n "${{ inputs.archive }}" ]; then
+            echo "== archive"; post "{\"action\":\"archive\",\"name\":\"${{ inputs.archive }}\",\"url\":\"https://github.com/YuOnozawa/koru-tokyo-reels/releases/download/video-store/${{ inputs.archive }}\"}"
+          fi
