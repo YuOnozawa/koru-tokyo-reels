@@ -1,6 +1,7 @@
 /**
- * Tokyo Food Ticket Machine backend (Google Apps Script web app): email my plan, reactions
- * (like / want to go / been here), visitor comments + photos (shown only after approval), video archive.
+ * Tokyo Food Ticket Machine backend (Google Apps Script web app, the Sheet is the database):
+ * email my plan, reactions (like / want to go / been here), visitor comments + photos (shown only after approval),
+ * anonymous usage counts, My Trip sync codes (cross-device, no account), video archive.
  * Setup (once, by Yu):
  *  1. Open the Google Sheet "Koru planner leads" > Extensions > Apps Script, paste this file, Save.
  *  2. Deploy > New deployment > Web app. Execute as: Me. Who has access: Anyone. Deploy, allow access.
@@ -19,6 +20,8 @@ function doPost(e) {
     var d = JSON.parse((e && e.postData && e.postData.contents) || '{}');
     if (d.action === 'archive') return out(archive(d));
     if (d.action === 'event') return out(countEvent(d));
+    if (d.action === 'sync_save') return out(syncSave(d));
+    if (d.action === 'sync_recover') return out(syncRecover(d));
     if (d.action === 'react') return out(react(d));
     if (d.action === 'review') return out(review(d));
     var email = String(d.email || '').trim();
@@ -73,7 +76,42 @@ function archive(d) {
 
 function doGet(e) {
   if (e && e.parameter && e.parameter.action === 'community') return out(community());
+  if (e && e.parameter && e.parameter.action === 'sync_load') return out(syncLoad(e.parameter.code));
   return out({ ok: true, service: 'koru planner backend' });
+}
+
+// ---------- My Trip sync: the code is the key (no account). One row per code. ----------
+function validCode(c) { return /^KORU-[A-HJ-NP-Z2-9]{4}-[A-HJ-NP-Z2-9]{4}$/.test(String(c || '')); }
+function tripRow(sh, code) {
+  var f = sh.createTextFinder(code).matchEntireCell(true).findNext();
+  return f && f.getColumn() === 1 ? f.getRow() : 0;
+}
+function syncSave(d) {
+  if (!validCode(d.code)) return { ok: false, error: 'bad code' };
+  var data = typeof d.data === 'string' ? d.data : JSON.stringify(d.data || {});
+  if (data.length > 45000) return { ok: false, error: 'too big' };
+  var email = String(d.email || '').trim().slice(0, 120);
+  if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) email = '';
+  var sh = sheet('trips', ['code', 'created', 'updated', 'data', 'email']), now = new Date(), r = tripRow(sh, d.code);
+  if (r) { sh.getRange(r, 3, 1, 2).setValues([[now, data]]); if (email) sh.getRange(r, 5).setValue(email); }
+  else sh.appendRow([d.code, now, now, data, email]);
+  return { ok: true, updated: now.getTime() };
+}
+function syncLoad(code) {
+  if (!validCode(code)) return { ok: false, error: 'bad code' };
+  var sh = sheet('trips', ['code', 'created', 'updated', 'data', 'email']), r = tripRow(sh, code);
+  if (!r) return { ok: false, error: 'not found' };
+  var v = sh.getRange(r, 1, 1, 4).getValues()[0];
+  return { ok: true, data: v[3], updated: new Date(v[2]).getTime() };
+}
+function syncRecover(d) {
+  var email = String(d.email || '').trim().toLowerCase();
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return { ok: true };
+  var v = sheet('trips', ['code', 'created', 'updated', 'data', 'email']).getDataRange().getValues(), codes = [];
+  for (var i = 1; i < v.length; i++) if (String(v[i][4]).toLowerCase() === email) codes.push(v[i][0]);
+  if (codes.length) MailApp.sendEmail({ to: email, name: FROM_NAME, subject: 'Your Tokyo trip sync code',
+    body: 'Here is your My Trip sync code:\n\n' + codes.join('\n') + '\n\nOpen https://yuonozawa.github.io/koru-tokyo-reels/trip/ and enter it under "Sync across devices".' });
+  return { ok: true };
 }
 
 // ---------- anonymous usage counts: one row per day + event name ----------

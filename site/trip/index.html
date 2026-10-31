@@ -128,6 +128,18 @@ footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
 <section class="blk"><h2>Japanese <a href="../phrases/">Practice</a></h2><div class="card" id="jp"></div></section>
 <section class="blk" id="cardBlk"><h2>Show-staff card <a href="../phrases/#diet">Change</a></h2><div class="card" id="allergy"></div></section>
 
+<section class="blk" id="syncBlk" hidden><h2>Sync across devices</h2><div class="card">
+  <div id="syncOff"><p style="margin:0 0 6px">Get a sync code to open this trip on another phone or computer, and keep it if you change phones. No account needed.</p>
+    <div class="row"><button class="btn" type="button" id="syncOn">Turn on sync</button></div>
+    <div class="form" style="margin-top:10px"><label class="wide">Have a code from another device?<input type="text" id="syncIn" placeholder="KORU-XXXX-XXXX" maxlength="14" style="text-transform:uppercase"></label></div>
+    <div class="row"><button class="btn ghost" type="button" id="syncUse">Load my trip</button><button class="btn ghost" type="button" id="syncLost">Lost your code?</button></div></div>
+  <div id="syncOnBox" hidden><div>Your sync code</div><div class="showcard" id="syncCode" style="font:400 26px 'DotGothic16',monospace;text-align:center;letter-spacing:.05em"></div>
+    <p class="note" id="syncWhen" style="color:var(--pmuted)"></p>
+    <div class="form"><label class="wide">Email me the code (optional)<input type="email" id="syncEmail" placeholder="you@example.com" autocomplete="email"></label></div>
+    <div class="row"><button class="btn" type="button" id="syncNow">Sync now</button><button class="btn ghost" type="button" id="syncStop">Turn off on this device</button></div></div>
+  <p class="note" id="syncMsg" style="color:var(--pmuted)"></p>
+  <p class="note" style="color:var(--pmuted)">With sync on, your trip (including flight, hotel and money notes) is stored on our Google Sheet under this code. Anyone with the code can open it, so keep it private. <a href="../privacy/">Privacy</a></p>
+</div></section>
 <section class="blk"><h2>Travel with friends</h2><div class="card">
   <p style="margin:0 0 6px">Send your plan and saved places. Friends open the link and add them to their own My Trip. No sign-up.</p>
   <label style="display:flex;gap:8px;align-items:center;font-size:14px"><input type="checkbox" id="shareFlight"> Include my dates (not flight or hotel)</label>
@@ -355,6 +367,52 @@ footer{margin:26px 0 0;font-size:13px;color:var(--muted);text-align:center}
       $('restoreYes').addEventListener('click', function () { Object.keys(bk).forEach(function (k) { if (KEYS.indexOf(k) >= 0) store(k, bk[k]); }); location.replace(location.pathname); });
       $('restoreNo').addEventListener('click', function () { location.replace(location.pathname); });
     } catch (e) {}
+  }
+
+  // ---------- sync codes (needs ENDPOINT; the Google Sheet is the database) ----------
+  var EP = (window.KORU || {}).ENDPOINT;
+  if (EP) {
+    $('syncBlk').hidden = false;
+    var SY = store('koru-sync') || {};
+    var AL = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+    function newCode() { var a = new Uint32Array(8); crypto.getRandomValues(a); var c = ''; for (var i = 0; i < 8; i++) c += AL[a[i] % AL.length]; return 'KORU-' + c.slice(0, 4) + '-' + c.slice(4); }
+    function snapshot() { var all = {}; KEYS.forEach(function (k) { var v = store(k); if (v) all[k] = v; }); return all; }
+    function paint() {
+      $('syncOff').hidden = !!SY.code; $('syncOnBox').hidden = !SY.code;
+      if (SY.code) { $('syncCode').textContent = SY.code; $('syncWhen').textContent = SY.at ? 'Last synced ' + new Date(SY.at).toLocaleString() : ''; $('syncEmail').value = SY.email || ''; }
+    }
+    function save(msg) {
+      if (!SY.code) return Promise.resolve();
+      $('syncMsg').textContent = 'Syncing…';
+      return fetch(EP, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'sync_save', code: SY.code, data: JSON.stringify(snapshot()), email: SY.email || '' }) })
+        .then(function (r) { return r.json(); }).then(function (j) {
+          if (!j.ok) throw new Error(j.error); SY.at = j.updated; store('koru-sync', SY); paint(); $('syncMsg').textContent = msg || 'Synced.';
+        }).catch(function () { $('syncMsg').textContent = 'Could not sync right now. Your trip is still saved on this device.'; });
+    }
+    function load(code, confirmFirst, onlyIfNewer) {
+      $('syncMsg').textContent = 'Loading…';
+      return fetch(EP + '?action=sync_load&code=' + encodeURIComponent(code)).then(function (r) { return r.json(); }).then(function (j) {
+        if (!j.ok) { $('syncMsg').textContent = j.error === 'not found' ? 'No trip found for that code.' : 'That code does not look right.'; return false; }
+        if (onlyIfNewer && !(j.updated > (SY.at || 0) + 1000)) { $('syncMsg').textContent = ''; save(''); return false; }
+        if (confirmFirst && !confirm('Replace the trip on this device with the synced one?')) return false;
+        var all = JSON.parse(j.data || '{}'); Object.keys(all).forEach(function (k) { if (KEYS.indexOf(k) >= 0) store(k, all[k]); });
+        SY = { code: code, at: j.updated, email: SY.email || '' }; store('koru-sync', SY); return true;
+      }).catch(function () { $('syncMsg').textContent = 'Could not load right now. Try again in a minute.'; return false; });
+    }
+    $('syncOn').addEventListener('click', function () { SY = { code: newCode() }; store('koru-sync', SY); paint(); save('Sync is on. Enter this code on your other device.'); if (window.koruEvent) koruEvent('sync_on'); });
+    $('syncUse').addEventListener('click', function () { var c = $('syncIn').value.trim().toUpperCase(); if (!/^KORU-[A-Z2-9]{4}-[A-Z2-9]{4}$/.test(c)) { $('syncMsg').textContent = 'Codes look like KORU-7Q4M-2XKD.'; return; } load(c, true).then(function (ok) { if (ok) location.reload(); }); });
+    $('syncNow').addEventListener('click', function () { save(); });
+    $('syncStop').addEventListener('click', function () { SY = {}; store('koru-sync', SY); paint(); $('syncMsg').textContent = 'Sync is off on this device. Your saved trip stays here.'; });
+    $('syncEmail').addEventListener('change', function () { SY.email = $('syncEmail').value.trim(); store('koru-sync', SY); save('Saved. We will only use your email to send you this code if you lose it.'); });
+    $('syncLost').addEventListener('click', function () {
+      var em = prompt('The email you saved with your code:'); if (!em) return;
+      fetch(EP, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'sync_recover', email: em }) }).finally(function () { $('syncMsg').textContent = 'If that email has a code, it is on its way.'; });
+    });
+    paint();
+    // pull newer data when opening the page; push when leaving it
+    if (SY.code) load(SY.code, false, true).then(function (ok) { if (ok && SY.at && !sessionStorage.getItem('koru-synced')) { try { sessionStorage.setItem('koru-synced', '1'); } catch (e) {} location.reload(); } });
+    document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden' && SY.code && navigator.sendBeacon) {
+      navigator.sendBeacon(EP, new Blob([JSON.stringify({ action: 'sync_save', code: SY.code, data: JSON.stringify(snapshot()), email: SY.email || '' })], { type: 'text/plain' })); } });
   }
 
   renderCount(); renderTaxi(); renderMoney();
