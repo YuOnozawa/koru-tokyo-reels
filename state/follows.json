@@ -240,10 +240,73 @@
    "state": "requested",
    "at": "2026-10-31T05:55Z",
    "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "jacqie.yuen",
+   "state": "following",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "nurse_kgb",
+   "state": "following",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "edencrowne",
+   "state": "following",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "alansweet23",
+   "state": "following",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "kelnavs",
+   "state": "requested",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "jessmn84",
+   "state": "requested",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "dave.nicholls77",
+   "state": "requested",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "jairlopeza",
+   "state": "following",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "livylevy4",
+   "state": "requested",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
+  },
+  {
+   "user": "_aslidurmus_",
+   "state": "requested",
+   "at": "2026-10-31T07:05Z",
+   "source": "commenter on #tokyofoodguide posts (trip plans, 'must try next time', reservations)"
   }
  ],
  "candidates": [
-  "otakuqueue",
   "beyond.sightseeing"
+ ],
+ "skipped_big": [
+  "indulgenteats",
+  "otakuqueue"
  ]
 }
