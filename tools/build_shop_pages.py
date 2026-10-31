@@ -7,6 +7,9 @@ Run: python3 tools/build_shop_pages.py
 """
 import html, json, os, re, shutil, unicodedata
 from collections import OrderedDict
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sitenav import NAV_CSS, nav, phrase_for  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://yuonozawa.github.io/koru-tokyo-reels'
@@ -67,6 +70,12 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
          '<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">')
 
 CSS = """
+.say{display:grid;gap:2px;margin:14px 0 0;padding:14px 16px;border-radius:12px;background:#17110c;color:#ffa22b;text-decoration:none;box-shadow:inset 0 0 0 3px #000}
+.say-k{font:13px "DotGothic16",monospace;opacity:.85}
+.say b{font:900 24px/1.3 "Zen Kaku Gothic New",sans-serif;color:#ffd27a}
+.say-r{font:15px "DotGothic16",monospace}
+.say-more{font:700 13px "Zen Kaku Gothic New",sans-serif;color:#fff;margin-top:4px}
+
 :root{--steel:#22272e;--steel2:#2d333b;--edge:#444c56;--amber:#ffa22b;--amber-dim:#7a4a0c;--paper:#fbf8ee;--ink:#22303a;--muted:#6f7287;--red:#d7262e;--green:#2f8f5b}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -111,7 +120,7 @@ footer a{color:#c9d1d9}
 """
 
 
-def page(title, desc, canonical, body, jsonld=None, og_type='website'):
+def page(title, desc, canonical, body, jsonld=None, og_type='website', prefix='../'):
     ld = ''
     if jsonld:
         ld = '<script type="application/ld+json">%s</script>' % json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/')
@@ -121,14 +130,20 @@ def page(title, desc, canonical, body, jsonld=None, og_type='website'):
             '<meta property="og:type" content="%s"><meta property="og:title" content="%s"><meta property="og:description" content="%s">'
             '<meta property="og:url" content="%s"><meta property="og:site_name" content="Tokyo Food Ticket Machine">'
             '<meta property="og:image" content="' + BASE + '/planner/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
-            '<meta name="twitter:card" content="summary_large_image">%s<style>%s</style>%s</head><body><div class="wrap">%s'
+            '<meta name="twitter:card" content="summary_large_image">%s<style>%s</style>%s</head><body><div class="wrap">' + nav(prefix, 'shops') + '%s'
             '<footer>Facts only, no paid placement. Yu &amp; Koru · <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a>'
             ' · <a href="../privacy/">Privacy</a></footer></div></body></html>') % (
-        e(title), e(desc), e(canonical), og_type, e(title), e(desc), e(canonical), FONTS, CSS, ld, body)
+        e(title), e(desc), e(canonical), og_type, e(title), e(desc), e(canonical), FONTS, CSS + NAV_CSS, ld, body)
 
 
 def fix_rel(s, depth):
     return s.replace('href="../privacy/"', 'href="%sprivacy/"' % ('../' * depth))
+
+
+def say_html(s):
+    ja, ro, en, anchor = phrase_for(s)
+    return ('<a class="say" href="../../phrases/#%s"><span class="say-k">🗣 USEFUL HERE</span><b>%s</b>'
+            '<span class="say-r">%s · %s</span><span class="say-more">More restaurant phrases →</span></a>') % (anchor, e(ja), e(ro), e(en))
 
 
 def shop_page(s, slug, peers):
@@ -185,6 +200,7 @@ def shop_page(s, slug, peers):
         '<article class="ticket%s">%s<div class="kicker">食券 · %s %s</div><h1>%s</h1><div class="ja">%s</div><div class="genre">%s</div>'
         '<div class="perf"></div>%s<dl>%s</dl>%s'
         '<p class="note">Facts checked %s from public sources. Hours change, so check Google Maps the same day.</p></article>'
+        + say_html(s) +
         '<div class="btns"><a class="btn primary" href="%s">Plan my Tokyo meals free 🎫</a>'
         '<a class="btn ghost" href="%s" target="_blank" rel="noopener">Open in Google Maps</a>'
         '<a class="btn ghost" href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">Follow @koru.tokyo_guide</a></div></div>%s'
@@ -204,7 +220,7 @@ def shop_page(s, slug, peers):
     if known(s.get('hours')):
         ld['description'] = 'Hours: %s' % s['hours'] + ('. Closed: %s' % s['closed_days'] if known(s.get('closed_days')) else '')
     ld['hasMap'] = maps
-    return page(title, desc, canonical, body, ld, 'article')
+    return page(title, desc, canonical, body, ld, 'article', '../../')
 
 
 def index_page(by_area, slugs):
@@ -266,7 +282,7 @@ def main():
         json.dump([dict(s, slug=slugs[id(s)]) for s in shops], f, ensure_ascii=False)
 
     lastmod = max(s.get('checked', '') for s in shops) or None
-    urls = ['planner/', 'phrases/', 'list/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v]
+    urls = ['', 'planner/', 'phrases/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
         sm.append('  <url><loc>%s/%s</loc>%s</url>' % (BASE, u, '<lastmod>%s</lastmod>' % lastmod if lastmod and u.startswith('shops') else ''))

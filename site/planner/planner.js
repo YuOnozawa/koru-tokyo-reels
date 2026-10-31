@@ -89,6 +89,8 @@
     more.appendChild(dl2);
     if (dl2.childNodes.length) t.appendChild(more);
     if (ENDPOINT && s.slug) t.appendChild(social(s));
+    var ph = phraseFor(s);
+    if (ph) { var sa = el('a', 'say'); sa.href = '../phrases/#' + ph[4]; sa.append(el('span', null, '🗣'), el('b', null, ph[1]), el('span', null, ph[2] + ' · ' + ph[3])); t.appendChild(sa); }
     var acts = el('div', 't-actions');
     if (opts.slot) {
       var sw = el('button', 'mini edit', '↻ Swap'); sw.type = 'button'; sw.title = 'Show me a different place for this ticket';
@@ -106,6 +108,13 @@
     if (s.slug) { var pg = el('a', 'mini', 'Shop page'); pg.href = '../shops/' + s.slug + '/'; acts.appendChild(pg); }
     t.appendChild(acts);
     return t;
+  }
+  // "phrase you'll need here" (mirror of tools/sitenav.py PHRASE_RULES)
+  var PHRASE_RULES = [[["ticket machine", "meal ticket"], "食券", "shokken", "meal ticket: buy it at the machine first", "ramen"], [["tsukemen", "ramen", "dandan", "chuka soba"], "麺かためで", "men katame de", "firm noodles, please", "ramen"], [["izakaya", "bar", "beer", "senbero", "yakitori", "hoppy"], "生ビールください", "nama bīru kudasai", "a draft beer, please", "table"], [["takeout", "dorayaki", "wagashi", "taiyaki", "senbei", "melon pan"], "持ち帰りで", "mochikaeri de", "to go, please", "pay"], [["sushi", "kaisen", "sashimi"], "おすすめは何ですか？", "osusume wa nan desu ka?", "what do you recommend?", "order"], [["curry", "tonkatsu", "katsu", "gyudon"], "大盛りで", "ōmori de", "large portion, please", "order"]];
+  function phraseFor(s) {
+    var hay = [s.genre, s.what_to_order, s.tourist_tip].join(' ').toLowerCase();
+    for (var i = 0; i < PHRASE_RULES.length; i++) if (PHRASE_RULES[i][0].some(function (w) { return hay.indexOf(w) >= 0; })) return PHRASE_RULES[i];
+    return null;
   }
   function mapsUrl(s) { return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.name_ja); }
 
@@ -538,6 +547,7 @@
   fetch('shops.json').then(function (r) { return r.json(); }).then(function (j) {
     SHOPS = j; j.forEach(function (s) { BY_SLUG[s.slug] = s; }); renderKept();
     if (sharedSeed !== null) renderPlan(sharedSeed);
+    var qm = P.get('m'); if (qm && sharedSeed === null) { var rq = document.querySelector('input[name=mode][value=' + qm + ']'); if (rq) { rq.checked = true; if (P.get('q')) $('q').value = P.get('q'); if (P.get('sa')) $('sarea').value = P.get('sa'); setMode(qm); document.querySelector('.machine').scrollIntoView(); } return; }
     var m = store('koru-mode'); if (m && m !== 'plan' && sharedSeed === null) { var r = document.querySelector('input[name=mode][value=' + m + ']'); if (r) { r.checked = true; setMode(m); } }
   }).catch(function () { out.textContent = 'The restaurant list did not load. Reload the page to try again.'; });
 })();
