@@ -180,10 +180,70 @@
    "state": "requested",
    "at": "2026-10-31T03:45Z",
    "source": "commenter 'Tokyo' (asked for free 5-day itinerary) on /p/DRvg5wSEwOj/"
+  },
+  {
+   "user": "grk_beba_86",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "toniacochran",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "adinda_wanodya",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "missmidom",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "shivangim",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "cooperlynch99",
+   "state": "following",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "chandak_venkatesh",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
+  },
+  {
+   "user": "rushmiik",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/"
+  },
+  {
+   "user": "fideito45",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter 'Guide please' on /p/DXZNV-3Eu8c/"
+  },
+  {
+   "user": "edmu.k",
+   "state": "requested",
+   "at": "2026-10-31T05:55Z",
+   "source": "commenter asking Japan trip questions (eSIM, yen, Suica, Japan Web) on #japantraveltips posts"
   }
  ],
  "candidates": [
-  "rushmiik",
-  "fideito45"
+  "otakuqueue",
+  "beyond.sightseeing"
  ]
 }
