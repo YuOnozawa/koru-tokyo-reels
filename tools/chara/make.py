@@ -69,39 +69,7 @@ def yu(x=0,y=0,arm='wave'):
     S+='</g>'
     return S
 
-def koru(x=0,y=0,s=1.0):
-    W='#fdfdfb'; SH='#e4e7ea'; OL='#9aa6b0'
-    S=f'<g transform="translate({x},{y}) scale({s})">'
-    # tail fluff behind
-    S+=f'<path d="{fluff(178,170,70,58,14,12)}" fill="{W}" stroke="{OL}" stroke-width="5" stroke-linejoin="round"/>'
-    # body sitting
-    S+=f'<path d="{fluff(100,210,92,80,18,11)}" fill="{W}" stroke="{OL}" stroke-width="5" stroke-linejoin="round"/>'
-    # front paws
-    S+=f'<ellipse cx="72" cy="282" rx="22" ry="14" fill="{W}" stroke="{OL}" stroke-width="5"/><ellipse cx="128" cy="282" rx="22" ry="14" fill="{W}" stroke="{OL}" stroke-width="5"/>'
-    S+=f'<path d="M66,282 L66,290 M78,282 L78,290 M122,282 L122,290 M134,282 L134,290" stroke="{OL}" stroke-width="3" stroke-linecap="round"/>'
-    # ears
-    S+=f'<path d="M30,40 Q22,-20 44,-38 Q70,-10 84,14 Z" fill="{W}" stroke="{OL}" stroke-width="5" stroke-linejoin="round"/>'
-    S+=f'<path d="M40,26 Q36,-8 46,-20 Q60,-2 68,14 Z" fill="#f6c9c9"/>'
-    S+=f'<path d="M170,40 Q178,-20 156,-38 Q130,-10 116,14 Z" fill="{W}" stroke="{OL}" stroke-width="5" stroke-linejoin="round"/>'
-    S+=f'<path d="M160,26 Q164,-8 154,-20 Q140,-2 132,14 Z" fill="#f6c9c9"/>'
-    # ruff (mane)
-    S+=f'<path d="{fluff(100,118,96,84,22,13)}" fill="{W}" stroke="{OL}" stroke-width="5" stroke-linejoin="round"/>'
-    S+=f'<path d="{fluff(100,150,62,46,12,8,20,160,False)}" fill="none" stroke="{SH}" stroke-width="5"/>'
-    # head
-    S+=f'<path d="{fluff(100,72,68,58,16,7)}" fill="{W}" stroke="{OL}" stroke-width="4" stroke-linejoin="round"/>'
-    # eyes
-    for ex in (74,126):
-        S+=f'<ellipse cx="{ex}" cy="70" rx="12" ry="13" fill="#2a1b14"/><circle cx="{ex+4}" cy="65" r="4.5" fill="#fff"/><circle cx="{ex-4}" cy="75" r="2" fill="#fff" opacity=".7"/>'
-    S+=f'<path d="M58,56 Q66,50 76,52 M124,52 Q134,50 142,56" stroke="#e2c7b8" stroke-width="3" fill="none" stroke-linecap="round"/>'
-    # muzzle + nose
-    S+=f'<ellipse cx="100" cy="100" rx="26" ry="20" fill="#ffffff"/>'
-    S+=f'<path d="M88,88 Q100,82 112,88 Q112,100 100,103 Q88,100 88,88 Z" fill="#141414"/><ellipse cx="96" cy="88" rx="4" ry="2.5" fill="#fff" opacity=".6"/>'
-    S+=f'<path d="M100,103 L100,110 M88,110 Q94,116 100,110 Q106,116 112,110" stroke="#3a2c26" stroke-width="3.5" fill="none" stroke-linecap="round"/>'
-    S+=f'<ellipse cx="62" cy="96" rx="11" ry="6" fill="#f6b3b3" opacity=".55"/><ellipse cx="138" cy="96" rx="11" ry="6" fill="#f6b3b3" opacity=".55"/>'
-    # collar
-    S+=f'<path d="M58,150 Q100,170 142,150" stroke="#ef5a24" stroke-width="10" fill="none" stroke-linecap="round"/><circle cx="100" cy="166" r="9" fill="#ffa22b" stroke="{INK}" stroke-width="3"/>'
-    S+='</g>'
-    return S
+from koru2 import koru
 
 def full(arm='wave', bg=None, W=780, H=960):
     out=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">'
@@ -109,8 +77,8 @@ def full(arm='wave', bg=None, W=780, H=960):
     out+=f'<ellipse cx="420" cy="930" rx="320" ry="22" fill="#000" opacity=".12"/>'
     out+=yu(20,0,arm)
     # leash from hand (256,726) to koru collar
-    kx,ky,ks=478,612,1.05
-    cx,cy=kx+100*ks,ky+166*ks
+    kx,ky,ks=452,606,1.08
+    cx,cy=kx+110*ks,ky+156*ks
     out+=f'<path d="M256,736 Q{(256+cx)/2:.0f},{max(736,cy)+70:.0f} {cx:.0f},{cy:.0f}" stroke="#ef5a24" stroke-width="7" fill="none" stroke-linecap="round"/>'
     out+=koru(kx,ky,ks)
     out+='</svg>'
@@ -120,7 +88,7 @@ def avatar(bg='#ffa22b'):
     out='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs><clipPath id="c"><circle cx="300" cy="300" r="300"/></clipPath></defs><g clip-path="url(#c)">'
     out+=f'<rect width="600" height="600" fill="{bg}"/>'
     out+=yu(-90,40,'none')
-    out+=koru(330,330,1.3)
+    out+=koru(318,318,1.15)
     out+='</g></svg>'
     return out
 
