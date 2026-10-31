@@ -1,5 +1,5 @@
 {
- "rules": "Yu 11/1: <=50 follow actions per JST day, <=30 per 3h, public accounts only, like 1 post per followed account; run JST 4-11 and 18-25 only",
+ "rules": "Yu 11/1: <=75 follow actions per JST day, <=30 per 3h, public accounts only, like 1 post per followed account; run JST 4-11 and 18-25 only",
  "log": [
   {
    "user": "andie_pay",
@@ -349,16 +349,49 @@
    "liked": true,
    "at": "2026-10-31T20:20Z",
    "source": "'Miss Japan' on Tokyo sweets post"
+  },
+  {
+   "user": "travel_a_broads",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:45Z",
+   "source": "'Headed to Japan next month!' on Japan apps post"
+  },
+  {
+   "user": "brian.and.steph",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:45Z",
+   "source": "'visit next month' on Japan apps post"
+  },
+  {
+   "user": "billy.goat.travels",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:45Z",
+   "source": "'looking forward to Kumano Kodo' on Japan post"
+  },
+  {
+   "user": "juliebasically",
+   "state": "following",
+   "liked": true,
+   "at": "2026-10-31T20:45Z",
+   "source": "commenter on Japan tips post"
   }
  ],
  "candidates": [
-  "beyond.sightseeing"
+  "matjeffery",
+  "chanelgal26",
+  "the_travel_in_pink",
+  "earlgreyce"
  ],
  "skipped_big": [
   "indulgenteats",
   "otakuqueue",
   "laurabushnell",
-  "thisism3lissa"
+  "thisism3lissa",
+  "rocknroamgirl",
+  "love.christina.xo"
  ],
  "skipped_private": [
   "julie_wilson89",
