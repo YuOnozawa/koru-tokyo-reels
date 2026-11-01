@@ -1,7 +1,7 @@
 name: Publish reel
 on:
   schedule:
-    - cron: '7 * * * *'   # hourly check; posts only what is due (GitHub delays scheduled runs)
+    - cron: '7,22,37,52 * * * *'   # every 15 min; GitHub often skips scheduled runs, so check often. Posts only what is due
   workflow_dispatch:
     inputs:
       id:
