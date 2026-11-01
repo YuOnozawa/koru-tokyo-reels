@@ -1,30 +1,78 @@
 {
- "fetched_at": "2026-10-31T05:52:04.408107+00:00",
+ "fetched_at": "2026-11-01T06:16:11.374484+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 38,
+  "media_count": 41,
   "id": "28241506535529259",
   "followers_count": 1,
-  "follows_count": 12
+  "follows_count": 32
  },
  "media": [
+  {
+   "id": "18057845012585612",
+   "permalink": "https://www.instagram.com/reel/DfMC-Owi36S/",
+   "timestamp": "2026-11-01T06:05:38+0000",
+   "media_product_type": "REELS",
+   "caption_head": "4 curries under ¥1,000 in Jimbocho, Tokyo's curry town 🍛 Sav",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 0,
+   "ig_reels_video_view_total_time": 0
+  },
+  {
+   "id": "18389772775233135",
+   "permalink": "https://www.instagram.com/reel/DfLFicJPNlg/",
+   "timestamp": "2026-10-31T21:08:45+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Free Tokyo food planner: where locals eat in Akihabara, Ueno",
+   "reach": 109,
+   "views": 115,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2588,
+   "ig_reels_video_view_total_time": 289923
+  },
+  {
+   "id": "18390063688229384",
+   "permalink": "https://www.instagram.com/reel/DfKRhy1hF8b/",
+   "timestamp": "2026-10-31T13:33:58+0000",
+   "media_product_type": "REELS",
+   "caption_head": "From November 1, tax-free shopping in Japan works differentl",
+   "reach": 104,
+   "views": 120,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 8755,
+   "ig_reels_video_view_total_time": 936792
+  },
   {
    "id": "17921142897245580",
    "permalink": "https://www.instagram.com/reel/DfJWCYMtaSj/",
    "timestamp": "2026-10-31T04:54:08+0000",
    "media_product_type": "REELS",
    "caption_head": "Learn these before you eat out in Tokyo 🗣\n\n🙏 いただきます itadakim",
-   "reach": 5,
-   "views": 12,
+   "reach": 108,
+   "views": 110,
    "likes": 0,
    "comments": 0,
    "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6770,
-   "ig_reels_video_view_total_time": 40624
+   "shares": 1,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 2506,
+   "ig_reels_video_view_total_time": 275684
   },
   {
    "id": "17965677222235221",
@@ -32,15 +80,15 @@
    "timestamp": "2026-10-31T04:46:21+0000",
    "media_product_type": "REELS",
    "caption_head": "I made a free Tokyo food planner 🎫\n\nI work in Akihabara and ",
-   "reach": 3,
-   "views": 3,
+   "reach": 101,
+   "views": 104,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 20198,
-   "ig_reels_video_view_total_time": 80792
+   "ig_reels_avg_watch_time": 2273,
+   "ig_reels_video_view_total_time": 240938
   },
   {
    "id": "18168020833419295",
@@ -55,8 +103,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3814,
-   "ig_reels_video_view_total_time": 427234
+   "ig_reels_avg_watch_time": 3829,
+   "ig_reels_video_view_total_time": 436603
   },
   {
    "id": "18079295534406858",
@@ -64,15 +112,15 @@
    "timestamp": "2026-10-26T17:16:43+0000",
    "media_product_type": "REELS",
    "caption_head": "Conveyor sushi: the plate color is the price 🍣\n\n🎨 Find the c",
-   "reach": 113,
+   "reach": 114,
    "views": 130,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6049,
-   "ig_reels_video_view_total_time": 695704
+   "ig_reels_avg_watch_time": 6011,
+   "ig_reels_video_view_total_time": 697368
   },
   {
    "id": "17988320109082969",
@@ -80,15 +128,15 @@
    "timestamp": "2026-10-26T00:06:26+0000",
    "media_product_type": "REELS",
    "caption_head": "Free refills at some tonkatsu shops 🍚\n\nNot everywhere, but a",
-   "reach": 106,
-   "views": 118,
+   "reach": 107,
+   "views": 119,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4024,
-   "ig_reels_video_view_total_time": 430599
+   "ig_reels_avg_watch_time": 3980,
+   "ig_reels_video_view_total_time": 433829
   },
   {
    "id": "18129983995696317",
@@ -103,8 +151,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2294,
-   "ig_reels_video_view_total_time": 261623
+   "ig_reels_avg_watch_time": 2288,
+   "ig_reels_video_view_total_time": 263230
   },
   {
    "id": "18047536772818230",
@@ -119,8 +167,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2670,
-   "ig_reels_video_view_total_time": 307050
+   "ig_reels_avg_watch_time": 2662,
+   "ig_reels_video_view_total_time": 308792
   },
   {
    "id": "18034394543897151",
@@ -135,8 +183,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3386,
-   "ig_reels_video_view_total_time": 504515
+   "ig_reels_avg_watch_time": 3378,
+   "ig_reels_video_view_total_time": 506717
   },
   {
    "id": "18372804169212568",
@@ -167,8 +215,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 112784,
-   "ig_reels_video_view_total_time": 14210878
+   "ig_reels_avg_watch_time": 688368,
+   "ig_reels_video_view_total_time": 90864666
   },
   {
    "id": "18640868590019520",
@@ -263,8 +311,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3819,
-   "ig_reels_video_view_total_time": 546242
+   "ig_reels_avg_watch_time": 3812,
+   "ig_reels_video_view_total_time": 549050
   },
   {
    "id": "18664875253032616",
@@ -279,8 +327,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3337,
-   "ig_reels_video_view_total_time": 350470
+   "ig_reels_avg_watch_time": 3323,
+   "ig_reels_video_view_total_time": 352271
   },
   {
    "id": "17887221075687070",
@@ -311,8 +359,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3046,
-   "ig_reels_video_view_total_time": 325991
+   "ig_reels_avg_watch_time": 3036,
+   "ig_reels_video_view_total_time": 327888
   },
   {
    "id": "17924215407441758",
@@ -448,15 +496,15 @@
    "timestamp": "2026-10-14T17:03:12+0000",
    "media_product_type": "REELS",
    "caption_head": "Going to Tokyo? Send me your restaurant list ✉️\n\nI'm a Japan",
-   "reach": 130,
-   "views": 137,
+   "reach": 131,
+   "views": 138,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2130,
-   "ig_reels_video_view_total_time": 279160
+   "ig_reels_avg_watch_time": 2120,
+   "ig_reels_video_view_total_time": 279891
   },
   {
    "id": "18007674449786812",
@@ -592,7 +640,7 @@
    "timestamp": "2026-09-23T06:16:25+0000",
    "media_product_type": "REELS",
    "caption_head": "Lost in Akihabara? You're not alone. Two exits, one giant st",
-   "reach": 210,
+   "reach": 211,
    "views": 229,
    "likes": 1,
    "comments": 0,
@@ -608,7 +656,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ACUEbkeWzIrPj6MGVS7ofLM\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AbLegf0QWHB6fhvrSjdTrvY\"}}"
   }
  ]
 }
