@@ -8164,5 +8164,31 @@
   "kind": "meal",
   "lunch_ok": true,
   "dinner_ok": true
+ },
+ {
+  "name_en": "Tamazen",
+  "name_ja": "玉善",
+  "area": "Yushima",
+  "genre": "Izakaya (seafood and fried dishes)",
+  "station": "Yushima (Chiyoda Line)",
+  "walk_min": 3,
+  "hours": "Mon-Sat 17:00-22:00 per Tabelog (also open the day before and after a public holiday)",
+  "closed_days": "Sundays and public holidays",
+  "lunch_price_yen": "n/a",
+  "dinner_price_yen": "4000-6000",
+  "budget_band": "4000-10000",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "recommended",
+  "what_to_order": "Fresh fish from the market that day (the shop says it is particular about fish); seafood and fried dishes",
+  "tourist_tip": "Dinner only. Tabelog lists no credit cards and no e-money, but PayPay is accepted, so bring cash. 50 seats, non-smoking. Also 5 min from JR Okachimachi.",
+  "yu_pick": true,
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1311/A131101/13058292/"
+  ],
+  "checked": "2026-11-01",
+  "kind": "meal",
+  "lunch_ok": false,
+  "dinner_ok": true
  }
 ]
