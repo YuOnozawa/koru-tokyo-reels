@@ -68,7 +68,7 @@ for i, sc in enumerate(SC['scenes']):
             card.paste(ph, (16, 16), mk); cm = Image.new('L', card.size, 0); ImageDraw.Draw(cm).rounded_rectangle((0, 0, card.width - 1, card.height - 1), 30, fill=255)
             sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((84, 296, 84 + card.width, 296 + card.height), 30, fill=(0, 0, 0, 70))
             ov.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10))); ov.paste(card, (84, 280), cm)
-            d = ImageDraw.Draw(ov); tg = 'Photo: similar dish, not this shop'; tw = d.textlength(tg, font=zenb(28)) + 36
+            d = ImageDraw.Draw(ov); tg = v.get('pictag', 'Photo: similar dish, not this shop'); tw = d.textlength(tg, font=zenb(28)) + 36
             d.rounded_rectangle((W - 100 - tw, 780, W - 100, 826), 23, fill=(0, 0, 0, 160)); d.text((W - 100 - tw / 2, 803), tg, font=zenb(28), fill='#ffffff', anchor='mm')
         y1 = plate(ov, v['kicker'], v['big'], v.get('sub'))
         if v.get('stamp'): stamp(ov, v['stamp'], 760, 860)
