@@ -55,5 +55,8 @@ const only = process.argv.slice(2);
   for (const a of only.filter(x => x.startsWith('shop:'))) { const slug = a.slice(5); await clip(b, 'shop_' + slug, 'shops/' + slug + '/', null, async p => {
       await sleep(900); await smooth(p, await yOf(p, 'dl, table, .facts', 160).catch(() => 380), 1100); await sleep(2000);
       await smooth(p, await p.evaluate(() => scrollY + 380), 900); await sleep(1600); }); }
+  for (const a of only.filter(x => x.startsWith('search:'))) { const [_, day, q] = a.split(':'); await clip(b, 'search_' + (day||'any') + '_' + (q||'all'), 'planner/?m=search', null, async p => {
+      await sleep(700); await p.evaluate(([day, q]) => { if (day !== '') { const s = document.getElementById('sday'); s.value = day; s.dispatchEvent(new Event('input', {bubbles:true})); } if (q) { const i = document.getElementById('q'); i.value = q; i.dispatchEvent(new Event('input', {bubbles:true})); } }, [day === 'any' ? '' : day, q || '']); await sleep(1200);
+      await smooth(p, await yOf(p, '#sout', 120), 1000); await sleep(2200); }); }
   if (want('hub')) await clip(b, 'hub', '', null, async p => { await sleep(1200); await smooth(p, 220, 1400); await sleep(1600); });
   await b.close(); })();
