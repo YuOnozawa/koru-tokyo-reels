@@ -520,5 +520,14 @@
   "license_version": "1.0",
   "source": "https://www.rawpixel.com/image/5905084/photo-image-light-public-domain-food",
   "provider": "rawpixel"
+ },
+ "chicken_curry_rice_0.jpg": {
+  "query": "chicken curry rice",
+  "title": "Lunch, WCAsia, Bangkok, Thailand",
+  "creator": "Michelle Frechette",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://wordpress.org/photos/photo/89363f1e1a/",
+  "provider": "wordpress"
  }
 }
