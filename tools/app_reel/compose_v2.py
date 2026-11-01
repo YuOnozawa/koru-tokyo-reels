@@ -59,15 +59,31 @@ for i, sc in enumerate(SC['scenes']):
         d = ImageDraw.Draw(ov); led(d, SC['led'])
         tag = v.get('tag'); 
         if tag: tw = d.textlength(tag, font=zenb(30)) + 40; d.rounded_rectangle((W - 60 - tw, 282, W - 60, 332), 25, fill=(0, 0, 0, 150)); d.text((W - 60 - tw / 2, 307), tag, font=zenb(30), fill='#ffffff', anchor='mm')
+        if v.get('pic'):
+            nm, (cx0, cy0, cx1, cy1) = v['pic']; ph = Image.open(ST + nm + '.jpg').convert('RGB')
+            ph = ph.crop((int(ph.width * cx0), int(ph.height * cy0), int(ph.width * cx1), int(ph.height * cy1)))
+            pw_, ph_ = 880, 520; r = max(pw_ / ph.width, ph_ / ph.height); ph = ph.resize((int(ph.width * r), int(ph.height * r)), Image.LANCZOS)
+            ph = ph.crop(((ph.width - pw_) // 2, (ph.height - ph_) // 2, (ph.width - pw_) // 2 + pw_, (ph.height - ph_) // 2 + ph_))
+            card = Image.new('RGBA', (pw_ + 32, ph_ + 32), (255, 255, 255, 255)); mk = Image.new('L', ph.size, 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, pw_ - 1, ph_ - 1), 18, fill=255)
+            card.paste(ph, (16, 16), mk); cm = Image.new('L', card.size, 0); ImageDraw.Draw(cm).rounded_rectangle((0, 0, card.width - 1, card.height - 1), 30, fill=255)
+            sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((84, 296, 84 + card.width, 296 + card.height), 30, fill=(0, 0, 0, 70))
+            ov.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10))); ov.paste(card, (84, 280), cm)
+            d = ImageDraw.Draw(ov); tg = 'Photo: similar dish, not this shop'; tw = d.textlength(tg, font=zenb(28)) + 36
+            d.rounded_rectangle((W - 100 - tw, 780, W - 100, 826), 23, fill=(0, 0, 0, 160)); d.text((W - 100 - tw / 2, 803), tg, font=zenb(28), fill='#ffffff', anchor='mm')
         y1 = plate(ov, v['kicker'], v['big'], v.get('sub'))
         if v.get('stamp'): stamp(ov, v['stamp'], 760, 860)
         koru_in = bool(v.get('koru'))
         if koru_in: bubble(ov, v['koru'], 400, 560)
         ov.save(f'{tmp}/ov{i}.png')
         # background: cover-crop + slow push-in (zoom on the egg area if asked)
-        bg = Image.open(ST + v['bg'] + '.jpg').convert('RGB'); sc_ = max(W * 1.15 / bg.width, H * 1.15 / bg.height)
+        if v.get('bg'): bg = Image.open(ST + v['bg'] + '.jpg').convert('RGB')
+        else:
+            bg = Image.new('RGB', (W, H), '#ffa22b'); bd = ImageDraw.Draw(bg)
+            for yy in range(-H, H * 2, 120): bd.line([(0, yy), (W, yy + 700)], fill='#ff9a1a', width=44)
+            bd.ellipse((W // 2 - 520, 380, W // 2 + 520, 1420), fill='#ffb648')
+        kz = v.get('k', 1.15); sc_ = max(W * kz / bg.width, H * kz / bg.height)
         bg = bg.resize((int(bg.width * sc_), int(bg.height * sc_)), Image.LANCZOS); bg.save(f'{tmp}/bg{i}.jpg')
-        bw, bh = bg.size; fx, fy = (0.6, 0.78) if v.get('zoom') == 'egg' else (0.5, 0.45)
+        bw, bh = bg.size; fx, fy = v.get('f', (0.6, 0.78) if v.get('zoom') == 'egg' else (0.5, 0.45))
         cx = f"({bw}-{W})*{fx}"; cy = f"({bh}-{H})*{fy}"
         z = f"(1+0.08*t/{D:.3f})"
         fc = (f"[0:v]scale=w='{bw}*{z}':h='{bh}*{z}':eval=frame,crop={W}:{H}:x='(iw-{W})*{fx}':y='(ih-{H})*{fy}'[b];"
