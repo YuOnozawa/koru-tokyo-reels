@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-02T11:16:48.328343+00:00",
+ "fetched_at": "2026-11-02T15:13:04.872691+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 48,
+  "media_count": 49,
   "id": "28241506535529259",
   "followers_count": 4,
-  "follows_count": 48
+  "follows_count": 56
  },
  "media": [
+  {
+   "id": "18179078452445407",
+   "permalink": "https://www.instagram.com/reel/DfPRcVYppvD/",
+   "timestamp": "2026-11-02T12:09:32+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #2: Nov 3 and Nov 23 are public holidays in Japa",
+   "reach": 72,
+   "views": 77,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2364,
+   "ig_reels_video_view_total_time": 170239
+  },
   {
    "id": "18100390088647625",
    "permalink": "https://www.instagram.com/reel/DfO8fuxBUyv/",
    "timestamp": "2026-11-02T09:06:22+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #5: don't tip in Japan 🙅\n\nLeave money on the tab",
-   "reach": 33,
-   "views": 42,
+   "reach": 110,
+   "views": 118,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5654,
-   "ig_reels_video_view_total_time": 186587
+   "ig_reels_avg_watch_time": 3713,
+   "ig_reels_video_view_total_time": 401096
   },
   {
    "id": "18101338682086412",
@@ -32,15 +48,15 @@
    "timestamp": "2026-11-02T07:12:40+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #6: some of the best cheap spots close before di",
-   "reach": 58,
-   "views": 61,
+   "reach": 74,
+   "views": 77,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2529,
-   "ig_reels_video_view_total_time": 154320
+   "ig_reels_avg_watch_time": 2376,
+   "ig_reels_video_view_total_time": 183002
   },
   {
    "id": "17909177016567574",
@@ -64,15 +80,15 @@
    "timestamp": "2026-11-02T01:04:53+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #3: about 4 in 10 places want cash 💴\n\nOf the 299",
-   "reach": 80,
-   "views": 84,
+   "reach": 91,
+   "views": 96,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2684,
-   "ig_reels_video_view_total_time": 217451
+   "ig_reels_avg_watch_time": 2476,
+   "ig_reels_video_view_total_time": 227875
   },
   {
    "id": "17865115440696962",
@@ -80,15 +96,15 @@
    "timestamp": "2026-11-01T22:05:55+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #1: 1 in 3 restaurants close on Sundays 🚪\n\nI che",
-   "reach": 62,
-   "views": 67,
+   "reach": 85,
+   "views": 89,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2023,
-   "ig_reels_video_view_total_time": 127504
+   "ig_reels_avg_watch_time": 2509,
+   "ig_reels_video_view_total_time": 215837
   },
   {
    "id": "18118973579049225",
@@ -96,15 +112,15 @@
    "timestamp": "2026-11-01T18:28:07+0000",
    "media_product_type": "REELS",
    "caption_head": "Beef tongue curry for ~¥850: Sendai, Jimbocho 🍛\n\n🍽️ Beef ton",
-   "reach": 94,
-   "views": 102,
+   "reach": 105,
+   "views": 111,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3986,
-   "ig_reels_video_view_total_time": 378705
+   "ig_reels_avg_watch_time": 3709,
+   "ig_reels_video_view_total_time": 396920
   },
   {
    "id": "18113528617887265",
@@ -112,15 +128,15 @@
    "timestamp": "2026-11-01T13:14:41+0000",
    "media_product_type": "REELS",
    "caption_head": "Pick your spice level, 0 to 70x: Ethiopia, Jimbocho 🌶️🍛\n\n🍽️ ",
-   "reach": 78,
-   "views": 84,
+   "reach": 80,
+   "views": 86,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1572,
-   "ig_reels_video_view_total_time": 122639
+   "ig_reels_avg_watch_time": 1585,
+   "ig_reels_video_view_total_time": 126808
   },
   {
    "id": "18057845012585612",
@@ -144,7 +160,7 @@
    "timestamp": "2026-10-31T21:08:45+0000",
    "media_product_type": "REELS",
    "caption_head": "Free Tokyo food planner: where locals eat in Akihabara, Ueno",
-   "reach": 110,
+   "reach": 111,
    "views": 115,
    "likes": 0,
    "comments": 0,
@@ -688,15 +704,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 172,
-   "views": 189,
+   "reach": 173,
+   "views": 193,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6321,
-   "ig_reels_video_view_total_time": 1131600
+   "ig_reels_avg_watch_time": 6810,
+   "ig_reels_video_view_total_time": 1225842
   },
   {
    "id": "18233989189318614",
@@ -736,15 +752,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 195,
-   "views": 212,
+   "reach": 196,
+   "views": 213,
    "likes": 0,
    "comments": 0,
    "saved": 5,
    "shares": 0,
    "total_interactions": 5,
-   "ig_reels_avg_watch_time": 8017,
-   "ig_reels_video_view_total_time": 1563423
+   "ig_reels_avg_watch_time": 8004,
+   "ig_reels_video_view_total_time": 1568902
   },
   {
    "id": "18000027392807753",
@@ -752,15 +768,15 @@
    "timestamp": "2026-09-23T06:16:25+0000",
    "media_product_type": "REELS",
    "caption_head": "Lost in Akihabara? You're not alone. Two exits, one giant st",
-   "reach": 211,
-   "views": 229,
+   "reach": 212,
+   "views": 231,
    "likes": 1,
    "comments": 0,
    "saved": 4,
    "shares": 2,
    "total_interactions": 7,
-   "ig_reels_avg_watch_time": 8962,
-   "ig_reels_video_view_total_time": 1891106
+   "ig_reels_avg_watch_time": 8970,
+   "ig_reels_video_view_total_time": 1901657
   },
   {
    "id": "18119883476304861",
@@ -768,7 +784,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ATrHiydwqYhOG9jSiAIThUW\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AzO3RUVD-RuWPxFITupV-UZ\"}}"
   }
  ]
 }
