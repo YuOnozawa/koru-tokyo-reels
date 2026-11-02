@@ -461,6 +461,20 @@
    "liked": true,
    "at": "2026-11-02T00:29Z",
    "source": "asked for a 5-day Tokyo itinerary (comment 'All'), via Mac"
+  },
+  {
+   "user": "lexi_onthego",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T01:26Z",
+   "source": "asked for a 10-day Japan itinerary (comment 'Stay', last week), via Mac"
+  },
+  {
+   "user": "bpkoshy",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T01:26Z",
+   "source": "asked for a 10-day Japan itinerary (comment 'Stay', last week), via Mac"
   }
  ],
  "candidates": [],
@@ -502,10 +516,21 @@
   "la_biancac",
   "mariaperisse",
   "dtang.13",
-  "ranning27"
+  "ranning27",
+  "mollytaitx",
+  "erikaencinitas",
+  "elizabeth_r_11",
+  "jaxonfunk",
+  "mmorristeach",
+  "melissa_cavis",
+  "azumen",
+  "natalie_mithiri"
  ],
  "already_following": [
   "reefalon1",
   "svetlanayakutik"
+ ],
+ "notes": [
+  "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work."
  ]
 }
