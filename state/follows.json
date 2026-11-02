@@ -532,5 +532,13 @@
  ],
  "notes": [
   "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work."
+ ],
+ "dm_log": [
+  {
+   "at": "2026-11-02",
+   "user": "propiorumbo",
+   "direction": "out",
+   "note": "Reply to travel planner welcome DM: offered free app for her Tokyo clients + collaboration. Approved by Yu."
+  }
  ]
 }
