@@ -25,6 +25,13 @@ jobs:
           FORCE_ID: ${{ github.event.inputs.id }}
         run: |
           if [ -n "$FORCE_ID" ]; then python scripts/ig.py publish --id "$FORCE_ID"; else python scripts/ig.py publish; fi
+      - name: Cross-post to YouTube Shorts (skips if no YT_* secrets)
+        if: always()
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python scripts/yt.py || true
       - name: Archive posted videos to Drive, then drop them from the store and the site
         if: always()
         env:
