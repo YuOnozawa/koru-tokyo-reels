@@ -70,6 +70,12 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
          '<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">')
 
 CSS = """
+.rules{margin:12px 0;padding:10px 12px;border-radius:8px;background:#fff;border:1.5px solid #e2dccb}
+.rules-k{font:13px "DotGothic16",monospace;color:var(--red);letter-spacing:.06em}
+.rules ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px}
+.rules li{display:flex;gap:8px;font-weight:700;font-size:15px}
+.report{font-size:13px;color:var(--muted);margin:8px 0 0}
+.report a{color:var(--red)}
 .say{display:grid;gap:2px;margin:14px 0 0;padding:14px 16px;border-radius:12px;background:#17110c;color:#ffa22b;text-decoration:none;box-shadow:inset 0 0 0 3px #000}
 .say-k{font:13px "DotGothic16",monospace;opacity:.85}
 .say b{font:900 24px/1.3 "Zen Kaku Gothic New",sans-serif;color:#ffd27a}
@@ -146,6 +152,43 @@ def say_html(s):
             '<span class="say-r">%s · %s</span><span class="say-more">More restaurant phrases →</span></a>') % (anchor, e(ja), e(ro), e(en))
 
 
+def house_rules(s):
+    """Short, scannable 'house rules' chips derived only from the facts we already store."""
+    t = ' '.join(str(s.get(k) or '') for k in ('tourist_tip', 'what_to_order', 'hours')).lower()
+    out = []
+    def add(icon, label):
+        if label not in [x[1] for x in out]:
+            out.append((icon, label))
+    if re.search(r'cash only|no credit cards|credit cards not accepted|cards not accepted|no cards|bring cash|not accept(ed)? cards', t):
+        add('💴', 'Cash only' + (' (PayPay OK)' if re.search(r'paypay (is |are )?accepted|paypay ok|paypay and', t) and 'not accepted' not in t.split('paypay')[1][:20] else ''))
+    elif re.search(r'cards? (and [^.]*)?accepted|visa|mastercard|amex|jcb', t):
+        add('💳', 'Cards OK')
+    if re.search(r'ticket (vending )?machine', t):
+        add('🎫', 'Buy a meal ticket at the machine first')
+    if re.search(r'pay before|order and pay before', t):
+        add('💴', 'Pay before you eat')
+    if re.search(r'no reservations|walk-in only|no online booking|reservations not', t) or s.get('reservation') == 'not_needed':
+        add('🚶', 'No booking needed' if s.get('reservation') == 'not_needed' and 'no reservation' not in t else 'No reservations, just walk in')
+    elif s.get('reservation') in ('recommended', 'required', 'needed'):
+        add('📅', 'Book ahead')
+    if re.search(r'sold out|sells out|runs out', t):
+        add('⏰', 'Closes when sold out, go early')
+    if re.search(r'\bqueue|\bline (can|often|forms)|long line|lines? form', t):
+        add('⏳', 'Expect a line')
+    if re.search(r'takeout only|no seats', t):
+        add('🥡', 'Takeout only')
+    if re.search(r'smoking allowed|smoking at all seats|smoking and non-smoking', t):
+        add('🚬', 'Smoking allowed (check seats)')
+    if re.search(r'children (are )?not allowed|not for children|under 12', t):
+        add('🚸', 'Child policy: see the tip below')
+    m = re.search(r'(\d{1,2}) (counter )?seats', t)
+    if m and int(m.group(1)) <= 20:
+        add('🪑', 'Small: %s seats' % m.group(1))
+    if str(s.get('english_menu', '')).lower() == 'yes':
+        add('🇬🇧', 'English menu')
+    return out
+
+
 def shop_page(s, slug, peers):
     area = s.get('area', '')
     bits = []
@@ -186,6 +229,12 @@ def shop_page(s, slug, peers):
     stamp = '<div class="stamp">YU\'S<br>PICK</div>' if s.get('yu_pick') else ''
     order = '<p class="order">▶ %s</p>' % e(s['what_to_order']) if known(s.get('what_to_order')) else ''
     tip = '<p class="tip">💡 %s</p>' % e(s['tourist_tip']) if known(s.get('tourist_tip')) else ''
+    hr = house_rules(s)
+    if hr:
+        order += ('<div class="rules"><div class="rules-k">HOUSE RULES · 入店ルール</div><ul>%s</ul></div>'
+                  % ''.join('<li><span>%s</span>%s</li>' % (i, e(l)) for i, l in hr))
+    tip += ('<p class="report">Something changed (closed, new hours, cash only)? '
+            '<a href="https://ig.me/m/koru.tokyo_guide" target="_blank" rel="noopener">Tell us on Instagram</a> and we\'ll fix it.</p>')
     group = GROUP.get(area, '')
     plan_href = '../../planner/' + ('?a=' + group if group else '')
     peer_html = ''
