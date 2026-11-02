@@ -573,6 +573,55 @@
    "liked": true,
    "at": "2026-11-02T12:40Z",
    "source": "recommended Tokyo breakfast spot (hiro_no__tabi), via Mac"
+  },
+  {
+   "user": "_tammymorse_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "going to Japan next month (shaniceswank food post), via Mac"
+  },
+  {
+   "user": "daneliajay",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "wants to try Japan food (shaniceswank), via Mac"
+  },
+  {
+   "user": "jeffery.gao",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "saved Japan food post for next trip (fooodieverse), via Mac"
+  },
+  {
+   "user": "zaynariniee",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "wants to go back to Japan (traveleatnyc food spots), via Mac"
+  },
+  {
+   "user": "nyc.bgoo",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "going to Tokyo in Jan (food.vince Tokyo eats), via Mac"
+  },
+  {
+   "user": "carmenuyamane",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "asked where in Tokyo (japan.munching ramen), via Mac"
+  },
+  {
+   "user": "kristinelsonnbc5",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T21:35Z",
+   "source": "coming to Tokyo (japan.munching ramen), via Mac"
   }
  ],
  "candidates": [],
@@ -596,7 +645,10 @@
   "ourfulltimeadventure",
   "mathi.nyc",
   "iulia.giulia",
-  "a_girlwhotravels"
+  "a_girlwhotravels",
+  "brittanygoood",
+  "fitnessfood.cammie",
+  "lettucebethejudge"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -639,7 +691,14 @@
   "mmilosavljeva",
   "natigullon",
   "lapastasciutta",
-  "_julessoto"
+  "_julessoto",
+  "elle_est_belle1",
+  "fsp888",
+  "bi_petrovic",
+  "yammyaguilar",
+  "merrbear2u",
+  "lanarocha",
+  "bluefur_19"
  ],
  "already_following": [
   "reefalon1",
@@ -647,7 +706,8 @@
  ],
  "notes": [
   "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work.",
-  "2026-11-02 21:20 run: food 'Spots please' comments on Japan food reels gave the best public-account hit rate (4/6). Itinerary-post commenters are mostly 10k+ creators (pods)."
+  "2026-11-02 21:20 run: food 'Spots please' comments on Japan food reels gave the best public-account hit rate (4/6). Itinerary-post commenters are mostly 10k+ creators (pods).",
+  "2026-11-03 06:20 run: +7. Good sources: food.vince Tokyo eats (DfDn5twGbW9), japan.munching ramen (DfMV1QYqosU), shaniceswank Japan food (DeHHJZMNU8k). ~45% of food-post commenters are private."
  ],
  "dm_log": [
   {
