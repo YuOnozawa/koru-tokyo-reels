@@ -517,6 +517,62 @@
    "liked": true,
    "at": "2026-11-02T09:15Z",
    "source": "PC task (Windows) run 18:12 JST; added manually because that run could not push"
+  },
+  {
+   "user": "romrovk",
+   "state": "following",
+   "liked": false,
+   "at": "2026-11-02T12:40Z",
+   "source": "comment on kouki_japan_travel_buddy 5-days-Tokyo post, via Mac"
+  },
+  {
+   "user": "xch.rfl",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T12:40Z",
+   "source": "commented on passportarchives Tokyo itinerary, via Mac"
+  },
+  {
+   "user": "dejapink5",
+   "state": "following",
+   "liked": false,
+   "at": "2026-11-02T12:40Z",
+   "source": "commented on hiro_no__tabi Tokyo breakfast spots, via Mac"
+  },
+  {
+   "user": "nishamorais",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T12:40Z",
+   "source": "asked for Japan food spots (traveleatnyc), via Mac"
+  },
+  {
+   "user": "kateroscrow",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T12:40Z",
+   "source": "asked for Japan food spots (traveleatnyc), via Mac"
+  },
+  {
+   "user": "soso_jazzy_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T12:40Z",
+   "source": "asked for Japan food spots (traveleatnyc), via Mac"
+  },
+  {
+   "user": "brenofwands",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T12:40Z",
+   "source": "asked for Japan food spots (traveleatnyc), via Mac"
+  },
+  {
+   "user": "sonnyhorrocks96",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T12:40Z",
+   "source": "recommended Tokyo breakfast spot (hiro_no__tabi), via Mac"
   }
  ],
  "candidates": [],
@@ -534,7 +590,13 @@
   "clarhens",
   "kimberllyvuong",
   "baybabal",
-  "thaisyonoki"
+  "thaisyonoki",
+  "thailandtale",
+  "katrin_zhuk_",
+  "ourfulltimeadventure",
+  "mathi.nyc",
+  "iulia.giulia",
+  "a_girlwhotravels"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -570,14 +632,22 @@
   "jimjimjimmy",
   "rhainsong",
   "ctgriswold",
-  "deniseagath"
+  "deniseagath",
+  "grevstenjenny",
+  "terebello",
+  "mercedes_recre",
+  "mmilosavljeva",
+  "natigullon",
+  "lapastasciutta",
+  "_julessoto"
  ],
  "already_following": [
   "reefalon1",
   "svetlanayakutik"
  ],
  "notes": [
-  "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work."
+  "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work.",
+  "2026-11-02 21:20 run: food 'Spots please' comments on Japan food reels gave the best public-account hit rate (4/6). Itinerary-post commenters are mostly 10k+ creators (pods)."
  ],
  "dm_log": [
   {
@@ -588,6 +658,9 @@
   }
  ],
  "skipped_business": [
-  "sarapplemaliki"
+  "sarapplemaliki",
+  "paulapatricola",
+  "ellebeemme",
+  "joannarescorla"
  ]
 }
