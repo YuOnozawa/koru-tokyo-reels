@@ -294,6 +294,20 @@ def index_page(by_area, slugs):
     return page(title, desc, BASE + '/shops/', body, ld).replace('href="../privacy/"', 'href="../privacy/"')
 
 
+def write_csv(S, root):
+    """Public CSV of the shop DB (for the Google Sheet view via IMPORTDATA)."""
+    import csv, io
+    cols = ['name_en', 'name_ja', 'area', 'genre', 'station', 'walk_min', 'hours', 'closed_days', 'lunch_price_yen', 'dinner_price_yen',
+            'budget_band', 'what_to_order', 'tourist_tip', 'yu_pick', 'awards', 'reservation', 'english_menu', 'checked', 'sources']
+    out = io.StringIO(); w = csv.writer(out)
+    w.writerow(cols + ['house_rules', 'page_url'])
+    for s in S:
+        w.writerow([('; '.join(s[c]) if isinstance(s.get(c), list) else s.get(c, '')) for c in cols]
+                   + [' / '.join(l for _, l in house_rules(s)), '%s/shops/%s/' % (BASE, slugify(s['name_en']))])
+    os.makedirs(os.path.join(root, 'data'), exist_ok=True)
+    open(os.path.join(root, 'data', 'shops.csv'), 'w', encoding='utf-8').write(out.getvalue())
+
+
 def main():
     shops = json.load(open(os.path.join(ROOT, 'data', 'shops.json'), encoding='utf-8'))
     slugs, used = {}, set()
@@ -303,6 +317,7 @@ def main():
         while sl in used:
             sl = '%s-%d' % (base, n); n += 1
         used.add(sl); slugs[id(s)] = sl
+    write_csv(shops, os.path.join(ROOT, 'site'))
     areas = [a for a in AREA_ORDER if any(s['area'] == a for s in shops)] + sorted({s['area'] for s in shops} - set(AREA_ORDER))
     by_area = OrderedDict()
     for a in areas:
