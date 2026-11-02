@@ -475,6 +475,34 @@
    "liked": true,
    "at": "2026-11-02T01:26Z",
    "source": "asked for a 10-day Japan itinerary (comment 'Stay', last week), via Mac"
+  },
+  {
+   "user": "stan.leyworld",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T09:28Z",
+   "source": "asked for Yanaka/old-Tokyo map, via Mac"
+  },
+  {
+   "user": "the.i.t.girl101",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T09:28Z",
+   "source": "asked for Yanaka/old-Tokyo map, via Mac"
+  },
+  {
+   "user": "rapunzell.nguyen",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T09:28Z",
+   "source": "asked for Yanaka/old-Tokyo map, via Mac"
+  },
+  {
+   "user": "bobomec",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T09:28Z",
+   "source": "visited old Tokyo (Yanaka) recently, via Mac"
   }
  ],
  "candidates": [],
@@ -524,7 +552,11 @@
   "mmorristeach",
   "melissa_cavis",
   "azumen",
-  "natalie_mithiri"
+  "natalie_mithiri",
+  "jimjimjimmy",
+  "rhainsong",
+  "ctgriswold",
+  "deniseagath"
  ],
  "already_following": [
   "reefalon1",
@@ -540,5 +572,8 @@
    "direction": "out",
    "note": "Reply to travel planner welcome DM: offered free app for her Tokyo clients + collaboration. Approved by Yu."
   }
+ ],
+ "skipped_business": [
+  "sarapplemaliki"
  ]
 }
