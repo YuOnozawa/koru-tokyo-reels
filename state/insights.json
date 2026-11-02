@@ -1,30 +1,110 @@
 {
- "fetched_at": "2026-11-01T06:16:11.374484+00:00",
+ "fetched_at": "2026-11-02T06:17:39.880345+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 41,
+  "media_count": 46,
   "id": "28241506535529259",
-  "followers_count": 1,
-  "follows_count": 32
+  "followers_count": 4,
+  "follows_count": 43
  },
  "media": [
+  {
+   "id": "17909177016567574",
+   "permalink": "https://www.instagram.com/reel/DfOZ-F9MjO9/",
+   "timestamp": "2026-11-02T04:04:42+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #4: the staff won't come to your table? Say this",
+   "reach": 112,
+   "views": 124,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3439,
+   "ig_reels_video_view_total_time": 388630
+  },
+  {
+   "id": "18099919103416447",
+   "permalink": "https://www.instagram.com/reel/DfOFZC2OK9q/",
+   "timestamp": "2026-11-02T01:04:53+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #3: about 4 in 10 places want cash 💴\n\nOf the 299",
+   "reach": 76,
+   "views": 80,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2766,
+   "ig_reels_video_view_total_time": 213017
+  },
+  {
+   "id": "17865115440696962",
+   "permalink": "https://www.instagram.com/reel/DfNw78bTPJ-/",
+   "timestamp": "2026-11-01T22:05:55+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #1: 1 in 3 restaurants close on Sundays 🚪\n\nI che",
+   "reach": 50,
+   "views": 54,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1170,
+   "ig_reels_video_view_total_time": 59681
+  },
+  {
+   "id": "18118973579049225",
+   "permalink": "https://www.instagram.com/reel/DfNX--nswMP/",
+   "timestamp": "2026-11-01T18:28:07+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Beef tongue curry for ~¥850: Sendai, Jimbocho 🍛\n\n🍽️ Beef ton",
+   "reach": 75,
+   "views": 80,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4306,
+   "ig_reels_video_view_total_time": 327312
+  },
+  {
+   "id": "18113528617887265",
+   "permalink": "https://www.instagram.com/reel/DfM0Hemh7Y6/",
+   "timestamp": "2026-11-01T13:14:41+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Pick your spice level, 0 to 70x: Ethiopia, Jimbocho 🌶️🍛\n\n🍽️ ",
+   "reach": 76,
+   "views": 82,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1597,
+   "ig_reels_video_view_total_time": 121439
+  },
   {
    "id": "18057845012585612",
    "permalink": "https://www.instagram.com/reel/DfMC-Owi36S/",
    "timestamp": "2026-11-01T06:05:38+0000",
    "media_product_type": "REELS",
    "caption_head": "4 curries under ¥1,000 in Jimbocho, Tokyo's curry town 🍛 Sav",
-   "reach": 0,
-   "views": 0,
+   "reach": 100,
+   "views": 113,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 0,
-   "ig_reels_video_view_total_time": 0
+   "ig_reels_avg_watch_time": 7809,
+   "ig_reels_video_view_total_time": 796536
   },
   {
    "id": "18389772775233135",
@@ -39,8 +119,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2588,
-   "ig_reels_video_view_total_time": 289923
+   "ig_reels_avg_watch_time": 2599,
+   "ig_reels_video_view_total_time": 293696
   },
   {
    "id": "18390063688229384",
@@ -48,15 +128,15 @@
    "timestamp": "2026-10-31T13:33:58+0000",
    "media_product_type": "REELS",
    "caption_head": "From November 1, tax-free shopping in Japan works differentl",
-   "reach": 104,
-   "views": 120,
+   "reach": 105,
+   "views": 121,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 8755,
-   "ig_reels_video_view_total_time": 936792
+   "ig_reels_avg_watch_time": 8575,
+   "ig_reels_video_view_total_time": 943331
   },
   {
    "id": "17921142897245580",
@@ -96,15 +176,15 @@
    "timestamp": "2026-10-26T22:36:26+0000",
    "media_product_type": "REELS",
    "caption_head": "Fresh takoyaki is lava inside 🔥\n\n🐙 Octopus in soft batter, w",
-   "reach": 110,
-   "views": 123,
+   "reach": 111,
+   "views": 125,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3829,
-   "ig_reels_video_view_total_time": 436603
+   "ig_reels_avg_watch_time": 3970,
+   "ig_reels_video_view_total_time": 456562
   },
   {
    "id": "18079295534406858",
@@ -215,8 +295,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 688368,
-   "ig_reels_video_view_total_time": 90864666
+   "ig_reels_avg_watch_time": 1063746,
+   "ig_reels_video_view_total_time": 145733213
   },
   {
    "id": "18640868590019520",
@@ -624,15 +704,15 @@
    "timestamp": "2026-09-23T06:18:44+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno Station: pick the exit BEFORE you get off. Park Exit = ",
-   "reach": 193,
-   "views": 209,
+   "reach": 195,
+   "views": 212,
    "likes": 0,
    "comments": 0,
    "saved": 5,
    "shares": 0,
    "total_interactions": 5,
-   "ig_reels_avg_watch_time": 8002,
-   "ig_reels_video_view_total_time": 1536529
+   "ig_reels_avg_watch_time": 8017,
+   "ig_reels_video_view_total_time": 1563423
   },
   {
    "id": "18000027392807753",
@@ -656,7 +736,7 @@
    "timestamp": "2026-09-23T03:15:22+0000",
    "media_product_type": "FEED",
    "caption_head": "Hi, I'm Yu 👋 A Japanese guy in my 30s, living in Tokyo and w",
-   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AbLegf0QWHB6fhvrSjdTrvY\"}}"
+   "insights_error": "API error 400 on GET 18119883476304861/insights: {\"error\":{\"message\":\"The Media Insights API does not support the ig_reels_avg_watch_time, ig_reels_video_view_total_time metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Aa32Bsm6JMeOMADUtJ-j2R1\"}}"
   }
  ]
 }
