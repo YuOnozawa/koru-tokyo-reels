@@ -440,6 +440,27 @@
    "liked": true,
    "at": "2026-11-01T20:47Z",
    "source": "'Saved them all' on Tokyo list"
+  },
+  {
+   "user": "outdoor_eaters",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T00:29Z",
+   "source": "asked for a 5-day Tokyo itinerary (comment 'All'), via Mac"
+  },
+  {
+   "user": "artillory",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T00:29Z",
+   "source": "asked for a 5-day Tokyo itinerary (comment 'All'), via Mac"
+  },
+  {
+   "user": "propiorumbo",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-02T00:29Z",
+   "source": "asked for a 5-day Tokyo itinerary (comment 'All'), via Mac"
   }
  ],
  "candidates": [],
@@ -455,7 +476,9 @@
   "chaewonkim",
   "its.eilleen",
   "clarhens",
-  "kimberllyvuong"
+  "kimberllyvuong",
+  "baybabal",
+  "thaisyonoki"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -474,6 +497,15 @@
   "bunnybrie_",
   "hallodinni",
   "fallon4yoo",
-  "samantha.lee.holt"
+  "samantha.lee.holt",
+  "erin1edwards",
+  "la_biancac",
+  "mariaperisse",
+  "dtang.13",
+  "ranning27"
+ ],
+ "already_following": [
+  "reefalon1",
+  "svetlanayakutik"
  ]
 }
