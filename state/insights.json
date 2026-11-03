@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-03T06:54:56.416351+00:00",
+ "fetched_at": "2026-11-03T15:04:46.201955+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 54,
+  "media_count": 55,
   "id": "28241506535529259",
   "followers_count": 4,
-  "follows_count": 63
+  "follows_count": 68
  },
  "media": [
+  {
+   "id": "18359000203219453",
+   "permalink": "https://www.instagram.com/reel/DfR17DFuJcm/",
+   "timestamp": "2026-11-03T12:06:47+0000",
+   "media_product_type": "REELS",
+   "caption_head": "One splurge near Akihabara: grilled eel at Myojinshita Kanda",
+   "reach": 4,
+   "views": 8,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1355,
+   "ig_reels_video_view_total_time": 5423
+  },
   {
    "id": "17905225704606069",
    "permalink": "https://www.instagram.com/reel/DfQ-ziaTv_s/",
    "timestamp": "2026-11-03T04:05:01+0000",
    "media_product_type": "REELS",
    "caption_head": "Only 2 kinds of bread, still sells out: Pelican, Asakusa 🍞\n\n",
-   "reach": 106,
-   "views": 115,
+   "reach": 110,
+   "views": 117,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2656,
-   "ig_reels_video_view_total_time": 278899
+   "ig_reels_avg_watch_time": 2833,
+   "ig_reels_video_view_total_time": 314527
   },
   {
    "id": "18134103169668644",
@@ -32,15 +48,15 @@
    "timestamp": "2026-11-03T01:05:50+0000",
    "media_product_type": "REELS",
    "caption_head": "About ¥800 curry, down a staircase: Indira, Kanda 🍛 (Yu's pi",
-   "reach": 76,
-   "views": 84,
+   "reach": 98,
+   "views": 105,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3069,
-   "ig_reels_video_view_total_time": 236373
+   "ig_reels_avg_watch_time": 2940,
+   "ig_reels_video_view_total_time": 291120
   },
   {
    "id": "18119391691960101",
@@ -48,15 +64,15 @@
    "timestamp": "2026-11-02T22:05:54+0000",
    "media_product_type": "REELS",
    "caption_head": "This oyster hot pot blew me away: Tamazen, Yushima 🦪🍲 (Yu's ",
-   "reach": 53,
-   "views": 55,
+   "reach": 73,
+   "views": 76,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1947,
-   "ig_reels_video_view_total_time": 103191
+   "ig_reels_avg_watch_time": 2114,
+   "ig_reels_video_view_total_time": 152251
   },
   {
    "id": "18170959519462045",
@@ -64,15 +80,15 @@
    "timestamp": "2026-11-02T19:06:00+0000",
    "media_product_type": "REELS",
    "caption_head": "Pick your chili heat AND numbness, 0 to 6: A-un, Yushima 🌶️🍜",
-   "reach": 87,
-   "views": 105,
+   "reach": 105,
+   "views": 115,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3144,
-   "ig_reels_video_view_total_time": 273545
+   "ig_reels_avg_watch_time": 3021,
+   "ig_reels_video_view_total_time": 314250
   },
   {
    "id": "17939920890122494",
@@ -80,15 +96,15 @@
    "timestamp": "2026-11-02T15:14:03+0000",
    "media_product_type": "REELS",
    "caption_head": "Jumbo gyoza, 6 for ~¥800: Shoryu, Ueno 🥟\n\n🍽️ Jumbo gyoza (di",
-   "reach": 129,
-   "views": 150,
+   "reach": 131,
+   "views": 152,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3116,
-   "ig_reels_video_view_total_time": 420660
+   "ig_reels_avg_watch_time": 3084,
+   "ig_reels_video_view_total_time": 422555
   },
   {
    "id": "18179078452445407",
@@ -96,15 +112,15 @@
    "timestamp": "2026-11-02T12:09:32+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #2: Nov 3 and Nov 23 are public holidays in Japa",
-   "reach": 87,
-   "views": 91,
+   "reach": 90,
+   "views": 94,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2586,
-   "ig_reels_video_view_total_time": 222412
+   "ig_reels_avg_watch_time": 2591,
+   "ig_reels_video_view_total_time": 230612
   },
   {
    "id": "18100390088647625",
@@ -128,15 +144,15 @@
    "timestamp": "2026-11-02T07:12:40+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #6: some of the best cheap spots close before di",
-   "reach": 100,
-   "views": 104,
+   "reach": 101,
+   "views": 105,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2050,
-   "ig_reels_video_view_total_time": 209173
+   "ig_reels_avg_watch_time": 2038,
+   "ig_reels_video_view_total_time": 209960
   },
   {
    "id": "17909177016567574",
@@ -240,15 +256,15 @@
    "timestamp": "2026-10-31T21:08:45+0000",
    "media_product_type": "REELS",
    "caption_head": "Free Tokyo food planner: where locals eat in Akihabara, Ueno",
-   "reach": 112,
-   "views": 116,
+   "reach": 113,
+   "views": 117,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2593,
-   "ig_reels_video_view_total_time": 298306
+   "ig_reels_avg_watch_time": 2569,
+   "ig_reels_video_view_total_time": 300628
   },
   {
    "id": "18390063688229384",
@@ -784,31 +800,15 @@
    "timestamp": "2026-09-23T06:22:54+0000",
    "media_product_type": "REELS",
    "caption_head": "Nakamise filter: buy ningyo-yaki, age-manju, and senbei (all",
-   "reach": 174,
-   "views": 193,
+   "reach": 175,
+   "views": 194,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 6810,
-   "ig_reels_video_view_total_time": 1225842
-  },
-  {
-   "id": "18233989189318614",
-   "permalink": "https://www.instagram.com/reel/Ddnp7bIOuft/",
-   "timestamp": "2026-09-23T06:22:09+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Skip Nakamise for food. Denboin-dori (Edo storefronts), Shin",
-   "reach": 136,
-   "views": 145,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5081,
-   "ig_reels_video_view_total_time": 736801
+   "ig_reels_avg_watch_time": 6932,
+   "ig_reels_video_view_total_time": 1254723
   }
  ]
 }
