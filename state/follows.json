@@ -622,6 +622,41 @@
    "liked": true,
    "at": "2026-11-02T21:35Z",
    "source": "coming to Tokyo (japan.munching ramen), via Mac"
+  },
+  {
+   "user": "indigoearle",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T12:50Z",
+   "source": "asked where soba spot was (sarahlange__ Tokyo vlog), via Mac"
+  },
+  {
+   "user": "benmccann__",
+   "state": "following",
+   "liked": false,
+   "at": "2026-11-03T12:50Z",
+   "source": "commented on travel.with.magda first-time Tokyo plan, via Mac"
+  },
+  {
+   "user": "stamennn_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T12:50Z",
+   "source": "asked about shop on sarahlange__ Tokyo vlog, via Mac"
+  },
+  {
+   "user": "wenghancheah",
+   "state": "following",
+   "liked": false,
+   "at": "2026-11-03T12:50Z",
+   "source": "commented 'LOCALS' on happiestdentist Tokyo local spots, via Mac"
+  },
+  {
+   "user": "daoriginal_mamajay808",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T12:50Z",
+   "source": "commented 'Locals' on happiestdentist Tokyo local spots, via Mac"
   }
  ],
  "candidates": [],
@@ -698,7 +733,23 @@
   "yammyaguilar",
   "merrbear2u",
   "lanarocha",
-  "bluefur_19"
+  "bluefur_19",
+  "maddiismith",
+  "wanderupnorth",
+  "kikii987",
+  "sebastienvandendaele",
+  "lollypop01793",
+  "liamscanlanx",
+  "jazminelikealaddin",
+  "sweet_twin1",
+  "nettymeily",
+  "victoriaronnquist",
+  "leonardcalvo",
+  "ms_nessy",
+  "gloryws",
+  "yeyen00",
+  "stelylee",
+  "dlsvdl"
  ],
  "already_following": [
   "reefalon1",
@@ -707,7 +758,8 @@
  "notes": [
   "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work.",
   "2026-11-02 21:20 run: food 'Spots please' comments on Japan food reels gave the best public-account hit rate (4/6). Itinerary-post commenters are mostly 10k+ creators (pods).",
-  "2026-11-03 06:20 run: +7. Good sources: food.vince Tokyo eats (DfDn5twGbW9), japan.munching ramen (DfMV1QYqosU), shaniceswank Japan food (DeHHJZMNU8k). ~45% of food-post commenters are private."
+  "2026-11-03 06:20 run: +7. Good sources: food.vince Tokyo eats (DfDn5twGbW9), japan.munching ramen (DfMV1QYqosU), shaniceswank Japan food (DeHHJZMNU8k). ~45% of food-post commenters are private.",
+  "2026-11-03 21:20 run: +5 only; 16 private. 'Locals' comment-to-get posts are ~85% private. Business regex may be over-matching personal vloggers with links (v7.nils, cliveeariss, sarahlange__) - review. No own Japan-trip posts among new follows -> no comment drafts."
  ],
  "dm_log": [
   {
@@ -721,7 +773,10 @@
   "sarapplemaliki",
   "paulapatricola",
   "ellebeemme",
-  "joannarescorla"
+  "joannarescorla",
+  "v7.nils",
+  "cliveeariss",
+  "sarahlange__"
  ],
  "comment_queue": [
   {
