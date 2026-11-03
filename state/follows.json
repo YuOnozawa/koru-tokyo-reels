@@ -657,6 +657,41 @@
    "liked": true,
    "at": "2026-11-03T12:50Z",
    "source": "commented 'Locals' on happiestdentist Tokyo local spots, via Mac"
+  },
+  {
+   "user": "francescorapaccioni",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T21:40Z",
+   "source": "own post: people of Asakusa / Senso-ji (traveler), via Mac"
+  },
+  {
+   "user": "nisha_k.c01_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T21:40Z",
+   "source": "own post: Odaiba Tokyo, via Mac"
+  },
+  {
+   "user": "heyitsmiacastro",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T21:40Z",
+   "source": "own post: Japan day 3 incl. Akihabara, via Mac"
+  },
+  {
+   "user": "bykarismoura",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T21:40Z",
+   "source": "own post: everything I ate in 24h in Tokyo, via Mac"
+  },
+  {
+   "user": "sukmaa._w",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-03T21:40Z",
+   "source": "own post: Ginza Six / Japan trip, via Mac"
   }
  ],
  "candidates": [],
@@ -683,7 +718,10 @@
   "a_girlwhotravels",
   "brittanygoood",
   "fitnessfood.cammie",
-  "lettucebethejudge"
+  "lettucebethejudge",
+  "the_real_catherinelouise",
+  "fernamii",
+  "devy_lestary"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -759,7 +797,8 @@
   "2026-11-02: 'comment X to get DM' posts give fresh planners but ~80% private accounts; itinerary posts with organic questions give more public accounts. Cloud scheduled runs can't reach Chrome; manual runs from the main session on Mac work.",
   "2026-11-02 21:20 run: food 'Spots please' comments on Japan food reels gave the best public-account hit rate (4/6). Itinerary-post commenters are mostly 10k+ creators (pods).",
   "2026-11-03 06:20 run: +7. Good sources: food.vince Tokyo eats (DfDn5twGbW9), japan.munching ramen (DfMV1QYqosU), shaniceswank Japan food (DeHHJZMNU8k). ~45% of food-post commenters are private.",
-  "2026-11-03 21:20 run: +5 only; 16 private. 'Locals' comment-to-get posts are ~85% private. Business regex may be over-matching personal vloggers with links (v7.nils, cliveeariss, sarahlange__) - review. No own Japan-trip posts among new follows -> no comment drafts."
+  "2026-11-03 21:20 run: +5 only; 16 private. 'Locals' comment-to-get posts are ~85% private. Business regex may be over-matching personal vloggers with links (v7.nils, cliveeariss, sarahlange__) - review. No own Japan-trip posts among new follows -> no comment drafts.",
+  "2026-11-04 06:20 run: +5. Searching keyword 'asakusa trip' / 'ueno tokyo' and following the AUTHORS (travelers posting their own trip) gives public accounts and own-post comment chances. Stopped early: warn flag fired on sukmaa._w (likely false positive from page text; no block dialog seen). warn regex tightened."
  ],
  "dm_log": [
   {
@@ -776,7 +815,11 @@
   "joannarescorla",
   "v7.nils",
   "cliveeariss",
-  "sarahlange__"
+  "sarahlange__",
+  "patriciarazoo",
+  "fernandopachecoarte",
+  "nishiv_",
+  "nasaa__m"
  ],
  "comment_queue": [
   {
@@ -796,6 +839,22 @@
    "text": "@lanarocha You'll eat well! Easy wins when kids get hungry: konbini (7-Eleven, Lawson, FamilyMart) are on almost every corner with onigiri and sandwiches, department-store food floors (depachika) sell ready meals, and family restaurants like Gusto or Jonathan's have kids' menus. One heads-up: some tiny counter shops don't allow small kids, so keep a backup nearby 🐕",
    "sources": [
     "general knowledge; chains' kids menus"
+   ]
+  },
+  {
+   "post": "francescorapaccioni latest (Asakusa)",
+   "status": "awaiting_yu",
+   "text": "Lovely shots! If you're still in Tokyo: the main hall closes at 5pm, but the grounds stay open and the temple is lit up after sunset (until around 11pm), so it's much quieter at night 🏮",
+   "sources": [
+    "japanjourneys.jp Sensoji at night"
+   ]
+  },
+  {
+   "post": "heyitsmiacastro DfQIZw2uZ1H (Japan day 3, Akihabara)",
+   "status": "awaiting_yu",
+   "text": "Your Akihabara day looks so fun! If you're there on a Sunday: Chuo-dori becomes a car-free pedestrian zone from 1-5pm (Oct-Mar, cancelled in bad weather) 🐕",
+   "sources": [
+    "akiba.or.jp/wp_en/pedestrianzone"
    ]
   }
  ]
