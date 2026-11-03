@@ -1,5 +1,5 @@
 {
- "rules": "Yu 11/1: <=75 follow actions per JST day, <=30 per 3h, public accounts only, like 1 post per followed account; run JST 4-11 and 18-25 only",
+ "rules": "Yu 11/1: <=75 follow actions per JST day, <=30 per 3h, public accounts only, like 1 post per followed account; run JST 4-11 and 18-25 only\n2026-11-03 Yu: comments allowed. Flow: when a commenter asks a question answerable with checked facts (location, station, closed days, price from official/public sources), draft a reply in English, send the exact text to Yu, post only after Yu OKs that text. No self-promo/link-in-bio pitch in comments. Skip if the fact can't be verified.",
  "log": [
   {
    "user": "andie_pay",
@@ -722,5 +722,26 @@
   "paulapatricola",
   "ellebeemme",
   "joannarescorla"
+ ],
+ "comment_queue": [
+  {
+   "post": "https://www.instagram.com/p/DfMV1QYqosU/",
+   "reply_to": "carmenuyamane",
+   "status": "awaiting_yu",
+   "text": "@carmenuyamane It's Ebimaru Ramen in Nishi-Kanda, about a 4-min walk from Jimbocho Station (exit A4) or Suidobashi Station (east exit). They can be closed on Mondays, so check before you go 🦞",
+   "sources": [
+    "visit-chiyoda.tokyo spot 797",
+    "timeout.com/tokyo/restaurants/ebimaru-ramen"
+   ]
+  },
+  {
+   "post": "https://www.instagram.com/p/DfDn5twGbW9/",
+   "reply_to": "lanarocha",
+   "status": "awaiting_yu",
+   "text": "@lanarocha You'll eat well! Easy wins when kids get hungry: konbini (7-Eleven, Lawson, FamilyMart) are on almost every corner with onigiri and sandwiches, department-store food floors (depachika) sell ready meals, and family restaurants like Gusto or Jonathan's have kids' menus. One heads-up: some tiny counter shops don't allow small kids, so keep a backup nearby 🐕",
+   "sources": [
+    "general knowledge; chains' kids menus"
+   ]
+  }
  ]
 }
