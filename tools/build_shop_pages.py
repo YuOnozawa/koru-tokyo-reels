@@ -286,7 +286,7 @@ def index_page(by_area, slugs):
     body = ('<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>TOKYO FOOD</b> ▸ 東京めし</div>'
             '<article class="ticket"><div class="kicker">食券 · SHOP LIST</div><h1>Where to eat around Akihabara, Ueno &amp; Asakusa</h1>'
             '<p style="margin:8px 0 0">Facts only: what to order, hours, closed days and how to pay. <b>PICK</b> = Yu\'s own picks.</p>'
-            '<div class="areas">%s</div></article>'
+            '<div class="areas">%s</div><p style="margin:10px 0 0"><a href="../find/">Open on Sunday, late night, breakfast, cards OK →</a></p></article>'
             '<div class="btns"><a class="btn primary" href="../planner/">Plan my Tokyo meals free 🎫</a></div></div>%s') % (chips, ''.join(secs))
     ld = {'@context': 'https://schema.org', '@type': 'ItemList', 'name': 'Tokyo food shops',
           'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': '%s/shops/%s/' % (BASE, slugs[id(s)])}
@@ -306,6 +306,89 @@ def write_csv(S, root):
                    + [' / '.join(l for _, l in house_rules(s)), '%s/shops/%s/' % (BASE, slugify(s['name_en']))])
     os.makedirs(os.path.join(root, 'data'), exist_ok=True)
     open(os.path.join(root, 'data', 'shops.csv'), 'w', encoding='utf-8').write(out.getvalue())
+
+
+# ---------- search-intent pages: /find/<intent>-<area>/ (answers what travelers actually google) ----------
+GROUP_NAME = OrderedDict([('akiba', ('Akihabara', 'Akihabara & Suehirocho')), ('ueno', ('Ueno', 'Ueno, Okachimachi & Yushima')),
+                          ('asakusa', ('Asakusa', 'Asakusa & Kuramae')), ('kanda', ('Kanda', 'Kanda, Jimbocho & Ochanomizu')),
+                          ('all', ('East Tokyo', 'Akihabara, Ueno, Asakusa & Kanda'))])
+
+def _mins(h, m): return int(h) * 60 + int(m)
+def first_open(s):
+    m = re.search(r'(\d{1,2}):(\d{2})', s.get('hours') or ''); return _mins(*m.groups()) if m else None
+def last_close(s):
+    xs = re.findall(r'-\s*(\d{1,2}):(\d{2})', s.get('hours') or '')
+    return max(_mins(a, b) + (1440 if int(a) < 6 else 0) for a, b in xs) if xs else None
+def open_sunday(s):
+    c = (s.get('closed_days') or '').lower(); h = (s.get('hours') or '').lower()
+    if not known(s.get('closed_days')) and 'daily' not in h: return False
+    if 'sunday' in c or re.search(r'\bsun\b', c): return False
+    if 'sun' in h or 'daily' in h or 'every day' in h: return True
+    return not re.search(r'\b(mon|tue|wed|thu|fri|sat|weekday)', h)
+def rule_labels(s): return [l for _, l in house_rules(s)]
+def cheap_lunch(s):
+    v = str(s.get('lunch_price_yen') or '').lower()
+    if 'under 1000' in v or 'up to 1000' in v: return True
+    m = re.search(r'(\d{3,5})', v.replace(',', '')); return bool(m) and int(m.group(1)) <= 1000
+INTENTS = [
+    ('open-sunday', 'Restaurants open on Sunday', 'open on Sundays', open_sunday, 'Many small Tokyo shops close on Sundays. These list Sunday hours.'),
+    ('late-night', 'Late-night food (open till 10pm+)', 'open until 10pm or later', lambda s: (last_close(s) or 0) >= 22 * 60, 'Places that list closing at 10pm or later. Last orders are usually 30-60 min before closing.'),
+    ('breakfast', 'Breakfast spots (open by 9am)', 'open by 9am', lambda s: (first_open(s) or 999) <= 9 * 60, 'Most Tokyo restaurants open around 11. These open by 9am on at least some days.'),
+    ('cards-ok', 'Restaurants that take cards', 'that take cards', lambda s: 'Cards OK' in rule_labels(s), 'Many small shops are cash only. These list card payment.'),
+    ('cheap-lunch', 'Lunch under ¥1,000', 'with lunch under ¥1,000', cheap_lunch, 'Lunch at or under about ¥1,000, from listed prices. Prices change, check on the day.'),
+    ('english-menu', 'Restaurants with an English menu', 'with an English menu', lambda s: str(s.get('english_menu')).lower() in ('true', 'yes'), 'Places listed as having an English menu.'),
+    ('no-booking', 'Walk-in friendly: no booking needed', 'where you can just walk in', lambda s: 'No booking needed' in rule_labels(s), 'Places that list no reservations needed or taken, so you can just show up.'),
+]
+
+def intent_row(s, slug):
+    bits = [e(s['area']) + ' · ' + e(s.get('genre') or '')]
+    if known(s.get('hours')): bits.append('<b>Hours</b> ' + e(s['hours']))
+    if known(s.get('closed_days')): bits.append('<b>Closed</b> ' + e(s['closed_days']))
+    lp = yen(s.get('lunch_price_yen')); dp = yen(s.get('dinner_price_yen'))
+    if lp or dp: bits.append('<b>Price</b> ' + ' / '.join(x for x in [('lunch ' + lp) if lp else '', ('dinner ' + dp) if dp else ''] if x))
+    if known(s.get('what_to_order')): bits.append('<b>Order</b> ' + e(s['what_to_order'][:140]))
+    return ('<li style="display:block;padding:12px 4px;border-bottom:1px dashed #d9cdb8"><a href="../../shops/%s/" style="font-weight:800">%s</a>%s'
+            '<span style="color:#9aa3ad"> %s</span><div style="font-size:14px;line-height:1.5;margin-top:4px">%s</div></li>') % (
+        slug, e(s['name_en']), '<span class="pill">PICK</span>' if s.get('yu_pick') else '', e(s.get('name_ja') or ''), '<br>'.join(bits))
+
+def intent_pages(shops, slugs, root):
+    out = os.path.join(root, 'site', 'find')
+    if os.path.isdir(out): shutil.rmtree(out)
+    os.makedirs(out); made = []
+    import datetime as _dt
+    _c = max(s.get('checked', '') for s in shops)[:7]; checked = _dt.date(int(_c[:4]), int(_c[5:7]), 1).strftime('%b %Y')
+    for key, h1, phrase, fn, note in INTENTS:
+        for g, (short, long_) in GROUP_NAME.items():
+            lst = [s for s in shops if fn(s) and (g == 'all' or GROUP.get(s['area']) == g)]
+            if len(lst) < 4 or (g == 'all' and key not in ('english-menu', 'breakfast', 'late-night', 'open-sunday', 'cards-ok')): continue
+            lst.sort(key=lambda s: (not s.get('yu_pick'), AREA_ORDER.index(s['area']) if s['area'] in AREA_ORDER else 99, s['name_en'].lower()))
+            slug = '%s-%s' % (key, 'east-tokyo' if g == 'all' else short.lower())
+            near = 'in' if g == 'all' else 'near'
+            title = '%s %s %s – %d places, checked %s | Tokyo Food Ticket Machine' % (h1, near, short, len(lst), checked)
+            desc = '%d restaurants and cafes in %s %s, with hours, closed days, prices and what to order. Facts from public sources, free meal planner included.' % (len(lst), long_, phrase)
+            other = ''.join('<a href="../%s-%s/">%s</a>' % (key, 'east-tokyo' if gg == 'all' else GROUP_NAME[gg][0].lower(), e(GROUP_NAME[gg][0]))
+                            for gg in GROUP_NAME if gg != g)
+            body = ('<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>TOKYO FOOD</b> ▸ 東京めし</div>'
+                    '<article class="ticket"><div class="kicker">食券 · %s</div><h1>%s %s %s</h1>'
+                    '<p style="margin:8px 0 0">%d places in %s %s. %s Checked %s; hours change, so check Google Maps on the day. <b>PICK</b> = Yu\'s own picks.</p>'
+                    '<div class="areas">%s</div></article>'
+                    '<div class="btns"><a class="btn primary" href="../../planner/">Plan my Tokyo meals free 🎫</a></div></div>'
+                    '<ul class="list" style="list-style:none;padding:0">%s</ul>'
+                    '<div class="btns" style="margin-top:18px"><a class="btn primary" href="../../planner/">Plan lunch, sweets &amp; dinner that are all open 🎫</a></div>') % (
+                e(h1.upper()), e(h1), near, e(short), len(lst), e(long_), e(phrase), e(note), e(checked), other, ''.join(intent_row(s, slugs[id(s)]) for s in lst))
+            ld = {'@context': 'https://schema.org', '@type': 'ItemList', 'name': '%s %s %s' % (h1, near, short),
+                  'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': '%s/shops/%s/' % (BASE, slugs[id(s)])} for i, s in enumerate(lst)]}
+            d = os.path.join(out, slug); os.makedirs(d)
+            open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(fix_rel(page(title, desc, '%s/find/%s/' % (BASE, slug), body, ld, prefix='../../'), 2))
+            made.append((slug, h1, near + ' ' + short, len(lst)))
+    links = ''.join('<li><a href="%s/"><span class="n">%s %s</span><span class="m">%d</span></a></li>' % (sl, e(h), e(sh), n) for sl, h, sh, n in made)
+    body = ('<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>TOKYO FOOD</b> ▸ 東京めし</div><article class="ticket"><div class="kicker">食券 · FIND</div>'
+            '<h1>Find food in East Tokyo that is actually open</h1><p style="margin:8px 0 0">Sunday, late night, breakfast, cards, cheap lunch, English menu, walk-in. Facts only.</p></article>'
+            '<div class="btns"><a class="btn primary" href="../planner/">Plan my Tokyo meals free 🎫</a></div></div><ul class="list">%s</ul>') % links
+    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(page('Find open restaurants in Akihabara, Ueno, Asakusa & Kanda | Tokyo Food Ticket Machine',
+        'Restaurants open on Sunday, late at night or for breakfast, that take cards or have English menus, around Akihabara, Ueno, Asakusa and Kanda.',
+        BASE + '/find/', body))
+    return ['find/'] + ['find/%s/' % m[0] for m in made]
 
 
 def main():
@@ -351,11 +434,12 @@ def main():
     with open(os.path.join(ROOT, 'site', 'planner', 'shops.json'), 'w', encoding='utf-8') as f:
         json.dump([dict(s, slug=slugs[id(s)]) for s in shops], f, ensure_ascii=False)
 
+    find_urls = intent_pages(shops, slugs, ROOT)
     lastmod = max(s.get('checked', '') for s in shops) or None
-    urls = ['', 'planner/', 'phrases/', 'tips/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v]
+    urls = ['', 'planner/', 'phrases/', 'tips/', 'privacy/', 'shops/'] + ['shops/%s/' % slugs[id(s)] for v in by_area.values() for s in v] + find_urls
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
-        sm.append('  <url><loc>%s/%s</loc>%s</url>' % (BASE, u, '<lastmod>%s</lastmod>' % lastmod if lastmod and u.startswith('shops') else ''))
+        sm.append('  <url><loc>%s/%s</loc>%s</url>' % (BASE, u, '<lastmod>%s</lastmod>' % lastmod if lastmod and u.startswith(('shops', 'find')) else ''))
     sm.append('</urlset>')
     open(os.path.join(ROOT, 'site', 'sitemap.xml'), 'w').write('\n'.join(sm) + '\n')
     open(os.path.join(ROOT, 'site', 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n' % BASE)
