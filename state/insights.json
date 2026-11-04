@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-04T06:34:11.326390+00:00",
+ "fetched_at": "2026-11-04T15:04:30.529058+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 61,
+  "media_count": 62,
   "id": "28241506535529259",
   "followers_count": 4,
-  "follows_count": 73
+  "follows_count": 78
  },
  "media": [
+  {
+   "id": "18234377257324323",
+   "permalink": "https://www.instagram.com/reel/DfUavuyxH-a/",
+   "timestamp": "2026-11-04T12:06:51+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Out of cash in East Tokyo? 4 spots that take cards 💳 Save th",
+   "reach": 4,
+   "views": 5,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1311,
+   "ig_reels_video_view_total_time": 5246
+  },
   {
    "id": "18108393545528700",
    "permalink": "https://www.instagram.com/reel/DfTjobyRiZW/",
    "timestamp": "2026-11-04T04:05:49+0000",
    "media_product_type": "REELS",
    "caption_head": "4 Japanese sweet stops near Ueno & Yushima 🍵 Save this!\n\n1️⃣",
-   "reach": 0,
-   "views": 1,
+   "reach": 93,
+   "views": 102,
    "likes": 0,
    "comments": 0,
-   "saved": 0,
+   "saved": 1,
    "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 0,
-   "ig_reels_video_view_total_time": 0
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3921,
+   "ig_reels_video_view_total_time": 372525
   },
   {
    "id": "17992332171069752",
@@ -32,15 +48,15 @@
    "timestamp": "2026-11-04T01:04:48+0000",
    "media_product_type": "REELS",
    "caption_head": "Ueno under ¥1,000: 4 picks 🍣 Save this!\n\n1️⃣ Minatoya (Ameyo",
-   "reach": 112,
-   "views": 127,
+   "reach": 114,
+   "views": 128,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2843,
-   "ig_reels_video_view_total_time": 326961
+   "ig_reels_avg_watch_time": 2785,
+   "ig_reels_video_view_total_time": 331452
   },
   {
    "id": "18343044943262815",
@@ -48,15 +64,15 @@
    "timestamp": "2026-11-04T00:42:57+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo ginkgo watch 🍂 Akihabara, Nov 4: still green\n\nThe Japa",
-   "reach": 68,
-   "views": 84,
-   "likes": 0,
+   "reach": 103,
+   "views": 122,
+   "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3979,
-   "ig_reels_video_view_total_time": 270632
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4891,
+   "ig_reels_video_view_total_time": 508719
   },
   {
    "id": "17939880090124617",
@@ -64,15 +80,15 @@
    "timestamp": "2026-11-03T22:06:34+0000",
    "media_product_type": "REELS",
    "caption_head": "4 Asakusa sweets under ¥1,000 🍡 Save this for your temple da",
-   "reach": 24,
-   "views": 27,
+   "reach": 58,
+   "views": 63,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2071,
-   "ig_reels_video_view_total_time": 49708
+   "ig_reels_avg_watch_time": 3444,
+   "ig_reels_video_view_total_time": 192890
   },
   {
    "id": "18652710214050875",
@@ -80,15 +96,15 @@
    "timestamp": "2026-11-03T19:06:11+0000",
    "media_product_type": "REELS",
    "caption_head": "Sunday in Akihabara? 4 ramen spots open every day 🍜 Save thi",
-   "reach": 53,
-   "views": 58,
+   "reach": 57,
+   "views": 62,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1916,
-   "ig_reels_video_view_total_time": 103478
+   "ig_reels_avg_watch_time": 2057,
+   "ig_reels_video_view_total_time": 121371
   },
   {
    "id": "18030749429693064",
@@ -96,15 +112,15 @@
    "timestamp": "2026-11-03T15:05:42+0000",
    "media_product_type": "REELS",
    "caption_head": "4 retro coffee houses in Jimbocho ☕ Save this!\n\n1️⃣ Cafe Tro",
-   "reach": 32,
-   "views": 35,
+   "reach": 43,
+   "views": 47,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2073,
-   "ig_reels_video_view_total_time": 68412
+   "ig_reels_avg_watch_time": 2301,
+   "ig_reels_video_view_total_time": 103575
   },
   {
    "id": "18359000203219453",
@@ -112,15 +128,15 @@
    "timestamp": "2026-11-03T12:06:47+0000",
    "media_product_type": "REELS",
    "caption_head": "One splurge near Akihabara: grilled eel at Myojinshita Kanda",
-   "reach": 49,
-   "views": 50,
+   "reach": 54,
+   "views": 56,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2769,
-   "ig_reels_video_view_total_time": 135723
+   "ig_reels_avg_watch_time": 2662,
+   "ig_reels_video_view_total_time": 146448
   },
   {
    "id": "17905225704606069",
@@ -151,8 +167,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2927,
-   "ig_reels_video_view_total_time": 292765
+   "ig_reels_avg_watch_time": 2905,
+   "ig_reels_video_view_total_time": 293449
   },
   {
    "id": "18119391691960101",
@@ -215,8 +231,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2591,
-   "ig_reels_video_view_total_time": 230612
+   "ig_reels_avg_watch_time": 2593,
+   "ig_reels_video_view_total_time": 233439
   },
   {
    "id": "18100390088647625",
@@ -793,22 +809,6 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 3560,
    "ig_reels_video_view_total_time": 380993
-  },
-  {
-   "id": "18356965174221847",
-   "permalink": "https://www.instagram.com/reel/DefpryLDzCD/",
-   "timestamp": "2026-10-15T00:17:41+0000",
-   "media_product_type": "REELS",
-   "caption_head": "3 things most tourists miss at conveyor sushi 🍣\n\n1️⃣ The gre",
-   "reach": 102,
-   "views": 116,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5718,
-   "ig_reels_video_view_total_time": 588973
   }
  ]
 }
