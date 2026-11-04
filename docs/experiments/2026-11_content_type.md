@@ -16,3 +16,4 @@ Primary metric: follower delta per JST day (insights dispatched at 00:03 JST). S
 Confound: follow-backs from the follow automation. Keep its daily volume constant; log in state/follows.json.
 Old-format queued reels moved to 11/10+. Review on 11/8.
 Note: 11/4 (day C) also had one extra post, f_02_ginkgo (v3 fast format, ~09:40 JST, posted on Yu's OK because autumn-leaf searches are rising). Count it separately when comparing day C.
+Note: f_03_domannaka (real photos, v3) also posted 11/4 18:00 JST; count separately.
