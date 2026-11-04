@@ -1,0 +1,9 @@
+{
+ "H1": {"hypothesis": "Fast real-footage format (v3, stock video, 1-2 s cuts) keeps people watching longer than text cards (v2)", "A": "v3 stock footage", "B": "v2 text cards", "metric": "comp", "since": "2026-11-06"},
+ "H2": {"hypothesis": "Yu's real photos beat stock footage", "A": "Yu photos", "B": "stock footage", "metric": "comp", "since": "2026-11-04"},
+ "H3": {"hypothesis": "Short loops (<=12 s) get higher completion and reach than 20 s+ reels", "A": "<=12 s", "B": "20 s+", "metric": "comp", "since": "2026-11-08"},
+ "H4": {"hypothesis": "A question as the caption's first line gets more reach than a statement", "A": "question first line", "B": "statement first line", "metric": "reach", "since": "2026-11-06"},
+ "H5": {"hypothesis": "Asking 'which one would you try?' in the caption gets comments", "A": "comment ask", "B": "no ask", "metric": "com", "since": "2026-11-06"},
+ "H6": {"hypothesis": "5 hashtags reach more people than 2", "A": "5 hashtags", "B": "2 hashtags", "metric": "reach", "since": "2026-11-06"},
+ "H7": {"hypothesis": "Posts in the JST morning/midday (US/EU evening) reach more than JST evening posts", "A": "00-13 JST", "B": "16-23 JST", "metric": "reach", "since": "2026-11-02"}
+}

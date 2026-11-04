@@ -1,0 +1,64 @@
+# Hypothesis scoreboard (auto, after each insights run)
+
+completion = avg watch ÷ video length. Verdict needs n≥3 per arm and a ≥30% gap on the hypothesis metric.
+
+## H1 — Fast real-footage format (v3, stock video, 1-2 s cuts) keeps people watching longer than text cards (v2)
+Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+| B | 24 | 87.0 | 10% | 0.2 | 0.0 | 0.0 |
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H2 — Yu's real photos beat stock footage
+Metric: **comp** · A = Yu photos · B = stock footage · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+| A | 2 | 106.0 | 21% | 0.0 | 0.0 | 1.0 |
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H3 — Short loops (<=12 s) get higher completion and reach than 20 s+ reels
+Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H4 — A question as the caption's first line gets more reach than a statement
+Metric: **reach** · A = question first line · B = statement first line · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H5 — Asking 'which one would you try?' in the caption gets comments
+Metric: **com** · A = comment ask · B = no ask · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H6 — 5 hashtags reach more people than 2
+Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H7 — Posts in the JST morning/midday (US/EU evening) reach more than JST evening posts
+Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+| A | 30 | 98.8 | 13% | 0.2 | 0.0 | 0.1 |
+| B | 20 | 103.8 | 291% | 0.2 | 0.0 | 0.2 |
+
+**Suggested verdict:** no clear difference yet
+
