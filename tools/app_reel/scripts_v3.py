@@ -27,3 +27,12 @@ V3['f_03_domannaka'] = {'speed': 1.2, 'beats': [
   {'say': "Book online. About six to eight thousand yen a person. Closed Mondays.", 'photo': D + 'highball.jpg', 'focus': (.5, .45), 'tag': 'DOMANNAKA AKIHABARA BETTEI', 'big': 'BOOK\nAHEAD', 'hl': 1, 'chips': ['~¥6,000-8,000 (Tabelog avg)', 'closed Mon · 15:00-23:00', 'cards & PayPay OK'], 'min': 2.6, 'note': 'Photos: Yu · check hours on the day'},
   {'say': "Send this to your fish-loving friend. Hours and closed days are free in my bio.", 'photo': D + 'sashimi.jpg', 'focus': (.35, .5), 'big': 'SEND THIS TO\nYOUR FISH FRIEND', 'hl': 1, 'koru': 'Fish time!', 'min': 2.4},
 ]}
+SV = '/home/claude/render/stockv/mixkit_'
+MK = 'Footage: Mixkit (free license)'
+V3['f_04_local_moves'] = {'speed': 1.2, 'beats': [
+  {'say': "Eat like a local in Tokyo. Three moves.", 'video': SV + '4447.mp4', 'vstart': 3, 'tag': 'TOKYO FOOD', 'big': '3 LOCAL\nMOVES', 'hl': 1, 'size': 170, 'min': 1.6, 'note': MK},
+  {'say': "One. Slurp your noodles. It's normal here, and it cools them down.", 'video': SV + '51257.mp4', 'vstart': 2, 'tag': '1 / 3', 'big': 'SLURP\nIT', 'hl': 0, 'note': MK},
+  {'say': "Two. Dip sushi lightly, so the rice doesn't soak up the soy sauce.", 'video': SV + '45949.mp4', 'vstart': 0, 'tag': '2 / 3', 'big': 'DIP\nLIGHTLY', 'hl': 0, 'note': MK},
+  {'say': "Three. Can't read the menu? Point and say, {kore onegaishimasu|koɾɛ oʊnɛɡɑiʃimɑs}.", 'video': SV + '45915.mp4', 'vstart': 0, 'tag': '3 / 3', 'big': 'POINT +\nKORE!', 'hl': 1, 'chips': ['これお願いします', 'this one, please'], 'note': MK},
+  {'say': "Follow for one Tokyo tip a day, and your trip just works.", 'video': SV + '4109.mp4', 'vstart': 5, 'big': 'FOLLOW FOR\n1 TIP A DAY', 'hl': 1, 'koru': 'See you!', 'min': 2.4, 'note': MK},
+]}

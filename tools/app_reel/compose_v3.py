@@ -62,7 +62,23 @@ def photo(name):
         s = max(W / im.width, H / im.height) * 1.25; im = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
         cache[name] = im
     return cache[name]
+vcache = {}
+def vframes(b):
+    key = (b['video'], b.get('vstart', 0), round(b['dur'], 2))
+    if key not in vcache:
+        d = f"{TMP}/v{len(vcache)}"; os.makedirs(d, exist_ok=True)
+        cw, ch = int(W * 1.12), int(H * 1.12)
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(b.get('vstart', 0)), '-t', f"{b['dur'] + .2:.2f}", '-i', b['video'],
+                        '-vf', f'scale={cw}:{ch}:force_original_aspect_ratio=increase,crop={cw}:{ch},fps={FPS}', '-q:v', '3', f'{d}/%04d.jpg'], check=True)
+        vcache[key] = sorted(os.path.join(d, f) for f in os.listdir(d))
+    return vcache[key]
 def frame_bg(b, lt):
+    if b.get('video'):
+        fs = vframes(b); im = Image.open(fs[min(len(fs) - 1, int(lt * FPS))]).convert('RGB')
+        z = 1.0 + 0.10 * max(0, 1 - lt / .2) ** 2; cw, ch = im.width / 1.12 / z * 1.0, im.height / 1.12 / z
+        x0, y0 = (im.width - cw) / 2, (im.height - ch) / 2
+        f = im.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize((W, H), Image.BILINEAR)
+        return Image.blend(f, Image.new('RGB', (W, H), (0, 0, 0)), .22)
     im = photo(b['photo']); z = 1.0 + 0.22 * max(0, 1 - lt / .22) ** 2 + 0.04 * lt   # punch-in then slow push
     cw, ch = min(im.width, W * 1.25 / z), min(im.height, H * 1.25 / z)
     fx, fy = b.get('focus', (.5, .5)); cx, cy = im.width * fx, im.height * fy
@@ -108,7 +124,7 @@ def draw_beat(b, lt, i):
     for ci, c in enumerate(b.get('chips', [])):
         cs = popscale(lt, .3 + .12 * ci)
         if cs <= 0: continue
-        f = pop_(int(54 * cs)); tw = d.textlength(c, font=f); y = 1120 + ci * 108
+        f = (zen if any(ord(ch) > 0x2fff for ch in c) else pop_)(int(54 * cs)); tw = d.textlength(c, font=f); y = 1120 + ci * 108
         d.rounded_rectangle((W / 2 - tw / 2 - 30, y - 44, W / 2 + tw / 2 + 30, y + 44), 44, fill=(255, 255, 255, 245))
         d.text((W / 2, y), c, font=f, fill=INK, anchor='mm')
     # koru
