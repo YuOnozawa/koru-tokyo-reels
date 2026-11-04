@@ -727,6 +727,20 @@
    "liked": true,
    "at": "2026-11-04T12:40Z",
    "source": "own post: Pokemon card shopping in Akihabara, via Mac"
+  },
+  {
+   "user": "a.ulatifah",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T21:35Z",
+   "source": "own post: Kyoto to Tokyo by Shinkansen, via Mac"
+  },
+  {
+   "user": "howtotravel.nl",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T21:35Z",
+   "source": "own post: Tokyo girls trip; turned out to be a group-trip business (filter missed). via Mac"
   }
  ],
  "candidates": [],
@@ -757,7 +771,10 @@
   "the_real_catherinelouise",
   "fernamii",
   "devy_lestary",
-  "irungracepace"
+  "irungracepace",
+  "micdoesthings",
+  "misstaylorrosze",
+  "anfisabelarus"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -835,7 +852,8 @@
   "2026-11-03 06:20 run: +7. Good sources: food.vince Tokyo eats (DfDn5twGbW9), japan.munching ramen (DfMV1QYqosU), shaniceswank Japan food (DeHHJZMNU8k). ~45% of food-post commenters are private.",
   "2026-11-03 21:20 run: +5 only; 16 private. 'Locals' comment-to-get posts are ~85% private. Business regex may be over-matching personal vloggers with links (v7.nils, cliveeariss, sarahlange__) - review. No own Japan-trip posts among new follows -> no comment drafts.",
   "2026-11-04 06:20 run: +5. Searching keyword 'asakusa trip' / 'ueno tokyo' and following the AUTHORS (travelers posting their own trip) gives public accounts and own-post comment chances. Stopped early: warn flag fired on sukmaa._w (likely false positive from page text; no block dialog seen). warn regex tightened.",
-  "2026-11-04 21:20 run: +5 (keyword 'asakusa food', 'akihabara', 'ueno park' post authors). Business filter (.com/.co in bio) skips many personal travelers; consider loosening."
+  "2026-11-04 21:20 run: +5 (keyword 'asakusa food', 'akihabara', 'ueno park' post authors). Business filter (.com/.co in bio) skips many personal travelers; consider loosening.",
+  "2026-11-05 06:20 run: only +2; keyword search pool is thin in the early morning and many candidates are 10k+ or flagged business. Added 'groepsreis|group trip' to business words (howtotravel.nl slipped through). Next: try 'japan itinerary' comment askers + 'tokyo first time' authors."
  ],
  "dm_log": [
   {
@@ -860,7 +878,9 @@
   "neo.sapio.nomad",
   "keirabug",
   "kathly.b",
-  "diaryofacreator_"
+  "diaryofacreator_",
+  "chan_smey12",
+  "sari.okami"
  ],
  "comment_queue": [
   {
