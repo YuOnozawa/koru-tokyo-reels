@@ -692,6 +692,41 @@
    "liked": true,
    "at": "2026-11-03T21:40Z",
    "source": "own post: Ginza Six / Japan trip, via Mac"
+  },
+  {
+   "user": "_adelinepereira",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T12:40Z",
+   "source": "own post: Asakusa food, via Mac"
+  },
+  {
+   "user": "g0ldf13h",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T12:40Z",
+   "source": "own post: wagyu rice box in Japan, via Mac"
+  },
+  {
+   "user": "charinaka09",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T12:40Z",
+   "source": "own post: unagi in Asakusa, via Mac"
+  },
+  {
+   "user": "sundfhs_kunstfoto",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T12:40Z",
+   "source": "own post: Tokyo trip, Akihabara day, via Mac"
+  },
+  {
+   "user": "zeljkocollects",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-04T12:40Z",
+   "source": "own post: Pokemon card shopping in Akihabara, via Mac"
   }
  ],
  "candidates": [],
@@ -721,7 +756,8 @@
   "lettucebethejudge",
   "the_real_catherinelouise",
   "fernamii",
-  "devy_lestary"
+  "devy_lestary",
+  "irungracepace"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -798,7 +834,8 @@
   "2026-11-02 21:20 run: food 'Spots please' comments on Japan food reels gave the best public-account hit rate (4/6). Itinerary-post commenters are mostly 10k+ creators (pods).",
   "2026-11-03 06:20 run: +7. Good sources: food.vince Tokyo eats (DfDn5twGbW9), japan.munching ramen (DfMV1QYqosU), shaniceswank Japan food (DeHHJZMNU8k). ~45% of food-post commenters are private.",
   "2026-11-03 21:20 run: +5 only; 16 private. 'Locals' comment-to-get posts are ~85% private. Business regex may be over-matching personal vloggers with links (v7.nils, cliveeariss, sarahlange__) - review. No own Japan-trip posts among new follows -> no comment drafts.",
-  "2026-11-04 06:20 run: +5. Searching keyword 'asakusa trip' / 'ueno tokyo' and following the AUTHORS (travelers posting their own trip) gives public accounts and own-post comment chances. Stopped early: warn flag fired on sukmaa._w (likely false positive from page text; no block dialog seen). warn regex tightened."
+  "2026-11-04 06:20 run: +5. Searching keyword 'asakusa trip' / 'ueno tokyo' and following the AUTHORS (travelers posting their own trip) gives public accounts and own-post comment chances. Stopped early: warn flag fired on sukmaa._w (likely false positive from page text; no block dialog seen). warn regex tightened.",
+  "2026-11-04 21:20 run: +5 (keyword 'asakusa food', 'akihabara', 'ueno park' post authors). Business filter (.com/.co in bio) skips many personal travelers; consider loosening."
  ],
  "dm_log": [
   {
@@ -819,7 +856,11 @@
   "patriciarazoo",
   "fernandopachecoarte",
   "nishiv_",
-  "nasaa__m"
+  "nasaa__m",
+  "neo.sapio.nomad",
+  "keirabug",
+  "kathly.b",
+  "diaryofacreator_"
  ],
  "comment_queue": [
   {
@@ -853,6 +894,14 @@
    "post": "heyitsmiacastro DfQIZw2uZ1H (Japan day 3, Akihabara)",
    "status": "awaiting_yu",
    "text": "Your Akihabara day looks so fun! If you're there on a Sunday: Chuo-dori becomes a car-free pedestrian zone from 1-5pm (Oct-Mar, cancelled in bad weather) 🐕",
+   "sources": [
+    "akiba.or.jp/wp_en/pedestrianzone"
+   ]
+  },
+  {
+   "post": "sundfhs_kunstfoto DfUBvG9Pj9T (Tokyo Jetlag Club, Akihabara day)",
+   "status": "awaiting_yu",
+   "text": "Love the Akihabara day! If you're there on a Sunday: Chuo-dori becomes a car-free pedestrian zone from 1-5pm (Oct-Mar, cancelled in bad weather) 🐕",
    "sources": [
     "akiba.or.jp/wp_en/pedestrianzone"
    ]
