@@ -1,25 +1,31 @@
-name: Fetch stock photos (CC0)
+name: Fetch stock video (Mixkit free license)
 on:
   workflow_dispatch:
     inputs:
-      queries:
-        description: 'queries separated by |'
+      ids:
+        description: 'space-separated Mixkit video ids'
         required: true
 permissions:
   contents: write
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - run: pip install pillow
-      - env:
-          Q: ${{ github.event.inputs.queries }}
+      - name: Download and store in release 'stock-video'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IDS: ${{ github.event.inputs.ids }}
         run: |
-          IFS='|' read -ra ARR <<< "$Q"
-          python tools/fetch_stock.py "${ARR[@]}"
-      - run: |
-          git config user.name "koru-bot"; git config user.email "koru-bot@users.noreply.github.com"
-          git add stock
-          git diff --cached --quiet || (git commit -m "stock: fetch" && git pull --rebase && git push)
+          set -u; R=${{ github.repository }}; mkdir v; cd v
+          gh release view stock-video -R "$R" >/dev/null 2>&1 || gh release create stock-video -R "$R" -t stock-video -n "Mixkit free-license stock clips (https://mixkit.co/license/#videoFree). Do not redistribute standalone." --latest=false
+          ok=""; bad=""
+          for id in $IDS; do
+            got=""
+            for r in 1080 720 360; do
+              if curl -fsSL -A "Mozilla/5.0" -o "mixkit_${id}.mp4" "https://assets.mixkit.co/videos/${id}/${id}-${r}.mp4"; then got=$r; break; fi
+            done
+            if [ -n "$got" ]; then ok="$ok ${id}@${got}"; else bad="$bad $id"; rm -f "mixkit_${id}.mp4"; fi
+          done
+          ls mixkit_*.mp4 >/dev/null 2>&1 && gh release upload stock-video mixkit_*.mp4 -R "$R" --clobber
+          echo "::notice::ok:${ok}"
+          [ -z "$bad" ] || echo "::warning::failed:${bad}"
