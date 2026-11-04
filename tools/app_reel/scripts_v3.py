@@ -12,7 +12,7 @@ V3['f_01_soba'] = {'n': 4, 'speed': 1.22, 'beats': [
 Y = '/home/claude/koru-tokyo-reels/stock/yu/'
 V3['f_02_ginkgo'] = {'speed': 1.18, 'beats': [
   {'say': "{Akihabara|ɑkihɑbɑɾɑ}, November fourth. The ginkgo trees are still green.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.45, .3), 'tag': 'NOV 4 · AKIHABARA', 'big': 'TOKYO GINKGO:\nSTILL GREEN', 'hl': 1, 'min': 2.0, 'note': 'Photo: Yu, Nov 4 2026'},
-  {'say': "My morning, almost every day. Iced coffee on the walk to work.", 'photo': Y + 'yu_coffee_20261104.jpg', 'focus': (.45, .55), 'tag': "YU'S MORNING", 'big': 'ICED COFFEE,\nALMOST DAILY', 'hl': 0, 'min': 1.8, 'note': 'Photo: Yu'},
+  {'say': "My morning, almost every day. Iced coffee on the walk to work.", 'photo': Y + 'yu_coffee_20261104.jpg', 'focus': (.45, .6), 'tag': "YU'S MORNING", 'big': 'ICED COFFEE,\nALMOST DAILY', 'hl': 0, 'min': 1.8, 'note': 'Photo: Yu'},
   {'say': "The forecast says Tokyo's ginkgo turns yellow around November twenty-sixth.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.35, .2), 'tag': 'FORECAST', 'big': 'YELLOW AROUND\nNOV 26', 'hl': 1, 'chips': ['ginkgo ~Nov 26', 'maple ~Nov 28'], 'note': 'Forecast: Japan Meteorological Corp. (via Time Out Tokyo)'},
   {'say': "I walk past this every day. Follow, and I'll show you when it turns.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.55, .5), 'big': 'FOLLOW &\nWATCH IT TURN', 'hl': 1, 'koru': 'Wait for it!', 'min': 2.4},
 ]}
