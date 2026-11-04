@@ -1,0 +1,18 @@
+NOTE = 'Photos: similar dishes, not these shops'
+V3 = {}
+V3['f_01_soba'] = {'n': 4, 'speed': 1.22, 'beats': [
+  {'say': "Soba for five hundred ten yen. At six a.m.", 'photo': 'soba_noodles_0.jpg', 'big': 'SOBA ¥510\nAT 6AM', 'hl': 0, 'size': 170, 'min': 1.6, 'note': NOTE},
+  {'say': "Four standing soba spots by {Akihabara|ɑkihɑbɑɾɑ}. Save this.", 'photo': 'tokyo_alley_restaurant_0.jpg', 'tag': 'SAVE THIS', 'big': '4 STANDING\nSOBA SPOTS', 'hl': 1, 'min': 1.5},
+  {'say': "{Minogasa|minoʊɡɑsɑ}. House-made noodles, from six.", 'photo': 'tempura_0.jpg', 'idx': 1, 'tag': '1 · MINOGASA', 'big': 'KAKIAGE\nSOBA', 'chips': ['¥510 (2025)', 'opens 6:00'], 'note': NOTE},
+  {'say': "Shin {Tagoto|tɑɡoʊtoʊ}. Six to eleven, every day.", 'photo': 'japanese_curry_rice_1.jpg', 'idx': 2, 'tag': '2 · SHIN-TAGOTO', 'big': 'OPEN\n6AM-11PM', 'chips': ['soba or steak curry', 'no cards'], 'note': NOTE},
+  {'say': "{Futaba|ɸutɑbɑ}. Tempura and egg soba. Daytime only.", 'photo': 'tempura_1.jpg', 'idx': 3, 'tag': '3 · FUTABA', 'big': 'TEMPURA\n+ EGG', 'chips': ['7:30-17:00', 'closed Sun'], 'note': NOTE},
+  {'say': "{Kawaichi|kɑwɑitʃi}. Crunchy squid tempura. Cash only.", 'photo': 'soba_noodles_0.jpg', 'focus': (.3, .6), 'idx': 4, 'tag': '4 · KAWAICHI', 'big': 'SQUID\nTEMPURA', 'chips': ['cash only', 'closed Sun'], 'koru': 'CRUNCH!', 'note': NOTE},
+  {'say': "Which one first? Hours and closed days are free in my bio.", 'photo': 'tokyo_alley_restaurant_0.jpg', 'idx': 4, 'big': 'WHICH ONE\nFIRST? 1-4', 'hl': 1, 'koru': 'Comment!', 'min': 2.2},
+]}
+Y = '/home/claude/koru-tokyo-reels/stock/yu/'
+V3['f_02_ginkgo'] = {'speed': 1.18, 'beats': [
+  {'say': "{Akihabara|ɑkihɑbɑɾɑ}, November fourth. The ginkgo trees are still green.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.45, .3), 'tag': 'NOV 4 · AKIHABARA', 'big': 'TOKYO GINKGO:\nSTILL GREEN', 'hl': 1, 'min': 2.0, 'note': 'Photo: Yu, Nov 4 2026'},
+  {'say': "My morning, almost every day. Iced coffee on the walk to work.", 'photo': Y + 'yu_coffee_20261104.jpg', 'focus': (.45, .55), 'tag': "YU'S MORNING", 'big': 'ICED COFFEE,\nALMOST DAILY', 'hl': 0, 'min': 1.8, 'note': 'Photo: Yu'},
+  {'say': "The forecast says Tokyo's ginkgo turns yellow around November twenty-sixth.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.35, .2), 'tag': 'FORECAST', 'big': 'YELLOW AROUND\nNOV 26', 'hl': 1, 'chips': ['ginkgo ~Nov 26', 'maple ~Nov 28'], 'note': 'Forecast: Japan Meteorological Corp. (via Time Out Tokyo)'},
+  {'say': "I walk past this every day. Follow, and I'll show you when it turns.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.55, .5), 'big': 'FOLLOW &\nWATCH IT TURN', 'hl': 1, 'koru': 'Wait for it!', 'min': 2.4},
+]}
