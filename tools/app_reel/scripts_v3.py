@@ -16,3 +16,14 @@ V3['f_02_ginkgo'] = {'speed': 1.18, 'beats': [
   {'say': "The forecast says Tokyo's ginkgo turns yellow around November twenty-sixth.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.35, .2), 'tag': 'FORECAST', 'big': 'YELLOW AROUND\nNOV 26', 'hl': 1, 'chips': ['ginkgo ~Nov 26', 'maple ~Nov 28'], 'note': 'Forecast: Japan Meteorological Corp. (via Time Out Tokyo)'},
   {'say': "I walk past this every day. Follow, and I'll show you when it turns.", 'photo': Y + 'yu_ginkgo_akiba_20261104.jpg', 'focus': (.55, .5), 'big': 'FOLLOW &\nWATCH IT TURN', 'hl': 1, 'koru': 'Wait for it!', 'min': 2.4},
 ]}
+D = Y + 'domannaka_'
+V3['f_03_domannaka'] = {'speed': 1.2, 'beats': [
+  {'say': "One minute from {Akihabara|ɑkihɑbɑɾɑ} station, hidden in a basement. Fresh fish, Yu's pick.", 'photo': D + 'sashimi.jpg', 'focus': (.5, .55), 'tag': "YU'S PICK · AKIHABARA", 'big': 'SASHIMI\nON ICE', 'hl': 1, 'size': 170, 'min': 1.8, 'note': 'Photos: Yu, Nov 2026'},
+  {'say': "Sea urchin hand roll, with caviar.", 'photo': D + 'uni.jpg', 'focus': (.5, .45), 'big': 'UNI\n+ CAVIAR', 'hl': 0, 'note': 'Photos: Yu'},
+  {'say': "Fish fry, still rare inside, with the crispy bones.", 'photo': D + 'fishfry.jpg', 'focus': (.55, .5), 'big': 'RARE\nFISH FRY', 'hl': 0, 'note': 'Photos: Yu'},
+  {'say': "{Namerō|nɑmɛɾoʊ}. Chopped raw fish with salmon roe.", 'photo': D + 'namero.jpg', 'focus': (.48, .5), 'big': 'NAMERO', 'chips': ['chopped raw fish', '+ salmon roe'], 'note': 'Photos: Yu'},
+  {'say': "Abalone and mushrooms.", 'photo': D + 'abalone.jpg', 'focus': (.48, .45), 'big': 'ABALONE', 'hl': 0, 'note': 'Photos: Yu'},
+  {'say': "And this crispy tower. Yes, you eat it.", 'photo': D + 'tower.jpg', 'focus': (.5, .4), 'big': 'CRISPY\nTOWER?!', 'hl': 1, 'koru': 'Crunch!', 'note': 'Photos: Yu'},
+  {'say': "Book online. About six to eight thousand yen a person. Closed Mondays.", 'photo': D + 'highball.jpg', 'focus': (.5, .45), 'tag': 'DOMANNAKA AKIHABARA BETTEI', 'big': 'BOOK\nAHEAD', 'hl': 1, 'chips': ['~¥6,000-8,000 (Tabelog avg)', 'closed Mon · 15:00-23:00', 'cards & PayPay OK'], 'min': 2.6, 'note': 'Photos: Yu · check hours on the day'},
+  {'say': "Send this to your fish-loving friend. Hours and closed days are free in my bio.", 'photo': D + 'sashimi.jpg', 'focus': (.35, .5), 'big': 'SEND THIS TO\nYOUR FISH FRIEND', 'hl': 1, 'koru': 'Fish time!', 'min': 2.4},
+]}

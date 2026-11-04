@@ -8190,5 +8190,33 @@
   "kind": "meal",
   "lunch_ok": false,
   "dinner_ok": true
+ },
+ {
+  "name_en": "Domannaka Akihabara Bettei",
+  "name_ja": "どまんなか 秋葉原別邸",
+  "area": "Akihabara",
+  "genre": "Seafood izakaya",
+  "station": "JR Akihabara (Showa-dori Exit)",
+  "walk_min": 2,
+  "hours": "15:00-23:00 per Tabelog (a 2022 opening article listed 16:00-23:00)",
+  "closed_days": "Mondays (except Golden Week); Dec 31-Jan 4",
+  "lunch_price_yen": "n/a",
+  "dinner_price_yen": "6000-8000 (Tabelog average)",
+  "budget_band": "4000+",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "online booking",
+  "what_to_order": "Sashimi platter on ice, sea urchin hand roll with caviar, namero (chopped raw fish) with salmon roe, rare-fried fish with the crispy bones, abalone with mushrooms (Yu's order, Nov 2026)",
+  "tourist_tip": "Basement (B1F) of Ark Bldg, Kanda-Sakumacho, near Showa-dori. Private and semi-private rooms. Non-smoking. Cards (Visa/MC/JCB/Amex/Diners) and PayPay accepted; e-money not accepted. Sister shop of Domannaka Akihabara.",
+  "yu_pick": true,
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1310/A131001/13275740/",
+   "https://retty.me/area/PRE13/ARE11/SUB1102/100001670807/",
+   "https://www.gdm.or.jp/crew/2022/1005/458605"
+  ],
+  "checked": "2026-11-04",
+  "kind": "meal",
+  "lunch_ok": false,
+  "dinner_ok": true
  }
 ]
