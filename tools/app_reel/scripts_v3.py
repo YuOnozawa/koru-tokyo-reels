@@ -20,10 +20,10 @@ D = Y + 'domannaka_'
 V3['f_03_domannaka'] = {'speed': 1.2, 'beats': [
   {'say': "One minute from {Akihabara|ɑkihɑbɑɾɑ} station, hidden in a basement. Fresh fish, Yu's pick.", 'photo': D + 'sashimi.jpg', 'focus': (.5, .55), 'tag': "YU'S PICK · AKIHABARA", 'big': 'SASHIMI\nON ICE', 'hl': 1, 'size': 170, 'min': 1.8, 'note': 'Photos: Yu, Nov 2026'},
   {'say': "Sea urchin hand roll, with caviar.", 'photo': D + 'uni.jpg', 'focus': (.5, .45), 'big': 'UNI\n+ CAVIAR', 'hl': 0, 'note': 'Photos: Yu'},
-  {'say': "Fish fry, still rare inside, with the crispy bones.", 'photo': D + 'fishfry.jpg', 'focus': (.55, .5), 'big': 'RARE\nFISH FRY', 'hl': 0, 'note': 'Photos: Yu'},
+  {'say': "{Aji|ɑdʒi} fry. Horse mackerel, still rare inside, with the crispy bones.", 'photo': D + 'fishfry.jpg', 'focus': (.55, .5), 'big': 'RARE\nAJI FRY', 'hl': 1, 'chips': ['horse mackerel', 'crispy fried bones'], 'note': 'Photos: Yu'},
   {'say': "{Namerō|nɑmɛɾoʊ}. Chopped raw fish with salmon roe.", 'photo': D + 'namero.jpg', 'focus': (.48, .5), 'big': 'NAMERO', 'chips': ['chopped raw fish', '+ salmon roe'], 'note': 'Photos: Yu'},
   {'say': "Abalone and mushrooms.", 'photo': D + 'abalone.jpg', 'focus': (.48, .45), 'big': 'ABALONE', 'hl': 0, 'note': 'Photos: Yu'},
-  {'say': "And this crispy tower. Yes, you eat it.", 'photo': D + 'tower.jpg', 'focus': (.5, .4), 'big': 'CRISPY\nTOWER?!', 'hl': 1, 'koru': 'Crunch!', 'note': 'Photos: Yu'},
+  {'say': "And this tower? It's potato salad, under a crispy topping.", 'photo': D + 'tower.jpg', 'focus': (.5, .4), 'big': 'POTATO SALAD\nTOWER', 'hl': 1, 'koru': 'Crunch!', 'note': 'Photos: Yu'},
   {'say': "Book online. About six to eight thousand yen a person. Closed Mondays.", 'photo': D + 'highball.jpg', 'focus': (.5, .45), 'tag': 'DOMANNAKA AKIHABARA BETTEI', 'big': 'BOOK\nAHEAD', 'hl': 1, 'chips': ['~¥6,000-8,000 (Tabelog avg)', 'closed Mon · 15:00-23:00', 'cards & PayPay OK'], 'min': 2.6, 'note': 'Photos: Yu · check hours on the day'},
   {'say': "Send this to your fish-loving friend. Hours and closed days are free in my bio.", 'photo': D + 'sashimi.jpg', 'focus': (.35, .5), 'big': 'SEND THIS TO\nYOUR FISH FRIEND', 'hl': 1, 'koru': 'Fish time!', 'min': 2.4},
 ]}
