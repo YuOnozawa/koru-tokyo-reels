@@ -845,14 +845,15 @@
  },
  {
   "id": "h_10_smoking",
-  "file": "videos/h_10_smoking.mp4",
+  "file": "videos/h_10_smoking_v3.mp4",
   "publish_at": "2026-11-05T10:00:00+09:00",
-  "caption": "Tokyo hacks #10: some places still allow smoking inside 🚬\n\n10 of the 299 places I checked allow smoking somewhere inside. 7 of them are retro coffee houses (kissaten).\n\n✅ Check before you go if you're with kids or hate smoke\n✅ Ask: 禁煙席ありますか？ (kin-en seki arimasu ka) = any non-smoking seats?\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 290+ East Tokyo spots: link in bio.\n\nVoice and characters made with AI · Counts from the 299 East Tokyo places I checked from public sources (Oct-Nov 2026).\n\n#tokyotravel #japantravel #tokyofood #japantips #tokyotips",
+  "caption": "Tokyo hacks #10: some places still allow smoking inside 🚬\n\n10 of the 299 places I checked allow smoking somewhere inside. 7 of them are retro coffee houses (kissaten).\n\n✅ Check before you go if you're with kids or hate smoke\n✅ Ask: 禁煙席ありますか？ (kin-en seki arimasu ka) = any non-smoking seats?\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 290+ East Tokyo spots: link in bio.\n\nFootage: Mixkit (free license), similar scenes · Voice and characters made with AI · Counts from the 299 East Tokyo places I checked from public sources (Oct-Nov 2026).\n\n#tokyotravel #japantravel #tokyofood #japantips #tokyotips",
   "tests": {
    "H7": "A",
-   "H1": "B"
+   "H1": "A",
+   "H2": "B"
   },
-  "len": 23.5
+  "len": 20.1
  },
  {
   "id": "h_11_otoshi",
