@@ -117,7 +117,20 @@ def cmd_insights():
         out['account'].update(acc)
     except SystemExit as e:
         out['account_error'] = str(e)[:300]
+    # Account-level funnel for the last day (bio link taps = Instagram -> app). Each metric fetched alone so one
+    # unsupported metric doesn't hide the others.
+    daily = {}
+    for metric in ('reach', 'views', 'profile_views', 'profile_links_taps', 'follows_and_unfollows', 'accounts_engaged'):
+        try:
+            r = call('GET', f'{uid}/insights', {'metric': metric, 'period': 'day', 'metric_type': 'total_value'})
+            for d in r.get('data', []):
+                daily[d['name']] = d.get('total_value', {}).get('value', (d.get('values') or [{}])[-1].get('value'))
+        except SystemExit as e:
+            daily[metric + '_error'] = str(e)[:160]
+    out['account_daily'] = daily
     save('state/insights.json', out)
+    ad = load('state/account_daily.json', [])
+    ad.append({'at': out['fetched_at'], **daily}); save('state/account_daily.json', ad)
     hist = load('state/followers_history.json', [])
     hist.append({'at': out['fetched_at'], 'followers': out['account'].get('followers_count')})
     save('state/followers_history.json', hist)
