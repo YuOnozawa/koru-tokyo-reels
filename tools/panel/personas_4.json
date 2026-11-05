@@ -1,0 +1,377 @@
+[
+{
+"id": "P076",
+"from": "Hong Kong/Taiwan",
+"age": "25-34",
+"stage": "dreaming, no dates",
+"party": "family with kids",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "watches food content to the end if it looks tasty",
+"interests": [
+"anime/Akihabara",
+"ramen & cheap eats"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P077",
+"from": "USA",
+"age": "25-34",
+"stage": "dreaming, no dates",
+"party": "family with kids",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"shopping",
+"ramen & cheap eats"
+],
+"japan_familiarity": "been 3+ times"
+},
+{
+"id": "P078",
+"from": "India",
+"age": "18-24",
+"stage": "trip booked 1-6 months out",
+"party": "solo",
+"budget": "tight backpacker",
+"diet": "eats anything",
+"habit": "saves practical tips into a Japan folder",
+"interests": [
+"photography",
+"temples & history"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P079",
+"from": "Italy/Spain",
+"age": "60+",
+"stage": "dreaming, no dates",
+"party": "friends",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "watches food content to the end if it looks tasty",
+"interests": [
+"anime/Akihabara",
+"onsen/sauna & wellness"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P080",
+"from": "USA",
+"age": "25-34",
+"stage": "trip in the next 4 weeks",
+"party": "friends",
+"budget": "tight backpacker",
+"diet": "vegetarian",
+"habit": "sends reels to partner/friends planning the trip",
+"interests": [
+"onsen/sauna & wellness",
+"temples & history"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P081",
+"from": "Germany",
+"age": "45-59",
+"stage": "been before, nostalgic",
+"party": "friends",
+"budget": "tight backpacker",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"photography",
+"cafes & sweets"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P082",
+"from": "Australia",
+"age": "18-24",
+"stage": "been before, nostalgic",
+"party": "couple",
+"budget": "splurge-happy",
+"diet": "eats anything",
+"habit": "saves practical tips into a Japan folder",
+"interests": [
+"ramen & cheap eats",
+"temples & history"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P083",
+"from": "Mexico/Brazil",
+"age": "45-59",
+"stage": "dreaming, no dates",
+"party": "solo",
+"budget": "splurge-happy",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"cafes & sweets",
+"shopping"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P084",
+"from": "India",
+"age": "25-34",
+"stage": "dreaming, no dates",
+"party": "solo",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "comments and asks questions",
+"interests": [
+"shopping",
+"cafes & sweets"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P085",
+"from": "India",
+"age": "18-24",
+"stage": "dreaming, no dates",
+"party": "solo",
+"budget": "tight backpacker",
+"diet": "eats anything",
+"habit": "saves practical tips into a Japan folder",
+"interests": [
+"anime/Akihabara",
+"ramen & cheap eats"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P086",
+"from": "USA",
+"age": "25-34",
+"stage": "dreaming, no dates",
+"party": "solo",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "watches food content to the end if it looks tasty",
+"interests": [
+"cafes & sweets",
+"onsen/sauna & wellness"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P087",
+"from": "Singapore",
+"age": "25-34",
+"stage": "trip in the next 4 weeks",
+"party": "family with kids",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "saves practical tips into a Japan folder",
+"interests": [
+"nightlife & izakaya",
+"cafes & sweets"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P088",
+"from": "Other",
+"age": "25-34",
+"stage": "trip in the next 4 weeks",
+"party": "couple",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "sends reels to partner/friends planning the trip",
+"interests": [
+"anime/Akihabara",
+"ramen & cheap eats"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P089",
+"from": "Singapore",
+"age": "25-34",
+"stage": "been before, nostalgic",
+"party": "friends",
+"budget": "splurge-happy",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"onsen/sauna & wellness",
+"temples & history"
+],
+"japan_familiarity": "been 3+ times"
+},
+{
+"id": "P090",
+"from": "Other",
+"age": "35-44",
+"stage": "lives in Japan (expat)",
+"party": "solo",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "saves practical tips into a Japan folder",
+"interests": [
+"onsen/sauna & wellness",
+"temples & history"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P091",
+"from": "Australia",
+"age": "35-44",
+"stage": "trip booked 1-6 months out",
+"party": "family with kids",
+"budget": "tight backpacker",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"onsen/sauna & wellness",
+"nightlife & izakaya"
+],
+"japan_familiarity": "been 3+ times"
+},
+{
+"id": "P092",
+"from": "Australia",
+"age": "35-44",
+"stage": "dreaming, no dates",
+"party": "couple",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"nightlife & izakaya",
+"ramen & cheap eats"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P093",
+"from": "USA",
+"age": "35-44",
+"stage": "trip in the next 4 weeks",
+"party": "couple",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "sends reels to partner/friends planning the trip",
+"interests": [
+"cafes & sweets",
+"nightlife & izakaya"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P094",
+"from": "Indonesia/Thailand",
+"age": "35-44",
+"stage": "lives in Japan (expat)",
+"party": "friends",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "saves practical tips into a Japan folder",
+"interests": [
+"temples & history",
+"nightlife & izakaya"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P095",
+"from": "France",
+"age": "25-34",
+"stage": "trip in the next 4 weeks",
+"party": "couple",
+"budget": "mid-range",
+"diet": "vegetarian",
+"habit": "sends reels to partner/friends planning the trip",
+"interests": [
+"nightlife & izakaya",
+"cafes & sweets"
+],
+"japan_familiarity": "been once"
+},
+{
+"id": "P096",
+"from": "Netherlands",
+"age": "25-34",
+"stage": "trip booked 1-6 months out",
+"party": "couple",
+"budget": "mid-range",
+"diet": "eats anything",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"nightlife & izakaya",
+"ramen & cheap eats"
+],
+"japan_familiarity": "been 3+ times"
+},
+{
+"id": "P097",
+"from": "Australia",
+"age": "25-34",
+"stage": "trip booked 1-6 months out",
+"party": "couple",
+"budget": "mid-range",
+"diet": "vegetarian",
+"habit": "fast scroller, skips anything slow",
+"interests": [
+"temples & history",
+"onsen/sauna & wellness"
+],
+"japan_familiarity": "been 3+ times"
+},
+{
+"id": "P098",
+"from": "Germany",
+"age": "25-34",
+"stage": "trip booked 1-6 months out",
+"party": "couple",
+"budget": "splurge-happy",
+"diet": "allergy (shellfish/peanut)",
+"habit": "sends reels to partner/friends planning the trip",
+"interests": [
+"cafes & sweets",
+"anime/Akihabara"
+],
+"japan_familiarity": "first-timer"
+},
+{
+"id": "P099",
+"from": "Singapore",
+"age": "25-34",
+"stage": "trip booked 1-6 months out",
+"party": "friends",
+"budget": "splurge-happy",
+"diet": "eats anything",
+"habit": "watches food content to the end if it looks tasty",
+"interests": [
+"temples & history",
+"shopping"
+],
+"japan_familiarity": "been 3+ times"
+},
+{
+"id": "P100",
+"from": "Other",
+"age": "18-24",
+"stage": "been before, nostalgic",
+"party": "couple",
+"budget": "splurge-happy",
+"diet": "eats anything",
+"habit": "sends reels to partner/friends planning the trip",
+"interests": [
+"cafes & sweets",
+"anime/Akihabara"
+],
+"japan_familiarity": "been 3+ times"
+}
+]

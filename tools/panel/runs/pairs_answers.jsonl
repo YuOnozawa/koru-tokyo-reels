@@ -1,0 +1,24 @@
+{"pair": "R06-R02", "winner": "R02", "confidence": 0.7, "reason": "Full-screen sushi photo and instant hook beat static text card"}
+{"pair": "R03-R01", "winner": "R03", "confidence": 0.72, "reason": "Noodle photo hooks food viewers; R01 is static text for 9s"}
+{"pair": "R04-R10", "winner": "R10", "confidence": 0.52, "reason": "Curry photo plus 70x curiosity at 0s, longer runtime; near toss-up"}
+{"pair": "R05-R13", "winner": "R05", "confidence": 0.68, "reason": "Lava warning on real shopfront beats long static text card"}
+{"pair": "R06-R03", "winner": "R03", "confidence": 0.65, "reason": "Same dish; photo version hooks faster than text-only card"}
+{"pair": "R04-R13", "winner": "R04", "confidence": 0.62, "reason": "Strong bill hook, real photos, food by 4.5s vs static card"}
+{"pair": "R07-R01", "winner": "R07", "confidence": 0.65, "reason": "Timely tax-free rule change urgency; real scene vs static card"}
+{"pair": "R07-R13", "winner": "R07", "confidence": 0.65, "reason": "News urgency for shoppers beats static lunch-only text card"}
+{"pair": "R10-R02", "winner": "R02", "confidence": 0.58, "reason": "Full-bleed sushi, universal hook, quick payoff; R10 slow cards"}
+{"pair": "R09-R08", "winner": "R08", "confidence": 0.68, "reason": "Real moving footage with people; R09 is 41s of text cards"}
+{"pair": "R01-R11", "winner": "R11", "confidence": 0.75, "reason": "Moody izakaya footage and curiosity hook vs static cash card"}
+{"pair": "R02-R09", "winner": "R02", "confidence": 0.62, "reason": "Food on screen instantly; R09 niche text listicle, slow start"}
+{"pair": "R10-R11", "winner": "R11", "confidence": 0.7, "reason": "Real footage, people, strong mystery-dish hook beats card template"}
+{"pair": "R09-R05", "winner": "R05", "confidence": 0.6, "reason": "Punchy food warning, real shopfront; R09 long static text list"}
+{"pair": "R02-R12", "winner": "R02", "confidence": 0.72, "reason": "Sushi photo hook vs plain text card with no imagery"}
+{"pair": "R03-R02", "winner": "R02", "confidence": 0.55, "reason": "Brighter sushi image, more universal hook; both decent"}
+{"pair": "R07-R05", "winner": "R07", "confidence": 0.58, "reason": "Urgent rule change, longer; takoyaki short with storefront not food"}
+{"pair": "R01-R08", "winner": "R08", "confidence": 0.75, "reason": "Real footage of people ordering vs static text card"}
+{"pair": "R07-R06", "winner": "R07", "confidence": 0.65, "reason": "Timely practical news with imagery vs static text card"}
+{"pair": "R14-R10", "winner": "R10", "confidence": 0.55, "reason": "Food and spice curiosity at 0s; R14 opens dark, soft hook"}
+{"pair": "R13-R08", "winner": "R08", "confidence": 0.75, "reason": "Real footage, people, fast steps vs static lunch-only card"}
+{"pair": "R05-R10", "winner": "R10", "confidence": 0.53, "reason": "Food photo and 70x hook, double length; takoyaki very short"}
+{"pair": "R12-R10", "winner": "R10", "confidence": 0.62, "reason": "Curry photo and spice curiosity vs text-only staff card"}
+{"pair": "R02-R13", "winner": "R02", "confidence": 0.7, "reason": "Sushi image hook, fast payoff vs static text card"}
