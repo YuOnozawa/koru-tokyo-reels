@@ -7,7 +7,7 @@ No photos in bath/changing rooms. Bath-area visuals = Mixkit stock, labeled.
 | # | id | Angle | Visuals | Status |
 |---|---|---|---|---|
 | 1 | sp_01_hook | "Japan's #1 sauna (2022) for ¥1,100, one train from Akihabara" | exterior/entrance (Yu, pending) + stock sauna | waiting photos |
-| 2 | sp_02_saumeshi | after-sauna food (sa-meshi) + nap | Yu's lunch + lounge photos | rendered 11/5 |
+| 2 | sp_02_saumeshi | after-sauna food (sa-meshi) + nap | Yu's lunch + lounge photos | queued 11/9 13:00 |
 | 3 | sp_03_rules | 3 rules: wash first, towel out of the water, rinse before cold bath | stock bath + Yu's wear/locker | planned |
 | 4 | sp_04_dragon | Dragon loyly on the hour, what "totonou" means | stock sauna | planned |
 | 5 | sp_05_restday | Weekday rest day plan: 6am-2am, nap, Wi-Fi work, quiet weekdays | Yu's lounge/coworking | waiting photos |
