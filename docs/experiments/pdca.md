@@ -22,3 +22,4 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 
 ## Log
 - 2026-11-05: Yu: "PDCAと仮説検証をバンバン、チャレンジがテーマ". Ended E1 early, launched E2 by converting the 11/6–11/7 queue to v3 with stock footage.
+- 2026-11-05 (Yu: change from today): 11/5 10:00/13:00/21:00 also switched to v3. 11/6-11/7: 12 reels v3 + caption factorial (H4 question line, H5 comment ask, H6 hashtag count). 11/8: 4 short loops (H3), guess-the-price quiz (H8/H9), silent text+music (H8), POV (H8), stock-footage local moves. Scoreboard auto-updates after the daily insights run.
