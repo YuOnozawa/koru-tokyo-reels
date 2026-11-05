@@ -19,9 +19,12 @@ vid = sys.argv[1]; SC = V3[vid]; OUT = f'/home/claude/render/out/{vid}.mp4'; TMP
 # ---------- audio: voice per beat ----------
 k = tts.kok(); beats = []; t = 0.0
 for b in SC['beats']:
-    a, sr = k.create(tts.phonemes(b['say']), voice=tts.VOICE, speed=SC.get('speed', 1.22), is_phonemes=True)
-    a = tts.trim(a.astype(np.float32), sr); a = a / (np.abs(a).max() + 1e-6) * 0.9
-    a = np.interp(np.arange(0, len(a), sr / SR), np.arange(len(a)), a).astype(np.float32)  # resample to 44.1k
+    if b.get('silent') or SC.get('silent'):
+        a = np.zeros(int(b.get('min', 1.4) * SR * 0.9), np.float32)  # no voice: text + music only
+    else:
+        a, sr = k.create(tts.phonemes(b['say']), voice=tts.VOICE, speed=SC.get('speed', 1.22), is_phonemes=True)
+        a = tts.trim(a.astype(np.float32), sr); a = a / (np.abs(a).max() + 1e-6) * 0.9
+        a = np.interp(np.arange(0, len(a), sr / SR), np.arange(len(a)), a).astype(np.float32)  # resample to 44.1k
     d = max(b.get('min', 1.2), len(a) / SR + 0.12)
     beats.append(dict(b, voice=a, start=t, dur=d, vdur=len(a) / SR)); t += d
 TOT = t + 0.05; N = int(TOT * FPS)
@@ -104,7 +107,7 @@ def draw_beat(b, lt, i):
             d.rounded_rectangle((x + 10, 90, x + 140, 104), 7, fill=(255, 255, 255, 235) if on else (255, 255, 255, 90))
     # kicker tag
     if b.get('tag'):
-        f = pop_(46); tw = d.textlength(b['tag'], font=f)
+        f = (zen if any(ord(ch) > 0x2fff for ch in b['tag']) else pop_)(46); tw = d.textlength(b['tag'], font=f)
         d.rounded_rectangle((W // 2 - tw / 2 - 28, 190, W // 2 + tw / 2 + 28, 262), 18, fill=RED)
         d.text((W // 2, 226), b['tag'], font=f, fill='white', anchor='mm')
     # big words, popping in
@@ -128,17 +131,17 @@ def draw_beat(b, lt, i):
         d.rounded_rectangle((W / 2 - tw / 2 - 30, y - 44, W / 2 + tw / 2 + 30, y + 44), 44, fill=(255, 255, 255, 245))
         d.text((W / 2, y), c, font=f, fill=INK, anchor='mm')
     # koru
-    if b.get('koru'):
+    if b.get('koru') and not b.get('chips'):  # Koru only when no chips, so they never overlap
         ks = popscale(lt, .15)
         if ks > 0:
             kimg = korus['koru_happy_t']; kw = int(360 * ks); kimg = kimg.resize((kw, int(kimg.height * kw / kimg.width)))
-            bob = int(abs(math.sin(lt * 7)) * 18); ov.alpha_composite(kimg, (W - kw - 40, 1180 - bob))
+            bob = int(abs(math.sin(lt * 7)) * 18); KY = 1180; ov.alpha_composite(kimg, (W - kw - 40, KY - bob))
             if ks >= 1:
                 f = pop_(48); txt = b['koru']; tw = d.textlength(txt, font=f)
-                d.rounded_rectangle((W - kw - tw - 110, 1150, W - kw - 50, 1250), 30, fill='white', outline=INK, width=5)
-                d.text((W - kw - 80 - tw / 2, 1200), txt, font=f, fill=INK, anchor='mm')
+                d.rounded_rectangle((W - kw - tw - 110, KY - 30, W - kw - 50, KY + 70), 30, fill='white', outline=INK, width=5)
+                d.text((W - kw - 80 - tw / 2, KY + 20), txt, font=f, fill=INK, anchor='mm')
     # word-by-word caption
-    words = tts.display(b['say']).split(); vd = b['vdur']; tt = lt - .04
+    words = [] if (b.get('silent') or SC.get('silent')) else tts.display(b['say']).split(); vd = b['vdur']; tt = lt - .04
     if words and 0 <= tt:
         L = [len(w) + 2 for w in words]; acc = np.cumsum(L) / sum(L) * vd
         k_ = int(np.searchsorted(acc, tt)); k_ = min(k_, len(words) - 1)
