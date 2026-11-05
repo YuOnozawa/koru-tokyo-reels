@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-04T23:06:57.538633+00:00",
+ "fetched_at": "2026-11-05T06:55:37.251654+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 66,
+  "media_count": 67,
   "id": "28241506535529259",
   "followers_count": 4,
   "follows_count": 80
  },
  "media": [
   {
-   "id": "18099404882450579",
-   "permalink": "https://www.instagram.com/reel/DfVfOU6tPAm/",
-   "timestamp": "2026-11-04T22:05:18+0000",
+   "id": "18115967915166183",
+   "permalink": "https://www.instagram.com/reel/DfVz1WktctD/",
+   "timestamp": "2026-11-05T01:05:26+0000",
    "media_product_type": "REELS",
-   "caption_head": "Tokyo hacks #9: some shops close when they sell out 🍞\n\n16 of",
-   "reach": 1,
-   "views": 4,
+   "caption_head": "Tokyo hacks #10: some places still allow smoking inside 🚬\n\n1",
+   "reach": 88,
+   "views": 96,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1492,
-   "ig_reels_video_view_total_time": 1492
+   "ig_reels_avg_watch_time": 4983,
+   "ig_reels_video_view_total_time": 443558
+  },
+  {
+   "id": "18099404882450579",
+   "permalink": "https://www.instagram.com/reel/DfVfOU6tPAm/",
+   "timestamp": "2026-11-04T22:05:18+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #9: some shops close when they sell out 🍞\n\n16 of",
+   "reach": 27,
+   "views": 30,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3341,
+   "ig_reels_video_view_total_time": 96916
   },
   {
    "id": "18350845921267177",
@@ -39,8 +55,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3268,
-   "ig_reels_video_view_total_time": 375864
+   "ig_reels_avg_watch_time": 3282,
+   "ig_reels_video_view_total_time": 380748
   },
   {
    "id": "18455404348126907",
@@ -48,15 +64,15 @@
    "timestamp": "2026-11-04T16:26:14+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #7: closing time is not last order ⏰\n\n108 of the",
-   "reach": 76,
-   "views": 80,
+   "reach": 101,
+   "views": 107,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3813,
-   "ig_reels_video_view_total_time": 282211
+   "ig_reels_avg_watch_time": 3851,
+   "ig_reels_video_view_total_time": 381299
   },
   {
    "id": "17883830052629243",
@@ -71,8 +87,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3320,
-   "ig_reels_video_view_total_time": 348664
+   "ig_reels_avg_watch_time": 3528,
+   "ig_reels_video_view_total_time": 374059
   },
   {
    "id": "18234377257324323",
@@ -80,15 +96,15 @@
    "timestamp": "2026-11-04T12:06:51+0000",
    "media_product_type": "REELS",
    "caption_head": "Out of cash in East Tokyo? 4 spots that take cards 💳 Save th",
-   "reach": 16,
-   "views": 17,
+   "reach": 30,
+   "views": 35,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3852,
-   "ig_reels_video_view_total_time": 65495
+   "ig_reels_avg_watch_time": 3361,
+   "ig_reels_video_view_total_time": 114307
   },
   {
    "id": "18108393545528700",
@@ -793,22 +809,6 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 3830,
    "ig_reels_video_view_total_time": 448122
-  },
-  {
-   "id": "18109228660912013",
-   "permalink": "https://www.instagram.com/reel/DemOwuDDN9r/",
-   "timestamp": "2026-10-17T13:37:08+0000",
-   "media_product_type": "REELS",
-   "caption_head": "How to open a konbini onigiri without ripping the seaweed 🍙\n",
-   "reach": 114,
-   "views": 119,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2852,
-   "ig_reels_video_view_total_time": 333751
   }
  ]
 }
