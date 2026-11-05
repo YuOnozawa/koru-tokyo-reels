@@ -61,5 +61,12 @@
   "B": "non-quiz",
   "metric": "com",
   "since": "2026-11-08"
+ },
+ "H10": {
+  "hypothesis": "Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels",
+  "A": "sauna series",
+  "B": "food reels",
+  "metric": "comp",
+  "since": "2026-11-09"
  }
 }

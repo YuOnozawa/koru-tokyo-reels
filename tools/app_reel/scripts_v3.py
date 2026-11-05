@@ -110,3 +110,18 @@ V3['p_01_pov_ticket'] = {'speed': 1.22, 'beats': [
 ]}
 for _k, _c in {'h_10_smoking': [4447, 45086, 4454, 48686], 'h_11_otoshi': [4109, 51238, 51241, 4451], 'h_12_ticket': [4451, 51236, 51241, 51257]}.items():
     V3[_k + '_v3'] = from_v2(_k, _c, note='Footage: Mixkit, similar scenes')
+
+# ---- Spa Metsa Otaka series (Yu's photos, Nov 5 2026) ----
+SP = Y + 'spametsa_'
+SPN = 'Photos: Yu, Nov 5 2026'
+V3['sp_02_saumeshi'] = {'speed': 1.2, 'beats': [
+  {'say': "Japanese sauna rule: after the sauna, you eat. They call it {sa-meshi|sɑ mɛʃi}.", 'photo': SP + 'wings.jpg', 'focus': (.5, .5), 'tag': "SAUNA DAY · YU'S PICK", 'big': 'AFTER-SAUNA\nFOOD', 'hl': 1, 'size': 160, 'min': 2.0, 'note': SPN},
+  {'say': "First, a cold highball.", 'photo': SP + 'highball.jpg', 'focus': (.5, .45), 'big': 'COLD\nHIGHBALL', 'hl': 0, 'note': SPN},
+  {'say': "Peppery fried chicken wings.", 'photo': SP + 'wings.jpg', 'focus': (.45, .55), 'big': 'CRISPY\nWINGS', 'hl': 1, 'note': SPN},
+  {'say': "Fried skewers.", 'photo': SP + 'kushikatsu.jpg', 'focus': (.55, .55), 'big': 'FRIED\nSKEWERS', 'hl': 0, 'note': SPN},
+  {'say': "Soy-glazed chicken.", 'photo': SP + 'chicken.jpg', 'focus': (.45, .5), 'big': 'GLAZED\nCHICKEN', 'hl': 1, 'note': SPN},
+  {'say': "Ramen egg, bamboo shoots and pork, with a beer.", 'photo': SP + 'trio.jpg', 'focus': (.4, .65), 'big': 'RAMEN EGG\n+ BEER', 'hl': 0, 'chips': ['ramen egg', 'bamboo shoots', 'pork'], 'note': SPN},
+  {'say': "Then a nap in your spa pajamas. Nobody minds.", 'photo': SP + 'lounge.jpg', 'focus': (.5, .55), 'big': 'THEN\nNAP', 'hl': 1, 'koru': 'Zzz...', 'min': 2.0, 'note': SPN + ' · face blurred'},
+  {'say': "Spa Metsa {Otaka|oʊtɑkɑ}. One train from {Akihabara|ɑkihɑbɑɾɑ}, two minutes from the station.", 'photo': SP + 'beer.jpg', 'focus': (.5, .45), 'tag': 'SPA METSA OTAKA', 'big': 'ONE TRAIN FROM\nAKIHABARA', 'hl': 1, 'chips': ['Tsukuba Express', '2 min walk', 'weekday ¥1,100'], 'min': 2.6, 'note': SPN + ' · prices: Time Out Tokyo / All About'},
+  {'say': "Save this for your rest day in Tokyo.", 'photo': SP + 'wings.jpg', 'focus': (.35, .5), 'big': 'SAVE FOR\nYOUR REST DAY', 'hl': 1, 'koru': 'Spa day!', 'min': 2.2},
+]}
