@@ -12,3 +12,9 @@ What: 100 synthetic personas (personas.py; weights are assumptions) react to sto
 
 ## Calibration 2 (prospective)
 - runs/prospective.jsonl: blind forecasts for 20 reels queued 11/6-11/9, made before posting. Score after insights on 11/10.
+
+## Prospective forecast + QA flags (2026-11-06, 20 queued reels)
+- Forecasts saved; scored after 11/10 insights.
+- Useful QA flags: stock visuals contradict the words (cold soba shown as hot ramen, eel reel shows no eel, mahjong neon used as a food hook, ginkgo line over red maple); same clip reused across reels; "Yu" never introduced.
+- False flags (checked against the DB): Mochizuki "1 min from Suehirocho" vs "9 min from JR Akihabara" are two different stations; breakfast "open by 8:30 on weekdays" is true for all four. QA flags must be verified before acting.
+- Production rules from this: stock only for atmosphere, never a different dish than the one named; introduce Yu once per reel ("Yu, a local office worker"); don't reuse the same clip within 2 days.
