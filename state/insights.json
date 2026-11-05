@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-11-05T06:55:37.251654+00:00",
+ "fetched_at": "2026-11-05T15:05:56.784439+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 67,
+  "media_count": 69,
   "id": "28241506535529259",
   "followers_count": 4,
-  "follows_count": 80
+  "follows_count": 85
  },
  "media": [
+  {
+   "id": "17945782335089610",
+   "permalink": "https://www.instagram.com/reel/DfW_gW5CFpY/",
+   "timestamp": "2026-11-05T12:06:36+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #12: how to use a meal ticket machine 🎫\n\nCommon ",
+   "reach": 22,
+   "views": 29,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4542,
+   "ig_reels_video_view_total_time": 99939
+  },
+  {
+   "id": "18108310676361641",
+   "permalink": "https://www.instagram.com/reel/DfWdAb3oTvB/",
+   "timestamp": "2026-11-05T07:05:08+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Tokyo hacks #11: the dish you didn't order 🍶\n\nAt many izakay",
+   "reach": 127,
+   "views": 137,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 6892,
+   "ig_reels_video_view_total_time": 875410
+  },
   {
    "id": "18115967915166183",
    "permalink": "https://www.instagram.com/reel/DfVz1WktctD/",
    "timestamp": "2026-11-05T01:05:26+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #10: some places still allow smoking inside 🚬\n\n1",
-   "reach": 88,
-   "views": 96,
+   "reach": 102,
+   "views": 107,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4983,
-   "ig_reels_video_view_total_time": 443558
+   "ig_reels_avg_watch_time": 4891,
+   "ig_reels_video_view_total_time": 498939
   },
   {
    "id": "18099404882450579",
@@ -32,15 +64,15 @@
    "timestamp": "2026-11-04T22:05:18+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #9: some shops close when they sell out 🍞\n\n16 of",
-   "reach": 27,
-   "views": 30,
+   "reach": 83,
+   "views": 91,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3341,
-   "ig_reels_video_view_total_time": 96916
+   "ig_reels_avg_watch_time": 4159,
+   "ig_reels_video_view_total_time": 357682
   },
   {
    "id": "18350845921267177",
@@ -96,15 +128,15 @@
    "timestamp": "2026-11-04T12:06:51+0000",
    "media_product_type": "REELS",
    "caption_head": "Out of cash in East Tokyo? 4 spots that take cards 💳 Save th",
-   "reach": 30,
-   "views": 35,
+   "reach": 78,
+   "views": 86,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3361,
-   "ig_reels_video_view_total_time": 114307
+   "ig_reels_avg_watch_time": 3842,
+   "ig_reels_video_view_total_time": 295891
   },
   {
    "id": "18108393545528700",
@@ -777,38 +809,6 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 3036,
    "ig_reels_video_view_total_time": 327888
-  },
-  {
-   "id": "17924215407441758",
-   "permalink": "https://www.instagram.com/reel/Deo5g-2jzp1/",
-   "timestamp": "2026-10-18T14:29:11+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Some of the best fried chicken in Japan is next to the conve",
-   "reach": 104,
-   "views": 107,
-   "likes": 1,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2636,
-   "ig_reels_video_view_total_time": 274196
-  },
-  {
-   "id": "18131531791829971",
-   "permalink": "https://www.instagram.com/reel/DenJrl3gIRW/",
-   "timestamp": "2026-10-17T22:11:59+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Can't read the ramen ticket machine? 🍜\n\n👆 The top-left butto",
-   "reach": 113,
-   "views": 124,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3830,
-   "ig_reels_video_view_total_time": 448122
   }
  ]
 }

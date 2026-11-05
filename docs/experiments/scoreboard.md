@@ -7,10 +7,10 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 88.0 | 25% | 0.0 | 0.0 | 0.0 |
-| B | 24 | 89.8 | 10% | 0.2 | 0.0 | 0.0 |
+| A | 3 | 83.7 | 26% | 0.0 | 0.0 | 0.0 |
+| B | 24 | 94.1 | 11% | 0.2 | 0.0 | 0.0 |
 
-_Not enough reels yet (need n≥3 per arm)._
+**Suggested verdict:** A wins (+145%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -26,7 +26,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 2 | 106.0 | 22% | 0.0 | 0.0 | 1.0 |
-| B | 1 | 88.0 | 25% | 0.0 | 0.0 | 0.0 |
+| B | 3 | 83.7 | 26% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -35,7 +35,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| B | 1 | 88.0 | 25% | 0.0 | 0.0 | 0.0 |
+| B | 2 | 114.5 | 27% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -68,8 +68,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 31 | 100.1 | 14% | 0.2 | 0.0 | 0.1 |
-| B | 19 | 104.1 | 306% | 0.2 | 0.0 | 0.2 |
+| A | 31 | 102.8 | 14% | 0.2 | 0.0 | 0.1 |
+| B | 19 | 102.3 | 306% | 0.2 | 0.0 | 0.2 |
 
 **Suggested verdict:** no clear difference yet
 
