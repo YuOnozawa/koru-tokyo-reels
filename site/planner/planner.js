@@ -456,6 +456,10 @@
     (P.get('e') || '').split(',').forEach(function (x) { var p = x.split(':'); if (p.length === 2 && /^\d+\.[0-2]$/.test(p[0])) EDITS[p[0]] = p[1]; });
     (P.get('y') || '').split(',').forEach(function (x) { var p = x.split(':'); if (p.length === 2 && LABEL[p[1]]) DAYAREA[p[0]] = p[1]; });
   }
+  else if (P.get('a')) {  // a plain area link (e.g. the map link sent in a DM): preselect those areas
+    var A0 = P.get('a').split(',');
+    document.querySelectorAll('input[name=area]').forEach(function (i) { i.checked = A0.indexOf(i.value) >= 0; });
+  }
 
   f.addEventListener('submit', function (e) { e.preventDefault(); EDITS = {}; DAYAREA = {}; HISTORY = []; SWAPSEEN = {}; renderPlan(Math.floor(Math.random() * 1e9)); out.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   $('spin').addEventListener('click', spin);

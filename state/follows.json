@@ -1004,5 +1004,20 @@
     "akiba.or.jp/wp_en/pedestrianzone"
    ]
   }
- ]
+ ],
+ "dm_funnel": {
+  "approved": "2026-11-06 by Yu (全部やっていいよ)",
+  "trigger": "a comment containing the keyword (e.g. UENO) on our own reel",
+  "reply_within": "7 days of the comment, one private reply per comment; more only if they reply",
+  "template": "Here's your {Area} map from Koru 🐕 Hours, closed days and what to say, free: https://yuonozawa.github.io/koru-tokyo-reels/planner/?a={area_key}&via=dm Have a great trip!",
+  "area_keys": {
+   "UENO": "ueno",
+   "AKIBA": "akiba",
+   "ASAKUSA": "asakusa",
+   "KANDA": "kanda"
+  },
+  "public_reply": "Sent! Check your DMs 🐕",
+  "never": "no DMs to people who did not comment the keyword; no follow-ups unless they reply",
+  "log": []
+ }
 }

@@ -15,6 +15,9 @@ window.koruEvent = function (name, extra) {
   try {
     if (!window.KORU.ENDPOINT || /^(localhost|127\.|\[::1\])/.test(location.hostname)) return;  // skip our own local recordings
     if (window.koruInApp) name = name + '_ig';  // opened from the Instagram in-app browser
+    var via = '';  // where the visitor came from, e.g. ?via=dm on the links we send in Instagram DMs (kept for the visit)
+    try { var v = new URLSearchParams(location.search).get('via'); if (v) sessionStorage.setItem('koru_via', v.replace(/[^a-z0-9]/gi, '').slice(0, 12)); via = sessionStorage.getItem('koru_via') || ''; } catch (e) {}
+    if (via) name = name + '_' + via;
     var body = JSON.stringify({ action: 'event', name: String(name).slice(0, 40), page: location.pathname.split('/').filter(Boolean).pop() || 'home', extra: extra ? String(extra).slice(0, 60) : '' });
     if (navigator.sendBeacon) navigator.sendBeacon(window.KORU.ENDPOINT, new Blob([body], { type: 'text/plain' }));
     else fetch(window.KORU.ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain' }, body: body });

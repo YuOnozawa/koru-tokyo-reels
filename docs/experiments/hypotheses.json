@@ -75,5 +75,13 @@
   "B": "evergreen reels",
   "metric": "ss",
   "since": "2026-11-09"
+ },
+ "H12": {
+  "hypothesis": "'Comment a keyword and I'll DM you the map' gets more planner visits per reach than 'link in bio'",
+  "A": "comment→DM map",
+  "B": "link in bio",
+  "metric": "com",
+  "since": "2026-11-09",
+  "note": "business metric: *_dm events in the GAS events sheet per 1,000 reach"
  }
 }
