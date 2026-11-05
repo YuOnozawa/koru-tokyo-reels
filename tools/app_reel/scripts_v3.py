@@ -125,3 +125,19 @@ V3['sp_02_saumeshi'] = {'speed': 1.2, 'beats': [
   {'say': "Spa Metsa {Otaka|oʊtɑkɑ}. One train from {Akihabara|ɑkihɑbɑɾɑ}, two minutes from the station.", 'photo': SP + 'beer.jpg', 'focus': (.5, .45), 'tag': 'SPA METSA OTAKA', 'big': 'ONE TRAIN FROM\nAKIHABARA', 'hl': 1, 'chips': ['Tsukuba Express', '2 min walk', 'weekday ¥1,100'], 'min': 2.6, 'note': SPN + ' · prices: Time Out Tokyo / All About'},
   {'say': "Save this for your rest day in Tokyo.", 'photo': SP + 'wings.jpg', 'focus': (.35, .5), 'big': 'SAVE FOR\nYOUR REST DAY', 'hl': 1, 'koru': 'Spa day!', 'min': 2.2},
 ]}
+
+# ---- 11/9: decision-settling seasonal (B) + short loop ----
+MKS = 'Footage: Mixkit (free license), similar scenes, not Ueno'
+V3['b_10_ginkgo_ueno'] = {'speed': 1.2, 'beats': [
+  {'say': "{Ueno|uɛnoʊ} Park's ginkgo trees should turn yellow around November twenty-sixth.", 'video': SV + '33237.mp4', 'vstart': 1, 'tag': 'UENO PARK · LATE NOV', 'big': 'YELLOW AROUND\nNOV 26', 'hl': 1, 'size': 160, 'min': 2.2, 'note': 'Forecast: Japan Meteorological Corp. · Mixkit, not Ueno'},
+  {'say': "Lunch after? Four places near the park, open every day.", 'video': SV + '17441.mp4', 'vstart': 1, 'big': 'LUNCH AFTER?\n4 SPOTS', 'hl': 1, 'note': MKS},
+  {'say': "{Tonkatsu Yamabe|tɔnkɑtsu jɑmɑbɛ}. Yu's pick. About a thousand yen.", 'video': SV + '4451.mp4', 'vstart': 2, 'tag': '1 · TONKATSU YAMABE', 'big': 'PORK CUTLET\n~¥1,000', 'hl': 0, 'chips': ["Yu's pick", 'open daily', 'Ueno-Hirokoji 1 min'], 'note': MKS},
+  {'say': "{Rokurinsha|roʊkuɾinʃɑ} dipping noodles, right inside the station.", 'video': SV + '51257.mp4', 'vstart': 2, 'tag': '2 · ROKURINSHA', 'big': 'TSUKEMEN\nIN THE STATION', 'hl': 1, 'chips': ['atre Ueno 1F', '10:00-23:00 daily'], 'note': MKS},
+  {'say': "{Izuei|izuɛi}. Eel by the pond, with an English menu.", 'video': SV + '5761.mp4', 'vstart': 1, 'tag': '3 · IZUEI', 'big': 'EEL BY\nTHE POND', 'hl': 0, 'chips': ['unaju from ¥3,630', 'English menu', '11:00-21:00'], 'note': MKS},
+  {'say': "Coffee {Ojo|oʊdʒoʊ}, a retro cafe from eight a.m.", 'video': SV + '48686.mp4', 'vstart': 1, 'tag': '4 · COFFEE OJO', 'big': 'RETRO CAFE\nFROM 8AM', 'hl': 1, 'chips': ['open daily', 'morning set'], 'note': MKS},
+  {'say': "Send this to the friend you're going with.", 'video': SV + '25094.mp4', 'vstart': 1, 'big': 'SEND TO YOUR\nTRIP BUDDY', 'hl': 1, 'koru': 'Walkies!', 'min': 2.2, 'note': MKS},
+]}
+V3['s_05_cash'] = {'speed': 1.25, 'beats': [
+  {'say': "Sixty-eight of the two hundred ninety-nine places I checked in east Tokyo say cash only.", 'video': SV + '4451.mp4', 'vstart': 3, 'big': '68 OF 299\nCASH ONLY', 'hl': 1, 'size': 170, 'min': 2.4, 'note': 'From 299 East Tokyo places I checked · Footage: Mixkit'},
+  {'say': "Carry yen. Small notes help.", 'video': SV + '51236.mp4', 'vstart': 1, 'big': 'CARRY YEN', 'hl': 0, 'chips': ['現金だけですか？', 'cash only?'], 'min': 1.8, 'note': 'Footage: Mixkit'},
+]}

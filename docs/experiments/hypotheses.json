@@ -68,5 +68,12 @@
   "B": "food reels",
   "metric": "comp",
   "since": "2026-11-09"
+ },
+ "H11": {
+  "hypothesis": "Decision-settling, time-critical reels (where to eat after the Ueno ginkgo, what's open at New Year) get more sends and saves per reach than evergreen tips",
+  "A": "seasonal decision reel",
+  "B": "evergreen reels",
+  "metric": "ss",
+  "since": "2026-11-09"
  }
 }
