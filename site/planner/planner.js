@@ -22,6 +22,8 @@
   var $ = function (id) { return document.getElementById(id); };
   var f = $('f'), out = $('out'), cta = $('cta');
   var SHOPS = [], BY_SLUG = {}, lastPlan = null, lastSeed = 0;
+  // Anonymous entry counter; pairs with the existing plan_print event to measure funnel drop-off.
+  if (window.koruEvent) koruEvent('planner_open');
 
   // ---------- helpers ----------
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -105,8 +107,11 @@
     var keepB = el('button', 'mini', kept().indexOf(s.name_ja) >= 0 ? '★ Kept' : '☆ Keep'); keepB.type = 'button';
     keepB.setAttribute('aria-pressed', kept().indexOf(s.name_ja) >= 0); keepB.addEventListener('click', function () { toggleKeep(s, keepB); });
     var a = el('a', 'mini', 'Map'); a.href = mapsUrl(s); a.target = '_blank'; a.rel = 'noopener';
+    a.addEventListener('click', function () { if (window.koruEvent) koruEvent('shop_map_click'); });
     acts.append(keepB, a);
-    if (s.slug) { var pg = el('a', 'mini', 'Shop page'); pg.href = '../shops/' + s.slug + '/'; acts.appendChild(pg); }
+    if (s.slug) { var pg = el('a', 'mini', 'Shop page'); pg.href = '../shops/' + s.slug + '/';
+      pg.addEventListener('click', function () { if (window.koruEvent) koruEvent('shop_page_click'); });
+      acts.appendChild(pg); }
     t.appendChild(acts);
     return t;
   }
@@ -261,7 +266,9 @@
         rerender(null, 'Day ' + (k + 1) + ' moved to ' + LABEL[sel.value] + '.');
       });
       head.appendChild(sel);
-      var ru = routeUrl(day); if (ru) { var r = el('a', 'route', 'Route ↗'); r.href = ru; r.target = '_blank'; r.rel = 'noopener'; head.appendChild(r); }
+      var ru = routeUrl(day); if (ru) { var r = el('a', 'route', 'Route ↗'); r.href = ru; r.target = '_blank'; r.rel = 'noopener';
+        r.addEventListener('click', function () { if (window.koruEvent) koruEvent('route_map_click'); });
+        head.appendChild(r); }
       sec.appendChild(head);
       day.meals.forEach(function (m, j) {
         n++;
