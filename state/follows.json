@@ -741,6 +741,34 @@
    "liked": true,
    "at": "2026-11-04T21:35Z",
    "source": "own post: Tokyo girls trip; turned out to be a group-trip business (filter missed). via Mac"
+  },
+  {
+   "user": "mik__adams",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T12:30Z",
+   "source": "keyword 'tokyo first time' post author, via Mac (2150 followers)"
+  },
+  {
+   "user": "kiraugai",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T12:30Z",
+   "source": "keyword 'tokyo first time' post author, via Mac (1014 followers)"
+  },
+  {
+   "user": "jeremytalkstostrangers",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T12:30Z",
+   "source": "keyword 'tokyo first time' post author, via Mac (9023 followers)"
+  },
+  {
+   "user": "traveling.giu",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T12:30Z",
+   "source": "keyword 'tokyo first time' post author, via Mac (251 followers)"
   }
  ],
  "candidates": [],
@@ -774,7 +802,13 @@
   "irungracepace",
   "micdoesthings",
   "misstaylorrosze",
-  "anfisabelarus"
+  "anfisabelarus",
+  "ellarosezohra",
+  "travel.with.sona",
+  "mottaskin",
+  "savannah.blewden",
+  "ophenatural",
+  "audris_lim"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -853,7 +887,8 @@
   "2026-11-03 21:20 run: +5 only; 16 private. 'Locals' comment-to-get posts are ~85% private. Business regex may be over-matching personal vloggers with links (v7.nils, cliveeariss, sarahlange__) - review. No own Japan-trip posts among new follows -> no comment drafts.",
   "2026-11-04 06:20 run: +5. Searching keyword 'asakusa trip' / 'ueno tokyo' and following the AUTHORS (travelers posting their own trip) gives public accounts and own-post comment chances. Stopped early: warn flag fired on sukmaa._w (likely false positive from page text; no block dialog seen). warn regex tightened.",
   "2026-11-04 21:20 run: +5 (keyword 'asakusa food', 'akihabara', 'ueno park' post authors). Business filter (.com/.co in bio) skips many personal travelers; consider loosening.",
-  "2026-11-05 06:20 run: only +2; keyword search pool is thin in the early morning and many candidates are 10k+ or flagged business. Added 'groepsreis|group trip' to business words (howtotravel.nl slipped through). Next: try 'japan itinerary' comment askers + 'tokyo first time' authors."
+  "2026-11-05 06:20 run: only +2; keyword search pool is thin in the early morning and many candidates are 10k+ or flagged business. Added 'groepsreis|group trip' to business words (howtotravel.nl slipped through). Next: try 'japan itinerary' comment askers + 'tokyo first time' authors.",
+  "2026-11-05 21:20 run: +4 on koru. Chrome extension disconnected mid-run; after reconnect the Instagram session in Mac Chrome had been switched to codenest_it_skill, and 2 follows+likes (itismonisworld, with.vithika) landed on that account. Both were undone (unliked + unfollowed) right away. Added a guard to follow_like.js: returns 'stop:wrong-account' unless the koru.tokyo_guide profile link is in the nav. Always check the logged-in account before following."
  ],
  "dm_log": [
   {
@@ -880,7 +915,13 @@
   "kathly.b",
   "diaryofacreator_",
   "chan_smey12",
-  "sari.okami"
+  "sari.okami",
+  "katheriinezhang",
+  "trishdaily",
+  "hamzahassansyd",
+  "jjolene710",
+  "aimeetraveldiaries",
+  "laleneeeh"
  ],
  "comment_queue": [
   {
