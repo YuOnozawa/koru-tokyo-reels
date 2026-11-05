@@ -1,30 +1,78 @@
 {
- "fetched_at": "2026-11-05T15:05:56.784439+00:00",
+ "fetched_at": "2026-11-05T22:43:36.249915+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 69,
+  "media_count": 72,
   "id": "28241506535529259",
   "followers_count": 4,
-  "follows_count": 85
+  "follows_count": 89
  },
  "media": [
+  {
+   "id": "18093500183481427",
+   "permalink": "https://www.instagram.com/reel/DfYEBETMULw/",
+   "timestamp": "2026-11-05T22:05:15+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Ever had kibi dango still warm? 🍡 Asakusa Kibidango Azuma\n\n🍽",
+   "reach": 0,
+   "views": 8,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 0,
+   "ig_reels_video_view_total_time": 0
+  },
+  {
+   "id": "18222370156353921",
+   "permalink": "https://www.instagram.com/reel/DfXvbOygxPM/",
+   "timestamp": "2026-11-05T19:05:34+0000",
+   "media_product_type": "REELS",
+   "caption_head": "A restaurant just for beef tongue: Tankiyo, Akihabara 🥩\n\n🍽️ ",
+   "reach": 123,
+   "views": 139,
+   "likes": 0,
+   "comments": 0,
+   "saved": 2,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 4068,
+   "ig_reels_video_view_total_time": 508622
+  },
+  {
+   "id": "17887285590673199",
+   "permalink": "https://www.instagram.com/reel/DfXUJmhx1cE/",
+   "timestamp": "2026-11-05T15:07:02+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Where do Akihabara office workers get a sashimi lunch for ¥8",
+   "reach": 74,
+   "views": 78,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 2593,
+   "ig_reels_video_view_total_time": 191886
+  },
   {
    "id": "17945782335089610",
    "permalink": "https://www.instagram.com/reel/DfW_gW5CFpY/",
    "timestamp": "2026-11-05T12:06:36+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #12: how to use a meal ticket machine 🎫\n\nCommon ",
-   "reach": 22,
-   "views": 29,
+   "reach": 106,
+   "views": 114,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4542,
-   "ig_reels_video_view_total_time": 99939
+   "ig_reels_avg_watch_time": 3864,
+   "ig_reels_video_view_total_time": 413523
   },
   {
    "id": "18108310676361641",
@@ -32,15 +80,15 @@
    "timestamp": "2026-11-05T07:05:08+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #11: the dish you didn't order 🍶\n\nAt many izakay",
-   "reach": 127,
-   "views": 137,
+   "reach": 128,
+   "views": 139,
    "likes": 0,
    "comments": 0,
-   "saved": 0,
+   "saved": 1,
    "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6892,
-   "ig_reels_video_view_total_time": 875410
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 6829,
+   "ig_reels_video_view_total_time": 881016
   },
   {
    "id": "18115967915166183",
@@ -64,15 +112,15 @@
    "timestamp": "2026-11-04T22:05:18+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #9: some shops close when they sell out 🍞\n\n16 of",
-   "reach": 83,
-   "views": 91,
+   "reach": 102,
+   "views": 106,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4159,
-   "ig_reels_video_view_total_time": 357682
+   "ig_reels_avg_watch_time": 4512,
+   "ig_reels_video_view_total_time": 469287
   },
   {
    "id": "18350845921267177",
@@ -176,15 +224,15 @@
    "timestamp": "2026-11-04T00:42:57+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo ginkgo watch 🍂 Akihabara, Nov 4: still green\n\nThe Japa",
-   "reach": 109,
-   "views": 127,
+   "reach": 110,
+   "views": 129,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4721,
-   "ig_reels_video_view_total_time": 519379
+   "ig_reels_avg_watch_time": 4934,
+   "ig_reels_video_view_total_time": 547716
   },
   {
    "id": "17939880090124617",
@@ -487,8 +535,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2569,
-   "ig_reels_video_view_total_time": 300628
+   "ig_reels_avg_watch_time": 2576,
+   "ig_reels_video_view_total_time": 304023
   },
   {
    "id": "18390063688229384",
@@ -761,54 +809,13 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 3812,
    "ig_reels_video_view_total_time": 549050
-  },
-  {
-   "id": "18664875253032616",
-   "permalink": "https://www.instagram.com/reel/DescifpDA8f/",
-   "timestamp": "2026-10-19T23:32:57+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Jet lag woke you up at 5 a.m.? 🌅\n\n🥢 Beef bowl (gyūdon) chain",
-   "reach": 105,
-   "views": 109,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3323,
-   "ig_reels_video_view_total_time": 352271
-  },
-  {
-   "id": "17887221075687070",
-   "permalink": "https://www.instagram.com/reel/DerTmExCIkQ/",
-   "timestamp": "2026-10-19T12:55:34+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Card or cash? Ask before you order 💳\n\n🗣️ \"Kādo tsukaemasu ka",
-   "reach": 137,
-   "views": 151,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3340,
-   "ig_reels_video_view_total_time": 460947
-  },
-  {
-   "id": "18134056723716058",
-   "permalink": "https://www.instagram.com/reel/Depz6WoEc6P/",
-   "timestamp": "2026-10-18T22:59:29+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Great Japanese food for less: depachika before closing 🍱\n\n🏬 ",
-   "reach": 106,
-   "views": 115,
-   "likes": 0,
-   "comments": 0,
-   "saved": 1,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3036,
-   "ig_reels_video_view_total_time": 327888
   }
- ]
+ ],
+ "account_daily": {
+  "reach": 1173,
+  "views": 1321,
+  "profile_views": 9,
+  "profile_links_taps": 0,
+  "accounts_engaged": 8
+ }
 }
