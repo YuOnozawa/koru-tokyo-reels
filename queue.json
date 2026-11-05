@@ -591,7 +591,8 @@
    "H2": "B",
    "H4": "A",
    "H5": "B",
-   "H6": "B"
+   "H6": "B",
+   "H3": "B"
   },
   "len": 21.5
  },
@@ -856,31 +857,35 @@
   "tests": {
    "H7": "A",
    "H1": "A",
-   "H2": "B"
+   "H2": "B",
+   "H3": "B"
   },
   "len": 20.1
  },
  {
   "id": "h_11_otoshi",
-  "file": "videos/h_11_otoshi.mp4",
+  "file": "videos/h_11_otoshi_v3.mp4",
   "publish_at": "2026-11-05T13:00:00+09:00",
-  "caption": "Tokyo hacks #11: the dish you didn't order 🍶\n\nAt many izakaya, a small appetizer arrives unasked. It's お通し (otoshi), a table charge served as a snack. Normal, not a scam.\n\n✅ Some places also add a service charge at night (one Kanda soba bar adds 10% after 5pm)\n✅ Check the menu or ask before you sit down\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 290+ East Tokyo spots: link in bio.\n\nVoice and characters made with AI · Facts from public sources (Tabelog, Retty, shop info), checked Oct-Nov 2026; hours change, so check Google Maps the same day.\n\n#tokyotravel #japantravel #izakaya #japantips #tokyotips",
+  "caption": "Tokyo hacks #11: the dish you didn't order 🍶\n\nAt many izakaya, a small appetizer arrives unasked. It's お通し (otoshi), a table charge served as a snack. Normal, not a scam.\n\n✅ Some places also add a service charge at night (one Kanda soba bar adds 10% after 5pm)\n✅ Check the menu or ask before you sit down\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 290+ East Tokyo spots: link in bio.\n\nFootage: Mixkit (free license), similar scenes · Voice and characters made with AI · Facts from public sources (Tabelog, Retty, shop info), checked Oct-Nov 2026; hours change, so check Google Maps the same day.\n\n#tokyotravel #japantravel #izakaya #japantips #tokyotips",
   "tests": {
    "H7": "A",
-   "H1": "B"
+   "H1": "A",
+   "H2": "B",
+   "H3": "B"
   },
-  "len": 26.8
+  "len": 22.9
  },
  {
   "id": "h_12_ticket",
-  "file": "videos/h_12_ticket.mp4",
+  "file": "videos/h_12_ticket_v3.mp4",
   "publish_at": "2026-11-05T21:00:00+09:00",
-  "caption": "Tokyo hacks #12: how to use a meal ticket machine 🎫\n\nCommon at ramen, soba and udon shops.\n\n✅ Money in → press your dish → take the ticket\n✅ Hand it to staff or leave it on the counter, then sit\n✅ Small notes and coins help; some machines take transit IC cards\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 290+ East Tokyo spots: link in bio.\n\nVoice and characters made with AI · Facts from public sources (Tabelog, Retty, shop info), checked Oct-Nov 2026; hours change, so check Google Maps the same day.\n\n#tokyotravel #japantravel #tokyofood #japantips #tokyotips",
+  "caption": "Tokyo hacks #12: how to use a meal ticket machine 🎫\n\nCommon at ramen, soba and udon shops.\n\n✅ Money in → press your dish → take the ticket\n✅ Hand it to staff or leave it on the counter, then sit\n✅ Small notes and coins help; some machines take transit IC cards\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 290+ East Tokyo spots: link in bio.\n\nFootage: Mixkit (free license), similar scenes · Voice and characters made with AI · Facts from public sources (Tabelog, Retty, shop info), checked Oct-Nov 2026; hours change, so check Google Maps the same day.\n\n#tokyotravel #japantravel #tokyofood #japantips #tokyotips",
   "tests": {
    "H7": "B",
-   "H1": "B"
+   "H1": "A",
+   "H2": "B"
   },
-  "len": 22.4
+  "len": 19.2
  },
  {
   "id": "b_05_onihei",
@@ -893,7 +898,8 @@
    "H2": "B",
    "H4": "A",
    "H5": "B",
-   "H6": "A"
+   "H6": "A",
+   "H3": "B"
   },
   "len": 22.1
  },
@@ -908,7 +914,8 @@
    "H2": "B",
    "H4": "B",
    "H5": "A",
-   "H6": "A"
+   "H6": "A",
+   "H3": "B"
   },
   "len": 25.3
  },
@@ -923,7 +930,8 @@
    "H2": "B",
    "H4": "A",
    "H5": "A",
-   "H6": "B"
+   "H6": "B",
+   "H3": "B"
   },
   "len": 26.6
  },
@@ -938,7 +946,8 @@
    "H2": "B",
    "H4": "B",
    "H5": "B",
-   "H6": "A"
+   "H6": "A",
+   "H3": "B"
   },
   "len": 24.2
  },
@@ -953,7 +962,8 @@
    "H2": "B",
    "H4": "B",
    "H5": "A",
-   "H6": "B"
+   "H6": "B",
+   "H3": "B"
   },
   "len": 23.6
  },
@@ -968,7 +978,8 @@
    "H2": "B",
    "H4": "A",
    "H5": "B",
-   "H6": "A"
+   "H6": "A",
+   "H3": "B"
   },
   "len": 37.3
  },
@@ -983,7 +994,8 @@
    "H2": "B",
    "H4": "B",
    "H5": "A",
-   "H6": "A"
+   "H6": "A",
+   "H3": "B"
   },
   "len": 31.8
  },
@@ -998,7 +1010,8 @@
    "H2": "B",
    "H4": "A",
    "H5": "A",
-   "H6": "B"
+   "H6": "B",
+   "H3": "B"
   },
   "len": 35.9
  },
@@ -1013,7 +1026,8 @@
    "H2": "B",
    "H4": "B",
    "H5": "B",
-   "H6": "A"
+   "H6": "A",
+   "H3": "B"
   },
   "len": 28.0
  },
@@ -1028,7 +1042,8 @@
    "H2": "B",
    "H4": "A",
    "H5": "B",
-   "H6": "B"
+   "H6": "B",
+   "H3": "B"
   },
   "len": 30.4
  },
@@ -1043,7 +1058,8 @@
    "H2": "B",
    "H4": "B",
    "H5": "A",
-   "H6": "B"
+   "H6": "B",
+   "H3": "B"
   },
   "len": 36.7
  },
