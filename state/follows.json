@@ -769,6 +769,34 @@
    "liked": true,
    "at": "2026-11-05T12:30Z",
    "source": "keyword 'tokyo first time' post author, via Mac (251 followers)"
+  },
+  {
+   "user": "travelerthethoughtful",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T21:30Z",
+   "source": "keyword 'ueno park' post author, via Mac (5072 followers)"
+  },
+  {
+   "user": "swedish_eliza",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T21:30Z",
+   "source": "keyword 'ueno park' post author, via Mac (2218 followers)"
+  },
+  {
+   "user": "formbymk",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T21:30Z",
+   "source": "keyword 'ueno park' post author, via Mac (333 followers)"
+  },
+  {
+   "user": "peaks_and_eats",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-05T21:30Z",
+   "source": "keyword 'japan itinerary' post author, via Mac (2383 followers)"
   }
  ],
  "candidates": [],
@@ -808,7 +836,12 @@
   "mottaskin",
   "savannah.blewden",
   "ophenatural",
-  "audris_lim"
+  "audris_lim",
+  "brookegoldsbro",
+  "selintumeryilmaz",
+  "camidrive",
+  "rafinhasouzads",
+  "niiiinaaa.__"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -888,7 +921,8 @@
   "2026-11-04 06:20 run: +5. Searching keyword 'asakusa trip' / 'ueno tokyo' and following the AUTHORS (travelers posting their own trip) gives public accounts and own-post comment chances. Stopped early: warn flag fired on sukmaa._w (likely false positive from page text; no block dialog seen). warn regex tightened.",
   "2026-11-04 21:20 run: +5 (keyword 'asakusa food', 'akihabara', 'ueno park' post authors). Business filter (.com/.co in bio) skips many personal travelers; consider loosening.",
   "2026-11-05 06:20 run: only +2; keyword search pool is thin in the early morning and many candidates are 10k+ or flagged business. Added 'groepsreis|group trip' to business words (howtotravel.nl slipped through). Next: try 'japan itinerary' comment askers + 'tokyo first time' authors.",
-  "2026-11-05 21:20 run: +4 on koru. Chrome extension disconnected mid-run; after reconnect the Instagram session in Mac Chrome had been switched to codenest_it_skill, and 2 follows+likes (itismonisworld, with.vithika) landed on that account. Both were undone (unliked + unfollowed) right away. Added a guard to follow_like.js: returns 'stop:wrong-account' unless the koru.tokyo_guide profile link is in the nav. Always check the logged-in account before following."
+  "2026-11-05 21:20 run: +4 on koru. Chrome extension disconnected mid-run; after reconnect the Instagram session in Mac Chrome had been switched to codenest_it_skill, and 2 follows+likes (itismonisworld, with.vithika) landed on that account. Both were undone (unliked + unfollowed) right away. Added a guard to follow_like.js: returns 'stop:wrong-account' unless the koru.tokyo_guide profile link is in the nav. Always check the logged-in account before following.",
+  "2026-11-06 06:20 run: account check OK (koru.tokyo_guide). +4 (ueno park / japan itinerary authors). 8 of 12 candidates skipped (5 big, 3 business). Inbox: no new DMs."
  ],
  "dm_log": [
   {
@@ -921,7 +955,10 @@
   "hamzahassansyd",
   "jjolene710",
   "aimeetraveldiaries",
-  "laleneeeh"
+  "laleneeeh",
+  "3ll3basi",
+  "zarahhameed",
+  "radiantdaji"
  ],
  "comment_queue": [
   {
