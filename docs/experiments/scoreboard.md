@@ -62,3 +62,19 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 **Suggested verdict:** no clear difference yet
 
+## H8 — New creative templates (guess-the-price quiz, no-voice text+music, POV) beat the standard v3 explainer
+Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H9 — Quiz/guess format gets comments (people answer A/B/C)
+Metric: **com** · A = quiz · B = non-quiz · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
