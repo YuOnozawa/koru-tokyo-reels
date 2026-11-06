@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-06T06:55:14.483469+00:00",
+ "fetched_at": "2026-11-06T15:05:10.334399+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 74,
+  "media_count": 76,
   "id": "28241506535529259",
   "followers_count": 5,
-  "follows_count": 89
+  "follows_count": 91
  },
  "media": [
+  {
+   "id": "18111644201579093",
+   "permalink": "https://www.instagram.com/reel/DfZkgUlpiZv/",
+   "timestamp": "2026-11-06T12:08:23+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Kyoto-style ramen near Akihabara: Shinpuku Saikan 🍜 (Yu's pi",
+   "reach": 31,
+   "views": 45,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3010,
+   "ig_reels_video_view_total_time": 99352
+  },
   {
    "id": "17912694051310968",
    "permalink": "https://www.instagram.com/reel/DfYtHamJLNZ/",
    "timestamp": "2026-11-06T04:04:23+0000",
    "media_product_type": "REELS",
    "caption_head": "Curry under ¥1,000 in a 16-seat shop? 🍛 Mochizuki Curry, Sue",
-   "reach": 11,
-   "views": 11,
+   "reach": 48,
+   "views": 53,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3078,
-   "ig_reels_video_view_total_time": 33866
+   "ig_reels_avg_watch_time": 3738,
+   "ig_reels_video_view_total_time": 183195
   },
   {
    "id": "18104360630551200",
@@ -32,15 +48,15 @@
    "timestamp": "2026-11-06T01:05:00+0000",
    "media_product_type": "REELS",
    "caption_head": "Cold soba, hot chicken dipping broth: Kanda Nishikicho Saras",
-   "reach": 58,
-   "views": 60,
+   "reach": 102,
+   "views": 110,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2847,
-   "ig_reels_video_view_total_time": 165175
+   "ig_reels_avg_watch_time": 8208,
+   "ig_reels_video_view_total_time": 845509
   },
   {
    "id": "18093500183481427",
@@ -48,15 +64,15 @@
    "timestamp": "2026-11-05T22:05:15+0000",
    "media_product_type": "REELS",
    "caption_head": "Ever had kibi dango still warm? 🍡 Asakusa Kibidango Azuma\n\n🍽",
-   "reach": 75,
-   "views": 78,
-   "likes": 0,
+   "reach": 89,
+   "views": 92,
+   "likes": 1,
    "comments": 0,
    "saved": 1,
    "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2216,
-   "ig_reels_video_view_total_time": 166228
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 2422,
+   "ig_reels_video_view_total_time": 215566
   },
   {
    "id": "18222370156353921",
@@ -80,15 +96,15 @@
    "timestamp": "2026-11-05T15:07:02+0000",
    "media_product_type": "REELS",
    "caption_head": "Where do Akihabara office workers get a sashimi lunch for ¥8",
-   "reach": 89,
-   "views": 92,
+   "reach": 101,
+   "views": 104,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2616,
-   "ig_reels_video_view_total_time": 232870
+   "ig_reels_avg_watch_time": 2566,
+   "ig_reels_video_view_total_time": 259189
   },
   {
    "id": "17945782335089610",
@@ -793,29 +809,13 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 2326,
    "ig_reels_video_view_total_time": 255963
-  },
-  {
-   "id": "17963439753238848",
-   "permalink": "https://www.instagram.com/reel/DewiltljV_c/",
-   "timestamp": "2026-10-21T13:43:07+0000",
-   "media_product_type": "REELS",
-   "caption_head": "My favorite spicy noodles in Tokyo have no soup 🌶️\n\n🥢 Souple",
-   "reach": 102,
-   "views": 110,
-   "likes": 1,
-   "comments": 0,
-   "saved": 1,
-   "shares": 0,
-   "total_interactions": 2,
-   "ig_reels_avg_watch_time": 11583,
-   "ig_reels_video_view_total_time": 1181472
   }
  ],
  "account_daily": {
-  "reach": 1294,
-  "views": 1486,
-  "profile_views": 10,
+  "reach": 713,
+  "views": 787,
+  "profile_views": 6,
   "profile_links_taps": 0,
-  "accounts_engaged": 9
+  "accounts_engaged": 6
  }
 }

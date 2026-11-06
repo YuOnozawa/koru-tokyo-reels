@@ -7,10 +7,10 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 86.9 | 17% | 0.5 | 0.0 | 0.1 |
+| A | 9 | 92.6 | 19% | 0.4 | 0.0 | 0.2 |
 | B | 24 | 94.9 | 11% | 0.2 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+60%)
+**Suggested verdict:** A wins (+82%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -42,7 +42,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 2 | 106.5 | 22% | 0.0 | 0.0 | 1.0 |
-| B | 8 | 86.9 | 17% | 0.5 | 0.0 | 0.1 |
+| B | 9 | 92.6 | 19% | 0.4 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -51,7 +51,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| B | 7 | 84.1 | 17% | 0.5 | 0.0 | 0.1 |
+| B | 8 | 90.9 | 19% | 0.4 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -60,38 +60,38 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 58.3 | 11% | 0.4 | 0.0 | 0.3 |
-| B | 2 | 91.0 | 14% | 0.8 | 0.0 | 0.0 |
+| A | 3 | 79.3 | 13% | 0.4 | 0.0 | 0.7 |
+| B | 3 | 85.7 | 21% | 0.5 | 0.0 | 0.0 |
 
-_Not enough reels yet (need n≥3 per arm)._
+**Suggested verdict:** no clear difference yet
 
 ## H5 — Asking 'which one would you try?' in the caption gets comments
 Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 99.5 | 12% | 1.5 | 0.0 | 0.0 |
-| B | 3 | 52.7 | 13% | 0.0 | 0.0 | 0.3 |
+| A | 3 | 81.3 | 13% | 0.9 | 0.0 | 0.3 |
+| B | 3 | 83.7 | 21% | 0.0 | 0.0 | 0.3 |
 
-_Not enough reels yet (need n≥3 per arm)._
+**Suggested verdict:** A wins (+inf%)
 
 ## H6 — 5 hashtags reach more people than 2
 Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 90.3 | 13% | 0.5 | 0.0 | 0.3 |
-| B | 2 | 43.0 | 11% | 0.7 | 0.0 | 0.0 |
+| A | 3 | 109.0 | 21% | 0.5 | 0.0 | 0.3 |
+| B | 3 | 56.0 | 13% | 0.4 | 0.0 | 0.3 |
 
-_Not enough reels yet (need n≥3 per arm)._
+**Suggested verdict:** A wins (+95%)
 
 ## H7 — Posts in the JST morning/midday (US/EU evening) reach more than JST evening posts
 Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 33 | 98.6 | 14% | 0.3 | 0.0 | 0.1 |
-| B | 17 | 102.8 | 340% | 0.2 | 0.0 | 0.2 |
+| A | 33 | 101.8 | 14% | 0.2 | 0.0 | 0.1 |
+| B | 17 | 98.6 | 338% | 0.1 | 0.0 | 0.1 |
 
 **Suggested verdict:** no clear difference yet
 
