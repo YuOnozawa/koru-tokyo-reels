@@ -797,6 +797,20 @@
    "liked": true,
    "at": "2026-11-05T21:30Z",
    "source": "keyword 'japan itinerary' post author, via Mac (2383 followers)"
+  },
+  {
+   "user": "aaliyahevans1653",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-06T12:35Z",
+   "source": "keyword 'tokyo trip november' post author, via Mac (16 followers)"
+  },
+  {
+   "user": "earlgrey.thea",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-06T12:35Z",
+   "source": "keyword 'tokyo trip november' post author, via Mac (2054 followers)"
   }
  ],
  "candidates": [],
@@ -841,7 +855,9 @@
   "selintumeryilmaz",
   "camidrive",
   "rafinhasouzads",
-  "niiiinaaa.__"
+  "niiiinaaa.__",
+  "0omikuuuo0",
+  "mahfi.quest"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -922,7 +938,8 @@
   "2026-11-04 21:20 run: +5 (keyword 'asakusa food', 'akihabara', 'ueno park' post authors). Business filter (.com/.co in bio) skips many personal travelers; consider loosening.",
   "2026-11-05 06:20 run: only +2; keyword search pool is thin in the early morning and many candidates are 10k+ or flagged business. Added 'groepsreis|group trip' to business words (howtotravel.nl slipped through). Next: try 'japan itinerary' comment askers + 'tokyo first time' authors.",
   "2026-11-05 21:20 run: +4 on koru. Chrome extension disconnected mid-run; after reconnect the Instagram session in Mac Chrome had been switched to codenest_it_skill, and 2 follows+likes (itismonisworld, with.vithika) landed on that account. Both were undone (unliked + unfollowed) right away. Added a guard to follow_like.js: returns 'stop:wrong-account' unless the koru.tokyo_guide profile link is in the nav. Always check the logged-in account before following.",
-  "2026-11-06 06:20 run: account check OK (koru.tokyo_guide). +4 (ueno park / japan itinerary authors). 8 of 12 candidates skipped (5 big, 3 business). Inbox: no new DMs."
+  "2026-11-06 06:20 run: account check OK (koru.tokyo_guide). +4 (ueno park / japan itinerary authors). 8 of 12 candidates skipped (5 big, 3 business). Inbox: no new DMs.",
+  "2026-11-06 21:20 run: account OK. +2. Chrome extension stopped responding mid-run (timeouts, 'couldn't determine page'), so stopped early; inbox not checked. Observed: Japan travel accounts use 'Comment TOKYO/NOV' keyword CTAs (minywander 7,238 comments; japan_web_magazine 220) — supports H12."
  ],
  "dm_log": [
   {
@@ -958,7 +975,9 @@
   "laleneeeh",
   "3ll3basi",
   "zarahhameed",
-  "radiantdaji"
+  "radiantdaji",
+  "noorinjapan",
+  "riana.wanderlust"
  ],
  "comment_queue": [
   {
