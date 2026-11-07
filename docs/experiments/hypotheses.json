@@ -83,5 +83,12 @@
   "metric": "com",
   "since": "2026-11-09",
   "note": "business metric: *_dm events in the GAS events sheet per 1,000 reach"
+ },
+ "H13": {
+  "hypothesis": "'Open at this hour' reels (late night / early morning) get more saves+shares per reach than other food reels",
+  "A": "open-at-this-hour reels",
+  "B": "other reels",
+  "metric": "ss",
+  "since": "2026-11-10"
  }
 }

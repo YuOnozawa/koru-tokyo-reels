@@ -1074,6 +1074,7 @@
   },
   "public_reply": "Sent! Check your DMs 🐕",
   "never": "no DMs to people who did not comment the keyword; no follow-ups unless they reply",
-  "log": []
+  "log": [],
+  "template_note": "For AKIBA use {Area}=Akihabara, a=akiba"
  }
 }
