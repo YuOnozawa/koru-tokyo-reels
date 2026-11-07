@@ -73,7 +73,7 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 | A | 6 | 119.8 | 14% | 1.4 | 0.0 | 0.8 |
 | B | 6 | 99.5 | 16% | 0.5 | 0.0 | 0.7 |
 
-**Suggested verdict:** A wins (+inf%)
+**Suggested verdict:** no clear difference yet
 
 ## H6 — 5 hashtags reach more people than 2
 Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running

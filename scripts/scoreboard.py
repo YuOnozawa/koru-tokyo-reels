@@ -37,7 +37,7 @@ for h in sorted(set(H) | set(arms)):
         vals = {a: v[met] for a, v in res.items() if v[met] is not None}
         if len(vals) >= 2:
             best, worst = max(vals, key=vals.get), min(vals, key=vals.get)
-            gap = (vals[best] - vals[worst]) / vals[worst] if vals[worst] else float('inf')
+            gap = 0 if vals[best] == vals[worst] else ((vals[best] - vals[worst]) / vals[worst] if vals[worst] else float('inf'))
             out.append(''); out.append('**Suggested verdict:** %s' % ('%s wins (+%.0f%%)' % (best, gap * 100) if gap >= .3 else 'no clear difference yet'))
     else:
         out.append(''); out.append('_Not enough reels yet (need n≥3 per arm)._')
