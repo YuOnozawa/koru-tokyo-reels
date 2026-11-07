@@ -832,6 +832,13 @@
    "liked": true,
    "at": "2026-11-06T21:35Z",
    "source": "keyword 'tokyo trip december' post author, via Mac (8911 followers)"
+  },
+  {
+   "user": "bbjiaksimi",
+   "state": "following",
+   "liked": false,
+   "at": "2026-11-07T12:30Z",
+   "source": "keyword 'asakusa food' post author, via Mac (7450 followers)"
   }
  ],
  "candidates": [],
@@ -880,7 +887,8 @@
   "0omikuuuo0",
   "mahfi.quest",
   "clarissaacindy",
-  "wisteria_voyage"
+  "wisteria_voyage",
+  "japan.munching"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -963,7 +971,8 @@
   "2026-11-05 21:20 run: +4 on koru. Chrome extension disconnected mid-run; after reconnect the Instagram session in Mac Chrome had been switched to codenest_it_skill, and 2 follows+likes (itismonisworld, with.vithika) landed on that account. Both were undone (unliked + unfollowed) right away. Added a guard to follow_like.js: returns 'stop:wrong-account' unless the koru.tokyo_guide profile link is in the nav. Always check the logged-in account before following.",
   "2026-11-06 06:20 run: account check OK (koru.tokyo_guide). +4 (ueno park / japan itinerary authors). 8 of 12 candidates skipped (5 big, 3 business). Inbox: no new DMs.",
   "2026-11-06 21:20 run: account OK. +2. Chrome extension stopped responding mid-run (timeouts, 'couldn't determine page'), so stopped early; inbox not checked. Observed: Japan travel accounts use 'Comment TOKYO/NOV' keyword CTAs (minywander 7,238 comments; japan_web_magazine 220) — supports H12.",
-  "2026-11-07 06:20 run: account OK. +3. Inbox: no new DMs. No keyword comments yet (DM reel posts 11/9). Candidate pool from keyword search is thin: most authors are creators/businesses or >10k."
+  "2026-11-07 06:20 run: account OK. +3. Inbox: no new DMs. No keyword comments yet (DM reel posts 11/9). Candidate pool from keyword search is thin: most authors are creators/businesses or >10k.",
+  "2026-11-07 21:20 run: account OK. +1 (pool exhausted: keyword-search authors are mostly creators/big). Inbox/requests: nothing new. Next runs: source candidates from commenters on big Tokyo reels who say they are going soon."
  ],
  "dm_log": [
   {
@@ -1003,7 +1012,8 @@
   "noorinjapan",
   "riana.wanderlust",
   "linlininjapan",
-  "voyage___diaries"
+  "voyage___diaries",
+  "mariusvelena"
  ],
  "comment_queue": [
   {
