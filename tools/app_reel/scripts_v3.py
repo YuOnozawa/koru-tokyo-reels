@@ -141,3 +141,23 @@ V3['s_05_cash'] = {'speed': 1.25, 'beats': [
   {'say': "Sixty-eight of the two hundred ninety-nine places I checked in east Tokyo say cash only.", 'video': SV + '4451.mp4', 'vstart': 3, 'big': '68 OF 299\nCASH ONLY', 'hl': 1, 'size': 170, 'min': 2.4, 'note': 'From 299 East Tokyo places I checked · Footage: Mixkit'},
   {'say': "Carry yen. Small notes help.", 'video': SV + '51236.mp4', 'vstart': 1, 'big': 'CARRY YEN', 'hl': 0, 'chips': ['現金だけですか？', 'cash only?'], 'min': 1.8, 'note': 'Footage: Mixkit'},
 ]}
+
+# ---- 11/10: late-night series (c_08 got 4 shares) ----
+MK = 'Footage: Mixkit, similar scenes, not these shops'
+V3['n_02_late_ramen'] = {'speed': 1.25, 'beats': [
+  {'say': "Ramen after ten p.m. near {Akihabara|ɑkihɑbɑɾɑ}? Three counters, checked by Yu, a local office worker.", 'video': SV + '4109.mp4', 'vstart': 1, 'tag': 'AKIHABARA · AFTER 10PM', 'big': 'RAMEN\nAFTER 10PM', 'hl': 1, 'size': 170, 'min': 2.4, 'note': MK},
+  {'say': "{Fuku no Ken|fuku noʊ kɛn}. Pork bone ramen by the station. Last order ten thirty, every day.", 'video': SV + '46789.mp4', 'vstart': 1, 'tag': '1 · FUKU NO KEN', 'big': 'L.O. 22:30\nEVERY DAY', 'hl': 0, 'chips': ['1 min from JR', 'under ¥1,000', 'no cards'], 'note': MK},
+  {'say': "{Shinpuku Saikan|ʃinpuku sɑikɑn}. Yu's pick. Dark soy ramen, eight hundred eighty yen.", 'video': SV + '46401.mp4', 'vstart': 1, 'tag': "2 · SHINPUKU SAIKAN · YU'S PICK", 'big': 'L.O. 22:30', 'hl': 1, 'chips': ['small ¥880', 'PayPay', 'no cards'], 'note': MK},
+  {'say': "{Odoya|oʊdoʊjɑ}. Open until one a.m. Closed Mondays.", 'video': SV + '51250.mp4', 'vstart': 1, 'tag': '3 · ODOYA CHOKKEI', 'big': 'OPEN TILL\n1AM', 'hl': 0, 'chips': ['Tue-Sat', 'closed Mon', 'bring cash'], 'min': 2.2, 'note': MK},
+]}
+V3['n_03_530am'] = {'speed': 1.25, 'beats': [
+  {'say': "This ramen counter in Tokyo is open until five thirty in the morning.", 'video': SV + '4451.mp4', 'vstart': 1, 'big': 'OPEN TILL\n5:30AM', 'hl': 1, 'size': 180, 'min': 2.6, 'note': MK},
+  {'say': "{Garyu|gɑɾju} {Tantanmen|tɑntɑnmɛn}, {Yushima|juʃimɑ}. Monday to Saturday. Smoking allowed.", 'video': SV + '46789.mp4', 'vstart': 5, 'tag': 'GARYU TANTANMEN · YUSHIMA', 'big': 'MON-SAT', 'hl': 0, 'chips': ['Sun to 23:00', 'under ¥1,000', 'smoking OK'], 'min': 2.4, 'note': MK},
+]}
+V3['n_04_midnight'] = {'speed': 1.25, 'beats': [
+  {'say': "Still hungry at midnight in east Tokyo? Four places still serving.", 'video': SV + '4231.mp4', 'vstart': 1, 'tag': 'EAST TOKYO · MIDNIGHT', 'big': 'STILL OPEN\nAT MIDNIGHT', 'hl': 1, 'size': 160, 'min': 2.2, 'note': MK},
+  {'say': "Iekei ramen in {Ueno|uɛnoʊ}, until three, every day.", 'video': SV + '51239.mp4', 'vstart': 1, 'tag': '1 · YOKOHAMA RAMEN ASAGAYA', 'big': 'TO 3AM\nDAILY', 'hl': 0, 'chips': ['Ueno', 'cards OK'], 'note': MK},
+  {'say': "A retro cafe in {Asakusa|ɑsɑkusɑ}, until three, Tuesday to Saturday.", 'video': SV + '4452.mp4', 'vstart': 2, 'tag': '2 · COFFEE LODGE AKAISHI', 'big': 'TO 3AM', 'hl': 1, 'chips': ['closed Mon', 'no cards'], 'note': MK},
+  {'say': "{Gyoza|gjoʊzɑ} in {Jimbocho|dʒimboʊtʃoʊ}, until three thirty on Fridays. Closed Saturdays.", 'video': SV + '4109.mp4', 'vstart': 3, 'tag': '3 · SANKOUEN', 'big': 'FRI TO 3:30', 'hl': 0, 'chips': ['closed Sat', 'PayPay'], 'note': MK},
+  {'say': "Skewers under the {Ameyoko|ɑmɛjoʊkoʊ} tracks, until midnight, since 1950.", 'video': SV + '4231.mp4', 'vstart': 6, 'tag': '4 · MOTSUYAKI DAITORYO', 'big': 'TO MIDNIGHT', 'hl': 1, 'chips': ['Ueno', 'daily'], 'min': 2.2, 'note': MK},
+]}
