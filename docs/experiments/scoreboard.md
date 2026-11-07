@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 14 | 103.6 | 17% | 0.8 | 0.0 | 0.4 |
+| A | 15 | 110.3 | 17% | 0.8 | 0.0 | 0.6 |
 | B | 24 | 94.9 | 11% | 0.2 | 0.0 | 0.0 |
 
 **Suggested verdict:** A wins (+57%)
@@ -42,7 +42,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 2 | 106.5 | 22% | 0.0 | 0.0 | 1.0 |
-| B | 14 | 103.6 | 17% | 0.8 | 0.0 | 0.4 |
+| B | 15 | 110.3 | 17% | 0.8 | 0.0 | 0.6 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -51,7 +51,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| B | 13 | 103.4 | 17% | 0.9 | 0.0 | 0.5 |
+| B | 14 | 110.6 | 17% | 0.9 | 0.0 | 0.6 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -60,8 +60,8 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 90.8 | 12% | 1.5 | 0.0 | 1.0 |
-| B | 5 | 113.4 | 18% | 0.3 | 0.0 | 0.0 |
+| A | 6 | 101.5 | 12% | 0.9 | 0.0 | 1.0 |
+| B | 6 | 117.8 | 18% | 1.0 | 0.0 | 0.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -70,8 +70,8 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 115.6 | 13% | 0.9 | 0.0 | 0.4 |
-| B | 6 | 89.0 | 16% | 1.1 | 0.0 | 0.7 |
+| A | 6 | 119.8 | 14% | 1.4 | 0.0 | 0.8 |
+| B | 6 | 99.5 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** A wins (+inf%)
 
@@ -81,7 +81,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 112.5 | 16% | 0.4 | 0.0 | 0.2 |
-| B | 5 | 87.4 | 13% | 1.6 | 0.0 | 1.0 |
+| B | 6 | 106.8 | 14% | 1.5 | 0.0 | 1.3 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -90,8 +90,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 35 | 101.8 | 14% | 0.4 | 0.0 | 0.2 |
-| B | 14 | 97.6 | 16% | 0.1 | 0.0 | 0.1 |
+| A | 34 | 103.4 | 14% | 0.4 | 0.0 | 0.2 |
+| B | 15 | 100.4 | 16% | 0.3 | 0.0 | 0.3 |
 
 **Suggested verdict:** no clear difference yet
 

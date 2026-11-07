@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-07T06:06:13.807125+00:00",
+ "fetched_at": "2026-11-07T15:04:30.140417+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 81,
+  "media_count": 82,
   "id": "28241506535529259",
   "followers_count": 6,
-  "follows_count": 94
+  "follows_count": 95
  },
  "media": [
+  {
+   "id": "17984951474900659",
+   "permalink": "https://www.instagram.com/reel/DfcI3NkNa_N/",
+   "timestamp": "2026-11-07T12:05:04+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Hungry after 10pm in East Tokyo? 🌙 Save this!\n\n1️⃣ Garyu Tan",
+   "reach": 140,
+   "views": 157,
+   "likes": 3,
+   "comments": 0,
+   "saved": 2,
+   "shares": 4,
+   "total_interactions": 9,
+   "ig_reels_avg_watch_time": 6027,
+   "ig_reels_video_view_total_time": 843780
+  },
   {
    "id": "18382389367240175",
    "permalink": "https://www.instagram.com/reel/DfbR9ZKBa3E/",
    "timestamp": "2026-11-07T04:04:49+0000",
    "media_product_type": "REELS",
    "caption_head": "Want a cheap drink in Ueno before noon? 🍺 3 standing spots. ",
-   "reach": 37,
-   "views": 53,
+   "reach": 100,
+   "views": 107,
    "likes": 2,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 4,
-   "ig_reels_avg_watch_time": 3754,
-   "ig_reels_video_view_total_time": 138911
+   "ig_reels_avg_watch_time": 3593,
+   "ig_reels_video_view_total_time": 359355
   },
   {
    "id": "18170888281497289",
@@ -48,15 +64,15 @@
    "timestamp": "2026-11-06T22:05:05+0000",
    "media_product_type": "REELS",
    "caption_head": "Hungry before 11am in Tokyo? 🍳 4 breakfast spots near Kanda ",
-   "reach": 113,
-   "views": 120,
+   "reach": 114,
+   "views": 121,
    "likes": 0,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 5315,
-   "ig_reels_video_view_total_time": 595356
+   "ig_reels_avg_watch_time": 5295,
+   "ig_reels_video_view_total_time": 598391
   },
   {
    "id": "18399801010206571",
@@ -81,14 +97,14 @@
    "media_product_type": "REELS",
    "caption_head": "Need soba at 6am near Akihabara? 🥢 4 standing spots. Save th",
    "reach": 106,
-   "views": 110,
+   "views": 111,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2598,
-   "ig_reels_video_view_total_time": 280685
+   "ig_reels_avg_watch_time": 2595,
+   "ig_reels_video_view_total_time": 282875
   },
   {
    "id": "17898868764477331",
@@ -96,7 +112,7 @@
    "timestamp": "2026-11-06T15:05:36+0000",
    "media_product_type": "REELS",
    "caption_head": "Need soba at 6am near Akihabara? 🥢 4 standing spots. Save th",
-   "reach": 119,
+   "reach": 120,
    "views": 126,
    "likes": 1,
    "comments": 0,
@@ -793,29 +809,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 2288,
    "ig_reels_video_view_total_time": 263230
-  },
-  {
-   "id": "18047536772818230",
-   "permalink": "https://www.instagram.com/reel/De5Re1PxpcU/",
-   "timestamp": "2026-10-24T23:06:41+0000",
-   "media_product_type": "REELS",
-   "caption_head": "How I pick dinner on a business trip in Japan 🚄\n\n🏢 Go to the",
-   "reach": 114,
-   "views": 122,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2662,
-   "ig_reels_video_view_total_time": 308792
   }
  ],
  "account_daily": {
-  "reach": 1376,
-  "views": 1575,
-  "profile_views": 7,
+  "reach": 1001,
+  "views": 1134,
+  "profile_views": 1,
   "profile_links_taps": 0,
-  "accounts_engaged": 16
+  "accounts_engaged": 15
  }
 }
