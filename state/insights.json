@@ -1,15 +1,63 @@
 {
- "fetched_at": "2026-11-08T06:10:42.441301+00:00",
+ "fetched_at": "2026-11-08T15:04:17.744890+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 87,
+  "media_count": 90,
   "id": "28241506535529259",
   "followers_count": 6,
   "follows_count": 95
  },
  "media": [
+  {
+   "id": "18649763593053097",
+   "permalink": "https://www.instagram.com/reel/DfetrEXB4Qq/",
+   "timestamp": "2026-11-08T12:04:44+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Get the check fast in Tokyo 🧾\n\nSay お会計お願いします (okaikei onegai",
+   "reach": 76,
+   "views": 91,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2032,
+   "ig_reels_video_view_total_time": 154471
+  },
+  {
+   "id": "18097590527243464",
+   "permalink": "https://www.instagram.com/reel/DfeZBTZKGJN/",
+   "timestamp": "2026-11-08T09:04:14+0000",
+   "media_product_type": "REELS",
+   "caption_head": "1 in 3 East Tokyo places I checked is closed on Sunday 🚪 (94",
+   "reach": 121,
+   "views": 139,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3098,
+   "ig_reels_video_view_total_time": 374861
+  },
+  {
+   "id": "18027936167869374",
+   "permalink": "https://www.instagram.com/reel/DfeLae1NnBH/",
+   "timestamp": "2026-11-08T07:05:21+0000",
+   "media_product_type": "REELS",
+   "caption_head": "POV: your first ramen shop in Tokyo has no menu, just a mach",
+   "reach": 118,
+   "views": 135,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4196,
+   "ig_reels_video_view_total_time": 491032
+  },
   {
    "id": "18121226530989704",
    "permalink": "https://www.instagram.com/reel/Dfd2y2dzc1K/",
@@ -32,15 +80,15 @@
    "timestamp": "2026-11-08T01:06:43+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo wakes up early ☕ 6am soba, 7am coffee, 8am morning set",
-   "reach": 112,
-   "views": 127,
+   "reach": 113,
+   "views": 128,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2858,
-   "ig_reels_video_view_total_time": 325843
+   "ig_reels_avg_watch_time": 2860,
+   "ig_reels_video_view_total_time": 328981
   },
   {
    "id": "17877075954593565",
@@ -48,15 +96,15 @@
    "timestamp": "2026-11-07T22:04:43+0000",
    "media_product_type": "REELS",
    "caption_head": "Eat like a local in Tokyo: 3 moves 🍜\n\n1️⃣ Slurp your noodles",
-   "reach": 114,
-   "views": 120,
+   "reach": 116,
+   "views": 122,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3438,
-   "ig_reels_video_view_total_time": 391968
+   "ig_reels_avg_watch_time": 3428,
+   "ig_reels_video_view_total_time": 397752
   },
   {
    "id": "18136750582672186",
@@ -80,15 +128,15 @@
    "timestamp": "2026-11-07T15:04:52+0000",
    "media_product_type": "REELS",
    "caption_head": "Soba for ¥510 at 6am, by Akihabara 🥢\n\nMinogasa: kakiage soba",
-   "reach": 141,
-   "views": 168,
+   "reach": 144,
+   "views": 171,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4270,
-   "ig_reels_video_view_total_time": 602082
+   "ig_reels_avg_watch_time": 4244,
+   "ig_reels_video_view_total_time": 611153
   },
   {
    "id": "17984951474900659",
@@ -96,15 +144,15 @@
    "timestamp": "2026-11-07T12:05:04+0000",
    "media_product_type": "REELS",
    "caption_head": "Hungry after 10pm in East Tokyo? 🌙 Save this!\n\n1️⃣ Garyu Tan",
-   "reach": 276,
-   "views": 296,
+   "reach": 321,
+   "views": 345,
    "likes": 4,
    "comments": 0,
-   "saved": 3,
+   "saved": 4,
    "shares": 4,
-   "total_interactions": 11,
-   "ig_reels_avg_watch_time": 6362,
-   "ig_reels_video_view_total_time": 1737098
+   "total_interactions": 12,
+   "ig_reels_avg_watch_time": 6563,
+   "ig_reels_video_view_total_time": 2093883
   },
   {
    "id": "18382389367240175",
@@ -336,15 +384,15 @@
    "timestamp": "2026-11-05T01:05:26+0000",
    "media_product_type": "REELS",
    "caption_head": "Tokyo hacks #10: some places still allow smoking inside 🚬\n\n1",
-   "reach": 102,
-   "views": 107,
+   "reach": 103,
+   "views": 108,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4891,
-   "ig_reels_video_view_total_time": 498939
+   "ig_reels_avg_watch_time": 5033,
+   "ig_reels_video_view_total_time": 518441
   },
   {
    "id": "18099404882450579",
@@ -761,61 +809,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 7809,
    "ig_reels_video_view_total_time": 796536
-  },
-  {
-   "id": "18389772775233135",
-   "permalink": "https://www.instagram.com/reel/DfLFicJPNlg/",
-   "timestamp": "2026-10-31T21:08:45+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Free Tokyo food planner: where locals eat in Akihabara, Ueno",
-   "reach": 113,
-   "views": 117,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2576,
-   "ig_reels_video_view_total_time": 304023
-  },
-  {
-   "id": "18390063688229384",
-   "permalink": "https://www.instagram.com/reel/DfKRhy1hF8b/",
-   "timestamp": "2026-10-31T13:33:58+0000",
-   "media_product_type": "REELS",
-   "caption_head": "From November 1, tax-free shopping in Japan works differentl",
-   "reach": 105,
-   "views": 121,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 8575,
-   "ig_reels_video_view_total_time": 943331
-  },
-  {
-   "id": "17921142897245580",
-   "permalink": "https://www.instagram.com/reel/DfJWCYMtaSj/",
-   "timestamp": "2026-10-31T04:54:08+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Learn these before you eat out in Tokyo 🗣\n\n🙏 いただきます itadakim",
-   "reach": 108,
-   "views": 110,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 1,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2506,
-   "ig_reels_video_view_total_time": 275684
   }
  ],
  "account_daily": {
-  "reach": 1693,
-  "views": 1974,
-  "profile_views": 2,
+  "reach": 1180,
+  "views": 1404,
+  "profile_views": 1,
   "profile_links_taps": 0,
-  "accounts_engaged": 19
+  "accounts_engaged": 11
  }
 }
