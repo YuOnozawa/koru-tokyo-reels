@@ -7,10 +7,10 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 15 | 110.3 | 17% | 0.8 | 0.0 | 0.6 |
+| A | 20 | 120.2 | 22% | 0.6 | 0.0 | 0.5 |
 | B | 24 | 94.9 | 11% | 0.2 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+57%)
+**Suggested verdict:** A wins (+107%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -36,13 +36,21 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 _Not enough reels yet (need n≥3 per arm)._
 
+## H13 — 'Open at this hour' reels (late night / early morning) get more saves+shares per reach than other food reels
+Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
 ## H2 — Yu's real photos beat stock footage
 Metric: **comp** · A = Yu photos · B = stock footage · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 2 | 106.5 | 22% | 0.0 | 0.0 | 1.0 |
-| B | 15 | 110.3 | 17% | 0.8 | 0.0 | 0.6 |
+| B | 16 | 119.1 | 17% | 0.7 | 0.0 | 0.6 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -51,7 +59,8 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| B | 14 | 110.6 | 17% | 0.9 | 0.0 | 0.6 |
+| A | 2 | 132.0 | 54% | 0.4 | 0.0 | 0.0 |
+| B | 14 | 120.4 | 17% | 0.8 | 0.0 | 0.7 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -60,17 +69,17 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 101.5 | 12% | 0.9 | 0.0 | 1.0 |
-| B | 6 | 117.8 | 18% | 1.0 | 0.0 | 0.5 |
+| A | 6 | 101.7 | 12% | 0.9 | 0.0 | 1.0 |
+| B | 6 | 140.5 | 18% | 0.7 | 0.0 | 0.7 |
 
-**Suggested verdict:** no clear difference yet
+**Suggested verdict:** B wins (+38%)
 
 ## H5 — Asking 'which one would you try?' in the caption gets comments
 Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 119.8 | 14% | 1.4 | 0.0 | 0.8 |
+| A | 7 | 139.9 | 16% | 1.0 | 0.0 | 0.9 |
 | B | 6 | 99.5 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
@@ -81,7 +90,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 112.5 | 16% | 0.4 | 0.0 | 0.2 |
-| B | 6 | 106.8 | 14% | 1.5 | 0.0 | 1.3 |
+| B | 6 | 129.7 | 14% | 1.2 | 0.0 | 1.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -90,8 +99,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 34 | 103.4 | 14% | 0.4 | 0.0 | 0.2 |
-| B | 15 | 100.4 | 16% | 0.3 | 0.0 | 0.3 |
+| A | 36 | 105.8 | 17% | 0.3 | 0.0 | 0.2 |
+| B | 13 | 108.5 | 15% | 0.3 | 0.0 | 0.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -100,6 +109,7 @@ Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: 
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
+| A | 2 | 117.5 | 32% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -108,6 +118,7 @@ Metric: **com** · A = quiz · B = non-quiz · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
+| A | 1 | 123.0 | 29% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
