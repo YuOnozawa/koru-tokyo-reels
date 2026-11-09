@@ -839,6 +839,27 @@
    "liked": false,
    "at": "2026-11-07T12:30Z",
    "source": "keyword 'asakusa food' post author, via Mac (7450 followers)"
+  },
+  {
+   "user": "jessicamatat",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-09T12:40Z",
+   "source": "commented on laurahtravel's Tokyo winter illuminations reel (Oct 25 2026) — planning Nov/Dec, via Mac (1202 followers)"
+  },
+  {
+   "user": "cocobeans_808",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-09T12:40Z",
+   "source": "commented on laurahtravel's Tokyo winter illuminations reel (Oct 25 2026) — planning Nov/Dec, via Mac (40 followers)"
+  },
+  {
+   "user": "gretabradbury",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-09T12:40Z",
+   "source": "commented on laurahtravel's Tokyo winter illuminations reel (Oct 25 2026) — planning Nov/Dec, via Mac (5372 followers)"
   }
  ],
  "candidates": [],
@@ -954,7 +975,11 @@
   "gloryws",
   "yeyen00",
   "stelylee",
-  "dlsvdl"
+  "dlsvdl",
+  "isadoramelie",
+  "nicolemunsell",
+  "choi.lena",
+  "alliy808"
  ],
  "already_following": [
   "reefalon1",
@@ -975,7 +1000,8 @@
   "2026-11-07 21:20 run: account OK. +1 (pool exhausted: keyword-search authors are mostly creators/big). Inbox/requests: nothing new. Next runs: source candidates from commenters on big Tokyo reels who say they are going soon.",
   "2026-11-08 06:20 run: account OK. 0 follows. Tried commenter-sourcing; the reels I opened were old or not about Japan (melissawoodtepperberg first-time-in-Japan post is 28 weeks old; shannon_savvytourist/1hourtravelguides latest = Cook Islands/Vietnam). Inbox: nothing new. Next: open Tokyo/Japan reels posted in the last 2 weeks (check the date line first) and take commenters who say they are going soon.",
   "2026-11-08 21:20 run: account OK, inbox nothing new. 0 follows: Chrome extension disconnected while searching. Stopped.",
-  "2026-11-09 06:20 run: account OK. 0 follows: Chrome stopped responding while opening a post (2nd run in a row). Found a good source post for next time: laurahtravel /p/De78oZ2z3L2/ (Oct 25 2026, 352 comments)."
+  "2026-11-09 06:20 run: account OK. 0 follows: Chrome stopped responding while opening a post (2nd run in a row). Found a good source post for next time: laurahtravel /p/De78oZ2z3L2/ (Oct 25 2026, 352 comments).",
+  "2026-11-09 21:20 run: account OK. b_10 (UENO DM reel): 0 comments after 14h, so no DMs. Inbox nothing new. +3 from commenters on a recent Tokyo winter reel (good source: real Nov/Dec travelers; many private)."
  ],
  "dm_log": [
   {
