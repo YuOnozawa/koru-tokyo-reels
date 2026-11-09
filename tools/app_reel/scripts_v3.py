@@ -161,3 +161,26 @@ V3['n_04_midnight'] = {'speed': 1.25, 'beats': [
   {'say': "{Gyoza|gjoʊzɑ} in {Jimbocho|dʒimboʊtʃoʊ}, until three thirty on Fridays. Closed Saturdays.", 'video': SV + '4109.mp4', 'vstart': 3, 'tag': '3 · SANKOUEN', 'big': 'FRI TO 3:30', 'hl': 0, 'chips': ['closed Sat', 'PayPay'], 'note': MK},
   {'say': "Skewers under the {Ameyoko|ɑmɛjoʊkoʊ} tracks, until midnight, since 1950.", 'video': SV + '4231.mp4', 'vstart': 6, 'tag': '4 · MOTSUYAKI DAITORYO', 'big': 'TO MIDNIGHT', 'hl': 1, 'chips': ['Ueno', 'daily'], 'min': 2.2, 'note': MK},
 ]}
+
+# ---- 11/11: late-night by area (c_08 format: intro + 4 spots) ----
+V3['n_05_ueno_late'] = {'speed': 1.25, 'beats': [
+  {'say': "Where to eat after ten p.m. in {Ueno|uɛnoʊ}? Four places, checked by Yu, a local office worker.", 'video': SV + '4231.mp4', 'vstart': 1, 'tag': 'UENO · AFTER 10PM', 'big': 'UENO\nAFTER 10PM', 'hl': 1, 'size': 170, 'min': 2.4, 'note': MK},
+  {'say': "Iekei ramen until three a.m., every day.", 'video': SV + '51239.mp4', 'vstart': 1, 'tag': '1 · YOKOHAMA RAMEN ASAGAYA', 'big': 'TO 3AM', 'hl': 0, 'chips': ['daily', 'cards OK'], 'note': MK},
+  {'say': "Skewers under the {Ameyoko|ɑmɛjoʊkoʊ} tracks until midnight, since 1950.", 'video': SV + '4109.mp4', 'vstart': 2, 'tag': '2 · MOTSUYAKI DAITORYO', 'big': 'TO MIDNIGHT', 'hl': 1, 'chips': ['daily', 'from ¥180'], 'note': MK},
+  {'say': "A standing bar until eleven thirty. Cash only.", 'video': SV + '4451.mp4', 'vstart': 2, 'tag': '3 · TACHINOMI TAKIOKA', 'big': 'TO 23:30', 'hl': 0, 'chips': ['standing', 'cash only', 'smoking OK'], 'note': MK},
+  {'say': "Dipping noodles inside the station, last order ten thirty.", 'video': SV + '46401.mp4', 'vstart': 1, 'tag': '4 · ROKURINSHA', 'big': 'L.O. 22:30', 'hl': 1, 'chips': ['atre Ueno 1F', 'daily'], 'min': 2.2, 'note': MK},
+]}
+V3['n_06_asakusa_late'] = {'speed': 1.25, 'beats': [
+  {'say': "Most of {Asakusa|ɑsɑkusɑ} goes dark early. These four don't.", 'video': SV + '4452.mp4', 'vstart': 1, 'tag': 'ASAKUSA · AFTER 10PM', 'big': 'ASAKUSA\nAFTER 10PM', 'hl': 1, 'size': 170, 'min': 2.4, 'note': MK},
+  {'say': "A retro cafe until three a.m., Tuesday to Saturday.", 'video': SV + '4451.mp4', 'vstart': 4, 'tag': '1 · COFFEE LODGE AKAISHI', 'big': 'TO 3AM', 'hl': 0, 'chips': ['closed Mon', 'no cards'], 'note': MK},
+  {'say': "{Yakiniku|jɑkiniku} until two a.m., open every day.", 'video': SV + '51241.mp4', 'vstart': 1, 'tag': '2 · HON-TOSAYA', 'big': 'TO 2AM', 'hl': 1, 'chips': ['¥6,000-8,000', 'cards OK'], 'note': MK},
+  {'say': "An {izakaya|izɑkɑjɑ} on {Hoppy|hɑpi} Street with menus in English, until eleven.", 'video': SV + '4454.mp4', 'vstart': 1, 'tag': '3 · ASAKUSA SAKABA OKAMOTO', 'big': 'TO 23:00', 'hl': 0, 'chips': ['English menu', 'about ¥2,000'], 'note': MK},
+  {'say': "Cook-it-yourself {okonomiyaki|oʊkoʊnoʊmijɑki} since 1937, until ten thirty.", 'video': SV + '4231.mp4', 'vstart': 5, 'tag': '4 · SOMETARO', 'big': 'TO 22:30', 'hl': 1, 'chips': ['since 1937', 'from ¥2,000'], 'min': 2.2, 'note': MK},
+]}
+V3['n_07_kanda_late'] = {'speed': 1.25, 'beats': [
+  {'say': "Working late near Tokyo Station? {Kanda|kɑndɑ} still feeds you after ten.", 'video': SV + '4448.mp4', 'vstart': 1, 'tag': 'KANDA · AFTER 10PM', 'big': 'KANDA\nAFTER 10PM', 'hl': 1, 'size': 170, 'min': 2.4, 'note': MK},
+  {'say': "Northeast Chinese food, last order ten thirty, open every day.", 'video': SV + '51257.mp4', 'vstart': 2, 'tag': '1 · AJIBO', 'big': 'L.O. 22:30', 'hl': 0, 'chips': ['daily', 'cards OK'], 'note': MK},
+  {'say': "Salt and ginger ramen, weekdays until eleven. Cash only.", 'video': SV + '46789.mp4', 'vstart': 3, 'tag': '2 · MANNISH, AWAJICHO', 'big': 'WEEKDAYS\nTO 23:00', 'hl': 1, 'chips': ['cash only', '11 seats'], 'note': MK},
+  {'say': "Curry that turns into a curry {izakaya|izɑkɑjɑ} on weekday nights.", 'video': SV + '51250.mp4', 'vstart': 3, 'tag': '3 · TOPCA KANDA', 'big': 'WEEKDAYS\nTO 23:00', 'hl': 0, 'chips': ['weekend to 18:00'], 'note': MK},
+  {'say': "Yakitori until eleven, Monday to Friday.", 'video': SV + '4109.mp4', 'vstart': 4, 'tag': '4 · TORI TO CHUHAI TORISU', 'big': 'MON-FRI\nTO 23:00', 'hl': 1, 'chips': ['¥400 table charge', 'cards OK'], 'min': 2.2, 'note': MK},
+]}
