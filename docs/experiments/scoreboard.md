@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 26 | 120.1 | 25% | 0.5 | 0.0 | 0.4 |
+| A | 26 | 121.3 | 25% | 0.5 | 0.0 | 0.4 |
 | B | 21 | 94.8 | 10% | 0.1 | 0.0 | 0.0 |
 
 **Suggested verdict:** A wins (+145%)
@@ -17,7 +17,7 @@ Metric: **comp** · A = sauna series · B = food reels · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 77.0 | 18% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 107.0 | 17% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -26,8 +26,8 @@ Metric: **ss** · A = seasonal decision reel · B = evergreen reels · status: r
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 106.0 | 18% | 0.9 | 0.0 | 0.0 |
-| B | 2 | 103.5 | 31% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 106.0 | 19% | 0.9 | 0.0 | 0.0 |
+| B | 2 | 118.5 | 31% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -36,7 +36,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 106.0 | 18% | 0.9 | 0.0 | 0.0 |
+| A | 1 | 106.0 | 19% | 0.9 | 0.0 | 0.0 |
 | B | 1 | 130.0 | 44% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -54,8 +54,8 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 96.7 | 21% | 0.0 | 0.0 | 0.7 |
-| B | 16 | 122.2 | 17% | 0.7 | 0.0 | 0.6 |
+| A | 3 | 106.7 | 21% | 0.0 | 0.0 | 0.7 |
+| B | 16 | 122.3 | 17% | 0.7 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -74,17 +74,17 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 98.4 | 13% | 0.8 | 0.0 | 0.9 |
+| A | 7 | 102.9 | 13% | 0.8 | 0.0 | 0.9 |
 | B | 6 | 148.2 | 18% | 0.7 | 0.0 | 0.7 |
 
-**Suggested verdict:** B wins (+51%)
+**Suggested verdict:** B wins (+44%)
 
 ## H5 — Asking 'which one would you try?' in the caption gets comments
 Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 137.8 | 16% | 0.9 | 0.0 | 0.8 |
+| A | 8 | 141.6 | 16% | 0.9 | 0.0 | 0.8 |
 | B | 6 | 99.8 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
@@ -94,8 +94,8 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 107.6 | 16% | 0.4 | 0.0 | 0.1 |
-| B | 6 | 137.5 | 14% | 1.2 | 0.0 | 1.5 |
+| A | 7 | 111.9 | 16% | 0.4 | 0.0 | 0.1 |
+| B | 6 | 137.7 | 14% | 1.2 | 0.0 | 1.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -104,8 +104,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 37 | 105.7 | 18% | 0.3 | 0.0 | 0.2 |
-| B | 12 | 117.9 | 21% | 0.2 | 0.0 | 0.6 |
+| A | 37 | 106.5 | 18% | 0.3 | 0.0 | 0.2 |
+| B | 12 | 118.1 | 21% | 0.2 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -114,7 +114,7 @@ Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: 
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 121.3 | 35% | 0.0 | 0.0 | 0.3 |
+| A | 3 | 122.0 | 35% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 

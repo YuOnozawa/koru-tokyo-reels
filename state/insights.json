@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T06:44:43.925926+00:00",
+ "fetched_at": "2026-11-09T15:05:10.009376+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -7,7 +7,7 @@
   "media_count": 93,
   "id": "28241506535529259",
   "followers_count": 6,
-  "follows_count": 95
+  "follows_count": 98
  },
  "media": [
   {
@@ -16,15 +16,15 @@
    "timestamp": "2026-11-09T04:04:43+0000",
    "media_product_type": "REELS",
    "caption_head": "What do you eat after a Japanese sauna? 🧖 It's called sa-mes",
-   "reach": 77,
-   "views": 109,
+   "reach": 107,
+   "views": 115,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3869,
-   "ig_reels_video_view_total_time": 301854
+   "ig_reels_avg_watch_time": 3779,
+   "ig_reels_video_view_total_time": 411994
   },
   {
    "id": "18127792153923876",
@@ -39,8 +39,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3912,
-   "ig_reels_video_view_total_time": 414761
+   "ig_reels_avg_watch_time": 3985,
+   "ig_reels_video_view_total_time": 426485
   },
   {
    "id": "18205248907331642",
@@ -96,15 +96,15 @@
    "timestamp": "2026-11-08T07:05:21+0000",
    "media_product_type": "REELS",
    "caption_head": "POV: your first ramen shop in Tokyo has no menu, just a mach",
-   "reach": 128,
+   "reach": 130,
    "views": 151,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4459,
-   "ig_reels_video_view_total_time": 570797
+   "ig_reels_avg_watch_time": 4463,
+   "ig_reels_video_view_total_time": 580217
   },
   {
    "id": "18121226530989704",
@@ -352,7 +352,7 @@
    "timestamp": "2026-11-05T22:05:15+0000",
    "media_product_type": "REELS",
    "caption_head": "Ever had kibi dango still warm? 🍡 Asakusa Kibidango Azuma\n\n🍽",
-   "reach": 100,
+   "reach": 101,
    "views": 103,
    "likes": 2,
    "comments": 0,
@@ -812,10 +812,10 @@
   }
  ],
  "account_daily": {
-  "reach": 1478,
-  "views": 1796,
-  "profile_views": 1,
+  "reach": 638,
+  "views": 757,
+  "profile_views": 3,
   "profile_links_taps": 0,
-  "accounts_engaged": 12
+  "accounts_engaged": 2
  }
 }
