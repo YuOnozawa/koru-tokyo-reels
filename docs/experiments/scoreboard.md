@@ -7,10 +7,10 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 28 | 121.5 | 26% | 0.5 | 0.0 | 0.4 |
-| B | 19 | 94.6 | 10% | 0.2 | 0.0 | 0.1 |
+| A | 29 | 121.6 | 26% | 0.5 | 0.0 | 0.4 |
+| B | 18 | 93.6 | 10% | 0.2 | 0.0 | 0.1 |
 
-**Suggested verdict:** A wins (+148%)
+**Suggested verdict:** A wins (+151%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -36,8 +36,8 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 115.5 | 21% | 0.5 | 0.0 | 0.0 |
-| B | 1 | 130.0 | 44% | 0.0 | 0.0 | 0.0 |
+| A | 2 | 115.5 | 22% | 0.5 | 0.0 | 0.0 |
+| B | 2 | 126.0 | 31% | 0.4 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -46,7 +46,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 121.5 | 35% | 0.4 | 0.0 | 0.5 |
+| A | 3 | 122.3 | 29% | 0.8 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -65,8 +65,8 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 123.0 | 48% | 0.3 | 0.0 | 0.2 |
-| B | 16 | 122.9 | 17% | 0.7 | 0.0 | 0.6 |
+| A | 6 | 123.3 | 48% | 0.4 | 0.0 | 0.2 |
+| B | 17 | 122.8 | 17% | 0.7 | 0.0 | 0.6 |
 
 **Suggested verdict:** A wins (+177%)
 
@@ -105,8 +105,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 37 | 108.0 | 19% | 0.4 | 0.0 | 0.2 |
-| B | 12 | 118.1 | 21% | 0.2 | 0.0 | 0.6 |
+| A | 36 | 107.9 | 20% | 0.4 | 0.0 | 0.2 |
+| B | 13 | 118.5 | 20% | 0.3 | 0.0 | 0.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -115,7 +115,7 @@ Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: 
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 122.0 | 35% | 0.0 | 0.0 | 0.3 |
+| A | 3 | 122.3 | 35% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 

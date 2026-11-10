@@ -1,30 +1,46 @@
 {
- "fetched_at": "2026-11-10T07:25:38.573163+00:00",
+ "fetched_at": "2026-11-10T15:06:35.438812+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 95,
+  "media_count": 96,
   "id": "28241506535529259",
   "followers_count": 7,
   "follows_count": 98
  },
  "media": [
   {
+   "id": "18137272489660262",
+   "permalink": "https://www.instagram.com/reel/Dfj3c0kSu9U/",
+   "timestamp": "2026-11-10T12:06:20+0000",
+   "media_product_type": "REELS",
+   "caption_head": "What's open at midnight in East Tokyo? 🌙 4 places still serv",
+   "reach": 122,
+   "views": 133,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3331,
+   "ig_reels_video_view_total_time": 406475
+  },
+  {
    "id": "18134451166667189",
    "permalink": "https://www.instagram.com/reel/DfjAWr6hDoE/",
    "timestamp": "2026-11-10T04:04:55+0000",
    "media_product_type": "REELS",
    "caption_head": "Ramen open until 5:30am in Tokyo? 🌙 Garyu Tantanmen, Yushima",
-   "reach": 119,
-   "views": 147,
+   "reach": 121,
+   "views": 153,
    "likes": 1,
    "comments": 0,
    "saved": 0,
-   "shares": 1,
-   "total_interactions": 2,
-   "ig_reels_avg_watch_time": 3434,
-   "ig_reels_video_view_total_time": 408668
+   "shares": 2,
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 3486,
+   "ig_reels_video_view_total_time": 421820
   },
   {
    "id": "18170426356487110",
@@ -39,8 +55,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4319,
-   "ig_reels_video_view_total_time": 531310
+   "ig_reels_avg_watch_time": 4306,
+   "ig_reels_video_view_total_time": 534006
   },
   {
    "id": "18653197063061888",
@@ -71,8 +87,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4018,
-   "ig_reels_video_view_total_time": 434006
+   "ig_reels_avg_watch_time": 4065,
+   "ig_reels_video_view_total_time": 443172
   },
   {
    "id": "18205248907331642",
@@ -128,15 +144,15 @@
    "timestamp": "2026-11-08T07:05:21+0000",
    "media_product_type": "REELS",
    "caption_head": "POV: your first ramen shop in Tokyo has no menu, just a mach",
-   "reach": 130,
-   "views": 151,
+   "reach": 131,
+   "views": 152,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4463,
-   "ig_reels_video_view_total_time": 580217
+   "ig_reels_avg_watch_time": 4484,
+   "ig_reels_video_view_total_time": 587477
   },
   {
    "id": "18121226530989704",
@@ -793,27 +809,11 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 2038,
    "ig_reels_video_view_total_time": 209960
-  },
-  {
-   "id": "17909177016567574",
-   "permalink": "https://www.instagram.com/reel/DfOZ-F9MjO9/",
-   "timestamp": "2026-11-02T04:04:42+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Tokyo hacks #4: the staff won't come to your table? Say this",
-   "reach": 114,
-   "views": 126,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3458,
-   "ig_reels_video_view_total_time": 404609
   }
  ],
  "account_daily": {
-  "reach": 878,
-  "views": 1037,
+  "reach": 377,
+  "views": 422,
   "profile_views": 4,
   "profile_links_taps": 0,
   "accounts_engaged": 5
