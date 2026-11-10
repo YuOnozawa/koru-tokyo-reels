@@ -7,17 +7,17 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 26 | 121.3 | 25% | 0.5 | 0.0 | 0.4 |
-| B | 21 | 94.8 | 10% | 0.1 | 0.0 | 0.0 |
+| A | 28 | 121.5 | 26% | 0.5 | 0.0 | 0.4 |
+| B | 19 | 94.6 | 10% | 0.2 | 0.0 | 0.1 |
 
-**Suggested verdict:** A wins (+145%)
+**Suggested verdict:** A wins (+148%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 107.0 | 17% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 109.0 | 17% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -26,8 +26,8 @@ Metric: **ss** · A = seasonal decision reel · B = evergreen reels · status: r
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 106.0 | 19% | 0.9 | 0.0 | 0.0 |
-| B | 2 | 118.5 | 31% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 107.0 | 19% | 0.9 | 0.0 | 0.0 |
+| B | 2 | 119.5 | 31% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -36,7 +36,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 106.0 | 19% | 0.9 | 0.0 | 0.0 |
+| A | 2 | 115.5 | 21% | 0.5 | 0.0 | 0.0 |
 | B | 1 | 130.0 | 44% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -46,6 +46,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
+| A | 2 | 121.5 | 35% | 0.4 | 0.0 | 0.5 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -54,7 +55,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 106.7 | 21% | 0.0 | 0.0 | 0.7 |
+| A | 3 | 107.3 | 21% | 0.0 | 0.0 | 0.7 |
 | B | 16 | 122.3 | 17% | 0.7 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
@@ -64,17 +65,17 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 123.8 | 48% | 0.1 | 0.0 | 0.0 |
-| B | 15 | 122.7 | 17% | 0.8 | 0.0 | 0.7 |
+| A | 6 | 123.0 | 48% | 0.3 | 0.0 | 0.2 |
+| B | 16 | 122.9 | 17% | 0.7 | 0.0 | 0.6 |
 
-**Suggested verdict:** A wins (+187%)
+**Suggested verdict:** A wins (+177%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 102.9 | 13% | 0.8 | 0.0 | 0.9 |
+| A | 7 | 103.1 | 13% | 0.8 | 0.0 | 0.9 |
 | B | 6 | 148.2 | 18% | 0.7 | 0.0 | 0.7 |
 
 **Suggested verdict:** B wins (+44%)
@@ -84,7 +85,7 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 141.6 | 16% | 0.9 | 0.0 | 0.8 |
+| A | 8 | 141.9 | 16% | 0.9 | 0.0 | 0.8 |
 | B | 6 | 99.8 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
@@ -94,7 +95,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 111.9 | 16% | 0.4 | 0.0 | 0.1 |
+| A | 7 | 112.1 | 16% | 0.4 | 0.0 | 0.1 |
 | B | 6 | 137.7 | 14% | 1.2 | 0.0 | 1.5 |
 
 **Suggested verdict:** no clear difference yet
@@ -104,7 +105,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 37 | 106.5 | 18% | 0.3 | 0.0 | 0.2 |
+| A | 37 | 108.0 | 19% | 0.4 | 0.0 | 0.2 |
 | B | 12 | 118.1 | 21% | 0.2 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet

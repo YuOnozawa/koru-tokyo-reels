@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-11-09T15:05:10.009376+00:00",
+ "fetched_at": "2026-11-10T07:25:38.573163+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 93,
+  "media_count": 95,
   "id": "28241506535529259",
-  "followers_count": 6,
+  "followers_count": 7,
   "follows_count": 98
  },
  "media": [
+  {
+   "id": "18134451166667189",
+   "permalink": "https://www.instagram.com/reel/DfjAWr6hDoE/",
+   "timestamp": "2026-11-10T04:04:55+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Ramen open until 5:30am in Tokyo? 🌙 Garyu Tantanmen, Yushima",
+   "reach": 119,
+   "views": 147,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 1,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 3434,
+   "ig_reels_video_view_total_time": 408668
+  },
+  {
+   "id": "18170426356487110",
+   "permalink": "https://www.instagram.com/reel/DfiXNCvoLjd/",
+   "timestamp": "2026-11-09T22:05:19+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Where to eat ramen after 10pm in Akihabara? 🍜 3 counters, ch",
+   "reach": 124,
+   "views": 132,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4319,
+   "ig_reels_video_view_total_time": 531310
+  },
   {
    "id": "18653197063061888",
    "permalink": "https://www.instagram.com/reel/DfgbiWARegQ/",
    "timestamp": "2026-11-09T04:04:43+0000",
    "media_product_type": "REELS",
    "caption_head": "What do you eat after a Japanese sauna? 🧖 It's called sa-mes",
-   "reach": 107,
-   "views": 115,
+   "reach": 109,
+   "views": 116,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3779,
-   "ig_reels_video_view_total_time": 411994
+   "ig_reels_avg_watch_time": 3824,
+   "ig_reels_video_view_total_time": 428351
   },
   {
    "id": "18127792153923876",
@@ -32,15 +64,15 @@
    "timestamp": "2026-11-08T22:04:48+0000",
    "media_product_type": "REELS",
    "caption_head": "Where to eat near Ueno Park in autumn? 🍂 Ginkgo should turn ",
-   "reach": 106,
+   "reach": 107,
    "views": 112,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3985,
-   "ig_reels_video_view_total_time": 426485
+   "ig_reels_avg_watch_time": 4018,
+   "ig_reels_video_view_total_time": 434006
   },
   {
    "id": "18205248907331642",
@@ -777,45 +809,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 3458,
    "ig_reels_video_view_total_time": 404609
-  },
-  {
-   "id": "18099919103416447",
-   "permalink": "https://www.instagram.com/reel/DfOFZC2OK9q/",
-   "timestamp": "2026-11-02T01:04:53+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Tokyo hacks #3: about 4 in 10 places want cash 💴\n\nOf the 299",
-   "reach": 98,
-   "views": 102,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2366,
-   "ig_reels_video_view_total_time": 234246
-  },
-  {
-   "id": "17865115440696962",
-   "permalink": "https://www.instagram.com/reel/DfNw78bTPJ-/",
-   "timestamp": "2026-11-01T22:05:55+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Tokyo hacks #1: 1 in 3 restaurants close on Sundays 🚪\n\nI che",
-   "reach": 94,
-   "views": 98,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2403,
-   "ig_reels_video_view_total_time": 228292
   }
  ],
  "account_daily": {
-  "reach": 638,
-  "views": 757,
-  "profile_views": 3,
+  "reach": 878,
+  "views": 1037,
+  "profile_views": 4,
   "profile_links_taps": 0,
-  "accounts_engaged": 2
+  "accounts_engaged": 5
  }
 }
