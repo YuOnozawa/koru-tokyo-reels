@@ -1111,5 +1111,20 @@
   "never": "no DMs to people who did not comment the keyword; no follow-ups unless they reply",
   "log": [],
   "template_note": "For AKIBA use {Area}=Akihabara, a=akiba"
- }
+ },
+ "comment_rules": {
+  "approved": "2026-11-10 by Yu (いいよー) — Claude may post without per-comment approval",
+  "who": "ordinary travelers, on their OWN Tokyo-trip posts (visiting now or soon)",
+  "what": "one specific, useful line in English that fits their post (a nearby place, hours, cash, what to say); facts from data/shops.json only",
+  "never": [
+   "promo of our account or app",
+   "links",
+   "'follow me'",
+   "reusing the same text",
+   "businesses, creators over 10k, private accounts"
+  ],
+  "limit": "max 5 per JST day, spread over runs",
+  "log": "comment_log in this file: user, post, text, at"
+ },
+ "comment_log": []
 }
