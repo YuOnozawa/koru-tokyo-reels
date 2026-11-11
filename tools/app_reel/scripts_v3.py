@@ -184,3 +184,15 @@ V3['n_07_kanda_late'] = {'speed': 1.25, 'beats': [
   {'say': "Curry that turns into a curry {izakaya|izɑkɑjɑ} on weekday nights.", 'video': SV + '51250.mp4', 'vstart': 3, 'tag': '3 · TOPCA KANDA', 'big': 'WEEKDAYS\nTO 23:00', 'hl': 0, 'chips': ['weekend to 18:00'], 'note': MK},
   {'say': "Yakitori until eleven, Monday to Friday.", 'video': SV + '4109.mp4', 'vstart': 4, 'tag': '4 · TORI TO CHUHAI TORISU', 'big': 'MON-FRI\nTO 23:00', 'hl': 1, 'chips': ['¥400 table charge', 'cards OK'], 'min': 2.2, 'note': MK},
 ]}
+
+# ---- Yu's photos: Tenkaippin Akihabara (Nov 10 2026) ----
+TK = Y + 'tenkaippin_'
+TKN = 'Photos: Yu, Nov 10 2026'
+V3['y_01_tenkaippin'] = {'speed': 1.2, 'beats': [
+  {'say': "Thick {Kyoto|kjoʊtoʊ}-style ramen in {Akihabara|ɑkihɑbɑɾɑ}. Yu, a local office worker, ate here last night.", 'photo': TK + 'kotteri.jpg', 'focus': (.5, .5), 'tag': 'TENKAIPPIN · AKIHABARA', 'big': 'KOTTERI\nRAMEN', 'hl': 1, 'size': 170, 'min': 2.4, 'note': TKN},
+  {'say': "You order on a tablet, with English labels.", 'photo': TK + 'tablet.jpg', 'focus': (.55, .55), 'big': 'ENGLISH\nTABLET', 'hl': 0, 'note': TKN},
+  {'say': "{Kotteri|koʊttɛɾi} means rich. The chicken soup is almost as thick as gravy.", 'photo': TK + 'kotteri.jpg', 'focus': (.45, .4), 'big': 'SO THICK', 'hl': 1, 'note': TKN},
+  {'say': "Cash only at this shop.", 'photo': TK + 'tablet.jpg', 'focus': (.3, .25), 'big': 'CASH ONLY', 'hl': 0, 'chips': ['お支払いは現金のみ'], 'note': TKN},
+  {'say': "Garlic and chili are already in. Don't want them? Say: {ninniku nuki de|nɪnnɪku nuki dɛ}.", 'photo': TK + 'kotteri.jpg', 'focus': (.55, .65), 'big': 'NO GARLIC?', 'hl': 1, 'chips': ['ニンニク抜きで', 'ninniku nuki de'], 'min': 2.6, 'note': TKN},
+  {'say': "Add fried rice. Water is self-service.", 'photo': TK + 'fried_rice.jpg', 'focus': (.5, .5), 'big': '+ FRIED RICE', 'hl': 0, 'koru': 'Slurp!', 'min': 2.2, 'note': TKN},
+]}
