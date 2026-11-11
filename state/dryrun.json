@@ -1,11 +1,9 @@
 {
- "at": "2026-10-31T02:26:27.969946+00:00",
- "item": "w2_01_taxfree",
- "video_url": "https://github.com/YuOnozawa/koru-tokyo-reels/releases/download/video-store/w2_01_taxfree.mp4",
+ "at": "2026-11-11T15:52:53.676556+00:00",
+ "item": "c_03_domannaka",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18129774628779964"
+  "container": "18132577321779964"
  },
  "published": false
 }
