@@ -1,0 +1,77 @@
+{
+ "id": "c_03_domannaka",
+ "reel": {
+  "cover_cap": "A seafood night in Akihabara",
+  "end_cap": "Save it: hours, budget, booking"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "A seafood night in Akihabara",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "What Yu ordered",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 317.328125,
+     "h": 443,
+     "cap": "1. Sashimi platter"
+    },
+    {
+     "x": 381.328125,
+     "y": 212.953125,
+     "w": 317.328125,
+     "h": 443,
+     "cap": "2. Sea urchin roll"
+    },
+    {
+     "x": 718.65625,
+     "y": 212.953125,
+     "w": 317.34375,
+     "h": 443,
+     "cap": "3. Namero"
+    },
+    {
+     "x": 44,
+     "y": 679.953125,
+     "w": 317.328125,
+     "h": 443,
+     "cap": "4. Rare aji fry"
+    },
+    {
+     "x": 381.328125,
+     "y": 679.953125,
+     "w": 317.328125,
+     "h": 443,
+     "cap": "5. Abalone & mushrooms"
+    },
+    {
+     "x": 718.65625,
+     "y": 679.953125,
+     "w": 317.34375,
+     "h": 443,
+     "cap": "6. Potato-salad tower"
+    },
+    {
+     "x": 44,
+     "y": 1185.109375,
+     "w": 992,
+     "h": 108.890625,
+     "cap": "2 min · B1F · to 11pm · closed Mon · per person · book online"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "back",
+   "caption": "Before you go",
+   "boxes": []
+  }
+ ]
+}

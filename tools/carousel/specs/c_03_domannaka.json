@@ -1,69 +1,125 @@
 {
  "id": "c_03_domannaka",
- "issue": "No. 03",
+ "issue": "No.03",
+ "reel": {
+  "cover_cap": "A seafood night in Akihabara",
+  "end_cap": "Save it: hours, budget, booking"
+ },
  "slides": [
   {
    "type": "cover",
    "photo": "stock/yu/domannaka_tower.jpg",
-   "pos": "62% center",
-   "jp": "秋葉原、\n今夜は海鮮。",
-   "en": "Akihabara,",
-   "en_i": "seafood tonight.",
-   "kicker": "Tokyo Field Notes 03 · Photos by Yu"
-  },
-  {
-   "type": "photo",
-   "photo": "stock/yu/domannaka_sashimi.jpg",
-   "num": "01",
-   "jp": "刺身盛り",
-   "en": "Sashimi on ice",
-   "body": "A big platter of sashimi, served on crushed ice.",
-   "meta": "Domannaka Akihabara Bettei · 2 min from JR Akihabara"
-  },
-  {
-   "type": "photo",
-   "photo": "stock/yu/domannaka_uni.jpg",
-   "pos": "center 45%",
-   "num": "02",
-   "jp": "ウニ手巻き",
-   "en": "Sea urchin roll",
-   "body": "Sea urchin hand roll. Eat it while the seaweed is crisp."
-  },
-  {
-   "type": "photo",
-   "photo": "stock/yu/domannaka_namero.jpg",
-   "num": "03",
-   "jp": "なめろう",
-   "en": "Namero",
-   "body": "Raw fish chopped with miso and herbs, topped with salmon roe."
-  },
-  {
-   "type": "photo",
-   "photo": "stock/yu/domannaka_fishfry.jpg",
-   "num": "04",
-   "jp": "レアアジフライ",
-   "en": "Rare aji fry",
-   "body": "Horse mackerel fried rare, with the crispy fried bones."
-  },
-  {
-   "type": "photo",
-   "photo": "stock/yu/domannaka_abalone.jpg",
-   "num": "05",
-   "jp": "鮑ときのこ",
-   "en": "Abalone",
-   "body": "Abalone with sautéed mushrooms."
-  },
-  {
-   "type": "end",
-   "photo": "stock/yu/domannaka_highball.jpg",
-   "jp": "保存版",
-   "en": "Domannaka\nAkihabara Bettei",
+   "pos": "60% center",
+   "jp": "秋葉原で、\n[海鮮]の夜。",
+   "en": "A seafood night in Akihabara",
    "lines": [
-    "B1F, 2 min from JR Akihabara (Showa-dori Exit)",
-    "To 11pm · closed Mondays",
-    "Book online · private rooms · non-smoking",
-    "¥6,000–8,000 a person · cards & PayPay"
+    [
+     "ウニ手巻き、\nなめろう、\nレアアジフライ。",
+     "Sea urchin, namero, rare aji fry"
+    ],
+    [
+     "駅から2分、\n地下の一軒。",
+     "2 min from JR Akihabara, B1F"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が食べた"
    ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "WHAT YU ORDERED",
+   "jp": "どまんなか 秋葉原別邸",
+   "en": "Domannaka Akihabara Bettei",
+   "sub": "Seafood izakaya",
+   "reel_cap": "What Yu ordered",
+   "items": [
+    {
+     "photo": "stock/yu/domannaka_sashimi.jpg",
+     "jp": "刺身盛り",
+     "en": "Sashimi platter",
+     "note": "氷を敷いた盛り合わせ"
+    },
+    {
+     "photo": "stock/yu/domannaka_uni.jpg",
+     "pos": "center 45%",
+     "jp": "ウニ手巻き",
+     "en": "Sea urchin roll",
+     "note": "海苔がパリッとしてるうちに"
+    },
+    {
+     "photo": "stock/yu/domannaka_namero.jpg",
+     "jp": "なめろう",
+     "en": "Namero",
+     "note": "いくらのせ"
+    },
+    {
+     "photo": "stock/yu/domannaka_fishfry.jpg",
+     "jp": "レアアジフライ",
+     "en": "Rare aji fry",
+     "note": "骨せんべい付き"
+    },
+    {
+     "photo": "stock/yu/domannaka_abalone.jpg",
+     "jp": "鮑ときのこ",
+     "en": "Abalone & mushrooms",
+     "note": ""
+    },
+    {
+     "photo": "stock/yu/domannaka_tower.jpg",
+     "jp": "ポテサラタワー",
+     "en": "Potato-salad tower",
+     "note": "チーズたっぷり"
+    }
+   ],
+   "info": [
+    [
+     "ACCESS",
+     "JR秋葉原 徒歩2分",
+     "2 min · B1F"
+    ],
+    [
+     "HOURS",
+     "〜23:00 月曜休",
+     "to 11pm · closed Mon"
+    ],
+    [
+     "BUDGET",
+     "¥6,000–8,000",
+     "per person"
+    ],
+    [
+     "BOOK",
+     "ネット予約可",
+     "book online"
+    ]
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "行く前に、\nこれだけ。",
+   "en": "Before you go",
+   "checks": [
+    [
+     "月曜は休み",
+     "Closed on Mondays"
+    ],
+    [
+     "ネットで予約",
+     "Book online; private rooms, non-smoking"
+    ],
+    [
+     "カード・PayPay OK",
+     "Visa, MC, JCB, Amex, Diners, PayPay"
+    ],
+    [
+     "予算は一人6,000〜8,000円",
+     "¥6,000–8,000 a person (Tabelog average)"
+    ]
+   ],
+   "photo": "stock/yu/domannaka_highball.jpg",
+   "pos": "center 40%"
   }
  ]
 }
