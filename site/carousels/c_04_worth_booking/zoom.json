@@ -97,6 +97,55 @@
   },
   {
    "page": "04.jpg",
+   "type": "rules",
+   "caption": "House rules, before you book",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Nabeno-Ism"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Hicho Kurata"
+    },
+    {
+     "x": 44,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Myojinshita Kandagawa"
+    },
+    {
+     "x": 548,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Shochikuan Masukawa"
+    },
+    {
+     "x": 44,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Kanda Yunrin"
+    },
+    {
+     "x": 548,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. All five"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
    "type": "back",
    "caption": "How not to lose a booking",
    "boxes": []

@@ -36,3 +36,11 @@ not just the design. Visuals we can make ourselves:
 5. Later: line illustrations of dish genres, labelled "Illustration" (never presented as a specific shop's dish).
 So photo-less issues lean on information that saves a traveler from a bad meal: where (map), when (hours/closed days),
 how much (budget), how to book, what to say. Every photo-less issue gets a map page.
+
+## 2026-11-12: official info + reviews (Yu: 「あとはお店の公式情報と口コミだよね」)
+- Official info (restaurant's own listing / site): facts we may use, paraphrased — prices, courses, hours, booking method,
+  house rules (dress code, perfume, children, late-arrival and cancellation fees, service charge, payment). These are the
+  most useful "don't fail" details for our target reader. data/shops.json fields: house_rules, rules_checked.
+- Reviews: use the Tabelog score and review count with a date (tabelog_score, tabelog_reviews). Summarise review themes in
+  our own words only when several reviews say the same thing; never quote review text, never use Google review text.
+- New page type in use: `rules` as "House rules before you book" (No.04).

@@ -2644,7 +2644,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": null,
+  "house_rules": [
+   "Reservation only",
+   "Dress code: smart elegance",
+   "10% service charge",
+   "Cards only, no e-money"
+  ],
+  "rules_checked": "2026-11-12 (Tabelog official info)"
  },
  {
   "name_en": "Ramen Kai",
@@ -3601,7 +3609,7 @@
   "genre": "Unagi (grilled eel), traditional restaurant",
   "station": "Suehirocho (Ginza Line)",
   "walk_min": 5,
-  "hours": "Tue-Sat 11:30-13:30, 17:00-21:00 (Tabelog listing; confirm before visiting)",
+  "hours": "Tue-Sat 11:30-14:30, 17:00-21:00 (Tabelog, Nov 2026)",
   "closed_days": "Sunday, Monday",
   "lunch_price_yen": "6000-8000",
   "dinner_price_yen": "15000-20000",
@@ -3624,7 +3632,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.72,
+  "tabelog_reviews": 528,
+  "house_rules": [
+   "Book online (phone line closed)",
+   "Rice is charged separately from the eel",
+   "Visa/Mastercard only, no e-money",
+   "Private rooms for 2, 4 or 6"
+  ],
+  "rules_checked": "2026-11-12 (Tabelog official info)"
  },
  {
   "name_en": "Vault Coffee",
@@ -4183,7 +4200,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.96,
+  "tabelog_reviews": 279,
+  "house_rules": [
+   "Online booking only (no phone)",
+   "10% service charge",
+   "No children's menu",
+   "Please avoid strong perfume"
+  ],
+  "rules_checked": "2026-11-12 (Tabelog official info)"
  },
  {
   "name_en": "Mensho Kamayoshi",
@@ -4336,7 +4362,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.71,
+  "tabelog_reviews": 1008,
+  "house_rules": [
+   "Same-day cancellation: 100% fee",
+   "10% service charge at dinner",
+   "Please avoid perfume",
+   "Allergies: call after booking",
+   "Tables for two sit close together"
+  ],
+  "rules_checked": "2026-11-12 (Tabelog official info)"
  },
  {
   "name_en": "Takayama Coffee",
@@ -4671,7 +4707,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.65,
+  "tabelog_reviews": 294,
+  "house_rules": [
+   "Book online (phone line closed)",
+   "Lunch: 15+ min late without calling = cancelled, 100% fee",
+   "Same-day cancellation: 100% fee",
+   "No children at dinner",
+   "5% service charge; cards only"
+  ],
+  "rules_checked": "2026-11-12 (Tabelog official info)"
  },
  {
   "name_en": "Kanda Coffee En Kanda North Exit",

@@ -61,7 +61,7 @@
      "jp": "飛鳥くら田",
      "en": "Hicho Kurata",
      "area": "神田 · 鶏おまかせ · Kanda, chicken omakase",
-     "badge": "TABELOG 100 · 2025",
+     "badge": "TABELOG 3.96 · 100 CHICKEN 2025",
      "cap": "8 seats, ¥22,000 omakase",
      "facts": [
       [
@@ -82,7 +82,7 @@
      "jp": "明神下 神田川",
      "en": "Myojinshita Kandagawa",
      "area": "末広町 · 鰻 · Suehirocho, eel",
-     "badge": "TABELOG 100 · 5 TIMES",
+     "badge": "TABELOG 3.72 · 100 EEL ×5",
      "cap": "Grilled eel, ¥15,000–20,000",
      "facts": [
       [
@@ -103,7 +103,7 @@
      "jp": "松竹庵 ます川",
      "en": "Shochikuan Masukawa",
      "area": "神田 · 蕎麦と天ぷら · Kanda, soba & tempura",
-     "badge": "TABELOG 100 · SOBA",
+     "badge": "TABELOG 3.65 · 100 SOBA",
      "cap": "Soba & tempura course, weekdays",
      "facts": [
       [
@@ -124,7 +124,7 @@
      "jp": "神田 雲林",
      "en": "Kanda Yunrin",
      "area": "神田 · 四川 · Kanda, Sichuan",
-     "badge": "TABELOG 100 · 4 TIMES",
+     "badge": "TABELOG 3.71 · 100 CHINESE ×4",
      "cap": "Hairy crab season, Oct–Dec",
      "facts": [
       [
@@ -142,7 +142,7 @@
      ]
     }
    ],
-   "note": "Prices per person. Same-day cancellation can be charged in full (Masukawa, Yunrin). Checked from public sources, Oct 31 2026."
+   "note": "Prices per person. Tabelog scores as of Nov 12 2026. Checked from public sources (Michelin Guide, Tabelog, restaurant info)."
   },
   {
    "type": "map",
@@ -190,6 +190,54 @@
      "walk": "Awajicho 2 min"
     }
    ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "予約の前に、店の決まり",
+   "en": "House rules before you book",
+   "sub": "from each restaurant's own listing",
+   "reel_cap": "House rules, before you book",
+   "grid_h": 1040,
+   "items": [
+    {
+     "jp": "ナベノイズム",
+     "en": "Nabeno-Ism",
+     "stat": "DRESS",
+     "do": "Smart elegance. Reservation only. +10% service; cards only."
+    },
+    {
+     "jp": "飛鳥くら田",
+     "en": "Hicho Kurata",
+     "stat": "ONLINE",
+     "do": "Book online only. No children's menu. Avoid strong perfume. +10%."
+    },
+    {
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "stat": "RICE",
+     "do": "Rice is charged separately from the eel. Visa/MC only. Private rooms."
+    },
+    {
+     "jp": "松竹庵 ます川",
+     "en": "Shochikuan Masukawa",
+     "stat": "15 MIN",
+     "do": "Lunch: 15+ min late without a call = cancelled, full fee. No kids at dinner."
+    },
+    {
+     "jp": "神田 雲林",
+     "en": "Kanda Yunrin",
+     "stat": "100%",
+     "do": "Same-day cancel = full price. Avoid perfume. Call about allergies after booking."
+    },
+    {
+     "jp": "五軒に共通",
+     "en": "All five",
+     "stat": "CARD",
+     "do": "Cards OK at all five; e-money/QR mostly not. Service charge 5–10% at four."
+    }
+   ],
+   "do_size": 26
   },
   {
    "type": "back",

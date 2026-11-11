@@ -123,7 +123,7 @@ def rules(s, spec, i, n):
 <span class="a" style="font-weight:800;font-size:30px;color:{RED}">{e(it.get('stat',''))}</span></div>
 <div class="g" style="font-size:38px;line-height:1.15;margin-top:8px">{e(it['jp'])}</div>
 <div class="a" style="font-weight:800;font-size:23px;line-height:1.15;margin-top:6px">{e(it['en'].upper())}</div>
-<div class="a" style="font-weight:500;font-size:19px;line-height:1.3;margin-top:auto;padding-top:8px;color:#333">{e(it.get('do',''))}</div></div>""" for k, it in enumerate(s['items']))
+<div class="a" style="font-weight:500;font-size:{s.get('do_size',19)}px;line-height:1.3;margin-top:auto;padding-top:8px;color:#333">{e(it.get('do',''))}</div></div>""" for k, it in enumerate(s['items']))
     return f"""<div class="s" style="padding:44px 44px">{head(spec, s['kicker'], s['jp'], s['en'], s.get('sub',''))}
 <div style="display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:16px;margin-top:20px;height:{s.get('grid_h',1030)}px">{boxes}</div>{folio(i, n)}</div>"""
 
