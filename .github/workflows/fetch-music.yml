@@ -1,0 +1,32 @@
+name: Fetch music (Mixkit free license)
+on:
+  workflow_dispatch:
+    inputs:
+      page:
+        description: 'Mixkit music listing page URL (mixkit.co/free-stock-music/...)'
+        required: true
+      max:
+        description: 'max tracks to store'
+        required: false
+        default: '8'
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scrape mp3 links, store in release 'stock-music'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGE: ${{ github.event.inputs.page }}
+          MAX: ${{ github.event.inputs.max }}
+        run: |
+          set -u; R=${{ github.repository }}; mkdir m; cd m
+          case "$PAGE" in https://mixkit.co/free-stock-music/*) ;; *) echo "only mixkit music pages"; exit 1;; esac
+          gh release view stock-music -R "$R" >/dev/null 2>&1 || gh release create stock-music -R "$R" -t stock-music -n "Mixkit free-license music (https://mixkit.co/license/#musicFree). Do not redistribute standalone." --latest=false
+          curl -fsSL -A "Mozilla/5.0" "$PAGE" -o page.html
+          grep -oE 'https://assets\.mixkit\.co/[^"'"'"' ]+\.mp3' page.html | sort -u | head -n "$MAX" > urls.txt || true
+          cat urls.txt
+          while read -r u; do f=$(basename "$u"); curl -fsSL -A "Mozilla/5.0" -o "$f" "$u" && echo "got $f"; done < urls.txt
+          ls *.mp3 >/dev/null 2>&1 && gh release upload stock-music *.mp3 -R "$R" --clobber
+          echo "::notice::$(ls *.mp3 2>/dev/null | tr '\n' ' ')"
