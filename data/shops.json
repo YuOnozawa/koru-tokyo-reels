@@ -8322,5 +8322,32 @@
   "lunch_ok": true,
   "dinner_ok": true,
   "region": "Kanazawa"
+ },
+ {
+  "name_en": "Buta Soba Tsukiya (Fukuoka Airport)",
+  "name_ja": "豚そば月や 福岡空港店",
+  "area": "Fukuoka Airport",
+  "genre": "Ramen (clear tonkotsu)",
+  "station": "Fukuoka Airport domestic terminal 3F (Ramen Runway)",
+  "walk_min": "in terminal",
+  "hours": "Ramen Runway about 10:00-21:00 (varies by shop)",
+  "closed_days": "unknown",
+  "lunch_price_yen": "unknown",
+  "dinner_price_yen": "unknown",
+  "budget_band": "under1500",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "not_needed",
+  "what_to_order": "Clear tonkotsu ramen; add the green onion and squeeze the citrus on the side (Yu ate it)",
+  "tourist_tip": "Light, clear pork-bone broth (bones simmered slowly, not crushed).",
+  "yu_pick": true,
+  "sources": [
+   "https://soranews24.com/2024/10/09/clear-tonkotsu-ramen-becomes-a-cult-hit-at-ramen-runway-in-japan/"
+  ],
+  "checked": "2026-11-12",
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true,
+  "region": "Fukuoka"
  }
 ]
