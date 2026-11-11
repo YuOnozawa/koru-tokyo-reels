@@ -90,5 +90,20 @@
   "B": "other reels",
   "metric": "ss",
   "since": "2026-11-10"
+ },
+ "H14": {
+  "hypothesis": "Magazine carousels (KORU · Tokyo Field Notes) beat the AI-voice + stock-footage reel template on reach and saves. Reels sat at reach ~108 (86% of 50 reels in 90-145), avg watch 3.6s of 24s",
+  "A": "carousel",
+  "B": "reel (old template)",
+  "metric": "reach",
+  "since": "2026-11-12",
+  "note": "also compare saves per reach; kill rule: if 6 carousels also sit at ~100 reach, Instagram is not the main channel"
+ },
+ "H15": {
+  "hypothesis": "For the target Yu defined (affluent adult travelers staying in Tokyo who don't want a bad meal), 'no-fail' content (credentials, price per person, how to book) earns more saves per reach than cheap/fun content",
+  "A": "no-fail / worth-it (awards, ¥4,000+, booking)",
+  "B": "cheap & fun",
+  "metric": "ss",
+  "since": "2026-11-12"
  }
 }

@@ -70,27 +70,58 @@ def already_posted(uid, caption):
     return None
 
 
+def wait_ready(cid, tries=30):
+    for i in range(tries):
+        st = call('GET', cid, {'fields': 'status_code,status'})
+        print(f"  {cid} status {st.get('status_code')} {st.get('status', '')}")
+        if st.get('status_code') == 'FINISHED':
+            return
+        if st.get('status_code') in ('ERROR', 'EXPIRED'):
+            raise SystemExit(f"container failed: {st}")
+        time.sleep(10)
+    raise SystemExit('container not ready in time')
+
+
+def carousel_container(uid, item):
+    """Magazine carousel: up to 10 JPEGs served from GitHub Pages (site/carousels/<id>/NN.jpg)."""
+    kids = []
+    for rel in item['images'][:10]:
+        url = public_url(rel)
+        print(f"[{item['id']}] image_url={url}")
+        c = call('POST', f'{uid}/media', {'image_url': url, 'is_carousel_item': 'true'})
+        wait_ready(c['id'], 12); kids.append(c['id'])
+    c = call('POST', f'{uid}/media', {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': item['caption']})
+    wait_ready(c['id'], 12)
+    return c['id']
+
+
 def publish_one(uid, item):
-    url = public_url(item['file'])
-    print(f"[{item['id']}] video_url={url}")
+    if item.get('type') == 'carousel':
+        url = None
+    else:
+        url = public_url(item['file'])
+        print(f"[{item['id']}] video_url={url}")
     dup = already_posted(uid, item['caption'])
     if dup:  # an earlier run's publish call failed after Instagram had already posted it
         info = call('GET', dup, {'fields': 'permalink,timestamp'})
         print(f'  already on Instagram, recording it: {info}')
         return {'id': item['id'], 'media_id': dup, 'permalink': info.get('permalink'), 'published_at': info.get('timestamp')}
-    c = call('POST', f'{uid}/media', {'media_type': 'REELS', 'video_url': url,
-                                      'caption': item['caption'], 'share_to_feed': 'true'})
-    cid = c['id']
-    for i in range(30):  # up to ~15 min
-        time.sleep(30)
-        st = call('GET', cid, {'fields': 'status_code,status'})
-        print(f"  status {st.get('status_code')} {st.get('status', '')}")
-        if st.get('status_code') == 'FINISHED':
-            break
-        if st.get('status_code') in ('ERROR', 'EXPIRED'):
-            raise SystemExit(f"container failed: {st}")
+    if item.get('type') == 'carousel':
+        cid = carousel_container(uid, item)
     else:
-        raise SystemExit('container not ready in time')
+        c = call('POST', f'{uid}/media', {'media_type': 'REELS', 'video_url': url,
+                                          'caption': item['caption'], 'share_to_feed': 'true'})
+        cid = c['id']
+        for i in range(30):  # up to ~15 min
+            time.sleep(30)
+            st = call('GET', cid, {'fields': 'status_code,status'})
+            print(f"  status {st.get('status_code')} {st.get('status', '')}")
+            if st.get('status_code') == 'FINISHED':
+                break
+            if st.get('status_code') in ('ERROR', 'EXPIRED'):
+                raise SystemExit(f"container failed: {st}")
+        else:
+            raise SystemExit('container not ready in time')
     p = None
     for attempt in range(4):  # media_publish sometimes returns a transient 500; retry, but never double-post
         try:
@@ -124,14 +155,16 @@ def cmd_publish(force=None):
 
 def cmd_insights():
     u = me(); uid = u['user_id']
-    media = call('GET', f'{uid}/media', {'fields': 'id,caption,permalink,timestamp,media_product_type', 'limit': 50})
+    media = call('GET', f'{uid}/media', {'fields': 'id,caption,permalink,timestamp,media_product_type,media_type', 'limit': 50})
     out = {'fetched_at': datetime.now(timezone.utc).isoformat(), 'account': u, 'media': []}
     for m in media.get('data', []):
-        row = {k: m.get(k) for k in ('id', 'permalink', 'timestamp', 'media_product_type')}
+        row = {k: m.get(k) for k in ('id', 'permalink', 'timestamp', 'media_product_type', 'media_type')}
         row['caption_head'] = (m.get('caption') or '')[:60]
+        metrics = 'reach,views,likes,comments,saved,shares,total_interactions'
+        if m.get('media_product_type') == 'REELS':
+            metrics += ',ig_reels_avg_watch_time,ig_reels_video_view_total_time'
         try:
-            ins = call('GET', f"{m['id']}/insights", {
-                'metric': 'reach,views,likes,comments,saved,shares,total_interactions,ig_reels_avg_watch_time,ig_reels_video_view_total_time'})
+            ins = call('GET', f"{m['id']}/insights", {'metric': metrics})
             for d in ins.get('data', []):
                 row[d['name']] = (d.get('values') or [{}])[0].get('value', d.get('total_value', {}).get('value'))
         except SystemExit as e:
@@ -180,7 +213,7 @@ if __name__ == '__main__':
     if not a or a[0] == 'check':
         u = me(); print(json.dumps(u, ensure_ascii=False))
         q = load('queue.json', [])
-        probe = public_url(q[0]['file']) if q else None
+        probe = public_url(q[0].get('file') or q[0]['images'][0]) if q else None
         save('state/account.json', {'checked_at': datetime.now(timezone.utc).isoformat(),
                                     'username': u.get('username'), 'account_type': u.get('account_type'),
                                     'media_count': u.get('media_count'), 'video_url_used': probe})

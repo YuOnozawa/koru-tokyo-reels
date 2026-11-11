@@ -37,7 +37,7 @@ def main():
     seen = {d['id'] for d in done}
     q = {it['id']: it for it in json.load(open('queue.json'))}
     since = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)
-    todo = [p for p in posted if p['id'] not in seen and p['id'] in q and
+    todo = [p for p in posted if p['id'] not in seen and p['id'] in q and 'file' in q[p['id']] and
             datetime.datetime.strptime(p['published_at'][:19], '%Y-%m-%dT%H:%M:%S').replace(tzinfo=datetime.timezone.utc) > since]
     if not todo:
         print('yt: nothing new'); return

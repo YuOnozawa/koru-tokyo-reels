@@ -1,0 +1,116 @@
+{
+ "id": "c_02_midnight",
+ "issue": "No. 02",
+ "label": "EAST TOKYO",
+ "slides": [
+  {
+   "type": "cover_type",
+   "kicker": "EAST TOKYO · AFTER DARK",
+   "title": "Still open at midnight",
+   "dek": "Nine places still serving at midnight, a few until morning.",
+   "stats": [
+    [
+     "5:30am",
+     "the latest: a ramen counter in Yushima"
+    ],
+    [
+     "3am",
+     "a retro café in Asakusa"
+    ],
+    [
+     "9",
+     "places across Ueno, Akihabara, Asakusa, Kanda"
+    ],
+    [
+     "まだ？",
+     "one line to say at the door"
+    ]
+   ],
+   "note": "Checked Oct–Nov 2026 · Swipe →"
+  },
+  {
+   "type": "list",
+   "kicker": "OPEN LATEST",
+   "title": "Until morning",
+   "items": [
+    [
+     "5:30",
+     "Garyu Tantanmen",
+     "Yushima · spicy sesame ramen · Mon–Sat to 5:30am · no cards · smoking allowed"
+    ],
+    [
+     "3:30",
+     "Sankouen",
+     "Jimbocho · gyoza & noodles · Fri to 3:30am, Mon–Thu to 2:30 · closed Sat · PayPay"
+    ],
+    [
+     "3:00",
+     "Yokohama Ramen Asagaya",
+     "Ueno · rich iekei ramen · daily to 3am · cards & IC cards"
+    ],
+    [
+     "3:00",
+     "Coffee Lodge Akaishi",
+     "Asakusa · retro café · Tue–Sat to 3am · closed Mon · no cards"
+    ]
+   ],
+   "note": "Big number = latest closing time of the week",
+   "stamp": "朝まで"
+  },
+  {
+   "type": "list",
+   "kicker": "OPEN PAST MIDNIGHT",
+   "title": "Until 1–2am, or around 12",
+   "items": [
+    [
+     "2:00",
+     "Hon-Tosaya",
+     "Asakusa · yakiniku · Mon–Sat to 2am · ¥6,000–8,000"
+    ],
+    [
+     "1:00",
+     "Odoya Chokkei",
+     "Suehirocho · iekei ramen · Tue–Sat to 1am · closed Mon"
+    ],
+    [
+     "0:00",
+     "Negima Sanzo",
+     "Akihabara · yakitori · daily, L.O. 11:30pm · cards & PayPay"
+    ],
+    [
+     "0:00",
+     "Motsuyaki Daitoryo",
+     "Ueno · skewers under the Ameyoko tracks since 1950 · daily"
+    ],
+    [
+     "0:00",
+     "Yakiton Genki",
+     "Akihabara · pork skewers · Mon–Sat, L.O. 11pm · PayPay"
+    ]
+   ],
+   "note": "L.O. = last order",
+   "pad": 22,
+   "stamp": "深夜営業"
+  },
+  {
+   "type": "phrase",
+   "kicker": "SAY THIS AT THE DOOR",
+   "jp": "まだ大丈夫ですか？",
+   "size": 96,
+   "romaji": "mada daijōbu desu ka?",
+   "meaning": "can we still come in?",
+   "body": "Arriving close to closing time? Ask before you sit down. Last order (L.O.) is often 30 minutes before closing."
+  },
+  {
+   "type": "end",
+   "title": "Save this for your late night",
+   "dek": "Hours change: check Google Maps on the day.",
+   "lines": [
+    "Latest: Garyu Tantanmen, to 5:30am (Mon–Sat)",
+    "Every day to 3am: Yokohama Ramen Asagaya, Ueno",
+    "Café to 3am: Coffee Lodge Akaishi, Asakusa",
+    "Say まだ大丈夫ですか？ at the door"
+   ]
+  }
+ ]
+}

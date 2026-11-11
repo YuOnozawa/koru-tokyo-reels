@@ -1082,18 +1082,21 @@
   "caption": "Where to eat after 10pm near Tokyo Station? Kanda 🌙 4 places\n\n1️⃣ Ajibo: Northeast Chinese · L.O. 22:30 daily · cards OK\n2️⃣ Shio Shoga Ramen MANNISH (Awajicho): salt & ginger ramen · weekdays until 23:00 · cash only · 11 seats\n3️⃣ Topca Kanda: curry, turns into a curry izakaya on weekday nights · weekdays until 23:00 (weekends until 18:00)\n4️⃣ Tori to Chuhai Torisu: yakitori · Mon-Fri until 23:00 · ¥400 + tax table charge · cards & PayPay\n\nComment KANDA and I'll DM you a free Kanda food map 🗺️ (hours, closed days, what to say)\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\n\nFacts from public sources (Tabelog, shop info), checked Oct-Nov 2026; hours change, so check Google Maps the same day · Footage: Mixkit (free license), similar scenes, not these shops · Voice and characters made with AI\n\n#kanda #tokyostation #tokyofood #latenighteats #japantravel"
  },
  {
-  "id": "y_01_tenkaippin",
-  "file": "videos/y_01_tenkaippin.mp4",
-  "publish_at": "2026-11-12T10:00:00+09:00",
-  "len": 20.2,
+  "id": "c_03_domannaka",
+  "type": "carousel",
+  "images": [
+   "carousels/c_03_domannaka/01.jpg",
+   "carousels/c_03_domannaka/02.jpg",
+   "carousels/c_03_domannaka/03.jpg",
+   "carousels/c_03_domannaka/04.jpg",
+   "carousels/c_03_domannaka/05.jpg",
+   "carousels/c_03_domannaka/06.jpg"
+  ],
+  "publish_at": "2026-11-12T12:00:00+09:00",
   "tests": {
-   "H2": "A",
-   "H13": "B",
-   "H12": "B",
-   "H1": "A",
-   "H3": "B",
-   "H7": "A"
+   "H14": "carousel",
+   "H15": "A"
   },
-  "caption": "Where to eat thick ramen in Akihabara? 🍜 Tenkaippin's 'kotteri' (rich) bowl. Yu, a local office worker, ate here on Nov 10\n\n📱 Order on a tablet with English labels\n💴 Cash only at this shop\n🧄 Garlic & chili are already in. Don't want them? Say ニンニク抜きで (ninniku nuki de) = without garlic\n🍚 Add fried rice · water is self-service\n\nFollow for one Tokyo tip a day, and your trip just works 🐕\nWant to know what's open before you walk there? Hours, closed days and what to say for 300 East Tokyo spots: link in bio.\n\nPhotos: Yu, Nov 10 2026 · Voice and characters made with AI\n\n#akihabara #tokyoramen #tenkaippin #tokyofood #japantravel"
+  "caption": "A seafood night 2 minutes from Akihabara Station 🐟 Domannaka Akihabara Bettei, what Yu ordered\n\n1. Sea urchin hand roll with caviar\n2. Namero (chopped raw fish) with salmon roe\n3. Rare aji fry, with the crispy bones\n4. The potato-salad tower\n\nTo 11pm · closed Mondays · book online · ¥6,000–8,000 a person (Tabelog average) · cards & PayPay\n\nSave this for a night in Akihabara 🔖\n\nKORU · Tokyo Field Notes No. 03 · Photos: Yu, Nov 2026\n\n#akihabara #izakaya #tokyofood #sashimi #japantravel"
  }
 ]

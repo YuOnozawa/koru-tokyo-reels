@@ -50,6 +50,22 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 _Not enough reels yet (need n≥3 per arm)._
 
+## H14 — Magazine carousels (KORU · Tokyo Field Notes) beat the AI-voice + stock-footage reel template on reach and saves. Reels sat at reach ~108 (86% of 50 reels in 90-145), avg watch 3.6s of 24s
+Metric: **reach** · A = carousel · B = reel (old template) · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H15 — For the target Yu defined (affluent adult travelers staying in Tokyo who don't want a bad meal), 'no-fail' content (credentials, price per person, how to book) earns more saves per reach than cheap/fun content
+Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = cheap & fun · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+
+_Not enough reels yet (need n≥3 per arm)._
+
 ## H2 — Yu's real photos beat stock footage
 Metric: **comp** · A = Yu photos · B = stock footage · status: running
 
