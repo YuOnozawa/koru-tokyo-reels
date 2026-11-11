@@ -1,1 +1,4 @@
 __pycache__/
+
+# Mixkit music: kept in release 'stock-music', not in git (license: no standalone redistribution)
+tools/carousel/music/

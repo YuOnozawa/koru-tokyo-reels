@@ -91,16 +91,22 @@ def main(cid, out=None):
         for i in range(45):
             frame(pg, (540, 675, 1 + 0.02 * i / 44), meta.get('caption', ''), min(1, i / 15))
         prev = (540, 675, 1.02)
-        boxes = [b for b in meta['boxes'] if b['w'] < 1000 or b['h'] < 400][:7]
+        boxes = [] if meta['type'] == 'phrase' else [b for b in meta['boxes'] if b['w'] < 1000 or b['h'] < 400][:8]
+        if meta['type'] == 'phrase':  # show the whole page longer, caption = the phrase
+            for i in range(60):
+                frame(pg, (540, 675, 1.02 + 0.02 * i / 59), meta['boxes'][0]['cap'] if meta['boxes'] else '', 1)
+        MV, HD = (24, 33) if len(boxes) > 6 else (30, 45)
         for b in boxes:
             cx, cy = b['x'] + b['w'] / 2, b['y'] + b['h'] / 2
             zm = min(2.4, 0.86 * min(1080 / b['w'], 1350 / b['h'])); zm = max(zm, 1.15)
+            if b['w'] >= 900:  # a wide row (list page): zoom on its left part, where the name is
+                zm = min(1.7, 0.8 * 1350 / b['h']); cx = b['x'] + 1080 / zm / 2 - 24
             tgt = (cx, cy, zm)
-            for i in range(75):
-                if i < 30:
-                    t = ease(i / 29); c = [prev[j] + (tgt[j] - prev[j]) * t for j in range(3)]; a = max(0, (i - 15) / 15)
+            for i in range(MV + HD):
+                if i < MV:
+                    t = ease(i / (MV - 1)); c = [prev[j] + (tgt[j] - prev[j]) * t for j in range(3)]; a = max(0, (i - MV / 2) / (MV / 2))
                 else:
-                    c = [tgt[0], tgt[1], tgt[2] * (1 + 0.03 * (i - 30) / 45)]; a = 1
+                    c = [tgt[0], tgt[1], tgt[2] * (1 + 0.03 * (i - MV) / HD)]; a = 1
                 frame(pg, c, b['cap'], a)
             prev = (tgt[0], tgt[1], tgt[2] * 1.03)
         for i in range(36):

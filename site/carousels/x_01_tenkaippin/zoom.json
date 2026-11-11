@@ -1,0 +1,64 @@
+{
+ "id": "x_01_tenkaippin",
+ "reel": {
+  "cover_cap": "Extra: the rich bowl in Akihabara",
+  "end_cap": "Save it for a quick lunch"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: the rich bowl in Akihabara",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "What Yu ordered",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 317.328125,
+     "h": 753,
+     "cap": "1. Kotteri ramen"
+    },
+    {
+     "x": 381.328125,
+     "y": 212.953125,
+     "w": 317.328125,
+     "h": 753,
+     "cap": "2. Fried rice"
+    },
+    {
+     "x": 718.65625,
+     "y": 212.953125,
+     "w": 317.34375,
+     "h": 753,
+     "cap": "3. Order on the tablet"
+    },
+    {
+     "x": 44,
+     "y": 1185.109375,
+     "w": 992,
+     "h": 108.890625,
+     "cap": "cash only here · self-service · no garlic, please"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "phrase",
+   "caption": "",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 440,
+     "w": 992,
+     "h": 422.390625,
+     "cap": "ninniku nuki de = without garlic, please"
+    }
+   ]
+  }
+ ]
+}

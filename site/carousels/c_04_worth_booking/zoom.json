@@ -1,0 +1,63 @@
+{
+ "id": "c_04_worth_booking",
+ "reel": {
+  "cover_cap": "Five dinners worth booking ahead",
+  "end_cap": "Save it before you book"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Five dinners worth booking ahead",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Award-listed, with price and how to book",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 187,
+     "cap": "1. Nabeno-Ism — Michelin star, about ¥30,000"
+    },
+    {
+     "x": 44,
+     "y": 395.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Hicho Kurata — 8 seats, ¥22,000 omakase"
+    },
+    {
+     "x": 44,
+     "y": 579.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Myojinshita Kandagawa — Grilled eel, ¥15,000–20,000"
+    },
+    {
+     "x": 44,
+     "y": 763.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. Shochikuan Masukawa — Soba & tempura course, weekdays"
+    },
+    {
+     "x": 44,
+     "y": 947.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "5. Kanda Yunrin — Hairy crab season, Oct–Dec"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "back",
+   "caption": "How not to lose a booking",
+   "boxes": []
+  }
+ ]
+}

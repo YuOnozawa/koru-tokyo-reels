@@ -1,0 +1,98 @@
+{
+ "id": "c_05_rules",
+ "reel": {
+  "cover_cap": "Eight rules before you eat out in Tokyo",
+  "end_cap": "Screenshot it before you fly"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Eight rules before you eat out in Tokyo",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "rules",
+   "caption": "Eight rules, from 300 places I checked",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "1. Sundays: many close"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "2. The 3–5pm break"
+    },
+    {
+     "x": 44,
+     "y": 472.453125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "3. Last order comes first"
+    },
+    {
+     "x": 548,
+     "y": 472.453125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "4. Some are cash only"
+    },
+    {
+     "x": 44,
+     "y": 733.953125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "5. Otoshi = table charge"
+    },
+    {
+     "x": 548,
+     "y": 733.953125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "6. Pay at the register"
+    },
+    {
+     "x": 44,
+     "y": 995.453125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "7. Don't tip"
+    },
+    {
+     "x": 548,
+     "y": 995.453125,
+     "w": 488,
+     "h": 245.5,
+     "cap": "8. Call out to staff"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "phrase",
+   "caption": "",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 440,
+     "w": 992,
+     "h": 444,
+     "cap": "sumimasen = excuse me!"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "back",
+   "caption": "Screenshot before you fly",
+   "boxes": []
+  }
+ ]
+}

@@ -105,5 +105,13 @@
   "B": "cheap & fun",
   "metric": "ss",
   "since": "2026-11-12"
+ },
+ "H16": {
+  "hypothesis": "The slow magazine-flip reel (design D, ~25 s, no AI voice, real photos) beats the old AI-voice + stock-footage reel on reach and average watch time",
+  "A": "magazine reel",
+  "B": "old reel template",
+  "metric": "reach",
+  "since": "2026-11-12",
+  "note": "also compare ig_reels_avg_watch_time (old median 3.6 s)"
  }
 }

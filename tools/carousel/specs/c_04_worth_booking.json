@@ -1,183 +1,170 @@
 {
  "id": "c_04_worth_booking",
- "issue": "No. 04",
+ "issue": "No.04",
+ "reel": {
+  "cover_cap": "Five dinners worth booking ahead",
+  "end_cap": "Save it before you book"
+ },
  "slides": [
   {
-   "type": "cover_type",
-   "jp": "予約して行く、\n東の五軒。",
-   "en": "Five dinners",
-   "en_i": "worth booking ahead",
-   "kicker": "Tokyo Field Notes 04 · East Tokyo",
-   "stats": [
-    [
-     "1 star",
-     "Michelin French in Kuramae"
-    ],
-    [
-     "8 seats",
-     "chicken omakase in Kanda"
-    ],
-    [
-     "5 times",
-     "Tabelog 100 for an eel house"
-    ],
-    [
-     "Now",
-     "hairy crab season (Oct–Dec)"
-    ]
-   ],
-   "note": "Checked Oct 31 2026 · Swipe →",
-   "col": 600
-  },
-  {
-   "type": "entry",
-   "num": 1,
-   "kicker": "Kuramae · French",
-   "jp": "ナベノイズム",
-   "en": "Nabeno-Ism",
-   "body": "A chef's tasting course, one stop from Asakusa.",
-   "badge": "Michelin Guide Japan 2026 · One star",
-   "facts": [
-    [
-     "Price",
-     "Dinner about ¥30,000 · lunch ¥15,000"
-    ],
-    [
-     "Book",
-     "Reservation only"
-    ],
-    [
-     "Open",
-     "Tue–Sun · 12–15 · 18–22"
-    ],
-    [
-     "Near",
-     "Kuramae Station, 5 min"
-    ]
-   ],
-   "kanji": "仏"
-  },
-  {
-   "type": "entry",
-   "num": 2,
-   "kicker": "Kanda · Chicken omakase",
-   "jp": "飛鳥くら田",
-   "en": "Hicho Kurata",
-   "body": "Chicken from the restaurant's own farm: Jitokko, Hinai Jidori, Nagoya Cochin.",
-   "badge": "Tabelog 100 · Chicken · 2025",
-   "facts": [
-    [
-     "Price",
-     "¥22,000 incl. tax + 10% service"
-    ],
-    [
-     "Book",
-     "Online only · 8 counter seats"
-    ],
-    [
-     "Open",
-     "Tue–Sat · seatings 17:30, 20:30"
-    ],
-    [
-     "Near",
-     "JR Kanda South Exit, 1 min"
-    ]
-   ],
-   "kanji": "鶏"
-  },
-  {
-   "type": "entry",
-   "num": 3,
-   "kicker": "Suehirocho · Unagi",
-   "jp": "明神下 神田川",
-   "en": "Myojinshita\nKandagawa",
-   "body": "Grilled eel in a traditional dining house.",
-   "badge": "Tabelog 100 · Eel · 5 times",
-   "facts": [
-    [
-     "Price",
-     "Dinner ¥15–20k · lunch ¥6–8k"
-    ],
-    [
-     "Book",
-     "Recommended"
-    ],
-    [
-     "Open",
-     "Tue–Sat · 11:30–13:30 · 17–21"
-    ],
-    [
-     "Pay",
-     "Visa, Mastercard · no e-money"
-    ]
-   ],
-   "kanji": "鰻"
-  },
-  {
-   "type": "entry",
-   "num": 4,
-   "kicker": "Kanda · Soba & tempura",
-   "jp": "松竹庵 ます川",
-   "en": "Shochikuan\nMasukawa",
-   "body": "Hand-made soba with a tempura course. Weekdays only.",
-   "badge": "Tabelog 100 · Soba · 2022, 2024",
-   "facts": [
-    [
-     "Price",
-     "Dinner ¥16,000 · lunch ¥5,200+ (+tax)"
-    ],
-    [
-     "Book",
-     "Recommended · last entry 19:00"
-    ],
-    [
-     "Rules",
-     "Full charge if you cancel same day"
-    ],
-    [
-     "Near",
-     "Awajicho Station, 3 min"
-    ]
-   ],
-   "kanji": "蕎麦"
-  },
-  {
-   "type": "entry",
-   "num": 5,
-   "kicker": "Kanda · Sichuan",
-   "jp": "神田 雲林",
-   "en": "Kanda Yunrin",
-   "body": "Shark fin soup, and hairy crab courses from October to December.",
-   "badge": "Tabelog 100 · Chinese · 4 times",
-   "facts": [
-    [
-     "Price",
-     "Dinner ¥10–15k + 10% service"
-    ],
-    [
-     "Book",
-     "Recommended · same-day cancel = full charge"
-    ],
-    [
-     "Open",
-     "Mon–Sat · dinner 18:00–21:30"
-    ],
-    [
-     "Near",
-     "Awajicho Exit A3, 2 min"
-    ]
-   ],
-   "kanji": "蟹"
-  },
-  {
-   "type": "end",
-   "jp": "保存版",
-   "en": "No bad nights:\nfour things to know",
+   "type": "cover",
+   "jp": "予約してでも、\n行く[五軒]。",
+   "jp_size": 118,
+   "en": "Five dinners worth booking ahead",
+   "en_size": 52,
    "lines": [
-    "Book ahead. Two take reservations only.",
-    "Same-day cancels can cost the full price.",
-    "Expect 5–10% service on top at some.",
-    "Hours change: check before you go."
+    [
+     "ミシュラン一つ星、\n8席の鶏、\n老舗の鰻。",
+     "Michelin star, 8-seat chicken, old eel house"
+    ],
+    [
+     "値段と予約の\n取り方つき。",
+     "Prices and how to book"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ],
+   "bg": "#B8281F",
+   "big": "5"
+  },
+  {
+   "type": "list",
+   "kicker": "WORTH BOOKING · EAST TOKYO",
+   "jp": "予約して行く五軒",
+   "en": "Five dinners worth booking",
+   "reel_cap": "Award-listed, with price and how to book",
+   "items": [
+    {
+     "jp": "ナベノイズム",
+     "en": "Nabeno-Ism",
+     "area": "蔵前 · フレンチ · Kuramae, French",
+     "badge": "MICHELIN 2026 ★",
+     "cap": "Michelin star, about ¥30,000",
+     "facts": [
+      [
+       "PRICE",
+       "Dinner ~¥30,000"
+      ],
+      [
+       "BOOK",
+       "Reservation only"
+      ],
+      [
+       "CLOSED",
+       "Mondays"
+      ]
+     ]
+    },
+    {
+     "jp": "飛鳥くら田",
+     "en": "Hicho Kurata",
+     "area": "神田 · 鶏おまかせ · Kanda, chicken omakase",
+     "badge": "TABELOG 100 · 2025",
+     "cap": "8 seats, ¥22,000 omakase",
+     "facts": [
+      [
+       "PRICE",
+       "¥22,000 + 10% svc"
+      ],
+      [
+       "BOOK",
+       "Online only · 8 seats"
+      ],
+      [
+       "OPEN",
+       "Tue–Sat from 17:30"
+      ]
+     ]
+    },
+    {
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "area": "末広町 · 鰻 · Suehirocho, eel",
+     "badge": "TABELOG 100 · 5 TIMES",
+     "cap": "Grilled eel, ¥15,000–20,000",
+     "facts": [
+      [
+       "PRICE",
+       "Dinner ¥15–20k"
+      ],
+      [
+       "BOOK",
+       "Recommended"
+      ],
+      [
+       "OPEN",
+       "Tue–Sat"
+      ]
+     ]
+    },
+    {
+     "jp": "松竹庵 ます川",
+     "en": "Shochikuan Masukawa",
+     "area": "神田 · 蕎麦と天ぷら · Kanda, soba & tempura",
+     "badge": "TABELOG 100 · SOBA",
+     "cap": "Soba & tempura course, weekdays",
+     "facts": [
+      [
+       "PRICE",
+       "Dinner ¥16,000+tax"
+      ],
+      [
+       "BOOK",
+       "Recommended"
+      ],
+      [
+       "OPEN",
+       "Weekdays only"
+      ]
+     ]
+    },
+    {
+     "jp": "神田 雲林",
+     "en": "Kanda Yunrin",
+     "area": "神田 · 四川 · Kanda, Sichuan",
+     "badge": "TABELOG 100 · 4 TIMES",
+     "cap": "Hairy crab season, Oct–Dec",
+     "facts": [
+      [
+       "PRICE",
+       "Dinner ¥10–15k"
+      ],
+      [
+       "BOOK",
+       "Recommended"
+      ],
+      [
+       "CLOSED",
+       "Sundays"
+      ]
+     ]
+    }
+   ],
+   "note": "Prices per person. Same-day cancellation can be charged in full (Masukawa, Yunrin). Checked from public sources, Oct 31 2026."
+  },
+  {
+   "type": "back",
+   "jp": "失敗しない\n予約のコツ。",
+   "en": "How not to lose a booking",
+   "checks": [
+    [
+     "早めに予約",
+     "Two take reservations only"
+    ],
+    [
+     "当日キャンセルは全額",
+     "Same-day cancels can cost the full price"
+    ],
+    [
+     "サービス料5〜10%",
+     "Service charge on top at some"
+    ],
+    [
+     "営業時間は当日確認",
+     "Hours change: check before you go"
+    ]
    ]
   }
  ]

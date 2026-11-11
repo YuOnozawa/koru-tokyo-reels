@@ -75,7 +75,9 @@ def cover(s, spec, i, n):
     sticker = (f'<div style="position:absolute;right:44px;bottom:150px;width:150px;height:150px;border-radius:50%;background:{RED};color:#fff;'
                f'display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);text-align:center">'
                f'<div class="g" style="font-size:34px;line-height:1.1">{e(st[0])}</div><div class="gm" style="font-size:22px;margin-top:4px">{e(st[1])}</div></div>') if st else ''
-    return f"""<div class="s"><div class="ph" style="position:absolute;inset:0;background-image:url('{img(s['photo'])}');background-position:{s.get('pos','center')}"></div>
+    bgl = (f"<div class='ph' style=\"position:absolute;inset:0;background-image:url('{img(s['photo'])}');background-position:{s.get('pos','center')}\"></div>" if s.get('photo') else
+           f"<div style='position:absolute;inset:0;background:{s.get('bg', RED)}'></div><div class='g' style='position:absolute;right:-40px;top:250px;font-size:{s.get('big_size',900)}px;line-height:.8;color:rgba(255,255,255,.14)'>{e(s.get('big',''))}</div>")
+    return f"""<div class="s">{bgl}
 <div style="position:absolute;left:0;right:0;top:0;height:420px;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0))"></div>
 <div style="position:absolute;left:0;right:0;bottom:0;height:560px;background:linear-gradient(0deg,rgba(0,0,0,.78),rgba(0,0,0,0))"></div>
 <div class="a" style="position:absolute;left:36px;top:18px;font-weight:900;font-stretch:125%;font-size:215px;line-height:.8;color:#fff;letter-spacing:-.02em">KORU</div>
@@ -89,8 +91,8 @@ def cover(s, spec, i, n):
 
 
 def catalog(s, spec, i, n):
-    items = s['items']; cols = 3 if len(items) > 4 else 2
-    ph_h = {3: 330, 2: 380}[cols] if len(items) > 2 else 600
+    items = s['items']; cols = 3 if len(items) in (3, 5, 6) else 2
+    ph_h = 640 if len(items) == 3 else ({3: 330, 2: 380}[cols] if len(items) > 2 else 600)
     cells = ''.join(f"""<div class="z" data-cap="{e(str(k+1) + '. ' + it['en'])}" style="display:flex;flex-direction:column">
 <div class="ph" style="height:{ph_h}px;background-image:url('{img(it['photo'])}');background-position:{it.get('pos','center')};border:1px solid {INK}"></div>
 <div style="display:flex;gap:10px;align-items:baseline;margin-top:10px"><span class="g" style="font-size:32px;color:{RED}">{'①②③④⑤⑥⑦⑧⑨'[k]}</span><span class="g" style="font-size:32px;line-height:1.15">{e(it['jp'])}</span></div>
@@ -102,13 +104,13 @@ def catalog(s, spec, i, n):
 
 
 def lst(s, spec, i, n):
-    rows = ''.join(f"""<div class="z" data-cap="{e(str(k+1) + '. ' + it['en'] + ((' — ' + it['cap']) if it.get('cap') else ''))}" style="display:grid;grid-template-columns:70px 1fr 300px;gap:18px;padding:18px 0;border-top:2px solid {INK}">
+    rows = ''.join(f"""<div class="z" data-cap="{e(str(k+1) + '. ' + it['en'] + ((' — ' + it['cap']) if it.get('cap') else ''))}" style="display:grid;grid-template-columns:70px 1fr 330px;gap:18px;padding:18px 0;border-top:2px solid {INK}">
 <div class="g" style="font-size:52px;line-height:1;color:{RED}">{k+1}</div>
 <div><div class="g" style="font-size:40px;line-height:1.15">{e(it['jp'])}</div>
 <div class="a" style="font-weight:800;font-size:24px;margin-top:4px">{e(it['en'].upper())}</div>
 <div class="gr" style="font-size:19px;color:{MUTE};margin-top:4px">{e(it.get('area',''))}</div>
 {f'<div class="a" style="display:inline-block;margin-top:10px;background:{INK};color:#fff;font-weight:700;font-size:16px;letter-spacing:.08em;padding:6px 10px">{e(it["badge"])}</div>' if it.get('badge') else ''}</div>
-<div style="font-size:19px;line-height:1.35">{''.join(f'<div style="display:flex;gap:10px;margin-bottom:6px"><span class="a" style="font-weight:800;font-size:15px;letter-spacing:.12em;color:{RED};width:62px;flex-shrink:0;padding-top:3px">{e(a)}</span><span class="a" style="font-weight:600">{e(b)}</span></div>' for a, b in it.get('facts', []))}</div>
+<div style="font-size:21px;line-height:1.35">{''.join(f'<div style="display:flex;gap:10px;margin-bottom:6px"><span class="a" style="font-weight:800;font-size:15px;letter-spacing:.12em;color:{RED};width:84px;flex-shrink:0;padding-top:3px">{e(a)}</span><span class="a" style="font-weight:600">{e(b)}</span></div>' for a, b in it.get('facts', []))}</div>
 </div>""" for k, it in enumerate(s['items']))
     note = f'<div class="gr" style="position:absolute;left:44px;right:44px;bottom:56px;font-size:18px;color:{MUTE}">{e(s["note"])}</div>' if s.get('note') else ''
     return f"""<div class="s" style="padding:44px 44px">{head(spec, s['kicker'], s['jp'], s['en'], s.get('sub',''))}
@@ -129,7 +131,7 @@ def rules(s, spec, i, n):
 def phrase(s, spec, i, n):
     return f"""<div class="s" style="background:{INK};color:#fff;padding:44px">
 <div style="display:flex;justify-content:space-between"><div class="k" style="color:{YEL}">{e(s.get('kicker','SAY THIS'))}</div><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px">KORU</div></div>
-<div class="z" data-cap="{e(s['romaji'] + ' = ' + s['meaning'])}" style="position:absolute;left:44px;right:44px;top:360px">
+<div class="z" data-cap="{e(s['romaji'] + ' = ' + s['meaning'])}" style="position:absolute;left:44px;right:44px;top:440px">
 <div class="g" style="font-size:{s.get('jp_size',150)}px;line-height:1.08;color:{YEL}">{jp(s['jp'])}</div>
 <div class="a" style="font-weight:800;font-size:64px;margin-top:30px">{e(s['romaji'].upper())}</div>
 <div class="a" style="font-weight:500;font-size:44px;margin-top:10px">= {e(s['meaning'])}</div>

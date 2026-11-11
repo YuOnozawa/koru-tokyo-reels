@@ -1,8 +1,0 @@
-{"id":"c_01_tenkaippin","issue":"Extra 01",
-"slides":[
-{"type":"cover","photo":"stock/yu/tenkaippin_kotteri.jpg","pos":"center 40%","jp":"番外編\nこってり、一杯。","jp_size":90,"en":"Extra: the rich bowl","en_i":"in Akihabara","kicker":"Tokyo Field Notes · Extra 01 · Photos by Yu"},
-{"type":"photo","photo":"stock/yu/tenkaippin_tablet.jpg","num":"01","jp":"タブレットで注文","jp_size":52,"en":"Order on the tablet","body":"English labels. Kotteri is the rich one, assari the light one.","meta":"Tenkaippin Akihabara · cash only at this shop"},
-{"type":"phrase","jp":"ニンニク\n抜きで","romaji":"ninniku nuki de","meaning":"without garlic","body":"Garlic and chili are already in the bowl. Don't want them? Say this when you order."},
-{"type":"photo","photo":"stock/yu/tenkaippin_fried_rice.jpg","num":"03","jp":"炒飯","en":"Add fried rice","body":"Yu's add-on with the kotteri bowl. Water is self-service."},
-{"type":"end","photo":"stock/yu/tenkaippin_kotteri.jpg","jp":"保存版","en":"Tenkaippin\nAkihabara","lines":["Order on the tablet (English labels)","Cash only at this shop","ニンニク抜きで = without garlic","Water is self-service"]}
-]}

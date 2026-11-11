@@ -1,0 +1,88 @@
+{
+ "id": "x_01_tenkaippin",
+ "issue": "番外編 EXTRA 01",
+ "reel": {
+  "cover_cap": "Extra: the rich bowl in Akihabara",
+  "end_cap": "Save it for a quick lunch"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/tenkaippin_kotteri.jpg",
+   "pos": "center 40%",
+   "jp": "番外編\nこってり、\n[一杯]。",
+   "jp_size": 100,
+   "en": "Extra: the rich bowl in Akihabara",
+   "en_size": 50,
+   "lines": [
+    [
+     "タブレットで注文、\n英語あり。",
+     "Order on a tablet, English labels"
+    ],
+    [
+     "ニンニク抜きも\n言える。",
+     "How to say no garlic"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が食べた"
+   ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "EXTRA · A QUICK BOWL",
+   "jp": "天下一品 秋葉原",
+   "en": "Tenkaippin Akihabara",
+   "sub": "Ramen",
+   "reel_cap": "What Yu ordered",
+   "items": [
+    {
+     "photo": "stock/yu/tenkaippin_kotteri.jpg",
+     "pos": "center 40%",
+     "jp": "こってり",
+     "en": "Kotteri ramen",
+     "note": "とろとろの濃いスープ"
+    },
+    {
+     "photo": "stock/yu/tenkaippin_fried_rice.jpg",
+     "jp": "炒飯",
+     "en": "Fried rice",
+     "note": "Yuの追加注文"
+    },
+    {
+     "photo": "stock/yu/tenkaippin_tablet.jpg",
+     "jp": "タブレット注文",
+     "en": "Order on the tablet",
+     "note": "英語表示あり"
+    }
+   ],
+   "info": [
+    [
+     "PAY",
+     "現金のみ",
+     "cash only here"
+    ],
+    [
+     "WATER",
+     "セルフ",
+     "self-service"
+    ],
+    [
+     "SAY",
+     "ニンニク抜きで",
+     "no garlic, please"
+    ]
+   ]
+  },
+  {
+   "type": "phrase",
+   "kicker": "SAY THIS",
+   "jp": "ニンニク抜きで",
+   "jp_size": 130,
+   "romaji": "ninniku nuki de",
+   "meaning": "without garlic, please",
+   "note": "Garlic and chili come already in the bowl. Say this when you order if you don't want them."
+  }
+ ]
+}
