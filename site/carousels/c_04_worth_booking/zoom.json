@@ -2,7 +2,10 @@
  "id": "c_04_worth_booking",
  "reel": {
   "cover_cap": "Five dinners worth booking ahead",
-  "end_cap": "Save it before you book"
+  "end_cap": "Save it before you book",
+  "zoom_pages": [
+   "rules"
+  ]
  },
  "pages": [
   {
