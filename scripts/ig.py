@@ -61,9 +61,23 @@ def public_url(rel):
     return f'https://github.com/{REPO}/releases/download/video-store/{os.path.basename(rel)}'
 
 
+def already_posted(uid, caption):
+    """Media id of a recent post with the same caption start (guards retries against double posts)."""
+    head = caption[:80]
+    for m in call('GET', f'{uid}/media', {'fields': 'id,caption', 'limit': 5}).get('data', []):
+        if (m.get('caption') or '')[:80] == head:
+            return m['id']
+    return None
+
+
 def publish_one(uid, item):
     url = public_url(item['file'])
     print(f"[{item['id']}] video_url={url}")
+    dup = already_posted(uid, item['caption'])
+    if dup:  # an earlier run's publish call failed after Instagram had already posted it
+        info = call('GET', dup, {'fields': 'permalink,timestamp'})
+        print(f'  already on Instagram, recording it: {info}')
+        return {'id': item['id'], 'media_id': dup, 'permalink': info.get('permalink'), 'published_at': info.get('timestamp')}
     c = call('POST', f'{uid}/media', {'media_type': 'REELS', 'video_url': url,
                                       'caption': item['caption'], 'share_to_feed': 'true'})
     cid = c['id']
@@ -77,7 +91,18 @@ def publish_one(uid, item):
             raise SystemExit(f"container failed: {st}")
     else:
         raise SystemExit('container not ready in time')
-    p = call('POST', f'{uid}/media_publish', {'creation_id': cid})
+    p = None
+    for attempt in range(4):  # media_publish sometimes returns a transient 500; retry, but never double-post
+        try:
+            p = call('POST', f'{uid}/media_publish', {'creation_id': cid}); break
+        except SystemExit as e:
+            print(f'  media_publish failed (attempt {attempt + 1}): {str(e)[:200]}')
+            time.sleep(60)
+            dup = already_posted(uid, item['caption'])
+            if dup:
+                print(f'  it went through anyway: {dup}'); p = {'id': dup}; break
+            if 'is_transient' not in str(e) or attempt == 3:
+                raise
     info = call('GET', p['id'], {'fields': 'permalink,timestamp,media_product_type'})
     print(f"  published {info}")
     return {'id': item['id'], 'media_id': p['id'], 'permalink': info.get('permalink'),
