@@ -44,3 +44,8 @@ how much (budget), how to book, what to say. Every photo-less issue gets a map p
 - Reviews: use the Tabelog score and review count with a date (tabelog_score, tabelog_reviews). Summarise review themes in
   our own words only when several reviews say the same thing; never quote review text, never use Google review text.
 - New page type in use: `rules` as "House rules before you book" (No.04).
+
+## 2026-11-12: with KORU travel issues (Yu's photos come first)
+- No.06 金沢（ささ舟の懐石＋四代目菊川）11/16 · Extra 02 麺で旅する（すみれ・瓦そば・一幸舎・福岡空港）11/17.
+- The re-issue list above shifts by one: its "No.06 Ten lines to say" becomes No.07, and so on. Yu's real-photo issues
+  (any region) always jump the queue. Shops Yu didn't name stay unnamed (e.g. the Shimonoseki kawara soba shop).

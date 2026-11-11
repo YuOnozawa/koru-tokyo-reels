@@ -1,0 +1,94 @@
+{
+ "id": "x_02_noodles",
+ "issue": "番外編 EXTRA 02",
+ "place": "JAPAN",
+ "reel": {
+  "cover_cap": "Extra: four bowls, north to south",
+  "end_cap": "Save it for your next trip"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/shimonoseki_kawarasoba.jpg",
+   "pos": "center 60%",
+   "jp": "番外編\n北から南へ、\n[麺]を四杯。",
+   "jp_size": 104,
+   "en": "Extra: four bowls, north to south",
+   "en_size": 50,
+   "lines": [
+    [
+     "北海道の味噌、\n下関の瓦そば。",
+     "Hokkaido miso, Shimonoseki kawara soba"
+    ],
+    [
+     "福岡は\n空港で二杯。",
+     "Two bowls at Fukuoka Airport"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が食べた"
+   ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "EXTRA · NOODLES",
+   "jp": "麺で旅する",
+   "en": "Noodles across Japan",
+   "reel_cap": "Four bowls Yu ate",
+   "items": [
+    {
+     "photo": "stock/yu/hokkaido_sumire.jpg",
+     "pos": "30% center",
+     "jp": "すみれ（北海道）",
+     "en": "Sumire miso ramen",
+     "note": "濃い味噌に、炒飯を添えて"
+    },
+    {
+     "photo": "stock/yu/shimonoseki_kawarasoba.jpg",
+     "jp": "瓦そば（下関）",
+     "en": "Kawara soba",
+     "note": "瓦の器に茶そば、牛肉と錦糸卵"
+    },
+    {
+     "photo": "stock/yu/fukuoka_ikkousha.jpg",
+     "jp": "博多一幸舎（福岡空港）",
+     "en": "Ikkousha tonkotsu",
+     "note": "泡立つ豚骨、細麺"
+    },
+    {
+     "photo": "stock/yu/fukuoka_ramen_clear.jpg",
+     "jp": "澄んだ一杯（福岡空港）",
+     "en": "A clear-broth bowl",
+     "note": "レモンとねぎを添えて"
+    }
+   ],
+   "info": [
+    [
+     "HOKKAIDO",
+     "すみれ",
+     "miso ramen"
+    ],
+    [
+     "SHIMONOSEKI",
+     "瓦そば",
+     "kawara soba"
+    ],
+    [
+     "FUKUOKA AIRPORT",
+     "ラーメン滑走路",
+     "Ramen Runway"
+    ]
+   ]
+  },
+  {
+   "type": "phrase",
+   "kicker": "SAY THIS IN FUKUOKA",
+   "jp": "替え玉\nください",
+   "jp_size": 130,
+   "romaji": "kaedama kudasai",
+   "meaning": "another serving of noodles, please",
+   "note": "At Hakata tonkotsu shops you can order more noodles into your leftover soup. Say it before the soup gets cold."
+  }
+ ]
+}

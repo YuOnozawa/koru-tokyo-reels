@@ -8268,5 +8268,59 @@
   "kind": "meal",
   "lunch_ok": false,
   "dinner_ok": true
+ },
+ {
+  "name_en": "Kanazawa Sasabune",
+  "name_ja": "金沢ささ舟",
+  "area": "Kanazawa (Nagamachi)",
+  "genre": "Kaiseki",
+  "station": "unknown",
+  "walk_min": "unknown",
+  "hours": "Lunch 12:00 (one seating); dinner 17:30-21:30 (JPNEAZY listing)",
+  "closed_days": "Sunday",
+  "lunch_price_yen": "unknown",
+  "dinner_price_yen": "15000-20000 (Yu's visit, autumn 2026)",
+  "budget_band": "10000plus",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "recommended",
+  "what_to_order": "Seasonal kaiseki; Yu had kobako crab with jelly, grilled nodoguro, matsutake grilled over charcoal (autumn 2026)",
+  "tourist_tip": "Private tatami rooms. Address 3-8-36 Nagamachi, Kanazawa. Phone +81-76-263-0903.",
+  "yu_pick": true,
+  "sources": [
+   "https://jpneazy.com/jp/restaurants/38136"
+  ],
+  "checked": "2026-11-12",
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true,
+  "region": "Kanazawa"
+ },
+ {
+  "name_en": "Unagi Yondaime Kikukawa Crossgate Kanazawa",
+  "name_ja": "うなぎ四代目菊川 クロスゲート金沢店",
+  "area": "Kanazawa (station)",
+  "genre": "Unagi",
+  "station": "JR Kanazawa",
+  "walk_min": 3,
+  "hours": "11:00-15:00 (L.O. 14:00), 17:00-22:00 (L.O. 21:00)",
+  "closed_days": "Irregular",
+  "lunch_price_yen": "unknown",
+  "dinner_price_yen": "unknown",
+  "budget_band": "unknown",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "unknown",
+  "what_to_order": "Ippon-ju (one whole eel over rice); also hitsumabushi. Yu had the ippon-ju.",
+  "tourist_tip": "Crossgate Kanazawa commercial building 2F, 1-5-3 Hirooka.",
+  "yu_pick": true,
+  "sources": [
+   "https://rurubu.jp/andmore/spot/80128283"
+  ],
+  "checked": "2026-11-12",
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true,
+  "region": "Kanazawa"
  }
 ]

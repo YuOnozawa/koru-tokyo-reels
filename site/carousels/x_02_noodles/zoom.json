@@ -1,0 +1,71 @@
+{
+ "id": "x_02_noodles",
+ "reel": {
+  "cover_cap": "Extra: four bowls, north to south",
+  "end_cap": "Save it for your next trip"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: four bowls, north to south",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "Four bowls Yu ate",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "1. Sumire miso ramen"
+    },
+    {
+     "x": 550,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "2. Kawara soba"
+    },
+    {
+     "x": 44,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "3. Ikkousha tonkotsu"
+    },
+    {
+     "x": 550,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "4. A clear-broth bowl"
+    },
+    {
+     "x": 44,
+     "y": 1185.109375,
+     "w": 992,
+     "h": 108.890625,
+     "cap": "miso ramen · kawara soba · Ramen Runway"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "phrase",
+   "caption": "",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 440,
+     "w": 992,
+     "h": 562.78125,
+     "cap": "kaedama kudasai = another serving of noodles, please"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "id": "c_06_kanazawa",
+ "issue": "No.06",
+ "place": "KANAZAWA",
+ "reel": {
+  "cover_cap": "Kanazawa: a kaiseki night, and eel by the station",
+  "end_cap": "Save it for Kanazawa",
+  "zoom_pages": [
+   "catalog"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/kanazawa_sasabune_grill.jpg",
+   "pos": "72% center",
+   "jp": "金沢で、\n[秋の]懐石と\n一本うなぎ。",
+   "jp_size": 104,
+   "en": "Kanazawa: kaiseki night, eel at noon",
+   "en_size": 50,
+   "lines": [
+    [
+     "座敷で炭火、\n香箱蟹、のどぐろ。",
+     "Charcoal, kobako crab, nodoguro"
+    ],
+    [
+     "駅3分で\n一本うなぎ。",
+     "Whole-eel box, 3 min from the station"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が食べた"
+   ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "YU'S TABLE · KAISEKI",
+   "jp": "金沢ささ舟",
+   "en": "Kanazawa Sasabune",
+   "sub": "Kaiseki, Nagamachi",
+   "reel_cap": "A kaiseki night at Sasabune",
+   "items": [
+    {
+     "photo": "stock/yu/kanazawa_sasabune_crab.jpg",
+     "jp": "香箱蟹",
+     "en": "Kobako crab",
+     "note": "ジュレをのせて。冬の金沢の味"
+    },
+    {
+     "photo": "stock/yu/kanazawa_sasabune_fish.jpg",
+     "jp": "のどぐろ",
+     "en": "Nodoguro, grilled",
+     "note": "大根おろしと栗を添えて"
+    },
+    {
+     "photo": "stock/yu/kanazawa_sasabune_grill.jpg",
+     "pos": "70% 40%",
+     "jp": "松茸の炭火焼き",
+     "en": "Matsutake on charcoal",
+     "note": "目の前の炭火で、すだちと"
+    },
+    {
+     "photo": "stock/yu/kanazawa_sasabune_table.jpg",
+     "pos": "center 92%",
+     "jp": "漆の膳",
+     "en": "Lacquer trays",
+     "note": "個室の座敷で"
+    }
+   ],
+   "info": [
+    [
+     "AREA",
+     "長町（武家屋敷の町）",
+     "Nagamachi"
+    ],
+    [
+     "OPEN",
+     "昼12:00〜／夜17:30〜",
+     "lunch 12:00, dinner 17:30"
+    ],
+    [
+     "CLOSED",
+     "日曜",
+     "Sundays"
+    ],
+    [
+     "BUDGET",
+     "1人1.5〜2万円",
+     "¥15–20k (Yu's visit)"
+    ]
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/kanazawa_kikukawa_unagi.jpg",
+   "pos": "center 60%",
+   "kicker": "YU'S TABLE · EEL",
+   "jp": "うなぎ四代目菊川\nクロスゲート金沢店",
+   "jp_size": 44,
+   "en": "Unagi Yondaime Kikukawa",
+   "body": "The 'ippon-ju': one whole eel laid over rice in a long box. Lunch before the train home.",
+   "cap": "Kikukawa: one whole eel over rice",
+   "info": [
+    [
+     "ACCESS",
+     "JR金沢駅 徒歩3分",
+     "3 min from JR Kanazawa"
+    ],
+    [
+     "OPEN",
+     "11–15 / 17–22",
+     "L.O. 14:00 / 21:00"
+    ],
+    [
+     "MENU",
+     "一本重・ひつまぶし",
+     "ippon-ju, hitsumabushi"
+    ]
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "金沢、\n行く前に。",
+   "en": "Before you go",
+   "checks": [
+    [
+     "香箱蟹は冬だけ",
+     "Kobako crab is a winter-only treat"
+    ],
+    [
+     "ささ舟は予約して",
+     "Book Sasabune ahead; closed Sundays"
+    ],
+    [
+     "菊川は駅前",
+     "Kikukawa is 3 min from JR Kanazawa"
+    ],
+    [
+     "営業時間は当日確認",
+     "Hours change: check before you go"
+    ]
+   ],
+   "note": "Photos by Yu, autumn 2026",
+   "photo": "stock/yu/kanazawa_sasabune_crab.jpg",
+   "pos": "center 45%"
+  }
+ ]
+}

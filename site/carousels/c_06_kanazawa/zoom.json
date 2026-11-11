@@ -1,0 +1,87 @@
+{
+ "id": "c_06_kanazawa",
+ "reel": {
+  "cover_cap": "Kanazawa: a kaiseki night, and eel by the station",
+  "end_cap": "Save it for Kanazawa",
+  "zoom_pages": [
+   "catalog"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Kanazawa: kaiseki night, eel at noon",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "A kaiseki night at Sasabune",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "1. Kobako crab"
+    },
+    {
+     "x": 550,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "2. Nodoguro, grilled"
+    },
+    {
+     "x": 44,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "3. Matsutake on charcoal"
+    },
+    {
+     "x": 550,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "4. Lacquer trays"
+    },
+    {
+     "x": 44,
+     "y": 1155.21875,
+     "w": 992,
+     "h": 138.78125,
+     "cap": "Nagamachi · lunch 12:00, dinner 17:30 · Sundays · ¥15–20k (Yu's visit)"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Unagi Yondaime Kikukawa",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 916.1875,
+     "w": 992,
+     "h": 377.8125,
+     "cap": "Kikukawa: one whole eel over rice"
+    },
+    {
+     "x": 73,
+     "y": 1160.109375,
+     "w": 934,
+     "h": 108.890625,
+     "cap": "3 min from JR Kanazawa · L.O. 14:00 / 21:00 · ippon-ju, hitsumabushi"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "back",
+   "caption": "Before you go",
+   "boxes": []
+  }
+ ]
+}

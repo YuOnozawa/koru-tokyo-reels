@@ -92,7 +92,7 @@ def cover(s, spec, i, n):
 
 def catalog(s, spec, i, n):
     items = s['items']; cols = 3 if len(items) in (3, 5, 6) else 2
-    ph_h = 640 if len(items) == 3 else ({3: 330, 2: 380}[cols] if len(items) > 2 else 600)
+    ph_h = 640 if len(items) == 3 else (300 if len(items) == 4 and s.get('info') else ({3: 330, 2: 380}[cols] if len(items) > 2 else 600))
     cells = ''.join(f"""<div class="z" data-cap="{e(str(k+1) + '. ' + it['en'])}" style="display:flex;flex-direction:column">
 <div class="ph" style="height:{ph_h}px;background-image:url('{img(it['photo'])}');background-position:{it.get('pos','center')};border:1px solid {INK}"></div>
 <div style="display:flex;gap:10px;align-items:baseline;margin-top:10px"><span class="g" style="font-size:32px;color:{RED}">{'①②③④⑤⑥⑦⑧⑨'[k]}</span><span class="g" style="font-size:32px;line-height:1.15">{e(it['jp'])}</span></div>
@@ -221,7 +221,21 @@ def voices(s, spec, i, n):
 <div style="margin-top:16px;border-bottom:2px solid {INK}">{rows}</div>{note}{folio(i, n)}</div>"""
 
 
-KINDS = dict(voices=voices, map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
+
+def fphoto(s, spec, i, n):
+    """Full-bleed photo page with a paper caption box (one dish or one scene)."""
+    info = f'<div style="margin-top:16px">{info_table(s["info"])}</div>' if s.get('info') else ''
+    return f"""<div class="s"><div class="ph" style="position:absolute;inset:0;background-image:url('{img(s['photo'])}');background-position:{s.get('pos','center')}"></div>
+<div class="a" style="position:absolute;right:44px;top:40px;font-weight:900;font-stretch:125%;font-size:40px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.5)"><span style="font-weight:700;font-stretch:100%;font-size:20px;color:{YEL};margin-right:6px">with</span>KORU</div>
+<div class="z" data-cap="{e(s.get('cap', s['en']))}" style="position:absolute;left:44px;right:44px;bottom:56px;background:{PAPER};border:3px solid {INK};padding:22px 26px">
+<div class="k" style="color:{RED}">{e(s.get('kicker',''))}</div>
+<div class="g" style="font-size:{s.get('jp_size',52)}px;line-height:1.12;margin-top:6px">{jp(s['jp'])}</div>
+<div class="a" style="font-weight:800;font-size:26px;margin-top:6px">{e(s['en'].upper())}</div>
+<div class="a" style="font-weight:500;font-size:24px;line-height:1.35;margin-top:10px;color:#333">{e(s.get('body',''))}</div>{info}</div>
+<div class="a" style="position:absolute;right:44px;bottom:18px;font-weight:700;font-size:15px;letter-spacing:.14em;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.6)">{i:02d} / {n:02d}</div></div>"""
+
+
+KINDS = dict(photo=fphoto, voices=voices, map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
 
 
 def render(spec_path):

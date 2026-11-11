@@ -113,5 +113,13 @@
   "metric": "reach",
   "since": "2026-11-12",
   "note": "also compare ig_reels_avg_watch_time (old median 3.6 s)"
+ },
+ "H17": {
+  "hypothesis": "Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues",
+  "A": "travel",
+  "B": "tokyo",
+  "metric": "ss",
+  "since": "2026-11-12",
+  "note": "with KORU rebrand: not Tokyo-only"
  }
 }
