@@ -17,8 +17,8 @@
    "en_size": 50,
    "lines": [
     [
-     "北海道の味噌、\n下関の瓦そば。",
-     "Hokkaido miso, Shimonoseki kawara soba"
+     "札幌の味噌、\n下関の瓦そば。",
+     "Sapporo miso, Shimonoseki kawara soba"
     ],
     [
      "福岡は\n空港で二杯。",
@@ -40,8 +40,8 @@
     {
      "photo": "stock/yu/hokkaido_sumire.jpg",
      "pos": "30% center",
-     "jp": "すみれ（北海道）",
-     "en": "Sumire miso ramen",
+     "jp": "すみれ本店（札幌）",
+     "en": "Sumire Honten, Sapporo",
      "note": "濃い味噌に、炒飯を添えて"
     },
     {
@@ -65,9 +65,9 @@
    ],
    "info": [
     [
-     "HOKKAIDO",
-     "すみれ",
-     "miso ramen"
+     "SAPPORO",
+     "すみれ本店",
+     "Nakanoshima · since 1964"
     ],
     [
      "SHIMONOSEKI",
