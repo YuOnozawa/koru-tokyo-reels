@@ -916,6 +916,111 @@
    "liked": true,
    "at": "2026-11-11T12:45Z",
    "source": "posted at 浅草寺 Senso-ji location (recent tab), via Mac (8 followers)"
+  },
+  {
+   "user": "wandermadoy",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (822 followers)"
+  },
+  {
+   "user": "discordkat",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (1517 followers)"
+  },
+  {
+   "user": "michikolii",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (5490 followers)"
+  },
+  {
+   "user": "dhiyatako",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (210 followers)"
+  },
+  {
+   "user": "bryces_bbq",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (243 followers)"
+  },
+  {
+   "user": "maryangel200",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (192 followers)"
+  },
+  {
+   "user": "jackv1ney",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (53 followers)"
+  },
+  {
+   "user": "umie_abdulrahim",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (2872 followers)"
+  },
+  {
+   "user": "travel_kindred",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (760 followers)"
+  },
+  {
+   "user": "akamaaku",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (167 followers)"
+  },
+  {
+   "user": "kimzin345",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (304 followers)"
+  },
+  {
+   "user": "swans3a",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (838 followers)"
+  },
+  {
+   "user": "destinovian",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (562 followers)"
+  },
+  {
+   "user": "aleks_hdn",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (153 followers)"
+  },
+  {
+   "user": "vikasbagga",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-11T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (692 followers)"
   }
  ],
  "candidates": [],
@@ -1067,7 +1172,8 @@
   "2026-11-10 06:20 run: account OK. b_10: still 0 comments. Inbox nothing new. 0 follows: all 6 commenters on shannon_savvytourist's Japan winter reel were private. Commenter-sourcing finds real travelers but most are private (10 of 13 so far).",
   "2026-11-10 21:20 run: account OK. Own reels n_02 (AKIBA) and b_10 (UENO): 0 comments. 0 follows / 0 comments: keyword search returns mostly old top posts or creators; the only recent personal post (touria_meliani) was a public figure leaving Tokyo, skipped. Next: try location pages (Senso-ji, Ameyoko, Akihabara) for recent traveler posts.",
   "2026-11-11 06:20 run: Chrome extension disconnected on the first page load (retried: still disconnected). Nothing done.",
-  "2026-11-11: location feed works — POST /api/v1/locations/<pk>/sections/ body tab=recent&page=0 (pk via /api/v1/fbsearch/places/?query=). Senso-ji pk=43148. web_profile_info and topsearch return HTML now."
+  "2026-11-11: location feed works — POST /api/v1/locations/<pk>/sections/ body tab=recent&page=0 (pk via /api/v1/fbsearch/places/?query=). Senso-ji pk=43148. web_profile_info and topsearch return HTML now.",
+  "2026-11-12 06:20 JST run: 15 follows+likes (Ueno Park / Akihabara location feeds), 1 business skip, 2 comments (11/12 JST: 2/5). Keyword comments on n_07/n_05/n_02: none. Inbox/requests: nothing new. /api/v1/web/comments/<id>/add/ now 404 → comment via UI textarea + Enter; /api/v1/direct_v2/inbox/ 404 → read /direct/inbox/ page text."
  ],
  "dm_log": [
   {
@@ -1110,7 +1216,8 @@
   "voyage___diaries",
   "mariusvelena",
   "goodiefoodieph",
-  "stewesworld87"
+  "stewesworld87",
+  "cumajepret"
  ],
  "comment_queue": [
   {
@@ -1194,6 +1301,20 @@
    "text": "Love the Fujifilm tones! If you're back in Asakusa for lunch, Namiki Yabusoba (since 1913) is 2 min from the station, just note it's closed Thursdays.",
    "at": "2026-11-11T12:45Z",
    "basis": "shops.json Namiki Yabusoba: 2 min walk, closed Thursday; friend comment shows trip ongoing"
+  },
+  {
+   "user": "akamaaku",
+   "post": "https://www.instagram.com/p/DfldFdnmUgK/",
+   "text": "Great pond for reading! When you get hungry, Izuei Honten faces Shinobazu Pond and serves unaju (eel over rice) from ¥3,630, open 11:00-21:00 with an English menu.",
+   "at": "2026-11-11T21:40Z",
+   "basis": "shops.json Izuei Honten; post at Shinobazu Pond \"read until I get hungry\""
+  },
+  {
+   "user": "wandermadoy",
+   "post": "https://www.instagram.com/p/Dfj63_mE-nO/",
+   "text": "Ueno in autumn looks lovely! If you're back in the park, Ueno Seiyoken inside it does hayashi rice and beef stew for lunch (closed Mondays).",
+   "at": "2026-11-11T21:40Z",
+   "basis": "shops.json Ueno Seiyoken; solo travel day 17 in Ueno"
   }
  ]
 }
