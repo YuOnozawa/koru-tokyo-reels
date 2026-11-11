@@ -207,7 +207,21 @@ def smap(s, spec, i, n):
 <div style="position:absolute;left:44px;right:44px;bottom:56px;background:{PAPER};border:3px solid {INK};padding:6px 20px 0">{legend}</div>{folio(i, n)}</div>"""
 
 
-KINDS = dict(map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
+
+def voices(s, spec, i, n):
+    """What diners love: positive-first summary of reviews in our own words, with how many reviews it is based on."""
+    rows = ''.join(f"""<div class="z" data-cap="{e(it['en'] + ': ' + it['loved_en'])}" style="display:grid;grid-template-columns:1fr 300px;gap:20px;padding:16px 0;border-top:2px solid {INK}">
+<div><div style="display:flex;gap:12px;align-items:baseline"><span class="g" style="font-size:34px">{e(it['jp'])}</span><span class="a" style="font-weight:800;font-size:19px">{e(it['en'].upper())}</span></div>
+<div class="a" style="font-weight:600;font-size:22px;line-height:1.35;margin-top:6px">{e(it['praise'])}</div></div>
+<div style="background:{YEL};padding:12px 14px;align-self:start"><div class="a" style="font-weight:800;font-size:14px;letter-spacing:.15em">MOST LOVED</div>
+<div class="g" style="font-size:26px;line-height:1.2;margin-top:4px">{e(it['loved_jp'])}</div><div class="a" style="font-weight:700;font-size:17px;margin-top:2px">{e(it['loved_en'])}</div>
+<div class="a" style="font-weight:600;font-size:14px;color:{MUTE};margin-top:6px">{e(it.get('basis',''))}</div></div></div>""" for it in s['items'])
+    note = f'<div class="gr" style="position:absolute;left:44px;right:44px;bottom:56px;font-size:17px;color:{MUTE}">{e(s["note"])}</div>' if s.get('note') else ''
+    return f"""<div class="s" style="padding:44px 44px">{head(spec, s['kicker'], s['jp'], s['en'], s.get('sub',''))}
+<div style="margin-top:16px;border-bottom:2px solid {INK}">{rows}</div>{note}{folio(i, n)}</div>"""
+
+
+KINDS = dict(voices=voices, map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
 
 
 def render(spec_path):

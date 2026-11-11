@@ -58,6 +58,48 @@
   },
   {
    "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 169.1875,
+     "cap": "Nabeno-Ism: Edo-Tokyo ingredients, French technique"
+    },
+    {
+     "x": 44,
+     "y": 376.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Hicho Kurata: Yakitori, and the chicken ramen"
+    },
+    {
+     "x": 44,
+     "y": 526.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Myojinshita Kandagawa: Unaju, eel over rice"
+    },
+    {
+     "x": 44,
+     "y": 676.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Shochikuan Masukawa: Soba and tempura course"
+    },
+    {
+     "x": 44,
+     "y": 826.703125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Kanda Yunrin: Shanghai hairy crab, Oct–Dec"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
    "type": "map",
    "caption": "Where they are",
    "boxes": [
@@ -99,7 +141,7 @@
    ]
   },
   {
-   "page": "04.jpg",
+   "page": "05.jpg",
    "type": "rules",
    "caption": "House rules, before you book",
    "boxes": [
@@ -148,7 +190,7 @@
    ]
   },
   {
-   "page": "05.jpg",
+   "page": "06.jpg",
    "type": "back",
    "caption": "How not to lose a booking",
    "boxes": []

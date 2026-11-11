@@ -148,6 +148,57 @@
    "note": "Prices per person. Tabelog scores as of Nov 12 2026. Checked from public sources (Michelin Guide, Tabelog, restaurant info)."
   },
   {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "summarised from Tabelog reviews",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "ナベノイズム",
+     "en": "Nabeno-Ism",
+     "praise": "French cooking built on old-Tokyo ingredients, like sobagaki made with Ryogoku buckwheat.",
+     "loved_jp": "江戸の食材のフレンチ",
+     "loved_en": "Edo-Tokyo ingredients, French technique",
+     "basis": "from the restaurant's listing"
+    },
+    {
+     "jp": "飛鳥くら田",
+     "en": "Hicho Kurata",
+     "praise": "The grilling, and how tender and deep the chicken tastes. Several diners come back again.",
+     "loved_jp": "焼き鳥と鶏ラーメン",
+     "loved_en": "Yakitori, and the chicken ramen",
+     "basis": "8 of 20 recent reviews on the grill"
+    },
+    {
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "praise": "The old wooden building and calm private rooms; fluffy, crisp-edged eel.",
+     "loved_jp": "鰻重",
+     "loved_en": "Unaju, eel over rice",
+     "basis": "10 of 20 reviews on the building"
+    },
+    {
+     "jp": "松竹庵 ます川",
+     "en": "Shochikuan Masukawa",
+     "praise": "The soba itself, then the tempura; a long family history behind the counter.",
+     "loved_jp": "蕎麦と天ぷらのコース",
+     "loved_en": "Soba and tempura course",
+     "basis": "10 of 20 on the soba, 7 on tempura"
+    },
+    {
+     "jp": "神田 雲林",
+     "en": "Kanda Yunrin",
+     "praise": "People come in autumn just for the crab; lunch sets are praised as great value.",
+     "loved_jp": "上海蟹（秋〜冬）",
+     "loved_en": "Shanghai hairy crab, Oct–Dec",
+     "basis": "7 of 20 recent reviews"
+    }
+   ],
+   "note": "Our own summary of the latest 20 Tabelog reviews per restaurant, Nov 12 2026 (Nabeno-Ism: listing only). Scores: Kurata 3.96 · Kandagawa 3.72 · Yunrin 3.71 · Masukawa 3.65."
+  },
+  {
    "type": "map",
    "jp": "五軒の地図",
    "reel_cap": "Where they are",
