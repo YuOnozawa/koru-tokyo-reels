@@ -1,8 +1,62 @@
-{"id":"c_01_tenkaippin","issue":"No. 01","label":"AKIHABARA",
-"slides":[
-{"type":"cover_photo","photo":"stock/yu/tenkaippin_kotteri.jpg","pos":"center 40%","kicker":"AKIHABARA · RAMEN · YU ATE HERE","title":"How to order the rich 'kotteri' bowl","size":104,"dek":"Tenkaippin, Akihabara. No Japanese needed, just four things to know.","note":"Photos: Yu, Nov 10 2026 · Swipe →"},
-{"type":"photo","photo":"stock/yu/tenkaippin_tablet.jpg","num":1,"title":"Order on the tablet","body":"It has English labels. Kotteri is the rich one, assari the light one.","facts":[["PAY","Cash only at this shop"]]},
-{"type":"phrase","kicker":"2 · SAY THIS","jp":"ニンニク抜きで","romaji":"ninniku nuki de","meaning":"without garlic, please","body":"Garlic and chili are already in the bowl. Don't want them? Say this when you order."},
-{"type":"photo","photo":"stock/yu/tenkaippin_fried_rice.jpg","num":3,"title":"Add a plate of fried rice","body":"Yu's add-on with the kotteri bowl.","facts":[["WATER","Self-service: help yourself"]]},
-{"type":"end","title":"Save this for Akihabara","dek":"Four things, one bowl.","lines":["Tablet with English labels","Cash only","ニンニク抜きで = without garlic","Water is self-service"]}
-]}
+{
+ "id": "c_01_tenkaippin",
+ "issue": "EXTRA 01",
+ "label": "番外編",
+ "slides": [
+  {
+   "type": "cover_photo",
+   "photo": "stock/yu/tenkaippin_kotteri.jpg",
+   "pos": "center 40%",
+   "kicker": "番外編 · EXTRA · AKIHABARA RAMEN · YU ATE HERE",
+   "title": "How to order the rich 'kotteri' bowl",
+   "size": 104,
+   "dek": "Tenkaippin, Akihabara. No Japanese needed, just four things to know.",
+   "note": "Photos: Yu, Nov 10 2026 · Swipe →"
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/tenkaippin_tablet.jpg",
+   "num": 1,
+   "title": "Order on the tablet",
+   "body": "It has English labels. Kotteri is the rich one, assari the light one.",
+   "facts": [
+    [
+     "PAY",
+     "Cash only at this shop"
+    ]
+   ]
+  },
+  {
+   "type": "phrase",
+   "kicker": "2 · SAY THIS",
+   "jp": "ニンニク抜きで",
+   "romaji": "ninniku nuki de",
+   "meaning": "without garlic, please",
+   "body": "Garlic and chili are already in the bowl. Don't want them? Say this when you order."
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/tenkaippin_fried_rice.jpg",
+   "num": 3,
+   "title": "Add a plate of fried rice",
+   "body": "Yu's add-on with the kotteri bowl.",
+   "facts": [
+    [
+     "WATER",
+     "Self-service: help yourself"
+    ]
+   ]
+  },
+  {
+   "type": "end",
+   "title": "Save this for Akihabara",
+   "dek": "Four things, one bowl.",
+   "lines": [
+    "Tablet with English labels",
+    "Cash only",
+    "ニンニク抜きで = without garlic",
+    "Water is self-service"
+   ]
+  }
+ ]
+}

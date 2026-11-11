@@ -265,23 +265,6 @@
   "held": "2026-11-12: replaced by magazine carousel c_01 (format change)"
  },
  {
-  "id": "c_01_tenkaippin",
-  "type": "carousel",
-  "images": [
-   "carousels/c_01_tenkaippin/01.jpg",
-   "carousels/c_01_tenkaippin/02.jpg",
-   "carousels/c_01_tenkaippin/03.jpg",
-   "carousels/c_01_tenkaippin/04.jpg",
-   "carousels/c_01_tenkaippin/05.jpg"
-  ],
-  "publish_at": "2026-11-12T10:00:00+09:00",
-  "tests": {
-   "H14": "carousel"
-  },
-  "caption": "How to order Tenkaippin's rich 'kotteri' ramen in Akihabara 🍜 Yu ate here on Nov 10\n\n1. Order on the tablet (English labels)\n2. Garlic & chili are already in. Say ニンニク抜きで (ninniku nuki de) = without garlic\n3. Add a plate of fried rice\n💴 Cash only at this shop · water is self-service\n\nSave this for your Akihabara day 🔖\n\nKORU · Tokyo Field Notes No. 01 · checked by Yu, a local office worker, with Koru 🐕\nPhotos: Yu, Nov 10 2026\n\n#akihabara #tokyoramen #tenkaippin #tokyofood #japantravel",
-  "held": "2026-11-12: off-target after Yu defined the audience (affluent adults who want no-fail, delicious meals, not cheap & fun)"
- },
- {
   "id": "c_02_midnight",
   "type": "carousel",
   "images": [
