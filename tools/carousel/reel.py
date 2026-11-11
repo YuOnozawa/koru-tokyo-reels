@@ -91,10 +91,13 @@ def main(cid, out=None):
         for i in range(45):
             frame(pg, (540, 675, 1 + 0.02 * i / 44), meta.get('caption', ''), min(1, i / 15))
         prev = (540, 675, 1.02)
-        boxes = [] if meta['type'] == 'phrase' else [b for b in meta['boxes'] if b['w'] < 1000 or b['h'] < 400][:8]
-        if meta['type'] == 'phrase':  # show the whole page longer, caption = the phrase
+        zp = rc.get('zoom_pages')  # optional: only zoom into these page types; others are shown whole (keeps reels ~30 s)
+        still = meta['type'] in ('phrase', 'map') or (zp is not None and meta['type'] not in zp)
+        boxes = [] if still else [b for b in meta['boxes'] if b['w'] < 1000 or b['h'] < 400][:8]
+        if still and meta['type'] == 'phrase':  # show the phrase page a little longer
+            cap = meta['boxes'][0]['cap'] if meta['type'] == 'phrase' and meta['boxes'] else ''
             for i in range(60):
-                frame(pg, (540, 675, 1.02 + 0.02 * i / 59), meta['boxes'][0]['cap'] if meta['boxes'] else '', 1)
+                frame(pg, (540, 675, 1.02 + 0.02 * i / 59), cap, 1)
         MV, HD = (24, 33) if len(boxes) > 6 else (30, 45)
         for b in boxes:
             cx, cy = b['x'] + b['w'] / 2, b['y'] + b['h'] / 2
