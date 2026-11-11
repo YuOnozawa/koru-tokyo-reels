@@ -1,30 +1,62 @@
 {
- "fetched_at": "2026-11-10T15:06:35.438812+00:00",
+ "fetched_at": "2026-11-11T06:35:22.009646+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 96,
+  "media_count": 98,
   "id": "28241506535529259",
   "followers_count": 7,
   "follows_count": 98
  },
  "media": [
   {
+   "id": "18098272352655337",
+   "permalink": "https://www.instagram.com/reel/DfllJYlyw7d/",
+   "timestamp": "2026-11-11T04:04:52+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Where to eat late in Asakusa? 🌙 Most of it goes dark early. ",
+   "reach": 128,
+   "views": 151,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 6229,
+   "ig_reels_video_view_total_time": 791105
+  },
+  {
+   "id": "18120321499814568",
+   "permalink": "https://www.instagram.com/reel/Dfk8corKHY_/",
+   "timestamp": "2026-11-10T22:09:13+0000",
+   "media_product_type": "REELS",
+   "caption_head": "Where to eat after 10pm in Ueno? 🌙 4 places, checked by Yu (",
+   "reach": 113,
+   "views": 120,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3416,
+   "ig_reels_video_view_total_time": 389468
+  },
+  {
    "id": "18137272489660262",
    "permalink": "https://www.instagram.com/reel/Dfj3c0kSu9U/",
    "timestamp": "2026-11-10T12:06:20+0000",
    "media_product_type": "REELS",
    "caption_head": "What's open at midnight in East Tokyo? 🌙 4 places still serv",
-   "reach": 122,
-   "views": 133,
+   "reach": 124,
+   "views": 135,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3331,
-   "ig_reels_video_view_total_time": 406475
+   "ig_reels_avg_watch_time": 3465,
+   "ig_reels_video_view_total_time": 433149
   },
   {
    "id": "18134451166667189",
@@ -32,15 +64,15 @@
    "timestamp": "2026-11-10T04:04:55+0000",
    "media_product_type": "REELS",
    "caption_head": "Ramen open until 5:30am in Tokyo? 🌙 Garyu Tantanmen, Yushima",
-   "reach": 121,
-   "views": 153,
+   "reach": 123,
+   "views": 157,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 2,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 3486,
-   "ig_reels_video_view_total_time": 421820
+   "ig_reels_avg_watch_time": 3584,
+   "ig_reels_video_view_total_time": 440948
   },
   {
    "id": "18170426356487110",
@@ -257,14 +289,14 @@
    "media_product_type": "REELS",
    "caption_head": "Want a cheap drink in Ueno before noon? 🍺 3 standing spots. ",
    "reach": 101,
-   "views": 107,
+   "views": 108,
    "likes": 2,
    "comments": 0,
    "saved": 2,
    "shares": 0,
    "total_interactions": 4,
-   "ig_reels_avg_watch_time": 3593,
-   "ig_reels_video_view_total_time": 359355
+   "ig_reels_avg_watch_time": 3857,
+   "ig_reels_video_view_total_time": 389592
   },
   {
    "id": "18170888281497289",
@@ -777,43 +809,11 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 2593,
    "ig_reels_video_view_total_time": 233439
-  },
-  {
-   "id": "18100390088647625",
-   "permalink": "https://www.instagram.com/reel/DfO8fuxBUyv/",
-   "timestamp": "2026-11-02T09:06:22+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Tokyo hacks #5: don't tip in Japan 🙅\n\nLeave money on the tab",
-   "reach": 111,
-   "views": 119,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3688,
-   "ig_reels_video_view_total_time": 402031
-  },
-  {
-   "id": "18101338682086412",
-   "permalink": "https://www.instagram.com/reel/DfOvc6rIg9Z/",
-   "timestamp": "2026-11-02T07:12:40+0000",
-   "media_product_type": "REELS",
-   "caption_head": "Tokyo hacks #6: some of the best cheap spots close before di",
-   "reach": 101,
-   "views": 105,
-   "likes": 1,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2038,
-   "ig_reels_video_view_total_time": 209960
   }
  ],
  "account_daily": {
-  "reach": 377,
-  "views": 422,
+  "reach": 609,
+  "views": 699,
   "profile_views": 4,
   "profile_links_taps": 0,
   "accounts_engaged": 5
