@@ -1138,7 +1138,7 @@
   "id": "r_c_04_worth_booking",
   "file": "videos/r_c_04_worth_booking.mp4",
   "publish_at": "2026-11-14T12:00:00+09:00",
-  "len": 22.4,
+  "len": 38.3,
   "tests": {
    "H16": "magazine reel",
    "H15": "A"
@@ -1151,7 +1151,8 @@
   "images": [
    "carousels/c_04_worth_booking/01.jpg",
    "carousels/c_04_worth_booking/02.jpg",
-   "carousels/c_04_worth_booking/03.jpg"
+   "carousels/c_04_worth_booking/03.jpg",
+   "carousels/c_04_worth_booking/04.jpg"
   ],
   "publish_at": "2026-11-14T20:00:00+09:00",
   "tests": {

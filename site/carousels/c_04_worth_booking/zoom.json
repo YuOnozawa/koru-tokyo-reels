@@ -55,6 +55,48 @@
   },
   {
    "page": "03.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 981,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Nabeno-Ism — Kuramae 5 min"
+    },
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Hicho Kurata — JR Kanda 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Myojinshita Kandagawa — Suehirocho 5 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Shochikuan Masukawa — Awajicho 3 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "5. Kanda Yunrin — Awajicho 2 min"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
    "type": "back",
    "caption": "How not to lose a booking",
    "boxes": []

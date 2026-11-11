@@ -145,6 +145,53 @@
    "note": "Prices per person. Same-day cancellation can be charged in full (Masukawa, Yunrin). Checked from public sources, Oct 31 2026."
   },
   {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "label_left": [
+    "Awajicho",
+    "Ochanomizu"
+   ],
+   "stations": [
+    "Akihabara",
+    "Ueno",
+    "Asakusa",
+    "Asakusabashi"
+   ],
+   "pins": [
+    {
+     "station": "Kuramae",
+     "jp": "ナベノイズム",
+     "en": "Nabeno-Ism",
+     "walk": "Kuramae 5 min"
+    },
+    {
+     "station": "Kanda",
+     "jp": "飛鳥くら田",
+     "en": "Hicho Kurata",
+     "walk": "JR Kanda 1 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "walk": "Suehirocho 5 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "松竹庵 ます川",
+     "en": "Shochikuan Masukawa",
+     "walk": "Awajicho 3 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "神田 雲林",
+     "en": "Kanda Yunrin",
+     "walk": "Awajicho 2 min"
+    }
+   ]
+  },
+  {
    "type": "back",
    "jp": "失敗しない\n予約のコツ。",
    "en": "How not to lose a booking",

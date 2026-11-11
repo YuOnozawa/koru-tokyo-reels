@@ -154,7 +154,60 @@ def back(s, spec, i, n):
 {folio(i, n)}</div>"""
 
 
-KINDS = dict(cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
+# ---- schematic East Tokyo map (not to scale). Pins sit next to the shop's station; no shop coordinates needed.
+STATIONS = {  # name -> (jp, lat, lon)
+ 'Ueno': ('上野', 35.7138, 139.7773), 'Okachimachi': ('御徒町', 35.7075, 139.7748), 'Yushima': ('湯島', 35.7076, 139.7698),
+ 'Suehirocho': ('末広町', 35.7026, 139.7716), 'Akihabara': ('秋葉原', 35.6984, 139.7731), 'Kanda': ('神田', 35.6918, 139.7709),
+ 'Awajicho': ('淡路町', 35.6955, 139.7676), 'Ochanomizu': ('御茶ノ水', 35.6995, 139.7650), 'Jimbocho': ('神保町', 35.6960, 139.7577),
+ 'Asakusabashi': ('浅草橋', 35.6970, 139.7865), 'Kuramae': ('蔵前', 35.7035, 139.7907), 'Asakusa': ('浅草', 35.7110, 139.7964),
+ 'Tawaramachi': ('田原町', 35.7097, 139.7905), 'Shin-Okachimachi': ('新御徒町', 35.7069, 139.7820), 'Iwamotocho': ('岩本町', 35.6955, 139.7759)}
+LINES = [(['Kanda', 'Akihabara', 'Okachimachi', 'Ueno'], '#7FB23A', 12, ''), (['Ochanomizu', 'Akihabara', 'Asakusabashi'], '#F2C200', 10, ''),
+         (['Ueno', 'Suehirocho', 'Kanda'], '#F39700', 8, 'stroke-dasharray="2 14"'), (['Asakusabashi', 'Kuramae', 'Asakusa'], '#E85298', 8, 'stroke-dasharray="2 14"'),
+         (['Asakusa', 'Tawaramachi', 'Ueno'], '#F39700', 8, 'stroke-dasharray="2 14"'), (['Jimbocho', 'Awajicho'], '#6CBB5A', 8, 'stroke-dasharray="2 14"')]
+
+
+def smap(s, spec, i, n):
+    pins = s['pins']; used = {p['station'] for p in pins} | set(s.get('stations', []))
+    pts = [STATIONS[k] for k in used]
+    la0, la1 = min(p[1] for p in pts) - .004, max(p[1] for p in pts) + .004
+    lo0, lo1 = min(p[2] for p in pts) - .006, max(p[2] for p in pts) + .006
+    top, bot = 240, 1350 - 90 - 62 * len(pins) - 60
+    sc = min(960 / (lo1 - lo0) / 0.81, (bot - top) / (la1 - la0))  # keep lon/lat aspect (cos 35.7 deg ~ .81)
+    cxm, cym = 540, (top + bot) / 2; mlo, mla = (lo0 + lo1) / 2, (la0 + la1) / 2
+    X = lambda lo: cxm + (lo - mlo) * sc * 0.81
+    Y = lambda la: cym - (la - mla) * sc
+    svg = ''
+    for names, col, w, dash in LINES:
+        ok = [k for k in names if k in used]
+        if len(ok) >= 2:
+            svg += f'<polyline points="{" ".join(f"{X(STATIONS[k][2]):.0f},{Y(STATIONS[k][1]):.0f}" for k in ok)}" fill="none" stroke="{col}" stroke-width="{w}" stroke-linecap="round" {dash}/>'
+    river = f'<path d="M {X(139.8015):.0f} {Y(35.725):.0f} C {X(139.8000):.0f} {Y(35.706):.0f}, {X(139.7950):.0f} {Y(35.699):.0f}, {X(139.7935):.0f} {Y(35.680):.0f}" stroke="#9CC9E8" stroke-width="40" fill="none"/>'
+    kanda = f'<path d="M {X(139.750):.0f} {Y(35.7000):.0f} C {X(139.7700):.0f} {Y(35.6985):.0f}, {X(139.7820):.0f} {Y(35.6965):.0f}, {X(139.7935):.0f} {Y(35.6955):.0f}" stroke="#9CC9E8" stroke-width="20" fill="none"/>'
+    left = set(s.get('label_left', []))
+    st = ''
+    for k in used:
+        j, la, lo = STATIONS[k]; side = f'right:{1080 - X(lo) + 14:.0f}px' if k in left else f'left:{X(lo) + 14:.0f}px'
+        st += (f'<div style="position:absolute;left:{X(lo) - 8:.0f}px;top:{Y(la) - 8:.0f}px;width:16px;height:16px;background:#fff;border:4px solid {INK};border-radius:50%"></div>'
+               f'<div class="gm" style="position:absolute;{side};top:{Y(la) - 17:.0f}px;font-size:21px;white-space:nowrap">{j}<span class="a" style="font-size:15px;font-weight:700;margin-left:6px">{k.upper()}</span></div>')
+    pn = ''; seen = {}
+    for k, p in enumerate(pins, 1):
+        j, la, lo = STATIONS[p['station']]; m = seen.get(p['station'], 0); seen[p['station']] = m + 1
+        dx, dy = p.get('dx', -40 + 46 * m), p.get('dy', -64)
+        x, y = X(lo) + dx, Y(la) + dy
+        pn += (f'<div style="position:absolute;left:{x - 26:.0f}px;top:{y:.0f}px;width:52px;height:52px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:{RED};border:3px solid {INK}"></div>'
+               f'<div class="g" style="position:absolute;left:{x - 26:.0f}px;top:{y + 4:.0f}px;width:52px;text-align:center;font-size:28px;color:#fff">{k}</div>')
+    legend = ''.join(f'<div class="z" data-cap="{e(str(k) + ". " + p["en"] + " — " + p.get("walk", ""))}" style="display:flex;gap:12px;align-items:baseline;padding:10px 0;border-top:2px solid {INK}">'
+                     f'<span class="g" style="color:{RED};font-size:28px;width:28px">{k}</span><span class="g" style="font-size:27px">{e(p["jp"])}</span>'
+                     f'<span class="a" style="font-weight:700;font-size:18px">{e(p["en"].upper())}</span><span class="a" style="margin-left:auto;font-weight:700;font-size:19px">{e(p.get("walk", ""))}</span></div>'
+                     for k, p in enumerate(pins, 1))
+    return f"""<div class="s" style="background:#EFEADF"><svg width="1080" height="1350" style="position:absolute;left:0;top:0">{river}{kanda}{svg}</svg>{st}{pn}
+<div style="position:absolute;left:0;right:0;top:0;background:{PAPER};padding:40px 44px 14px;border-bottom:6px solid {INK}">
+<div class="k">{e(s.get('kicker', 'MAP · NOT TO SCALE'))}</div>
+<div style="display:flex;justify-content:space-between;align-items:flex-end"><div class="g" style="font-size:60px;line-height:1.1">{jp(s['jp'])}</div><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px">KORU</div></div></div>
+<div style="position:absolute;left:44px;right:44px;bottom:56px;background:{PAPER};border:3px solid {INK};padding:6px 20px 0">{legend}</div>{folio(i, n)}</div>"""
+
+
+KINDS = dict(map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
 
 
 def render(spec_path):

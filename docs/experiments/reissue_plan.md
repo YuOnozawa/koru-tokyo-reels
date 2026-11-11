@@ -25,3 +25,14 @@ Each issue = 1 slow magazine reel (12:00 JST) + 1 carousel (20:00 JST). One issu
 Rules: facts only from data/shops.json or Yu; describe only what's visible in Yu's photo; never show another shop's
 dish for a named shop (photo-less issues use the solid type cover). Old reels: suggest Yu archive them in the app
 once the new issues are out (archive, not delete; Yu decides).
+
+## 2026-11-12 update: no borrowed photos (Yu)
+Yu: quoting/borrowing shop photos is risky — don't. No permission requests either. Until Yu shoots, change the CONTENT,
+not just the design. Visuals we can make ourselves:
+1. Schematic maps (render.py `map` type: pins next to the shop's station, "not to scale") — the city-magazine staple.
+2. Big type covers (solid colour + giant numeral/kanji: `cover` without `photo`, with `bg` and `big`).
+3. Data pages: lists, rules, phrases, checklists (no photos needed).
+4. Yu's own photos only (stock/yu/). Street/station photos by Yu are welcome, food or not.
+5. Later: line illustrations of dish genres, labelled "Illustration" (never presented as a specific shop's dish).
+So photo-less issues lean on information that saves a traveler from a bad meal: where (map), when (hours/closed days),
+how much (budget), how to book, what to say. Every photo-less issue gets a map page.
