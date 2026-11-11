@@ -82,6 +82,17 @@
    ]
   },
   {
+   "type": "photo",
+   "photo": "stock/yu/shimonoseki_hirezake.jpg",
+   "pos": "center 70%",
+   "kicker": "SHIMONOSEKI",
+   "jp": "瓦そばと、\nひれ酒。",
+   "jp_size": 54,
+   "en": "Kawara soba, then hire-zake",
+   "body": "Shimonoseki is fugu country. Yu had hire-zake with his kawara soba: hot sake poured over toasted fugu fins, lid on to keep the aroma in.",
+   "cap": "Hire-zake: hot sake with toasted fugu fin"
+  },
+  {
    "type": "phrase",
    "kicker": "SAY THIS IN FUKUOKA",
    "jp": "替え玉\nください",

@@ -55,6 +55,20 @@
   },
   {
    "page": "03.jpg",
+   "type": "photo",
+   "caption": "Kawara soba, then hire-zake",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 986.28125,
+     "w": 992,
+     "h": 307.71875,
+     "cap": "Hire-zake: hot sake with toasted fugu fin"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
    "type": "phrase",
    "caption": "",
    "boxes": [
