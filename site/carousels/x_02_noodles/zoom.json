@@ -28,7 +28,7 @@
      "y": 212.953125,
      "w": 486,
      "h": 413,
-     "cap": "2. Kawara soba"
+     "cap": "2. Kawara soba at Kizen"
     },
     {
      "x": 44,
@@ -49,7 +49,7 @@
      "y": 1185.109375,
      "w": 992,
      "h": 108.890625,
-     "cap": "miso ramen · kawara soba · Ramen Runway"
+     "cap": "miso ramen · near Karato · closed Mon · Ramen Runway"
     }
    ]
   },
@@ -60,10 +60,17 @@
    "boxes": [
     {
      "x": 44,
-     "y": 986.28125,
+     "y": 861.390625,
      "w": 992,
-     "h": 307.71875,
+     "h": 432.609375,
      "cap": "Hire-zake: hot sake with toasted fugu fin"
+    },
+    {
+     "x": 73,
+     "y": 1160.109375,
+     "w": 934,
+     "h": 108.890625,
+     "cap": "3 min from Karato bus stop · Tue–Sun · book fugu courses a day ahead"
     }
    ]
   },

@@ -46,8 +46,8 @@
     },
     {
      "photo": "stock/yu/shimonoseki_kawarasoba.jpg",
-     "jp": "瓦そば（下関）",
-     "en": "Kawara soba",
+     "jp": "瓦そば（下関・喜膳）",
+     "en": "Kawara soba at Kizen",
      "note": "瓦の器に茶そば、牛肉と錦糸卵"
     },
     {
@@ -71,8 +71,8 @@
     ],
     [
      "SHIMONOSEKI",
-     "瓦そば",
-     "kawara soba"
+     "四季の味 喜膳",
+     "near Karato · closed Mon"
     ],
     [
      "FUKUOKA AIRPORT",
@@ -85,12 +85,29 @@
    "type": "photo",
    "photo": "stock/yu/shimonoseki_hirezake.jpg",
    "pos": "center 70%",
-   "kicker": "SHIMONOSEKI",
+   "kicker": "SHIMONOSEKI · SHIKI NO AJI KIZEN",
    "jp": "瓦そばと、\nひれ酒。",
    "jp_size": 54,
    "en": "Kawara soba, then hire-zake",
-   "body": "Shimonoseki is fugu country. Yu had hire-zake with his kawara soba: hot sake poured over toasted fugu fins, lid on to keep the aroma in.",
-   "cap": "Hire-zake: hot sake with toasted fugu fin"
+   "body": "Shimonoseki is fugu country. At Kizen, a fugu and Japanese restaurant near Karato, Yu had hire-zake with his kawara soba: hot sake over toasted fugu fins.",
+   "cap": "Hire-zake: hot sake with toasted fugu fin",
+   "info": [
+    [
+     "NEAR",
+     "唐戸 徒歩3分",
+     "3 min from Karato bus stop"
+    ],
+    [
+     "OPEN",
+     "11:30–14 / 17:30–22:30",
+     "Tue–Sun"
+    ],
+    [
+     "NOTE",
+     "ふぐコースは前日予約",
+     "book fugu courses a day ahead"
+    ]
+   ]
   },
   {
    "type": "phrase",

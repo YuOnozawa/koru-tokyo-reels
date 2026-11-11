@@ -8349,5 +8349,36 @@
   "lunch_ok": true,
   "dinner_ok": true,
   "region": "Fukuoka"
+ },
+ {
+  "name_en": "Shiki no Aji Kizen",
+  "name_ja": "四季の味 喜膳",
+  "area": "Shimonoseki (Karato)",
+  "genre": "Japanese, sushi, fugu",
+  "station": "Karato bus stop (Sanden Bus)",
+  "walk_min": 3,
+  "hours": "Tue-Sun 11:30-14:00, 17:30-22:30",
+  "closed_days": "Monday",
+  "lunch_price_yen": "2000-2999 (Tabelog)",
+  "dinner_price_yen": "4000-4999 (Tabelog)",
+  "budget_band": "1500-4000",
+  "awards": [],
+  "english_menu": "unknown",
+  "reservation": "accepted; fugu courses need booking by the day before",
+  "what_to_order": "Yu had kawara soba and hire-zake (fugu-fin sake). Fugu dishes and seasonal courses.",
+  "tourist_tip": "All private rooms, 48 seats. Cards OK (Visa/MC/JCB/Amex/Diners), no e-money. 3-11 Nakanocho, Shimonoseki. Tel 083-235-5515. 4 min from Karato pier.",
+  "house_rules": [
+   "Fugu courses: book by the day before",
+   "Cards OK, no e-money"
+  ],
+  "yu_pick": true,
+  "sources": [
+   "https://tabelog.com/yamaguchi/A3502/A350201/35001136/"
+  ],
+  "checked": "2026-11-12",
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true,
+  "region": "Shimonoseki"
  }
 ]
