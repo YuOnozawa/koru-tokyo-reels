@@ -1,0 +1,187 @@
+{
+ "id": "c_04_worth_booking",
+ "issue": "No. 04",
+ "label": "EAST TOKYO",
+ "slides": [
+  {
+   "type": "cover_type",
+   "kicker": "EAST TOKYO · WORTH BOOKING",
+   "title": "Five dinners worth booking ahead",
+   "size": 128,
+   "dek": "Award-listed, with the price per person and how to get a table.",
+   "stats": [
+    [
+     "1★",
+     "a Michelin-starred French kitchen in Kuramae"
+    ],
+    [
+     "8",
+     "counter seats for a chicken omakase in Kanda"
+    ],
+    [
+     "5×",
+     "Tabelog Hyakumeiten for an old-school eel house"
+    ],
+    [
+     "Now",
+     "hairy crab season at a Sichuan dining room (Oct–Dec)"
+    ]
+   ],
+   "note": "Checked Oct 31 2026 · Swipe →"
+  },
+  {
+   "type": "entry",
+   "num": 1,
+   "kicker": "KURAMAE · FRENCH",
+   "title": "Nabeno-Ism",
+   "jp": "ナベノイズム",
+   "body": "A chef's tasting course in Kuramae, one stop from Asakusa.",
+   "badge": "MICHELIN GUIDE JAPAN 2026 · ONE STAR",
+   "facts": [
+    [
+     "PRICE",
+     "Dinner about ¥30,000 · lunch about ¥15,000"
+    ],
+    [
+     "BOOK",
+     "Reservation only"
+    ],
+    [
+     "OPEN",
+     "Tue–Sun · lunch 12:00–15:00 · dinner 18:00–22:00"
+    ],
+    [
+     "NEAR",
+     "Kuramae Station, 5 min"
+    ]
+   ],
+   "stamp": "仏蘭西"
+  },
+  {
+   "type": "entry",
+   "num": 2,
+   "kicker": "KANDA · CHICKEN OMAKASE",
+   "title": "Hicho Kurata",
+   "jp": "飛鳥くら田",
+   "body": "Chicken from the restaurant's own farm: Miyazaki Jitokko, Hinai Jidori, Nagoya Cochin.",
+   "badge": "TABELOG HYAKUMEITEN 2025 · CHICKEN",
+   "facts": [
+    [
+     "PRICE",
+     "Omakase ¥22,000 incl. tax + 10% service"
+    ],
+    [
+     "BOOK",
+     "Online only · 8 counter seats"
+    ],
+    [
+     "OPEN",
+     "Tue–Sat · two seatings, 17:30 and 20:30"
+    ],
+    [
+     "NEAR",
+     "JR Kanda South Exit, 1 min · cards OK"
+    ]
+   ],
+   "stamp": "鶏"
+  },
+  {
+   "type": "entry",
+   "num": 3,
+   "kicker": "SUEHIROCHO · UNAGI",
+   "title": "Myojinshita Kandagawa",
+   "size": 80,
+   "jp": "明神下 神田川",
+   "body": "Grilled eel in a traditional dining house near Kanda Myojin shrine.",
+   "badge": "TABELOG HYAKUMEITEN · EEL · 5 TIMES",
+   "facts": [
+    [
+     "PRICE",
+     "Dinner ¥15,000–20,000 · lunch ¥6,000–8,000"
+    ],
+    [
+     "BOOK",
+     "Recommended"
+    ],
+    [
+     "OPEN",
+     "Tue–Sat · 11:30–13:30 · 17:00–21:00"
+    ],
+    [
+     "PAY",
+     "Visa, Mastercard · no e-money"
+    ]
+   ],
+   "stamp": "鰻"
+  },
+  {
+   "type": "entry",
+   "num": 4,
+   "kicker": "KANDA · SOBA & TEMPURA",
+   "title": "Shochikuan Masukawa",
+   "size": 84,
+   "jp": "松竹庵 ます川",
+   "body": "Hand-made soba with a tempura course. Weekdays only.",
+   "badge": "TABELOG HYAKUMEITEN · SOBA · 2022, 2024",
+   "facts": [
+    [
+     "PRICE",
+     "Dinner omakase ¥16,000 · lunch ¥5,200–6,500 (+tax)"
+    ],
+    [
+     "BOOK",
+     "Recommended · last dinner entry 19:00"
+    ],
+    [
+     "RULES",
+     "Full charge for same-day cancels · 5% service"
+    ],
+    [
+     "NEAR",
+     "Awajicho Station, 3 min · cards OK"
+    ]
+   ],
+   "stamp": "蕎麦"
+  },
+  {
+   "type": "entry",
+   "num": 5,
+   "kicker": "KANDA · SICHUAN",
+   "title": "Kanda Yunrin",
+   "jp": "神田 雲林",
+   "body": "Shark fin soup, and Shanghai hairy crab courses from October to December.",
+   "badge": "TABELOG HYAKUMEITEN · CHINESE · 4 TIMES",
+   "facts": [
+    [
+     "PRICE",
+     "Dinner ¥10,000–15,000 · +10% service"
+    ],
+    [
+     "BOOK",
+     "Recommended · full charge for same-day cancels"
+    ],
+    [
+     "OPEN",
+     "Mon–Sat · dinner 18:00–21:30 (L.O. 20:30)"
+    ],
+    [
+     "NEAR",
+     "Awajicho Exit A3, 2 min · lunch is cash only"
+    ]
+   ],
+   "stamp": "蟹"
+  },
+  {
+   "type": "end",
+   "title": "No bad nights: four things to know",
+   "size": 80,
+   "dek": "What these five have in common.",
+   "lines": [
+    "Book ahead. Two take reservations only.",
+    "Same-day cancels can cost the full price.",
+    "Expect 5–10% service charge on top at some.",
+    "Hours change: check Google Maps on the day."
+   ]
+  }
+ ]
+}

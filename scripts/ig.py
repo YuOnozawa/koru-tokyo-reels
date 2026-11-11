@@ -219,19 +219,26 @@ if __name__ == '__main__':
                                     'media_count': u.get('media_count'), 'video_url_used': probe})
     elif a[0] == 'publish':
         cmd_publish(a[2] if len(a) > 2 and a[1] == '--id' else None)
-    elif a[0] == 'dryrun':  # create container + wait for FINISHED, never publish
-        u = me(); q = load('queue.json', [])[0]
-        url = public_url(q['file'])
-        c = call('POST', f"{u['user_id']}/media", {'media_type': 'REELS', 'video_url': url, 'caption': q['caption']})
+    elif a[0] == 'dryrun':  # create container(s) + wait for FINISHED, never publish. dryrun [ID]
+        u = me(); q = load('queue.json', [])
+        item = next((x for x in q if len(a) > 1 and x['id'] == a[1]), q[0])
         st = {}
-        for i in range(30):
-            time.sleep(30)
-            st = call('GET', c['id'], {'fields': 'status_code,status'})
-            print('status', st)
-            if st.get('status_code') in ('FINISHED', 'ERROR', 'EXPIRED'):
-                break
-        save('state/dryrun.json', {'at': datetime.now(timezone.utc).isoformat(), 'item': q['id'],
-                                   'video_url': url, 'result': st, 'published': False})
+        try:
+            if item.get('type') == 'carousel':
+                cid = carousel_container(u['user_id'], item); st = {'status_code': 'FINISHED', 'container': cid}
+            else:
+                url = public_url(item['file'])
+                c = call('POST', f"{u['user_id']}/media", {'media_type': 'REELS', 'video_url': url, 'caption': item['caption']})
+                for i in range(30):
+                    time.sleep(30)
+                    st = call('GET', c['id'], {'fields': 'status_code,status'})
+                    print('status', st)
+                    if st.get('status_code') in ('FINISHED', 'ERROR', 'EXPIRED'):
+                        break
+        except SystemExit as e:
+            st = {'error': str(e)[:400]}; print(st)
+        save('state/dryrun.json', {'at': datetime.now(timezone.utc).isoformat(), 'item': item['id'],
+                                   'result': st, 'published': False})
     elif a[0] == 'insights':
         cmd_insights()
     elif a[0] == 'refresh':

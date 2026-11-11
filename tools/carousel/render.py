@@ -132,7 +132,26 @@ def tower(right=-40, top=520, w=430, op=.55):
             f'color:{C["glow"]};opacity:{op};filter:drop-shadow(0 0 14px {C["glow"]})">{TOWER.replace("<svg ", "<svg style=\"width:100%;height:100%\" ")}</div>')
 
 
-KINDS = dict(cover_photo=cover_photo, cover_type=cover_type, photo=photo, list=lst, phrase=phrase, end=end)
+def entry(s, spec, i, n):
+    """One restaurant per page, no photo: guide-book entry with credentials and booking facts."""
+    facts = ''.join(f'<div style="display:flex;gap:22px;padding:22px 0;border-top:1px solid {C["rule"]};font-size:29px;line-height:1.4"><div style="width:120px;flex-shrink:0;font-size:15px;letter-spacing:3px;font-weight:600;color:{C["accent"]};padding-top:6px">{e(k)}</div><div>{e(v)}</div></div>' for k, v in s.get('facts', []))
+    return f"""<div class="s" style="background:{C['paper']};color:{C['ink']};padding:52px 64px 46px">
+{mast(False, spec['issue'], spec.get('label'))}
+<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-top:52px">
+<div style="flex:1">
+<div style="display:flex;gap:16px;align-items:center"><div style="background:{C['accent']};color:#fff;font-family:Fraunces,serif;font-weight:700;font-size:32px;width:56px;height:56px;display:flex;align-items:center;justify-content:center">{e(s['num'])}</div>
+<div style="font-size:17px;letter-spacing:4px;font-weight:600;color:{C['mute']}">{e(s.get('kicker',''))}</div></div>
+<div class="serif" style="font-weight:700;font-size:{s.get('size',96)}px;line-height:.98;letter-spacing:-1.5px;margin-top:26px">{e(s['title'])}</div>
+<div class="serif" style="font-style:italic;font-size:33px;line-height:1.4;color:{C['soft']};margin-top:18px;max-width:760px">{e(s.get('body',''))}</div>
+</div>
+<div class="jp" style="writing-mode:vertical-rl;font-size:58px;letter-spacing:8px;color:{C['ink']};margin-left:24px">{e(s.get('jp',''))}</div></div>
+<div style="margin-top:26px;display:inline-flex;align-self:flex-start;border:2px solid {C['ink']};padding:10px 18px;font-size:19px;letter-spacing:2px;font-weight:600">{e(s.get('badge',''))}</div>
+<div style="margin-top:30px;border-bottom:1px solid {C['rule']}">{facts}</div>
+<div class="jp" style="margin-top:auto;text-align:right;font-size:150px;color:#E2D6BF;line-height:1">{e(s.get('stamp',''))}</div>
+<div style="margin-top:14px">{foot(False, i, n, s.get('note','Checked from public sources, Oct 31 2026'))}</div></div>"""
+
+
+KINDS = dict(entry=entry, cover_photo=cover_photo, cover_type=cover_type, photo=photo, list=lst, phrase=phrase, end=end)
 
 
 def render(spec_path):

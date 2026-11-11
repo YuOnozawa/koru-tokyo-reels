@@ -1,6 +1,10 @@
 name: Dry run (upload test, no publish)
 on:
   workflow_dispatch:
+    inputs:
+      id:
+        description: 'queue id to test (blank = first item)'
+        required: false
 permissions:
   contents: write
 jobs:
@@ -11,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: python scripts/ig.py dryrun
+        run: python scripts/ig.py dryrun ${{ github.event.inputs.id }}
       - if: always()
         run: |
           git config user.name "koru-bot"; git config user.email "koru-bot@users.noreply.github.com"
