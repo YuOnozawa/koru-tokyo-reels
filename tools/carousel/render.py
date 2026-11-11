@@ -1,4 +1,4 @@
-"""KORU · Tokyo Field Notes — carousel pages in the style of a Japanese city magazine (design D, Yu 2026-11-12).
+"""with KORU — carousel pages in the style of a Japanese city magazine (design D, Yu 2026-11-12).
 
   python tools/carousel/render.py tools/carousel/specs/c_03_domannaka.json
 
@@ -51,12 +51,12 @@ def img(path):
 def head(spec, kicker, title_jp, title_en, sub=''):
     return f"""<div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:6px solid {INK};padding-bottom:12px">
 <div><div class="k">{e(kicker)}</div><div class="g" style="font-size:62px;line-height:1.08;margin-top:4px">{jp(title_jp)}</div></div>
-<div style="text-align:right"><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px;line-height:1">KORU</div>
+<div style="text-align:right"><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px;line-height:1"><span style="font-weight:700;font-stretch:100%;font-size:22px;color:{RED};margin-right:6px">with</span>KORU</div>
 <div class="a" style="font-weight:700;font-size:16px;letter-spacing:.12em;margin-top:6px">{e(spec['issue'])}</div></div></div>
 <div class="a" style="font-weight:700;font-size:24px;margin-top:10px;letter-spacing:.02em">{e(title_en.upper())}{(' — ' + e(sub)) if sub else ''}</div>"""
 
 
-def folio(i, n, left='KORU · TOKYO FIELD NOTES'):
+def folio(i, n, left='WITH KORU · FIELD NOTES'):
     return (f'<div class="a" style="position:absolute;left:44px;right:44px;bottom:22px;display:flex;justify-content:space-between;'
             f'font-weight:700;font-size:15px;letter-spacing:.14em;color:{MUTE}"><span>{e(left)}</span><span>{i:02d} / {n:02d}</span></div>')
 
@@ -80,9 +80,9 @@ def cover(s, spec, i, n):
     return f"""<div class="s">{bgl}
 <div style="position:absolute;left:0;right:0;top:0;height:420px;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0))"></div>
 <div style="position:absolute;left:0;right:0;bottom:0;height:560px;background:linear-gradient(0deg,rgba(0,0,0,.78),rgba(0,0,0,0))"></div>
-<div class="a" style="position:absolute;left:36px;top:18px;font-weight:900;font-stretch:125%;font-size:215px;line-height:.8;color:#fff;letter-spacing:-.02em">KORU</div>
-<div class="a" style="position:absolute;right:40px;top:40px;text-align:right;color:#fff;font-weight:700;font-size:22px;line-height:1.3">{e(spec['issue'])}<br>{e(spec.get('month','NOV 2026'))}<br><span class="gm" style="font-size:20px">{e(spec.get('month_jp','2026年11月号'))}</span></div>
-<div class="a" style="position:absolute;left:44px;top:205px;color:#fff;font-weight:600;font-size:22px;letter-spacing:.3em">TOKYO FIELD NOTES FOR HUNGRY TRAVELERS</div>
+<div style="position:absolute;left:40px;top:22px;display:flex;align-items:flex-end;gap:14px;color:#fff"><span class="a" style="font-weight:700;font-size:74px;line-height:1;color:{YEL};padding-bottom:10px">with</span><span class="a" style="font-weight:900;font-stretch:125%;font-size:180px;line-height:.8;letter-spacing:-.02em">KORU</span></div>
+<div class="a" style="position:absolute;right:40px;top:40px;text-align:right;color:#fff;font-weight:700;font-size:22px;line-height:1.3">{e(spec['issue'])}<br>{e(spec.get('month','NOV 2026'))}<br><span class="gm" style="font-size:20px">{e(spec.get('month_jp','2026年11月号'))}</span>{('<br><span style="display:inline-block;margin-top:8px;background:' + YEL + ';color:' + INK + ';padding:4px 10px;font-weight:800;letter-spacing:.12em">' + e(spec['place']) + '</span>') if spec.get('place') else ''}</div>
+<div class="a" style="position:absolute;left:44px;top:190px;color:#fff;font-weight:600;font-size:21px;letter-spacing:.28em">{e(spec.get("tagline", "FIELD NOTES FOR HUNGRY TRAVELERS IN JAPAN"))}</div>
 <div style="position:absolute;left:44px;top:300px;width:{s.get('lines_w',360)}px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)">{lines}</div>
 {sticker}
 <div class="g" style="position:absolute;left:44px;bottom:150px;right:220px;color:#fff;font-size:{s.get('jp_size',128)}px;line-height:1.04;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.35)">{jp(s['jp'])}</div>
@@ -130,13 +130,13 @@ def rules(s, spec, i, n):
 
 def phrase(s, spec, i, n):
     return f"""<div class="s" style="background:{INK};color:#fff;padding:44px">
-<div style="display:flex;justify-content:space-between"><div class="k" style="color:{YEL}">{e(s.get('kicker','SAY THIS'))}</div><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px">KORU</div></div>
+<div style="display:flex;justify-content:space-between"><div class="k" style="color:{YEL}">{e(s.get('kicker','SAY THIS'))}</div><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px"><span style="font-weight:700;font-stretch:100%;font-size:22px;color:{RED};margin-right:6px">with</span>KORU</div></div>
 <div class="z" data-cap="{e(s['romaji'] + ' = ' + s['meaning'])}" style="position:absolute;left:44px;right:44px;top:440px">
 <div class="g" style="font-size:{s.get('jp_size',150)}px;line-height:1.08;color:{YEL}">{jp(s['jp'])}</div>
 <div class="a" style="font-weight:800;font-size:64px;margin-top:30px">{e(s['romaji'].upper())}</div>
 <div class="a" style="font-weight:500;font-size:44px;margin-top:10px">= {e(s['meaning'])}</div>
 <div class="a" style="font-weight:500;font-size:30px;line-height:1.35;margin-top:44px;color:#CFCAC0;max-width:880px">{e(s.get('note',''))}</div></div>
-<div class="a" style="position:absolute;left:44px;right:44px;bottom:22px;display:flex;justify-content:space-between;font-weight:700;font-size:15px;letter-spacing:.14em;color:#8C877E"><span>KORU · TOKYO FIELD NOTES</span><span>{i:02d} / {n:02d}</span></div></div>"""
+<div class="a" style="position:absolute;left:44px;right:44px;bottom:22px;display:flex;justify-content:space-between;font-weight:700;font-size:15px;letter-spacing:.14em;color:#8C877E"><span>WITH KORU · FIELD NOTES</span><span>{i:02d} / {n:02d}</span></div></div>"""
 
 
 def back(s, spec, i, n):
@@ -144,7 +144,7 @@ def back(s, spec, i, n):
                      f'<div><div class="g" style="font-size:34px;line-height:1.2">{e(a)}</div><div class="a" style="font-weight:600;font-size:23px;margin-top:2px">{e(b)}</div></div></div>' for a, b in s['checks'])
     return f"""<div class="s" style="padding:44px">
 <div style="display:flex;justify-content:space-between;align-items:flex-start"><div style="background:{RED};color:#fff;padding:14px 22px" class="g"><span style="font-size:44px">保存版</span></div>
-<div class="a" style="font-weight:900;font-stretch:125%;font-size:44px">KORU</div></div>
+<div class="a" style="font-weight:900;font-stretch:125%;font-size:44px"><span style="font-weight:700;font-stretch:100%;font-size:22px;color:{RED};margin-right:6px">with</span>KORU</div></div>
 <div class="g" style="font-size:{s.get('jp_size',78)}px;line-height:1.1;margin-top:40px">{jp(s['jp'])}</div>
 <div class="a" style="font-weight:800;font-size:30px;margin-top:10px">{e(s['en'].upper())}</div>
 <div style="margin-top:34px;border-bottom:2px solid {INK}">{checks}</div>
@@ -203,7 +203,7 @@ def smap(s, spec, i, n):
     return f"""<div class="s" style="background:#EFEADF"><svg width="1080" height="1350" style="position:absolute;left:0;top:0">{river}{kanda}{svg}</svg>{st}{pn}
 <div style="position:absolute;left:0;right:0;top:0;background:{PAPER};padding:40px 44px 14px;border-bottom:6px solid {INK}">
 <div class="k">{e(s.get('kicker', 'MAP · NOT TO SCALE'))}</div>
-<div style="display:flex;justify-content:space-between;align-items:flex-end"><div class="g" style="font-size:60px;line-height:1.1">{jp(s['jp'])}</div><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px">KORU</div></div></div>
+<div style="display:flex;justify-content:space-between;align-items:flex-end"><div class="g" style="font-size:60px;line-height:1.1">{jp(s['jp'])}</div><div class="a" style="font-weight:900;font-stretch:125%;font-size:44px"><span style="font-weight:700;font-stretch:100%;font-size:22px;color:{RED};margin-right:6px">with</span>KORU</div></div></div>
 <div style="position:absolute;left:44px;right:44px;bottom:56px;background:{PAPER};border:3px solid {INK};padding:6px 20px 0">{legend}</div>{folio(i, n)}</div>"""
 
 

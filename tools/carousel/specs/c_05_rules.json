@@ -1,17 +1,123 @@
-{"id":"c_05_rules","issue":"No.05",
-"reel":{"cover_cap":"Eight rules before you eat out in Tokyo","end_cap":"Screenshot it before you fly"},
-"slides":[
-{"type":"cover","photo":"stock/yu/domannaka_namero.jpg","pos":"center","jp":"東京で\n外食する前の、\n[八つ]の決まり。","jp_size":104,"en":"Eight rules before you eat out in Tokyo","en_size":46,"lines":[["日曜は3軒に1軒が休み。","1 in 3 close on Sundays"],["チップは要らない。","No tips. Ever."]],"sticker":["保存版","save it"]},
-{"type":"rules","kicker":"TOKYO DINING RULES","jp":"外食の八つの決まり","en":"Eight rules","sub":"300 East Tokyo places checked, Oct–Nov 2026","reel_cap":"Eight rules, from 300 places I checked",
- "items":[
-  {"jp":"日曜は休みが多い","en":"Sundays: many close","stat":"94/300","do":"Plan Sunday around open-daily places"},
-  {"jp":"15〜17時は中休み","en":"The 3–5pm break","stat":"92/300","do":"Eat before 2pm or after 5pm"},
-  {"jp":"閉店前にL.O.","en":"Last order comes first","stat":"30–60 min","do":"Arrive an hour before closing"},
-  {"jp":"現金のみの店","en":"Some are cash only","stat":"~1 in 4","do":"Get yen at a konbini ATM"},
-  {"jp":"お通しは席料","en":"Otoshi = table charge","stat":"izakaya","do":"A small dish you didn't order. Normal."},
-  {"jp":"会計はレジで","en":"Pay at the register","stat":"お会計","do":"Take the bill to the door"},
-  {"jp":"チップは不要","en":"Don't tip","stat":"¥0","do":"Say gochisōsama deshita instead"},
-  {"jp":"すみません！","en":"Call out to staff","stat":"OK","do":"Raise your hand and say it"}]},
-{"type":"phrase","kicker":"THE ONE WORD","jp":"すみません！","romaji":"sumimasen","meaning":"excuse me!","note":"Staff won't hover. To order, ask for water or get the check, raise your hand and say it out loud. It's normal, not rude."},
-{"type":"back","jp":"出発前に、\nスクショ。","en":"Screenshot before you fly","checks":[["日曜・15〜17時に注意","Sundays and 3–5pm"],["閉店1時間前までに","Arrive an hour before closing"],["現金を少し","Carry some cash"],["チップなし、会計はレジ","No tips; pay at the register"]]}
-]}
+{
+ "id": "c_05_rules",
+ "issue": "No.05",
+ "reel": {
+  "cover_cap": "Eight rules before you eat out in Tokyo",
+  "end_cap": "Screenshot it before you fly"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/domannaka_namero.jpg",
+   "pos": "center",
+   "jp": "東京で\n外食する前の、\n[八つ]の決まり。",
+   "jp_size": 104,
+   "en": "Eight rules before you eat out in Tokyo",
+   "en_size": 46,
+   "lines": [
+    [
+     "日曜は3軒に1軒が休み。",
+     "1 in 3 close on Sundays"
+    ],
+    [
+     "チップは要らない。",
+     "No tips. Ever."
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "save it"
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "TOKYO DINING RULES",
+   "jp": "外食の八つの決まり",
+   "en": "Eight rules",
+   "sub": "300 East Tokyo places checked, Oct–Nov 2026",
+   "reel_cap": "Eight rules, from 300 places I checked",
+   "items": [
+    {
+     "jp": "日曜は休みが多い",
+     "en": "Sundays: many close",
+     "stat": "94/300",
+     "do": "Plan Sunday around open-daily places"
+    },
+    {
+     "jp": "15〜17時は中休み",
+     "en": "The 3–5pm break",
+     "stat": "92/300",
+     "do": "Eat before 2pm or after 5pm"
+    },
+    {
+     "jp": "閉店前にL.O.",
+     "en": "Last order comes first",
+     "stat": "30–60 min",
+     "do": "Arrive an hour before closing"
+    },
+    {
+     "jp": "現金のみの店",
+     "en": "Some are cash only",
+     "stat": "~1 in 4",
+     "do": "Get yen at a konbini ATM"
+    },
+    {
+     "jp": "お通しは席料",
+     "en": "Otoshi = table charge",
+     "stat": "izakaya",
+     "do": "A small dish you didn't order. Normal."
+    },
+    {
+     "jp": "会計はレジで",
+     "en": "Pay at the register",
+     "stat": "お会計",
+     "do": "Take the bill to the door"
+    },
+    {
+     "jp": "チップは不要",
+     "en": "Don't tip",
+     "stat": "¥0",
+     "do": "Say gochisōsama deshita instead"
+    },
+    {
+     "jp": "すみません！",
+     "en": "Call out to staff",
+     "stat": "OK",
+     "do": "Raise your hand and say it"
+    }
+   ]
+  },
+  {
+   "type": "phrase",
+   "kicker": "THE ONE WORD",
+   "jp": "すみません！",
+   "romaji": "sumimasen",
+   "meaning": "excuse me!",
+   "note": "Staff won't hover. To order, ask for water or get the check, raise your hand and say it out loud. It's normal, not rude."
+  },
+  {
+   "type": "back",
+   "jp": "出発前に、\nスクショ。",
+   "en": "Screenshot before you fly",
+   "checks": [
+    [
+     "日曜・15〜17時に注意",
+     "Sundays and 3–5pm"
+    ],
+    [
+     "閉店1時間前までに",
+     "Arrive an hour before closing"
+    ],
+    [
+     "現金を少し",
+     "Carry some cash"
+    ],
+    [
+     "チップなし、会計はレジ",
+     "No tips; pay at the register"
+    ]
+   ]
+  }
+ ],
+ "place": "TOKYO"
+}
