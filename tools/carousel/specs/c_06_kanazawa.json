@@ -93,6 +93,17 @@
   },
   {
    "type": "photo",
+   "photo": "stock/yu/kanazawa_station_night.jpg",
+   "pos": "45% center",
+   "kicker": "ARRIVE",
+   "jp": "金沢駅、鼓門から。",
+   "jp_size": 56,
+   "en": "Start at Kanazawa Station",
+   "body": "The wooden Tsuzumi Gate is the station's front door, lit up at night. The eel stop is in the Crossgate building, 3 minutes' walk.",
+   "cap": "Arrive at Kanazawa Station"
+  },
+  {
+   "type": "photo",
    "photo": "stock/yu/kanazawa_kikukawa_unagi.jpg",
    "pos": "center 60%",
    "kicker": "YU'S TABLE · EEL",
@@ -143,7 +154,8 @@
    ],
    "note": "Photos by Yu, autumn 2026",
    "photo": "stock/yu/kanazawa_sasabune_crab.jpg",
-   "pos": "center 45%"
+   "pos": "center 45%",
+   "photo_h": 330
   }
  ]
 }

@@ -1193,7 +1193,7 @@
   "id": "r_c_06_kanazawa",
   "file": "videos/r_c_06_kanazawa.mp4",
   "publish_at": "2026-11-16T12:00:00+09:00",
-  "len": 25.8,
+  "len": 29.2,
   "tests": {
    "H16": "magazine reel",
    "H15": "A",
@@ -1208,7 +1208,8 @@
    "carousels/c_06_kanazawa/01.jpg",
    "carousels/c_06_kanazawa/02.jpg",
    "carousels/c_06_kanazawa/03.jpg",
-   "carousels/c_06_kanazawa/04.jpg"
+   "carousels/c_06_kanazawa/04.jpg",
+   "carousels/c_06_kanazawa/05.jpg"
   ],
   "publish_at": "2026-11-16T20:00:00+09:00",
   "tests": {

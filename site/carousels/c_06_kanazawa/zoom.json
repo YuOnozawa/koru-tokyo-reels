@@ -59,6 +59,20 @@
   {
    "page": "03.jpg",
    "type": "photo",
+   "caption": "Start at Kanazawa Station",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 1044.5,
+     "w": 992,
+     "h": 249.5,
+     "cap": "Arrive at Kanazawa Station"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "photo",
    "caption": "Unagi Yondaime Kikukawa",
    "boxes": [
     {
@@ -78,7 +92,7 @@
    ]
   },
   {
-   "page": "04.jpg",
+   "page": "05.jpg",
    "type": "back",
    "caption": "Before you go",
    "boxes": []
