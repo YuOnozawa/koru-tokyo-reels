@@ -1,186 +1,183 @@
 {
  "id": "c_04_worth_booking",
  "issue": "No. 04",
- "label": "EAST TOKYO",
  "slides": [
   {
    "type": "cover_type",
-   "kicker": "EAST TOKYO · WORTH BOOKING",
-   "title": "Five dinners worth booking ahead",
-   "size": 128,
-   "dek": "Award-listed, with the price per person and how to get a table.",
+   "jp": "予約して行く、\n東の五軒。",
+   "en": "Five dinners",
+   "en_i": "worth booking ahead",
+   "kicker": "Tokyo Field Notes 04 · East Tokyo",
    "stats": [
     [
-     "1★",
-     "a Michelin-starred French kitchen in Kuramae"
+     "1 star",
+     "Michelin French in Kuramae"
     ],
     [
-     "8",
-     "counter seats for a chicken omakase in Kanda"
+     "8 seats",
+     "chicken omakase in Kanda"
     ],
     [
-     "5×",
-     "Tabelog Hyakumeiten for an old-school eel house"
+     "5 times",
+     "Tabelog 100 for an eel house"
     ],
     [
      "Now",
-     "hairy crab season at a Sichuan dining room (Oct–Dec)"
+     "hairy crab season (Oct–Dec)"
     ]
    ],
-   "note": "Checked Oct 31 2026 · Swipe →"
+   "note": "Checked Oct 31 2026 · Swipe →",
+   "col": 600
   },
   {
    "type": "entry",
    "num": 1,
-   "kicker": "KURAMAE · FRENCH",
-   "title": "Nabeno-Ism",
+   "kicker": "Kuramae · French",
    "jp": "ナベノイズム",
-   "body": "A chef's tasting course in Kuramae, one stop from Asakusa.",
-   "badge": "MICHELIN GUIDE JAPAN 2026 · ONE STAR",
+   "en": "Nabeno-Ism",
+   "body": "A chef's tasting course, one stop from Asakusa.",
+   "badge": "Michelin Guide Japan 2026 · One star",
    "facts": [
     [
-     "PRICE",
-     "Dinner about ¥30,000 · lunch about ¥15,000"
+     "Price",
+     "Dinner about ¥30,000 · lunch ¥15,000"
     ],
     [
-     "BOOK",
+     "Book",
      "Reservation only"
     ],
     [
-     "OPEN",
-     "Tue–Sun · lunch 12:00–15:00 · dinner 18:00–22:00"
+     "Open",
+     "Tue–Sun · 12–15 · 18–22"
     ],
     [
-     "NEAR",
+     "Near",
      "Kuramae Station, 5 min"
     ]
    ],
-   "stamp": "仏蘭西"
+   "kanji": "仏"
   },
   {
    "type": "entry",
    "num": 2,
-   "kicker": "KANDA · CHICKEN OMAKASE",
-   "title": "Hicho Kurata",
+   "kicker": "Kanda · Chicken omakase",
    "jp": "飛鳥くら田",
-   "body": "Chicken from the restaurant's own farm: Miyazaki Jitokko, Hinai Jidori, Nagoya Cochin.",
-   "badge": "TABELOG HYAKUMEITEN 2025 · CHICKEN",
+   "en": "Hicho Kurata",
+   "body": "Chicken from the restaurant's own farm: Jitokko, Hinai Jidori, Nagoya Cochin.",
+   "badge": "Tabelog 100 · Chicken · 2025",
    "facts": [
     [
-     "PRICE",
-     "Omakase ¥22,000 incl. tax + 10% service"
+     "Price",
+     "¥22,000 incl. tax + 10% service"
     ],
     [
-     "BOOK",
+     "Book",
      "Online only · 8 counter seats"
     ],
     [
-     "OPEN",
-     "Tue–Sat · two seatings, 17:30 and 20:30"
+     "Open",
+     "Tue–Sat · seatings 17:30, 20:30"
     ],
     [
-     "NEAR",
-     "JR Kanda South Exit, 1 min · cards OK"
+     "Near",
+     "JR Kanda South Exit, 1 min"
     ]
    ],
-   "stamp": "鶏"
+   "kanji": "鶏"
   },
   {
    "type": "entry",
    "num": 3,
-   "kicker": "SUEHIROCHO · UNAGI",
-   "title": "Myojinshita Kandagawa",
-   "size": 80,
+   "kicker": "Suehirocho · Unagi",
    "jp": "明神下 神田川",
-   "body": "Grilled eel in a traditional dining house near Kanda Myojin shrine.",
-   "badge": "TABELOG HYAKUMEITEN · EEL · 5 TIMES",
+   "en": "Myojinshita\nKandagawa",
+   "body": "Grilled eel in a traditional dining house.",
+   "badge": "Tabelog 100 · Eel · 5 times",
    "facts": [
     [
-     "PRICE",
-     "Dinner ¥15,000–20,000 · lunch ¥6,000–8,000"
+     "Price",
+     "Dinner ¥15–20k · lunch ¥6–8k"
     ],
     [
-     "BOOK",
+     "Book",
      "Recommended"
     ],
     [
-     "OPEN",
-     "Tue–Sat · 11:30–13:30 · 17:00–21:00"
+     "Open",
+     "Tue–Sat · 11:30–13:30 · 17–21"
     ],
     [
-     "PAY",
+     "Pay",
      "Visa, Mastercard · no e-money"
     ]
    ],
-   "stamp": "鰻"
+   "kanji": "鰻"
   },
   {
    "type": "entry",
    "num": 4,
-   "kicker": "KANDA · SOBA & TEMPURA",
-   "title": "Shochikuan Masukawa",
-   "size": 84,
+   "kicker": "Kanda · Soba & tempura",
    "jp": "松竹庵 ます川",
+   "en": "Shochikuan\nMasukawa",
    "body": "Hand-made soba with a tempura course. Weekdays only.",
-   "badge": "TABELOG HYAKUMEITEN · SOBA · 2022, 2024",
+   "badge": "Tabelog 100 · Soba · 2022, 2024",
    "facts": [
     [
-     "PRICE",
-     "Dinner omakase ¥16,000 · lunch ¥5,200–6,500 (+tax)"
+     "Price",
+     "Dinner ¥16,000 · lunch ¥5,200+ (+tax)"
     ],
     [
-     "BOOK",
-     "Recommended · last dinner entry 19:00"
+     "Book",
+     "Recommended · last entry 19:00"
     ],
     [
-     "RULES",
-     "Full charge for same-day cancels · 5% service"
+     "Rules",
+     "Full charge if you cancel same day"
     ],
     [
-     "NEAR",
-     "Awajicho Station, 3 min · cards OK"
+     "Near",
+     "Awajicho Station, 3 min"
     ]
    ],
-   "stamp": "蕎麦"
+   "kanji": "蕎麦"
   },
   {
    "type": "entry",
    "num": 5,
-   "kicker": "KANDA · SICHUAN",
-   "title": "Kanda Yunrin",
+   "kicker": "Kanda · Sichuan",
    "jp": "神田 雲林",
-   "body": "Shark fin soup, and Shanghai hairy crab courses from October to December.",
-   "badge": "TABELOG HYAKUMEITEN · CHINESE · 4 TIMES",
+   "en": "Kanda Yunrin",
+   "body": "Shark fin soup, and hairy crab courses from October to December.",
+   "badge": "Tabelog 100 · Chinese · 4 times",
    "facts": [
     [
-     "PRICE",
-     "Dinner ¥10,000–15,000 · +10% service"
+     "Price",
+     "Dinner ¥10–15k + 10% service"
     ],
     [
-     "BOOK",
-     "Recommended · full charge for same-day cancels"
+     "Book",
+     "Recommended · same-day cancel = full charge"
     ],
     [
-     "OPEN",
-     "Mon–Sat · dinner 18:00–21:30 (L.O. 20:30)"
+     "Open",
+     "Mon–Sat · dinner 18:00–21:30"
     ],
     [
-     "NEAR",
-     "Awajicho Exit A3, 2 min · lunch is cash only"
+     "Near",
+     "Awajicho Exit A3, 2 min"
     ]
    ],
-   "stamp": "蟹"
+   "kanji": "蟹"
   },
   {
    "type": "end",
-   "title": "No bad nights: four things to know",
-   "size": 80,
-   "dek": "What these five have in common.",
+   "jp": "保存版",
+   "en": "No bad nights:\nfour things to know",
    "lines": [
     "Book ahead. Two take reservations only.",
     "Same-day cancels can cost the full price.",
-    "Expect 5–10% service charge on top at some.",
-    "Hours change: check Google Maps on the day."
+    "Expect 5–10% service on top at some.",
+    "Hours change: check before you go."
    ]
   }
  ]

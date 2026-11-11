@@ -1,80 +1,68 @@
 {
  "id": "c_03_domannaka",
  "issue": "No. 03",
- "label": "AKIHABARA",
  "slides": [
   {
-   "type": "cover_photo",
+   "type": "cover",
+   "photo": "stock/yu/domannaka_tower.jpg",
+   "pos": "62% center",
+   "jp": "秋葉原、\n今夜は海鮮。",
+   "en": "Akihabara,",
+   "en_i": "seafood tonight.",
+   "kicker": "Tokyo Field Notes 03 · Photos by Yu"
+  },
+  {
+   "type": "photo",
    "photo": "stock/yu/domannaka_sashimi.jpg",
-   "pos": "center",
-   "kicker": "AKIHABARA · SEAFOOD IZAKAYA · YU ATE HERE",
-   "title": "A seafood night 2 minutes from Akihabara Station",
-   "size": 92,
-   "dek": "Domannaka Akihabara Bettei, a basement izakaya. Here's what Yu ordered.",
-   "note": "Photos: Yu, Nov 2026 · Swipe →"
+   "num": "01",
+   "jp": "刺身盛り",
+   "en": "Sashimi on ice",
+   "body": "The platter comes on crushed ice, with fresh wasabi in a bamboo cup.",
+   "meta": "Domannaka Akihabara Bettei · 2 min from JR Akihabara"
   },
   {
    "type": "photo",
    "photo": "stock/yu/domannaka_uni.jpg",
    "pos": "center 45%",
-   "num": 1,
-   "title": "Sea urchin hand roll",
-   "body": "Topped with caviar. Eat it right away, before the seaweed softens.",
-   "facts": [
-    [
-     "NEAR",
-     "JR Akihabara, Showa-dori Exit, 2 min"
-    ]
-   ]
+   "num": "02",
+   "jp": "ウニ手巻き",
+   "en": "Sea urchin roll",
+   "body": "Sea urchin hand roll, topped with caviar."
   },
   {
    "type": "photo",
    "photo": "stock/yu/domannaka_namero.jpg",
-   "num": 2,
-   "title": "Namero with salmon roe",
-   "body": "Raw fish chopped with miso and herbs, a fishermen's dish.",
-   "facts": [
-    [
-     "SAY",
-     "namero = chopped raw fish"
-    ]
-   ]
+   "num": "03",
+   "jp": "なめろう",
+   "en": "Namero",
+   "body": "Raw fish chopped with miso and herbs, topped with salmon roe."
   },
   {
    "type": "photo",
    "photo": "stock/yu/domannaka_fishfry.jpg",
-   "num": 3,
-   "title": "Rare aji fry, bones and all",
-   "body": "Horse mackerel fried rare, with the crispy fried bones on the side.",
-   "facts": [
-    [
-     "BUDGET",
-     "¥6,000–8,000 a person (Tabelog average)"
-    ]
-   ]
+   "num": "04",
+   "jp": "レアアジフライ",
+   "en": "Rare aji fry",
+   "body": "Horse mackerel fried rare, with the crispy fried bones."
   },
   {
    "type": "photo",
-   "photo": "stock/yu/domannaka_tower.jpg",
-   "num": 4,
-   "title": "The potato-salad tower",
-   "body": "Potato salad piled high under shaved bonito flakes.",
-   "facts": [
-    [
-     "PAY",
-     "Cards (Visa, MC, JCB, Amex) & PayPay"
-    ]
-   ]
+   "photo": "stock/yu/domannaka_abalone.jpg",
+   "num": "05",
+   "jp": "鮑ときのこ",
+   "en": "Abalone",
+   "body": "Abalone with sautéed mushrooms."
   },
   {
    "type": "end",
-   "title": "Save this for a night in Akihabara",
-   "dek": "Open evenings to 11pm. Closed Mondays.",
+   "photo": "stock/yu/domannaka_highball.jpg",
+   "jp": "保存版",
+   "en": "Domannaka\nAkihabara Bettei",
    "lines": [
-    "B1F, a 2-minute walk from JR Akihabara",
+    "B1F, 2 min from JR Akihabara (Showa-dori Exit)",
+    "To 11pm · closed Mondays",
     "Book online · private rooms · non-smoking",
-    "Order: uni roll, namero, rare aji fry, potato tower",
-    "¥6,000–8,000 a person"
+    "¥6,000–8,000 a person · cards & PayPay"
    ]
   }
  ]
