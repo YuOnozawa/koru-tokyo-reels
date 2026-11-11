@@ -49,3 +49,9 @@ how much (budget), how to book, what to say. Every photo-less issue gets a map p
 - No.06 金沢（ささ舟の懐石＋四代目菊川）11/16 · Extra 02 麺で旅する（すみれ・瓦そば・一幸舎・福岡空港）11/17.
 - The re-issue list above shifts by one: its "No.06 Ten lines to say" becomes No.07, and so on. Yu's real-photo issues
   (any region) always jump the queue. Shops Yu didn't name stay unnamed (e.g. the Shimonoseki kawara soba shop).
+
+## 2026-11-12: Okinawa — on hold
+- Yu: burger at the clubhouse restaurant of the golf course in Eibi (栄野比), Uruma. Menu reads TAIYO Steak House =
+  Taiyo Steakhouse, 2F Taiyo Golf Club clubhouse, run by MCCS Okinawa (US Marine Corps community services), aimed at
+  service members and families. Public access for tourists not confirmed → don't publish as a recommendation until Yu
+  confirms ordinary visitors can dine there. Photos saved (burger only; the table photo shows other diners' faces, not used).
