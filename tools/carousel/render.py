@@ -81,7 +81,7 @@ def cover(s, spec, i, n):
 <div style="position:absolute;left:0;right:0;top:0;height:420px;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0))"></div>
 <div style="position:absolute;left:0;right:0;bottom:0;height:560px;background:linear-gradient(0deg,rgba(0,0,0,.78),rgba(0,0,0,0))"></div>
 <div style="position:absolute;left:40px;top:22px;display:flex;align-items:flex-end;gap:14px;color:#fff"><span class="a" style="font-weight:700;font-size:74px;line-height:1;color:{YEL};padding-bottom:10px">with</span><span class="a" style="font-weight:900;font-stretch:125%;font-size:180px;line-height:.8;letter-spacing:-.02em">KORU</span></div>
-<div class="a" style="position:absolute;right:40px;top:40px;text-align:right;color:#fff;font-weight:700;font-size:22px;line-height:1.3">{e(spec['issue'])}<br>{e(spec.get('month','NOV 2026'))}<br><span class="gm" style="font-size:20px">{e(spec.get('month_jp','2026年11月号'))}</span>{('<br><span style="display:inline-block;margin-top:8px;background:' + YEL + ';color:' + INK + ';padding:4px 10px;font-weight:800;letter-spacing:.12em">' + e(spec['place']) + '</span>') if spec.get('place') else ''}</div>
+<div class="a" style="position:absolute;right:40px;top:40px;text-align:right;color:#fff;font-weight:700;font-size:22px;line-height:1.3">{e(spec.get('issue_cover', spec['issue'].split(' ', 1)[1] if spec['issue'].startswith('番外編 ') else spec['issue']))}<br>{e(spec.get('month','NOV 2026'))}<br><span class="gm" style="font-size:20px">{e(spec.get('month_jp','2026年11月号'))}</span>{('<br><span style="display:inline-block;margin-top:8px;background:' + YEL + ';color:' + INK + ';padding:4px 10px;font-weight:800;letter-spacing:.12em">' + e(spec['place']) + '</span>') if spec.get('place') else ''}</div>
 <div class="a" style="position:absolute;left:44px;top:190px;color:#fff;font-weight:600;font-size:21px;letter-spacing:.28em">{e(spec.get("tagline", "FIELD NOTES FOR HUNGRY TRAVELERS IN JAPAN"))}</div>
 <div style="position:absolute;left:44px;top:300px;width:{s.get('lines_w',360)}px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)">{lines}</div>
 {sticker}
@@ -93,7 +93,7 @@ def cover(s, spec, i, n):
 def catalog(s, spec, i, n):
     items = s['items']; cols = 3 if len(items) in (3, 5, 6) else 2
     ph_h = 640 if len(items) == 3 else (300 if len(items) == 4 and s.get('info') else ({3: 330, 2: 380}[cols] if len(items) > 2 else 600))
-    cells = ''.join(f"""<div class="z" data-cap="{e(str(k+1) + '. ' + it['en'])}" style="display:flex;flex-direction:column">
+    cells = ''.join(f"""<div class="z" data-cap="{e(str(k+1+s.get('start',0)) + '. ' + it.get('cap', it['en']))}" style="display:flex;flex-direction:column">
 <div class="ph" style="height:{ph_h}px;background-image:url('{img(it['photo'])}');background-position:{it.get('pos','center')};border:1px solid {INK}"></div>
 <div style="display:flex;gap:10px;align-items:baseline;margin-top:10px"><span class="g" style="font-size:32px;color:{RED}">{'①②③④⑤⑥⑦⑧⑨'[k]}</span><span class="g" style="font-size:32px;line-height:1.15">{e(it['jp'])}</span></div>
 <div class="a" style="font-weight:700;font-size:22px;letter-spacing:.02em;margin-top:2px">{e(it['en'].upper())}</div>
@@ -118,11 +118,11 @@ def lst(s, spec, i, n):
 
 
 def rules(s, spec, i, n):
-    boxes = ''.join(f"""<div class="z" data-cap="{e(str(k+1) + '. ' + it['en'])}" style="border:3px solid {INK};padding:18px 20px;background:#fff;display:flex;flex-direction:column">
-<div style="display:flex;justify-content:space-between;align-items:baseline"><span class="g" style="font-size:44px;color:{RED};line-height:1">{k+1}</span>
+    boxes = ''.join(f"""<div class="z" data-cap="{e(str(k+1+s.get('start',0)) + '. ' + it.get('cap', it['en']))}" style="border:3px solid {INK};padding:18px 20px;background:#fff;display:flex;flex-direction:column">
+<div style="display:flex;justify-content:space-between;align-items:baseline"><span class="g" style="font-size:44px;color:{RED};line-height:1">{k+1+s.get('start',0)}</span>
 <span class="a" style="font-weight:800;font-size:30px;color:{RED}">{e(it.get('stat',''))}</span></div>
-<div class="g" style="font-size:38px;line-height:1.15;margin-top:8px">{e(it['jp'])}</div>
-<div class="a" style="font-weight:800;font-size:23px;line-height:1.15;margin-top:6px">{e(it['en'].upper())}</div>
+<div class="g" style="font-size:{s.get('jp_size',38)}px;line-height:1.15;margin-top:8px">{e(it['jp'])}</div>
+<div class="a" style="font-weight:800;font-size:{s.get('en_size',23)}px;line-height:1.15;margin-top:6px">{e(it['en'].upper())}</div>
 <div class="a" style="font-weight:500;font-size:{s.get('do_size',19)}px;line-height:1.3;margin-top:auto;padding-top:8px;color:#333">{e(it.get('do',''))}</div></div>""" for k, it in enumerate(s['items']))
     return f"""<div class="s" style="padding:44px 44px">{head(spec, s['kicker'], s['jp'], s['en'], s.get('sub',''))}
 <div style="display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:16px;margin-top:20px;height:{s.get('grid_h',1030)}px">{boxes}</div>{folio(i, n)}</div>"""

@@ -1,0 +1,175 @@
+{
+ "id": "c_07_ten_lines",
+ "issue": "No.07",
+ "place": "JAPAN",
+ "reel": {
+  "cover_cap": "Ten lines to say at a restaurant in Japan",
+  "end_cap": "Screenshot it before you fly",
+  "zoom_only": [
+   "02.jpg"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#1F4E79",
+   "big": "10",
+   "big_size": 760,
+   "jp": "店で使う、\n[十]のひとこと。",
+   "jp_size": 104,
+   "en": "Ten lines to say at a restaurant",
+   "en_size": 50,
+   "lines": [
+    [
+     "指さして\n「これをください」。",
+     "Point and say kore o kudasai"
+    ],
+    [
+     "会計は\n「お会計お願いします」。",
+     "Okaikei onegaishimasu"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "save it"
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "ARRIVING & ORDERING",
+   "jp": "入って、頼む",
+   "en": "Arrive and order",
+   "sub": "Romaji under each line: say it as written.",
+   "reel_cap": "Six lines to arrive and order",
+   "do_size": 23,
+   "items": [
+    {
+     "jp": "二人です",
+     "en": "futari desu",
+     "do": "Two of us. Hold up two fingers too. Three: sannin desu.",
+     "cap": "Two of us",
+     "stat": "入店"
+    },
+    {
+     "jp": "予約した〇〇です",
+     "en": "yoyaku shita ___ desu",
+     "do": "I booked, under the name ___.",
+     "cap": "I booked, name ___",
+     "stat": "予約"
+    },
+    {
+     "jp": "英語メニューありますか",
+     "en": "eigo menyū arimasu ka",
+     "do": "Do you have an English menu?",
+     "cap": "English menu?",
+     "stat": "メニュー"
+    },
+    {
+     "jp": "おすすめは？",
+     "en": "osusume wa?",
+     "do": "What do you recommend? The quickest way to the dish they're proud of.",
+     "cap": "What do you recommend?",
+     "stat": "注文"
+    },
+    {
+     "jp": "これをください",
+     "en": "kore o kudasai",
+     "do": "This one, please. Point at the menu as you say it.",
+     "cap": "This one, please",
+     "stat": "注文"
+    },
+    {
+     "jp": "〇〇抜きで",
+     "en": "___ nuki de",
+     "do": "Without ___. ninniku = garlic, negi = green onion, wasabi.",
+     "cap": "Without ___, please",
+     "stat": "注文"
+    }
+   ],
+   "en_size": 26
+  },
+  {
+   "type": "rules",
+   "kicker": "EATING & PAYING",
+   "jp": "食べて、払う",
+   "en": "Eat and pay",
+   "sub": "For a serious allergy, show it in writing too.",
+   "reel_cap": "Four lines to eat and pay",
+   "do_size": 28,
+   "grid_h": 1030,
+   "items": [
+    {
+     "jp": "〇〇アレルギーです",
+     "en": "___ arerugī desu",
+     "do": "I'm allergic to ___. ebi = shrimp, kani = crab, soba, komugi = wheat.",
+     "cap": "I'm allergic to ___",
+     "stat": "大事"
+    },
+    {
+     "jp": "おかわりください",
+     "en": "okawari kudasai",
+     "do": "Another one, please: more rice, or another drink.",
+     "cap": "Another one, please",
+     "stat": "追加"
+    },
+    {
+     "jp": "カード使えますか",
+     "en": "kādo tsukaemasu ka",
+     "do": "Can I pay by card? Ask before you order at small places.",
+     "cap": "Can I pay by card?",
+     "stat": "支払"
+    },
+    {
+     "jp": "お会計お願いします",
+     "en": "okaikei onegaishimasu",
+     "do": "The check, please. Then pay at the register.",
+     "cap": "The check, please",
+     "stat": "会計"
+    }
+   ],
+   "en_size": 32,
+   "start": 6,
+   "jp_size": 44
+  },
+  {
+   "type": "phrase",
+   "kicker": "WHEN YOU LEAVE",
+   "jp": "ごちそうさま\nでした",
+   "jp_size": 130,
+   "romaji": "gochisōsama deshita",
+   "meaning": "thank you for the meal",
+   "note": "Say it to the staff or the counter on your way out. It's the thank-you that replaces a tip."
+  },
+  {
+   "type": "back",
+   "jp": "出発前に、\nスクショ。",
+   "en": "Screenshot before you fly",
+   "checks": [
+    [
+     "指さし＋これをください",
+     "Point + kore o kudasai"
+    ],
+    [
+     "抜きで・アレルギーです",
+     "nuki de / arerugī desu"
+    ],
+    [
+     "お会計お願いします",
+     "okaikei onegaishimasu"
+    ],
+    [
+     "帰りにごちそうさまでした",
+     "gochisōsama deshita on the way out"
+    ],
+    [
+     "「売り切れ」＝品切れ",
+     "urikire = sold out"
+    ],
+    [
+     "チップは要らない",
+     "No tipping"
+    ]
+   ]
+  }
+ ]
+}

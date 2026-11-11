@@ -93,6 +93,11 @@ def main(cid, out=None):
         prev = (540, 675, 1.02)
         zp = rc.get('zoom_pages')  # optional: only zoom into these page types; others are shown whole (keeps reels ~30 s)
         still = meta['type'] in ('phrase', 'map') or (zp is not None and meta['type'] not in zp)
+        zo = rc.get('zoom_only')  # optional: only zoom into these page files (e.g. ["02.jpg"])
+        still = still or (zo is not None and meta['page'] not in zo)
+        if still and meta['type'] not in ('phrase', 'map'):  # a page shown whole: hold it long enough to read
+            for i in range(rc.get('still_hold', 45)):
+                frame(pg, (540, 675, 1.02), meta.get('caption', ''), 1)
         boxes = [] if still else [b for b in meta['boxes'] if b['w'] < 1000 or b['h'] < 400][:8]
         if still and meta['type'] == 'phrase':  # show the phrase page a little longer
             cap = meta['boxes'][0]['cap'] if meta['type'] == 'phrase' and meta['boxes'] else ''

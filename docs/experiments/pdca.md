@@ -42,3 +42,11 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Already posted with the caviar error: f_03_domannaka reel (caption + on-screen "UNI + CAVIAR"). API can't edit captions; needs a manual caption edit or archive.
 - Taste note from Yu: don't feature trivia like "fresh wasabi in a cup" as the selling point of a dish. Lead with what makes the dish worth ordering.
 - Rule: describe only what is visible in Yu's photo or confirmed by Yu; never infer toppings.
+
+## 2026-11-12 08:00 production run (編集長メモ)
+- Numbers: no new-format issue has posted yet (first: c_03 Domannaka reel 11/12 12:00, carousel 20:00), so H14/H15/H16 have n=0. Account (11/11 15:05 UTC): 28-day reach 471, profile views 4, link taps 0, engaged 2 — still the old-template baseline. First read on 11/14; kill-rule check after the 6th new issue (11/17).
+- Made: Extra 03 「サウナのあとで」 Spa Metsa Otaka (Yu's photos, jumps the queue per plan) → 11/18; No.07 「店で使う十のひとこと」 Ten lines → 11/19.
+- Extra 03 facts re-checked on the official site (prices, hours) + FAQ. New house rules found that the old sp_02 reel didn't have: towels are NOT included (¥300 set), lounge wear only with the rock-bath ticket, tattoos only if two of their cover stickers hide them, no outside drinks. These are exactly the "don't fail" details for our reader.
+- No.07 has no shops, so no map/review pages (they apply to shop issues). Romaji is set as the big second line of each card, not the small print.
+- Fixes: cover masthead — "番外編 EXTRA 0x" touched the KORU logo; covers now show "EXTRA 0x" (番外編 is already in the cover headline). x_01/x_02 covers re-rendered. render.py rules: start / jp_size / en_size / per-item cap. reel.py: zoom_only (page files), pages shown whole are held 1.5 s more.
+- Balance note: 3 Extras (x_01–x_03) among 8 issues. Next run should bring main 'no-fail' issues (No.08 東の鰻, No.09 夜10時からの晩ごはん) so H15 gets an A arm.

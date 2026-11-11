@@ -1,0 +1,122 @@
+{
+ "id": "c_07_ten_lines",
+ "reel": {
+  "cover_cap": "Ten lines to say at a restaurant in Japan",
+  "end_cap": "Screenshot it before you fly",
+  "zoom_only": [
+   "02.jpg"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Ten lines to say at a restaurant",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "rules",
+   "caption": "Six lines to arrive and order",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "1. Two of us"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "2. I booked, name ___"
+    },
+    {
+     "x": 44,
+     "y": 559.609375,
+     "w": 488,
+     "h": 332.671875,
+     "cap": "3. English menu?"
+    },
+    {
+     "x": 548,
+     "y": 559.609375,
+     "w": 488,
+     "h": 332.671875,
+     "cap": "4. What do you recommend?"
+    },
+    {
+     "x": 44,
+     "y": 908.28125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "5. This one, please"
+    },
+    {
+     "x": 548,
+     "y": 908.28125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "6. Without ___, please"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "rules",
+   "caption": "Four lines to eat and pay",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 507,
+     "cap": "7. I'm allergic to ___"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 507,
+     "cap": "8. Another one, please"
+    },
+    {
+     "x": 44,
+     "y": 733.953125,
+     "w": 488,
+     "h": 507,
+     "cap": "9. Can I pay by card?"
+    },
+    {
+     "x": 548,
+     "y": 733.953125,
+     "w": 488,
+     "h": 507,
+     "cap": "10. The check, please"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "phrase",
+   "caption": "",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 440,
+     "w": 992,
+     "h": 562.78125,
+     "cap": "gochisōsama deshita = thank you for the meal"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "back",
+   "caption": "Screenshot before you fly",
+   "boxes": []
+  }
+ ]
+}

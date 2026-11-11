@@ -8407,5 +8407,40 @@
   "lunch_ok": true,
   "dinner_ok": true,
   "region": "Sapporo"
+ },
+ {
+  "name_en": "Spa Metsa Otaka (Ryusenji no Yu)",
+  "name_ja": "スパメッツァ おおたか 竜泉寺の湯",
+  "area": "Nagareyama (Chiba)",
+  "genre": "Super sento / sauna, with restaurant (湯あがりキッチン一休)",
+  "station": "Nagareyama-otakanomori (TX / Tobu Noda Line), West Exit",
+  "walk_min": 2,
+  "hours": "Baths 6:00-26:00 (last entry 25:30); restaurant 9:30-24:30 (LO 24:00)",
+  "closed_days": "Open every day",
+  "price": "Adults: weekdays ¥1,100 (¥950 if in by 9:00); Sat/Sun/hol 3 h ¥1,280, free time ¥1,480 (morning 3 h ¥1,080); rock-bath lounge +¥800 weekdays / +¥1,000 weekends; special dates priced separately",
+  "budget_band": "under1500",
+  "reservation": "not_needed",
+  "what_to_order": "After-sauna food (sa-meshi): Yu had fried chicken wings, kushikatsu, eggplant with white leek, highball (Nov 2026)",
+  "house_rules": [
+   "Tattoos (incl. stickers) refused unless covered by two designated cover stickers (9.5×14 cm)",
+   "Towels not included: bring or rent a set ¥300 (vending machine in changing room)",
+   "Lounge wear only for rock-bath lounge users",
+   "No outside food or drink, incl. PET bottles and flasks",
+   "Sauna and cold baths: junior-high age and up",
+   "Lockers free; shampoo, conditioner, body soap provided",
+   "Cards, transit IC and QR payments accepted"
+  ],
+  "rules_checked": "2026-11-12 (official site info + FAQ)",
+  "tabelog_score": null,
+  "tabelog_reviews": null,
+  "review_summary": null,
+  "yu_pick": true,
+  "kind": "spa",
+  "sources": [
+   "https://www.ryusenjinoyu.com/spametsaotaka/info/",
+   "https://www.ryusenjinoyu.com/spametsaotaka/faq/",
+   "https://maruchiba.jp/feature/detail_263.html"
+  ],
+  "checked": "2026-11-12"
  }
 ]

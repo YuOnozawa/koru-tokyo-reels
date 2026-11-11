@@ -1,0 +1,177 @@
+{
+ "id": "x_03_spametsa",
+ "issue": "番外編 EXTRA 03",
+ "place": "CHIBA",
+ "reel": {
+  "cover_cap": "Extra: what to eat after a Japanese sauna",
+  "end_cap": "Save it for a rest day",
+  "zoom_pages": [
+   "catalog"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/spametsa_wings.jpg",
+   "pos": "center 45%",
+   "jp": "番外編\nサウナの\n[あと]で。",
+   "jp_size": 104,
+   "en": "Extra: what to eat after a sauna",
+   "en_size": 50,
+   "lines": [
+    [
+     "サウナシュラン\n2022 第1位。",
+     "Saunachelin 2022 #1"
+    ],
+    [
+     "秋葉原から\nTXで約25分。",
+     "25 min from Akihabara"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が行った"
+   ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "EXTRA · SA-MESHI",
+   "jp": "湯あがりキッチン 一休",
+   "en": "Spa Metsa Otaka kitchen",
+   "sub": "After-sauna food, inside the spa",
+   "reel_cap": "What Yu ate after the sauna",
+   "items": [
+    {
+     "photo": "stock/yu/spametsa_wings.jpg",
+     "pos": "center 40%",
+     "jp": "手羽の唐揚げ",
+     "en": "Fried chicken wings",
+     "note": "こしょうをたっぷりまぶして"
+    },
+    {
+     "photo": "stock/yu/spametsa_kushikatsu.jpg",
+     "pos": "center 55%",
+     "jp": "串カツ",
+     "en": "Kushikatsu",
+     "note": "二本で一皿"
+    },
+    {
+     "photo": "stock/yu/spametsa_eggplant.jpg",
+     "pos": "center 55%",
+     "jp": "なすとねぎ",
+     "en": "Eggplant, white leek",
+     "note": "白髪ねぎをのせて"
+    },
+    {
+     "photo": "stock/yu/spametsa_highball.jpg",
+     "pos": "center 40%",
+     "jp": "ハイボール",
+     "en": "Highball",
+     "note": "湯あがりの一杯"
+    }
+   ],
+   "info": [
+    [
+     "OPEN",
+     "9:30〜24:30（L.O. 24:00）",
+     "last order midnight"
+    ],
+    [
+     "MENU",
+     "約100品",
+     "about 100 dishes"
+    ],
+    [
+     "PAY",
+     "カード・交通系IC・QR",
+     "cards, IC, QR OK"
+    ]
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/spametsa_lounge.jpg",
+   "pos": "center 60%",
+   "kicker": "THEN",
+   "jp": "食べたら、\nひと眠り。",
+   "jp_size": 56,
+   "en": "Then a nap in the lounge",
+   "body": "Lounge wear comes only with the rock-bath lounge ticket: +⁠¥800 on weekdays, +⁠¥1,000 at weekends (adults).",
+   "cap": "Then a nap in the lounge"
+  },
+  {
+   "type": "rules",
+   "kicker": "BEFORE YOU GO",
+   "jp": "行く前の六つ",
+   "en": "Six things to know",
+   "sub": "Official site, checked Nov 12, 2026",
+   "reel_cap": "Six things to know before you go",
+   "do_size": 24,
+   "items": [
+    {
+     "jp": "タトゥーは要確認",
+     "en": "Tattoos: must be covered",
+     "stat": "2枚",
+     "do": "Only if two of their cover stickers (9.5×14 cm) hide it. Otherwise entry is refused."
+    },
+    {
+     "jp": "タオルは別",
+     "en": "Towels not included",
+     "stat": "¥300",
+     "do": "Bring your own, or rent a set from the machine in the changing room."
+    },
+    {
+     "jp": "館内着は岩盤浴の人だけ",
+     "en": "Lounge wear: rock-bath ticket",
+     "stat": "+¥800",
+     "do": "Bath-only guests get no lounge wear. Weekends +¥1,000."
+    },
+    {
+     "jp": "持ち込み禁止",
+     "en": "No outside food or drink",
+     "stat": "水筒も",
+     "do": "Water bottles too. Drinks are sold inside."
+    },
+    {
+     "jp": "サウナは中学生から",
+     "en": "Sauna: junior-high age+",
+     "stat": "中学〜",
+     "do": "Same for the cold baths."
+    },
+    {
+     "jp": "ロッカー無料",
+     "en": "Lockers are free",
+     "stat": "¥0",
+     "do": "Soap and shampoo are in the baths."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "サウナの日、\n行く前に。",
+   "en": "Before you go",
+   "checks": [
+    [
+     "流山おおたかの森駅 徒歩2分",
+     "2 min from Nagareyama-otakanomori Sta."
+    ],
+    [
+     "平日1,100円（9時までなら950円）",
+     "Weekdays ¥1,100; ¥950 if in by 9:00"
+    ],
+    [
+     "土日祝 3時間1,280円・終日1,480円",
+     "Weekends: 3 h ¥1,280, all day ¥1,480"
+    ],
+    [
+     "6:00〜26:00、年中無休",
+     "6am–2am, open every day"
+    ]
+   ],
+   "note": "Photos by Yu, Nov 2026 · prices: official site, Nov 12",
+   "photo": "stock/yu/spametsa_trio.jpg",
+   "pos": "center 55%",
+   "photo_h": 300
+  }
+ ]
+}

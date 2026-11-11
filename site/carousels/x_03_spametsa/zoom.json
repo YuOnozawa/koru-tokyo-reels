@@ -1,0 +1,129 @@
+{
+ "id": "x_03_spametsa",
+ "reel": {
+  "cover_cap": "Extra: what to eat after a Japanese sauna",
+  "end_cap": "Save it for a rest day",
+  "zoom_pages": [
+   "catalog"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: what to eat after a sauna",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "What Yu ate after the sauna",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "1. Fried chicken wings"
+    },
+    {
+     "x": 550,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "2. Kushikatsu"
+    },
+    {
+     "x": 44,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "3. Eggplant, white leek"
+    },
+    {
+     "x": 550,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "4. Highball"
+    },
+    {
+     "x": 44,
+     "y": 1185.109375,
+     "w": 992,
+     "h": 108.890625,
+     "cap": "last order midnight · about 100 dishes · cards, IC, QR OK"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Then a nap in the lounge",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 981.78125,
+     "w": 992,
+     "h": 312.21875,
+     "cap": "Then a nap in the lounge"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "rules",
+   "caption": "Six things to know before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "1. Tattoos: must be covered"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "2. Towels not included"
+    },
+    {
+     "x": 44,
+     "y": 559.609375,
+     "w": 488,
+     "h": 332.671875,
+     "cap": "3. Lounge wear: rock-bath ticket"
+    },
+    {
+     "x": 548,
+     "y": 559.609375,
+     "w": 488,
+     "h": 332.671875,
+     "cap": "4. No outside food or drink"
+    },
+    {
+     "x": 44,
+     "y": 908.28125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "5. Sauna: junior-high age+"
+    },
+    {
+     "x": 548,
+     "y": 908.28125,
+     "w": 488,
+     "h": 332.65625,
+     "cap": "6. Lockers are free"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "back",
+   "caption": "Before you go",
+   "boxes": []
+  }
+ ]
+}
