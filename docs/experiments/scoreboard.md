@@ -7,10 +7,10 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 31 | 121.6 | 26% | 0.5 | 0.0 | 0.4 |
-| B | 16 | 92.0 | 10% | 0.2 | 0.0 | 0.0 |
+| A | 32 | 121.1 | 26% | 0.5 | 0.0 | 0.4 |
+| B | 15 | 92.1 | 10% | 0.2 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+157%)
+**Suggested verdict:** A wins (+156%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -36,8 +36,8 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 114.7 | 20% | 0.3 | 0.0 | 0.0 |
-| B | 3 | 127.3 | 33% | 0.3 | 0.0 | 0.0 |
+| A | 4 | 109.0 | 21% | 0.2 | 0.0 | 0.0 |
+| B | 3 | 130.3 | 33% | 0.3 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -46,7 +46,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 122.4 | 29% | 0.5 | 0.0 | 0.2 |
+| A | 6 | 119.0 | 28% | 0.4 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -65,10 +65,10 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 123.7 | 48% | 0.4 | 0.0 | 0.2 |
-| B | 19 | 122.7 | 18% | 0.6 | 0.0 | 0.5 |
+| A | 6 | 124.0 | 48% | 0.4 | 0.0 | 0.2 |
+| B | 20 | 121.6 | 19% | 0.6 | 0.0 | 0.5 |
 
-**Suggested verdict:** A wins (+161%)
+**Suggested verdict:** A wins (+157%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
@@ -105,8 +105,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 38 | 108.6 | 20% | 0.4 | 0.0 | 0.2 |
-| B | 11 | 120.9 | 22% | 0.3 | 0.0 | 0.5 |
+| A | 38 | 108.9 | 20% | 0.4 | 0.0 | 0.2 |
+| B | 11 | 121.1 | 23% | 0.3 | 0.0 | 0.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -115,7 +115,7 @@ Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: 
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 122.3 | 35% | 0.0 | 0.0 | 0.3 |
+| A | 3 | 122.7 | 35% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
