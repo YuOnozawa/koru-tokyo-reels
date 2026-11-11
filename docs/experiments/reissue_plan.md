@@ -53,5 +53,6 @@ how much (budget), how to book, what to say. Every photo-less issue gets a map p
 ## 2026-11-12: Okinawa — on hold
 - Yu: burger at the clubhouse restaurant of the golf course in Eibi (栄野比), Uruma. Menu reads TAIYO Steak House =
   Taiyo Steakhouse, 2F Taiyo Golf Club clubhouse, run by MCCS Okinawa (US Marine Corps community services), aimed at
-  service members and families. Public access for tourists not confirmed → don't publish as a recommendation until Yu
-  confirms ordinary visitors can dine there. Photos saved (burger only; the table photo shows other diners' faces, not used).
+  service members and families. Public access for tourists not confirmed → don't publish as a recommendation.
+  Yu (11/12): he went in with a member. Decision: never as a pick; at most a line in a future Okinawa diary issue,
+  clearly labelled "members and their guests only". Wait for more Okinawa photos before making that issue. Photos saved (burger only; the table photo shows other diners' faces, not used).
