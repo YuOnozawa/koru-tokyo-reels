@@ -36,3 +36,9 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Yu: theme need not be fixed; magazine branding is good; target = adult travelers staying in Tokyo, fairly affluent, don't want a bad meal or to waste money, want delicious over cheap & fun; cheap spots OK as 番外編 (Extra); "店よりも見せ方".
 - Act: stopped AI-voice + stock-footage reels. New format: magazine carousels "KORU · Tokyo Field Notes" (tools/carousel). Issues: No.03 Domannaka (11/12 12:00, Yu photos), No.04 Five dinners worth booking (11/12 20:00), Extra 01 Tenkaippin (11/13 19:00). Held: midnight list (mixed with cheap/smoking spots).
 - New tests: H14 carousel vs old reel (reach), H15 no-fail vs cheap&fun (saves/reach). Kill rule: if 6 carousels also sit near 100 reach, Instagram stops being the main channel → Search/Maps.
+
+## 2026-11-12 fact fixes from Yu (Domannaka Akihabara Bettei)
+- Uni hand roll has NO caviar. Potato-salad tower is topped with shaved CHEESE, not bonito. Fixed in data/shops.json, site/planner/shops.json, c_03 spec + caption.
+- Already posted with the caviar error: f_03_domannaka reel (caption + on-screen "UNI + CAVIAR"). API can't edit captions; needs a manual caption edit or archive.
+- Taste note from Yu: don't feature trivia like "fresh wasabi in a cup" as the selling point of a dish. Lead with what makes the dish worth ordering.
+- Rule: describe only what is visible in Yu's photo or confirmed by Yu; never infer toppings.
