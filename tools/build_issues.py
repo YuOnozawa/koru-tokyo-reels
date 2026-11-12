@@ -46,7 +46,7 @@ main{{max-width:640px;margin:0 auto}}.iss{{margin:28px 0 40px;border-top:3px sol
 .top h1{{font-size:40px;margin:16px 0 0}}.top p{{margin:4px 0 0;color:#55514A}}{NAV_CSS}</style>
 <link rel="stylesheet" href="../koru.css"></head><body>
 {nav('../', '')}
-<main><div class="top"><p class="kicker">FIELD NOTES FOR HUNGRY TRAVELERS IN JAPAN</p><h1>全号</h1><p>Every issue, page by page. The same issues come out on Instagram, <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a>.</p></div>
+<main><div class="top"><p class="kicker">FIELD NOTES FROM AKIHABARA, FOR HUNGRY TRAVELERS</p><h1>全号</h1><p>Every issue, page by page. The same issues come out on Instagram, <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a>.</p></div>
 {body}</main><footer style="max-width:640px;margin:0 auto;font-size:13px">Facts only, no paid placement. Photos by Yu. <a href="../privacy/">Privacy</a></footer></body></html>'''
 
 def main():

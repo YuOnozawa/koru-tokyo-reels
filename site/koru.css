@@ -27,7 +27,7 @@ html body{background:var(--k-paper)!important;color:var(--k-ink)}
 .kn a span{font:800 10px/1.4 "Archivo","Noto Sans JP",sans-serif!important;letter-spacing:.14em;text-transform:uppercase;opacity:1!important;color:var(--k-mute)}
 .kn a[aria-current]{background:var(--k-red)!important;color:#fff!important}
 .kn a[aria-current] span{color:#fff}
-.kn::before{content:"with KORU";grid-column:1/-1;display:block;text-align:center;font:900 22px/1.1 "Archivo","Noto Sans JP",sans-serif;letter-spacing:-.01em;padding:4px 0 6px;border-bottom:1px solid var(--k-ink);margin-bottom:4px;color:var(--k-ink)}
+.kn::before{content:"with KORU  · 秋葉原発";grid-column:1/-1;display:block;text-align:center;font:900 22px/1.1 "Archivo","Noto Sans JP",sans-serif;letter-spacing:-.01em;padding:4px 0 6px;border-bottom:1px solid var(--k-ink);margin-bottom:4px;color:var(--k-ink)}
 
 /* LED ticker → black strip with yellow small caps, like the cover kicker */
 .led,.marquee{background:var(--k-ink)!important;border-radius:0!important;box-shadow:none!important}
