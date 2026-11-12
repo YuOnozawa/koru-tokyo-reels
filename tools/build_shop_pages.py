@@ -186,6 +186,8 @@ def house_rules(s):
         add('🪑', 'Small: %s seats' % m.group(1))
     if str(s.get('english_menu', '')).lower() == 'yes':
         add('🇬🇧', 'English menu')
+    for r in (s.get('house_rules') or []):  # checked rules from the shop's own listing (rules_checked)
+        add('📌', r)
     return out
 
 
@@ -200,7 +202,7 @@ def shop_page(s, slug, peers):
     desc = re.sub(r'\s+', ' ', desc).strip()
     if len(desc) > 158:
         desc = desc[:155].rsplit(' ', 1)[0] + '…'
-    title = '%s (%s) – what to order, hours, closed days | Tokyo Food Ticket Machine' % (s['name_en'], s['name_ja'])
+    title = '%s (%s) – what to order, hours, closed days | with KORU' % (s['name_en'], s['name_ja'])
     canonical = '%s/shops/%s/' % (BASE, slug)
     maps = 'https://www.google.com/maps/search/?api=1&query=' + re.sub(r'\s', '+', html.escape(s['name_ja']))
     from urllib.parse import quote
@@ -230,10 +232,22 @@ def shop_page(s, slug, peers):
     order = '<p class="order">▶ %s</p>' % e(s['what_to_order']) if known(s.get('what_to_order')) else ''
     tip = '<p class="tip">💡 %s</p>' % e(s['tourist_tip']) if known(s.get('tourist_tip')) else ''
     hr = house_rules(s)
+    rules_html = ''
     if hr:
-        order += ('<div class="rules"><div class="rules-k">HOUSE RULES · 入店ルール</div><ul>%s</ul></div>'
-                  % ''.join('<li><span>%s</span>%s</li>' % (i, e(l)) for i, l in hr))
-    tip += ('<p class="report">Something changed (closed, new hours, cash only)? '
+        rules_html = ('<div class="rules"><div class="rules-k">HOUSE RULES · 入店ルール</div><ul>%s</ul></div>'
+                      % ''.join('<li><span>%s</span>%s</li>' % (i, e(l)) for i, l in hr))
+    # 評判 · what people say (only from our own dated summary of the latest reviews; never quoted)
+    rep = ''
+    if s.get('tabelog_score'):
+        rep = '<p class="rep-score"><b>%.2f</b> Tabelog · %s reviews</p>' % (float(s['tabelog_score']), format(int(s.get('tabelog_reviews') or 0), ','))
+    if known(s.get('review_summary')):
+        m = re.match(r'\s*20 latest Tabelog reviews \(([^)]*)\):\s*(.*)', s['review_summary'])
+        basis, summ = (m.group(1), m.group(2)) if m else ('', s['review_summary'])
+        summ = summ[:1].upper() + summ[1:]
+        rep += '<p class="rep">%s</p><p class="rep-basis">Our summary of the 20 latest Tabelog reviews%s. Not quoted.</p>' % (e(summ), (', ' + e(basis)) if basis else '')
+    if rep:
+        rep = '<h2 class="sec">評判<span>WHAT PEOPLE SAY</span></h2>' + rep
+    report = ('<p class="report">Something changed (closed, new hours, cash only)? '
             '<a href="https://ig.me/m/koru.tokyo_guide" target="_blank" rel="noopener">Tell us on Instagram</a> and we\'ll fix it.</p>')
     group = GROUP.get(area, '')
     plan_href = '../../planner/' + ('?a=' + group if group else '')
@@ -247,15 +261,15 @@ def shop_page(s, slug, peers):
         '<div class="machine"><div class="marquee">WITH KORU ▸ <b>%s</b> ▸ %s</div>'
         '<nav class="crumbs"><a href="../../planner/">Planner</a> › <a href="../#%s">Shops</a> › %s</nav>'
         '<article class="ticket%s">%s<div class="kicker">食券 · %s %s</div><h1>%s</h1><div class="ja">%s</div><div class="genre">%s</div>'
-        '<div class="perf"></div>%s<dl>%s</dl>%s'
-        '<p class="note">Facts checked %s from public sources. Hours change, so check Google Maps the same day.</p></article>'
+        '<div class="perf"></div>%s%s<h2 class="sec">注目のメニュー<span>WHAT TO ORDER</span></h2>%s<h2 class="sec">知っておきたいこと<span>GOOD TO KNOW</span></h2><dl>%s</dl>%s'
+        '<p class="note">Facts checked %s from public sources. Hours change, so check Google Maps the same day.</p>' + report + '</article>'
         + say_html(s) +
         '<div class="btns"><a class="btn primary" href="%s">Plan my Tokyo meals free 🎫</a>'
         '<a class="btn ghost" href="%s" target="_blank" rel="noopener">Open in Google Maps</a>'
         '<a class="btn ghost" href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">Follow @koru.tokyo_guide</a></div></div>%s'
     ) % (e(area.upper()), e(AREA_JA.get(area, '')), e(slugify(area)), e(s['name_en']),
          ' has-stamp' if s.get('yu_pick') else '', stamp, e(area), e(AREA_JA.get(area, '')),
-         e(s['name_en']), e(s['name_ja']), e(s.get('genre', '')), order, ''.join(rows), tip,
+         e(s['name_en']), e(s['name_ja']), e(s.get('genre', '')), tip, rep, order or '<p class="order">—</p>', ''.join(rows), rules_html,
          e(human_date(s.get(TODAY_FIELD))), e(plan_href), e(maps), peer_html)
 
     ld = OrderedDict([('@context', 'https://schema.org'), ('@type', 'Restaurant'), ('name', s['name_en']),
@@ -264,7 +278,7 @@ def shop_page(s, slug, peers):
         ld['servesCuisine'] = s['genre']
     if s.get('budget_band') in BUDGET:
         ld['priceRange'] = BUDGET[s['budget_band']][0]
-    addr = OrderedDict([('@type', 'PostalAddress'), ('addressLocality', area), ('addressRegion', 'Tokyo'), ('addressCountry', 'JP')])
+    addr = OrderedDict([('@type', 'PostalAddress'), ('addressLocality', area), ('addressRegion', s.get('region') or 'Tokyo'), ('addressCountry', 'JP')])
     ld['address'] = addr
     if known(s.get('hours')):
         ld['description'] = 'Hours: %s' % s['hours'] + ('. Closed: %s' % s['closed_days'] if known(s.get('closed_days')) else '')
@@ -273,7 +287,7 @@ def shop_page(s, slug, peers):
 
 
 def index_page(by_area, slugs):
-    title = 'Tokyo food near Akihabara, Ueno, Asakusa & Kanda – %d shops, facts checked | Tokyo Food Ticket Machine' % sum(len(v) for v in by_area.values())
+    title = 'Tokyo food near Akihabara, Ueno, Asakusa & Kanda – %d shops, facts checked | with KORU' % sum(len(v) for v in by_area.values())
     desc = 'What to order, hours and closed days for %d restaurants and sweet shops around Akihabara, Kanda, Ueno, Yushima and Asakusa. Free meal planner included.' % sum(len(v) for v in by_area.values())
     chips = ''.join('<a href="#%s">%s %s</a>' % (slugify(a), e(a), e(AREA_JA.get(a, ''))) for a in by_area)
     secs = []
@@ -364,7 +378,7 @@ def intent_pages(shops, slugs, root):
             lst.sort(key=lambda s: (not s.get('yu_pick'), AREA_ORDER.index(s['area']) if s['area'] in AREA_ORDER else 99, s['name_en'].lower()))
             slug = '%s-%s' % (key, 'east-tokyo' if g == 'all' else short.lower())
             near = 'in' if g == 'all' else 'near'
-            title = '%s %s %s – %d places, checked %s | Tokyo Food Ticket Machine' % (h1, near, short, len(lst), checked)
+            title = '%s %s %s – %d places, checked %s | with KORU' % (h1, near, short, len(lst), checked)
             desc = '%d restaurants and cafes in %s %s, with hours, closed days, prices and what to order. Facts from public sources, free meal planner included.' % (len(lst), long_, phrase)
             other = ''.join('<a href="../%s-%s/">%s</a>' % (key, 'east-tokyo' if gg == 'all' else GROUP_NAME[gg][0].lower(), e(GROUP_NAME[gg][0]))
                             for gg in GROUP_NAME if gg != g)
@@ -385,7 +399,7 @@ def intent_pages(shops, slugs, root):
     body = ('<div class="machine"><div class="marquee">WITH KORU ▸ <b>FIELD NOTES</b> ▸ 食の手帖</div><article class="ticket"><div class="kicker">食券 · FIND</div>'
             '<h1>Find food in East Tokyo that is actually open</h1><p style="margin:8px 0 0">Sunday, late night, breakfast, cards, cheap lunch, English menu, walk-in. Facts only.</p></article>'
             '<div class="btns"><a class="btn primary" href="../planner/">Plan my Tokyo meals free 🎫</a></div></div><ul class="list">%s</ul>') % links
-    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(page('Find open restaurants in Akihabara, Ueno, Asakusa & Kanda | Tokyo Food Ticket Machine',
+    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(page('Find open restaurants in Akihabara, Ueno, Asakusa & Kanda | with KORU',
         'Restaurants open on Sunday, late at night or for breakfast, that take cards or have English menus, around Akihabara, Ueno, Asakusa and Kanda.',
         BASE + '/find/', body))
     return ['find/'] + ['find/%s/' % m[0] for m in made]

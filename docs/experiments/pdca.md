@@ -67,3 +67,10 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Home rebranded: "with KORU — 日本を旅する人の、食の手帖。" + 最新号 strip (issues already out, JST). New page /issues/ with every page of every issue.
   tools/build_issues.py runs in the Pages workflow, which now also runs daily at 00:03 JST.
 - Funnel to watch: home_open → issues/ visits, link taps from the bio.
+
+## 2026-11-12 shop pages shaped like an AI answer card (Yu shared ChatGPT's restaurant card)
+- ChatGPT answers "where to eat" with: rating + sources, what people say, notable menu, atmosphere, good-to-know (price, booking, English menu),
+  and it flagged that hours differ between sources. Our edge for being the cited source: first-hand, dated facts and house rules.
+- Shop pages now have the same sections, magazine-styled: 評判 WHAT PEOPLE SAY (Tabelog score/count + our dated 20-review summary, never quoted),
+  注目のメニュー WHAT TO ORDER, 知っておきたいこと GOOD TO KNOW (facts + checked house rules + 'checked on' date). Titles now '| with KORU'.
+- Next: fill review_summary / house_rules for more shops (13/306 now), Yu's picks first; watch Search Console + referrals from chatgpt.com.
