@@ -74,3 +74,8 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Shop pages now have the same sections, magazine-styled: 評判 WHAT PEOPLE SAY (Tabelog score/count + our dated 20-review summary, never quoted),
   注目のメニュー WHAT TO ORDER, 知っておきたいこと GOOD TO KNOW (facts + checked house rules + 'checked on' date). Titles now '| with KORU'.
 - Next: fill review_summary / house_rules for more shops (13/306 now), Yu's picks first; watch Search Console + referrals from chatgpt.com.
+
+## 2026-11-12 21:20 bug: reel skipped as a "duplicate" of its carousel
+- r_f_00_about (19:00) was recorded as already posted (it matched f_00_about's caption start) and its video was archived; nothing posted.
+  Same would have hit c_03 (20:00) and c_05 (22:00). Cause: already_posted() compared only the first 80 chars, and a reel and the carousel
+  of one issue share the opening. Fix: compare start AND end (the tails differ). r_f_00_about re-queued, video re-pushed.

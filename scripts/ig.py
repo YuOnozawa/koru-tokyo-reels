@@ -63,9 +63,12 @@ def public_url(rel):
 
 def already_posted(uid, caption):
     """Media id of a recent post with the same caption start (guards retries against double posts)."""
-    head = caption[:80]
+    # A reel and the carousel of the same issue share the caption's opening lines, so compare the end too.
+    norm = lambda c: ' '.join((c or '').split())
+    want = norm(caption)
     for m in call('GET', f'{uid}/media', {'fields': 'id,caption', 'limit': 5}).get('data', []):
-        if (m.get('caption') or '')[:80] == head:
+        got = norm(m.get('caption'))
+        if got[:80] == want[:80] and got[-80:] == want[-80:]:
             return m['id']
     return None
 
