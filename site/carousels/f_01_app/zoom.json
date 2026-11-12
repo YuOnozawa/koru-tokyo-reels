@@ -1,0 +1,165 @@
+{
+ "id": "f_01_app",
+ "reel": {
+  "cover_cap": "Free with every issue: the with KORU app",
+  "end_cap": "Link in bio · free, no sign-up",
+  "zoom_pages": [
+   "screen"
+  ],
+  "zoom_max_boxes": 1
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Free with every issue: the with KORU app",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "screen",
+   "caption": "Plan your meals before you fly",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 283.90625,
+     "w": 470,
+     "h": 990,
+     "cap": "Your meals, day by day"
+    },
+    {
+     "x": 550,
+     "y": 287.90625,
+     "w": 486,
+     "h": 181.5,
+     "cap": "Pick your days and where you're staying"
+    },
+    {
+     "x": 550,
+     "y": 469.40625,
+     "w": 486,
+     "h": 134.5,
+     "cap": "¥1,500 a meal, up to no limit"
+    },
+    {
+     "x": 550,
+     "y": 603.90625,
+     "w": 486,
+     "h": 167,
+     "cap": "Lunch, a sweet stop and dinner for each day"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "screen",
+   "caption": "Every shop, before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 283.90625,
+     "w": 470,
+     "h": 990,
+     "cap": "Hours, house rules, what to order"
+    },
+    {
+     "x": 550,
+     "y": 287.90625,
+     "w": 486,
+     "h": 134.5,
+     "cap": "What to order, from Yu's visits or the shop"
+    },
+    {
+     "x": 550,
+     "y": 422.40625,
+     "w": 486,
+     "h": 134.5,
+     "cap": "Cash only, booking, closed days"
+    },
+    {
+     "x": 550,
+     "y": 556.90625,
+     "w": 486,
+     "h": 134.5,
+     "cap": "Every fact shows when it was checked"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "screen",
+   "caption": "Restaurant Japanese, with sound",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 283.90625,
+     "w": 470,
+     "h": 990,
+     "cap": "30 phrases with sound"
+    },
+    {
+     "x": 550,
+     "y": 287.90625,
+     "w": 486,
+     "h": 134.5,
+     "cap": "Tap to hear each phrase"
+    },
+    {
+     "x": 550,
+     "y": 422.40625,
+     "w": 486,
+     "h": 181.5,
+     "cap": "A card to show staff"
+    },
+    {
+     "x": 550,
+     "y": 603.90625,
+     "w": 486,
+     "h": 134.5,
+     "cap": "Five questions before you land"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "screen",
+   "caption": "Your trip, kept on your phone",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 283.90625,
+     "w": 470,
+     "h": 990,
+     "cap": "Your trip notebook"
+    },
+    {
+     "x": 550,
+     "y": 287.90625,
+     "w": 486,
+     "h": 181.5,
+     "cap": "Set your dates, see the days left"
+    },
+    {
+     "x": 550,
+     "y": 469.40625,
+     "w": 486,
+     "h": 181.5,
+     "cap": "Kept on this phone, nothing sent"
+    },
+    {
+     "x": 550,
+     "y": 650.90625,
+     "w": 486,
+     "h": 181.5,
+     "cap": "Your hotel address in Japanese"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Link in bio",
+   "boxes": []
+  }
+ ]
+}

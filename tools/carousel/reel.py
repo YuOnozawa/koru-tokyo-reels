@@ -99,6 +99,7 @@ def main(cid, out=None):
             for i in range(rc.get('still_hold', 45)):
                 frame(pg, (540, 675, 1.02), meta.get('caption', ''), 1)
         boxes = [] if still else [b for b in meta['boxes'] if b['w'] < 1000 or b['h'] < 400][:8]
+        boxes = boxes[:rc.get('zoom_max_boxes', 8)]
         if still and meta['type'] == 'phrase':  # show the phrase page a little longer
             cap = meta['boxes'][0]['cap'] if meta['type'] == 'phrase' and meta['boxes'] else ''
             for i in range(60):

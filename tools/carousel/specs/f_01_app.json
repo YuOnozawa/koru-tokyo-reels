@@ -1,0 +1,158 @@
+{
+ "id": "f_01_app",
+ "issue": "付録 FREE APP",
+ "issue_cover": "FREE APP",
+ "place": "WEB · FREE",
+ "reel": {
+  "cover_cap": "Free with every issue: the with KORU app",
+  "end_cap": "Link in bio · free, no sign-up",
+  "zoom_pages": [
+   "screen"
+  ],
+  "zoom_max_boxes": 1
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#E8382F",
+   "big": "付録",
+   "big_size": 520,
+   "jp": "今月の[付録]は、\n食の手帖アプリ。",
+   "jp_size": 92,
+   "en": "Free with every issue: the with KORU app",
+   "en_size": 44,
+   "lines": [
+    [
+     "登録なし、\n無料。",
+     "Free, no sign-up"
+    ],
+    [
+     "300軒の\n営業時間と決まり。",
+     "Hours and house rules, 300 places"
+    ]
+   ],
+   "sticker": [
+    "付録",
+    "free"
+   ]
+  },
+  {
+   "type": "screen",
+   "kicker": "01 · PLAN",
+   "jp": "旅の食事を、\n[決めておく]。",
+   "en": "Plan your meals before you fly",
+   "shot": "stock/app/app_tickets.png",
+   "cap": "Your meals, day by day",
+   "points": [
+    [
+     "日にちと\nエリアを選ぶ",
+     "Pick your days and where you're staying"
+    ],
+    [
+     "予算を押す",
+     "¥1,500 a meal, up to no limit"
+    ],
+    [
+     "発券",
+     "Lunch, a sweet stop and dinner for each day"
+    ]
+   ],
+   "ph_h": 990
+  },
+  {
+   "type": "screen",
+   "kicker": "02 · SHOPS",
+   "jp": "行く前に、\n[店の決まり]。",
+   "en": "Every shop, before you go",
+   "shot": "stock/app/app_shop.png",
+   "cap": "Hours, house rules, what to order",
+   "points": [
+    [
+     "何を頼むか",
+     "What to order, from Yu's visits or the shop"
+    ],
+    [
+     "店の決まり",
+     "Cash only, booking, closed days"
+    ],
+    [
+     "確認した日つき",
+     "Every fact shows when it was checked"
+    ]
+   ],
+   "ph_h": 990
+  },
+  {
+   "type": "screen",
+   "kicker": "03 · PHRASES",
+   "jp": "店で使う、\n[日本語]。",
+   "en": "Restaurant Japanese, with sound",
+   "shot": "stock/app/app_phrases.png",
+   "cap": "30 phrases with sound",
+   "points": [
+    [
+     "▶で聞ける",
+     "Tap to hear each phrase"
+    ],
+    [
+     "アレルギー\nカード",
+     "A card to show staff"
+    ],
+    [
+     "1分クイズ",
+     "Five questions before you land"
+    ]
+   ],
+   "ph_h": 990
+  },
+  {
+   "type": "screen",
+   "kicker": "04 · MY TRIP",
+   "jp": "旅の手帖を、\n[スマホに]。",
+   "en": "Your trip, kept on your phone",
+   "shot": "stock/app/app_trip.png",
+   "cap": "Your trip notebook",
+   "points": [
+    [
+     "到着まで\nカウントダウン",
+     "Set your dates, see the days left"
+    ],
+    [
+     "プランと\n保存した店",
+     "Kept on this phone, nothing sent"
+    ],
+    [
+     "タクシー用の\n住所カード",
+     "Your hotel address in Japanese"
+    ]
+   ],
+   "ph_h": 990
+  },
+  {
+   "type": "back",
+   "jp": "プロフィールの\nリンクから。",
+   "en": "Link in bio",
+   "checks": [
+    [
+     "登録なし・無料",
+     "Free, no sign-up"
+    ],
+    [
+     "記録はスマホの中だけ",
+     "Saved on your phone only"
+    ],
+    [
+     "ホーム画面に追加できる",
+     "Add it to your home screen"
+    ],
+    [
+     "毎号の店も入っている",
+     "Shops from each issue are in it"
+    ]
+   ],
+   "photo": "stock/app/app_home.png",
+   "pos": "center top",
+   "photo_h": 330
+  }
+ ]
+}

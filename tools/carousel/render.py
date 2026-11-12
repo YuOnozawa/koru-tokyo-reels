@@ -235,7 +235,20 @@ def fphoto(s, spec, i, n):
 <div class="a" style="position:absolute;right:44px;bottom:18px;font-weight:700;font-size:15px;letter-spacing:.14em;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.6)">{i:02d} / {n:02d}</div></div>"""
 
 
-KINDS = dict(photo=fphoto, voices=voices, map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back)
+def screen(s, spec, i, n):
+    """An app screen in a phone frame (left) + numbered points (right)."""
+    pts = ''.join(f"""<div class="z" data-cap="{e(b)}" style="border-top:3px solid {INK};padding:16px 0 26px">
+<div style="display:flex;gap:12px;align-items:baseline"><span class="a" style="font-weight:900;font-size:40px;color:{RED}">{k+1}</span>
+<span class="g" style="font-size:{s.get('pt_size',40)}px;line-height:1.2">{jp(a)}</span></div>
+<div class="a" style="font-weight:600;font-size:25px;line-height:1.3;margin-top:8px;color:#333">{e(b)}</div></div>""" for k, (a, b) in enumerate(s['points']))
+    return f"""<div class="s" style="padding:44px 44px">{head(spec, s['kicker'], s['jp'], s['en'], s.get('sub',''))}
+<div style="display:flex;gap:36px;margin-top:26px">
+<div class="z" data-cap="{e(s.get('cap', s['en']))}" style="position:relative;flex:none;width:470px;height:{s.get('ph_h',900)}px;border:10px solid {INK};border-radius:44px;overflow:hidden;background:#fff">
+<div class="ph" style="position:absolute;inset:0;background-image:url('{img(s['shot'])}');background-size:cover;background-position:{s.get('pos','top center')}"></div></div>
+<div style="flex:1;padding-top:4px">{pts}</div></div>{folio(i, n)}</div>"""
+
+
+KINDS = dict(photo=fphoto, voices=voices, map=smap, cover=cover, catalog=catalog, list=lst, rules=rules, phrase=phrase, back=back, screen=screen)
 
 
 def render(spec_path):
