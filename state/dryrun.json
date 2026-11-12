@@ -1,10 +1,9 @@
 {
- "at": "2026-11-12T00:15:05.314592+00:00",
- "item": "r_c_08_eel",
+ "at": "2026-11-12T00:44:10.065254+00:00",
+ "item": "f_01_app",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18132665644779964"
+  "container": "18132670924779964"
  },
  "published": false
 }
