@@ -59,3 +59,11 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - 2026-11-12 (same day): made No.08 東の鰻 (A, 11/16) and No.09 夜10時からの晩ごはん (B, 11/16). Tabelog score/count, 20-latest-review themes and house rules saved in shops.json.
 - Stale late-night facts found while re-checking (Tabelog, Nov 12): Hon-Tosaya now closes 23:00 (food LO 22:00), not 2:00; Coffee Lodge Akaishi now 9:00–20:00, not 3:00; Daitoryo 23:30, not 24:00. Already-posted reels with the old hours: c_08_late (Akaishi), n_04_midnight (Akaishi, Daitoryo), n_06_asakusa_late (Akaishi, Hon-Tosaya). Suggest Yu archives them with the other old reels. Rule: late-night hours are re-checked within 7 days of posting.
 - Scheduling: a production reminder for 11/14 08:00 (old every-2-days chain) could not be cancelled from here; when it fires, do the normal daily run and do NOT schedule another 2-day reminder.
+
+## 2026-11-12 app redesign (Yu: 「アプリ側のデザインも変えないとだね？」)
+- The web app (GitHub Pages) now wears the magazine look: site/koru.css is loaded last on all 340 pages and re-maps each page's
+  own tokens to paper/ink/red/yellow, square corners, flat ink borders, heavy Noto Sans JP headings, "with KORU" masthead on the nav.
+  Fonts: Dela Gothic One / DotGothic16 → Noto Sans JP 900 / Archivo. Builders (build_shop_pages.py, sitenav.py, planner.js) patched so rebuilds keep it.
+- Home rebranded: "with KORU — 日本を旅する人の、食の手帖。" + 最新号 strip (issues already out, JST). New page /issues/ with every page of every issue.
+  tools/build_issues.py runs in the Pages workflow, which now also runs daily at 00:03 JST.
+- Funnel to watch: home_open → issues/ visits, link taps from the bio.

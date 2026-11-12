@@ -17,7 +17,7 @@
 <meta name="theme-color" content="#c9d2d7">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Noto+Sans+JP:wght@900&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
 <style>
 /* Concept: the page is a ramen-shop ticket machine (券売機).
    Buttons choose, the big red button prints, and the plan comes out as paper meal tickets.
@@ -28,8 +28,8 @@
   --red:#d7262e; --red-deep:#9d141a; --amber:#ffa22b; --led-bg:#17110c;
   --paper:#fffef8; --paper-ink:#2b2f45; --paper-muted:#6f7287; --stamp:#d7262e;
   --lamp:#ffd84a;
-  --dela:"Dela Gothic One","Zen Kaku Gothic New",system-ui,sans-serif;
-  --dot:"DotGothic16","Zen Kaku Gothic New",ui-monospace,monospace;
+  --dela:"Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;
+  --dot:"Archivo","Noto Sans JP","Zen Kaku Gothic New",ui-monospace,monospace;
   --zen:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
   color-scheme:light;
 }
@@ -242,7 +242,7 @@ dialog#reviews::backdrop{background:rgba(10,15,20,.55)}
 #rvform label.ok{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--steel-muted)}
 #rvform button[type=submit]{font:900 16px var(--zen);border:0;border-radius:10px;padding:13px;background:var(--red);color:#fff;box-shadow:0 4px 0 var(--red-deep);cursor:pointer}
 #rvprev{max-width:100%;max-height:200px;border-radius:10px;justify-self:start}
-.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
+.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "Archivo","Noto Sans JP",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "Archivo","Noto Sans JP",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
 .say{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;margin:8px 0 0;padding:8px 12px;border-radius:10px;background:#17110c;color:#ffa22b;text-decoration:none;font:14px/1.4 var(--dot)}
 .say b{font:900 17px var(--zen);color:#ffd27a}
 .nbcta{display:grid;gap:2px;margin-top:12px;text-decoration:none;background:var(--red);color:#fff;border-radius:12px;padding:12px 14px;box-shadow:0 4px 0 var(--red-deep)}
@@ -250,7 +250,7 @@ dialog#reviews::backdrop{background:rgba(10,15,20,.55)}
 .nbcta span{font-size:13px;color:#ffe9e9}
 </style>
 <link rel="manifest" href="../manifest.webmanifest"><link rel="apple-touch-icon" href="../apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Tokyo Food">
-</head>
+<link rel="stylesheet" href="../koru.css"></head>
 <body>
 <nav class="kn" aria-label="Site"><a href="../planner/" aria-current="page">券売機<span>Plan</span></a><a href="../shops/">お店<span>Shops</span></a><a href="../phrases/">日本語<span>Phrases</span></a><a href="../tips/">準備<span>Tips</span></a><a href="../trip/">旅<span>My trip</span></a></nav>
 <main class="machine" aria-labelledby="ttl">

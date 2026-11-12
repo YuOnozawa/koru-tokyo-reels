@@ -1,0 +1,68 @@
+/* with KORU — magazine skin for the whole app (loaded last on every page).
+   Same palette as the Instagram issues (tools/carousel/render.py): paper, ink, red, yellow.
+   Square corners, flat ink borders, heavy Japanese headings. Overrides each page's own tokens. */
+html:root:root{
+  --k-paper:#F7F5F0; --k-ink:#111111; --k-red:#E8382F; --k-yel:#FFD23F; --k-mute:#55514A; --k-line:#D9D4C7;
+  /* ticket-machine pages (home, planner, phrases, tips, trip) */
+  --steel:#F7F5F0; --steel-2:#F7F5F0; --steel2:#F7F5F0; --steel-ink:#111111; --steel-muted:#55514A;
+  --ink:#111111; --muted:#55514A; --btn:#ffffff; --btn-edge:#111111; --edge:#111111;
+  --red:#E8382F; --red-deep:#111111; --amber:#FFD23F; --amber-dim:#8a6d00; --led:#111111; --led-bg:#111111;
+  --paper:#ffffff; --paper-ink:#111111; --paper-muted:#55514A; --pink:#111111; --pmuted:#55514A;
+  --stamp:#E8382F; --lamp:#FFD23F; --green:#1F7A4D;
+  --dela:"Noto Sans JP","Hiragino Sans",system-ui,sans-serif;
+  --dot:"Noto Sans JP","Hiragino Sans",system-ui,sans-serif;
+  color-scheme:light;
+}
+html body{background:var(--k-paper)!important;color:var(--k-ink)}
+::selection{background:var(--k-yel);color:var(--k-ink)}
+
+/* one look for every card: white, square, ink rule */
+.machine,.wrap>.card,.card,.ticket,.blk,.panel>.box,.box,.tool,.banner{border-radius:0!important}
+.machine{background:var(--k-paper)!important;box-shadow:none!important;padding-inline:0!important;padding-top:6px!important}
+*{text-shadow:none!important}
+
+/* site nav = magazine masthead bar */
+.kn{background:var(--k-paper)!important;box-shadow:none!important;border-radius:0!important;border-top:3px solid var(--k-ink);border-bottom:3px solid var(--k-ink);padding:4px 0!important;gap:0!important}
+.kn a{color:var(--k-ink)!important;border-radius:0!important;font:900 15px/1.15 "Noto Sans JP",sans-serif!important}
+.kn a span{font:800 10px/1.4 "Archivo","Noto Sans JP",sans-serif!important;letter-spacing:.14em;text-transform:uppercase;opacity:1!important;color:var(--k-mute)}
+.kn a[aria-current]{background:var(--k-red)!important;color:#fff!important}
+.kn a[aria-current] span{color:#fff}
+.kn::before{content:"with KORU";grid-column:1/-1;display:block;text-align:center;font:900 22px/1.1 "Archivo","Noto Sans JP",sans-serif;letter-spacing:-.01em;padding:4px 0 6px;border-bottom:1px solid var(--k-ink);margin-bottom:4px;color:var(--k-ink)}
+
+/* LED ticker → black strip with yellow small caps, like the cover kicker */
+.led,.marquee{background:var(--k-ink)!important;border-radius:0!important;box-shadow:none!important}
+.led,.led *,.led-track,.marquee,.marquee *{color:var(--k-yel)!important;font-family:"Archivo","Noto Sans JP",sans-serif!important;font-weight:800!important;letter-spacing:.06em}
+
+/* headings: heavy Japanese, tight */
+h1,h2,h3{font-family:"Noto Sans JP","Hiragino Sans",sans-serif!important;font-weight:900!important;letter-spacing:-.01em}
+h1{line-height:1.1!important}
+
+/* keys and buttons: white boxes with an ink rule, flat offset shadow */
+.key,.key .face{border-radius:0!important}
+.key .face,a.key{border:2px solid var(--k-ink)!important;box-shadow:4px 4px 0 var(--k-ink)!important}
+.key input:checked+.face{background:var(--k-yel)!important;box-shadow:2px 2px 0 var(--k-ink)!important;transform:translate(2px,2px)!important}
+.key b,.key .jp{font-family:"Noto Sans JP",sans-serif!important;font-weight:900!important}
+.key.main,a.key.main{background:var(--k-red)!important;border-color:var(--k-ink)!important}
+.print,.btn,.go,.cta,button.big,.sharebtn.big{border-radius:0!important}
+.print{background:var(--k-red)!important;box-shadow:5px 5px 0 var(--k-ink)!important;border:2px solid var(--k-ink)!important;font-family:"Noto Sans JP",sans-serif!important;font-weight:900!important}
+.pill,.chips a,.chips button,.seg button,.cat{border-radius:0!important}
+
+/* inputs: paper fields instead of LED wells */
+input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{
+  background:#fff!important;color:var(--k-ink)!important;border:2px solid var(--k-ink)!important;border-radius:0!important;box-shadow:none!important;color-scheme:light!important;font-family:"Noto Sans JP",system-ui,sans-serif!important;font-weight:700!important}
+
+/* small labels → magazine kicker */
+.kicker{color:var(--k-red)!important;letter-spacing:.2em;font-family:"Archivo","Noto Sans JP",sans-serif!important;font-weight:800!important}
+a{text-decoration-thickness:2px;text-underline-offset:3px}
+footer{color:var(--k-mute)}
+
+/* issues strip on the home page */
+.issues{margin:22px 0 4px}
+.issues h2{font-size:22px;margin:0 0 4px;display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid var(--k-ink);padding-bottom:6px}
+.issues h2 small{font:800 11px "Archivo",sans-serif;letter-spacing:.18em;color:var(--k-mute)}
+.issues .row{display:grid;grid-auto-flow:column;grid-auto-columns:42%;gap:12px;overflow-x:auto;padding:10px 0 8px;scroll-snap-type:x mandatory}
+.issues a{scroll-snap-align:start;text-decoration:none;color:var(--k-ink)}
+.issues img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border:2px solid var(--k-ink)}
+.issues b{display:block;font:900 14px/1.3 "Noto Sans JP",sans-serif;margin-top:6px}
+.issues span{display:block;font:700 11px/1.3 "Archivo",sans-serif;letter-spacing:.08em;color:var(--k-mute);text-transform:uppercase}
+.say,.say *,.btn,.go,.cta,.report,.showcard{border-radius:0!important}

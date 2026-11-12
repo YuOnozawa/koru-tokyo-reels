@@ -67,19 +67,19 @@ def human_date(d):
 
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">')
+         '<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Noto+Sans+JP:wght@900&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap" rel="stylesheet">')
 
 CSS = """
 .rules{margin:12px 0;padding:10px 12px;border-radius:8px;background:#fff;border:1.5px solid #e2dccb}
-.rules-k{font:13px "DotGothic16",monospace;color:var(--red);letter-spacing:.06em}
+.rules-k{font:13px "Archivo","Noto Sans JP",monospace;color:var(--red);letter-spacing:.06em}
 .rules ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px}
 .rules li{display:flex;gap:8px;font-weight:700;font-size:15px}
 .report{font-size:13px;color:var(--muted);margin:8px 0 0}
 .report a{color:var(--red)}
 .say{display:grid;gap:2px;margin:14px 0 0;padding:14px 16px;border-radius:12px;background:#17110c;color:#ffa22b;text-decoration:none;box-shadow:inset 0 0 0 3px #000}
-.say-k{font:13px "DotGothic16",monospace;opacity:.85}
+.say-k{font:13px "Archivo","Noto Sans JP",monospace;opacity:.85}
 .say b{font:900 24px/1.3 "Zen Kaku Gothic New",sans-serif;color:#ffd27a}
-.say-r{font:15px "DotGothic16",monospace}
+.say-r{font:15px "Archivo","Noto Sans JP",monospace}
 .say-more{font:700 13px "Zen Kaku Gothic New",sans-serif;color:#fff;margin-top:4px}
 
 :root{--steel:#22272e;--steel2:#2d333b;--edge:#444c56;--amber:#ffa22b;--amber-dim:#7a4a0c;--paper:#fbf8ee;--ink:#22303a;--muted:#6f7287;--red:#d7262e;--green:#2f8f5b}
@@ -89,38 +89,38 @@ body{margin:0;background:#15191e;color:#e9e6dc;font:16px/1.6 'Zen Kaku Gothic Ne
 a{color:inherit}
 .wrap{max-width:640px;margin:0 auto;padding:16px}
 .machine{background:linear-gradient(180deg,var(--steel2),var(--steel));border:1px solid var(--edge);border-radius:18px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.06)}
-.marquee{background:#0d0905;border:2px solid #000;border-radius:10px;padding:10px 12px;font-family:'DotGothic16',monospace;color:var(--amber);text-shadow:0 0 6px rgba(255,162,43,.65);letter-spacing:.06em;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.marquee{background:#0d0905;border:2px solid #000;border-radius:10px;padding:10px 12px;font-family:'Archivo','Noto Sans JP',monospace;color:var(--amber);text-shadow:0 0 6px rgba(255,162,43,.65);letter-spacing:.06em;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .marquee b{font-weight:400;color:#ffd08a}
 .crumbs{font-size:13px;color:#9aa3ad;margin:12px 2px 0}
 .crumbs a{color:#c9d1d9}
 .ticket{position:relative;background:var(--paper);color:var(--ink);border-radius:10px;margin-top:14px;padding:18px 16px 16px;
  -webkit-mask:radial-gradient(circle 7px at 0 50%,transparent 6.5px,#000 7px) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,transparent 6.5px,#000 7px) right/51% 100% no-repeat;
  mask:radial-gradient(circle 7px at 0 50%,transparent 6.5px,#000 7px) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,transparent 6.5px,#000 7px) right/51% 100% no-repeat}
-.ticket .kicker{font-family:'DotGothic16',monospace;color:var(--muted);font-size:13px;letter-spacing:.08em}
-h1{font-family:'Dela Gothic One',sans-serif;font-weight:400;font-size:clamp(24px,7vw,34px);line-height:1.2;margin:4px 0 2px;overflow-wrap:anywhere}
+.ticket .kicker{font-family:'Archivo','Noto Sans JP',monospace;color:var(--muted);font-size:13px;letter-spacing:.08em}
+h1{font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:clamp(24px,7vw,34px);line-height:1.2;margin:4px 0 2px;overflow-wrap:anywhere}
 .ja{font-size:18px;color:var(--muted);font-weight:700}
 .genre{margin-top:6px;font-weight:700}
-.stamp{position:absolute;top:14px;right:14px;width:62px;height:62px;border:3px solid var(--red);border-radius:50%;color:var(--red);display:flex;align-items:center;justify-content:center;text-align:center;font:400 12px/1.05 'Dela Gothic One',sans-serif;transform:rotate(-12deg);opacity:.9}
+.stamp{position:absolute;top:14px;right:14px;width:62px;height:62px;border:3px solid var(--red);border-radius:50%;color:var(--red);display:flex;align-items:center;justify-content:center;text-align:center;font:400 12px/1.05 'Noto Sans JP',sans-serif;transform:rotate(-12deg);opacity:.9}
 .has-stamp h1,.has-stamp .kicker,.has-stamp .ja{padding-right:70px}
 .perf{border-top:2px dashed #c9c6ba;margin:14px -16px}
 dl{margin:0;display:grid;grid-template-columns:96px 1fr;gap:8px 12px}
-dt{font-family:'DotGothic16',monospace;color:var(--muted);font-size:13px;padding-top:2px}
+dt{font-family:'Archivo','Noto Sans JP',monospace;color:var(--muted);font-size:13px;padding-top:2px}
 dd{margin:0;overflow-wrap:anywhere}
 .order{background:#fff3d9;border-left:4px solid var(--amber);padding:10px 12px;border-radius:6px;font-weight:700}
 .tip{background:#eef6f0;border-left:4px solid var(--green);padding:10px 12px;border-radius:6px}
 .note{font-size:13px;color:var(--muted);margin-top:12px}
 .btns{display:grid;gap:10px;margin-top:16px}
 .btn{display:block;text-align:center;text-decoration:none;border-radius:12px;padding:14px 12px;font-weight:700}
-.btn.primary{background:linear-gradient(180deg,#ff4a52,var(--red));color:#fff;font-family:'Dela Gothic One',sans-serif;font-weight:400;font-size:18px;box-shadow:0 4px 0 #8f1218}
+.btn.primary{background:linear-gradient(180deg,#ff4a52,var(--red));color:#fff;font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:18px;box-shadow:0 4px 0 #8f1218}
 .btn.ghost{background:#2d333b;border:1px solid var(--edge);color:#e9e6dc}
-h2{font-family:'Dela Gothic One',sans-serif;font-weight:400;font-size:20px;margin:26px 2px 10px;color:var(--amber)}
+h2{font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:20px;margin:26px 2px 10px;color:var(--amber)}
 .list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 .list a{display:flex;justify-content:space-between;gap:10px;background:var(--paper);color:var(--ink);text-decoration:none;border-radius:8px;padding:10px 12px}
 .list .n{font-weight:700;overflow-wrap:anywhere}
 .list .m{color:var(--muted);font-size:13px;white-space:nowrap}
 .pill{display:inline-block;font-size:11px;font-weight:700;color:var(--red);border:1.5px solid var(--red);border-radius:999px;padding:0 6px;margin-left:6px;vertical-align:2px}
 .areas{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
-.areas a{font-size:13px;text-decoration:none;background:#0d0905;color:var(--amber);border:1px solid #000;border-radius:999px;padding:4px 10px;font-family:'DotGothic16',monospace}
+.areas a{font-size:13px;text-decoration:none;background:#0d0905;color:var(--amber);border:1px solid #000;border-radius:999px;padding:4px 10px;font-family:'Archivo','Noto Sans JP',monospace}
 footer{font-size:13px;color:#9aa3ad;text-align:center;margin:28px 0 12px}
 footer a{color:#c9d1d9}
 """
@@ -136,7 +136,7 @@ def page(title, desc, canonical, body, jsonld=None, og_type='website', prefix='.
             '<meta property="og:type" content="%s"><meta property="og:title" content="%s"><meta property="og:description" content="%s">'
             '<meta property="og:url" content="%s"><meta property="og:site_name" content="Tokyo Food Ticket Machine">'
             '<meta property="og:image" content="' + BASE + '/planner/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
-            '<meta name="twitter:card" content="summary_large_image"><link rel="manifest" href="' + prefix + 'manifest.webmanifest"><link rel="apple-touch-icon" href="' + prefix + 'apple-touch-icon.png">%s<style>%s</style>%s</head><body><div class="wrap">' + nav(prefix, 'shops') + '%s'
+            '<meta name="twitter:card" content="summary_large_image"><link rel="manifest" href="' + prefix + 'manifest.webmanifest"><link rel="apple-touch-icon" href="' + prefix + 'apple-touch-icon.png">%s<style>%s</style>%s<link rel="stylesheet" href="' + prefix + 'koru.css"></head><body><div class="wrap">' + nav(prefix, 'shops') + '%s'
             '<footer>Facts only, no paid placement. Yu &amp; Koru · <a href="https://www.instagram.com/koru.tokyo_guide/">@koru.tokyo_guide</a>'
             ' · <a href="../privacy/">Privacy</a></footer></div></body></html>') % (
         e(title), e(desc), e(canonical), og_type, e(title), e(desc), e(canonical), FONTS, CSS + NAV_CSS, ld, body)

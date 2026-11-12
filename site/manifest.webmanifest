@@ -1,11 +1,11 @@
 {
- "name": "Tokyo Food Ticket Machine",
- "short_name": "Tokyo Food",
+ "name": "with KORU — food notes for Japan",
+ "short_name": "with KORU",
  "start_url": "./trip/",
  "scope": "./",
  "display": "standalone",
- "background_color": "#c9d2d7",
- "theme_color": "#c9d2d7",
+ "background_color": "#F7F5F0",
+ "theme_color": "#F7F5F0",
  "icons": [
   {
    "src": "icon-192.png",

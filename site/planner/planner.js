@@ -519,20 +519,20 @@
     g.fillStyle = '#c9d2d7'; g.fillRect(0, 0, W, H);
     g.fillStyle = '#dfe5e8'; roundRect(g, 60, 60, W - 120, H - 120, 40); g.fill();
     g.fillStyle = '#17110c'; roundRect(g, 110, 110, W - 220, 120, 20); g.fill();
-    g.fillStyle = '#ffa22b'; g.font = '56px "DotGothic16", monospace'; g.textBaseline = 'middle'; g.fillText('MY TOKYO MEAL TICKETS', 150, 172);
-    g.fillStyle = '#22303a'; g.font = '84px "Dela Gothic One", sans-serif'; g.textBaseline = 'alphabetic'; g.fillText('東京めし券売機', 120, 350);
+    g.fillStyle = '#ffa22b'; g.font = '56px "Archivo","Noto Sans JP", monospace'; g.textBaseline = 'middle'; g.fillText('MY TOKYO MEAL TICKETS', 150, 172);
+    g.fillStyle = '#22303a'; g.font = '84px "Noto Sans JP", sans-serif'; g.textBaseline = 'alphabetic'; g.fillText('東京めし券売機', 120, 350);
     var y = 420, days = lastPlan.days.slice(0, 3);
     days.forEach(function (day, k) {
-      g.fillStyle = '#22303a'; g.font = '50px "Dela Gothic One", sans-serif'; g.fillText((k + 1) + '日目', 120, y + 52);
+      g.fillStyle = '#22303a'; g.font = '50px "Noto Sans JP", sans-serif'; g.fillText((k + 1) + '日目', 120, y + 52);
       g.fillStyle = '#5d6b75'; g.font = 'bold 34px "Zen Kaku Gothic New", sans-serif'; g.fillText(day.area, 310, y + 50);
       y += 72;
       day.meals.forEach(function (m) {
         if (!m[2]) return;
         g.fillStyle = '#fffef8'; roundRect(g, 120, y, W - 240, 96, 10); g.fill();
-        g.fillStyle = '#d7262e'; g.font = '40px "Dela Gothic One", sans-serif'; g.fillText(m[0], 150, y + 64);
+        g.fillStyle = '#d7262e'; g.font = '40px "Noto Sans JP", sans-serif'; g.fillText(m[0], 150, y + 64);
         g.fillStyle = '#2b2f45'; g.font = 'bold 40px "Zen Kaku Gothic New", sans-serif'; g.fillText(fitText(g, m[2].name_en, W - 420), 220, y + 46);
         g.fillStyle = '#6f7287'; g.font = '30px "Zen Kaku Gothic New", sans-serif'; g.fillText(fitText(g, m[2].name_ja, W - 420), 220, y + 82);
-        if (m[2].yu_pick) { g.strokeStyle = '#d7262e'; g.lineWidth = 5; g.beginPath(); g.arc(W - 190, y + 48, 36, 0, Math.PI * 2); g.stroke(); g.fillStyle = '#d7262e'; g.font = '26px "Dela Gothic One", sans-serif'; g.textAlign = 'center'; g.fillText('推し', W - 190, y + 58); g.textAlign = 'left'; }
+        if (m[2].yu_pick) { g.strokeStyle = '#d7262e'; g.lineWidth = 5; g.beginPath(); g.arc(W - 190, y + 48, 36, 0, Math.PI * 2); g.stroke(); g.fillStyle = '#d7262e'; g.font = '26px "Noto Sans JP", sans-serif'; g.textAlign = 'center'; g.fillText('推し', W - 190, y + 58); g.textAlign = 'left'; }
         y += 108;
       });
       y += 16;

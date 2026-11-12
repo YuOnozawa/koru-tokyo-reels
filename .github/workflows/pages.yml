@@ -3,7 +3,9 @@ name: Host videos (GitHub Pages)
 on:
   push:
     branches: [main]
-    paths: ['site/**', 'scripts/store.py', '.github/workflows/pages.yml']
+    paths: ['site/**', 'scripts/store.py', '.github/workflows/pages.yml', 'tools/build_issues.py', 'queue.json']
+  schedule:
+    - cron: '3 15 * * *'   # 00:03 JST: refresh the home page's latest-issues strip for the new day
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,6 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          python3 tools/build_issues.py
           python3 scripts/store.py site _site/videos
           cp -r site/. _site/
       - uses: actions/upload-pages-artifact@v3

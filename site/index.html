@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Tokyo Food Ticket Machine</title>
+<title>with KORU — field notes and food planner for travelers in Japan</title>
 <meta name="description" content="Eat where locals eat in Akihabara, Ueno, Asakusa and Kanda, and never walk to a closed shop: hours, closed days, cash-only and what to say for 299 places, checked by a local office worker. Free.">
 <link rel="canonical" href="https://yuonozawa.github.io/koru-tokyo-reels/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Tokyo Food Ticket Machine — free food plan by a local">
+<meta property="og:title" content="with KORU — field notes for hungry travelers in Japan">
 <meta property="og:description" content="Plan your meals, browse 300 shops near Akihabara, Ueno, Asakusa and Kanda, and learn restaurant Japanese.">
 <meta property="og:url" content="https://yuonozawa.github.io/koru-tokyo-reels/">
 <meta property="og:image" content="https://yuonozawa.github.io/koru-tokyo-reels/planner/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#c9d2d7">
+<meta name="theme-color" content="#F7F5F0">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Noto+Sans+JP:wght@900&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
 <style>
 :root{--steel:#dfe5e8;--steel-2:#c9d2d7;--ink:#22303a;--muted:#5d6b75;--btn:#fbfcfc;--edge:#aeb9c0;--red:#d7262e;--red-deep:#9d141a;--amber:#ffa22b;--led:#17110c;color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--steel:#2a3238;--steel-2:#20272c;--ink:#e9eef1;--muted:#9aa8b1;--btn:#39434a;--edge:#151a1e;color-scheme:dark}}
@@ -22,14 +22,14 @@
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--steel-2);color:var(--ink);font:16px/1.6 "Zen Kaku Gothic New","Hiragino Sans",system-ui,sans-serif;padding:20px 16px 64px}
 .machine{max-width:640px;margin:0 auto;background:var(--steel);border-radius:22px;padding:22px 20px 24px;box-shadow:inset 0 2px 0 rgba(255,255,255,.55),0 18px 40px -18px rgba(20,30,40,.45)}
-.led{background:var(--led);border-radius:10px;padding:12px 14px;box-shadow:inset 0 0 0 3px #000;font:22px/1.2 "DotGothic16",monospace;color:var(--amber);text-shadow:0 0 6px rgba(255,150,40,.75);white-space:nowrap;overflow:hidden}
+.led{background:var(--led);border-radius:10px;padding:12px 14px;box-shadow:inset 0 0 0 3px #000;font:22px/1.2 "Archivo","Noto Sans JP",monospace;color:var(--amber);text-shadow:0 0 6px rgba(255,150,40,.75);white-space:nowrap;overflow:hidden}
 .hello{display:grid;grid-template-columns:76px 1fr;gap:14px;align-items:center;margin:18px 0 6px}
 .hello img{width:76px;height:76px;border-radius:16px;border:3px solid var(--btn);box-shadow:0 0 0 2px var(--edge);object-fit:cover}
-h1{font:400 30px/1.15 "Dela Gothic One",sans-serif;margin:0}
+h1{font:400 30px/1.15 "Noto Sans JP",sans-serif;margin:0}
 .hello p{margin:4px 0 0;color:var(--muted);font-size:15px}
 .keys{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
 .key{display:grid;gap:4px;align-content:start;min-height:132px;text-decoration:none;color:var(--ink);background:var(--btn);border-radius:14px;padding:14px;box-shadow:0 6px 0 var(--edge);border-top:12px solid var(--c)}
-.key b{font:400 28px/1 "Dela Gothic One",sans-serif}
+.key b{font:400 28px/1 "Noto Sans JP",sans-serif}
 .key strong{font:900 17px/1.2 "Zen Kaku Gothic New",sans-serif}
 .key span{font-size:13px;color:var(--muted);line-height:1.4}
 .key:active{transform:translateY(4px);box-shadow:0 2px 0 var(--edge)}
@@ -38,15 +38,16 @@ h1{font:400 30px/1.15 "Dela Gothic One",sans-serif;margin:0}
 .key.main span{color:#ffe9e9}
 .ig{display:block;text-align:center;margin-top:18px;font:900 16px "Zen Kaku Gothic New",sans-serif;color:var(--ink)}
 footer{max-width:640px;margin:22px auto 0;font-size:13px;color:var(--muted);text-align:center}
-.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "DotGothic16",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "DotGothic16",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
+.kn{max-width:640px;margin:0 auto 14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;background:#17110c;border-radius:12px;padding:6px;box-shadow:inset 0 0 0 3px #000}.kn a{display:grid;place-items:center;padding:8px 4px;border-radius:8px;text-decoration:none;color:#ffa22b;font:16px/1.15 "Archivo","Noto Sans JP",ui-monospace,monospace;text-shadow:0 0 6px rgba(255,150,40,.6)}.kn a span{font:12px/1.3 "Archivo","Noto Sans JP",ui-monospace,monospace;opacity:.85}.kn a[aria-current]{background:#ffa22b;color:#17110c;text-shadow:none}.kn a:focus-visible{outline:3px solid #ffd84a;outline-offset:2px}@media (max-width:380px){.kn a{font-size:14px}.kn a span{font-size:11px}}
 </style>
 <link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Tokyo Food">
-</head>
+<link rel="stylesheet" href="koru.css"></head>
 <body>
 <nav class="kn" aria-label="Site"><a href="planner/">券売機<span>Plan</span></a><a href="shops/">お店<span>Shops</span></a><a href="phrases/">日本語<span>Phrases</span></a><a href="tips/">準備<span>Tips</span></a><a href="trip/">旅<span>My trip</span></a></nav>
 <main class="machine">
-  <div class="led" aria-hidden="true">いらっしゃいませ　WELCOME TO TOKYO FOOD</div>
-  <div class="hello"><img src="list/koru.jpg" alt="Koru the dog" width="76" height="76"><div><h1>Tokyo Food Ticket Machine</h1><p>Eat where locals eat in East Tokyo, and never walk to a closed shop. Checked by Yu, an Akihabara office worker, and his dog Koru. Free, no sign-up.</p></div></div>
+  <div class="led" aria-hidden="true">WITH KORU · FIELD NOTES FOR HUNGRY TRAVELERS IN JAPAN</div>
+  <div class="hello"><img src="list/koru.jpg" alt="Koru the dog" width="76" height="76"><div><h1>日本を旅する人の、食の手帖。</h1><p>Where to eat, what to order, prices and house rules, checked by Yu, a Tokyo office worker, and his dog Koru. Free, no sign-up.</p></div></div>
+  <!--issues--><section class="issues" aria-label="Latest issues"><h2>最新号 <small><a href="issues/">ALL ISSUES →</a></small></h2><div class="row"><a href="issues/#c_03_domannaka"><img src="carousels/c_03_domannaka/01.jpg" alt="秋葉原で、海鮮の夜。" loading="lazy" width="540" height="675"><b>秋葉原で、海鮮の夜。</b><span>No.03 · 11/12</span></a><a href="issues/#c_05_rules"><img src="carousels/c_05_rules/01.jpg" alt="東京で外食する前の、八つの決まり。" loading="lazy" width="540" height="675"><b>東京で外食する前の、八つの決まり。</b><span>No.05 · 11/12</span></a></div></section><!--/issues-->
   <div class="keys">
     <a class="key main" href="planner/"><b>券売機</b><strong>Plan my Tokyo meals</strong><span>Lunch, a sweet stop and dinner for each day, with hours and what to order.</span></a>
     <a class="key" href="planner/?m=gacha" style="--c:#f2b705"><b>ガチャ</b><strong>Surprise me</strong><span>One random place, never the same twice.</span></a>
@@ -57,7 +58,7 @@ footer{max-width:640px;margin:22px auto 0;font-size:13px;color:var(--muted);text
     <a class="key" href="tips/" style="--c:#ff8fb1"><b>準備</b><strong>Before you go</strong><span>Cash or card, Suica, no tipping, tax-free rules.</span></a>
     <a class="key" href="trip/" style="--c:#17110c"><b>旅</b><strong>My trip</strong><span>Your plan, saved places, checklist and countdown.</span></a>
   </div>
-  <a class="ig" href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">New spots 3 times a day on Instagram: @koru.tokyo_guide →</a>
+  <a class="ig" href="https://www.instagram.com/koru.tokyo_guide/" target="_blank" rel="noopener">New issues every day on Instagram: @koru.tokyo_guide →</a>
 </main>
 <footer>Facts only, no paid placement. <a href="privacy/">Privacy</a></footer>
 <script src="config.js"></script><script>window.koruEvent&&koruEvent("home_open")</script>
