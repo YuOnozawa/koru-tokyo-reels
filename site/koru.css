@@ -66,3 +66,54 @@ footer{color:var(--k-mute)}
 .issues b{display:block;font:900 14px/1.3 "Noto Sans JP",sans-serif;margin-top:6px}
 .issues span{display:block;font:700 11px/1.3 "Archivo",sans-serif;letter-spacing:.08em;color:var(--k-mute);text-transform:uppercase}
 .say,.say *,.btn,.go,.cta,.report,.showcard{border-radius:0!important}
+
+/* ---- v2 (Nov 12): square everything, like the printed issues; circles only where they mean "press" ---- */
+body *:not(.play):not(.stamp):not(.dot):not(.lamp){border-radius:0!important}
+.key .face::after{border-radius:50%!important}
+.ticket,.blk,.card,.tip,.q,.opt{filter:none!important}
+
+/* ---- Phrases page = the "SAY THIS" pages of the magazine ---- */
+#list{counter-reset:ph}
+#list section.cat{margin-top:34px}
+#list section.cat h2{font-size:26px!important;margin:0 0 12px!important;padding-top:8px;border-top:3px solid var(--k-ink);display:flex;align-items:baseline;gap:10px}
+#list section.cat h2::before{content:"SAY THIS";font:800 12px/1 "Archivo",sans-serif;letter-spacing:.2em;color:var(--k-red)}
+#list .ticket{-webkit-mask:none!important;mask:none!important;background:#fff!important;color:var(--k-ink)!important;border:2px solid var(--k-ink);padding:18px 18px 16px!important;margin-bottom:14px!important;counter-increment:ph}
+#list .ticket::after{content:counter(ph,decimal-leading-zero);position:absolute;left:18px;top:14px;font:900 15px/1 "Archivo",sans-serif;color:var(--k-red)}
+#list .ticket .jp{font:900 30px/1.25 "Noto Sans JP",sans-serif!important;margin-top:18px!important;padding-right:60px}
+#list .ticket .ro{font:800 20px/1.3 "Archivo",sans-serif!important;text-transform:uppercase;letter-spacing:.02em;color:var(--k-ink)!important;margin-top:6px!important}
+#list .ticket .en{font:700 16px/1.4 "Zen Kaku Gothic New",sans-serif!important;margin-top:4px!important}
+#list .ticket .tip{color:var(--k-mute)!important;border-top:1px solid var(--k-line);padding-top:8px;margin-top:10px!important}
+#list .ticket.learned{background:#FFF8D6!important}
+#list .ticket.today{background:var(--k-ink)!important;color:#fff!important;border-color:var(--k-ink)!important}
+#list .ticket.today::before{content:"今日の一言 · PHRASE OF THE DAY"!important;color:var(--k-yel)!important;font:800 12px/1 "Archivo","Noto Sans JP",sans-serif!important;letter-spacing:.14em;margin:0 0 4px 34px!important}
+#list .ticket.today::after{color:var(--k-yel)}
+#list .ticket.today .jp{color:var(--k-yel)!important;font-size:38px!important}
+#list .ticket.today .ro,#list .ticket.today .en{color:#fff!important}
+#list .ticket.today .tip{color:#CFCAC0!important;border-top-color:#333}
+#list .ticket.today .mini{border-color:#fff;color:#fff}
+.play{background:var(--k-red)!important;box-shadow:2px 2px 0 var(--k-ink)!important;border:2px solid var(--k-ink)!important;border-radius:50%!important}
+.mini{border:2px solid var(--k-ink)!important;font-family:"Zen Kaku Gothic New",sans-serif!important}
+.mini[aria-pressed=true]{background:var(--k-ink)!important;border-color:var(--k-ink)!important;color:var(--k-yel)!important}
+.cats a{background:#fff!important;border:2px solid var(--k-ink);box-shadow:none!important;font-weight:900!important}
+.tools .tool{background:#fff!important;border:2px solid var(--k-ink)!important;border-top:8px solid var(--cap)!important;box-shadow:4px 4px 0 var(--k-ink)!important}
+.count{background:var(--k-ink)!important;color:var(--k-yel)!important;box-shadow:none!important}
+.count b{color:var(--k-yel)!important;font-family:"Noto Sans JP",sans-serif!important;font-weight:900!important}
+.bar{background:#fff!important;border:2px solid var(--k-ink);box-shadow:none!important}
+.bar i{background:var(--k-red)!important}
+dialog{background:var(--k-paper)!important;border:3px solid var(--k-ink)!important}
+.dl-head{background:var(--k-paper)!important;border-bottom:3px solid var(--k-ink)!important}
+.card{border:4px solid var(--k-ink)!important}
+.ctaRow a{background:var(--k-ink)!important;color:#fff!important}
+.ctaRow a.red{background:var(--k-red)!important;box-shadow:4px 4px 0 var(--k-ink)!important}
+
+/* ---- home hero ---- */
+.hello{grid-template-columns:64px 1fr!important;gap:12px!important;align-items:start!important}
+.hello img{width:64px!important;height:64px!important;border:2px solid var(--k-ink)!important;box-shadow:none!important}
+.hello h1{font-size:clamp(26px,7.4vw,38px)!important;line-height:1.15!important}
+.hello h1 em{font-style:normal;color:var(--k-red)}
+
+#list .ticket .jp{font-size:clamp(24px,7.6vw,30px)!important;padding-right:56px!important;word-break:auto-phrase}
+#list .ticket.today .jp{font-size:clamp(30px,9vw,38px)!important}
+.tk{border-radius:0!important}
+.cat article,.cat .card,.blk>.card,.blk>.banner{border:2px solid var(--k-ink)}
+.blk{border:0!important;background:transparent!important}

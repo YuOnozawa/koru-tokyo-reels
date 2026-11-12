@@ -244,7 +244,7 @@ def shop_page(s, slug, peers):
                 ps, e(p['name_en']), '<span class="pill">PICK</span>' if p.get('yu_pick') else '', e(p.get('genre', '')[:28]))
             for ps, p in peers))
     body = (
-        '<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>%s</b> ▸ %s</div>'
+        '<div class="machine"><div class="marquee">WITH KORU ▸ <b>%s</b> ▸ %s</div>'
         '<nav class="crumbs"><a href="../../planner/">Planner</a> › <a href="../#%s">Shops</a> › %s</nav>'
         '<article class="ticket%s">%s<div class="kicker">食券 · %s %s</div><h1>%s</h1><div class="ja">%s</div><div class="genre">%s</div>'
         '<div class="perf"></div>%s<dl>%s</dl>%s'
@@ -283,7 +283,7 @@ def index_page(by_area, slugs):
                 '<li><a href="%s/"><span class="n">%s%s</span><span class="m">%s</span></a></li>' % (
                     slugs[id(s)], e(s['name_en']), '<span class="pill">PICK</span>' if s.get('yu_pick') else '',
                     e(BUDGET.get(s.get('budget_band'), ('', ''))[1])) for s in shops)))
-    body = ('<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>TOKYO FOOD</b> ▸ 東京めし</div>'
+    body = ('<div class="machine"><div class="marquee">WITH KORU ▸ <b>FIELD NOTES</b> ▸ 食の手帖</div>'
             '<article class="ticket"><div class="kicker">食券 · SHOP LIST</div><h1>Where to eat around Akihabara, Ueno &amp; Asakusa</h1>'
             '<p style="margin:8px 0 0">Facts only: what to order, hours, closed days and how to pay. <b>PICK</b> = Yu\'s own picks.</p>'
             '<div class="areas">%s</div><p style="margin:10px 0 0"><a href="../find/">Open on Sunday, late night, breakfast, cards OK →</a></p></article>'
@@ -368,7 +368,7 @@ def intent_pages(shops, slugs, root):
             desc = '%d restaurants and cafes in %s %s, with hours, closed days, prices and what to order. Facts from public sources, free meal planner included.' % (len(lst), long_, phrase)
             other = ''.join('<a href="../%s-%s/">%s</a>' % (key, 'east-tokyo' if gg == 'all' else GROUP_NAME[gg][0].lower(), e(GROUP_NAME[gg][0]))
                             for gg in GROUP_NAME if gg != g)
-            body = ('<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>TOKYO FOOD</b> ▸ 東京めし</div>'
+            body = ('<div class="machine"><div class="marquee">WITH KORU ▸ <b>FIELD NOTES</b> ▸ 食の手帖</div>'
                     '<article class="ticket"><div class="kicker">食券 · %s</div><h1>%s %s %s</h1>'
                     '<p style="margin:8px 0 0">%d places in %s %s. %s Checked %s; hours change, so check Google Maps on the day. <b>PICK</b> = Yu\'s own picks.</p>'
                     '<div class="areas">%s</div></article>'
@@ -382,7 +382,7 @@ def intent_pages(shops, slugs, root):
             open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(fix_rel(page(title, desc, '%s/find/%s/' % (BASE, slug), body, ld, prefix='../../'), 2))
             made.append((slug, h1, near + ' ' + short, len(lst)))
     links = ''.join('<li><a href="%s/"><span class="n">%s %s</span><span class="m">%d</span></a></li>' % (sl, e(h), e(sh), n) for sl, h, sh, n in made)
-    body = ('<div class="machine"><div class="marquee">いらっしゃいませ ▸ <b>TOKYO FOOD</b> ▸ 東京めし</div><article class="ticket"><div class="kicker">食券 · FIND</div>'
+    body = ('<div class="machine"><div class="marquee">WITH KORU ▸ <b>FIELD NOTES</b> ▸ 食の手帖</div><article class="ticket"><div class="kicker">食券 · FIND</div>'
             '<h1>Find food in East Tokyo that is actually open</h1><p style="margin:8px 0 0">Sunday, late night, breakfast, cards, cheap lunch, English menu, walk-in. Facts only.</p></article>'
             '<div class="btns"><a class="btn primary" href="../planner/">Plan my Tokyo meals free 🎫</a></div></div><ul class="list">%s</ul>') % links
     open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(page('Find open restaurants in Akihabara, Ueno, Asakusa & Kanda | Tokyo Food Ticket Machine',
