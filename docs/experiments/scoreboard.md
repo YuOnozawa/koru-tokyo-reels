@@ -8,9 +8,9 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 32 | 123.2 | 26% | 0.5 | 0.0 | 0.4 |
-| B | 9 | 90.0 | 11% | 0.3 | 0.0 | 0.0 |
+| B | 8 | 95.9 | 11% | 0.4 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+148%)
+**Suggested verdict:** A wins (+135%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -36,7 +36,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 4 | 112.5 | 24% | 0.2 | 0.0 | 0.0 |
+| A | 4 | 112.8 | 23% | 0.2 | 0.0 | 0.0 |
 | B | 3 | 136.0 | 33% | 0.3 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
@@ -46,7 +46,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 124.2 | 30% | 0.4 | 0.0 | 0.2 |
+| A | 6 | 124.3 | 30% | 0.4 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -55,7 +55,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 3 | 1.3 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 4 | 1.8 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -64,7 +64,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 11.7 | 17% | 0.0 | 0.0 | 0.3 |
+| A | 4 | 12.8 | 14% | 0.0 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -73,7 +73,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| magazine reel | 3 | 13.7 | 15% | 0.0 | 0.0 | 0.7 |
+| magazine reel | 3 | 21.0 | 12% | 0.0 | 0.0 | 0.7 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -101,7 +101,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 125.3 | 48% | 0.4 | 0.0 | 0.2 |
-| B | 20 | 124.0 | 19% | 0.6 | 0.0 | 0.5 |
+| B | 20 | 124.1 | 19% | 0.6 | 0.0 | 0.5 |
 
 **Suggested verdict:** A wins (+150%)
 
@@ -140,7 +140,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 33 | 111.1 | 22% | 0.4 | 0.0 | 0.2 |
+| A | 32 | 113.2 | 22% | 0.4 | 0.0 | 0.2 |
 | B | 10 | 130.2 | 26% | 0.3 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet

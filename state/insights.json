@@ -1,15 +1,30 @@
 {
- "fetched_at": "2026-11-12T15:05:07.158438+00:00",
+ "fetched_at": "2026-11-12T23:01:47.986374+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 105,
+  "media_count": 106,
   "id": "28241506535529259",
   "followers_count": 11,
-  "follows_count": 127
+  "follows_count": 133
  },
  "media": [
+  {
+   "id": "18147198769577263",
+   "permalink": "https://www.instagram.com/p/DfpVnHREbgC/",
+   "timestamp": "2026-11-12T15:05:50+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Eight rules before you eat out in Tokyo 🗾 From 300 East Toky",
+   "reach": 2,
+   "views": 3,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "17915338815558290",
    "permalink": "https://www.instagram.com/p/DfpDZ-vEejA/",
@@ -18,7 +33,7 @@
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "A seafood night in Akihabara 🐟 Domannaka Akihabara Bettei, 2",
    "reach": 2,
-   "views": 6,
+   "views": 8,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -32,15 +47,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
-   "reach": 8,
-   "views": 9,
+   "reach": 16,
+   "views": 19,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3667,
-   "ig_reels_video_view_total_time": 33006
+   "ig_reels_avg_watch_time": 2727,
+   "ig_reels_video_view_total_time": 43636
   },
   {
    "id": "18084024866345280",
@@ -49,15 +64,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Eight rules before you eat out in Tokyo 🗾 From 300 East Toky",
-   "reach": 23,
-   "views": 26,
+   "reach": 32,
+   "views": 34,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3520,
-   "ig_reels_video_view_total_time": 84503
+   "ig_reels_avg_watch_time": 3189,
+   "ig_reels_video_view_total_time": 108459
   },
   {
    "id": "18117232925582433",
@@ -81,8 +96,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
-   "reach": 1,
-   "views": 11,
+   "reach": 2,
+   "views": 12,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -96,15 +111,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A seafood night in Akihabara 🐟 Domannaka Akihabara Bettei, 2",
-   "reach": 10,
-   "views": 14,
+   "reach": 15,
+   "views": 19,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5086,
-   "ig_reels_video_view_total_time": 61033
+   "ig_reels_avg_watch_time": 4028,
+   "ig_reels_video_view_total_time": 68478
   },
   {
    "id": "18154178605544136",
@@ -147,15 +162,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat after 10pm in Ueno? 🌙 4 places, checked by Yu (",
-   "reach": 116,
-   "views": 124,
+   "reach": 117,
+   "views": 125,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3634,
-   "ig_reels_video_view_total_time": 436170
+   "ig_reels_avg_watch_time": 3612,
+   "ig_reels_video_view_total_time": 437068
   },
   {
    "id": "18137272489660262",
@@ -836,29 +851,12 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 2065,
    "ig_reels_video_view_total_time": 123956
-  },
-  {
-   "id": "18030749429693064",
-   "permalink": "https://www.instagram.com/reel/DfSKWgmsmkH/",
-   "timestamp": "2026-11-03T15:05:42+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "4 retro coffee houses in Jimbocho ☕ Save this!\n\n1️⃣ Cafe Tro",
-   "reach": 43,
-   "views": 47,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2301,
-   "ig_reels_video_view_total_time": 103575
   }
  ],
  "account_daily": {
-  "reach": 163,
-  "views": 291,
-  "profile_views": 29,
+  "reach": 174,
+  "views": 324,
+  "profile_views": 31,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }
