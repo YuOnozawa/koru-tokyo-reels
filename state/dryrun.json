@@ -1,9 +1,10 @@
 {
- "at": "2026-11-12T23:10:44.288640+00:00",
- "item": "c_10_jimbocho",
+ "at": "2026-11-12T23:13:18.206596+00:00",
+ "item": "r_c_11_regulars",
  "result": {
   "status_code": "FINISHED",
-  "container": "18132914098779964"
+  "status": "FINISHED",
+  "id": "18132914308779964"
  },
  "published": false
 }
