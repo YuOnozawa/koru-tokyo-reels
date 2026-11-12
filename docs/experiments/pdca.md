@@ -50,3 +50,8 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - No.07 has no shops, so no map/review pages (they apply to shop issues). Romaji is set as the big second line of each card, not the small print.
 - Fixes: cover masthead — "番外編 EXTRA 0x" touched the KORU logo; covers now show "EXTRA 0x" (番外編 is already in the cover headline). x_01/x_02 covers re-rendered. render.py rules: start / jp_size / en_size / per-item cap. reel.py: zoom_only (page files), pages shown whole are held 1.5 s more.
 - Balance note: 3 Extras (x_01–x_03) among 8 issues. Next run should bring main 'no-fail' issues (No.08 東の鰻, No.09 夜10時からの晩ごはん) so H15 gets an A arm.
+
+## 2026-11-12 cadence: 2 issues a day (Yu: 「試験だからもっと出してみない？」)
+- Slots (JST): issue A reel 12:00 + carousel 20:00; issue B carousel 08:00 + reel 17:00. Today: c_03 (A) + c_05 (B, 17:00/22:00).
+- Queue compressed: the 8 built issues now run 11/12–11/15 (was 11/12–11/19). Six new-format issues are out by 11/14, so the kill-rule read moves up to ~11/16.
+- Production runs become daily (2 issues per run). Posting hour becomes a passive variable (08/12/17/20/22).
