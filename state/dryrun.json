@@ -1,10 +1,9 @@
 {
- "at": "2026-11-12T00:56:37.936199+00:00",
- "item": "r_c_03_domannaka",
+ "at": "2026-11-12T01:39:23.335734+00:00",
+ "item": "f_00_about",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18132672865779964"
+  "container": "18132679105779964"
  },
  "published": false
 }
