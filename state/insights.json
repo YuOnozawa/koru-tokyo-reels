@@ -1,15 +1,79 @@
 {
- "fetched_at": "2026-11-12T07:19:15.744816+00:00",
+ "fetched_at": "2026-11-12T15:05:07.158438+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 101,
+  "media_count": 105,
   "id": "28241506535529259",
-  "followers_count": 9,
-  "follows_count": 121
+  "followers_count": 11,
+  "follows_count": 127
  },
  "media": [
+  {
+   "id": "17915338815558290",
+   "permalink": "https://www.instagram.com/p/DfpDZ-vEejA/",
+   "timestamp": "2026-11-12T12:26:48+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "A seafood night in Akihabara 🐟 Domannaka Akihabara Bettei, 2",
+   "reach": 2,
+   "views": 6,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "id": "18134233975747902",
+   "permalink": "https://www.instagram.com/reel/DfpDIVBOU2I/",
+   "timestamp": "2026-11-12T12:25:07+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
+   "reach": 8,
+   "views": 9,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3667,
+   "ig_reels_video_view_total_time": 33006
+  },
+  {
+   "id": "18084024866345280",
+   "permalink": "https://www.instagram.com/reel/DfosUuIqpuX/",
+   "timestamp": "2026-11-12T09:05:28+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Eight rules before you eat out in Tokyo 🗾 From 300 East Toky",
+   "reach": 23,
+   "views": 26,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3520,
+   "ig_reels_video_view_total_time": 84503
+  },
+  {
+   "id": "18117232925582433",
+   "permalink": "https://www.instagram.com/p/DfokSp4m4bB/",
+   "timestamp": "2026-11-12T07:54:53+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Free with every issue: the with KORU app 📒 Free, no sign-up\n",
+   "reach": 1,
+   "views": 5,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "18119335964589197",
    "permalink": "https://www.instagram.com/p/Dfoer_nESCD/",
@@ -17,8 +81,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
-   "reach": 0,
-   "views": 0,
+   "reach": 1,
+   "views": 11,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -32,15 +96,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A seafood night in Akihabara 🐟 Domannaka Akihabara Bettei, 2",
-   "reach": 4,
-   "views": 4,
+   "reach": 10,
+   "views": 14,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 837,
-   "ig_reels_video_view_total_time": 3351
+   "ig_reels_avg_watch_time": 5086,
+   "ig_reels_video_view_total_time": 61033
   },
   {
    "id": "18154178605544136",
@@ -56,8 +120,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5415,
-   "ig_reels_video_view_total_time": 579435
+   "ig_reels_avg_watch_time": 5385,
+   "ig_reels_video_view_total_time": 581590
   },
   {
    "id": "18098272352655337",
@@ -73,8 +137,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6502,
-   "ig_reels_video_view_total_time": 988442
+   "ig_reels_avg_watch_time": 6470,
+   "ig_reels_video_view_total_time": 989994
   },
   {
    "id": "18120321499814568",
@@ -90,8 +154,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3656,
-   "ig_reels_video_view_total_time": 435104
+   "ig_reels_avg_watch_time": 3634,
+   "ig_reels_video_view_total_time": 436170
   },
   {
    "id": "18137272489660262",
@@ -107,8 +171,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3512,
-   "ig_reels_video_view_total_time": 456561
+   "ig_reels_avg_watch_time": 3488,
+   "ig_reels_video_view_total_time": 456935
   },
   {
    "id": "18134451166667189",
@@ -253,7 +317,7 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Don't tip in Japan 🙅 Leftover money may be handed back.\n\nSay",
-   "reach": 125,
+   "reach": 126,
    "views": 156,
    "likes": 0,
    "comments": 0,
@@ -508,15 +572,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Ever had kibi dango still warm? 🍡 Asakusa Kibidango Azuma\n\n🍽",
-   "reach": 101,
-   "views": 103,
+   "reach": 102,
+   "views": 104,
    "likes": 2,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 3,
-   "ig_reels_avg_watch_time": 2536,
-   "ig_reels_video_view_total_time": 258730
+   "ig_reels_avg_watch_time": 2560,
+   "ig_reels_video_view_total_time": 266282
   },
   {
    "id": "18222370156353921",
@@ -559,15 +623,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Tokyo hacks #12: how to use a meal ticket machine 🎫\n\nCommon ",
-   "reach": 107,
-   "views": 115,
+   "reach": 108,
+   "views": 116,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3838,
-   "ig_reels_video_view_total_time": 414513
+   "ig_reels_avg_watch_time": 3833,
+   "ig_reels_video_view_total_time": 417868
   },
   {
    "id": "18108310676361641",
@@ -789,81 +853,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 2301,
    "ig_reels_video_view_total_time": 103575
-  },
-  {
-   "id": "18359000203219453",
-   "permalink": "https://www.instagram.com/reel/DfR17DFuJcm/",
-   "timestamp": "2026-11-03T12:06:47+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "One splurge near Akihabara: grilled eel at Myojinshita Kanda",
-   "reach": 55,
-   "views": 57,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2747,
-   "ig_reels_video_view_total_time": 153882
-  },
-  {
-   "id": "17905225704606069",
-   "permalink": "https://www.instagram.com/reel/DfQ-ziaTv_s/",
-   "timestamp": "2026-11-03T04:05:01+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Only 2 kinds of bread, still sells out: Pelican, Asakusa 🍞\n\n",
-   "reach": 110,
-   "views": 117,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2833,
-   "ig_reels_video_view_total_time": 314527
-  },
-  {
-   "id": "18134103169668644",
-   "permalink": "https://www.instagram.com/reel/DfQqQEyCVt4/",
-   "timestamp": "2026-11-03T01:05:50+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "About ¥800 curry, down a staircase: Indira, Kanda 🍛 (Yu's pi",
-   "reach": 99,
-   "views": 106,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2905,
-   "ig_reels_video_view_total_time": 293449
-  },
-  {
-   "id": "18119391691960101",
-   "permalink": "https://www.instagram.com/reel/DfQVqqbzfDw/",
-   "timestamp": "2026-11-02T22:05:54+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "This oyster hot pot blew me away: Tamazen, Yushima 🦪🍲 (Yu's ",
-   "reach": 78,
-   "views": 79,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2090,
-   "ig_reels_video_view_total_time": 160965
   }
  ],
  "account_daily": {
-  "reach": 502,
-  "views": 642,
-  "profile_views": 21,
+  "reach": 163,
+  "views": 291,
+  "profile_views": 29,
   "profile_links_taps": 0,
-  "accounts_engaged": 3
+  "accounts_engaged": 1
  }
 }

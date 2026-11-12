@@ -7,10 +7,10 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 32 | 123.1 | 26% | 0.5 | 0.0 | 0.4 |
-| B | 13 | 88.6 | 10% | 0.2 | 0.0 | 0.0 |
+| A | 32 | 123.2 | 26% | 0.5 | 0.0 | 0.4 |
+| B | 9 | 90.0 | 11% | 0.3 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+162%)
+**Suggested verdict:** A wins (+148%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -37,7 +37,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 4 | 112.5 | 24% | 0.2 | 0.0 | 0.0 |
-| B | 3 | 136.0 | 34% | 0.3 | 0.0 | 0.0 |
+| B | 3 | 136.0 | 33% | 0.3 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -55,7 +55,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 1 | 0.0 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 3 | 1.3 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -64,7 +64,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 4.0 | 4% | 0.0 | 0.0 | 0.0 |
+| A | 3 | 11.7 | 17% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -73,7 +73,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| magazine reel | 1 | 4.0 | 4% | 0.0 | 0.0 | 0.0 |
+| magazine reel | 3 | 13.7 | 15% | 0.0 | 0.0 | 0.7 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -91,7 +91,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 3 | 108.3 | 21% | 0.0 | 0.0 | 0.7 |
-| B | 16 | 123.6 | 17% | 0.7 | 0.0 | 0.6 |
+| B | 16 | 123.8 | 17% | 0.7 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -100,7 +100,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 125.2 | 48% | 0.4 | 0.0 | 0.2 |
+| A | 6 | 125.3 | 48% | 0.4 | 0.0 | 0.2 |
 | B | 20 | 124.0 | 19% | 0.6 | 0.0 | 0.5 |
 
 **Suggested verdict:** A wins (+150%)
@@ -110,17 +110,17 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 104.3 | 13% | 0.8 | 0.0 | 0.9 |
+| A | 7 | 104.4 | 13% | 0.8 | 0.0 | 0.9 |
 | B | 6 | 149.8 | 18% | 0.7 | 0.0 | 0.7 |
 
-**Suggested verdict:** B wins (+44%)
+**Suggested verdict:** B wins (+43%)
 
 ## H5 — Asking 'which one would you try?' in the caption gets comments
 Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 143.2 | 17% | 0.8 | 0.0 | 0.8 |
+| A | 8 | 143.4 | 17% | 0.8 | 0.0 | 0.8 |
 | B | 6 | 101.3 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
@@ -131,7 +131,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 7 | 113.4 | 16% | 0.4 | 0.0 | 0.1 |
-| B | 6 | 139.2 | 14% | 1.2 | 0.0 | 1.5 |
+| B | 6 | 139.3 | 14% | 1.2 | 0.0 | 1.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -140,8 +140,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 36 | 109.7 | 21% | 0.4 | 0.0 | 0.2 |
-| B | 11 | 123.3 | 24% | 0.3 | 0.0 | 0.5 |
+| A | 33 | 111.1 | 22% | 0.4 | 0.0 | 0.2 |
+| B | 10 | 130.2 | 26% | 0.3 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
 
