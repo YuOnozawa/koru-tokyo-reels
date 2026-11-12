@@ -7,17 +7,17 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 32 | 121.1 | 26% | 0.5 | 0.0 | 0.4 |
-| B | 15 | 92.1 | 10% | 0.2 | 0.0 | 0.0 |
+| A | 32 | 123.1 | 26% | 0.5 | 0.0 | 0.4 |
+| B | 13 | 88.6 | 10% | 0.2 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+156%)
+**Suggested verdict:** A wins (+162%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 109.0 | 17% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 110.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -27,7 +27,7 @@ Metric: **ss** · A = seasonal decision reel · B = evergreen reels · status: r
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 107.0 | 19% | 0.9 | 0.0 | 0.0 |
-| B | 2 | 119.5 | 31% | 0.0 | 0.0 | 0.0 |
+| B | 2 | 120.5 | 31% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -36,8 +36,8 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 4 | 109.0 | 21% | 0.2 | 0.0 | 0.0 |
-| B | 3 | 130.3 | 33% | 0.3 | 0.0 | 0.0 |
+| A | 4 | 112.5 | 24% | 0.2 | 0.0 | 0.0 |
+| B | 3 | 136.0 | 34% | 0.3 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -46,7 +46,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 119.0 | 28% | 0.4 | 0.0 | 0.2 |
+| A | 6 | 124.2 | 30% | 0.4 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -55,11 +55,30 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
+| carousel | 1 | 0.0 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
 ## H15 — For the target Yu defined (affluent adult travelers staying in Tokyo who don't want a bad meal), 'no-fail' content (credentials, price per person, how to book) earns more saves per reach than cheap/fun content
 Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = cheap & fun · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+| A | 1 | 4.0 | 4% | 0.0 | 0.0 | 0.0 |
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H16 — The slow magazine-flip reel (design D, ~25 s, no AI voice, real photos) beats the old AI-voice + stock-footage reel on reach and average watch time
+Metric: **reach** · A = magazine reel · B = old reel template · status: running
+
+| arm | n | reach | completion | saves+shares /100 | comments | likes |
+|---|---|---|---|---|---|---|
+| magazine reel | 1 | 4.0 | 4% | 0.0 | 0.0 | 0.0 |
+
+_Not enough reels yet (need n≥3 per arm)._
+
+## H17 — Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues
+Metric: **ss** · A = travel · B = tokyo · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
@@ -71,8 +90,8 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 107.3 | 21% | 0.0 | 0.0 | 0.7 |
-| B | 16 | 122.3 | 17% | 0.7 | 0.0 | 0.6 |
+| A | 3 | 108.3 | 21% | 0.0 | 0.0 | 0.7 |
+| B | 16 | 123.6 | 17% | 0.7 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -81,18 +100,18 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 124.0 | 48% | 0.4 | 0.0 | 0.2 |
-| B | 20 | 121.6 | 19% | 0.6 | 0.0 | 0.5 |
+| A | 6 | 125.2 | 48% | 0.4 | 0.0 | 0.2 |
+| B | 20 | 124.0 | 19% | 0.6 | 0.0 | 0.5 |
 
-**Suggested verdict:** A wins (+157%)
+**Suggested verdict:** A wins (+150%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 103.1 | 13% | 0.8 | 0.0 | 0.9 |
-| B | 6 | 148.2 | 18% | 0.7 | 0.0 | 0.7 |
+| A | 7 | 104.3 | 13% | 0.8 | 0.0 | 0.9 |
+| B | 6 | 149.8 | 18% | 0.7 | 0.0 | 0.7 |
 
 **Suggested verdict:** B wins (+44%)
 
@@ -101,8 +120,8 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 141.9 | 16% | 0.9 | 0.0 | 0.8 |
-| B | 6 | 99.8 | 16% | 0.5 | 0.0 | 0.7 |
+| A | 8 | 143.2 | 17% | 0.8 | 0.0 | 0.8 |
+| B | 6 | 101.3 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -111,8 +130,8 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 112.1 | 16% | 0.4 | 0.0 | 0.1 |
-| B | 6 | 137.7 | 14% | 1.2 | 0.0 | 1.5 |
+| A | 7 | 113.4 | 16% | 0.4 | 0.0 | 0.1 |
+| B | 6 | 139.2 | 14% | 1.2 | 0.0 | 1.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -121,8 +140,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 38 | 108.9 | 20% | 0.4 | 0.0 | 0.2 |
-| B | 11 | 121.1 | 23% | 0.3 | 0.0 | 0.5 |
+| A | 36 | 109.7 | 21% | 0.4 | 0.0 | 0.2 |
+| B | 11 | 123.3 | 24% | 0.3 | 0.0 | 0.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -131,7 +150,7 @@ Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: 
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 122.7 | 35% | 0.0 | 0.0 | 0.3 |
+| A | 3 | 124.3 | 35% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -140,7 +159,7 @@ Metric: **com** · A = quiz · B = non-quiz · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 123.0 | 29% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 125.0 | 31% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
