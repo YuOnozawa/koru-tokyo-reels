@@ -1063,6 +1063,48 @@
    "liked": true,
    "at": "2026-11-12T12:45Z",
    "source": "posted at Ueno Park location (recent tab), via Mac (805 followers)"
+  },
+  {
+   "user": "pratikagashe",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (407 followers)"
+  },
+  {
+   "user": "robertbocharski",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (76 followers)"
+  },
+  {
+   "user": "jerome.myr",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (354 followers)"
+  },
+  {
+   "user": "mattrsss",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (1735 followers)"
+  },
+  {
+   "user": "nesleetastan",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (3653 followers)"
+  },
+  {
+   "user": "therealmartinbg",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (16 followers)"
   }
  ],
  "candidates": [],
@@ -1112,7 +1154,9 @@
   "mahfi.quest",
   "clarissaacindy",
   "wisteria_voyage",
-  "japan.munching"
+  "japan.munching",
+  "kinginfinitemadara",
+  "jlinweichieh"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -1216,7 +1260,8 @@
   "2026-11-11 06:20 run: Chrome extension disconnected on the first page load (retried: still disconnected). Nothing done.",
   "2026-11-11: location feed works — POST /api/v1/locations/<pk>/sections/ body tab=recent&page=0 (pk via /api/v1/fbsearch/places/?query=). Senso-ji pk=43148. web_profile_info and topsearch return HTML now.",
   "2026-11-12 06:20 JST run: 15 follows+likes (Ueno Park / Akihabara location feeds), 1 business skip, 2 comments (11/12 JST: 2/5). Keyword comments on n_07/n_05/n_02: none. Inbox/requests: nothing new. /api/v1/web/comments/<id>/add/ now 404 → comment via UI textarea + Enter; /api/v1/direct_v2/inbox/ 404 → read /direct/inbox/ page text.",
-  "2026-11-12 21:20 JST run: 6 follows+likes (Ueno Park, Akihabara, Ameyoko feeds; total 11/12 JST: 21), 2 business skips, 2 comments (11/12 JST: 4/5). No keyword comments on our posts; inbox: dhiyatako and umie_abdulrahim followed back, no messages. Own comment deletable via hover → コメントのオプション → 削除."
+  "2026-11-12 21:20 JST run: 6 follows+likes (Ueno Park, Akihabara, Ameyoko feeds; total 11/12 JST: 21), 2 business skips, 2 comments (11/12 JST: 4/5). No keyword comments on our posts; inbox: dhiyatako and umie_abdulrahim followed back, no messages. Own comment deletable via hover → コメントのオプション → 削除.",
+  "2026-11-13 06:20 JST run: 6 follows+likes (Ueno Park, Akihabara), 2 big skips, 2 comments (11/13 JST: 2/5). No keyword comments; no DMs; tedpetrovas followed back. Followers 11."
  ],
  "dm_log": [
   {
@@ -1262,7 +1307,13 @@
   "stewesworld87",
   "cumajepret",
   "alexisvassiviere",
-  "coolbro21yt"
+  "coolbro21yt",
+  "littlenotesfromtokyo",
+  "desmas.channel",
+  "tcdaimyoujin",
+  "japan2thailand",
+  "nofilahtokyo",
+  "taku_akihabara"
  ],
  "comment_queue": [
   {
@@ -1374,6 +1425,20 @@
    "text": "Enjoy day 2! If you're near Ueno one evening, Daitoryo under the Ameyoko tracks serves skewers and stew until 23:30. Cash only, no booking needed.",
    "at": "2026-11-12T12:45Z",
    "basis": "shops.json Daitoryo (Tabelog checked 11/12)"
+  },
+  {
+   "user": "mattrsss",
+   "post": "https://www.instagram.com/p/DfprChQJYUS/",
+   "text": "Card hunting fuel: Shinpuku Saikan is 5 min from Akihabara Station, dark soy-sauce chuka soba from ¥880. Lunch 11:00-15:00, dinner from 17:30.",
+   "at": "2026-11-12T21:40Z",
+   "basis": "shops.json Shinpuku Saikan (Yu pick)"
+  },
+  {
+   "user": "pratikagashe",
+   "post": "https://www.instagram.com/p/DfpFOSOPavw/",
+   "text": "Lovely autumn walk! For a sweet stop after the park, Anmitsu Mihashi is 3 min from JR Ueno: cream anmitsu ¥760, open from 10:30.",
+   "at": "2026-11-12T21:40Z",
+   "basis": "shops.json Anmitsu Mihashi"
   }
  ]
 }
