@@ -1021,6 +1021,48 @@
    "liked": true,
    "at": "2026-11-11T21:40Z",
    "source": "posted at Ueno Park location (recent tab), via Mac (692 followers)"
+  },
+  {
+   "user": "gettkay",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T12:45Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (1322 followers)"
+  },
+  {
+   "user": "kathaze9",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T12:45Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (726 followers)"
+  },
+  {
+   "user": "jlnd.photography",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T12:45Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (336 followers)"
+  },
+  {
+   "user": "ted_petrovas",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T12:45Z",
+   "source": "posted at Ameyoko location (recent tab), via Mac (1572 followers)"
+  },
+  {
+   "user": "jalankaki_55",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T12:45Z",
+   "source": "posted at Ameyoko location (recent tab), via Mac (7 followers)"
+  },
+  {
+   "user": "trishaapentinio",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-12T12:45Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (805 followers)"
   }
  ],
  "candidates": [],
@@ -1173,7 +1215,8 @@
   "2026-11-10 21:20 run: account OK. Own reels n_02 (AKIBA) and b_10 (UENO): 0 comments. 0 follows / 0 comments: keyword search returns mostly old top posts or creators; the only recent personal post (touria_meliani) was a public figure leaving Tokyo, skipped. Next: try location pages (Senso-ji, Ameyoko, Akihabara) for recent traveler posts.",
   "2026-11-11 06:20 run: Chrome extension disconnected on the first page load (retried: still disconnected). Nothing done.",
   "2026-11-11: location feed works — POST /api/v1/locations/<pk>/sections/ body tab=recent&page=0 (pk via /api/v1/fbsearch/places/?query=). Senso-ji pk=43148. web_profile_info and topsearch return HTML now.",
-  "2026-11-12 06:20 JST run: 15 follows+likes (Ueno Park / Akihabara location feeds), 1 business skip, 2 comments (11/12 JST: 2/5). Keyword comments on n_07/n_05/n_02: none. Inbox/requests: nothing new. /api/v1/web/comments/<id>/add/ now 404 → comment via UI textarea + Enter; /api/v1/direct_v2/inbox/ 404 → read /direct/inbox/ page text."
+  "2026-11-12 06:20 JST run: 15 follows+likes (Ueno Park / Akihabara location feeds), 1 business skip, 2 comments (11/12 JST: 2/5). Keyword comments on n_07/n_05/n_02: none. Inbox/requests: nothing new. /api/v1/web/comments/<id>/add/ now 404 → comment via UI textarea + Enter; /api/v1/direct_v2/inbox/ 404 → read /direct/inbox/ page text.",
+  "2026-11-12 21:20 JST run: 6 follows+likes (Ueno Park, Akihabara, Ameyoko feeds; total 11/12 JST: 21), 2 business skips, 2 comments (11/12 JST: 4/5). No keyword comments on our posts; inbox: dhiyatako and umie_abdulrahim followed back, no messages. Own comment deletable via hover → コメントのオプション → 削除."
  ],
  "dm_log": [
   {
@@ -1217,7 +1260,9 @@
   "mariusvelena",
   "goodiefoodieph",
   "stewesworld87",
-  "cumajepret"
+  "cumajepret",
+  "alexisvassiviere",
+  "coolbro21yt"
  ],
  "comment_queue": [
   {
@@ -1315,6 +1360,20 @@
    "text": "Ueno in autumn looks lovely! If you're back in the park, Ueno Seiyoken inside it does hayashi rice and beef stew for lunch (closed Mondays).",
    "at": "2026-11-11T21:40Z",
    "basis": "shops.json Ueno Seiyoken; solo travel day 17 in Ueno"
+  },
+  {
+   "user": "kathaze9",
+   "post": "https://www.instagram.com/p/DfmRlF2HYoW/",
+   "text": "Akihabara and Harajuku in one day! If you're back in Akihabara, Tsujita is 1 min from Suehirocho Station: rich tsukemen from ¥1,110, open every day (until 22:00 on weekdays).",
+   "at": "2026-11-12T12:45Z",
+   "basis": "shops.json Tsujita; first version said \"open daily until 22:00\" (weekends 21:30) → deleted and reposted"
+  },
+  {
+   "user": "gettkay",
+   "post": "https://www.instagram.com/p/DfneToTkp1B/",
+   "text": "Enjoy day 2! If you're near Ueno one evening, Daitoryo under the Ameyoko tracks serves skewers and stew until 23:30. Cash only, no booking needed.",
+   "at": "2026-11-12T12:45Z",
+   "basis": "shops.json Daitoryo (Tabelog checked 11/12)"
   }
  ]
 }
