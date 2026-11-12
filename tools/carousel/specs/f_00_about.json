@@ -1,0 +1,181 @@
+{
+ "id": "f_00_about",
+ "issue": "創刊のあいさつ",
+ "issue_cover": "HELLO",
+ "place": "TOKYO · AKIHABARA",
+ "reel": {
+  "cover_cap": "Field notes from Akihabara, for hungry travelers",
+  "end_cap": "Follow, and save before you fly",
+  "zoom_pages": [
+   "rules"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/yu_ginkgo_akiba_20261104.jpg",
+   "pos": "center 45%",
+   "jp": "秋葉原で働く\n会社員の、\n[食の手帖]。",
+   "jp_size": 100,
+   "en": "Field notes from Akihabara",
+   "en_size": 52,
+   "lines": [
+    [
+     "毎日2号。",
+     "Two issues a day"
+    ],
+    [
+     "確かなことだけ。",
+     "Facts only, with dates"
+    ]
+   ],
+   "sticker": [
+    "はじめ",
+    "まして"
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "Yuの昼と夜、秋葉原まわり",
+   "reel_cap": "Yu's own picks around Akihabara",
+   "label_left": [
+    "Kanda"
+   ],
+   "stations": [
+    "Ueno"
+   ],
+   "pins": [
+    {
+     "station": "Akihabara",
+     "jp": "どまんなか 秋葉原別邸",
+     "en": "Domannaka Akihabara Bettei",
+     "walk": "Akihabara 2 min"
+    },
+    {
+     "station": "Akihabara",
+     "jp": "新福菜館",
+     "en": "Shinpuku Saikan",
+     "walk": "Akihabara 5 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "つじ田",
+     "en": "Tsujita",
+     "walk": "Suehirocho 1 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "モチヅキカレー",
+     "en": "Mochizuki Curry",
+     "walk": "Suehirocho 1 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "魚河岸 おに平",
+     "en": "Uogashi Onihei",
+     "walk": "Suehirocho 2 min"
+    },
+    {
+     "station": "Kanda",
+     "jp": "インデラ",
+     "en": "Indira",
+     "walk": "Kanda 3 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "OUR PROMISE",
+   "jp": "この手帖の約束",
+   "en": "What you get in every issue",
+   "sub": "with KORU, Nov 2026",
+   "reel_cap": "Four promises",
+   "grid_h": 1040,
+   "do_size": 28,
+   "jp_size": 42,
+   "en_size": 28,
+   "items": [
+    {
+     "jp": "要ることは、全部",
+     "en": "All you need to decide",
+     "stat": "全部",
+     "do": "Where, budget, booking, house rules, what to order.",
+     "cap": "All you need to decide"
+    },
+    {
+     "jp": "確かなことだけ",
+     "en": "Facts only",
+     "stat": "日付",
+     "do": "Each fact carries the date it was checked.",
+     "cap": "Facts only, with dates"
+    },
+    {
+     "jp": "写真はYuのもの",
+     "en": "Yu's own photos",
+     "stat": "借りない",
+     "do": "No borrowed photos. No photo? Maps and data instead.",
+     "cap": "Only Yu's own photos"
+    },
+    {
+     "jp": "秋葉原がいちばん濃い",
+     "en": "Deepest around Akihabara",
+     "stat": "111/306",
+     "do": "111 of 306 places are in Akihabara, Suehirocho and Kanda.",
+     "cap": "Deepest around Akihabara"
+    }
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/yu_coffee_hot_akiba_20261110.jpg",
+   "pos": "center 50%",
+   "kicker": "EVERY DAY",
+   "jp": "毎日、2号。",
+   "jp_size": 56,
+   "en": "Two issues a day",
+   "cap": "Two issues a day",
+   "body": "Carousels to save, slow reels to watch. Each issue is one theme: a place, a food, or a rule.",
+   "info": [
+    [
+     "MORNING",
+     "8:00 / 12:00",
+     "JST"
+    ],
+    [
+     "EVENING",
+     "17:00 / 20:00",
+     "JST"
+    ],
+    [
+     "APP",
+     "プロフィールのリンク",
+     "link in bio, free"
+    ]
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "旅の前に、\n保存しておく。",
+   "en": "Save it before you fly",
+   "checks": [
+    [
+     "表紙に「保存版」がある号は保存",
+     "Save the issues marked 保存版"
+    ],
+    [
+     "秋葉原まわりは特に濃い",
+     "Akihabara, Suehirocho, Kanda: our home"
+    ],
+    [
+     "付録アプリは無料・登録なし",
+     "The free app: link in bio"
+    ],
+    [
+     "旅先の号もある",
+     "Kanazawa, Shimonoseki, more to come"
+    ]
+   ],
+   "note": "Yu & Koru, Akihabara"
+  }
+ ]
+}

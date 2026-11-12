@@ -1,0 +1,129 @@
+{
+ "id": "f_00_about",
+ "reel": {
+  "cover_cap": "Field notes from Akihabara, for hungry travelers",
+  "end_cap": "Follow, and save before you fly",
+  "zoom_pages": [
+   "rules"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Field notes from Akihabara",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "map",
+   "caption": "Yu's own picks around Akihabara",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 919,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Domannaka Akihabara Bettei — Akihabara 2 min"
+    },
+    {
+     "x": 67,
+     "y": 981,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Shinpuku Saikan — Akihabara 5 min"
+    },
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Tsujita — Suehirocho 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Mochizuki Curry — Suehirocho 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "5. Uogashi Onihei — Suehirocho 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "6. Indira — Kanda 3 min"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "rules",
+   "caption": "Four promises",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 512,
+     "cap": "1. All you need to decide"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 512,
+     "cap": "2. Facts only, with dates"
+    },
+    {
+     "x": 44,
+     "y": 738.953125,
+     "w": 488,
+     "h": 512,
+     "cap": "3. Only Yu's own photos"
+    },
+    {
+     "x": 548,
+     "y": 738.953125,
+     "w": 488,
+     "h": 512,
+     "cap": "4. Deepest around Akihabara"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "photo",
+   "caption": "Two issues a day",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 919.609375,
+     "w": 992,
+     "h": 374.390625,
+     "cap": "Two issues a day"
+    },
+    {
+     "x": 73,
+     "y": 1160.109375,
+     "w": 934,
+     "h": 108.890625,
+     "cap": "JST · JST · link in bio, free"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "back",
+   "caption": "Save it before you fly",
+   "boxes": []
+  }
+ ]
+}
