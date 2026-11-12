@@ -610,7 +610,7 @@
   "genre": "Yakitori izakaya",
   "station": "Akihabara",
   "walk_min": 1,
-  "hours": "16:00-24:00 (LO 23:30)",
+  "hours": "16:00-24:00 (LO 23:30) daily",
   "closed_days": "Open daily",
   "lunch_price_yen": "no lunch",
   "dinner_price_yen": "up to 4000",
@@ -627,7 +627,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.28,
+  "tabelog_reviews": 360,
+  "house_rules": [
+   "Cancel by 16:00 on the day",
+   "Smoking room inside",
+   "Cards and PayPay OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): skewers 9/20, value 8/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13164693/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Yakitori & Oden Ichie",
@@ -1440,7 +1450,7 @@
   "budget_band": "4000-10000",
   "awards": [],
   "english_menu": "yes",
-  "reservation": "unknown",
+  "reservation": "private rooms only (no table-only bookings)",
   "what_to_order": "Unaju (eel over rice), ¥3,630 / ¥4,730 / ¥5,830",
   "tourist_tip": "Faces Shinobazu Pond in Ueno Park.",
   "yu_pick": false,
@@ -1452,7 +1462,18 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.5,
+  "tabelog_reviews": 1027,
+  "house_rules": [
+   "Private rooms: 15% service charge, 3+ people",
+   "Weekday evenings and weekends: private rooms from the Matsu course (¥8,800+)",
+   "Table seats can't be booked; window seats can't be requested",
+   "Cards, PayPay, Alipay OK; no e-money"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): view of Shinobazu Pond 9/20, old-shop feel 10/20, foreign guests mentioned 4/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13003586/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Usagiya",
@@ -1601,14 +1622,14 @@
   "genre": "Izakaya (motsuyaki / offal skewers)",
   "station": "JR Ueno / Keisei Ueno",
   "walk_min": 2,
-  "hours": "10:00-24:00 daily",
+  "hours": "10:00-23:30 daily (Tabelog, Nov 2026)",
   "closed_days": "None (open year-round)",
   "lunch_price_yen": "up to 2000",
   "dinner_price_yen": "up to 3000",
   "budget_band": "1500-4000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "not_accepted",
   "what_to_order": "Motsuyaki skewers (from 2 for ¥180) and Daitoryo special stewed offal (nikomi)",
   "tourist_tip": "Founded in 1950 under the Ameyoko railway arches; serves alcohol from 10 a.m.",
   "yu_pick": false,
@@ -1619,7 +1640,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.49,
+  "tabelog_reviews": 1786,
+  "house_rules": [
+   "No bookings",
+   "Cash only"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): atmosphere 6/20, stew 4/20, value 3/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13016740/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Kissa Kojo",
@@ -2303,7 +2333,18 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.35,
+  "tabelog_reviews": 257,
+  "house_rules": [
+   "Smoking allowed at all seats",
+   "Otoshi ¥150-300",
+   "Bookings: one drink and one dish per person",
+   "Cards and PayPay OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): Hoppy 15/20, day drinking 7/20, lively atmosphere 6/20, stew 5/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13137942/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Shochan",
@@ -3633,16 +3674,17 @@
   "kind": "meal",
   "lunch_ok": true,
   "dinner_ok": true,
-  "tabelog_score": 3.72,
-  "tabelog_reviews": 528,
+  "tabelog_score": 3.73,
+  "tabelog_reviews": 534,
   "house_rules": [
    "Book online (phone line closed)",
    "Rice is charged separately from the eel",
    "Visa/Mastercard only, no e-money",
    "Private rooms for 2, 4 or 6"
   ],
-  "rules_checked": "2026-11-12 (Tabelog official info)",
-  "review_summary": "Diners love the historic wooden building and calm rooms; unaju; fluffy, crisp-edged eel. Booking can be hard. (20 latest Tabelog reviews, 2026-11-12)"
+  "rules_checked": "2026-11-12",
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): old building/atmosphere 15/20, private rooms 11/20, waiting for the grill 8/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13000346/"
  },
  {
   "name_en": "Vault Coffee",
@@ -4145,7 +4187,18 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.55,
+  "tabelog_reviews": 1201,
+  "house_rules": [
+   "No same-day cancellations",
+   "Menu items other than unaju 'I' are limited; call by the day before",
+   "Steep stairs to the 2F tatami rooms; ask ahead",
+   "Cards OK; no e-money or QR"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): fluffy, thick steamed eel 12/20; old-shop feel 10/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13000339/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Ajibo",
@@ -4165,7 +4218,7 @@
   "english_menu": "unknown",
   "reservation": "recommended",
   "what_to_order": "Lamb dishes (the shop's recommendation) such as lamb skewers and lamb dumplings, and the charcoal hot pot set.",
-  "tourist_tip": "Opened in 2000; the original shop of the Ajibo group. Cards and e-money accepted, no QR. Parties of 1-3 reserve by phone. A 10% service charge is listed on Tabelog.",
+  "tourist_tip": "Opened in 2000; the original shop of the Ajibo group. Parties of 1-3 reserve by phone.",
   "yu_pick": false,
   "sources": [
    "https://tabelog.com/en/tokyo/A1310/A131002/13009143/"
@@ -4173,7 +4226,18 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.51,
+  "tabelog_reviews": 1712,
+  "house_rules": [
+   "Please don't cancel on the day",
+   "No service charge (Tabelog, Nov 2026)",
+   "Cards and e-money OK; no QR",
+   "Non-smoking"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): lamb 16/20, skewers 7/20, wine 5/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13009143/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Hicho Kurata",
@@ -5673,7 +5737,7 @@
   "genre": "Unagi (grilled eel)",
   "station": "Asakusa (Ginza Line)",
   "walk_min": 3,
-  "hours": "12:00-14:00 (LO 13:30) and 17:00-20:00 (LO 19:30)",
+  "hours": "12:00-13:30, 17:00-20:00 (Tabelog, Nov 2026)",
   "closed_days": "Wednesday",
   "lunch_price_yen": "2000-3000",
   "dinner_price_yen": "3000-4000",
@@ -5682,7 +5746,7 @@
    "Michelin Bib Gourmand 2026"
   ],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "accepted (phone)",
   "what_to_order": "Unaju (kabayaki eel over rice in a lacquer box)",
   "tourist_tip": "Cash only. Small traditional shop on a side street in Kaminarimon 2-chome.",
   "yu_pick": false,
@@ -5693,7 +5757,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.74,
+  "tabelog_reviews": 823,
+  "house_rules": [
+   "Cash only (no cards, e-money or QR)",
+   "14 seats",
+   "Closed Wednesday"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): soft eel 10/20; many booked by phone, often the day before (15 mention booking); liver soup praised (8).",
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13003702/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Asakusa Hirayama",
@@ -5863,7 +5937,7 @@
   "genre": "Unagi (grilled eel)",
   "station": "Asakusa (Ginza Line)",
   "walk_min": 1,
-  "hours": "11:30-21:00 (LO 20:00)",
+  "hours": "11:30-21:00 (LO 20:30)",
   "closed_days": "None (open daily)",
   "lunch_price_yen": "4000-5000",
   "dinner_price_yen": "8000-10000",
@@ -5880,7 +5954,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.46,
+  "tabelog_reviews": 553,
+  "house_rules": [
+   "From 16:00, 10% service charge added",
+   "Private rooms by phone: +10% lunch, +15% from 16:00",
+   "Cards and PayPay OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): Sumida River/Skytree view 15/20, lighter sauce 8/20, shirayaki 8/20, polite staff 5/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13003666/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Mont Blanc Asakusa",
@@ -6019,7 +6103,7 @@
   "genre": "Yakiniku (grilled beef and offal)",
   "station": "Asakusa (Tsukuba Express)",
   "walk_min": 1,
-  "hours": "Mon-Fri 14:00-2:00; Sat 12:00-2:00; Sun and holidays 12:00-24:00 (LO 30 min before close)",
+  "hours": "12:00-15:00 (LO 14:30), 17:00-23:00 (food LO 22:00, drinks LO 22:30) per Tabelog Nov 2026 — no longer late night",
   "closed_days": "None (open daily)",
   "lunch_price_yen": "5000-6000",
   "dinner_price_yen": "6000-8000",
@@ -6036,7 +6120,11 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.71,
+  "tabelog_reviews": 2277,
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13003711/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "noura",
@@ -6404,7 +6492,7 @@
   "genre": "Kissaten (retro cafe) with yoshoku",
   "station": "Asakusa (Tsukuba Express)",
   "walk_min": 4,
-  "hours": "Tue-Sat 9:00-3:00 (next day); Sun and holidays 9:00-1:00",
+  "hours": "Tue-Sun 9:00-20:00 per Tabelog Nov 2026 (earlier sources said until 3:00)",
   "closed_days": "Monday",
   "lunch_price_yen": "under 1000",
   "dinner_price_yen": "1000-2000",
@@ -6421,7 +6509,11 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.69,
+  "tabelog_reviews": 1252,
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13058004/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Daigaku-imo Chibaya",
@@ -7596,7 +7688,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.61,
+  "tabelog_reviews": 644,
+  "house_rules": [
+   "No bookings",
+   "Closed 17:00-18:00 for soup",
+   "Cards, IC, QR OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 12, 2026): eaten with rice/nori 11/20.",
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13307245/",
+  "rules_checked": "2026-11-12"
  },
  {
   "name_en": "Coffee Dokoro Bonaru",

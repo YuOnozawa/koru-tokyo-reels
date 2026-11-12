@@ -1,0 +1,316 @@
+{
+ "id": "c_09_late",
+ "issue": "No.09",
+ "place": "TOKYO · EAST",
+ "reel": {
+  "cover_cap": "Dinner after 10pm in East Tokyo",
+  "end_cap": "Save it for your late night",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "jp": "夜10時からの、\n[晩ごはん]。",
+   "jp_size": 104,
+   "en": "Dinner after 10pm in East Tokyo",
+   "en_size": 50,
+   "lines": [
+    [
+     "羊の店、焼き鳥、\n昭和の酒場。",
+     "Lamb, yakitori, an old tavern"
+    ],
+    [
+     "夜中3時まで\nのラーメンも。",
+     "Ramen until 3am"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ],
+   "bg": "#14213D",
+   "big": "22",
+   "big_size": 760
+  },
+  {
+   "type": "list",
+   "kicker": "LATE · EAST TOKYO",
+   "jp": "夜10時から行ける五軒",
+   "en": "Five for a late dinner",
+   "reel_cap": "Still serving after 10pm",
+   "items": [
+    {
+     "jp": "味坊",
+     "en": "Ajibo",
+     "area": "神田 · 中国東北と羊 · Kanda, lamb & NE Chinese",
+     "badge": "TABELOG 3.51",
+     "cap": "Lamb, last order 22:30",
+     "facts": [
+      [
+       "LAST ORDER",
+       "22:30 (Sun 21:30)"
+      ],
+      [
+       "BOOK",
+       "Yes"
+      ],
+      [
+       "PAY",
+       "Cards, e-money"
+      ]
+     ]
+    },
+    {
+     "jp": "ねぎま三ぞう",
+     "en": "Negima Sanzo",
+     "area": "秋葉原 · 焼き鳥と海鮮 · Akihabara, yakitori",
+     "badge": "TABELOG 3.28",
+     "cap": "Yakitori, last order 23:30",
+     "facts": [
+      [
+       "LAST ORDER",
+       "23:30 daily"
+      ],
+      [
+       "BOOK",
+       "Yes"
+      ],
+      [
+       "PAY",
+       "Cards, PayPay"
+      ]
+     ]
+    },
+    {
+     "jp": "浅草酒場 岡本",
+     "en": "Asakusa Sakaba Okamoto",
+     "area": "浅草 · ホッピー通り · Asakusa, Hoppy Street",
+     "badge": "TABELOG 3.35 · ENGLISH MENU",
+     "cap": "Stew and Hoppy until 23:00",
+     "facts": [
+      [
+       "OPEN",
+       "to 23:00 (Sun 22:30)"
+      ],
+      [
+       "BOOK",
+       "Online"
+      ],
+      [
+       "PAY",
+       "Cards, PayPay"
+      ]
+     ]
+    },
+    {
+     "jp": "大統領",
+     "en": "Motsuyaki Daitoryo",
+     "area": "上野 · アメ横のもつ焼き · Ueno, offal skewers",
+     "badge": "TABELOG 3.49 · SINCE 1950",
+     "cap": "Skewers under the tracks, cash",
+     "facts": [
+      [
+       "OPEN",
+       "to 23:30 daily"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "あさが家",
+     "en": "Yokohama Ramen Asagaya",
+     "area": "上野 · 家系ラーメン · Ueno, iekei ramen",
+     "badge": "TABELOG 3.61",
+     "cap": "The last bowl, until 3am",
+     "facts": [
+      [
+       "OPEN",
+       "to 3:00 daily"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cards, IC, QR"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 12, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "味坊",
+     "en": "Ajibo",
+     "praise": "Lamb, above all: skewers and dishes from Northeast China, often with a glass of wine.",
+     "loved_jp": "羊の串と料理",
+     "loved_en": "Lamb skewers and dishes",
+     "basis": "16 of 20 mention lamb"
+    },
+    {
+     "jp": "ねぎま三ぞう",
+     "en": "Negima Sanzo",
+     "praise": "Skewers and seafood at fair prices, open late every day.",
+     "loved_jp": "焼き鳥",
+     "loved_en": "Yakitori",
+     "basis": "9 of 20 on skewers, 8 on value"
+    },
+    {
+     "jp": "浅草酒場 岡本",
+     "en": "Asakusa Sakaba Okamoto",
+     "praise": "Hoppy and stew on Hoppy Street, with a lively old-Asakusa feel.",
+     "loved_jp": "ホッピーと煮込み",
+     "loved_en": "Hoppy and beef-tendon stew",
+     "basis": "15 of 20 mention Hoppy"
+    },
+    {
+     "jp": "大統領",
+     "en": "Motsuyaki Daitoryo",
+     "praise": "Cheap skewers and stew in a busy old tavern under the Ameyoko tracks.",
+     "loved_jp": "もつ焼きと煮込み",
+     "loved_en": "Offal skewers and stew",
+     "basis": "6 of 20 on the atmosphere"
+    },
+    {
+     "jp": "あさが家",
+     "en": "Yokohama Ramen Asagaya",
+     "praise": "Iekei ramen eaten the classic way: with rice and nori.",
+     "loved_jp": "ラーメンとライス",
+     "loved_en": "Ramen with rice",
+     "basis": "11 of 20 mention rice or nori"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "label_left": [
+    "Kanda"
+   ],
+   "stations": [
+    "Ueno"
+   ],
+   "pins": [
+    {
+     "station": "Kanda",
+     "jp": "味坊",
+     "en": "Ajibo",
+     "walk": "JR Kanda 3 min"
+    },
+    {
+     "station": "Akihabara",
+     "jp": "ねぎま三ぞう",
+     "en": "Negima Sanzo",
+     "walk": "Akihabara 3 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "浅草酒場 岡本",
+     "en": "Asakusa Sakaba Okamoto",
+     "walk": "Asakusa (TX) 2 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "大統領",
+     "en": "Motsuyaki Daitoryo",
+     "walk": "JR Ueno 2 min"
+    },
+    {
+     "station": "Okachimachi",
+     "jp": "あさが家",
+     "en": "Yokohama Ramen Asagaya",
+     "walk": "Ueno-Hirokoji 1 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "House rules before you go",
+   "sub": "from each restaurant's own Tabelog listing, Nov 12, 2026",
+   "reel_cap": "House rules, before you go",
+   "grid_h": 1040,
+   "do_size": 27,
+   "items": [
+    {
+     "jp": "味坊",
+     "en": "Ajibo",
+     "stat": "NO CANCEL",
+     "do": "Please don't cancel on the day. No service charge."
+    },
+    {
+     "jp": "ねぎま三ぞう",
+     "en": "Negima Sanzo",
+     "stat": "16:00",
+     "do": "Cancel by 16:00 on the day. Smoking room inside."
+    },
+    {
+     "jp": "浅草酒場 岡本",
+     "en": "Asakusa Sakaba Okamoto",
+     "stat": "SMOKING",
+     "do": "Smoking is allowed at all seats. Otoshi ¥150–300."
+    },
+    {
+     "jp": "大統領",
+     "en": "Motsuyaki Daitoryo",
+     "stat": "CASH",
+     "do": "Cash only. No bookings: just walk in."
+    },
+    {
+     "jp": "あさが家",
+     "en": "Yokohama Ramen Asagaya",
+     "stat": "17–18時",
+     "do": "Closed 17:00–18:00 for soup. No bookings."
+    },
+    {
+     "jp": "五軒に共通",
+     "en": "All five",
+     "stat": "L.O.",
+     "do": "Last order comes before closing. Check hours on the day."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "夜遅く、\n行く前に。",
+   "en": "Before a late dinner",
+   "checks": [
+    [
+     "ラストオーダーを確認",
+     "Check the last order time"
+    ],
+    [
+     "喫煙できる店がある",
+     "Okamoto allows smoking at all seats"
+    ],
+    [
+     "現金のみの店がある",
+     "Daitoryo is cash only"
+    ],
+    [
+     "最後は3時までの一杯",
+     "Asagaya serves until 3am"
+    ]
+   ]
+  }
+ ]
+}

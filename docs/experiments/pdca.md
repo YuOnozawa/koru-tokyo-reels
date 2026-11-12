@@ -55,3 +55,7 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Slots (JST): issue A reel 12:00 + carousel 20:00; issue B carousel 08:00 + reel 17:00. Today: c_03 (A) + c_05 (B, 17:00/22:00).
 - Queue compressed: the 8 built issues now run 11/12–11/15 (was 11/12–11/19). Six new-format issues are out by 11/14, so the kill-rule read moves up to ~11/16.
 - Production runs become daily (2 issues per run). Posting hour becomes a passive variable (08/12/17/20/22).
+
+- 2026-11-12 (same day): made No.08 東の鰻 (A, 11/16) and No.09 夜10時からの晩ごはん (B, 11/16). Tabelog score/count, 20-latest-review themes and house rules saved in shops.json.
+- Stale late-night facts found while re-checking (Tabelog, Nov 12): Hon-Tosaya now closes 23:00 (food LO 22:00), not 2:00; Coffee Lodge Akaishi now 9:00–20:00, not 3:00; Daitoryo 23:30, not 24:00. Already-posted reels with the old hours: c_08_late (Akaishi), n_04_midnight (Akaishi, Daitoryo), n_06_asakusa_late (Akaishi, Hon-Tosaya). Suggest Yu archives them with the other old reels. Rule: late-night hours are re-checked within 7 days of posting.
+- Scheduling: a production reminder for 11/14 08:00 (old every-2-days chain) could not be cancelled from here; when it fires, do the normal daily run and do NOT schedule another 2-day reminder.

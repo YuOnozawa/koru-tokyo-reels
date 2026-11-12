@@ -1,0 +1,317 @@
+{
+ "id": "c_08_eel",
+ "issue": "No.08",
+ "place": "TOKYO · EAST",
+ "reel": {
+  "cover_cap": "Eel in East Tokyo: five worth booking",
+  "end_cap": "Save it before you book",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "jp": "東の[鰻]、\n五軒。",
+   "jp_size": 128,
+   "en": "Eel in East Tokyo: five worth booking",
+   "en_size": 50,
+   "lines": [
+    [
+     "うな重は\n3,630円から。",
+     "Unaju from ¥3,630"
+    ],
+    [
+     "五軒とも\n予約できる。",
+     "All five take bookings"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ],
+   "bg": "#4A2A12",
+   "big": "鰻",
+   "big_size": 820
+  },
+  {
+   "type": "list",
+   "kicker": "EEL · EAST TOKYO",
+   "jp": "予約して行く鰻",
+   "en": "Five eel houses",
+   "reel_cap": "Five eel houses, with price and how to book",
+   "items": [
+    {
+     "jp": "初小川",
+     "en": "Hatsuogawa",
+     "area": "浅草 · 14席 · Asakusa, 14 seats",
+     "badge": "TABELOG 3.74 · BIB GOURMAND 2026",
+     "cap": "14 seats, cash only",
+     "facts": [
+      [
+       "PRICE",
+       "¥4–5k"
+      ],
+      [
+       "BOOK",
+       "Phone, even the day before"
+      ],
+      [
+       "CLOSED",
+       "Wed"
+      ]
+     ]
+    },
+    {
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "area": "末広町 · 個室 · Suehirocho, private rooms",
+     "badge": "TABELOG 3.73 · 100 EEL ×5",
+     "cap": "Private rooms, ¥15–20k dinner",
+     "facts": [
+      [
+       "PRICE",
+       "Lunch ¥6–8k · dinner ¥15–20k"
+      ],
+      [
+       "BOOK",
+       "Online"
+      ],
+      [
+       "CLOSED",
+       "Sun & Mon"
+      ]
+     ]
+    },
+    {
+     "jp": "神田きくかわ",
+     "en": "Kanda Kikukawa",
+     "area": "神田 · 英語メニュー · Kanda, English menu",
+     "badge": "TABELOG 3.55 · SINCE 1947",
+     "cap": "English menu, near Akihabara",
+     "facts": [
+      [
+       "PRICE",
+       "¥5–8k"
+      ],
+      [
+       "BOOK",
+       "Online or phone"
+      ],
+      [
+       "CLOSED",
+       "Mon"
+      ]
+     ]
+    },
+    {
+     "jp": "伊豆榮 本店",
+     "en": "Izuei Honten",
+     "area": "上野 · 不忍池 · Ueno, by Shinobazu Pond",
+     "badge": "TABELOG 3.50",
+     "cap": "By the pond, open every day",
+     "facts": [
+      [
+       "PRICE",
+       "Unaju ¥3,630–5,830"
+      ],
+      [
+       "BOOK",
+       "Private rooms only"
+      ],
+      [
+       "OPEN",
+       "Every day"
+      ]
+     ]
+    },
+    {
+     "jp": "駒形 前川",
+     "en": "Komagata Maekawa",
+     "area": "浅草 · 隅田川 · Asakusa, on the Sumida",
+     "badge": "TABELOG 3.46",
+     "cap": "River view, open every day",
+     "facts": [
+      [
+       "PRICE",
+       "Lunch ¥6–8k · dinner ¥10–15k"
+      ],
+      [
+       "BOOK",
+       "Online or phone"
+      ],
+      [
+       "OPEN",
+       "Every day"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 12, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "初小川",
+     "en": "Hatsuogawa",
+     "praise": "Soft eel and a delicate liver soup. Many book by phone, often just the day before.",
+     "loved_jp": "鰻重と肝吸い",
+     "loved_en": "Unaju with liver soup",
+     "basis": "10 of 20 on the soft eel, 15 mention booking"
+    },
+    {
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "praise": "The old wooden house and its quiet private rooms. The eel is grilled to order, so expect a wait.",
+     "loved_jp": "座敷で鰻重",
+     "loved_en": "Unaju in a private room",
+     "basis": "15 of 20 on the house, 11 on the rooms"
+    },
+    {
+     "jp": "神田きくかわ",
+     "en": "Kanda Kikukawa",
+     "praise": "Thick, fluffy steamed eel in the Tokyo style, in an old shop near Akihabara.",
+     "loved_jp": "うな重",
+     "loved_en": "Unaju",
+     "basis": "12 of 20 on the fluffy eel"
+    },
+    {
+     "jp": "伊豆榮 本店",
+     "en": "Izuei Honten",
+     "praise": "The view over Shinobazu Pond, and an old Ueno name. Several mention foreign guests.",
+     "loved_jp": "池を見ながら鰻",
+     "loved_en": "Eel with a view of the pond",
+     "basis": "9 of 20 on the view"
+    },
+    {
+     "jp": "駒形 前川",
+     "en": "Komagata Maekawa",
+     "praise": "The Sumida River and Skytree from the table. A lighter sauce, and the shirayaki.",
+     "loved_jp": "白焼きと鰻重",
+     "loved_en": "Shirayaki and unaju",
+     "basis": "15 of 20 on the view, 8 on shirayaki"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "label_left": [
+    "Kanda"
+   ],
+   "stations": [
+    "Akihabara",
+    "Ueno"
+   ],
+   "pins": [
+    {
+     "station": "Asakusa",
+     "jp": "初小川",
+     "en": "Hatsuogawa",
+     "walk": "Asakusa 3 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "walk": "Suehirocho 5 min"
+    },
+    {
+     "station": "Kanda",
+     "jp": "神田きくかわ",
+     "en": "Kanda Kikukawa",
+     "walk": "Kanda 2 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "伊豆榮 本店",
+     "en": "Izuei Honten",
+     "walk": "Ueno-Hirokoji 3 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "駒形 前川",
+     "en": "Komagata Maekawa",
+     "walk": "Asakusa 1 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "予約の前に、店の決まり",
+   "en": "House rules before you book",
+   "sub": "from each restaurant's own Tabelog listing, Nov 12, 2026",
+   "reel_cap": "House rules, before you book",
+   "grid_h": 1040,
+   "do_size": 28,
+   "items": [
+    {
+     "jp": "初小川",
+     "en": "Hatsuogawa",
+     "stat": "CASH",
+     "do": "Cash only. 14 seats. Lunch 12:00–13:30, dinner 17:00–20:00."
+    },
+    {
+     "jp": "明神下 神田川",
+     "en": "Myojinshita Kandagawa",
+     "stat": "RICE",
+     "do": "Rice is charged separately from the eel. Visa/Mastercard only."
+    },
+    {
+     "jp": "神田きくかわ",
+     "en": "Kanda Kikukawa",
+     "stat": "NO CANCEL",
+     "do": "No same-day cancels. Steep stairs to the 2F rooms: ask ahead."
+    },
+    {
+     "jp": "伊豆榮 本店",
+     "en": "Izuei Honten",
+     "stat": "+15%",
+     "do": "Private room = +15% service. Table seats can't be booked."
+    },
+    {
+     "jp": "駒形 前川",
+     "en": "Komagata Maekawa",
+     "stat": "+10%",
+     "do": "From 16:00, 10% service is added. Cards and PayPay OK."
+    },
+    {
+     "jp": "鰻に共通",
+     "en": "All eel houses",
+     "stat": "WAIT",
+     "do": "Eel is grilled after you order, so it takes a while. Order a drink and wait."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "鰻の日、\n行く前に。",
+   "en": "Before your eel",
+   "checks": [
+    [
+     "予約は電話かネットで",
+     "Book by phone or online"
+    ],
+    [
+     "現金のみの店がある",
+     "Hatsuogawa is cash only"
+    ],
+    [
+     "夕方からサービス料",
+     "Service charge from 16:00 at Maekawa"
+    ],
+    [
+     "焼き上がりまで待つ",
+     "Allow time: eel is grilled to order"
+    ]
+   ]
+  }
+ ]
+}
