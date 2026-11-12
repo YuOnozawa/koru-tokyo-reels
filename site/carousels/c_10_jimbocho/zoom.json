@@ -1,0 +1,199 @@
+{
+ "id": "c_10_jimbocho",
+ "reel": {
+  "cover_cap": "Curry in Jimbocho: five famous plates",
+  "end_cap": "Save it, bring cash",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Curry in Jimbocho: five famous plates",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Five curry houses, hours and how to pay",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "1. Bondy (main store) — Bondy: potatoes first, then curry"
+    },
+    {
+     "x": 44,
+     "y": 392.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Gavial — Gavial: rich beef curry"
+    },
+    {
+     "x": 44,
+     "y": 576.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Soup Curry Ohdory — Ohdory: red and black soup"
+    },
+    {
+     "x": 44,
+     "y": 760.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. Panch Mahal — Panch Mahal: spice curry, pick the heat"
+    },
+    {
+     "x": 44,
+     "y": 944.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "5. Sumatra Curry Kyoeido — Kyoeido: black Sumatra curry"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Bondy: Beef curry"
+    },
+    {
+     "x": 44,
+     "y": 357.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Gavial: Beef curry"
+    },
+    {
+     "x": 44,
+     "y": 507.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Ohdory: Red and black soups"
+    },
+    {
+     "x": 44,
+     "y": 657.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Panch Mahal: Chicken curry"
+    },
+    {
+     "x": 44,
+     "y": 807.703125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Kyoeido: Sumatra curry"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 981,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Bondy — Jimbocho 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Gavial — Jimbocho 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Kyoeido — Jimbocho A5, 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Panch Mahal — Jimbocho 5 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "5. Ohdory — Jimbocho A5, 5 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "House rules, before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Four take cash only"
+    },
+    {
+     "x": 548,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Mostly no bookings"
+    },
+    {
+     "x": 44,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Sundays: check"
+    },
+    {
+     "x": 548,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Lunch lines"
+    },
+    {
+     "x": 44,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Pick your heat"
+    },
+    {
+     "x": 548,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. Sold out = closed"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your curry",
+   "boxes": []
+  }
+ ]
+}

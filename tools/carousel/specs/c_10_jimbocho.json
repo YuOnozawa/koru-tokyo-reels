@@ -1,0 +1,317 @@
+{
+ "id": "c_10_jimbocho",
+ "issue": "No.10",
+ "place": "TOKYO · JIMBOCHO",
+ "reel": {
+  "cover_cap": "Curry in Jimbocho: five famous plates",
+  "end_cap": "Save it, bring cash",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#7A3B12",
+   "big": "カレー",
+   "big_size": 330,
+   "jp": "神保町、\n[カレー]の名店。",
+   "jp_size": 112,
+   "en": "Curry in Jimbocho: five famous plates",
+   "en_size": 48,
+   "lines": [
+    [
+     "一皿1,000〜2,000円。",
+     "¥1,000–2,000 a plate"
+    ],
+    [
+     "秋葉原から\n歩いて20分。",
+     "20 min walk from Akihabara"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "CURRY · JIMBOCHO",
+   "jp": "神保町のカレー五軒",
+   "en": "Five curry houses",
+   "reel_cap": "Five curry houses, hours and how to pay",
+   "items": [
+    {
+     "jp": "欧風カレー ボンディ",
+     "en": "Bondy (main store)",
+     "area": "欧風 · 古書センター2階 · European-style",
+     "badge": "TABELOG 3.68 · 6,315 REVIEWS",
+     "cap": "Bondy: potatoes first, then curry",
+     "facts": [
+      [
+       "OPEN",
+       "11:00–22:00 (wknd from 10:00)"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "ガヴィアル",
+     "en": "Gavial",
+     "area": "欧風 · 辛さを選べる · European-style",
+     "badge": "TABELOG 3.75 · CURRY 100",
+     "cap": "Gavial: rich beef curry",
+     "facts": [
+      [
+       "OPEN",
+       "11:00–21:00 · closed Tue"
+      ],
+      [
+       "BOOK",
+       "Weekday dinner only"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    },
+    {
+     "jp": "スープカレー屋 鴻",
+     "en": "Soup Curry Ohdory",
+     "area": "スープカレー · Soup curry",
+     "badge": "TABELOG 3.78 · KANDA CURRY GP 2025",
+     "cap": "Ohdory: red and black soup",
+     "facts": [
+      [
+       "OPEN",
+       "10:30–20:00"
+      ],
+      [
+       "BOOK",
+       "Not at lunch"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "パンチマハル",
+     "en": "Panch Mahal",
+     "area": "インド風 · 辛さを選べる · Indian-style",
+     "badge": "TABELOG 3.77 · CURRY 100",
+     "cap": "Panch Mahal: spice curry, pick the heat",
+     "facts": [
+      [
+       "OPEN",
+       "Lunch, wkday dinner · closed Sun"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "共栄堂",
+     "en": "Sumatra Curry Kyoeido",
+     "area": "スマトラカレー · 黒いルー · Very dark roux",
+     "badge": "TABELOG 3.71 · 3,707 REVIEWS",
+     "cap": "Kyoeido: black Sumatra curry",
+     "facts": [
+      [
+       "OPEN",
+       "11:00–20:00 · closed Sun"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 13, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "ボンディ",
+     "en": "Bondy",
+     "praise": "Baked potatoes arrive first, then a rich beef curry. Worth the line, most say.",
+     "loved_jp": "ビーフカレー",
+     "loved_en": "Beef curry",
+     "basis": "14 of 20 mention the line"
+    },
+    {
+     "jp": "ガヴィアル",
+     "en": "Gavial",
+     "praise": "Deep, rich European-style curry, with the spice level your choice.",
+     "loved_jp": "ビーフカレー",
+     "loved_en": "Beef curry",
+     "basis": "6 of 20 on the rich taste"
+    },
+    {
+     "jp": "鴻",
+     "en": "Ohdory",
+     "praise": "Soup curry with a red or a black broth, and the heat your choice.",
+     "loved_jp": "赤と黒のスープ",
+     "loved_en": "Red and black soups",
+     "basis": "13 of 20 on the soup"
+    },
+    {
+     "jp": "パンチマハル",
+     "en": "Panch Mahal",
+     "praise": "A true spice curry. Many pick a high heat level and a big portion.",
+     "loved_jp": "チキンカレー",
+     "loved_en": "Chicken curry",
+     "basis": "6 of 20 on the spice"
+    },
+    {
+     "jp": "共栄堂",
+     "en": "Kyoeido",
+     "praise": "The black Sumatra curry, found nowhere else, in an old Jimbocho shop.",
+     "loved_jp": "スマトラカレー",
+     "loved_en": "Sumatra curry",
+     "basis": "4 of 20 on its long history"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "label_left": [
+    "Kanda"
+   ],
+   "stations": [
+    "Akihabara",
+    "Ochanomizu"
+   ],
+   "pins": [
+    {
+     "station": "Jimbocho",
+     "jp": "ボンディ",
+     "en": "Bondy",
+     "walk": "Jimbocho 1 min"
+    },
+    {
+     "station": "Jimbocho",
+     "jp": "ガヴィアル",
+     "en": "Gavial",
+     "walk": "Jimbocho 1 min"
+    },
+    {
+     "station": "Jimbocho",
+     "jp": "共栄堂",
+     "en": "Kyoeido",
+     "walk": "Jimbocho A5, 1 min"
+    },
+    {
+     "station": "Jimbocho",
+     "jp": "パンチマハル",
+     "en": "Panch Mahal",
+     "walk": "Jimbocho 5 min"
+    },
+    {
+     "station": "Jimbocho",
+     "jp": "鴻",
+     "en": "Ohdory",
+     "walk": "Jimbocho A5, 5 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "House rules before you go",
+   "sub": "from each restaurant's own Tabelog listing, Nov 13, 2026",
+   "reel_cap": "House rules, before you go",
+   "grid_h": 1040,
+   "do_size": 27,
+   "items": [
+    {
+     "jp": "四軒は現金だけ",
+     "en": "Four take cash only",
+     "stat": "CASH",
+     "do": "Only Gavial takes cards. Bring yen."
+    },
+    {
+     "jp": "予約はほぼ不可",
+     "en": "Mostly no bookings",
+     "stat": "WALK IN",
+     "do": "Gavial: weekday dinner only. Ohdory: not at lunch."
+    },
+    {
+     "jp": "日曜休みが多い",
+     "en": "Sundays: check",
+     "stat": "SUN",
+     "do": "Panch Mahal and Kyoeido close on Sun; Gavial on Tue."
+    },
+    {
+     "jp": "昼は並ぶ",
+     "en": "Lunch lines",
+     "stat": "12–13時",
+     "do": "Bondy is busiest at lunch. Come before 11:30 or after 14:00."
+    },
+    {
+     "jp": "辛さを選ぶ",
+     "en": "Pick your heat",
+     "stat": "辛さ",
+     "do": "Gavial, Ohdory and Panch Mahal ask your spice level."
+    },
+    {
+     "jp": "品切れで早じまい",
+     "en": "Sold out = closed",
+     "stat": "SOLD OUT",
+     "do": "Panch Mahal, and Gavial on weekends, can close early."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "カレーの日、\n行く前に。",
+   "en": "Before your curry",
+   "checks": [
+    [
+     "現金を持っていく",
+     "Bring cash"
+    ],
+    [
+     "昼の12時台は避ける",
+     "Skip 12:00–13:00 if you can"
+    ],
+    [
+     "日曜・火曜の休みに注意",
+     "Check Sun and Tue closures"
+    ],
+    [
+     "食後は喫茶店：トロワバグ",
+     "Coffee after: Cafe Trois Bagues"
+    ]
+   ]
+  }
+ ]
+}

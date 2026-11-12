@@ -1,0 +1,319 @@
+{
+ "id": "c_11_regulars",
+ "issue": "No.11",
+ "place": "TOKYO · AKIHABARA",
+ "reel": {
+  "cover_cap": "Where an Akihabara office worker eats lunch",
+  "end_cap": "Save it for a weekday lunch",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/yu_ginkgo_akiba_20261104.jpg",
+   "pos": "center 60%",
+   "jp": "Yuが通う、\n秋葉原の[昼]。",
+   "jp_size": 108,
+   "en": "Where an Akihabara office worker eats lunch",
+   "en_size": 44,
+   "lines": [
+    [
+     "五軒とも\n予約いらず。",
+     "No booking needed"
+    ],
+    [
+     "500円台から。",
+     "Lunch from about ¥500"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "の常連"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "YU'S REGULARS · AKIHABARA",
+   "jp": "Yuの昼、五軒",
+   "en": "Yu's five lunch spots",
+   "reel_cap": "Yu's five lunch spots",
+   "items": [
+    {
+     "jp": "みのがさ",
+     "en": "Minogasa",
+     "area": "立ち食いそば · 朝6時から · Standing soba",
+     "badge": "TABELOG 3.49",
+     "cap": "Minogasa: soba from 6am",
+     "facts": [
+      [
+       "ORDER",
+       "Kakiage soba ¥510"
+      ],
+      [
+       "OPEN",
+       "From 6:00"
+      ],
+      [
+       "PAY",
+       "Cash, IC card"
+      ]
+     ]
+    },
+    {
+     "jp": "新福菜館",
+     "en": "Shinpuku Saikan",
+     "area": "京都の黒い中華そば · Kyoto-style ramen",
+     "badge": "TABELOG 3.49",
+     "cap": "Shinpuku Saikan: dark Kyoto ramen",
+     "facts": [
+      [
+       "ORDER",
+       "Chuka soba ¥880–980"
+      ],
+      [
+       "OPEN",
+       "11:00–15:00, 17:30–23:00"
+      ],
+      [
+       "PAY",
+       "IC, PayPay"
+      ]
+     ]
+    },
+    {
+     "jp": "つじ田",
+     "en": "Tsujita",
+     "area": "濃厚つけ麺 · Rich tsukemen",
+     "badge": "YU'S PICK",
+     "cap": "Tsujita: rich tsukemen",
+     "facts": [
+      [
+       "ORDER",
+       "Tsukemen ¥1,110"
+      ],
+      [
+       "OPEN",
+       "11:00–22:00 (wknd 21:30)"
+      ],
+      [
+       "PAY",
+       "Cards, IC, QR"
+      ]
+     ]
+    },
+    {
+     "jp": "魚河岸 おに平",
+     "en": "Uogashi Onihei",
+     "area": "魚の定食 · Fish set lunch",
+     "badge": "TABELOG 3.41",
+     "cap": "Onihei: sashimi set lunch",
+     "facts": [
+      [
+       "ORDER",
+       "Sashimi set ¥880"
+      ],
+      [
+       "OPEN",
+       "Weekday lunch 11:30–14:30"
+      ],
+      [
+       "PAY",
+       "Cards, PayPay"
+      ]
+     ]
+    },
+    {
+     "jp": "いっぺこっぺ",
+     "en": "Ippekoppe",
+     "area": "とんかつ檍のカツカレー · Katsu curry",
+     "badge": "TABELOG 3.63",
+     "cap": "Ippekoppe: katsu curry",
+     "facts": [
+      [
+       "ORDER",
+       "Loin katsu curry ¥1,400"
+      ],
+      [
+       "OPEN",
+       "11:00–20:00 · closed Mon"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 13, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "みのがさ",
+     "en": "Minogasa",
+     "praise": "Fresh noodles at a standing counter, from early morning.",
+     "loved_jp": "かき揚げそば",
+     "loved_en": "Kakiage soba",
+     "basis": "6 of 20 mention the morning"
+    },
+    {
+     "jp": "新福菜館",
+     "en": "Shinpuku Saikan",
+     "praise": "A dark soy broth from Kyoto, and the fried rice on the side.",
+     "loved_jp": "中華そばとヤキメシ",
+     "loved_en": "Chuka soba and fried rice",
+     "basis": "7 of 20 on the dark broth, 5 on fried rice"
+    },
+    {
+     "jp": "つじ田",
+     "en": "Tsujita",
+     "praise": "Thick noodles in a rich, fish-and-pork dipping broth.",
+     "loved_jp": "濃厚つけ麺",
+     "loved_en": "Rich tsukemen",
+     "basis": "11 of 20 on the rich broth"
+    },
+    {
+     "jp": "おに平",
+     "en": "Uogashi Onihei",
+     "praise": "Fresh fish set lunches at a fair price.",
+     "loved_jp": "刺身定食",
+     "loved_en": "Sashimi set",
+     "basis": "9 of 20 on the fish, 12 on lunch sets"
+    },
+    {
+     "jp": "いっぺこっぺ",
+     "en": "Ippekoppe",
+     "praise": "Tonkatsu from the famous Aoki, on curry.",
+     "loved_jp": "ロースカツカレー",
+     "loved_en": "Loin katsu curry",
+     "basis": "19 of 20 on katsu and curry"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "All near Akihabara",
+   "label_left": [
+    "Kanda"
+   ],
+   "stations": [
+    "Ueno",
+    "Okachimachi"
+   ],
+   "pins": [
+    {
+     "station": "Akihabara",
+     "jp": "みのがさ",
+     "en": "Minogasa",
+     "walk": "Akihabara 2 min"
+    },
+    {
+     "station": "Akihabara",
+     "jp": "新福菜館",
+     "en": "Shinpuku Saikan",
+     "walk": "Akihabara 5 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "つじ田",
+     "en": "Tsujita",
+     "walk": "Suehirocho 1 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "おに平",
+     "en": "Uogashi Onihei",
+     "walk": "Suehirocho 2 min"
+    },
+    {
+     "station": "Suehirocho",
+     "jp": "いっぺこっぺ",
+     "en": "Ippekoppe",
+     "walk": "Suehirocho 3 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOW LUNCH WORKS",
+   "jp": "秋葉原の昼の決まり",
+   "en": "How lunch works here",
+   "sub": "Hours and payment: each shop's Tabelog listing, Nov 13, 2026",
+   "reel_cap": "How lunch works here",
+   "grid_h": 1040,
+   "do_size": 27,
+   "items": [
+    {
+     "jp": "12時台は混む",
+     "en": "12:00–13:00 is rush hour",
+     "stat": "RUSH",
+     "do": "Office workers eat then. Go at 11:30 or after 13:00."
+    },
+    {
+     "jp": "食券の店が多い",
+     "en": "Ticket machines",
+     "stat": "券売機",
+     "do": "Many soba and ramen shops sell tickets at the door: buy one, hand it over."
+    },
+    {
+     "jp": "現金だけの店",
+     "en": "Cash only",
+     "stat": "CASH",
+     "do": "Ippekoppe takes cash only. Minogasa: cash or IC card."
+    },
+    {
+     "jp": "予約はいらない",
+     "en": "No booking",
+     "stat": "WALK IN",
+     "do": "All five are walk-in at lunch."
+    },
+    {
+     "jp": "昼がお得",
+     "en": "Lunch is the deal",
+     "stat": "¥880",
+     "do": "Onihei: ¥880 set at lunch, courses from ¥3,000 at dinner."
+    },
+    {
+     "jp": "休みに注意",
+     "en": "Check closures",
+     "stat": "CLOSED",
+     "do": "Ippekoppe: Mon. Onihei: no weekend lunch."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "平日の昼、\n行く前に。",
+   "en": "Before a weekday lunch",
+   "checks": [
+    [
+     "11時半か13時過ぎに行く",
+     "Go at 11:30 or after 13:00"
+    ],
+    [
+     "小銭とICカードを持つ",
+     "Carry coins and an IC card"
+    ],
+    [
+     "券売機は写真で選べる",
+     "Ticket machines often have photos"
+    ],
+    [
+     "夜はどまんなか（No.03）",
+     "Dinner? See No.03 Domannaka"
+    ]
+   ],
+   "photo": "stock/yu/yu_coffee_hot_akiba_20261110.jpg",
+   "pos": "center 50%",
+   "photo_h": 300
+  }
+ ]
+}

@@ -79,3 +79,17 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - r_f_00_about (19:00) was recorded as already posted (it matched f_00_about's caption start) and its video was archived; nothing posted.
   Same would have hit c_03 (20:00) and c_05 (22:00). Cause: already_posted() compared only the first 80 chars, and a reel and the carousel
   of one issue share the opening. Fix: compare start AND end (the tails differ). r_f_00_about re-queued, video re-pushed.
+
+## 2026-11-13 08:00 production run (編集長メモ)
+- First numbers for the new format (insights 11/12 23:01 UTC, 11–19 h after posting):
+  - Magazine reels: r_c_03 reach 15 (avg watch 4.0 s), r_c_05 32 (3.2 s), r_f_00 16 (2.7 s).
+  - Old AI-voice reels at a similar age: reach 100–150 (avg watch 3.5–6.5 s).
+  - Carousels: reach 1–2 each (only ~11 followers see them; carousels get no non-follower push yet). Saves 0, shares 0.
+  - Account: profile views 4 → 31/day (follow/like rounds are working), link taps still 0, followers 9 → 11.
+- Read: the magazine reels are getting ~1/5 of the old reels' first push. Likely causes: a still, page-turning video looks like a slideshow
+  (weak first second, no motion, no voice), and 7 posts in one day split what little push there is. Carousels need followers first.
+- Kill rule check (6 new-format issues by 11/14): already below 100. Proposal to Yu (style decision, his call):
+  (a) keep the magazine for carousels + the app (reference, saves, AI/search), (b) test one reel variant with a moving first 2 s
+  (Yu's own photo, full-bleed push-in + one big question as the hook) and 15–20 s total, (c) put more weight on the shop pages for Google/ChatGPT.
+- Made: No.10 神保町、カレーの名店 (A, 11/17) and No.11 Yuが通う、秋葉原の昼 (B, 11/17). Tabelog score/review themes/house rules for 11 shops into shops.json.
+  Conflicting hours found and recorded (Onihei dinner, Ippekoppe Monday closure, Minogasa weekends) — Tabelog Nov 2026 used, noted in shops.json.

@@ -25,7 +25,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.49,
+  "tabelog_reviews": 1382,
+  "house_rules": [
+   "No bookings",
+   "No cards; e-money and PayPay OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): waiting 13/20, dark soy broth 7/20, fried rice 5/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Tsujita Kanda Suehirocho",
@@ -53,7 +61,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.06,
+  "tabelog_reviews": 80,
+  "house_rules": [
+   "No bookings",
+   "Cards, e-money, QR OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): rich dipping broth 11/20, the noodles 16/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Akihabara Ramen Waizu",
@@ -90,7 +106,7 @@
   "station": "Suehirocho",
   "walk_min": 3,
   "hours": "11:00-20:00 (listings differ, check before going)",
-  "closed_days": "None listed (open daily)",
+  "closed_days": "Monday (Tabelog Nov 2026)",
   "lunch_price_yen": "1400-2500",
   "dinner_price_yen": "1400-2500",
   "budget_band": "1500-4000",
@@ -109,7 +125,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.63,
+  "tabelog_reviews": 704,
+  "house_rules": [
+   "No bookings",
+   "Cash only"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): katsu 20/20, curry 19/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Akihabara Karigari (main store)",
@@ -148,7 +172,7 @@
   "genre": "Seafood izakaya / lunch set meals",
   "station": "Suehirocho",
   "walk_min": 2,
-  "hours": "Lunch Mon-Sat 11:30-14:30; dinner Thu-Sat 15:30-20:00 (LO 19:00)",
+  "hours": "Mon-Fri 11:30-14:30, 16:30-23:00; Sat 16:30-23:00 (Tabelog Nov 2026; earlier sources differ)",
   "closed_days": "Sundays and public holidays",
   "lunch_price_yen": "880 (set meals)",
   "dinner_price_yen": "3000-9000 (courses)",
@@ -166,7 +190,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.41,
+  "tabelog_reviews": 150,
+  "house_rules": [
+   "Bookings accepted",
+   "Cards and PayPay OK",
+   "Closed Sun and holidays"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): set lunches 12/20, fish 9/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Minogasa Kanda-Izumicho",
@@ -175,7 +208,7 @@
   "genre": "Standing soba",
   "station": "Akihabara",
   "walk_min": 2,
-  "hours": "Mon-Fri 6:00-19:00; Sat & Sun 6:00-16:00",
+  "hours": "Mon-Fri & holidays 6:00-19:00; Sat-Sun 6:00-17:00 (Tabelog Nov 2026)",
   "closed_days": "Public holidays",
   "lunch_price_yen": "460-780",
   "dinner_price_yen": "460-780",
@@ -193,7 +226,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.49,
+  "tabelog_reviews": 800,
+  "house_rules": [
+   "No bookings",
+   "Cash or transit IC card"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): early morning 6/20, standing counter 5/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Marugo",
@@ -698,7 +739,7 @@
   "genre": "European-style curry",
   "station": "Jimbocho",
   "walk_min": 1,
-  "hours": "Time Out (Nov 2025): Mon-Fri 11:00-22:00, Sat/Sun/hol 10:30-22:00, last order 30 min before closing. Chiyoda tourism site and Retty: daily 11:00-22:30 (LO 22:00).",
+  "hours": "Mon-Fri 11:00-22:00, Sat/Sun/hol 10:00-22:00 (LO 21:30) per Tabelog Nov 2026",
   "closed_days": "No regular closing day; closed for New Year",
   "lunch_price_yen": "1700-2000",
   "dinner_price_yen": "1700-2000",
@@ -720,7 +761,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.68,
+  "tabelog_reviews": 6315,
+  "house_rules": [
+   "No bookings",
+   "Cash only (no cards, e-money or QR)"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): the line 14/20, beef 5/20, spice level 5/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Sumatra Curry Kyoeido",
@@ -748,7 +797,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.71,
+  "tabelog_reviews": 3707,
+  "house_rules": [
+   "No bookings",
+   "Cash only"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): long history 4/20, meat 4/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Curry Rice Specialty Shop Ethiopia (Main Store)",
@@ -4899,7 +4956,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.75,
+  "tabelog_reviews": 3662,
+  "house_rules": [
+   "Bookings only for weekday dinner (from 17:00); none on weekends",
+   "Cards, e-money, QR OK",
+   "Weekends may close early when curry runs out"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): rich taste 6/20, spice level 6/20, beef 5/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Rice Curry Manten",
@@ -4989,7 +5055,15 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.72,
+  "tabelog_reviews": 1271,
+  "house_rules": [
+   "Bookings accepted",
+   "Cards, e-money OK"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): coffee 12/20, atmosphere 7/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Chuka Soba Ikyo",
@@ -5212,7 +5286,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.78,
+  "tabelog_reviews": 2094,
+  "house_rules": [
+   "No bookings at lunch",
+   "Cash only",
+   "No charge"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): the soup 13/20, spice level 7/20, waiting 6/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Panch Mahal",
@@ -5245,7 +5328,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.77,
+  "tabelog_reviews": 1131,
+  "house_rules": [
+   "No bookings",
+   "Cash only"
+  ],
+  "review_summary": "20 latest Tabelog reviews (Nov 13, 2026): spice 6/20, spice level 6/20, soup-like curry 7/20.",
+  "rules_checked": "2026-11-13"
  },
  {
   "name_en": "Hinataya",

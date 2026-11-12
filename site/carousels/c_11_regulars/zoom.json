@@ -1,0 +1,199 @@
+{
+ "id": "c_11_regulars",
+ "reel": {
+  "cover_cap": "Where an Akihabara office worker eats lunch",
+  "end_cap": "Save it for a weekday lunch",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Where an Akihabara office worker eats lunch",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Yu's five lunch spots",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "1. Minogasa — Minogasa: soba from 6am"
+    },
+    {
+     "x": 44,
+     "y": 392.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Shinpuku Saikan — Shinpuku Saikan: dark Kyoto ramen"
+    },
+    {
+     "x": 44,
+     "y": 576.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Tsujita — Tsujita: rich tsukemen"
+    },
+    {
+     "x": 44,
+     "y": 760.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. Uogashi Onihei — Onihei: sashimi set lunch"
+    },
+    {
+     "x": 44,
+     "y": 944.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "5. Ippekoppe — Ippekoppe: katsu curry"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Minogasa: Kakiage soba"
+    },
+    {
+     "x": 44,
+     "y": 357.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Shinpuku Saikan: Chuka soba and fried rice"
+    },
+    {
+     "x": 44,
+     "y": 507.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Tsujita: Rich tsukemen"
+    },
+    {
+     "x": 44,
+     "y": 657.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Uogashi Onihei: Sashimi set"
+    },
+    {
+     "x": 44,
+     "y": 807.703125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Ippekoppe: Loin katsu curry"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "All near Akihabara",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 981,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Minogasa — Akihabara 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Shinpuku Saikan — Akihabara 5 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Tsujita — Suehirocho 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Uogashi Onihei — Suehirocho 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "5. Ippekoppe — Suehirocho 3 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "How lunch works here",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. 12:00–13:00 is rush hour"
+    },
+    {
+     "x": 548,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Ticket machines"
+    },
+    {
+     "x": 44,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Cash only"
+    },
+    {
+     "x": 548,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. No booking"
+    },
+    {
+     "x": 44,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Lunch is the deal"
+    },
+    {
+     "x": 548,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. Check closures"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before a weekday lunch",
+   "boxes": []
+  }
+ ]
+}
