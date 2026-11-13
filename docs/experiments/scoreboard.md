@@ -8,9 +8,9 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 32 | 123.6 | 26% | 0.4 | 0.0 | 0.4 |
-| B | 5 | 99.2 | 13% | 0.2 | 0.0 | 0.0 |
+| B | 4 | 98.8 | 14% | 0.0 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+102%)
+**Suggested verdict:** A wins (+93%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -55,7 +55,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 6 | 2.2 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 6 | 2.7 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -64,8 +64,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 11.3 | 9% | 0.0 | 0.0 | 0.2 |
-| B | 2 | 3.5 | 12% | 0.0 | 0.0 | 0.0 |
+| A | 6 | 12.2 | 9% | 0.0 | 0.0 | 0.2 |
+| B | 2 | 5.5 | 10% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -74,7 +74,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| magazine reel | 5 | 17.0 | 10% | 0.0 | 0.0 | 0.4 |
+| magazine reel | 6 | 16.7 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -141,7 +141,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 28 | 116.1 | 24% | 0.4 | 0.0 | 0.3 |
+| A | 27 | 116.6 | 24% | 0.4 | 0.0 | 0.3 |
 | B | 10 | 130.4 | 26% | 0.3 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
