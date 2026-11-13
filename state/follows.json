@@ -1126,6 +1126,34 @@
    "liked": true,
    "at": "2026-11-13T12:35Z",
    "source": "posted at Ueno Park location (recent tab), via Mac (941 followers)"
+  },
+  {
+   "user": "_danbayhon_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-13T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (408 followers)"
+  },
+  {
+   "user": "aeiwrn",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-13T21:40Z",
+   "source": "posted at Ueno Park location (recent tab), via Mac (2066 followers)"
+  },
+  {
+   "user": "terrinauh",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-13T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (521 followers)"
+  },
+  {
+   "user": "jasminemayjourney",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-13T21:40Z",
+   "source": "posted at Akihabara location (recent tab), via Mac (6856 followers)"
   }
  ],
  "candidates": [],
@@ -1283,7 +1311,8 @@
   "2026-11-12 06:20 JST run: 15 follows+likes (Ueno Park / Akihabara location feeds), 1 business skip, 2 comments (11/12 JST: 2/5). Keyword comments on n_07/n_05/n_02: none. Inbox/requests: nothing new. /api/v1/web/comments/<id>/add/ now 404 → comment via UI textarea + Enter; /api/v1/direct_v2/inbox/ 404 → read /direct/inbox/ page text.",
   "2026-11-12 21:20 JST run: 6 follows+likes (Ueno Park, Akihabara, Ameyoko feeds; total 11/12 JST: 21), 2 business skips, 2 comments (11/12 JST: 4/5). No keyword comments on our posts; inbox: dhiyatako and umie_abdulrahim followed back, no messages. Own comment deletable via hover → コメントのオプション → 削除.",
   "2026-11-13 06:20 JST run: 6 follows+likes (Ueno Park, Akihabara), 2 big skips, 2 comments (11/13 JST: 2/5). No keyword comments; no DMs; tedpetrovas followed back. Followers 11.",
-  "2026-11-13 21:20 JST run: 3 follows+likes (Ueno Park), 2 business skips, 1 comment (11/13 JST: 9 follows, 3 comments). No keyword comments; no DMs. Followers 13. Location feeds thin today (9 English candidates)."
+  "2026-11-13 21:20 JST run: 3 follows+likes (Ueno Park), 2 business skips, 1 comment (11/13 JST: 9 follows, 3 comments). No keyword comments; no DMs. Followers 13. Location feeds thin today (9 English candidates).",
+  "2026-11-14 06:20 JST run: 4 follows+likes (Ueno Park, Akihabara; Shibuya/Golden Gai feeds tried, few English travelers), 1 comment (11/14 JST: 1/5). terrinauh is labelled an AI-generated profile by IG — skip such accounts. No keyword comments; no DMs. Followers 13."
  ],
  "dm_log": [
   {
@@ -1339,7 +1368,14 @@
   "yorusha.raw",
   "japanoftala",
   "keo_recordz",
-  "simplest_moments"
+  "simplest_moments",
+  "melonpan_cos",
+  "journotravelexcellence",
+  "tanima399",
+  "anastasiiauss",
+  "koralle13",
+  "siam45496",
+  "verdeamia"
  ],
  "comment_queue": [
   {
@@ -1472,6 +1508,13 @@
    "text": "Beautiful morning light! When lunch comes, Tonkatsu Yamabe is 1 min from Ueno-Hirokoji: a pork loin cutlet set for about ¥1,000, open from 11:00.",
    "at": "2026-11-13T12:35Z",
    "basis": "shops.json Tonkatsu Yamabe Ueno"
+  },
+  {
+   "user": "_danbayhon_",
+   "post": "https://www.instagram.com/p/DfsXsXmy79h/",
+   "text": "The egg sando is a must! For more snacks near Ueno, Niku no Oyama sells menchi-katsu from ¥150 at its standing counter, 2 min from Ueno Station.",
+   "at": "2026-11-13T21:40Z",
+   "basis": "shops.json Niku no Oyama"
   }
  ]
 }
