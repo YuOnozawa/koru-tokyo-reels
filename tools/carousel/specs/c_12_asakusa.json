@@ -1,0 +1,318 @@
+{
+ "id": "c_12_asakusa",
+ "issue": "No.12",
+ "place": "TOKYO · ASAKUSA",
+ "reel": {
+  "cover_cap": "A day in Asakusa: five no-fail stops",
+  "end_cap": "Save it for your Asakusa day",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#8C1D18",
+   "big": "浅草",
+   "big_size": 330,
+   "jp": "浅草の、\n[一日]。",
+   "jp_size": 120,
+   "en": "A day in Asakusa: five no-fail stops",
+   "en_size": 48,
+   "lines": [
+    [
+     "朝9時から夜まで、五軒。",
+     "Five stops, 9am to dinner"
+    ],
+    [
+     "秋葉原から\n電車で約5分。",
+     "About 5 min from Akihabara (TX)"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "ONE DAY · ASAKUSA",
+   "jp": "浅草の一日、五軒",
+   "en": "Morning to dinner",
+   "reel_cap": "Five stops, hours and how to pay",
+   "items": [
+    {
+     "jp": "ペリカンカフェ",
+     "en": "Pelican Cafe",
+     "area": "朝9時 · 炭火トースト · Morning toast",
+     "badge": "TABELOG 3.70 · 1,366 REVIEWS",
+     "cap": "9:00 Pelican Cafe: toast and sandwiches",
+     "facts": [
+      [
+       "OPEN",
+       "9:00–17:00 · closed Sun"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cards, IC, QR OK"
+      ]
+     ]
+    },
+    {
+     "jp": "浅草今半 国際通り本店",
+     "en": "Asakusa Imahan",
+     "area": "昼11時半 · すき焼 · Sukiyaki lunch",
+     "badge": "TABELOG 3.62 · SINCE 1895",
+     "cap": "11:30 Imahan: sukiyaki lunch",
+     "facts": [
+      [
+       "LUNCH",
+       "11:30–14:30, from ¥2,200"
+      ],
+      [
+       "BOOK",
+       "Not for lunch"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    },
+    {
+     "jp": "梅園",
+     "en": "Umezono",
+     "area": "午後 · あわぜんざい · Sweets",
+     "badge": "TABELOG 3.46 · SINCE 1854",
+     "cap": "Afternoon: Umezono's awa zenzai",
+     "facts": [
+      [
+       "OPEN",
+       "10:00–17:00 (wknd –18:00)"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "グリルグランド",
+     "en": "grill GRAND",
+     "area": "夜 · 洋食 · Yoshoku dinner",
+     "badge": "MICHELIN BIB GOURMAND 2026",
+     "cap": "Dinner: grill GRAND, yoshoku",
+     "facts": [
+      [
+       "OPEN",
+       "17:00–21:00 · closed Sun, Mon"
+      ],
+      [
+       "BOOK",
+       "Dinner, by phone"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    },
+    {
+     "jp": "弁天山美家古寿司",
+     "en": "Bentenyama Miyako",
+     "area": "夜 · 江戸前鮨 · Edomae sushi",
+     "badge": "TABELOG 3.55 · SINCE 1866",
+     "cap": "Or dinner: Miyako, Edomae sushi",
+     "facts": [
+      [
+       "OPEN",
+       "17:00–21:00 · closed Mon"
+      ],
+      [
+       "BOOK",
+       "Yes"
+      ],
+      [
+       "PAY",
+       "Cash or card"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 14, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "ペリカンカフェ",
+     "en": "Pelican Cafe",
+     "praise": "Toast and sandwiches made with Pelican's own bread. The ham-katsu sandwich is the star.",
+     "loved_jp": "ハムカツサンド",
+     "loved_en": "Ham-katsu sandwich",
+     "basis": "7 of 20 on the ham-katsu"
+    },
+    {
+     "jp": "今半",
+     "en": "Imahan",
+     "praise": "Tender wagyu sukiyaki in a classic Asakusa house. Lunch is the easy way in.",
+     "loved_jp": "すき焼",
+     "loved_en": "Sukiyaki",
+     "basis": "11 of 20 on the sukiyaki"
+    },
+    {
+     "jp": "梅園",
+     "en": "Umezono",
+     "praise": "Warm awa zenzai, millet mochi under red bean paste, in a sweet shop from 1854.",
+     "loved_jp": "あわぜんざい",
+     "loved_en": "Awa zenzai",
+     "basis": "9 of 20 on awa zenzai"
+    },
+    {
+     "jp": "グリルグランド",
+     "en": "grill GRAND",
+     "praise": "Classic yoshoku done well: omurice, beef stew and hamburg steak.",
+     "loved_jp": "オムライス",
+     "loved_en": "Omurice",
+     "basis": "5 of 20 on the omurice"
+    },
+    {
+     "jp": "美家古寿司",
+     "en": "Miyako",
+     "praise": "Old-style Edomae sushi: cured, simmered and marinated toppings, as in Edo days.",
+     "loved_jp": "江戸前の握り",
+     "loved_en": "Edomae nigiri",
+     "basis": "13 of 20 on the Edomae work"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "label_left": [
+    "Tawaramachi"
+   ],
+   "stations": [
+    "Tawaramachi",
+    "Asakusa",
+    "Ueno"
+   ],
+   "pins": [
+    {
+     "station": "Tawaramachi",
+     "jp": "ペリカンカフェ",
+     "en": "Pelican Cafe",
+     "walk": "Tawaramachi 5 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "今半",
+     "en": "Imahan",
+     "walk": "Asakusa TX A2, 1 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "梅園",
+     "en": "Umezono",
+     "walk": "Asakusa 2 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "グリルグランド",
+     "en": "grill GRAND",
+     "walk": "Behind Senso-ji, 8 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "美家古寿司",
+     "en": "Miyako",
+     "walk": "Asakusa Exit 7, 3 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "House rules before you go",
+   "sub": "from each restaurant's own listing, Nov 14, 2026",
+   "reel_cap": "House rules, before you go",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "予約",
+     "en": "Booking",
+     "stat": "BOOK",
+     "do": "Imahan's lunch can't be booked. grill GRAND books dinner only, by phone."
+    },
+    {
+     "jp": "一品だけは不可",
+     "en": "Not one dish only",
+     "stat": "DINNER",
+     "do": "grill GRAND dinner: order a starter, soup, main and drinks, not omurice alone."
+    },
+    {
+     "jp": "30分遅れで取消",
+     "en": "30 min late = cancelled",
+     "stat": "30分",
+     "do": "Miyako cancels a booking 30 min late without a call. Seats are for 2 hours."
+    },
+    {
+     "jp": "サービス料",
+     "en": "Service charge",
+     "stat": "10%",
+     "do": "Imahan adds 10% when you spend ¥5,500 or more per person."
+    },
+    {
+     "jp": "支払い",
+     "en": "How to pay",
+     "stat": "CASH",
+     "do": "Umezono is cash only. Miyako: cash or card, no IC or QR."
+    },
+    {
+     "jp": "休みの日",
+     "en": "Closed days",
+     "stat": "SUN·MON",
+     "do": "Pelican Cafe: Sun. grill GRAND: Sun, Mon. Miyako: Mon, 1st and 3rd Sun."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "浅草の日、\n行く前に。",
+   "en": "Before your Asakusa day",
+   "checks": [
+    [
+     "日曜・月曜の休みに注意",
+     "Check Sun and Mon closures"
+    ],
+    [
+     "今半の昼は早めに",
+     "Imahan lunch: go early"
+    ],
+    [
+     "夜は電話で予約",
+     "Book dinner by phone"
+    ],
+    [
+     "梅園用に現金",
+     "Cash for Umezono"
+    ]
+   ]
+  }
+ ]
+}

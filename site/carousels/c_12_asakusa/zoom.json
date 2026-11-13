@@ -1,0 +1,199 @@
+{
+ "id": "c_12_asakusa",
+ "reel": {
+  "cover_cap": "A day in Asakusa: five no-fail stops",
+  "end_cap": "Save it for your Asakusa day",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "A day in Asakusa: five no-fail stops",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Five stops, hours and how to pay",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "1. Pelican Cafe — 9:00 Pelican Cafe: toast and sandwiches"
+    },
+    {
+     "x": 44,
+     "y": 392.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Asakusa Imahan — 11:30 Imahan: sukiyaki lunch"
+    },
+    {
+     "x": 44,
+     "y": 576.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Umezono — Afternoon: Umezono's awa zenzai"
+    },
+    {
+     "x": 44,
+     "y": 760.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. grill GRAND — Dinner: grill GRAND, yoshoku"
+    },
+    {
+     "x": 44,
+     "y": 944.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "5. Bentenyama Miyako — Or dinner: Miyako, Edomae sushi"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Pelican Cafe: Ham-katsu sandwich"
+    },
+    {
+     "x": 44,
+     "y": 357.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Imahan: Sukiyaki"
+    },
+    {
+     "x": 44,
+     "y": 507.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Umezono: Awa zenzai"
+    },
+    {
+     "x": 44,
+     "y": 657.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "grill GRAND: Omurice"
+    },
+    {
+     "x": 44,
+     "y": 807.703125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Miyako: Edomae nigiri"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 981,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Pelican Cafe — Tawaramachi 5 min"
+    },
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Imahan — Asakusa TX A2, 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Umezono — Asakusa 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "4. grill GRAND — Behind Senso-ji, 8 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "5. Miyako — Asakusa Exit 7, 3 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "House rules, before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Booking"
+    },
+    {
+     "x": 548,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Not one dish only"
+    },
+    {
+     "x": 44,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. 30 min late = cancelled"
+    },
+    {
+     "x": 548,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Service charge"
+    },
+    {
+     "x": 44,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. How to pay"
+    },
+    {
+     "x": 548,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. Closed days"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your Asakusa day",
+   "boxes": []
+  }
+ ]
+}

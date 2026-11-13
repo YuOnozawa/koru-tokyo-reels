@@ -1567,14 +1567,14 @@
   "genre": "Japanese sweets (anmitsu)",
   "station": "JR Ueno",
   "walk_min": 3,
-  "hours": "10:30-21:00 (weekend hours may be shorter)",
-  "closed_days": "Jan 1 (otherwise open year-round)",
+  "hours": "Mon-Fri 10:30-21:00; Sat-Sun 10:30-19:30 (Tabelog, Nov 2026)",
+  "closed_days": "Irregular",
   "lunch_price_yen": "620-980",
   "dinner_price_yen": "620-980",
   "budget_band": "under1500",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "No bookings",
   "what_to_order": "Cream anmitsu, ¥760",
   "tourist_tip": "70 table seats.",
   "yu_pick": false,
@@ -1585,16 +1585,24 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.55,
+  "tabelog_reviews": 2233,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): anmitsu 14/20, cream anmitsu 7/20, a wait 6/20.",
+  "house_rules": [
+   "No bookings",
+   "JCB and AMEX cards and e-money OK"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Ponta Honke",
   "name_ja": "ぽん多本家",
   "area": "Ueno",
   "genre": "Yoshoku (katsuretsu / pork cutlet)",
-  "station": "unknown",
-  "walk_min": "unknown",
-  "hours": "Lunch 11:00-14:00; dinner 16:30-20:20 (Sun and holidays from 16:00)",
+  "station": "Ueno-Hirokoji (Ginza Line) 1 min; JR Okachimachi (South Exit) 2 min",
+  "walk_min": 2,
+  "hours": "Tue-Sat 11:00-14:00 (LO 13:45), 16:30-20:20 (LO 19:45); Sun and holidays 11:00-14:00, 16:00-20:20 (LO 19:45)",
   "closed_days": "Monday (Tuesday if Monday is a holiday)",
   "lunch_price_yen": "4070-4620",
   "dinner_price_yen": "4070-4620",
@@ -1603,7 +1611,7 @@
    "Michelin Guide Tokyo 2026 Bib Gourmand"
   ],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable for 2 or more",
   "what_to_order": "Katsuretsu (pork loin cutlet), ¥4,070; rice, miso soup and pickles set +¥550",
   "tourist_tip": "Founded in 1905. Infants are not admitted.",
   "yu_pick": false,
@@ -1615,7 +1623,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.77,
+  "tabelog_reviews": 2080,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): the katsuretsu 13/20, tender and pale 6/20, history 7/20, stew 5/20.",
+  "house_rules": [
+   "Bookings for 2 or more",
+   "No children under school age",
+   "¥324 table charge if you order alcohol; no service charge",
+   "Cards OK; no e-money or QR pay"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Isen Honten",
@@ -2146,14 +2164,14 @@
   "genre": "Sukiyaki / shabu-shabu (wagyu)",
   "station": "Asakusa (Tsukuba Express Exit A2)",
   "walk_min": 1,
-  "hours": "11:30-21:30 (LO 20:30); lunch menu 11:30-14:30",
+  "hours": "11:30-21:30 (LO 20:30); lunch menu 11:30-14:30; no seating 14:30-16:00; last entry 19:00 (official site, Nov 2026)",
   "closed_days": "No regular closing day (open 365 days); temporary closures are announced on the official site",
   "lunch_price_yen": "2200-11000",
   "dinner_price_yen": "9680-33000 (set menus; 10% service charge on orders over 5500 per person; 440 appetizer charge)",
   "budget_band": "10000plus",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Dinner by phone; lunch menu not bookable",
   "what_to_order": "Hyakunen Gyudon at lunch (2200) or Kobe beef sukiyaki",
   "tourist_tip": "Lunch reservations are not accepted; book dinner by phone on +81-3-3841-1114.",
   "yu_pick": false,
@@ -2165,7 +2183,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.62,
+  "tabelog_reviews": 794,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): sukiyaki 11/20, tender wagyu 5/20, lunch bowls 5/20, a wait at lunch 7/20.",
+  "house_rules": [
+   "Lunch menu (11:30-14:30) cannot be booked and may end early when busy",
+   "No seating 14:30-16:00; enter by 19:00",
+   "10% service charge when you spend ¥5,500+ per person",
+   "Cards and QR pay OK"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Yonekyu Honten",
@@ -2287,14 +2315,14 @@
   "genre": "Edomae sushi (est. 1866)",
   "station": "Asakusa (Ginza Line)",
   "walk_min": 3,
-  "hours": "Weekdays 11:30-14:30, 17:30-21:00; Sun/holidays 11:30-18:30",
-  "closed_days": "Monday and the 3rd Sunday of each month",
+  "hours": "Tue-Sat 12:00-14:30 (LO 14:00), 17:00-21:00 (LO 20:00); Sun and holidays 12:00-18:00 (LO 17:00) (Tabelog, Nov 2026)",
+  "closed_days": "Monday; 1st and 3rd Sunday",
   "lunch_price_yen": "about 5000",
   "dinner_price_yen": "about 13000",
   "budget_band": "10000plus",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable",
   "what_to_order": "Traditional Edomae nigiri (cured or simmered toppings), Bentenyama course",
   "tourist_tip": "Credit cards accepted.",
   "yu_pick": false,
@@ -2306,7 +2334,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.55,
+  "tabelog_reviews": 411,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): long history 16/20, Edomae work (cured, simmered toppings) 13/20, booking ahead 5/20.",
+  "house_rules": [
+   "Cash or credit card only: no UnionPay, IC cards, e-money or QR pay",
+   "Two-hour seating",
+   "A booking is cancelled if you are 30 minutes late without calling",
+   "Leave by 21:00 (Sun and holidays 18:00)"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Asakusa Ramen Yoroiya",
@@ -2603,8 +2641,8 @@
   "genre": "Japanese sweets cafe (amamidokoro, est. 1854)",
   "station": "Asakusa (Exit 1)",
   "walk_min": 2,
-  "hours": "10:00-20:00",
-  "closed_days": "Irregular (some Wednesdays)",
+  "hours": "Mon-Fri 10:00-17:00 (LO 16:30); Sat, Sun, holidays 10:00-18:00 (LO 17:30) (Tabelog, Nov 2026)",
+  "closed_days": "Two irregular Wednesdays a month (see the official site)",
   "lunch_price_yen": "awa zenzai from 703",
   "dinner_price_yen": "n/a",
   "budget_band": "under1500",
@@ -2622,7 +2660,15 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": false
+  "dinner_ok": false,
+  "tabelog_score": 3.46,
+  "tabelog_reviews": 1280,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): awa zenzai 9/20, anmitsu 7/20, long history 5/20.",
+  "house_rules": [
+   "No bookings",
+   "Cash only (no cards, e-money or QR pay)"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Ichibanya (hand-grilled senbei)",
@@ -5808,7 +5854,7 @@
    "Michelin Bib Gourmand 2026"
   ],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Dinner only, by phone (03-3874-2351); lunch is walk-in",
   "what_to_order": "Beef stew (the house favorite); omurice with demi-glace or ketchup",
   "tourist_tip": "Cards and transit IC cards accepted, QR payment not accepted. No online booking per Hot Pepper; book by phone. May stop seating before last order when busy.",
   "yu_pick": false,
@@ -5819,7 +5865,18 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.7,
+  "tabelog_reviews": 944,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): lunch visits 7/20, omurice 5/20, stew, hamburg or steak 5/20, a line at opening 4/20.",
+  "house_rules": [
+   "Bookings for dinner only; lunch is walk-in",
+   "Dinner bookings for a single dish such as omurice alone are declined: order a starter, soup, main and drinks",
+   "Closed Sun and Mon, holidays included",
+   "May stop seating before last order when busy",
+   "Cards and IC cards OK; no QR pay"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Hatsuogawa",
@@ -6806,9 +6863,9 @@
   "area": "Asakusa",
   "genre": "Cafe (toast and sandwiches)",
   "station": "Tawaramachi (Ginza Line)",
-  "walk_min": "unknown",
-  "hours": "9:00-17:00 (morning menu 9:00-11:00)",
-  "closed_days": "Sunday and public holidays",
+  "walk_min": 5,
+  "hours": "Mon-Sat 9:00-17:00 (morning menu 9:00-11:00)",
+  "closed_days": "Sunday; summer and New Year breaks",
   "lunch_price_yen": "1000-2000",
   "dinner_price_yen": "n/a",
   "budget_band": "under1500",
@@ -6826,7 +6883,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": false
+  "dinner_ok": false,
+  "tabelog_score": 3.7,
+  "tabelog_reviews": 1366,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): sandwiches 11/20, ham-katsu sandwich 7/20, charcoal toast 6/20, a wait on weekend mornings 3/20.",
+  "house_rules": [
+   "No bookings",
+   "Cards, IC cards and QR pay OK",
+   "18 seats; non-smoking"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Yogashi Lemon Pie",
@@ -7145,7 +7211,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.6,
+  "tabelog_reviews": 1408,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): long history 7/20, hayashi rice 4/20, cutlets 4/20.",
+  "house_rules": [
+   "Bookings 11:30-17:00 are for 1 hour 20 minutes",
+   "No service or table charge",
+   "Cards, IC cards and PayPay OK",
+   "Children and strollers welcome"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Innsyoutei",
@@ -7174,7 +7250,15 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.62,
+  "tabelog_reviews": 1726,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): the setting in Ueno Park 9/20, hanakago basket lunch 6/20, tofu and yuba 6/20, a wait 6/20.",
+  "house_rules": [
+   "Lunch bookings only for the hanakago sets: weekdays from ¥2,950, weekends and holidays from ¥4,180",
+   "Cards OK; no e-money or QR pay"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Shoryu",
@@ -7260,7 +7344,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.64,
+  "tabelog_reviews": 1528,
+  "review_summary": "20 latest Tabelog reviews (Nov 14, 2026): the retro interior 12/20, a wait 11/20, sandwiches, toast or Napolitan 11/20, coffee 9/20.",
+  "house_rules": [
+   "No bookings",
+   "90-minute limit",
+   "Cash or PayPay only"
+  ],
+  "rules_checked": "2026-11-14"
  },
  {
   "name_en": "Andhra Kitchen",

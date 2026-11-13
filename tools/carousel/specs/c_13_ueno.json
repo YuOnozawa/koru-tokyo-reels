@@ -1,0 +1,315 @@
+{
+ "id": "c_13_ueno",
+ "issue": "No.13",
+ "place": "TOKYO · UENO",
+ "reel": {
+  "cover_cap": "Ueno, slowly: a no-fail day",
+  "end_cap": "Save it for your Ueno day",
+  "zoom_pages": [
+   "list"
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#2F4F3A",
+   "big": "上野",
+   "big_size": 330,
+   "jp": "上野、\n[ゆっくり]。",
+   "jp_size": 120,
+   "en": "Ueno, slowly: a no-fail day",
+   "en_size": 48,
+   "lines": [
+    [
+     "喫茶店、公園、\n甘味、洋食。",
+     "Coffee, the park, sweets, yoshoku"
+    ],
+    [
+     "秋葉原から\nJRで約5分。",
+     "About 5 min from Akihabara (JR)"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "ONE DAY · UENO",
+   "jp": "上野の一日、五軒",
+   "en": "Morning to dinner",
+   "reel_cap": "Five stops, hours and how to pay",
+   "items": [
+    {
+     "jp": "珈琲 王城",
+     "en": "Coffee Ojo",
+     "area": "朝8時 · 喫茶店 · Coffee house",
+     "badge": "TABELOG 3.64 · KISSATEN 100 2026",
+     "cap": "8:00 Coffee Ojo: a Showa coffee house",
+     "facts": [
+      [
+       "OPEN",
+       "8:00–19:00 daily"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash or PayPay"
+      ]
+     ]
+    },
+    {
+     "jp": "韻松亭",
+     "en": "Innsyoutei",
+     "area": "昼 · 上野公園の中 · Lunch in the park",
+     "badge": "TABELOG 3.62 · 1,726 REVIEWS",
+     "cap": "Lunch: Innsyoutei, inside Ueno Park",
+     "facts": [
+      [
+       "LUNCH",
+       "11:00–16:00, from ¥2,950"
+      ],
+      [
+       "BOOK",
+       "Yes (basket sets)"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    },
+    {
+     "jp": "みはし 上野本店",
+     "en": "Mihashi",
+     "area": "午後 · あんみつ · Sweets",
+     "badge": "TABELOG 3.55 · 2,233 REVIEWS",
+     "cap": "Afternoon: anmitsu at Mihashi",
+     "facts": [
+      [
+       "OPEN",
+       "10:30–21:00 (wknd –19:30)"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "JCB, AMEX, e-money"
+      ]
+     ]
+    },
+    {
+     "jp": "ぽん多本家",
+     "en": "Ponta Honke",
+     "area": "夜 · カツレツ · Katsuretsu",
+     "badge": "MICHELIN BIB GOURMAND 2026",
+     "cap": "Dinner: Ponta Honke's katsuretsu",
+     "facts": [
+      [
+       "OPEN",
+       "16:30–20:20 · closed Mon"
+      ],
+      [
+       "BOOK",
+       "2 or more"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    },
+    {
+     "jp": "黒船亭",
+     "en": "Kurofunetei",
+     "area": "夜 · 洋食 · Yoshoku",
+     "badge": "TABELOG 3.60 · YOSHOKU 100",
+     "cap": "Or dinner: Kurofunetei, yoshoku",
+     "facts": [
+      [
+       "OPEN",
+       "17:00–21:45 · closed Mon"
+      ],
+      [
+       "BOOK",
+       "Yes"
+      ],
+      [
+       "PAY",
+       "Cards, IC, PayPay"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 14, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "王城",
+     "en": "Coffee Ojo",
+     "praise": "A grand Showa-era room for coffee, thick toast and sandwiches. Many mention a line.",
+     "loved_jp": "レトロな店内",
+     "loved_en": "The retro room",
+     "basis": "12 of 20 on the interior"
+    },
+    {
+     "jp": "韻松亭",
+     "en": "Innsyoutei",
+     "praise": "A lunch set in a flower basket, with tofu and yuba, among Ueno Park's trees.",
+     "loved_jp": "花籠膳",
+     "loved_en": "Basket lunch",
+     "basis": "6 of 20 on the basket lunch"
+    },
+    {
+     "jp": "みはし",
+     "en": "Mihashi",
+     "praise": "Anmitsu, and the cream anmitsu above all.",
+     "loved_jp": "クリームあんみつ",
+     "loved_en": "Cream anmitsu",
+     "basis": "14 of 20 on the anmitsu"
+    },
+    {
+     "jp": "ぽん多本家",
+     "en": "Ponta Honke",
+     "praise": "A thick, pale and tender pork katsuretsu, in a Ueno house founded in 1905.",
+     "loved_jp": "カツレツ",
+     "loved_en": "Katsuretsu",
+     "basis": "13 of 20 on the katsuretsu"
+    },
+    {
+     "jp": "黒船亭",
+     "en": "Kurofunetei",
+     "praise": "Long-loved yoshoku in Ueno: hayashi rice, stews and cutlets.",
+     "loved_jp": "ハヤシライス",
+     "loved_en": "Hayashi rice",
+     "basis": "4 of 20 on the hayashi rice"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "stations": [
+    "Ueno",
+    "Okachimachi",
+    "Akihabara"
+   ],
+   "pins": [
+    {
+     "station": "Ueno",
+     "jp": "王城",
+     "en": "Coffee Ojo",
+     "walk": "Ueno 4 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "韻松亭",
+     "en": "Innsyoutei",
+     "walk": "Keisei Ueno 7 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "みはし",
+     "en": "Mihashi",
+     "walk": "JR Ueno 3 min"
+    },
+    {
+     "station": "Okachimachi",
+     "jp": "ぽん多本家",
+     "en": "Ponta Honke",
+     "walk": "Okachimachi S. Exit 2 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "黒船亭",
+     "en": "Kurofunetei",
+     "walk": "Keisei Ueno 2 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "House rules before you go",
+   "sub": "from each restaurant's own listing, Nov 14, 2026",
+   "reel_cap": "House rules, before you go",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "小さな子は不可",
+     "en": "No small children",
+     "stat": "AGE",
+     "do": "Ponta Honke: no children under school age. Bookings for 2 or more."
+    },
+    {
+     "jp": "お通し代",
+     "en": "Table charge",
+     "stat": "¥324",
+     "do": "Ponta Honke adds ¥324 if you order alcohol. Kurofunetei: no charge."
+    },
+    {
+     "jp": "時間制",
+     "en": "Time limits",
+     "stat": "90分",
+     "do": "Coffee Ojo: 90 min. Kurofunetei bookings 11:30–17:00: 1 h 20 min."
+    },
+    {
+     "jp": "昼の予約",
+     "en": "Lunch bookings",
+     "stat": "BOOK",
+     "do": "Innsyoutei books lunch for basket sets only: ¥2,950+ weekdays, ¥4,180+ weekends."
+    },
+    {
+     "jp": "支払い",
+     "en": "How to pay",
+     "stat": "PAY",
+     "do": "Coffee Ojo: cash or PayPay only. Mihashi: JCB, AMEX or e-money."
+    },
+    {
+     "jp": "月曜休み",
+     "en": "Mondays",
+     "stat": "MON",
+     "do": "Ponta Honke and Kurofunetei close on Mon. Coffee Ojo opens daily."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "上野の日、\n行く前に。",
+   "en": "Before your Ueno day",
+   "checks": [
+    [
+     "月曜の夜は避ける",
+     "Skip Monday dinner"
+    ],
+    [
+     "韻松亭の昼は予約",
+     "Book Innsyoutei's lunch"
+    ],
+    [
+     "王城は並ぶことも",
+     "Coffee Ojo: there may be a line"
+    ],
+    [
+     "小さな子連れはぽん多以外へ",
+     "Small kids? Try Kurofunetei"
+    ]
+   ]
+  }
+ ]
+}

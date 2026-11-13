@@ -93,3 +93,16 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   (Yu's own photo, full-bleed push-in + one big question as the hook) and 15–20 s total, (c) put more weight on the shop pages for Google/ChatGPT.
 - Made: No.10 神保町、カレーの名店 (A, 11/17) and No.11 Yuが通う、秋葉原の昼 (B, 11/17). Tabelog score/review themes/house rules for 11 shops into shops.json.
   Conflicting hours found and recorded (Onihei dinner, Ippekoppe Monday closure, Minogasa weekends) — Tabelog Nov 2026 used, noted in shops.json.
+
+## 2026-11-14 08:00 production run (編集長メモ)
+- Numbers (insights 11/13 23:01 UTC): followers 14 (+1). Account reach 83/day, profile views 21, link taps 0, engaged 2.
+  - Reels, new format, ~8–19 h old: r_c_04 reach 10 (avg watch 1.0 s), r_x_01 7 (2.4 s), r_f_01 8 (1.0 s). Day-old: r_c_05 39 (2.8 s), r_f_00 20 (2.6 s), r_c_03 16 (3.8 s).
+  - Carousels: reach 1–4. Saves 0, shares 0 on everything since 11/12.
+  - Old AI-voice reels (11/10–11): 103–152 reach, avg watch 3.5–6.6 s.
+- Read: no improvement; the magazine reels hold at ~10–40 reach and the watch time on list-type covers (c_04, f_01) is ~1 s, i.e. people
+  swipe on the first frame. The Tenkaippin Extra (photo) holds 2.4 s and c_03 (Yu's food photos) 3.8 s: Yu's photos keep people longer than type covers.
+  This supports proposal (b) (moving first 2 s on a real photo + a question), still waiting for Yu's go.
+- Made: No.12 浅草の一日 (A, 11/18: reel 12:00, carousel 20:00) and No.13 上野、ゆっくり (B, 11/18: carousel 08:00, reel 17:00).
+  10 shops updated in shops.json (Tabelog score/count, 20-review themes, house rules, checked 2026-11-14).
+  Corrections: Imahan lunch can't be booked, no seating 14:30–16:00, last entry 19:00 (official site); Umezono now 10:00–17:00 weekdays
+  (was 10–20), cash only; Miyako is Tue–Sat 12:00 start, closed Mon + 1st/3rd Sun (was 3rd Sun only); Mihashi weekends to 19:30.
