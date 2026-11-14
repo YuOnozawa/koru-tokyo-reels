@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T15:04:45.568023+00:00",
+ "fetched_at": "2026-11-14T23:01:19.976914+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -7,7 +7,7 @@
   "media_count": 115,
   "id": "28241506535529259",
   "followers_count": 14,
-  "follows_count": 147
+  "follows_count": 152
  },
  "media": [
   {
@@ -32,15 +32,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where would you start? Four bowls of noodles Yu ate, Sapporo",
-   "reach": 14,
-   "views": 16,
+   "reach": 113,
+   "views": 117,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4929,
-   "ig_reels_video_view_total_time": 73949
+   "ig_reels_avg_watch_time": 3113,
+   "ig_reels_video_view_total_time": 354945
   },
   {
    "id": "18100109159451259",
@@ -49,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "What to eat in Kanazawa? 4 bites from Yu's trip 👇\n\nKanazawa,",
-   "reach": 51,
-   "views": 56,
+   "reach": 52,
+   "views": 57,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1514,
-   "ig_reels_video_view_total_time": 77254
+   "ig_reels_avg_watch_time": 1523,
+   "ig_reels_video_view_total_time": 79236
   },
   {
    "id": "18152066785523096",
@@ -81,15 +81,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Free with every issue: the with KORU app 📒 Free, no sign-up\n",
-   "reach": 9,
-   "views": 10,
+   "reach": 30,
+   "views": 31,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 983,
-   "ig_reels_video_view_total_time": 8847
+   "ig_reels_avg_watch_time": 794,
+   "ig_reels_video_view_total_time": 23832
   },
   {
    "id": "17913945969592238",
@@ -846,9 +846,9 @@
   }
  ],
  "account_daily": {
-  "reach": 86,
-  "views": 144,
-  "profile_views": 7,
+  "reach": 203,
+  "views": 267,
+  "profile_views": 11,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }

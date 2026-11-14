@@ -64,8 +64,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 15.8 | 10% | 0.0 | 0.0 | 0.1 |
-| B | 4 | 6.8 | 22% | 0.0 | 0.0 | 0.0 |
+| A | 8 | 15.9 | 10% | 0.0 | 0.0 | 0.1 |
+| B | 4 | 31.5 | 16% | 0.0 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -74,8 +74,8 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 2 | 32.5 | 23% | 0.0 | 0.0 | 0.0 |
-| magazine reel | 6 | 17.0 | 8% | 0.0 | 0.0 | 0.3 |
+| hook reel | 2 | 82.5 | 16% | 0.0 | 0.0 | 0.0 |
+| magazine reel | 6 | 20.5 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -84,7 +84,7 @@ Metric: **ss** · A = travel · B = tokyo · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| travel | 4 | 16.8 | 23% | 0.0 | 0.0 | 0.0 |
+| travel | 4 | 41.8 | 16% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
