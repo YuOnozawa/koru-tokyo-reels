@@ -157,5 +157,48 @@
    "pos": "center 45%",
    "photo_h": 330
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "金沢で、\n何を食べる？",
+  "q_en": "What to eat in Kanazawa? 4 bites from Yu's trip",
+  "photo": "stock/yu/kanazawa_sasabune_crab.jpg",
+  "pos": [
+   0.5,
+   0.5
+  ],
+  "beats": [
+   {
+    "photo": "stock/yu/kanazawa_sasabune_crab.jpg",
+    "jp": "香箱蟹",
+    "en": "Kobako crab",
+    "fact": "Winter only · Kanazawa Sasabune"
+   },
+   {
+    "photo": "stock/yu/kanazawa_sasabune_fish.jpg",
+    "jp": "のどぐろ",
+    "en": "Nodoguro, grilled",
+    "fact": "Kaiseki in a private tatami room"
+   },
+   {
+    "photo": "stock/yu/kanazawa_sasabune_grill.jpg",
+    "pos": [
+     0.7,
+     0.4
+    ],
+    "jp": "松茸の炭火焼き",
+    "en": "Matsutake on charcoal",
+    "fact": "Book ahead · closed Sundays"
+   },
+   {
+    "photo": "stock/yu/kanazawa_kikukawa_unagi.jpg",
+    "pos": [
+     0.5,
+     0.6
+    ],
+    "jp": "一本うなぎ",
+    "en": "A whole eel over rice",
+    "fact": "Kikukawa · 3 min from JR Kanazawa"
+   }
+  ]
+ }
 }
