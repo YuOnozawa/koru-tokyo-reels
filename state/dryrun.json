@@ -1,10 +1,9 @@
 {
- "at": "2026-11-14T23:09:06.074502+00:00",
- "item": "r_c_15_kanda_soba",
+ "at": "2026-11-14T23:11:07.404695+00:00",
+ "item": "c_14_mornings",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18133454056779964"
+  "container": "18133454548779964"
  },
  "published": false
 }
