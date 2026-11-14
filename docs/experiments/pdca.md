@@ -106,3 +106,10 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   10 shops updated in shops.json (Tabelog score/count, 20-review themes, house rules, checked 2026-11-14).
   Corrections: Imahan lunch can't be booked, no seating 14:30–16:00, last entry 19:00 (official site); Umezono now 10:00–17:00 weekdays
   (was 10–20), cash only; Miyako is Tue–Sat 12:00 start, closed Mon + 1st/3rd Sun (was 3rd Sun only); Mihashi weekends to 19:30.
+
+## 2026-11-14 10:00 reels switched to hook reels (Yu: "go, from today")
+- Why: page-flip reels reach 7-39 (avg watch 1.0-3.8 s) vs 100-150 for the old reels; type-only covers are swiped in ~1 s.
+- New tools/carousel/hook.py: 0-2.4 s the question in big type over a moving Yu photo (red ground when no photo), one 2.3 s beat per
+  dish/shop (Yu photo, or the issue's own list row as a clip), then the cover + "続きはカルーセルで" + SAVE. 14-17 s. Caption line 1 = the question.
+- Rebuilt every queued reel from today: r_c_06 (12:00), r_x_02 (17:00), then 11/15-11/18. Carousels unchanged.
+- Read after 2 days (11/16 08:00 run): reach and avg watch of r_c_06 / r_x_02 / r_c_07 / r_x_03 vs 7-39 and 1-3.8 s. Target: back to 100+.

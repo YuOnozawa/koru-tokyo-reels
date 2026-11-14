@@ -313,5 +313,36 @@
     ]
    ]
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "東京で鰻、\nどこを予約する？",
+  "q_en": "Eel in East Tokyo: 5 worth booking",
+  "beats": [
+   {
+    "jp": "初小川",
+    "en": "Hatsuogawa · Asakusa",
+    "fact": "14 seats · ¥4–5k · book by phone"
+   },
+   {
+    "jp": "明神下 神田川",
+    "en": "Myojinshita Kandagawa · Suehirocho",
+    "fact": "Private rooms · book online"
+   },
+   {
+    "jp": "神田きくかわ",
+    "en": "Kanda Kikukawa · Kanda",
+    "fact": "English menu · ¥5–8k"
+   },
+   {
+    "jp": "伊豆榮 本店",
+    "en": "Izuei Honten · Ueno",
+    "fact": "Unaju ¥3,630–5,830"
+   },
+   {
+    "jp": "駒形 前川",
+    "en": "Komagata Maekawa · Asakusa",
+    "fact": "On the Sumida River"
+   }
+  ]
+ }
 }

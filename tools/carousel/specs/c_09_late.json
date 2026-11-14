@@ -312,5 +312,36 @@
     ]
    ]
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "夜10時、\nまだ食べられる？",
+  "q_en": "Dinner after 10pm in East Tokyo: 5 places",
+  "beats": [
+   {
+    "jp": "味坊",
+    "en": "Ajibo · Kanda",
+    "fact": "Lamb, NE Chinese · to 22:30"
+   },
+   {
+    "jp": "ねぎま三ぞう",
+    "en": "Negima Sanzo · Akihabara",
+    "fact": "Yakitori and seafood · to 23:30"
+   },
+   {
+    "jp": "浅草酒場 岡本",
+    "en": "Asakusa Sakaba Okamoto",
+    "fact": "Hoppy Street · to 23:00"
+   },
+   {
+    "jp": "大統領",
+    "en": "Daitoryo · Ueno",
+    "fact": "Offal skewers, Ameyoko · to 23:30"
+   },
+   {
+    "jp": "あさが家",
+    "en": "Asagaya · Ueno",
+    "fact": "Iekei ramen · to 3:00"
+   }
+  ]
+ }
 }

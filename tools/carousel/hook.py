@@ -84,7 +84,25 @@ def main(cid, out=None):
 
     # 1) hook: the question, big, over a photo that punches in then drifts
     hp = load(hk.get('photo'))
-    lines = hk['q_jp'].split('\n'); fq = jp(hk.get('q_size', 118)); fen = arc(50)
+    lines = hk['q_jp'].split('\n'); qs = hk.get('q_size', 118)
+    _d = ImageDraw.Draw(Image.new('RGB', (8, 8)))
+    while qs > 60 and max(_d.textlength(l, font=jp(qs)) for l in lines) > W - 180: qs -= 4
+    fq = jp(qs); fen = arc(50)
+    cdir = os.path.join(ROOT, 'site/carousels', cid)
+    zoom = json.load(open(os.path.join(cdir, 'zoom.json')))
+    listp = next((p for p in zoom['pages'] if p['type'] == 'list' and p['boxes']), None)
+
+    def clip_for(bi, b):
+        if b.get('clip'):
+            pg = zoom['pages'][b['clip'][0]]; bx = pg['boxes'][b['clip'][1]]
+        elif listp and bi < len(listp['boxes']):
+            pg, bx = listp, listp['boxes'][bi]
+        else:
+            return None
+        im = Image.open(os.path.join(cdir, pg['page'])).convert('RGB')
+        pad = 16; c = im.crop((max(0, bx['x'] - pad), max(0, bx['y'] - pad), min(1080, bx['x'] + bx['w'] + pad), min(1350, bx['y'] + bx['h'] + pad)))
+        sc = min(1000 / c.width, 560 / c.height)
+        return c.resize((int(c.width * sc), int(c.height * sc)), Image.LANCZOS)
     for i in range(int(HOOK_T * FPS)):
         t = i / FPS
         if hp:
@@ -108,6 +126,7 @@ def main(cid, out=None):
     beats = hk['beats']
     for bi, b in enumerate(beats):
         bp = load(b.get('photo'))
+        clip = None if bp else clip_for(bi, b)
         for i in range(int(BEAT_T * FPS)):
             t = i / FPS
             if bp:
@@ -118,6 +137,12 @@ def main(cid, out=None):
                 d0 = ImageDraw.Draw(f)
                 num = str(bi + 1); fn = arc(900, 900)
                 d0.text((W - 60 - d0.textlength(num, font=fn) + int(40 * (1 - t / BEAT_T)), 120), num, font=fn, fill=(232, 228, 220))
+            if clip is not None:
+                a0 = ease(t / 0.35); cy = 330 + int((1 - a0) * 120)
+                sc = 1.0 + 0.04 * (t / BEAT_T); cc = clip.resize((int(clip.width * sc), int(clip.height * sc)))
+                cx = (W - cc.width) // 2
+                d0.rectangle((cx + 12, cy + 14, cx + cc.width + 12, cy + cc.height + 14), fill=(210, 205, 196))
+                f.paste(cc, (cx, cy)); d0.rectangle((cx, cy, cx + cc.width - 1, cy + cc.height - 1), outline=INK, width=4)
             dr = ImageDraw.Draw(f); mast(dr) if bp else None
             if not bp:
                 dr.text((60, SAFE_TOP - 140), 'with', font=arc(34, 700), fill=INK)
@@ -127,7 +152,9 @@ def main(cid, out=None):
             x = 60 - int((1 - a) * 600)
             dr.rectangle((x, y - 96, x + 84, y - 12), fill=RED)
             dr.text((x + 42, y - 54), str(bi + 1), font=arc(60, 900), fill=WHITE, anchor='mm')
-            fj = jp(b.get('jp_size', 92))
+            sz = b.get('jp_size', 92)
+            while sz > 48 and max(dr.textlength(l, font=jp(sz)) for l in b['jp'].split('\n')) > W - 170: sz -= 4
+            fj = jp(sz)
             for ln in b['jp'].split('\n'):
                 y = block(dr, x, y, ln, fj, INK, YEL, (24, 12)) + 10
             a2 = ease((t - 0.25) / 0.3)

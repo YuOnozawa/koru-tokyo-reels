@@ -315,5 +315,37 @@
    "pos": "center 50%",
    "photo_h": 300
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "秋葉原の会社員、\n昼は何食べる？",
+  "q_en": "Yu's 5 regular lunches in Akihabara",
+  "photo": "stock/yu/yu_ginkgo_akiba_20261104.jpg",
+  "beats": [
+   {
+    "jp": "みのがさ",
+    "en": "Minogasa · standing soba",
+    "fact": "Kakiage soba ¥510"
+   },
+   {
+    "jp": "新福菜館",
+    "en": "Shinpuku Saikan · Kyoto ramen",
+    "fact": "Chuka soba ¥880–980"
+   },
+   {
+    "jp": "つじ田",
+    "en": "Tsujita · rich tsukemen",
+    "fact": "Tsukemen ¥1,110"
+   },
+   {
+    "jp": "魚河岸 おに平",
+    "en": "Uogashi Onihei · fish set",
+    "fact": "Sashimi set ¥880 · weekday lunch"
+   },
+   {
+    "jp": "いっぺこっぺ",
+    "en": "Ippekoppe · katsu curry",
+    "fact": "Loin katsu curry ¥1,400"
+   }
+  ]
+ }
 }

@@ -314,5 +314,36 @@
     ]
    ]
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "浅草で、\n失敗しない一日は？",
+  "q_en": "A day in Asakusa: 5 no-fail stops",
+  "beats": [
+   {
+    "jp": "ペリカンカフェ",
+    "en": "9:00 Pelican Cafe",
+    "fact": "Toast and sandwiches · closed Sun"
+   },
+   {
+    "jp": "浅草今半",
+    "en": "11:30 Asakusa Imahan",
+    "fact": "Sukiyaki lunch · since 1895"
+   },
+   {
+    "jp": "梅園",
+    "en": "Afternoon: Umezono",
+    "fact": "Awa zenzai · since 1854 · cash only"
+   },
+   {
+    "jp": "グリルグランド",
+    "en": "Dinner: grill GRAND",
+    "fact": "Yoshoku · Bib Gourmand 2026"
+   },
+   {
+    "jp": "弁天山美家古寿司",
+    "en": "Or: Bentenyama Miyako",
+    "fact": "Edomae sushi · since 1866"
+   }
+  ]
+ }
 }

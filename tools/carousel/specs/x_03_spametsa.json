@@ -173,5 +173,36 @@
    "pos": "center 55%",
    "photo_h": 300
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "サウナのあと、\n何食べる？",
+  "q_en": "After the sauna at Spa Metsa: what Yu ate",
+  "photo": "stock/yu/spametsa_trio.jpg",
+  "beats": [
+   {
+    "photo": "stock/yu/spametsa_wings.jpg",
+    "jp": "手羽の唐揚げ",
+    "en": "Fried chicken wings",
+    "fact": "Coated in black pepper"
+   },
+   {
+    "photo": "stock/yu/spametsa_kushikatsu.jpg",
+    "jp": "串カツ",
+    "en": "Kushikatsu",
+    "fact": "Two skewers a plate"
+   },
+   {
+    "photo": "stock/yu/spametsa_highball.jpg",
+    "jp": "ハイボール",
+    "en": "A highball",
+    "fact": "Open 9:30–24:30 · cards OK"
+   },
+   {
+    "photo": "stock/yu/spametsa_lounge.jpg",
+    "jp": "そして、ひと眠り",
+    "en": "Then a nap in the lounge",
+    "fact": "About 25 min from Akihabara"
+   }
+  ]
+ }
 }

@@ -118,5 +118,40 @@
    "meaning": "another serving of noodles, please",
    "note": "At Hakata tonkotsu shops you can order more noodles into your leftover soup. Say it before the soup gets cold."
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "北から南へ、\n麺を四杯。",
+  "q_en": "Four bowls Yu ate, Sapporo to Fukuoka",
+  "photo": "stock/yu/hokkaido_sumire.jpg",
+  "beats": [
+   {
+    "photo": "stock/yu/hokkaido_sumire.jpg",
+    "pos": [
+     0.5,
+     0.55
+    ],
+    "jp": "すみれ 本店",
+    "en": "Sumire, Sapporo",
+    "fact": "Rich miso ramen, with fried rice"
+   },
+   {
+    "photo": "stock/yu/shimonoseki_kawarasoba.jpg",
+    "jp": "瓦そば",
+    "en": "Kawara soba, Shimonoseki",
+    "fact": "Green-tea soba on a hot roof tile"
+   },
+   {
+    "photo": "stock/yu/fukuoka_ikkousha.jpg",
+    "jp": "博多一幸舎",
+    "en": "Ikkousha, Fukuoka Airport",
+    "fact": "Frothy tonkotsu, thin noodles"
+   },
+   {
+    "photo": "stock/yu/fukuoka_ramen_clear.jpg",
+    "jp": "豚そば月や",
+    "en": "Tsukiya, Fukuoka Airport",
+    "fact": "A clear tonkotsu, with citrus"
+   }
+  ]
+ }
 }

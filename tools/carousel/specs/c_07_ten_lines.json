@@ -171,5 +171,48 @@
     ]
    ]
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "店で、\n何て言う？",
+  "q_en": "10 Japanese lines for Tokyo restaurants",
+  "beats": [
+   {
+    "jp": "二人です",
+    "en": "futari desu",
+    "fact": "Two of us (hold up two fingers)",
+    "clip": [
+     1,
+     0
+    ]
+   },
+   {
+    "jp": "これをください",
+    "en": "kore o kudasai",
+    "fact": "This one, please (point at the menu)",
+    "clip": [
+     1,
+     4
+    ]
+   },
+   {
+    "jp": "お会計お願いします",
+    "en": "okaikei onegaishimasu",
+    "fact": "The check, please",
+    "clip": [
+     2,
+     3
+    ]
+   },
+   {
+    "jp": "ごちそうさまでした",
+    "en": "gochisōsama deshita",
+    "fact": "Thank you for the meal (on your way out)",
+    "clip": [
+     3,
+     0
+    ]
+   }
+  ],
+  "end_jp": "十のひとこと、全部はカルーセルで"
+ }
 }

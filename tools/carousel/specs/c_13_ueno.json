@@ -311,5 +311,36 @@
     ]
    ]
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "上野で、\nゆっくり一日。",
+  "q_en": "Ueno, slowly: 5 no-fail stops",
+  "beats": [
+   {
+    "jp": "珈琲 王城",
+    "en": "8:00 Coffee Ojo",
+    "fact": "A Showa-era coffee house · daily"
+   },
+   {
+    "jp": "韻松亭",
+    "en": "Lunch: Innsyoutei",
+    "fact": "Inside Ueno Park · book the basket sets"
+   },
+   {
+    "jp": "みはし",
+    "en": "Afternoon: Mihashi",
+    "fact": "Anmitsu · no booking"
+   },
+   {
+    "jp": "ぽん多本家",
+    "en": "Dinner: Ponta Honke",
+    "fact": "Katsuretsu · Bib Gourmand 2026"
+   },
+   {
+    "jp": "黒船亭",
+    "en": "Or: Kurofunetei",
+    "fact": "Hayashi rice · closed Mon"
+   }
+  ]
+ }
 }

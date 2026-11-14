@@ -313,5 +313,36 @@
     ]
    ]
   }
- ]
+ ],
+ "hook": {
+  "q_jp": "神保町で、\nどのカレー？",
+  "q_en": "Jimbocho curry: 5 famous plates",
+  "beats": [
+   {
+    "jp": "ボンディ",
+    "en": "Bondy",
+    "fact": "European-style · 11:00–22:00"
+   },
+   {
+    "jp": "ガヴィアル",
+    "en": "Gavial",
+    "fact": "European-style · closed Tue"
+   },
+   {
+    "jp": "スープカレー屋 鴻",
+    "en": "Soup Curry Ohdory",
+    "fact": "Soup curry · 10:30–20:00"
+   },
+   {
+    "jp": "パンチマハル",
+    "en": "Panch Mahal",
+    "fact": "Indian-style · closed Sun"
+   },
+   {
+    "jp": "共栄堂",
+    "en": "Kyoeido",
+    "fact": "Sumatra curry, a very dark roux"
+   }
+  ]
+ }
 }
