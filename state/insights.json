@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-14T06:34:07.784845+00:00",
+ "fetched_at": "2026-11-14T15:04:45.568023+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 113,
+  "media_count": 115,
   "id": "28241506535529259",
   "followers_count": 14,
-  "follows_count": 140
+  "follows_count": 147
  },
  "media": [
+  {
+   "id": "17958220125272065",
+   "permalink": "https://www.instagram.com/p/DfuKma6loxT/",
+   "timestamp": "2026-11-14T12:05:49+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Kanazawa, one autumn day 🍁 A kaiseki night at Kanazawa Sasab",
+   "reach": 1,
+   "views": 3,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "id": "18133983718825175",
+   "permalink": "https://www.instagram.com/reel/Dft12uNAx94/",
+   "timestamp": "2026-11-14T09:04:49+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Where would you start? Four bowls of noodles Yu ate, Sapporo",
+   "reach": 14,
+   "views": 16,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4929,
+   "ig_reels_video_view_total_time": 73949
+  },
   {
    "id": "18100109159451259",
    "permalink": "https://www.instagram.com/reel/DftQk6OSk69/",
@@ -17,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "What to eat in Kanazawa? 4 bites from Yu's trip 👇\n\nKanazawa,",
-   "reach": 33,
-   "views": 40,
+   "reach": 51,
+   "views": 56,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1025,
-   "ig_reels_video_view_total_time": 33831
+   "ig_reels_avg_watch_time": 1514,
+   "ig_reels_video_view_total_time": 77254
   },
   {
    "id": "18152066785523096",
@@ -49,15 +81,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Free with every issue: the with KORU app 📒 Free, no sign-up\n",
-   "reach": 8,
-   "views": 9,
+   "reach": 9,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1028,
-   "ig_reels_video_view_total_time": 8229
+   "ig_reels_avg_watch_time": 983,
+   "ig_reels_video_view_total_time": 8847
   },
   {
    "id": "17913945969592238",
@@ -131,7 +163,7 @@
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Eight rules before you eat out in Tokyo 🗾 From 300 East Toky",
    "reach": 5,
-   "views": 8,
+   "views": 9,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -210,7 +242,7 @@
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
    "reach": 4,
-   "views": 15,
+   "views": 16,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -530,7 +562,7 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Hungry after 10pm in East Tokyo? 🌙 Save this!\n\n1️⃣ Garyu Tan",
-   "reach": 324,
+   "reach": 325,
    "views": 348,
    "likes": 4,
    "comments": 0,
@@ -811,47 +843,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 4510,
    "ig_reels_video_view_total_time": 478119
-  },
-  {
-   "id": "18350845921267177",
-   "permalink": "https://www.instagram.com/reel/DfVKrIgBAPj/",
-   "timestamp": "2026-11-04T19:05:43+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Tokyo hacks #8: the 3pm trap 🔒\n\n92 of the 299 places I check",
-   "reach": 111,
-   "views": 123,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3282,
-   "ig_reels_video_view_total_time": 380748
-  },
-  {
-   "id": "18455404348126907",
-   "permalink": "https://www.instagram.com/reel/DfU4a9mO3gn/",
-   "timestamp": "2026-11-04T16:26:14+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Tokyo hacks #7: closing time is not last order ⏰\n\n108 of the",
-   "reach": 101,
-   "views": 107,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3851,
-   "ig_reels_video_view_total_time": 381299
   }
  ],
  "account_daily": {
-  "reach": 115,
-  "views": 228,
-  "profile_views": 21,
+  "reach": 86,
+  "views": 144,
+  "profile_views": 7,
   "profile_links_taps": 0,
-  "accounts_engaged": 2
+  "accounts_engaged": 1
  }
 }

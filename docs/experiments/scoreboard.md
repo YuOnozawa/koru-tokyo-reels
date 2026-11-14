@@ -8,9 +8,9 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 32 | 123.6 | 26% | 0.4 | 0.0 | 0.4 |
-| B | 3 | 105.3 | 14% | 0.0 | 0.0 | 0.0 |
+| B | 1 | 104.0 | 18% | 0.0 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+81%)
+_Not enough reels yet (need n≥3 per arm)._
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -55,7 +55,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 7 | 2.7 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 8 | 2.5 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -64,8 +64,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 15.3 | 9% | 0.0 | 0.0 | 0.1 |
-| B | 3 | 4.3 | 9% | 0.0 | 0.0 | 0.0 |
+| A | 8 | 15.8 | 10% | 0.0 | 0.0 | 0.1 |
+| B | 4 | 6.8 | 22% | 0.0 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -74,8 +74,8 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 1 | 33.0 | 7% | 0.0 | 0.0 | 0.0 |
-| magazine reel | 6 | 16.8 | 8% | 0.0 | 0.0 | 0.3 |
+| hook reel | 2 | 32.5 | 23% | 0.0 | 0.0 | 0.0 |
+| magazine reel | 6 | 17.0 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -84,7 +84,7 @@ Metric: **ss** · A = travel · B = tokyo · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| travel | 2 | 17.0 | 7% | 0.0 | 0.0 | 0.0 |
+| travel | 4 | 16.8 | 23% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -94,7 +94,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 16 | 124.0 | 17% | 0.6 | 0.0 | 0.6 |
+| B | 16 | 124.1 | 17% | 0.6 | 0.0 | 0.6 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -104,7 +104,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 125.8 | 48% | 0.4 | 0.0 | 0.3 |
-| B | 20 | 124.4 | 19% | 0.6 | 0.0 | 0.5 |
+| B | 20 | 124.5 | 19% | 0.6 | 0.0 | 0.5 |
 
 **Suggested verdict:** A wins (+150%)
 
@@ -114,16 +114,16 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 7 | 104.7 | 13% | 0.8 | 0.0 | 0.9 |
-| B | 6 | 150.2 | 18% | 0.7 | 0.0 | 0.7 |
+| B | 6 | 150.3 | 18% | 0.7 | 0.0 | 0.7 |
 
-**Suggested verdict:** B wins (+43%)
+**Suggested verdict:** B wins (+44%)
 
 ## H5 — Asking 'which one would you try?' in the caption gets comments
 Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 143.8 | 17% | 0.8 | 0.0 | 0.8 |
+| A | 8 | 143.9 | 17% | 0.8 | 0.0 | 0.8 |
 | B | 6 | 101.7 | 16% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
@@ -134,7 +134,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 7 | 114.0 | 16% | 0.4 | 0.0 | 0.1 |
-| B | 6 | 139.3 | 14% | 1.2 | 0.0 | 1.5 |
+| B | 6 | 139.5 | 14% | 1.2 | 0.0 | 1.5 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -143,8 +143,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 27 | 116.7 | 24% | 0.4 | 0.0 | 0.3 |
-| B | 8 | 140.1 | 29% | 0.4 | 0.0 | 0.6 |
+| A | 25 | 117.5 | 25% | 0.4 | 0.0 | 0.3 |
+| B | 8 | 140.2 | 29% | 0.4 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
 
