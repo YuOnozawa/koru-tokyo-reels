@@ -1,0 +1,154 @@
+{
+ "id": "x_04_kitasenju",
+ "reel": {
+  "cover_cap": "Extra: a Saturday eating in Kita-Senju",
+  "end_cap": "Save it for a local day"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: a Saturday eating in Kita-Senju",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "Street snacks Yu bought",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "1. Croquette · Kazama"
+    },
+    {
+     "x": 550,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "2. Fried potatoes · Kazama"
+    },
+    {
+     "x": 44,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "3. Mitarashi dango · Miyoshi"
+    },
+    {
+     "x": 550,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "4. Isobe dango · Miyoshi"
+    },
+    {
+     "x": 44,
+     "y": 1179.109375,
+     "w": 992,
+     "h": 114.890625,
+     "cap": "cash or e-money · cash; sells out early · cash only"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Musashiya: get the ganmo",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 981.78125,
+     "w": 992,
+     "h": 312.21875,
+     "cap": "Musashiya: Yu's pick was the ganmo"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "catalog",
+   "caption": "Lunch: Bella Bella",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "1. Shrimp and bacon arrabbiata"
+    },
+    {
+     "x": 550,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "2. Pescatore"
+    },
+    {
+     "x": 44,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "3. Red-wine stew"
+    },
+    {
+     "x": 550,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "4. A lunchtime beer"
+    },
+    {
+     "x": 44,
+     "y": 1155.21875,
+     "w": 992,
+     "h": 138.78125,
+     "cap": "starter, pasta or pizza, dessert, drink · open every day · cards, IC, QR OK"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "voices",
+   "caption": "What diners mention most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 232.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Kazama: The prices"
+    },
+    {
+     "x": 44,
+     "y": 383.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Miyoshi: Mitarashi"
+    },
+    {
+     "x": 44,
+     "y": 533.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Musashiya: Ganmo"
+    },
+    {
+     "x": 44,
+     "y": 683.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Bella Bella: Lunch"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your Kita-Senju day",
+   "boxes": []
+  }
+ ]
+}

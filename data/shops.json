@@ -8728,5 +8728,142 @@
    "https://maruchiba.jp/feature/detail_263.html"
   ],
   "checked": "2026-11-12"
+ },
+ {
+  "area": "Kita-Senju",
+  "station": "Kita-Senju",
+  "english_menu": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-15",
+  "rules_checked": "2026-11-15",
+  "lunch_ok": true,
+  "name_en": "Sozai Kazama",
+  "name_ja": "惣菜かざま",
+  "genre": "Deli (sozai): croquettes, fries, bento",
+  "walk_min": 8,
+  "hours": "11:00-20:00 (Tabelog, Nov 2026)",
+  "closed_days": "unknown",
+  "lunch_price_yen": "under1000",
+  "dinner_price_yen": "under1000",
+  "budget_band": "under1500",
+  "awards": [],
+  "reservation": "not_needed",
+  "what_to_order": "Croquette and fried potatoes to eat on the street (Yu's picks); Yu also liked the menchi-katsu and the chicken steak",
+  "tourist_tip": "Takeaway counter on the Senju Honcho shopping street, 8 min from the West Exit. No cards; e-money OK.",
+  "sources": [
+   "https://tabelog.com/tokyo/A1324/A132402/13109969/"
+  ],
+  "kind": "snack",
+  "dinner_ok": true,
+  "tabelog_score": 3.32,
+  "tabelog_reviews": 144,
+  "review_summary": "20 latest Tabelog reviews (Nov 15, 2026): low prices 14/20, fried food 3/20.",
+  "house_rules": [
+   "Takeaway",
+   "No cards; e-money OK"
+  ]
+ },
+ {
+  "area": "Kita-Senju",
+  "station": "Kita-Senju",
+  "english_menu": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-15",
+  "rules_checked": "2026-11-15",
+  "lunch_ok": true,
+  "name_en": "Dango no Miyoshi Kita-Senju",
+  "name_ja": "だんごの美好 北千住店",
+  "genre": "Dango and wagashi (takeaway)",
+  "walk_min": 5,
+  "hours": "Opens around 7:00 (per reviews); items sell out early",
+  "closed_days": "unknown",
+  "lunch_price_yen": "under1000",
+  "dinner_price_yen": "n/a",
+  "budget_band": "under1500",
+  "awards": [],
+  "reservation": "not_needed",
+  "what_to_order": "Mitarashi dango ¥90, isobe dango ¥100 (prices seen by Yu, Nov 2026)",
+  "tourist_tip": "Takeaway only. Cash only. Go in the morning: it sells out (Yu, and reviews).",
+  "sources": [
+   "https://tabelog.com/tokyo/A1324/A132402/13122287/"
+  ],
+  "kind": "sweet",
+  "dinner_ok": false,
+  "tabelog_score": 3.29,
+  "tabelog_reviews": 75,
+  "review_summary": "20 latest Tabelog reviews (Nov 15, 2026): mitarashi dango 10/20, low prices 8/20, the grilled, smoky edge 5/20, soft mochi 4/20.",
+  "house_rules": [
+   "Takeaway only",
+   "Cash only",
+   "Sells out early"
+  ]
+ },
+ {
+  "area": "Kita-Senju",
+  "station": "Kita-Senju",
+  "english_menu": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-15",
+  "rules_checked": "2026-11-15",
+  "lunch_ok": true,
+  "name_en": "Musashiya (tofu shop)",
+  "name_ja": "むさしや",
+  "genre": "Tofu shop: tofu, ganmo, fried tofu",
+  "walk_min": 5,
+  "hours": "Mon-Sat 10:00-19:00 (Tabelog, Nov 2026)",
+  "closed_days": "Sunday",
+  "lunch_price_yen": "under1000",
+  "dinner_price_yen": "n/a",
+  "budget_band": "under1500",
+  "awards": [],
+  "reservation": "not_needed",
+  "what_to_order": "Ganmo (fried tofu patty with vegetables): Yu's pick",
+  "tourist_tip": "A tofu shop on the Senju Honcho shopping street, 5 min from the West Exit. Cash only.",
+  "sources": [
+   "https://tabelog.com/tokyo/A1324/A132402/13123247/"
+  ],
+  "kind": "snack",
+  "dinner_ok": false,
+  "tabelog_score": 3.06,
+  "tabelog_reviews": 27,
+  "review_summary": "20 latest Tabelog reviews (Nov 15, 2026): tofu 16/20, ganmo 11/20, atsuage 7/20.",
+  "house_rules": [
+   "Cash only",
+   "Closed Sundays"
+  ]
+ },
+ {
+  "area": "Kita-Senju",
+  "station": "Kita-Senju (Chiyoda Line Exit 2)",
+  "english_menu": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-15",
+  "rules_checked": "2026-11-15",
+  "lunch_ok": true,
+  "name_en": "Bella Bella Kita-Senju",
+  "name_ja": "ベッラベーラ 北千住店",
+  "genre": "Italian (yofu izakaya): pasta, pizza",
+  "walk_min": 1,
+  "hours": "Sun-Thu 11:00-22:00 (food LO 21:30); Fri-Sat 11:00-23:00 (food LO 21:45)",
+  "closed_days": "None (except New Year)",
+  "lunch_price_yen": "1000-2000",
+  "dinner_price_yen": "2000-3000",
+  "budget_band": "1500-3000",
+  "awards": [],
+  "reservation": "bookable",
+  "what_to_order": "Holiday Select Lunch ¥1,800 incl. tax (starter, pasta or pizza, dessert, drink); shrimp and bacon arrabbiata; red-wine stew ¥769",
+  "tourist_tip": "Right by Chiyoda Line Exit 2. Open all day, every day. Cards, IC and QR pay OK. Kids welcome.",
+  "sources": [
+   "https://tabelog.com/tokyo/A1324/A132402/13021083/"
+  ],
+  "kind": "meal",
+  "dinner_ok": true,
+  "tabelog_score": 3.28,
+  "tabelog_reviews": 226,
+  "review_summary": "20 latest Tabelog reviews (Nov 15, 2026): lunch 8/20, pasta 7/20, wine 3/20.",
+  "house_rules": [
+   "Cards, IC and QR pay OK",
+   "Children welcome"
+  ]
  }
 ]

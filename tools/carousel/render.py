@@ -160,7 +160,7 @@ STATIONS = {  # name -> (jp, lat, lon)
  'Suehirocho': ('末広町', 35.7026, 139.7716), 'Akihabara': ('秋葉原', 35.6984, 139.7731), 'Kanda': ('神田', 35.6918, 139.7709),
  'Awajicho': ('淡路町', 35.6955, 139.7676), 'Ochanomizu': ('御茶ノ水', 35.6995, 139.7650), 'Jimbocho': ('神保町', 35.6960, 139.7577),
  'Asakusabashi': ('浅草橋', 35.6970, 139.7865), 'Kuramae': ('蔵前', 35.7035, 139.7907), 'Asakusa': ('浅草', 35.7110, 139.7964),
- 'Tawaramachi': ('田原町', 35.7097, 139.7905), 'Shin-Okachimachi': ('新御徒町', 35.7069, 139.7820), 'Iwamotocho': ('岩本町', 35.6955, 139.7759)}
+ 'Tawaramachi': ('田原町', 35.7097, 139.7905), 'Shin-Okachimachi': ('新御徒町', 35.7069, 139.7820), 'Iwamotocho': ('岩本町', 35.6955, 139.7759), 'Kita-Senju': ('北千住', 35.7497, 139.8049)}
 LINES = [(['Kanda', 'Akihabara', 'Okachimachi', 'Ueno'], '#7FB23A', 12, ''), (['Ochanomizu', 'Akihabara', 'Asakusabashi'], '#F2C200', 10, ''),
          (['Ueno', 'Suehirocho', 'Kanda'], '#F39700', 8, 'stroke-dasharray="2 14"'), (['Asakusabashi', 'Kuramae', 'Asakusa'], '#E85298', 8, 'stroke-dasharray="2 14"'),
          (['Asakusa', 'Tawaramachi', 'Ueno'], '#F39700', 8, 'stroke-dasharray="2 14"'), (['Jimbocho', 'Awajicho'], '#6CBB5A', 8, 'stroke-dasharray="2 14"')]

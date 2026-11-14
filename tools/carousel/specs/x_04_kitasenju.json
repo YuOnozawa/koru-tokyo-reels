@@ -1,0 +1,267 @@
+{
+ "id": "x_04_kitasenju",
+ "issue": "番外編 EXTRA 04",
+ "place": "TOKYO · KITA-SENJU",
+ "reel": {
+  "cover_cap": "Extra: a Saturday eating in Kita-Senju",
+  "end_cap": "Save it for a local day"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/senju_fry_hand.jpg",
+   "pos": "center 45%",
+   "jp": "番外編\n北千住で、\n[食べ歩き]。",
+   "jp_size": 104,
+   "en": "Extra: a Saturday eating in Kita-Senju",
+   "en_size": 48,
+   "lines": [
+    [
+     "惣菜、だんご、\n昼はパスタ。",
+     "Deli snacks, dango, pasta"
+    ],
+    [
+     "秋葉原から\nTXで約10分。",
+     "About 10 min from Akihabara"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が行った"
+   ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "EXTRA · STREET SNACKS",
+   "jp": "千住ほんちょう商店街",
+   "en": "Senju Honcho shopping street",
+   "sub": "West Exit, 5–8 min on foot",
+   "reel_cap": "Street snacks Yu bought",
+   "items": [
+    {
+     "photo": "stock/yu/senju_fry_hand.jpg",
+     "pos": "center 50%",
+     "jp": "コロッケ",
+     "en": "Croquette · Kazama",
+     "note": "惣菜かざま"
+    },
+    {
+     "photo": "stock/yu/senju_fried_bag.jpg",
+     "pos": "center 55%",
+     "jp": "ポテトフライ",
+     "en": "Fried potatoes · Kazama",
+     "note": "惣菜かざま"
+    },
+    {
+     "photo": "stock/yu/senju_dango_mitarashi.jpg",
+     "pos": "center 50%",
+     "jp": "みたらし ¥90",
+     "en": "Mitarashi dango · Miyoshi",
+     "note": "だんごの美好"
+    },
+    {
+     "photo": "stock/yu/senju_dango_isobe_an.jpg",
+     "pos": "center 50%",
+     "jp": "いそべ ¥100",
+     "en": "Isobe dango · Miyoshi",
+     "note": "のり巻きと、こしあん"
+    }
+   ],
+   "info": [
+    [
+     "かざま",
+     "11:00〜20:00",
+     "cash or e-money"
+    ],
+    [
+     "美好",
+     "朝7時ごろ〜",
+     "cash; sells out early"
+    ],
+    [
+     "むさしや",
+     "10:00〜19:00 日休",
+     "cash only"
+    ]
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/senju_musashiya_front.jpg",
+   "pos": "center 40%",
+   "kicker": "TOFU SHOP",
+   "jp": "豆腐屋の、\nがんも。",
+   "jp_size": 56,
+   "en": "Musashiya: get the ganmo",
+   "body": "Tofu, fried tofu and ganmo on the same street. Yu's pick was the ganmo. Mon–Sat 10:00–19:00, closed Sun. Cash only.",
+   "cap": "Musashiya: Yu's pick was the ganmo"
+  },
+  {
+   "type": "catalog",
+   "kicker": "LUNCH · ITALIAN",
+   "jp": "ベッラベーラ 北千住店",
+   "en": "Bella Bella, by Exit 2",
+   "sub": "Weekend Select Lunch ¥1,800 incl. tax",
+   "reel_cap": "Lunch: Bella Bella",
+   "items": [
+    {
+     "photo": "stock/yu/senju_bella_arrabbiata.jpg",
+     "pos": "center 50%",
+     "jp": "海老のアラビアータ",
+     "en": "Shrimp and bacon arrabbiata",
+     "note": "ランチで選べる"
+    },
+    {
+     "photo": "stock/yu/senju_bella_pescatore.jpg",
+     "pos": "center 60%",
+     "jp": "ペスカトーレ",
+     "en": "Pescatore",
+     "note": "ランチは +¥200"
+    },
+    {
+     "photo": "stock/yu/senju_bella_stew.jpg",
+     "pos": "center 50%",
+     "jp": "赤ワイン煮込み",
+     "en": "Red-wine stew",
+     "note": "¥769（税込）"
+    },
+    {
+     "photo": "stock/yu/senju_bella_beer.jpg",
+     "pos": "center 50%",
+     "jp": "昼のビール",
+     "en": "A lunchtime beer",
+     "note": "¥549〜（税込）"
+    }
+   ],
+   "info": [
+    [
+     "LUNCH",
+     "¥1,800〜（土日祝）",
+     "starter, pasta or pizza, dessert, drink"
+    ],
+    [
+     "OPEN",
+     "11:00〜22:00（金土〜23:00）",
+     "open every day"
+    ],
+    [
+     "PAY",
+     "カード・IC・QR",
+     "cards, IC, QR OK"
+    ]
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS SAY",
+   "jp": "口コミで多いのは",
+   "en": "What diners mention most",
+   "sub": "20 most recent Tabelog reviews each, Nov 15, 2026",
+   "reel_cap": "What diners mention most",
+   "items": [
+    {
+     "jp": "かざま",
+     "en": "Kazama",
+     "praise": "Cheap, generous deli food to take away. Yu: very cheap, and the menchi-katsu and chicken steak were good.",
+     "loved_jp": "安さ",
+     "loved_en": "The prices",
+     "basis": "14 of 20 on low prices"
+    },
+    {
+     "jp": "美好",
+     "en": "Miyoshi",
+     "praise": "Soft dango with a grilled, smoky edge. Yu: delicious, and they go fast.",
+     "loved_jp": "みたらし",
+     "loved_en": "Mitarashi",
+     "basis": "10 of 20 on mitarashi"
+    },
+    {
+     "jp": "むさしや",
+     "en": "Musashiya",
+     "praise": "A neighborhood tofu shop. The ganmo comes up most after the tofu itself.",
+     "loved_jp": "がんも",
+     "loved_en": "Ganmo",
+     "basis": "11 of 20 on ganmo"
+    },
+    {
+     "jp": "ベッラベーラ",
+     "en": "Bella Bella",
+     "praise": "An easy, all-day Italian by the station. Lunch and pasta come up most.",
+     "loved_jp": "ランチ",
+     "loved_en": "Lunch",
+     "basis": "8 of 20 on lunch"
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "北千住の日、\n行く前に。",
+   "en": "Before your Kita-Senju day",
+   "checks": [
+    [
+     "だんごは朝のうちに",
+     "Dango: go in the morning"
+    ],
+    [
+     "現金を持って",
+     "Bring cash for snacks"
+    ],
+    [
+     "むさしやは日曜休み",
+     "Musashiya: closed Sun"
+    ],
+    [
+     "昼は北千住駅 2番出口すぐ",
+     "Lunch: Bella Bella, by Exit 2"
+    ]
+   ],
+   "note": "Photos by Yu, Nov 2026 · hours: Tabelog, Nov 15",
+   "photo": "stock/yu/senju_dango_mitarashi.jpg",
+   "pos": "center 50%",
+   "photo_h": 300
+  }
+ ],
+ "hook": {
+  "q_jp": "北千住で、\n何食べる？",
+  "q_en": "A Saturday eating in Kita-Senju, 10 min from Akihabara",
+  "photo": "stock/yu/senju_fry_hand.jpg",
+  "pos": [
+   0.55,
+   0.45
+  ],
+  "beats": [
+   {
+    "photo": "stock/yu/senju_kazama_front.jpg",
+    "pos": [
+     0.5,
+     0.35
+    ],
+    "jp": "惣菜かざま",
+    "en": "Sozai Kazama",
+    "fact": "Croquettes and fries, very cheap"
+   },
+   {
+    "photo": "stock/yu/senju_dango_mitarashi.jpg",
+    "jp": "みたらし ¥90",
+    "en": "Dango no Miyoshi",
+    "fact": "Opens around 7am · sells out early"
+   },
+   {
+    "photo": "stock/yu/senju_musashiya_front.jpg",
+    "pos": [
+     0.5,
+     0.4
+    ],
+    "jp": "豆腐屋の、がんも",
+    "en": "Musashiya tofu shop",
+    "fact": "Closed Sundays · cash only"
+   },
+   {
+    "photo": "stock/yu/senju_bella_arrabbiata.jpg",
+    "jp": "昼はパスタ",
+    "en": "Bella Bella, by Exit 2",
+    "fact": "Weekend lunch set ¥1,800"
+   }
+  ]
+ }
+}
