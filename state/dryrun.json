@@ -1,9 +1,10 @@
 {
- "at": "2026-11-13T23:23:02.639184+00:00",
- "item": "c_12_asakusa",
+ "at": "2026-11-14T01:12:48.994059+00:00",
+ "item": "r_c_06_kanazawa",
  "result": {
   "status_code": "FINISHED",
-  "container": "18133181083779964"
+  "status": "FINISHED",
+  "id": "18133196824779964"
  },
  "published": false
 }
