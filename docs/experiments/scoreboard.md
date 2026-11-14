@@ -8,9 +8,9 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 32 | 123.6 | 26% | 0.4 | 0.0 | 0.4 |
-| B | 4 | 98.8 | 14% | 0.0 | 0.0 | 0.0 |
+| B | 3 | 105.3 | 14% | 0.0 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+93%)
+**Suggested verdict:** A wins (+81%)
 
 ## H10 — Non-food 'rest day' content (Spa Metsa sauna series) holds viewers as well as food reels
 Metric: **comp** · A = sauna series · B = food reels · status: running
@@ -55,7 +55,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 6 | 2.7 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 7 | 2.3 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -65,9 +65,9 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 12.2 | 9% | 0.0 | 0.0 | 0.2 |
-| B | 2 | 5.5 | 10% | 0.0 | 0.0 | 0.0 |
+| B | 3 | 3.7 | 10% | 0.0 | 0.0 | 0.0 |
 
-_Not enough reels yet (need n≥3 per arm)._
+**Suggested verdict:** no clear difference yet
 
 ## H16 — The slow magazine-flip reel (design D, ~25 s, no AI voice, real photos) beats the old AI-voice + stock-footage reel on reach and average watch time
 Metric: **reach** · A = magazine reel · B = old reel template · status: running
@@ -83,6 +83,7 @@ Metric: **ss** · A = travel · B = tokyo · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
+| travel | 1 | 0.0 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -142,7 +143,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 27 | 116.6 | 24% | 0.4 | 0.0 | 0.3 |
-| B | 10 | 130.4 | 26% | 0.3 | 0.0 | 0.6 |
+| B | 9 | 136.1 | 27% | 0.4 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
 
