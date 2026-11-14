@@ -1,0 +1,174 @@
+{
+ "id": "c_15_kanda_soba",
+ "reel": {
+  "cover_cap": "Kanda soba: four old Tokyo houses"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Kanda soba: four houses worth the trip",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Four soba houses, hours and how to pay",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "1. Kanda Matsuya — Kanda Matsuya: a historic building"
+    },
+    {
+     "x": 44,
+     "y": 392.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Kanda Yabu Soba — Kanda Yabu Soba: since 1880"
+    },
+    {
+     "x": 44,
+     "y": 576.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Shochikuan Masukawa — Masukawa: a tempura and soba course"
+    },
+    {
+     "x": 44,
+     "y": 760.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. Kanda Nishikicho Sarashina — Sarashina: pale, fine soba"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Matsuya: The old house"
+    },
+    {
+     "x": 44,
+     "y": 357.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Yabu Soba: Duck soba"
+    },
+    {
+     "x": 44,
+     "y": 507.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Masukawa: Tempura"
+    },
+    {
+     "x": 44,
+     "y": 657.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Sarashina: Sarashina soba"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Kanda Matsuya — Awajicho 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Kanda Yabu Soba — Awajicho Exit A3, 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Masukawa — Awajicho 3 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Sarashina — Ogawamachi Exit B7, 5 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "House rules, before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. 15 min late = cancelled"
+    },
+    {
+     "x": 548,
+     "y": 236.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Courses only"
+    },
+    {
+     "x": 44,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. No bookings"
+    },
+    {
+     "x": 548,
+     "y": 588.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Cash"
+    },
+    {
+     "x": 44,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Closed days"
+    },
+    {
+     "x": 548,
+     "y": 940.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. Sells out"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your soba lunch",
+   "boxes": []
+  }
+ ]
+}

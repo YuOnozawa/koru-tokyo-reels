@@ -1553,6 +1553,17 @@
   "caption": "Dinner after 10pm in East Tokyo 🌙 Five still serving\n\n① Ajibo (Kanda): lamb and Northeast Chinese · last order 22:30 (Sun 21:30) · cards\n② Negima Sanzo (Akihabara): yakitori and seafood · last order 23:30 daily\n③ Asakusa Sakaba Okamoto (Hoppy Street): stew and Hoppy until 23:00 · English menu · smoking at all seats\n④ Motsuyaki Daitoryo (Ueno): offal skewers under the Ameyoko tracks since 1950 · until 23:30 · cash only, no bookings\n⑤ Yokohama Ramen Asagaya (Ueno): the last bowl, until 3am daily · cards, IC, QR\n\nHours from each shop's Tabelog listing, checked Nov 12, 2026. Late hours change often: check on the day.\n\nSave it for your late night 🔖\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\n\n#tokyonightlife #latenighteats #tokyofood #ueno #asakusa #japantravel"
  },
  {
+  "id": "r_c_14_mornings",
+  "file": "videos/r_c_14_mornings.mp4",
+  "publish_at": "2026-11-19T12:00:00+09:00",
+  "len": 16.5,
+  "tests": {
+   "H16": "hook reel",
+   "H15": "A"
+  },
+  "caption": "Where to eat breakfast in Tokyo? 5 places open early 👇\n\nBreakfast near Akihabara: five places that open early ☕ All within 5 minutes of a station\n\n① 6:30 Shin-Tagoto: standing soba and curry, since 1968 · open daily to 23:00 · cash or IC card\n② 7:00 Kanda Coffee En, by Kanda North Exit · weekdays from 7:00 (Sat 8:00, Sun 9:00) · 2nd floor is smoking\n③ 7:30 Saito Coffee: coffee and toast · weekdays from 7:30, closed Sun · cash only\n④ 7:30 Kanda Shinoda Sushi: inari sushi and norimaki to go · closed Tue · cash only, ends when sold out\n⑤ 8:00 DILL Coffee Parlor: coffee and cake · open daily · cards OK\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Shinoda's inari (15 of 20), DILL's cakes (11 of 20), Shin-Tagoto's curry (10 of 20).\n\nSave it for your first morning 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#tokyobreakfast #akihabara #kanda #japantravel #tokyotrip"
+ },
+ {
   "id": "r_c_09_late",
   "file": "videos/r_c_09_late.mp4",
   "publish_at": "2026-11-19T17:00:00+09:00",
@@ -1563,5 +1574,52 @@
    "H13": "A"
   },
   "caption": "Still hungry after 10pm in Tokyo? 5 places 👇\n\nDinner after 10pm in East Tokyo 🌙 Five still serving\n\n① Ajibo (Kanda): lamb and Northeast Chinese · last order 22:30 (Sun 21:30) · cards\n② Negima Sanzo (Akihabara): yakitori and seafood · last order 23:30 daily\n③ Asakusa Sakaba Okamoto (Hoppy Street): stew and Hoppy until 23:00 · English menu · smoking at all seats\n④ Motsuyaki Daitoryo (Ueno): offal skewers under the Ameyoko tracks since 1950 · until 23:30 · cash only, no bookings\n⑤ Yokohama Ramen Asagaya (Ueno): the last bowl, until 3am daily · cards, IC, QR\n\nHours from each shop's Tabelog listing, checked Nov 12, 2026. Late hours change often: check on the day.\n\nSave it for your late night 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#tokyonightlife #latenighteats #tokyofood #ueno #asakusa #japantravel"
+ },
+ {
+  "id": "c_14_mornings",
+  "type": "carousel",
+  "images": [
+   "carousels/c_14_mornings/01.jpg",
+   "carousels/c_14_mornings/02.jpg",
+   "carousels/c_14_mornings/03.jpg",
+   "carousels/c_14_mornings/04.jpg",
+   "carousels/c_14_mornings/05.jpg",
+   "carousels/c_14_mornings/06.jpg"
+  ],
+  "publish_at": "2026-11-19T20:00:00+09:00",
+  "tests": {
+   "H14": "carousel",
+   "H15": "A"
+  },
+  "caption": "Breakfast near Akihabara: five places that open early ☕ All within 5 minutes of a station\n\n① 6:30 Shin-Tagoto: standing soba and curry, since 1968 · open daily to 23:00 · cash or IC card\n② 7:00 Kanda Coffee En, by Kanda North Exit · weekdays from 7:00 (Sat 8:00, Sun 9:00) · 2nd floor is smoking\n③ 7:30 Saito Coffee: coffee and toast · weekdays from 7:30, closed Sun · cash only\n④ 7:30 Kanda Shinoda Sushi: inari sushi and norimaki to go · closed Tue · cash only, ends when sold out\n⑤ 8:00 DILL Coffee Parlor: coffee and cake · open daily · cards OK\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Shinoda's inari (15 of 20), DILL's cakes (11 of 20), Shin-Tagoto's curry (10 of 20).\n\nSave it for your first morning 🔖\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\n\n#tokyobreakfast #akihabara #kanda #japantravel #tokyotrip"
+ },
+ {
+  "id": "c_15_kanda_soba",
+  "type": "carousel",
+  "images": [
+   "carousels/c_15_kanda_soba/01.jpg",
+   "carousels/c_15_kanda_soba/02.jpg",
+   "carousels/c_15_kanda_soba/03.jpg",
+   "carousels/c_15_kanda_soba/04.jpg",
+   "carousels/c_15_kanda_soba/05.jpg",
+   "carousels/c_15_kanda_soba/06.jpg"
+  ],
+  "publish_at": "2026-11-20T08:00:00+09:00",
+  "tests": {
+   "H14": "carousel",
+   "H15": "B"
+  },
+  "caption": "Kanda soba: four houses near Akihabara 🥢 About 10 minutes' walk from the station\n\n① Kanda Matsuya, Soba Hyakumeiten 2024: a designated Tokyo historic building · closed Sun and Mon · no bookings, cash only\n② Kanda Yabu Soba, since 1880: duck soba and seiro · closed Wed · bookable, cards OK\n③ Shochikuan Masukawa, Soba Hyakumeiten 2024: a tempura and soba course (lunch ¥5,200 + tax) · closed Sat and Sun · 15 min late without a call = cancelled with a 100% fee · 5% service charge\n④ Kanda Nishikicho Sarashina: pale, fine sarashina soba · weekdays, to 18:30 · cash only, may sell out\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Masukawa's tempura (13 of 20), Sarashina's white soba (9 of 20), the history at Matsuya and Yabu (6 of 20 each).\n\nSave it for a soba lunch 🔖\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\n\n#soba #kanda #tokyofood #japantravel #tokyotrip"
+ },
+ {
+  "id": "r_c_15_kanda_soba",
+  "file": "videos/r_c_15_kanda_soba.mp4",
+  "publish_at": "2026-11-20T17:00:00+09:00",
+  "len": 14.2,
+  "tests": {
+   "H16": "hook reel",
+   "H15": "B"
+  },
+  "caption": "Which soba in Kanda? 4 old houses near Akihabara 👇\n\nKanda soba: four houses near Akihabara 🥢 About 10 minutes' walk from the station\n\n① Kanda Matsuya, Soba Hyakumeiten 2024: a designated Tokyo historic building · closed Sun and Mon · no bookings, cash only\n② Kanda Yabu Soba, since 1880: duck soba and seiro · closed Wed · bookable, cards OK\n③ Shochikuan Masukawa, Soba Hyakumeiten 2024: a tempura and soba course (lunch ¥5,200 + tax) · closed Sat and Sun · 15 min late without a call = cancelled with a 100% fee · 5% service charge\n④ Kanda Nishikicho Sarashina: pale, fine sarashina soba · weekdays, to 18:30 · cash only, may sell out\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Masukawa's tempura (13 of 20), Sarashina's white soba (9 of 20), the history at Matsuya and Yabu (6 of 20 each).\n\nSave it for a soba lunch 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#soba #kanda #tokyofood #japantravel #tokyotrip"
  }
 ]

@@ -113,3 +113,12 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   dish/shop (Yu photo, or the issue's own list row as a clip), then the cover + "続きはカルーセルで" + SAVE. 14-17 s. Caption line 1 = the question.
 - Rebuilt every queued reel from today: r_c_06 (12:00), r_x_02 (17:00), then 11/15-11/18. Carousels unchanged.
 - Read after 2 days (11/16 08:00 run): reach and avg watch of r_c_06 / r_x_02 / r_c_07 / r_x_03 vs 7-39 and 1-3.8 s. Target: back to 100+.
+
+## 2026-11-15 08:00 production run
+- Hook reels, first numbers (insights 11/14 23:01 UTC): r_x_02 noodles reach 113 in 14 h (avg watch 3.1 s);
+  r_c_06 Kanazawa 52 in 20 h (1.5 s). Page-flip reels were 8–39. Account reach 203/day (was 83–115). Followers 14.
+  Read: the hook format brings reach back toward the old 100–150; watch time still short on Kanazawa (station-night
+  first frame was replaced by crab, still 1.5 s). Keep hook reels; compare r_c_07 (type-only, no photo) tonight.
+- Carousels still reach 1–4 (followers only). Saves/shares 0 everywhere.
+- Made: No.14 東京の朝ごはん (11/19 A) and No.15 神田のそば (11/20 B). 9 shops checked on Tabelog (Shin-Tagoto opens 6:30, not 6:00).
+- Kita-Senju Extra 04 moved to 11/16 B on Yu's word; No.09 late to 11/19 B.

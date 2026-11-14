@@ -6,7 +6,7 @@ Each issue = 1 hook reel (since 11/14) (12:00 JST) + 1 carousel (20:00 JST). One
 
 
 > **2026-11-15 note for the next production run:** 11/19 already has the B issue (No.09 late dinner, moved from 11/16 so Extra 04 北千住 could go out on 11/16 — Yu: 明日出してもいい).
-> The **A slot of 11/19 (reel 12:00 + carousel 20:00) is still empty: fill it first**, then continue from 11/20.
+> 11/19 A = No.14 朝ごはん (done 11/15). 11/20 B = No.15 神田のそば (done 11/15). **Next run: fill 11/20 A (reel 12:00 + carousel 20:00) first, then 11/21 B.** Remaining plan items: Extra 05 回転寿司と立ち食いそば (needs more verified shops), Extra コンビニとデパ地下 (no shop data yet); otherwise pick new no-fail themes from shops.json (e.g. Okachimachi/Yushima, kissaten of Ueno, Kuramae sweets).
 > Kita-Senju is a new series (Yu: 「北千住シリーズ」). Next Kita-Senju issues come when Yu sends more photos.
 
 | Issue | Theme (JP / EN) | Old posts folded in | Photos |
@@ -22,7 +22,7 @@ Each issue = 1 hook reel (since 11/14) (12:00 JST) + 1 carousel (20:00 JST). One
 | No.10 | 浅草の一日 / A day in Asakusa | c_10 English menu, c_02 sweets, b_03 Pelican, b_07 Azuma | none |
 | No.11 | Yuが通う店 / Yu's regulars | b_02 A-un, v2_06 Tamazen, b_05 Onihei, b_09 Shinpuku, v2_02 Mochizuki, v2_01 Indira | ask Yu |
 | No.12 | 上野、ゆっくり / Ueno | Ponta Honke (Bib), b_01 Shoryu, b5_11 Ameyoko, c_05 sweets, b_10 ginkgo (Nov 26) | none |
-| No.13 | 朝ごはんの東京 / Tokyo mornings | c_07, c_09, s_01, n_01, w4_06 | Yu coffee |
+| No.14 ✅ | 朝ごはんの東京 / Tokyo mornings | c_07, c_09, s_01, n_01, w4_06 | Yu coffee |
 | Extra 02 | コンビニとデパ地下 / Konbini & depachika | w4_01, w4_03, w4_04 | none |
 | Extra 03 | サ飯 / After the sauna (Spa Metsa) | sp_02 | Yu |
 | Extra 04 | 回転寿司と立ち食いそば / Conveyor sushi & standing soba | w3_01, b5_13, w3_02 | none |

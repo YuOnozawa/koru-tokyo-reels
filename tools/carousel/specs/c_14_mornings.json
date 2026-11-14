@@ -1,0 +1,343 @@
+{
+ "id": "c_14_mornings",
+ "issue": "No.14",
+ "place": "TOKYO · AKIHABARA–KANDA",
+ "reel": {
+  "cover_cap": "Breakfast in Tokyo: five early openers"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#C9772B",
+   "big": "朝",
+   "big_size": 420,
+   "jp": "東京の、\n[朝ごはん]。",
+   "jp_size": 120,
+   "en": "Five early breakfasts near Akihabara",
+   "en_size": 44,
+   "lines": [
+    [
+     "朝6時半から、五軒。",
+     "Five places, from 6:30am"
+    ],
+    [
+     "秋葉原・神田の\n駅から5分以内。",
+     "Within 5 min of a station"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "MORNING · AKIHABARA–KANDA",
+   "jp": "朝ごはんの五軒",
+   "en": "Five early openers",
+   "reel_cap": "Five places open early",
+   "items": [
+    {
+     "jp": "新田毎",
+     "en": "Shin-Tagoto",
+     "area": "朝6時半 · 立ち食いそば · Standing soba",
+     "badge": "TABELOG 3.49 · SINCE 1968",
+     "cap": "6:30 Shin-Tagoto: soba or curry",
+     "facts": [
+      [
+       "OPEN",
+       "6:30–23:00 daily"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash or IC"
+      ]
+     ]
+    },
+    {
+     "jp": "神田珈琲園 神田北口店",
+     "en": "Kanda Coffee En",
+     "area": "朝7時 · 喫茶店 · Coffee house",
+     "badge": "TABELOG 3.59 · 564 REVIEWS",
+     "cap": "7:00 Kanda Coffee En",
+     "facts": [
+      [
+       "OPEN",
+       "Weekdays from 7:00"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash or IC"
+      ]
+     ]
+    },
+    {
+     "jp": "斎藤コーヒー店",
+     "en": "Saito Coffee",
+     "area": "朝7時半 · 喫茶店 · Coffee and toast",
+     "badge": "TABELOG 3.54 · 203 REVIEWS",
+     "cap": "7:30 Saito Coffee: toast",
+     "facts": [
+      [
+       "OPEN",
+       "Weekdays from 7:30"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "神田志乃多寿司",
+     "en": "Kanda Shinoda Sushi",
+     "area": "朝7時半 · いなり寿司 · Inari to go",
+     "badge": "TABELOG 3.50 · 531 REVIEWS",
+     "cap": "7:30 Shinoda: inari to go",
+     "facts": [
+      [
+       "OPEN",
+       "7:30– · closed Tue"
+      ],
+      [
+       "TAKEOUT",
+       "Yes"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "DILL Coffee Parlor",
+     "en": "DILL Coffee Parlor",
+     "area": "朝8時 · カフェ · Coffee and cake",
+     "badge": "TABELOG 3.63 · 575 REVIEWS",
+     "cap": "8:00 DILL: coffee and cake",
+     "facts": [
+      [
+       "OPEN",
+       "8:00–20:00 daily"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 15, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "新田毎",
+     "en": "Shin-Tagoto",
+     "praise": "A standing soba counter where many come for the curry, with friendly staff.",
+     "loved_jp": "カレー",
+     "loved_en": "The curry",
+     "basis": "10 of 20 on the curry"
+    },
+    {
+     "jp": "神田珈琲園",
+     "en": "Kanda Coffee En",
+     "praise": "A classic coffee house by Kanda's North Exit; nearly every review talks about the coffee.",
+     "loved_jp": "コーヒー",
+     "loved_en": "Coffee",
+     "basis": "18 of 20 on the coffee"
+    },
+    {
+     "jp": "斎藤コーヒー店",
+     "en": "Saito Coffee",
+     "praise": "An old-style room for coffee and toast, at fair prices.",
+     "loved_jp": "トースト",
+     "loved_en": "Toast",
+     "basis": "7 of 20 on the toast"
+    },
+    {
+     "jp": "志乃多寿司",
+     "en": "Shinoda Sushi",
+     "praise": "Inari sushi and norimaki to take away, from a long-running Kanda shop.",
+     "loved_jp": "いなり寿司",
+     "loved_en": "Inari sushi",
+     "basis": "15 of 20 on the inari"
+    },
+    {
+     "jp": "DILL",
+     "en": "DILL",
+     "praise": "A bright two-floor cafe; the cakes come up most.",
+     "loved_jp": "ケーキ",
+     "loved_en": "Cakes",
+     "basis": "11 of 20 on the cakes"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "五軒の地図",
+   "reel_cap": "Where they are",
+   "stations": [
+    "Akihabara",
+    "Kanda",
+    "Awajicho",
+    "Ochanomizu"
+   ],
+   "pins": [
+    {
+     "station": "Akihabara",
+     "jp": "新田毎",
+     "en": "Shin-Tagoto",
+     "walk": "Akihabara 2 min"
+    },
+    {
+     "station": "Kanda",
+     "jp": "神田珈琲園",
+     "en": "Kanda Coffee En",
+     "walk": "Kanda North Exit 1 min"
+    },
+    {
+     "station": "Kanda",
+     "jp": "斎藤コーヒー店",
+     "en": "Saito Coffee",
+     "walk": "Kanda 2 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "志乃多寿司",
+     "en": "Shinoda Sushi",
+     "walk": "Awajicho 1 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "DILL",
+     "en": "DILL",
+     "walk": "Ogawamachi 4 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "Know before you go",
+   "sub": "from each shop's own listing, Nov 15, 2026",
+   "reel_cap": "Know before you go",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "週末は遅め",
+     "en": "Later at weekends",
+     "stat": "SAT·SUN",
+     "do": "Kanda Coffee En: Sat 8:00, Sun 9:00. Saito Coffee: Sat 11:30, closed Sun."
+    },
+    {
+     "jp": "現金",
+     "en": "Cash",
+     "stat": "CASH",
+     "do": "Saito Coffee and Shinoda are cash only. Shin-Tagoto and Coffee En take IC cards."
+    },
+    {
+     "jp": "2階は喫煙",
+     "en": "Smoking upstairs",
+     "stat": "2F",
+     "do": "Kanda Coffee En: 1st floor non-smoking, 2nd floor smoking."
+    },
+    {
+     "jp": "売り切れ",
+     "en": "Sells out",
+     "stat": "SOLD OUT",
+     "do": "Shinoda closes when it sells out. Some items are by advance order only."
+    },
+    {
+     "jp": "火曜休み",
+     "en": "Closed Tuesday",
+     "stat": "TUE",
+     "do": "Shinoda Sushi is closed on Tuesdays."
+    },
+    {
+     "jp": "立ち食い",
+     "en": "Standing counter",
+     "stat": "STAND",
+     "do": "Shin-Tagoto is a standing counter. No bookings; eat and go."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "東京の朝、\n行く前に。",
+   "en": "Before your Tokyo morning",
+   "checks": [
+    [
+     "平日は朝7時から開く",
+     "Weekdays: open from 7:00"
+    ],
+    [
+     "週末は時間を確認",
+     "Weekends: later openings"
+    ],
+    [
+     "小銭とICカード",
+     "Coins and an IC card"
+    ],
+    [
+     "いなりは早めに",
+     "Inari: go early"
+    ]
+   ]
+  }
+ ],
+ "hook": {
+  "q_jp": "東京で、\n朝ごはんどこ？",
+  "q_en": "Breakfast near Akihabara: 5 places open early",
+  "beats": [
+   {
+    "jp": "新田毎",
+    "en": "6:30 Shin-Tagoto",
+    "fact": "Standing soba and curry · since 1968"
+   },
+   {
+    "jp": "神田珈琲園",
+    "en": "7:00 Kanda Coffee En",
+    "fact": "Weekdays from 7am · by Kanda North Exit"
+   },
+   {
+    "jp": "斎藤コーヒー店",
+    "en": "7:30 Saito Coffee",
+    "fact": "Coffee and toast · cash only"
+   },
+   {
+    "jp": "神田志乃多寿司",
+    "en": "7:30 Kanda Shinoda Sushi",
+    "fact": "Inari to go · closed Tue"
+   },
+   {
+    "jp": "DILL",
+    "en": "8:00 DILL Coffee Parlor",
+    "fact": "Coffee and cake · open daily"
+   }
+  ]
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "id": "c_15_kanda_soba",
+ "issue": "No.15",
+ "place": "TOKYO · KANDA",
+ "reel": {
+  "cover_cap": "Kanda soba: four old Tokyo houses"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#2E3B2F",
+   "big": "蕎",
+   "big_size": 420,
+   "jp": "神田で、\n[そば]を。",
+   "jp_size": 120,
+   "en": "Kanda soba: four houses worth the trip",
+   "en_size": 46,
+   "lines": [
+    [
+     "老舗と百名店、四軒。",
+     "Old houses and award picks"
+    ],
+    [
+     "秋葉原から\n歩いて約10分。",
+     "About 10 min walk from Akihabara"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "SOBA · KANDA–AWAJICHO",
+   "jp": "神田のそば、四軒",
+   "en": "Four soba houses",
+   "reel_cap": "Four soba houses, hours and how to pay",
+   "items": [
+    {
+     "jp": "神田まつや",
+     "en": "Kanda Matsuya",
+     "area": "老舗 · もりそば · Old Edo soba",
+     "badge": "SOBA HYAKUMEITEN 2024",
+     "cap": "Kanda Matsuya: a historic building",
+     "facts": [
+      [
+       "OPEN",
+       "Tue–Sat · closed Sun, Mon"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "かんだやぶそば",
+     "en": "Kanda Yabu Soba",
+     "area": "1880年創業 · 鴨南蛮 · Duck soba",
+     "badge": "SINCE 1880 · TABELOG 3.49",
+     "cap": "Kanda Yabu Soba: since 1880",
+     "facts": [
+      [
+       "OPEN",
+       "11:30–20:30 · closed Wed"
+      ],
+      [
+       "BOOK",
+       "Yes"
+      ],
+      [
+       "PAY",
+       "Cards, IC OK"
+      ]
+     ]
+    },
+    {
+     "jp": "松竹庵 ます川",
+     "en": "Shochikuan Masukawa",
+     "area": "天ぷらとそばのコース · Tempura course",
+     "badge": "SOBA HYAKUMEITEN 2024",
+     "cap": "Masukawa: a tempura and soba course",
+     "facts": [
+      [
+       "LUNCH",
+       "Course ¥5,200 + tax"
+      ],
+      [
+       "BOOK",
+       "Yes, be on time"
+      ],
+      [
+       "PAY",
+       "Cards OK"
+      ]
+     ]
+    },
+    {
+     "jp": "神田錦町 更科",
+     "en": "Kanda Nishikicho Sarashina",
+     "area": "白い更科そば · White sarashina soba",
+     "badge": "TABELOG 3.50 · 375 REVIEWS",
+     "cap": "Sarashina: pale, fine soba",
+     "facts": [
+      [
+       "OPEN",
+       "Weekdays to 18:30"
+      ],
+      [
+       "BOOK",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 15, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "まつや",
+     "en": "Matsuya",
+     "praise": "Soba in a building designated a Tokyo historic building. Expect a queue at busy times.",
+     "loved_jp": "建物と歴史",
+     "loved_en": "The old house",
+     "basis": "6 of 20 on its history"
+    },
+    {
+     "jp": "やぶそば",
+     "en": "Yabu Soba",
+     "praise": "A Kanda classic since 1880; duck soba and seiro come up most.",
+     "loved_jp": "鴨南蛮",
+     "loved_en": "Duck soba",
+     "basis": "6 of 20 on its history"
+    },
+    {
+     "jp": "ます川",
+     "en": "Masukawa",
+     "praise": "A small counter serving tempura and soba as one course.",
+     "loved_jp": "天ぷら",
+     "loved_en": "Tempura",
+     "basis": "13 of 20 on the tempura"
+    },
+    {
+     "jp": "更科",
+     "en": "Sarashina",
+     "praise": "Pale, fine sarashina soba from a long-running neighborhood shop.",
+     "loved_jp": "更科そば",
+     "loved_en": "Sarashina soba",
+     "basis": "9 of 20 on the white soba"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "四軒の地図",
+   "reel_cap": "Where they are",
+   "stations": [
+    "Awajicho",
+    "Akihabara",
+    "Kanda",
+    "Ochanomizu"
+   ],
+   "pins": [
+    {
+     "station": "Awajicho",
+     "jp": "まつや",
+     "en": "Kanda Matsuya",
+     "walk": "Awajicho 1 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "やぶそば",
+     "en": "Kanda Yabu Soba",
+     "walk": "Awajicho Exit A3, 2 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "ます川",
+     "en": "Masukawa",
+     "walk": "Awajicho 3 min"
+    },
+    {
+     "station": "Awajicho",
+     "jp": "更科",
+     "en": "Sarashina",
+     "walk": "Ogawamachi Exit B7, 5 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "House rules before you go",
+   "sub": "from each restaurant's own listing, Nov 15, 2026",
+   "reel_cap": "House rules, before you go",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "15分で取消",
+     "en": "15 min late = cancelled",
+     "stat": "15分",
+     "do": "Masukawa lunch: 15 min late without a call and the booking is cancelled, with a 100% fee."
+    },
+    {
+     "jp": "コースのみ",
+     "en": "Courses only",
+     "stat": "COURSE",
+     "do": "Masukawa has no a la carte. 5% service charge. No children at dinner."
+    },
+    {
+     "jp": "予約不可",
+     "en": "No bookings",
+     "stat": "WAIT",
+     "do": "Matsuya and Sarashina take no bookings. Yabu Soba does (not at New Year)."
+    },
+    {
+     "jp": "現金",
+     "en": "Cash",
+     "stat": "CASH",
+     "do": "Matsuya and Sarashina are cash only. Yabu and Masukawa take cards."
+    },
+    {
+     "jp": "休みの日",
+     "en": "Closed days",
+     "stat": "CLOSED",
+     "do": "Matsuya: Sun, Mon. Yabu: Wed. Masukawa: Sat, Sun. Sarashina: Sun, holidays."
+    },
+    {
+     "jp": "売り切れ",
+     "en": "Sells out",
+     "stat": "EARLY",
+     "do": "Sarashina may close early when the soba sells out. Dinner ends 18:30."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "神田のそば、\n行く前に。",
+   "en": "Before your soba lunch",
+   "checks": [
+    [
+     "休みの日を確認",
+     "Check closed days"
+    ],
+    [
+     "まつや・更科は現金",
+     "Cash for Matsuya, Sarashina"
+    ],
+    [
+     "ます川は時間どおりに",
+     "Masukawa: be on time"
+    ],
+    [
+     "やぶそばは予約できる",
+     "Yabu Soba: you can book"
+    ]
+   ]
+  }
+ ],
+ "hook": {
+  "q_jp": "神田で、\nどのそば？",
+  "q_en": "Kanda soba: 4 old houses near Akihabara",
+  "beats": [
+   {
+    "jp": "神田まつや",
+    "en": "Kanda Matsuya",
+    "fact": "Historic building · cash only"
+   },
+   {
+    "jp": "かんだやぶそば",
+    "en": "Kanda Yabu Soba",
+    "fact": "Since 1880 · bookable"
+   },
+   {
+    "jp": "松竹庵 ます川",
+    "en": "Shochikuan Masukawa",
+    "fact": "Tempura and soba course · book ahead"
+   },
+   {
+    "jp": "神田錦町 更科",
+    "en": "Kanda Nishikicho Sarashina",
+    "fact": "White sarashina soba · weekdays"
+   }
+  ]
+ }
+}
