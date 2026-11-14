@@ -5,7 +5,7 @@ staying in Tokyo, fairly well off, who don't want a bad meal. Main issues = no-f
 Each issue = 1 hook reel (since 11/14) (12:00 JST) + 1 carousel (20:00 JST). One issue per day.
 
 
-> **2026-11-15 note for the next production run:** 11/19 already has the B issue (Extra 04 北千住, Yu's photos: carousel 08:00, reel 17:00).
+> **2026-11-15 note for the next production run:** 11/19 already has the B issue (No.09 late dinner, moved from 11/16 so Extra 04 北千住 could go out on 11/16 — Yu: 明日出してもいい).
 > The **A slot of 11/19 (reel 12:00 + carousel 20:00) is still empty: fill it first**, then continue from 11/20.
 > Kita-Senju is a new series (Yu: 「北千住シリーズ」). Next Kita-Senju issues come when Yu sends more photos.
 
