@@ -1154,6 +1154,55 @@
    "liked": true,
    "at": "2026-11-13T21:40Z",
    "source": "posted at Akihabara location (recent tab), via Mac (6856 followers)"
+  },
+  {
+   "user": "kaechiam",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Yanaka recent: just landed in Tokyo"
+  },
+  {
+   "user": "jdogv1999",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Akihabara recent: Day Three post"
+  },
+  {
+   "user": "brendalogy",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Akihabara recent: Day 13/17"
+  },
+  {
+   "user": "her_blood",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Akihabara recent: Day 3 post"
+  },
+  {
+   "user": "stingermatic",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Ameyoko recent: trip diary"
+  },
+  {
+   "user": "the.nerd.tourist",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Akihabara recent: anime travel (337 followers)"
+  },
+  {
+   "user": "kiukiumimi",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T12:40Z",
+   "source": "Akihabara recent; Tokyo-based artist 7k, not a traveler (followed by script; note)"
   }
  ],
  "candidates": [],
@@ -1205,7 +1254,12 @@
   "wisteria_voyage",
   "japan.munching",
   "kinginfinitemadara",
-  "jlinweichieh"
+  "jlinweichieh",
+  {
+   "user": "radicalthea",
+   "followers": "1.1万",
+   "at": "2026-11-14T12:40Z"
+  }
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -1515,6 +1569,13 @@
    "text": "The egg sando is a must! For more snacks near Ueno, Niku no Oyama sells menchi-katsu from ¥150 at its standing counter, 2 min from Ueno Station.",
    "at": "2026-11-13T21:40Z",
    "basis": "shops.json Niku no Oyama"
+  },
+  {
+   "user": "jdogv1999",
+   "post": "https://www.instagram.com/p/DfsHqq4m5bS/",
+   "text": "Sounds like a perfect Day Three! If you head back to Akihabara, Shinpuku Saikan is 5 min from the station: Kyoto-style chuka soba from ¥880, open until 23:00 (it closes early if it sells out).",
+   "at": "2026-11-14T12:40Z",
+   "basis": "shops.json Shinpuku Saikan Akihabara"
   }
  ]
 }
