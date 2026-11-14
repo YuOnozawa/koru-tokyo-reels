@@ -1203,6 +1203,41 @@
    "liked": true,
    "at": "2026-11-14T12:40Z",
    "source": "Akihabara recent; Tokyo-based artist 7k, not a traveler (followed by script; note)"
+  },
+  {
+   "user": "knpgn",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T21:40Z",
+   "source": "Ueno Park recent: honeymoon"
+  },
+  {
+   "user": "munch.hamster",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T21:40Z",
+   "source": "Akihabara recent: omakase post"
+  },
+  {
+   "user": "stitchtravels26",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T21:40Z",
+   "source": "Yanaka recent: cat town day"
+  },
+  {
+   "user": "toriiiku",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T21:40Z",
+   "source": "Akihabara recent; London to Tokyo artist (1.5k)"
+  },
+  {
+   "user": "ericruelo",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-14T21:40Z",
+   "source": "Akihabara recent: Tokyo trip"
   }
  ],
  "candidates": [],
@@ -1429,7 +1464,12 @@
   "anastasiiauss",
   "koralle13",
   "siam45496",
-  "verdeamia"
+  "verdeamia",
+  {
+   "user": "corrinaexplores",
+   "why": "content creator",
+   "at": "2026-11-14T21:40Z"
+  }
  ],
  "comment_queue": [
   {
@@ -1576,6 +1616,13 @@
    "text": "Sounds like a perfect Day Three! If you head back to Akihabara, Shinpuku Saikan is 5 min from the station: Kyoto-style chuka soba from ¥880, open until 23:00 (it closes early if it sells out).",
    "at": "2026-11-14T12:40Z",
    "basis": "shops.json Shinpuku Saikan Akihabara"
+  },
+  {
+   "user": "knpgn",
+   "post": "https://www.instagram.com/p/Dfu8n8tBWQ0/",
+   "text": "Congratulations on the honeymoon! If you're back in Ueno Park, Innsyoutei serves lunch inside the park from 11:00, and the basket lunch sets can be booked (from ¥2,950 on weekdays).",
+   "at": "2026-11-14T21:40Z",
+   "basis": "shops.json Innsyoutei (house_rules, Tabelog Nov 14)"
   }
  ]
 }
