@@ -6,7 +6,7 @@ Each issue = 1 hook reel (since 11/14) (12:00 JST) + 1 carousel (20:00 JST). One
 
 
 > **2026-11-15 note for the next production run:** 11/19 already has the B issue (No.09 late dinner, moved from 11/16 so Extra 04 北千住 could go out on 11/16 — Yu: 明日出してもいい).
-> 11/19 A = No.14 朝ごはん (done 11/15). 11/20 B = No.15 神田のそば (done 11/15). **Next run: fill 11/20 A (reel 12:00 + carousel 20:00) first, then 11/21 B.** Remaining plan items: Extra 05 回転寿司と立ち食いそば (needs more verified shops), Extra コンビニとデパ地下 (no shop data yet); otherwise pick new no-fail themes from shops.json (e.g. Okachimachi/Yushima, kissaten of Ueno, Kuramae sweets).
+> 11/20 A = No.16 上野の喫茶店, 11/21 B = Extra 05 蔵前のおやつ (done 11/16). **Next run: fill 11/21 A (reel 12:00 + carousel 20:00) first, then 11/22 B.** Remaining plan items: Extra 05 回転寿司と立ち食いそば (needs more verified shops), Extra コンビニとデパ地下 (no shop data yet); otherwise pick new no-fail themes from shops.json (e.g. Okachimachi/Yushima, kissaten of Ueno, Kuramae sweets).
 > Kita-Senju is a new series (Yu: 「北千住シリーズ」). Next Kita-Senju issues come when Yu sends more photos.
 
 | Issue | Theme (JP / EN) | Old posts folded in | Photos |

@@ -122,3 +122,11 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Carousels still reach 1–4 (followers only). Saves/shares 0 everywhere.
 - Made: No.14 東京の朝ごはん (11/19 A) and No.15 神田のそば (11/20 B). 9 shops checked on Tabelog (Shin-Tagoto opens 6:30, not 6:00).
 - Kita-Senju Extra 04 moved to 11/16 B on Yu's word; No.09 late to 11/19 B.
+
+## 2026-11-16 08:00 production run
+- Insights 11/15 23:01 UTC. Hook reels so far: r_x_02 noodles 115 (3.2 s), r_c_06 Kanazawa 53 (1.9 s), r_x_03 sauna 10 (3.0 s),
+  r_c_07 ten lines (type-only) 4 (2.1 s). Account reach/day 152–204. Followers 14. Saves/shares still 0.
+- Read: big spread. The two with real food photos of famous bowls/crab did best; the sauna (photo) and the type-only reel did badly.
+  Hypothesis: the first frame needs a dish people recognize (ramen, crab) — a lounge/wings or a red type card doesn't stop the scroll.
+  Next test: for type-only issues, open on Yu's best food photo that fits the theme, if any; otherwise keep type and see 2 more.
+- Made: No.16 上野の喫茶店 (11/20 A; smoking/non-smoking is the useful fact) and Extra 05 蔵前のおやつ (11/21 B). 8 shops checked.

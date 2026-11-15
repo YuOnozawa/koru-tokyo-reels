@@ -1,0 +1,174 @@
+{
+ "id": "c_16_ueno_kissa",
+ "reel": {
+  "cover_cap": "Ueno's old coffee houses: four to know"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Ueno's old coffee houses: four to know",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Four coffee houses, hours and smoking",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "1. Galan — Galan: open 9:00 to 22:30"
+    },
+    {
+     "x": 44,
+     "y": 392.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Kissa Kojo — Kissa Kojo: closed Sundays"
+    },
+    {
+     "x": 44,
+     "y": 576.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Coffee Dokoro Bonaru — Bonaru: fully non-smoking"
+    },
+    {
+     "x": 44,
+     "y": 760.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. Madonna — Madonna: lunch, closed Wed"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Galan: The retro room"
+    },
+    {
+     "x": 44,
+     "y": 357.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Kojo: The room"
+    },
+    {
+     "x": 44,
+     "y": 507.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Bonaru: Coffee"
+    },
+    {
+     "x": 44,
+     "y": 657.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Madonna: Omurice"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Galan — JR Ueno Hirokoji Exit 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Kissa Kojo — Metro Ueno 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Madonna — Metro Ueno Exit 5a, 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Bonaru — Ueno-Hirokoji 3 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "Know before you sit",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Smoking allowed"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Non-smoking"
+    },
+    {
+     "x": 44,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Cash"
+    },
+    {
+     "x": 548,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Closed days"
+    },
+    {
+     "x": 44,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Busy at weekends"
+    },
+    {
+     "x": 548,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. No bookings"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your coffee break",
+   "boxes": []
+  }
+ ]
+}

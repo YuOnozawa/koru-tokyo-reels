@@ -1756,8 +1756,8 @@
   "genre": "Kissaten (retro coffee shop)",
   "station": "Tokyo Metro Ueno",
   "walk_min": 2,
-  "hours": "Mon-Sat 9:00-20:00",
-  "closed_days": "Sundays and public holidays",
+  "hours": "Mon-Sat 9:00-20:00; closed Sun (Tabelog, Nov 2026)",
+  "closed_days": "Sunday",
   "lunch_price_yen": "1000-1999",
   "dinner_price_yen": "1000-1999",
   "budget_band": "1500-4000",
@@ -1776,7 +1776,17 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.57,
+  "tabelog_reviews": 637,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): the retro room 8/20, coffee 6/20, cakes 5/20, smoking 4/20.",
+  "house_rules": [
+   "No bookings",
+   "No cards; IC cards OK",
+   "Smoking allowed at all seats",
+   "No service charge"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Delhi Ueno",
@@ -2727,13 +2737,12 @@
   "genre": "Bean-to-bar chocolate cafe",
   "station": "Kuramae (Toei Asakusa Line)",
   "walk_min": 3,
-  "hours": "10:00-19:00",
+  "hours": "Daily 10:00-19:00 (Tabelog, Nov 2026)",
   "closed_days": "None regular (open daily incl. holidays; year-end hours may change)",
   "lunch_price_yen": "1000-1999",
   "dinner_price_yen": "n/a (closes 19:00)",
   "budget_band": "1500-4000",
   "awards": [
-   "Tabelog Sweets TOKYO Hyakumeiten 2023",
    "Tabelog Sweets TOKYO Hyakumeiten 2026"
   ],
   "english_menu": "unknown",
@@ -2749,7 +2758,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": false
+  "dinner_ok": false,
+  "tabelog_score": 3.74,
+  "tabelog_reviews": 2446,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): chocolate 17/20, the chocolate drinks 8/20, a wait 5/20, brownies 5/20.",
+  "house_rules": [
+   "No bookings",
+   "Cards, IC and QR pay OK",
+   "Non-smoking"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Tonkatsu Sugita",
@@ -7032,7 +7050,7 @@
   "genre": "Patisserie and cafe",
   "station": "Kuramae (Oedo Line)",
   "walk_min": 2,
-  "hours": "Tue-Sun 9:00-21:00",
+  "hours": "Shop 9:00-21:00; cafe 9:00-18:00 (LO 17:30) (Tabelog, Nov 2026)",
   "closed_days": "Monday",
   "lunch_price_yen": "under 1000",
   "dinner_price_yen": "under 1000",
@@ -7049,7 +7067,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.55,
+  "tabelog_reviews": 332,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): cakes 14/20, chocolate 3/20, tarts 2/20.",
+  "house_rules": [
+   "No bookings",
+   "VISA and JCB cards, IC and PayPay OK",
+   "Non-smoking"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Kashiya Shinonome",
@@ -7084,7 +7111,7 @@
   "genre": "Cafe (cream puffs and cakes)",
   "station": "Kuramae",
   "walk_min": 3,
-  "hours": "11:30-19:00 (L.O. 18:30) per listing",
+  "hours": "Daily 9:00-19:00 (food LO 18:30); morning menu 9:00-11:30 (Tabelog, Nov 2026)",
   "closed_days": "None listed",
   "lunch_price_yen": "1000-2000",
   "dinner_price_yen": "1000-2000",
@@ -7101,7 +7128,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.59,
+  "tabelog_reviews": 573,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): cream puffs 12/20, a wait 6/20, the morning menu 4/20, a calm room 3/20.",
+  "house_rules": [
+   "No bookings",
+   "Cash only",
+   "Non-smoking"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Yuwaeru Kuramae Honten",
@@ -7215,8 +7251,8 @@
   "genre": "Cannele specialty shop and cafe",
   "station": "Kuramae",
   "walk_min": "unknown",
-  "hours": "11:00-19:00 (listing shows one day only; check Instagram)",
-  "closed_days": "unknown",
+  "hours": "Tue-Fri 11:00-18:00 (LO 17:00); Sat, Sun, holidays 11:00-19:00 (LO 18:00); closed Mon (Tabelog, Nov 2026)",
+  "closed_days": "Monday",
   "lunch_price_yen": "under 1000",
   "dinner_price_yen": "under 1000",
   "budget_band": "under1500",
@@ -7233,7 +7269,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.58,
+  "tabelog_reviews": 619,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): canelés 15/20, a wait 3/20, takeaway 2/20.",
+  "house_rules": [
+   "No bookings",
+   "Cards, e-money and QR pay OK",
+   "Non-smoking"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Briskstand Asakusa",
@@ -7531,7 +7576,7 @@
   "genre": "Kissaten (retro cafe)",
   "station": "JR Ueno (Hirokoji Exit); Ueno Exit 5b (Ginza/Hibiya Line) 1 min",
   "walk_min": 2,
-  "hours": "Daily 9:00-22:30",
+  "hours": "Daily 9:00-22:30 (Tabelog, Nov 2026)",
   "closed_days": "None (open daily)",
   "lunch_price_yen": "1000-2000",
   "dinner_price_yen": "1000-2000",
@@ -7549,7 +7594,17 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.58,
+  "tabelog_reviews": 1403,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): the retro room 9/20, smoking 8/20, a wait 4/20, parfaits 3/20.",
+  "house_rules": [
+   "No bookings",
+   "Cash only",
+   "Smoking allowed at all seats (some seats with less smoke)",
+   "2nd floor, above a convenience store; 2 min from JR Ueno Hirokoji Exit"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Kissa Oka",
@@ -7881,7 +7936,7 @@
   "genre": "Kissaten (retro cafe)",
   "station": "Ueno (Ginza/Hibiya Line Exit 5a); JR Ueno 3 min",
   "walk_min": 2,
-  "hours": "Mon, Tue, Thu, Fri 11:00-18:00; Sat-Sun 11:00-19:00",
+  "hours": "Mon, Tue, Thu, Fri 11:00-18:00; Sat-Sun 11:00-19:00; closed Wed; lunch 11:00-16:00 (Tabelog, Nov 2026)",
   "closed_days": "Wednesday",
   "lunch_price_yen": "1000-2000",
   "dinner_price_yen": "n/a",
@@ -7898,7 +7953,16 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": false
+  "dinner_ok": false,
+  "tabelog_score": 3.49,
+  "tabelog_reviews": 367,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): smoking 8/20, the retro room 5/20, omurice 4/20, cakes 4/20.",
+  "house_rules": [
+   "No bookings",
+   "Cash only",
+   "1st floor non-smoking, 2nd floor smoking"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Yakiago Shio Ramen Takahashi Ueno",
@@ -7970,7 +8034,7 @@
   "genre": "Kissaten (coffee house)",
   "station": "Ueno-Hirokoji (Ginza Line); JR Okachimachi 5 min",
   "walk_min": 3,
-  "hours": "Mon-Sat 11:00-21:30 (LO 21:00); Sun and holidays 11:00-20:00 (LO 19:30)",
+  "hours": "Mon-Sat 11:00-21:30 (LO 21:00); Sun and holidays 11:00-20:00 (LO 19:30) (Tabelog, Nov 2026)",
   "closed_days": "None regular (occasional Monday closures)",
   "lunch_price_yen": "1000-2000",
   "dinner_price_yen": "1000-2000",
@@ -7987,7 +8051,17 @@
   "checked": "2026-10-31",
   "kind": "snack",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.58,
+  "tabelog_reviews": 389,
+  "review_summary": "20 latest Tabelog reviews (Nov 16, 2026): coffee 9/20, a calm room 7/20, a wait 7/20, cakes 6/20.",
+  "house_rules": [
+   "No bookings",
+   "Cash only",
+   "Non-smoking throughout",
+   "Busy at weekends; quieter on weekdays (the shop says so)"
+  ],
+  "rules_checked": "2026-11-16"
  },
  {
   "name_en": "Tomishiro",

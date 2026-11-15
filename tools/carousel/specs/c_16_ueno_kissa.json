@@ -1,0 +1,302 @@
+{
+ "id": "c_16_ueno_kissa",
+ "issue": "No.16",
+ "place": "TOKYO · UENO",
+ "reel": {
+  "cover_cap": "Ueno's old coffee houses: four to know"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#5A3825",
+   "big": "喫",
+   "big_size": 420,
+   "jp": "上野の、\n[喫茶店]。",
+   "jp_size": 120,
+   "en": "Ueno's old coffee houses: four to know",
+   "en_size": 44,
+   "lines": [
+    [
+     "煙草の有無まで、\n先に知っておく。",
+     "Smoking or not, before you sit"
+    ],
+    [
+     "上野駅から\n歩いて5分以内。",
+     "Within 5 min of Ueno Station"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "KISSATEN · UENO",
+   "jp": "上野の喫茶店、四軒",
+   "en": "Four kissaten",
+   "reel_cap": "Four coffee houses, hours and smoking",
+   "items": [
+    {
+     "jp": "ギャラン",
+     "en": "Galan",
+     "area": "朝9時から夜まで · 昭和の内装 · Retro room",
+     "badge": "TABELOG 3.58 · 1,403 REVIEWS",
+     "cap": "Galan: open 9:00 to 22:30",
+     "facts": [
+      [
+       "OPEN",
+       "9:00–22:30 daily"
+      ],
+      [
+       "SMOKING",
+       "Allowed at all seats"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "喫茶 古城",
+     "en": "Kissa Kojo",
+     "area": "朝9時 · 喫茶店 · Coffee and cake",
+     "badge": "TABELOG 3.57 · 637 REVIEWS",
+     "cap": "Kissa Kojo: closed Sundays",
+     "facts": [
+      [
+       "OPEN",
+       "Mon–Sat 9:00–20:00"
+      ],
+      [
+       "SMOKING",
+       "Allowed at all seats"
+      ],
+      [
+       "PAY",
+       "Cash or IC"
+      ]
+     ]
+    },
+    {
+     "jp": "珈琲処ボナール",
+     "en": "Coffee Dokoro Bonaru",
+     "area": "禁煙 · 静かな店 · Quiet, non-smoking",
+     "badge": "TABELOG 3.58 · 389 REVIEWS",
+     "cap": "Bonaru: fully non-smoking",
+     "facts": [
+      [
+       "OPEN",
+       "11:00–21:30 (Sun –20:00)"
+      ],
+      [
+       "SMOKING",
+       "No"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    },
+    {
+     "jp": "マドンナー",
+     "en": "Madonna",
+     "area": "昼 · オムライスも · Lunch too",
+     "badge": "TABELOG 3.49 · 367 REVIEWS",
+     "cap": "Madonna: lunch, closed Wed",
+     "facts": [
+      [
+       "OPEN",
+       "11:00–18:00 · closed Wed"
+      ],
+      [
+       "SMOKING",
+       "1F no, 2F yes"
+      ],
+      [
+       "PAY",
+       "Cash only"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 16, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "ギャラン",
+     "en": "Galan",
+     "praise": "A big Showa-era room for coffee and parfaits, open until 22:30.",
+     "loved_jp": "昭和の内装",
+     "loved_en": "The retro room",
+     "basis": "9 of 20 on the room"
+    },
+    {
+     "jp": "古城",
+     "en": "Kojo",
+     "praise": "An old-style room for coffee and cake, from 9am.",
+     "loved_jp": "内装",
+     "loved_en": "The room",
+     "basis": "8 of 20 on the room"
+    },
+    {
+     "jp": "ボナール",
+     "en": "Bonaru",
+     "praise": "Calm and non-smoking, with coffee people come back for.",
+     "loved_jp": "コーヒー",
+     "loved_en": "Coffee",
+     "basis": "9 of 20 on the coffee"
+    },
+    {
+     "jp": "マドンナー",
+     "en": "Madonna",
+     "praise": "A kissaten where you can also have lunch; omurice and hotcakes come up.",
+     "loved_jp": "オムライス",
+     "loved_en": "Omurice",
+     "basis": "4 of 20 on the omurice"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "四軒の地図",
+   "reel_cap": "Where they are",
+   "stations": [
+    "Ueno",
+    "Okachimachi",
+    "Akihabara"
+   ],
+   "pins": [
+    {
+     "station": "Ueno",
+     "jp": "ギャラン",
+     "en": "Galan",
+     "walk": "JR Ueno Hirokoji Exit 2 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "古城",
+     "en": "Kissa Kojo",
+     "walk": "Metro Ueno 2 min"
+    },
+    {
+     "station": "Ueno",
+     "jp": "マドンナー",
+     "en": "Madonna",
+     "walk": "Metro Ueno Exit 5a, 2 min"
+    },
+    {
+     "station": "Okachimachi",
+     "jp": "ボナール",
+     "en": "Bonaru",
+     "walk": "Ueno-Hirokoji 3 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "KNOW BEFORE YOU SIT",
+   "jp": "座る前に、店の決まり",
+   "en": "Know before you sit",
+   "sub": "from each shop's own listing, Nov 16, 2026",
+   "reel_cap": "Know before you sit",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "喫煙できる店",
+     "en": "Smoking allowed",
+     "stat": "SMOKE",
+     "do": "Galan and Kojo allow smoking at all seats. Galan has some seats with less smoke."
+    },
+    {
+     "jp": "禁煙の店",
+     "en": "Non-smoking",
+     "stat": "NO SMOKE",
+     "do": "Bonaru is non-smoking throughout. Madonna: 1st floor non-smoking, 2nd floor smoking."
+    },
+    {
+     "jp": "現金",
+     "en": "Cash",
+     "stat": "CASH",
+     "do": "Galan, Bonaru and Madonna are cash only. Kojo takes IC cards."
+    },
+    {
+     "jp": "休みの日",
+     "en": "Closed days",
+     "stat": "CLOSED",
+     "do": "Kojo: Sundays. Madonna: Wednesdays. Galan and Bonaru open daily."
+    },
+    {
+     "jp": "週末は混む",
+     "en": "Busy at weekends",
+     "stat": "WAIT",
+     "do": "Bonaru says weekends are busy and weekdays quieter."
+    },
+    {
+     "jp": "予約不可",
+     "en": "No bookings",
+     "stat": "WALK IN",
+     "do": "None of the four take bookings. Walk in."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "上野の喫茶店、\n行く前に。",
+   "en": "Before your coffee break",
+   "checks": [
+    [
+     "煙草が苦手ならボナール",
+     "Avoid smoke: go to Bonaru"
+    ],
+    [
+     "小銭を持って",
+     "Bring cash"
+    ],
+    [
+     "古城は日曜休み",
+     "Kojo: closed Sun"
+    ],
+    [
+     "夜まで開いてるのはギャラン",
+     "Late: Galan, to 22:30"
+    ]
+   ]
+  }
+ ],
+ "hook": {
+  "q_jp": "上野で、\nどの喫茶店？",
+  "q_en": "Ueno's old coffee houses: smoking or not?",
+  "beats": [
+   {
+    "jp": "ギャラン",
+    "en": "Galan",
+    "fact": "9:00–22:30 · smoking allowed"
+   },
+   {
+    "jp": "喫茶 古城",
+    "en": "Kissa Kojo",
+    "fact": "From 9:00 · closed Sun · smoking allowed"
+   },
+   {
+    "jp": "珈琲処ボナール",
+    "en": "Coffee Dokoro Bonaru",
+    "fact": "Non-smoking · quiet on weekdays"
+   },
+   {
+    "jp": "マドンナー",
+    "en": "Madonna",
+    "fact": "Lunch too · 1F non-smoking"
+   }
+  ]
+ }
+}

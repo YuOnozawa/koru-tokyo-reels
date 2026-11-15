@@ -1,0 +1,125 @@
+{
+ "id": "x_05_kuramae",
+ "reel": {
+  "cover_cap": "Extra: sweets in Kuramae"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: four sweet stops in Kuramae",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Four sweet stops",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "1. Dandelion Chocolate — Dandelion: chocolate and drinks"
+    },
+    {
+     "x": 44,
+     "y": 392.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "2. Clair de Lune — Clair de Lune: cakes"
+    },
+    {
+     "x": 44,
+     "y": 576.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "3. Kissaten Hangetsu — Hangetsu: cream puffs"
+    },
+    {
+     "x": 44,
+     "y": 760.953125,
+     "w": 992,
+     "h": 184,
+     "cap": "4. Kuramae Cannele — Kuramae Cannele: closed Mon"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Dandelion: Chocolate drinks"
+    },
+    {
+     "x": 44,
+     "y": 357.140625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Clair de Lune: Cakes"
+    },
+    {
+     "x": 44,
+     "y": 507.328125,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Hangetsu: Cream puffs"
+    },
+    {
+     "x": 44,
+     "y": 657.515625,
+     "w": 992,
+     "h": 150.1875,
+     "cap": "Cannele: Canelés"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 1043,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Dandelion — Kuramae (Asakusa Line) 3 min"
+    },
+    {
+     "x": 67,
+     "y": 1105,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Clair de Lune — Kuramae (Oedo Line) 3 min"
+    },
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "3. Hangetsu — Kuramae Exit A0, 2 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "4. Kuramae Cannele — Kuramae 2 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "back",
+   "caption": "Before your sweet stop",
+   "boxes": []
+  }
+ ]
+}
