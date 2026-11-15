@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-14T23:01:19.976914+00:00",
+ "fetched_at": "2026-11-15T06:42:40.695391+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 115,
+  "media_count": 117,
   "id": "28241506535529259",
   "followers_count": 14,
   "follows_count": 152
  },
  "media": [
+  {
+   "id": "18117184961325010",
+   "permalink": "https://www.instagram.com/reel/Dfv4Xh0BZUL/",
+   "timestamp": "2026-11-15T04:05:33+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "What do you say at a restaurant in Japan? 10 lines 👇\n\nTen li",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 0,
+   "ig_reels_video_view_total_time": 0
+  },
+  {
+   "id": "18387419977232091",
+   "permalink": "https://www.instagram.com/p/Dfvjz1tET1p/",
+   "timestamp": "2026-11-15T01:05:11+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Extra: what to eat after a Japanese sauna 🧖 Yu's rest day at",
+   "reach": 1,
+   "views": 5,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "17958220125272065",
    "permalink": "https://www.instagram.com/p/DfuKma6loxT/",
@@ -18,7 +50,7 @@
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Kanazawa, one autumn day 🍁 A kaiseki night at Kanazawa Sasab",
    "reach": 1,
-   "views": 3,
+   "views": 5,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -32,15 +64,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where would you start? Four bowls of noodles Yu ate, Sapporo",
-   "reach": 113,
-   "views": 117,
+   "reach": 114,
+   "views": 118,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3113,
-   "ig_reels_video_view_total_time": 354945
+   "ig_reels_avg_watch_time": 3168,
+   "ig_reels_video_view_total_time": 370747
   },
   {
    "id": "18100109159451259",
@@ -56,8 +88,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1523,
-   "ig_reels_video_view_total_time": 79236
+   "ig_reels_avg_watch_time": 1768,
+   "ig_reels_video_view_total_time": 93749
   },
   {
    "id": "18152066785523096",
@@ -88,8 +120,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 794,
-   "ig_reels_video_view_total_time": 23832
+   "ig_reels_avg_watch_time": 951,
+   "ig_reels_video_view_total_time": 29491
   },
   {
    "id": "17913945969592238",
@@ -809,46 +841,12 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 6780,
    "ig_reels_video_view_total_time": 888284
-  },
-  {
-   "id": "18115967915166183",
-   "permalink": "https://www.instagram.com/reel/DfVz1WktctD/",
-   "timestamp": "2026-11-05T01:05:26+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Tokyo hacks #10: some places still allow smoking inside 🚬\n\n1",
-   "reach": 104,
-   "views": 108,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5033,
-   "ig_reels_video_view_total_time": 518441
-  },
-  {
-   "id": "18099404882450579",
-   "permalink": "https://www.instagram.com/reel/DfVfOU6tPAm/",
-   "timestamp": "2026-11-04T22:05:18+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Tokyo hacks #9: some shops close when they sell out 🍞\n\n16 of",
-   "reach": 104,
-   "views": 108,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4510,
-   "ig_reels_video_view_total_time": 478119
   }
  ],
  "account_daily": {
-  "reach": 203,
-  "views": 267,
-  "profile_views": 11,
+  "reach": 204,
+  "views": 275,
+  "profile_views": 16,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }

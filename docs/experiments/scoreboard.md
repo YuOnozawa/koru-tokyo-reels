@@ -7,8 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 32 | 123.6 | 26% | 0.4 | 0.0 | 0.4 |
-| B | 1 | 104.0 | 18% | 0.0 | 0.0 | 0.0 |
+| A | 31 | 124.3 | 26% | 0.5 | 0.0 | 0.4 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -17,7 +16,7 @@ Metric: **comp** · A = sauna series · B = food reels · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
+| A | 2 | 56.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -55,7 +54,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 8 | 2.5 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 9 | 2.3 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -65,7 +64,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 8 | 15.9 | 10% | 0.0 | 0.0 | 0.1 |
-| B | 4 | 31.5 | 16% | 0.0 | 0.0 | 0.0 |
+| B | 5 | 25.6 | 16% | 0.0 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -74,17 +73,17 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 2 | 82.5 | 16% | 0.0 | 0.0 | 0.0 |
+| hook reel | 3 | 55.3 | 12% | 0.0 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.5 | 8% | 0.0 | 0.0 | 0.3 |
 
-_Not enough reels yet (need n≥3 per arm)._
+**Suggested verdict:** hook reel wins (+170%)
 
 ## H17 — Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues
 Metric: **ss** · A = travel · B = tokyo · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| travel | 4 | 41.8 | 16% | 0.0 | 0.0 | 0.0 |
+| travel | 5 | 33.8 | 17% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -94,7 +93,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 16 | 124.1 | 17% | 0.6 | 0.0 | 0.6 |
+| B | 15 | 125.4 | 17% | 0.7 | 0.0 | 0.7 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -104,9 +103,9 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 125.8 | 48% | 0.4 | 0.0 | 0.3 |
-| B | 20 | 124.5 | 19% | 0.6 | 0.0 | 0.5 |
+| B | 19 | 125.5 | 19% | 0.6 | 0.0 | 0.5 |
 
-**Suggested verdict:** A wins (+150%)
+**Suggested verdict:** A wins (+154%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
@@ -143,7 +142,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 25 | 117.5 | 25% | 0.4 | 0.0 | 0.3 |
+| A | 23 | 118.7 | 25% | 0.5 | 0.0 | 0.3 |
 | B | 8 | 140.2 | 29% | 0.4 | 0.0 | 0.6 |
 
 **Suggested verdict:** no clear difference yet
