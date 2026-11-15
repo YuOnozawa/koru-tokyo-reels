@@ -1,10 +1,9 @@
 {
- "at": "2026-11-15T23:09:37.658160+00:00",
- "item": "r_x_05_kuramae",
+ "at": "2026-11-15T23:11:35.505215+00:00",
+ "item": "x_05_kuramae",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18133747636779964"
+  "container": "18133748122779964"
  },
  "published": false
 }
