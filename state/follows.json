@@ -1259,6 +1259,27 @@
    "liked": true,
    "at": "2026-11-15T12:40Z",
    "source": "Akihabara recent: family trip"
+  },
+  {
+   "user": "keetong",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-15T21:40Z",
+   "source": "Ueno Park recent: day 13 of 17"
+  },
+  {
+   "user": "amqib",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-15T21:40Z",
+   "source": "Yanaka recent: trip diary"
+  },
+  {
+   "user": "gems.knight",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-15T21:40Z",
+   "source": "Akihabara recent"
   }
  ],
  "candidates": [],
@@ -1495,6 +1516,11 @@
    "user": "will_sells_socal",
    "why": "realtor",
    "at": "2026-11-15T12:40Z"
+  },
+  {
+   "user": "alanwainwrightphotography",
+   "why": "photographer, DM for work",
+   "at": "2026-11-15T21:40Z"
   }
  ],
  "comment_queue": [
@@ -1656,6 +1682,13 @@
    "text": "Fun start to day 3! For another early breakfast near Akihabara, Shin-Tagoto opens at 6:30 every day: standing soba and curry, 2 min from the station.",
    "at": "2026-11-15T12:40Z",
    "basis": "shops.json Shin-Tagoto (Tabelog Nov 15)"
+  },
+  {
+   "user": "keetong",
+   "post": "https://www.instagram.com/p/Dfw-HuLEnOb/",
+   "text": "Beautiful colours in Ueno Park! If you pass by again in the morning, Coffee Ojo is a Showa-era coffee house 4 min from Ueno Station, open daily from 8:00 (cash or PayPay).",
+   "at": "2026-11-15T21:40Z",
+   "basis": "shops.json Coffee Ojo (Tabelog Nov 14)"
   }
  ]
 }
