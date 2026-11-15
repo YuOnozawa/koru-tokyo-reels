@@ -1238,6 +1238,27 @@
    "liked": true,
    "at": "2026-11-14T21:40Z",
    "source": "Akihabara recent: Tokyo trip"
+  },
+  {
+   "user": "cristina_dcs_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-15T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "electro.arc",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-15T12:40Z",
+   "source": "Akihabara recent: day 3"
+  },
+  {
+   "user": "gaultpartyofsix",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-15T12:40Z",
+   "source": "Akihabara recent: family trip"
   }
  ],
  "candidates": [],
@@ -1469,6 +1490,11 @@
    "user": "corrinaexplores",
    "why": "content creator",
    "at": "2026-11-14T21:40Z"
+  },
+  {
+   "user": "will_sells_socal",
+   "why": "realtor",
+   "at": "2026-11-15T12:40Z"
   }
  ],
  "comment_queue": [
@@ -1623,6 +1649,13 @@
    "text": "Congratulations on the honeymoon! If you're back in Ueno Park, Innsyoutei serves lunch inside the park from 11:00, and the basket lunch sets can be booked (from ¥2,950 on weekdays).",
    "at": "2026-11-14T21:40Z",
    "basis": "shops.json Innsyoutei (house_rules, Tabelog Nov 14)"
+  },
+  {
+   "user": "electro.arc",
+   "post": "https://www.instagram.com/p/DfwCFxrJeEW/",
+   "text": "Fun start to day 3! For another early breakfast near Akihabara, Shin-Tagoto opens at 6:30 every day: standing soba and curry, 2 min from the station.",
+   "at": "2026-11-15T12:40Z",
+   "basis": "shops.json Shin-Tagoto (Tabelog Nov 15)"
   }
  ]
 }
