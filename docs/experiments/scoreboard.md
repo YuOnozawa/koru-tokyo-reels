@@ -16,7 +16,7 @@ Metric: **comp** · A = sauna series · B = food reels · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 40.7 | 16% | 0.0 | 0.0 | 0.0 |
+| A | 3 | 41.0 | 20% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -64,7 +64,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 8 | 16.2 | 11% | 0.0 | 0.0 | 0.1 |
-| B | 6 | 23.3 | 15% | 0.0 | 0.0 | 0.0 |
+| B | 6 | 23.5 | 17% | 0.0 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -73,17 +73,17 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 4 | 45.2 | 16% | 0.0 | 0.0 | 0.0 |
+| hook reel | 4 | 45.5 | 18% | 0.0 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
-**Suggested verdict:** hook reel wins (+119%)
+**Suggested verdict:** hook reel wins (+120%)
 
 ## H17 — Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues
 Metric: **ss** · A = travel · B = tokyo · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| travel | 6 | 30.3 | 17% | 0.0 | 0.0 | 0.0 |
+| travel | 6 | 30.5 | 19% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
