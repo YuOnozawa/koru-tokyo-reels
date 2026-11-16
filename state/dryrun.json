@@ -1,9 +1,10 @@
 {
- "at": "2026-11-16T22:49:14.089021+00:00",
- "item": "x_06_naha_kokabu",
+ "at": "2026-11-16T23:12:44.521204+00:00",
+ "item": "r_x_06_naha_kokabu",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134044471779964"
+  "status": "FINISHED",
+  "id": "18134050348779964"
  },
  "published": false
 }
