@@ -47,9 +47,9 @@
     {
      "photo": "stock/yu/naha_kokabu_grill.jpg",
      "pos": "center 45%",
-     "jp": "焼きもの",
-     "en": "Grilled fish, sweet potato, ginkgo",
-     "note": "秋の一皿"
+     "jp": "うなぎ",
+     "en": "Grilled eel, Kansai style: crisp skin",
+     "note": "店主は愛知で修業"
     },
     {
      "photo": "stock/yu/naha_kokabu_trio.jpg",
@@ -61,8 +61,8 @@
     {
      "photo": "stock/yu/naha_kokabu_monaka.jpg",
      "pos": "center 50%",
-     "jp": "最中の一品",
-     "en": "A bite in a monaka shell",
+     "jp": "あん肝テリーヌの最中",
+     "en": "Monkfish liver terrine in a monaka shell",
      "note": "コースの一品"
     }
    ],
@@ -196,9 +196,9 @@
      0.5,
      0.45
     ],
-    "jp": "焼きもの",
-    "en": "Grilled fish, autumn sides",
-    "fact": "Omakase course ¥9,300"
+    "jp": "うなぎ",
+    "en": "Grilled eel, Kansai style",
+    "fact": "Crisp skin · the owner trained in Aichi"
    },
    {
     "photo": "stock/yu/naha_kokabu_trio.jpg",
