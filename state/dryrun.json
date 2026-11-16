@@ -1,9 +1,10 @@
 {
- "at": "2026-11-16T23:45:55.854198+00:00",
- "item": "x_07_naha_miso",
+ "at": "2026-11-16T23:53:17.571626+00:00",
+ "item": "r_x_07_naha_miso",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134059822779964"
+  "status": "FINISHED",
+  "id": "18134061211779964"
  },
  "published": false
 }
