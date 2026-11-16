@@ -1,9 +1,10 @@
 {
- "at": "2026-11-15T23:11:35.505215+00:00",
- "item": "x_05_kuramae",
+ "at": "2026-11-16T16:48:07.464073+00:00",
+ "item": "r_c_10_jimbocho",
  "result": {
   "status_code": "FINISHED",
-  "container": "18133748122779964"
+  "status": "FINISHED",
+  "id": "18133979347779964"
  },
  "published": false
 }
