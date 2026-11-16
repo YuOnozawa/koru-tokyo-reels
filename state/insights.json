@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T15:05:43.219174+00:00",
+ "fetched_at": "2026-11-16T23:01:26.957185+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -18,7 +18,7 @@
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Eel in East Tokyo: five worth booking 🍱 Unaju (grilled eel o",
    "reach": 1,
-   "views": 3,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -39,8 +39,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3025,
-   "ig_reels_video_view_total_time": 329789
+   "ig_reels_avg_watch_time": 3126,
+   "ig_reels_video_view_total_time": 343868
   },
   {
    "id": "18149245759574118",
@@ -49,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to book eel in Tokyo? 5 places 👇\n\nEel in East Tokyo: f",
-   "reach": 44,
-   "views": 50,
+   "reach": 45,
+   "views": 51,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1560,
-   "ig_reels_video_view_total_time": 73321
+   "ig_reels_avg_watch_time": 1826,
+   "ig_reels_video_view_total_time": 89487
   },
   {
    "id": "18131632009846656",
@@ -838,8 +838,8 @@
   }
  ],
  "account_daily": {
-  "reach": 164,
-  "views": 194,
+  "reach": 167,
+  "views": 200,
   "profile_views": 7,
   "profile_links_taps": 0,
   "accounts_engaged": 1
