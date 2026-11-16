@@ -1,0 +1,129 @@
+{
+ "id": "x_07_naha_miso",
+ "issue": "番外編 EXTRA 07",
+ "place": "OKINAWA · NAHA",
+ "reel": {
+  "cover_cap": "Extra: miso soup for breakfast in Naha"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/naha_miso_bowl.jpg",
+   "pos": "center 55%",
+   "jp": "番外編\n那覇の朝は、\n[みそ汁]。",
+   "jp_size": 100,
+   "en": "Extra: a miso soup breakfast in Naha",
+   "en_size": 44,
+   "lines": [
+    [
+     "ゆし豆腐の\nみそ汁、¥950。",
+     "Miso soup with yushi tofu, ¥950"
+    ],
+    [
+     "朝7時から。\n現金のみ。",
+     "From 7am · cash only"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が行った"
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_miso_tray.jpg",
+   "pos": "center 60%",
+   "kicker": "WHAT YU HAD",
+   "jp": "みそゆし、\n染みる。",
+   "jp_size": 56,
+   "en": "Misoyushi: miso soup with fresh yushi tofu",
+   "body": "Soft yushi tofu in miso soup with vegetables, pork and a soft egg, with rice and small sides. The tofu comes from Tamaki Tofu. Yu: it soaks right in, and it's a good breakfast.",
+   "cap": "Misoyushi: miso soup with yushi tofu"
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_miso_menu.jpg",
+   "pos": "center 50%",
+   "kicker": "MENU · CASH ONLY",
+   "jp": "一杯¥850から。",
+   "jp_size": 56,
+   "en": "From ¥850 a bowl, cash only",
+   "body": "Misoyushi ¥950 (large ¥1,050). Miso soup ¥900. Garlic wonton miso soup ¥1,000. Yushi tofu ¥850. Mini miso soup ¥500. Add an egg, natto or kimchi for ¥150, or swap the rice for juushii for ¥100.",
+   "cap": "From ¥850, cash only"
+  },
+  {
+   "type": "back",
+   "jp": "那覇の朝、\n行く前に。",
+   "en": "Before your Naha breakfast",
+   "checks": [
+    [
+     "朝7時から、LO14時",
+     "7:00–15:00, last order 14:00"
+    ],
+    [
+     "現金のみ",
+     "Cash only"
+    ],
+    [
+     "奥に座敷あり",
+     "Tatami room at the back for groups"
+    ],
+    [
+     "水曜休み（食べログ）",
+     "Closed Wed (Tabelog)"
+    ]
+   ],
+   "note": "Photos by Yu, Nov 2026 · prices from the menu · hours: Tabelog, Nov 17",
+   "photo": "stock/yu/naha_miso_sign.jpg",
+   "pos": "center 45%",
+   "photo_h": 300
+  }
+ ],
+ "hook": {
+  "q_jp": "那覇の朝、\n何食べる？",
+  "q_en": "Extra: miso soup with fresh tofu, from 7am in Naha",
+  "photo": "stock/yu/naha_miso_bowl.jpg",
+  "pos": [
+   0.5,
+   0.55
+  ],
+  "beats": [
+   {
+    "photo": "stock/yu/naha_miso_bowl.jpg",
+    "pos": [
+     0.45,
+     0.5
+    ],
+    "jp": "みそゆし",
+    "en": "Misoyushi",
+    "fact": "Miso soup with yushi tofu · ¥950"
+   },
+   {
+    "photo": "stock/yu/naha_miso_tray.jpg",
+    "pos": [
+     0.5,
+     0.55
+    ],
+    "jp": "ご飯と小鉢つき",
+    "en": "With rice and sides",
+    "fact": "Yu: it soaks right in"
+   },
+   {
+    "photo": "stock/yu/naha_miso_menu.jpg",
+    "jp": "現金のみ",
+    "en": "Cash only",
+    "fact": "From ¥850 a bowl"
+   },
+   {
+    "photo": "stock/yu/naha_miso_sign.jpg",
+    "pos": [
+     0.5,
+     0.45
+    ],
+    "jp": "玉城豆腐のみそ汁屋",
+    "en": "Tamaki Tofu no Misoshiru-ya",
+    "fact": "7:00–15:00 · tatami room at the back"
+   }
+  ]
+ }
+}

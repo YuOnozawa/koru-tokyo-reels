@@ -1,0 +1,48 @@
+{
+ "id": "x_07_naha_miso",
+ "reel": {
+  "cover_cap": "Extra: miso soup for breakfast in Naha"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: a miso soup breakfast in Naha",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "photo",
+   "caption": "Misoyushi: miso soup with fresh yushi tofu",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 981.78125,
+     "w": 992,
+     "h": 312.21875,
+     "cap": "Misoyushi: miso soup with yushi tofu"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "From ¥850 a bowl, cash only",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 1012.109375,
+     "w": 992,
+     "h": 281.890625,
+     "cap": "From ¥850, cash only"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "back",
+   "caption": "Before your Naha breakfast",
+   "boxes": []
+  }
+ ]
+}
