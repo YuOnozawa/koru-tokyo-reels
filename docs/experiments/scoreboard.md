@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 27 | 125.4 | 27% | 0.4 | 0.0 | 0.4 |
+| A | 25 | 127.2 | 28% | 0.4 | 0.0 | 0.4 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -54,7 +54,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 11 | 2.5 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 12 | 2.3 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -63,20 +63,20 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 9 | 15.4 | 10% | 0.0 | 0.0 | 0.1 |
-| B | 7 | 20.7 | 17% | 0.0 | 0.0 | 0.0 |
+| A | 10 | 17.5 | 10% | 0.0 | 0.0 | 0.1 |
+| B | 8 | 31.9 | 18% | 0.1 | 0.0 | 0.0 |
 
-**Suggested verdict:** no clear difference yet
+**Suggested verdict:** B wins (+inf%)
 
 ## H16 — The slow magazine-flip reel (design D, ~25 s, no AI voice, real photos) beats the old AI-voice + stock-footage reel on reach and average watch time
 Metric: **reach** · A = magazine reel · B = old reel template · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 5 | 38.6 | 16% | 0.0 | 0.0 | 0.0 |
+| hook reel | 6 | 56.3 | 17% | 0.2 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
-**Suggested verdict:** hook reel wins (+87%)
+**Suggested verdict:** hook reel wins (+173%)
 
 ## H17 — Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues
 Metric: **ss** · A = travel · B = tokyo · status: running
@@ -93,7 +93,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 11 | 128.6 | 16% | 0.7 | 0.0 | 0.8 |
+| B | 9 | 134.2 | 14% | 0.8 | 0.0 | 0.8 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -103,27 +103,27 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 125.8 | 48% | 0.4 | 0.0 | 0.3 |
-| B | 16 | 126.8 | 19% | 0.6 | 0.0 | 0.6 |
+| B | 14 | 130.1 | 19% | 0.6 | 0.0 | 0.5 |
 
-**Suggested verdict:** A wins (+154%)
+**Suggested verdict:** A wins (+159%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 105.2 | 13% | 0.9 | 0.0 | 0.8 |
-| B | 5 | 155.4 | 18% | 0.5 | 0.0 | 0.8 |
+| A | 5 | 105.8 | 14% | 0.9 | 0.0 | 0.6 |
+| B | 4 | 168.0 | 14% | 0.6 | 0.0 | 1.0 |
 
-**Suggested verdict:** B wins (+48%)
+**Suggested verdict:** B wins (+59%)
 
 ## H5 — Asking 'which one would you try?' in the caption gets comments
 Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 7 | 146.6 | 17% | 0.7 | 0.0 | 0.9 |
-| B | 5 | 101.6 | 17% | 0.6 | 0.0 | 0.6 |
+| A | 6 | 154.0 | 18% | 0.7 | 0.0 | 0.7 |
+| B | 4 | 100.8 | 12% | 0.7 | 0.0 | 0.8 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -132,8 +132,8 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 114.0 | 17% | 0.2 | 0.0 | 0.0 |
-| B | 6 | 139.7 | 14% | 1.2 | 0.0 | 1.5 |
+| A | 4 | 116.2 | 13% | 0.2 | 0.0 | 0.0 |
+| B | 5 | 147.2 | 15% | 1.2 | 0.0 | 1.4 |
 
 **Suggested verdict:** no clear difference yet
 
@@ -142,7 +142,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 20 | 118.7 | 26% | 0.4 | 0.0 | 0.3 |
+| A | 18 | 120.4 | 27% | 0.4 | 0.0 | 0.3 |
 | B | 7 | 144.7 | 30% | 0.5 | 0.0 | 0.7 |
 
 **Suggested verdict:** no clear difference yet
