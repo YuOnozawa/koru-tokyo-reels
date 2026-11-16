@@ -138,3 +138,11 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   and saves site/covers/r_<id>.jpg; ig.py sends it as cover_url. All 9 unposted reels rebuilt; dryrun with cover_url FINISHED.
 - Covers for the two posted red reels sent to Yu to set by hand in the app.
 - Still true: real food photos win. Ask Yu for photos; for type-only issues, test whether the new cover lifts plays.
+
+## 2026-11-17 08:00 production run (no new issues today)
+- Insights 11/16 23:01 UTC. Hook reels: Kita-Senju (Yu's croquette photo) reach 110, avg watch 3.1 s, 1 save (first save since the format change);
+  eel (red type card first frame) 45 (1.8 s). Earlier: noodles 115, Kanazawa 53, sauna 12, ten lines 4. Followers 15 (+1). Account reach/day ~165.
+- Read: Yu's food photos as the first frame = ~110 reach, every time. Type-only = 4–45. The new covers (text from frame 0, cover_url)
+  start with r_c_10 today 12:00 — compare r_c_10/11/12 against 45.
+- Not made today: Mac Chrome was not connected (only the Windows browser, which we never use), so Tabelog review counts could not be
+  taken the usual way; WebFetch gives only rough counts. The queue is full through 11/21, so 11/22 is left for the next run.
