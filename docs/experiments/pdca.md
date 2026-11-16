@@ -130,3 +130,11 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   Hypothesis: the first frame needs a dish people recognize (ramen, crab) — a lounge/wings or a red type card doesn't stop the scroll.
   Next test: for type-only issues, open on Yu's best food photo that fits the theme, if any; otherwise keep type and see 2 more.
 - Made: No.16 上野の喫茶店 (11/20 A; smoking/non-smoking is the useful fact) and Extra 05 蔵前のおやつ (11/21 B). 8 shops checked.
+
+## 2026-11-17 01:40 reel covers (Yu: 赤いトップ画のリールは再生が低い)
+- Cause: hook reels without a photo started on a flat red frame with the text still sliding in, so the grid/feed thumbnail was a blank red tile.
+  r_c_07 (red) 4 plays, r_c_08 eel (red) ~50; photo-led reels 115.
+- Fix: hook.py now shows the question from frame 0, uses the issue's own cover (blurred, darkened) instead of flat red, adds the issue tag,
+  and saves site/covers/r_<id>.jpg; ig.py sends it as cover_url. All 9 unposted reels rebuilt; dryrun with cover_url FINISHED.
+- Covers for the two posted red reels sent to Yu to set by hand in the app.
+- Still true: real food photos win. Ask Yu for photos; for type-only issues, test whether the new cover lifts plays.
