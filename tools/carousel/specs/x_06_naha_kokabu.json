@@ -1,0 +1,221 @@
+{
+ "id": "x_06_naha_kokabu",
+ "issue": "番外編 EXTRA 06",
+ "place": "OKINAWA · NAHA",
+ "reel": {
+  "cover_cap": "Extra: a Japanese counter in Naha"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/naha_kokabu_sashimi.jpg",
+   "pos": "center 55%",
+   "jp": "番外編\n那覇で、\n[和食]を。",
+   "jp_size": 104,
+   "en": "Extra: a Japanese counter in Naha, Okinawa",
+   "en_size": 44,
+   "lines": [
+    [
+     "イカの刺身が、\n衝撃の美味さ。",
+     "Yu: the squid sashimi was stunning"
+    ],
+    [
+     "ゆいレール\n美栄橋駅から徒歩4分。",
+     "4 min from Miebashi Station"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が行った"
+   ]
+  },
+  {
+   "type": "catalog",
+   "kicker": "EXTRA · OKINAWA",
+   "jp": "旬菜 こかぶ亭",
+   "en": "Shunsai Kokabu-tei, Naha",
+   "sub": "Counter of 6, Japanese seasonal cooking",
+   "reel_cap": "What Yu ate",
+   "items": [
+    {
+     "photo": "stock/yu/naha_kokabu_sashimi.jpg",
+     "pos": "center 55%",
+     "jp": "お刺身",
+     "en": "Sashimi: tuna, white fish, squid",
+     "note": "イカが衝撃（Yu）"
+    },
+    {
+     "photo": "stock/yu/naha_kokabu_grill.jpg",
+     "pos": "center 45%",
+     "jp": "焼きもの",
+     "en": "Grilled fish, sweet potato, ginkgo",
+     "note": "秋の一皿"
+    },
+    {
+     "photo": "stock/yu/naha_kokabu_trio.jpg",
+     "pos": "center 55%",
+     "jp": "小鉢三種",
+     "en": "Three small plates",
+     "note": "揚げもの・和え物"
+    },
+    {
+     "photo": "stock/yu/naha_kokabu_monaka.jpg",
+     "pos": "center 50%",
+     "jp": "最中の一品",
+     "en": "A bite in a monaka shell",
+     "note": "コースの一品"
+    }
+   ],
+   "info": [
+    [
+     "COURSE",
+     "¥9,300（税込）",
+     "7 dishes, omakase"
+    ],
+    [
+     "OPEN",
+     "18:00〜 · 日曜休み",
+     "dinner; closed Sun"
+    ],
+    [
+     "PAY",
+     "カード可",
+     "cards OK; no e-money or QR"
+    ]
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_kokabu_menu.jpg",
+   "pos": "center 45%",
+   "kicker": "TODAY'S MENU",
+   "jp": "本日の一品も、\n頼める。",
+   "jp_size": 56,
+   "en": "Or order from today's menu",
+   "body": "The night Yu went: hairy crab ¥2,500, sea bream and salmon roe clay-pot rice ¥3,800, white sesame panna cotta ¥400. The menu changes with the season.",
+   "cap": "Today's menu: crab, clay-pot rice"
+  },
+  {
+   "type": "rules",
+   "kicker": "HOUSE RULES",
+   "jp": "行く前に、店の決まり",
+   "en": "House rules before you go",
+   "sub": "from the restaurant's own listings, Nov 17, 2026",
+   "reel_cap": "House rules, before you go",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "キャンセル料",
+     "en": "Cancellation fee",
+     "stat": "50%",
+     "do": "Course bookings: 50% if you cancel the day before, 100% on the day."
+    },
+    {
+     "jp": "30分で取消",
+     "en": "30 min late = no-show",
+     "stat": "30分",
+     "do": "No call 30 min after your booking time counts as a no-show."
+    },
+    {
+     "jp": "2時間半",
+     "en": "Two and a half hours",
+     "stat": "2.5h",
+     "do": "When busy, the shop may ask you to leave after 2 h 30 min."
+    },
+    {
+     "jp": "香水は控えめに",
+     "en": "No strong perfume",
+     "stat": "SCENT",
+     "do": "The shop asks guests not to wear strong perfume."
+    },
+    {
+     "jp": "サービス料",
+     "en": "Service charge",
+     "stat": "¥500",
+     "do": "¥500 service charge at dinner. Cards OK; no e-money or QR."
+    },
+    {
+     "jp": "子ども連れ",
+     "en": "With children",
+     "stat": "KIDS",
+     "do": "Children welcome; small children are seated at a table or the private room."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "那覇の夜、\n行く前に。",
+   "en": "Before your night in Naha",
+   "checks": [
+    [
+     "日曜は休み",
+     "Closed Sundays"
+    ],
+    [
+     "コースは前日までに予約",
+     "Book the course ahead"
+    ],
+    [
+     "香水は控えめに",
+     "No strong perfume"
+    ],
+    [
+     "イカの刺身を",
+     "Have the squid sashimi"
+    ]
+   ],
+   "note": "Photos by Yu, Nov 2026 · rules: Tabelog and the official page, Nov 17",
+   "photo": "stock/yu/naha_kokabu_sign.jpg",
+   "pos": "center 45%",
+   "photo_h": 300
+  }
+ ],
+ "hook": {
+  "q_jp": "那覇で、\n何食べる？",
+  "q_en": "Extra: a 6-seat Japanese counter in Naha, Okinawa",
+  "photo": "stock/yu/naha_kokabu_sashimi.jpg",
+  "pos": [
+   0.5,
+   0.55
+  ],
+  "beats": [
+   {
+    "photo": "stock/yu/naha_kokabu_sashimi.jpg",
+    "pos": [
+     0.45,
+     0.6
+    ],
+    "jp": "イカの刺身",
+    "en": "Squid sashimi",
+    "fact": "Yu: stunning"
+   },
+   {
+    "photo": "stock/yu/naha_kokabu_grill.jpg",
+    "pos": [
+     0.5,
+     0.45
+    ],
+    "jp": "焼きもの",
+    "en": "Grilled fish, autumn sides",
+    "fact": "Omakase course ¥9,300"
+   },
+   {
+    "photo": "stock/yu/naha_kokabu_trio.jpg",
+    "jp": "小鉢三種",
+    "en": "Three small plates",
+    "fact": "Counter of 6 seats"
+   },
+   {
+    "photo": "stock/yu/naha_kokabu_beer.jpg",
+    "pos": [
+     0.45,
+     0.5
+    ],
+    "jp": "旬菜 こかぶ亭",
+    "en": "Shunsai Kokabu-tei",
+    "fact": "4 min from Miebashi · closed Sun"
+   }
+  ]
+ }
+}

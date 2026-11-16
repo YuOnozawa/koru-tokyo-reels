@@ -1,0 +1,125 @@
+{
+ "id": "x_06_naha_kokabu",
+ "reel": {
+  "cover_cap": "Extra: a Japanese counter in Naha"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: a Japanese counter in Naha, Okinawa",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "catalog",
+   "caption": "What Yu ate",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "1. Sashimi: tuna, white fish, squid"
+    },
+    {
+     "x": 550,
+     "y": 212.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "2. Grilled fish, sweet potato, ginkgo"
+    },
+    {
+     "x": 44,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "3. Three small plates"
+    },
+    {
+     "x": 550,
+     "y": 649.953125,
+     "w": 486,
+     "h": 413,
+     "cap": "4. A bite in a monaka shell"
+    },
+    {
+     "x": 44,
+     "y": 1185.109375,
+     "w": 992,
+     "h": 108.890625,
+     "cap": "7 dishes, omakase · dinner; closed Sun · cards OK; no e-money or QR"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Or order from today's menu",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 981.78125,
+     "w": 992,
+     "h": 312.21875,
+     "cap": "Today's menu: crab, clay-pot rice"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "rules",
+   "caption": "House rules, before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Cancellation fee"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. 30 min late = no-show"
+    },
+    {
+     "x": 44,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Two and a half hours"
+    },
+    {
+     "x": 548,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. No strong perfume"
+    },
+    {
+     "x": 44,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Service charge"
+    },
+    {
+     "x": 548,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. With children"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "back",
+   "caption": "Before your night in Naha",
+   "boxes": []
+  }
+ ]
+}
