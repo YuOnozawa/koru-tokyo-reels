@@ -57,8 +57,8 @@
    "en": "Before your Naha breakfast",
    "checks": [
     [
-     "朝7時から、LO14時",
-     "7:00–15:00, last order 14:00"
+     "朝7時から",
+     "From 7am"
     ],
     [
      "現金のみ・持ち帰りOK",
@@ -69,11 +69,11 @@
      "Tatami room at the back for groups"
     ],
     [
-     "水曜休み（食べログ）",
-     "Closed Wed (Tabelog)"
+     "休みと閉店時間はインスタで",
+     "Check Instagram for days and closing time"
     ]
    ],
-   "note": "Photos by Yu, Nov 2026 · prices from the menu · hours: Tabelog, Nov 17",
+   "note": "Photos by Yu, Nov 2026 · prices from the menu",
    "photo": "stock/yu/naha_miso_sign.jpg",
    "pos": "center 45%",
    "photo_h": 300
@@ -122,7 +122,7 @@
     ],
     "jp": "玉城豆腐のみそ汁屋",
     "en": "Tamaki Tofu no Misoshiru-ya",
-    "fact": "7:00–15:00 · tatami room at the back"
+    "fact": "From 7am · tatami room at the back"
    }
   ]
  }
