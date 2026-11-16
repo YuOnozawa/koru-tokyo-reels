@@ -112,8 +112,10 @@ def publish_one(uid, item):
     if item.get('type') == 'carousel':
         cid = carousel_container(uid, item)
     else:
-        c = call('POST', f'{uid}/media', {'media_type': 'REELS', 'video_url': url,
-                                          'caption': item['caption'], 'share_to_feed': 'true'})
+        params = {'media_type': 'REELS', 'video_url': url, 'caption': item['caption'], 'share_to_feed': 'true'}
+        if item.get('cover'):  # thumbnail for the profile grid (Yu 11/17: blank red first frames got few plays)
+            params['cover_url'] = public_url(item['cover'])
+        c = call('POST', f'{uid}/media', params)
         cid = c['id']
         for i in range(30):  # up to ~15 min
             time.sleep(30)
@@ -231,7 +233,10 @@ if __name__ == '__main__':
                 cid = carousel_container(u['user_id'], item); st = {'status_code': 'FINISHED', 'container': cid}
             else:
                 url = public_url(item['file'])
-                c = call('POST', f"{u['user_id']}/media", {'media_type': 'REELS', 'video_url': url, 'caption': item['caption']})
+                params = {'media_type': 'REELS', 'video_url': url, 'caption': item['caption']}
+                if item.get('cover'):
+                    params['cover_url'] = public_url(item['cover']); print('cover_url', params['cover_url'])
+                c = call('POST', f"{u['user_id']}/media", params)
                 for i in range(30):
                     time.sleep(30)
                     st = call('GET', c['id'], {'fields': 'status_code,status'})

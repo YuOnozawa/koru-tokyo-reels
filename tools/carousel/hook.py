@@ -103,23 +103,34 @@ def main(cid, out=None):
         pad = 16; c = im.crop((max(0, bx['x'] - pad), max(0, bx['y'] - pad), min(1080, bx['x'] + bx['w'] + pad), min(1350, bx['y'] + bx['h'] + pad)))
         sc = min(1000 / c.width, 560 / c.height)
         return c.resize((int(c.width * sc), int(c.height * sc)), Image.LANCZOS)
-    for i in range(int(HOOK_T * FPS)):
+    cov_bg = None
+    if not hp:   # no photo: the issue's own cover, filled and darkened, instead of a flat red card
+        cov_bg = Image.open(os.path.join(cdir, '01.jpg')).convert('RGB').filter(ImageFilter.GaussianBlur(10))
+    tag = ''.join(ch for ch in f"{spec.get('issue', '')} · {spec.get('place', '')}" if ord(ch) < 0x2000 or ch in '·–').strip(' ·')
+    cover_path = os.path.join(ROOT, 'site/covers', f'r_{cid}.jpg')
+    os.makedirs(os.path.dirname(cover_path), exist_ok=True)
+    nh = int(HOOK_T * FPS)
+    for i in range(nh):
         t = i / FPS
         if hp:
             z = 1.32 - 0.22 * ease(t / 0.6) - 0.06 * (t / HOOK_T)
             f = cover(hp, z, hk.get('pos', (0.5, 0.5))); shade(f, 0.5, 0.85)
         else:
-            f = Image.new('RGB', (W, H), RED)
+            f = cover(cov_bg, 1.25 - 0.08 * (t / HOOK_T), (0.62, 0.3))
+            f = Image.blend(f, Image.new('RGB', (W, H), (0, 0, 0)), 0.45)
         dr = ImageDraw.Draw(f); mast(dr)
         y = 980 - 75 * len(lines)
-        for k, ln in enumerate(lines):          # each line slides in, staggered
-            a = ease((t - 0.08 * k) / 0.35)
-            x = 60 - int((1 - a) * 700)
-            if a > 0: y = block(dr, x, y, ln, fq, INK, YEL, (26, 14)) + 14
-        if t > 0.5:
-            a = ease((t - 0.5) / 0.4); yy = y + 20 + int((1 - a) * 40)
-            for ln in wrap(dr, hk['q_en'], fen, W - 160):
-                yy = block(dr, 60, yy, ln, fen, WHITE, INK, (20, 10)) + 6
+        for k, ln in enumerate(lines):          # text is on screen from the first frame (it is the thumbnail); a short settle-in
+            a = ease((t + 0.3 - 0.08 * k) / 0.35)
+            x = 60 - int((1 - a) * 300)
+            y = block(dr, x, y, ln, fq, INK, YEL, (26, 14)) + 14
+        a = ease((t + 0.2) / 0.4); yy = y + 20 + int((1 - a) * 30)
+        for ln in wrap(dr, hk['q_en'], fen, W - 160):
+            yy = block(dr, 60, yy, ln, fen, WHITE, INK, (20, 10)) + 6
+        if tag:
+            dr.text((62, 1530), tag.upper(), font=arc(34, 800), fill=YEL)
+        if i == nh - 1:
+            f.save(cover_path, quality=90)   # reel cover (cover_url): the grid shows its middle 4:5
         put(f); n_frames += 1
 
     # 2) beats
