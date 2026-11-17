@@ -1,0 +1,145 @@
+{
+ "id": "x_09_naha_night",
+ "issue": "番外編 EXTRA 09",
+ "place": "OKINAWA · NAHA",
+ "reel": {
+  "cover_cap": "Extra: steak, awamori and jazz in Naha"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/naha_chaco_steak.jpg",
+   "pos": "center 55%",
+   "jp": "番外編\n那覇の夜、\n[3軒はしご]。",
+   "jp_size": 96,
+   "en": "Extra: one night in Naha, three stops",
+   "en_size": 44,
+   "lines": [
+    [
+     "炭火ステーキ。",
+     "1 · Charcoal-grilled steak"
+    ],
+    [
+     "泡盛のバー。",
+     "2 · An awamori bar"
+    ],
+    [
+     "ジャズの生演奏。",
+     "3 · Live jazz"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が行った"
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_chaco_grill.jpg",
+   "pos": "center 80%",
+   "kicker": "STOP 1 · CHACO",
+   "jp": "1軒目。\n炭火で焼く。",
+   "jp_size": 56,
+   "en": "Steaks over charcoal, since 1973",
+   "body": "Steak House Chaco Okinawa, Matsuyama, Naha. Open since 1973; steaks are grilled over charcoal. Lunch 12:00–14:00 (LO 13:30), dinner 17:00–21:30 (LO 21:00), Tue–Sat and holidays. Closed Sun and Mon. 32 seats. Cards, IC and QR pay OK. (Gurunavi, Nov 17)",
+   "cap": "The charcoal grill at Chaco"
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_chaco_lobster.jpg",
+   "pos": "center 55%",
+   "kicker": "WHAT YU HAD",
+   "jp": "リブと、\nロブスター。",
+   "jp_size": 54,
+   "en": "Rib steak and lobster. Yu: seriously good",
+   "body": "Yu had the rib steak (Japanese beef) and a lobster. On the menu, rib steak runs from 8 oz (200 g) ¥8,250 to 14 oz (350 g) ¥11,880, tax included, with soup, salad, bread or rice, and coffee, tea or ice cream.",
+   "cap": "Lobster, Chaco"
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_taka_shelf.jpg",
+   "pos": "center 50%",
+   "kicker": "STOP 2 · TAKAYAMA",
+   "jp": "2軒目。\n泡盛の棚。",
+   "jp_size": 56,
+   "en": "A wall of awamori and shochu",
+   "body": "Takayama Ryukyu Bettei, a shochu and awamori bar in Matsuyama, Naha (Pair City Bldg 1F). 19:00–04:00. 22 seats; bookings OK; cards OK. Smoking is allowed at all seats. Yu's otoshi (table snack) was umeboshi. (Tabelog, Nov 17)",
+   "cap": "Takayama Ryukyu Bettei"
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/naha_swing_nuts.jpg",
+   "pos": "20% 50%",
+   "kicker": "STOP 3 · SWING",
+   "jp": "3軒目。\nジャズの生演奏。",
+   "jp_size": 54,
+   "en": "Live jazz to end the night",
+   "body": "Jazz Bar Swing Okinawa, Wakasa, Naha. An authentic jazz bar where the owner plays piano live, with band nights on a regular basis (official site). Yu: the best. Hours are not listed online; check their Instagram, @algos.jazzbarswing.",
+   "cap": "Jazz Bar Swing Okinawa"
+  },
+  {
+   "type": "back",
+   "jp": "那覇の夜、\n行く前に。",
+   "en": "Before your night in Naha",
+   "checks": [
+    [
+     "チャコは日・月が休み",
+     "Chaco: closed Sun and Mon"
+    ],
+    [
+     "チャコの夜は21時LO",
+     "Chaco dinner: last order 21:00"
+    ],
+    [
+     "高山は19時〜4時・全席喫煙可",
+     "Takayama: 19:00–04:00, smoking OK"
+    ],
+    [
+     "Swingの営業日はInstagramで",
+     "Swing: check Instagram for hours"
+    ]
+   ],
+   "note": "Photos by Yu, Nov 2026 · info: Gurunavi, Tabelog, official site, Nov 17",
+   "photo": "stock/yu/naha_taka_bottles.jpg",
+   "pos": "center 50%",
+   "photo_h": 300
+  }
+ ],
+ "hook": {
+  "q_jp": "那覇の夜、\n3軒はしご。",
+  "q_en": "Extra: steak, awamori and live jazz in Naha",
+  "photo": "stock/yu/naha_chaco_steak.jpg",
+  "pos": [
+   0.5,
+   0.5
+  ],
+  "beats": [
+   {
+    "photo": "stock/yu/naha_chaco_grill.jpg",
+    "pos": [
+     0.5,
+     0.75
+    ],
+    "jp": "炭火ステーキ",
+    "en": "1 · Chaco, since 1973",
+    "fact": "Steaks grilled over charcoal"
+   },
+   {
+    "photo": "stock/yu/naha_taka_shelf.jpg",
+    "jp": "泡盛のバー",
+    "en": "2 · Takayama",
+    "fact": "Open 19:00–04:00 · umeboshi to start"
+   },
+   {
+    "photo": "stock/yu/naha_swing_nuts.jpg",
+    "pos": [
+     0.25,
+     0.5
+    ],
+    "jp": "ジャズの生演奏",
+    "en": "3 · Jazz Bar Swing",
+    "fact": "The owner plays piano live"
+   }
+  ]
+ }
+}

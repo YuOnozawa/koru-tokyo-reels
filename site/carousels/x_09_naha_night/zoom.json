@@ -1,0 +1,76 @@
+{
+ "id": "x_09_naha_night",
+ "reel": {
+  "cover_cap": "Extra: steak, awamori and jazz in Naha"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: one night in Naha, three stops",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "photo",
+   "caption": "Steaks over charcoal, since 1973",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 917,
+     "w": 992,
+     "h": 377,
+     "cap": "The charcoal grill at Chaco"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Rib steak and lobster. Yu: seriously good",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 953.890625,
+     "w": 992,
+     "h": 340.109375,
+     "cap": "Lobster, Chaco"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "photo",
+   "caption": "A wall of awamori and shochu",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 949.390625,
+     "w": 992,
+     "h": 344.609375,
+     "cap": "Takayama Ryukyu Bettei"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "photo",
+   "caption": "Live jazz to end the night",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 953.890625,
+     "w": 992,
+     "h": 340.109375,
+     "cap": "Jazz Bar Swing Okinawa"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your night in Naha",
+   "boxes": []
+  }
+ ]
+}

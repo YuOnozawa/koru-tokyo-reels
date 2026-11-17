@@ -9053,5 +9053,97 @@
    "Non-smoking",
    "Parking on site"
   ]
+ },
+ {
+  "area": "Okinawa (Naha)",
+  "walk_min": null,
+  "awards": [],
+  "lunch_price_yen": "unknown",
+  "budget_band": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-17",
+  "rules_checked": "2026-11-17",
+  "name_en": "Steak House Chaco Okinawa",
+  "name_ja": "ステーキハウス チャコ オキナワ",
+  "station": "Kenchomae (Yui Rail) 10 min walk; Matsuyama 1-6-22",
+  "genre": "Charcoal-grilled steak (since 1973)",
+  "hours": "Lunch 12:00-14:00 (LO 13:30), dinner 17:00-21:30 (LO 21:00), Tue-Sat & holidays (Gurunavi, Nov 2026)",
+  "closed_days": "Sun, Mon",
+  "reservation": "unknown",
+  "dinner_price_yen": "Rib steak set 8,250-11,880 (menu, tax incl.)",
+  "english_menu": "unknown",
+  "what_to_order": "Rib steak (Yu: seriously good); lobster",
+  "tourist_tip": "Steak sets include soup, salad, bread or rice, drink or ice cream. Cards, IC, QR OK. 32 seats.",
+  "sources": [
+   "https://gurunavi.com/ja/f086700/rst"
+  ],
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true,
+  "house_rules": [
+   "Closed Sun and Mon",
+   "Cards, IC and QR OK"
+  ]
+ },
+ {
+  "area": "Okinawa (Naha)",
+  "walk_min": null,
+  "awards": [],
+  "lunch_price_yen": "unknown",
+  "budget_band": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-17",
+  "rules_checked": "2026-11-17",
+  "name_en": "Takayama Ryukyu Bettei",
+  "name_ja": "高山 琉球別邸",
+  "station": "Kenchomae (Yui Rail) ~6 min walk; Matsuyama 1-14-19 Pair City Bldg 1F",
+  "genre": "Shochu and awamori bar",
+  "hours": "19:00-04:00 (Tabelog, Nov 2026)",
+  "closed_days": "unknown",
+  "reservation": "Bookings OK",
+  "dinner_price_yen": "2,000-2,999 (Tabelog budget)",
+  "english_menu": "unknown",
+  "what_to_order": "Awamori; otoshi is umeboshi (Yu)",
+  "tourist_tip": "Smoking allowed at all seats. Cards OK. 22 seats.",
+  "sources": [
+   "https://tabelog.com/okinawa/A4701/A470101/47000588/"
+  ],
+  "kind": "bar",
+  "lunch_ok": false,
+  "dinner_ok": true,
+  "tabelog_score": 3.12,
+  "tabelog_reviews": 25,
+  "house_rules": [
+   "Smoking allowed at all seats",
+   "Cards OK"
+  ]
+ },
+ {
+  "area": "Okinawa (Naha)",
+  "walk_min": null,
+  "awards": [],
+  "lunch_price_yen": "unknown",
+  "budget_band": "unknown",
+  "yu_pick": true,
+  "checked": "2026-11-17",
+  "rules_checked": "2026-11-17",
+  "name_en": "Jazz Bar Swing Okinawa",
+  "name_ja": "Jazz Bar Swing OKINAWA",
+  "station": "Wakasa 3-1-12 1F, Naha",
+  "genre": "Jazz bar, live piano by the owner, regular band nights",
+  "hours": "Not listed online (check Instagram @algos.jazzbarswing)",
+  "closed_days": "unknown",
+  "reservation": "unknown",
+  "dinner_price_yen": "unknown",
+  "english_menu": "unknown",
+  "what_to_order": "Drinks with live jazz (Yu: the best)",
+  "tourist_tip": "Live piano by the owner; band nights regularly (official site).",
+  "sources": [
+   "https://algos.co.jp/swing/"
+  ],
+  "kind": "bar",
+  "lunch_ok": false,
+  "dinner_ok": true,
+  "house_rules": []
  }
 ]
