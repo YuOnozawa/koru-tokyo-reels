@@ -1,9 +1,10 @@
 {
- "at": "2026-11-17T14:09:57.476848+00:00",
- "item": "x_09_naha_night",
+ "at": "2026-11-17T23:18:09.780032+00:00",
+ "item": "r_c_17_asakusa_tempura",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134224255779964"
+  "status": "FINISHED",
+  "id": "18134307250779964"
  },
  "published": false
 }
