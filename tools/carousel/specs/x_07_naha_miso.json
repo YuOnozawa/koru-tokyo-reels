@@ -1,7 +1,7 @@
 {
  "id": "x_07_naha_miso",
  "issue": "番外編 EXTRA 07",
- "place": "OKINAWA · NAHA",
+ "place": "OKINAWA · NAHA TSUJI",
  "reel": {
   "cover_cap": "Extra: miso soup for breakfast in Naha"
  },
@@ -57,8 +57,8 @@
    "en": "Before your Naha breakfast",
    "checks": [
     [
-     "朝7時から",
-     "From 7am"
+     "朝7時から、LO14時",
+     "7:00–15:00, last order 14:00"
     ],
     [
      "現金のみ・持ち帰りOK",
@@ -69,11 +69,11 @@
      "Tatami room at the back for groups"
     ],
     [
-     "休みと閉店時間はインスタで",
-     "Check Instagram for days and closing time"
+     "水曜休み（食べログ）",
+     "Closed Wed (Tabelog)"
     ]
    ],
-   "note": "Photos by Yu, Nov 2026 · prices from the menu",
+   "note": "Photos by Yu, Nov 2026 · prices from the menu · hours: Tabelog, Nov 17",
    "photo": "stock/yu/naha_miso_sign.jpg",
    "pos": "center 45%",
    "photo_h": 300
@@ -122,7 +122,7 @@
     ],
     "jp": "玉城豆腐のみそ汁屋",
     "en": "Tamaki Tofu no Misoshiru-ya",
-    "fact": "From 7am · tatami room at the back"
+    "fact": "Tsuji, Naha · 7:00–15:00 · closed Wed"
    }
   ]
  }
