@@ -1,0 +1,119 @@
+{
+ "id": "x_08_uruma_oatari",
+ "issue": "番外編 EXTRA 08",
+ "place": "OKINAWA · URUMA",
+ "reel": {
+  "cover_cap": "Extra: Hakata teppan yakiniku in Okinawa"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "stock/yu/oki_oatari_plate.jpg",
+   "pos": "center 55%",
+   "jp": "番外編\n沖縄で、\n[博多名物]。",
+   "jp_size": 100,
+   "en": "Extra: Hakata-style teppan yakiniku in Uruma",
+   "en_size": 44,
+   "lines": [
+    [
+     "鉄板焼肉の\n定食。",
+     "Sizzling meat and cabbage, with rice"
+    ],
+    [
+     "昼11時から。\n予約不可。",
+     "From 11am · no bookings"
+    ]
+   ],
+   "sticker": [
+    "Yu",
+    "が行った"
+   ]
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/oki_oatari_set.jpg",
+   "pos": "center 50%",
+   "kicker": "WHAT YU HAD",
+   "jp": "味が濃くて、\nご飯が進む。",
+   "jp_size": 56,
+   "en": "Strong flavor, made for rice",
+   "body": "Meat and cabbage on a hot iron plate, with rice, pickles and miso soup. Order the meat by size: one serving, 1.5, double or triple; rice comes in small to extra large. Yu: rich flavor, the rice goes fast.",
+   "cap": "Meat and cabbage on a hot iron plate"
+  },
+  {
+   "type": "photo",
+   "photo": "stock/yu/oki_oatari_front.jpg",
+   "pos": "center 40%",
+   "kicker": "THE SHOP",
+   "jp": "鉄板焼肉 大当り\nうるま店",
+   "jp_size": 52,
+   "en": "Teppan Yakiniku Oatari, Uruma",
+   "body": "A Fukuoka (Hakata) specialty, served in Midorimachi, Uruma. Lunch 11:00–15:00 (LO 14:30), dinner 18:00–21:00 (LO 20:30). Open daily except New Year. 20 seats, parking. Cards, IC and QR pay OK. (Tabelog, Nov 17)",
+   "cap": "Teppan Yakiniku Oatari, Uruma"
+  },
+  {
+   "type": "back",
+   "jp": "うるまの昼、\n行く前に。",
+   "en": "Before your lunch in Uruma",
+   "checks": [
+    [
+     "昼は11時〜14時半LO",
+     "Lunch: last order 14:30"
+    ],
+    [
+     "予約はできない",
+     "No bookings"
+    ],
+    [
+     "駐車場あり",
+     "Parking on site"
+    ],
+    [
+     "量は1人前〜トリプル",
+     "Size: single to triple"
+    ]
+   ],
+   "note": "Photos by Yu, Nov 2026 · hours: Tabelog, Nov 17",
+   "photo": "stock/yu/oki_oatari_plate.jpg",
+   "pos": "center 50%",
+   "photo_h": 300
+  }
+ ],
+ "hook": {
+  "q_jp": "沖縄で、\n博多名物？",
+  "q_en": "Extra: sizzling teppan yakiniku in Uruma, Okinawa",
+  "photo": "stock/yu/oki_oatari_plate.jpg",
+  "pos": [
+   0.5,
+   0.5
+  ],
+  "beats": [
+   {
+    "photo": "stock/yu/oki_oatari_plate.jpg",
+    "pos": [
+     0.45,
+     0.55
+    ],
+    "jp": "鉄板焼肉",
+    "en": "Teppan yakiniku",
+    "fact": "Meat and cabbage on a hot iron plate"
+   },
+   {
+    "photo": "stock/yu/oki_oatari_set.jpg",
+    "jp": "ご飯が進む",
+    "en": "Made for rice",
+    "fact": "Yu: rich flavor · with miso soup"
+   },
+   {
+    "photo": "stock/yu/oki_oatari_front.jpg",
+    "pos": [
+     0.5,
+     0.35
+    ],
+    "jp": "大当り うるま店",
+    "en": "Oatari, Uruma",
+    "fact": "Lunch from 11:00 · open daily · parking"
+   }
+  ]
+ }
+}

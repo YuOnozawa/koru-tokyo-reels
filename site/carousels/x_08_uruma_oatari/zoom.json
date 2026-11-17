@@ -1,0 +1,48 @@
+{
+ "id": "x_08_uruma_oatari",
+ "reel": {
+  "cover_cap": "Extra: Hakata teppan yakiniku in Okinawa"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: Hakata-style teppan yakiniku in Uruma",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "photo",
+   "caption": "Strong flavor, made for rice",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 949.390625,
+     "w": 992,
+     "h": 344.609375,
+     "cap": "Meat and cabbage on a hot iron plate"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Teppan Yakiniku Oatari, Uruma",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 958.359375,
+     "w": 992,
+     "h": 335.640625,
+     "cap": "Teppan Yakiniku Oatari, Uruma"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "back",
+   "caption": "Before your lunch in Uruma",
+   "boxes": []
+  }
+ ]
+}

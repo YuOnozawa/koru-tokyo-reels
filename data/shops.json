@@ -9018,5 +9018,40 @@
    "Cards, IC and QR pay OK",
    "Children welcome"
   ]
+ },
+ {
+  "name_en": "Teppan Yakiniku Oatari Uruma",
+  "name_ja": "鉄板焼肉 大当り うるま店",
+  "area": "Okinawa (Uruma)",
+  "station": "Car / walk (Midorimachi, Uruma)",
+  "walk_min": null,
+  "genre": "Teppan yakiniku (Hakata style), set meals",
+  "hours": "11:00-15:00 (LO 14:30), 18:00-21:00 (LO 20:30) (Tabelog, Nov 2026)",
+  "closed_days": "None (except New Year)",
+  "reservation": "No bookings",
+  "lunch_price_yen": "unknown",
+  "dinner_price_yen": "unknown",
+  "budget_band": "unknown",
+  "awards": [],
+  "english_menu": "partial (window menu in English)",
+  "what_to_order": "Teppan yakiniku set with rice and miso soup (Yu); sizes single to triple",
+  "tourist_tip": "Parking on site. Cards, IC and QR OK.",
+  "sources": [
+   "https://tabelog.com/okinawa/A4703/A470302/47031190/"
+  ],
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": true,
+  "yu_pick": true,
+  "checked": "2026-11-17",
+  "rules_checked": "2026-11-17",
+  "tabelog_score": 3.09,
+  "tabelog_reviews": 17,
+  "house_rules": [
+   "No bookings",
+   "Cards, IC and QR pay OK",
+   "Non-smoking",
+   "Parking on site"
+  ]
  }
 ]
