@@ -1,10 +1,9 @@
 {
- "at": "2026-11-17T23:18:09.780032+00:00",
- "item": "r_c_17_asakusa_tempura",
+ "at": "2026-11-17T23:19:51.812396+00:00",
+ "item": "c_17_asakusa_tempura",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18134307250779964"
+  "container": "18134307550779964"
  },
  "published": false
 }
