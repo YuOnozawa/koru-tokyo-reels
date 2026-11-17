@@ -146,3 +146,14 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   start with r_c_10 today 12:00 — compare r_c_10/11/12 against 45.
 - Not made today: Mac Chrome was not connected (only the Windows browser, which we never use), so Tabelog review counts could not be
   taken the usual way; WebFetch gives only rough counts. The queue is full through 11/21, so 11/22 is left for the next run.
+
+## 2026-11-18 08:00 production run
+- Insights 11/17 15:05 UTC. Hook reels: r_x_04 Kita-Senju 111 (3.1 s, 1 save), noodles 115 (3.2 s), eel 70 (1.5 s; was 45), sauna 12,
+  ten lines 4. First type-only reels with the new cover (text from frame 0, cover_url): r_c_10 Jimbocho 13 in 11 h (1.4 s),
+  r_c_11 Yu's regulars 6 in 7 h (3.6 s, 1 save). Account reach/day 151–167. Followers 15. Carousels reach 1–3.
+- Read: the new cover did not lift type-only reels (13 vs eel 45→70 at a similar age). The lever is Yu's food photo, not the cover design.
+  Yu's Okinawa issues (x_06–x_09, 11/18–11/24 B) all open on his photos: expect ~110 each. Type-only A issues stay a weak spot.
+  Next test: once 11/19–11/21 numbers are in, compare B (Yu photos) vs A (type) on the same days.
+- Made: No.17 浅草の天ぷら (中清・葵丸進, 11/22 A) and No.18 秋葉原で一杯 (赤津加・とら八, 11/23 A). Two shops each:
+  Tabelog review lists for 大黒家/三定/尾張屋/殿 did not load without Mac Chrome; issues use only shops with 20-review counts.
+  Useful facts found: 葵丸進 takes no bookings from overseas travelers; 赤津加 ¥450 cover vs とら八 none.

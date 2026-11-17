@@ -1,0 +1,132 @@
+{
+ "id": "c_18_akiba_izakaya",
+ "reel": {
+  "cover_cap": "Akihabara after work: two izakaya"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Akihabara after work: two izakaya",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Two izakaya, hours and charges",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 357.4375,
+     "cap": "1. Akatsuka — Akatsuka: since 1954"
+    },
+    {
+     "x": 44,
+     "y": 566.390625,
+     "w": 992,
+     "h": 272.40625,
+     "cap": "2. Yakiton Sakaba Torahachi — Torahachi: 1 min from JR"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 178.0625,
+     "cap": "Akatsuka: The old building"
+    },
+    {
+     "x": 44,
+     "y": 385.015625,
+     "w": 992,
+     "h": 178.0625,
+     "cap": "Torahachi: The skewers"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Torahachi — JR Akihabara 1 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Akatsuka — Akihabara 3 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "Know before you sit",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Cover charge"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Paying"
+    },
+    {
+     "x": 44,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Bookings"
+    },
+    {
+     "x": 548,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Time limit"
+    },
+    {
+     "x": 44,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Smoking"
+    },
+    {
+     "x": 548,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. Closed days"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your drink in Akihabara",
+   "boxes": []
+  }
+ ]
+}

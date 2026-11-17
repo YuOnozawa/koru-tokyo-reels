@@ -298,24 +298,33 @@
   "genre": "Traditional izakaya",
   "station": "Akihabara",
   "walk_min": 3,
-  "hours": "Mon-Fri lunch 11:30-13:30, dinner 17:00-22:30; Sat dinner 17:00-21:30",
-  "closed_days": "Sundays, public holidays, 1st & 3rd Saturdays",
+  "hours": "Mon-Fri 11:30-13:30, 17:00-22:00; Sat 17:00-21:00",
+  "closed_days": "Sundays, holidays, some Saturdays",
   "lunch_price_yen": "up to 1000",
   "dinner_price_yen": "up to 4000",
   "budget_band": "1500-4000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Online 17:00-18:30 only; not for one person",
   "what_to_order": "Classic izakaya dishes: sashimi, dashimaki omelette, chicken offal stew (about ¥550-1,880 each, Oct 2026)",
   "tourist_tip": "Closed Sundays and holidays",
   "yu_pick": false,
   "sources": [
-   "https://retty.me/restaurant/100000042341/"
+   "https://retty.me/restaurant/100000042341/",
+   "https://tabelog.com/tokyo/A1310/A131001/13006329/"
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-18",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.53,
+  "review_summary": "20 latest Tabelog reviews (Nov 18, 2026): old building/atmosphere 12/20, weekday lunch 5/20, fish dishes 1-2 each.",
+  "house_rules": [
+   "¥450 cover charge",
+   "Lunch cash only; cards at dinner",
+   "Online bookings 17:00-18:30, 2+ people"
+  ],
+  "rules_checked": "2026-11-18"
  },
  {
   "name_en": "Toritsune Shizendo",
@@ -2129,10 +2138,17 @@
    "https://cdn.gltjp.com/en/directory/item/10627",
    "https://jw-webmagazine.com/tips/tempura-daikokuya-asakusa/"
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-18",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.49,
+  "house_rules": [
+   "No bookings",
+   "Non-smoking",
+   "No cards/IC/QR listed"
+  ],
+  "rules_checked": "2026-11-18"
  },
  {
   "name_en": "Kaminarimon Sansada",
@@ -2157,10 +2173,18 @@
    "https://e-asakusa.jp/en/?p=1980",
    "https://hamoni.jp/en/shop/3dPbEvEy1DrhDr94XGWA"
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-18",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.48,
+  "tabelog_reviews": 828,
+  "house_rules": [
+   "No bookings",
+   "Non-smoking",
+   "Cards and QR OK"
+  ],
+  "rules_checked": "2026-11-18"
  },
  {
   "name_en": "Unagi Irokawa",
@@ -3789,12 +3813,23 @@
   "tourist_tip": "Credit cards and PayPay accepted. Online and phone reservations accepted. Horse-meat dishes are also on the menu.",
   "yu_pick": false,
   "sources": [
-   "https://retty.me/area/PRE13/ARE11/SUB1102/100000079293/"
+   "https://retty.me/area/PRE13/ARE11/SUB1102/100000079293/",
+   "https://tabelog.com/tokyo/A1310/A131001/13025447/"
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-18",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.41,
+  "tabelog_reviews": 284,
+  "review_summary": "20 latest Tabelog reviews (Nov 18, 2026): skewers 10/20, stews 5/20, quick service 5/20, near station 4/20.",
+  "house_rules": [
+   "No seat or otoshi charge",
+   "Fri and pre-holiday tables 2.5 hours",
+   "1F non-smoking; 2F-3F heated tobacco only",
+   "Cards, IC and QR"
+  ],
+  "rules_checked": "2026-11-18"
  },
  {
   "name_en": "Myojinshita Kandagawa Honten",
@@ -6104,24 +6139,36 @@
   "genre": "Tempura / tendon",
   "station": "Asakusa (Ginza Line)",
   "walk_min": 3,
-  "hours": "11:00-21:00 (LO 20:00); to 21:30 for course bookings",
-  "closed_days": "unknown (check the official site)",
+  "hours": "11:00-21:00 (LO 20:00); booked guests to 21:30",
+  "closed_days": "Listed as Mon & holidays, but hours table shows Mon open: call ahead",
   "lunch_price_yen": "1000-2000",
   "dinner_price_yen": "2000-3000",
   "budget_band": "1500-4000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookings OK, but not for overseas travelers",
   "what_to_order": "Tendon or a tempura set; tempura courses (e.g. Kaminarimon course 6500) for a bigger meal",
   "tourist_tip": "Cards (Visa, Mastercard, Amex, Diners, JCB) and PayPay accepted. Courses can be booked online via Rakuten Gurunavi or by phone.",
   "yu_pick": false,
   "sources": [
-   "https://retty.me/restaurant/100000047319/"
+   "https://retty.me/restaurant/100000047319/",
+   "https://tabelog.com/tokyo/A1311/A131102/13003647/"
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-18",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.46,
+  "tabelog_reviews": 642,
+  "review_summary": "20 latest Tabelog reviews (Nov 18, 2026): tempura 13/20, tendon 7/20, old shop 7/20, tourists/tours 7/20, batter 6/20, sauce 5/20.",
+  "house_rules": [
+   "No bookings for overseas travelers",
+   "Smoking room only",
+   "Front desk keeps large bags and strollers",
+   "Private room: 10% room charge",
+   "Cards, IC and QR"
+  ],
+  "rules_checked": "2026-11-18"
  },
  {
   "name_en": "Asakusa Mizuguchi",
@@ -6270,24 +6317,35 @@
   "genre": "Tempura / tendon",
   "station": "Asakusa (Tsukuba Express)",
   "walk_min": 4,
-  "hours": "Mon, Wed-Fri 11:30-14:00 and 17:00-22:00; Sat, Sun, holidays 11:30-20:00",
-  "closed_days": "Tuesday, plus the 2nd and 4th Wednesday",
+  "hours": "Mon, Thu, Fri 11:30-14:00, 17:00-21:00; Sat, Sun, holidays 11:30-20:00",
+  "closed_days": "Tuesday and Wednesday",
   "lunch_price_yen": "3000-4000",
   "dinner_price_yen": "3000-4000",
   "budget_band": "1500-4000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookings OK (03-3841-4015)",
   "what_to_order": "Tendon or a tempura set",
   "tourist_tip": "Credit cards accepted. Bookable by phone (03-3841-4015) or online via Hitosara.",
   "yu_pick": false,
   "sources": [
-   "https://retty.me/area/PRE13/ARE9/SUB902/100000097547/"
+   "https://retty.me/area/PRE13/ARE9/SUB902/100000097547/",
+   "https://tabelog.com/tokyo/A1311/A131102/13003659/"
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-18",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "tabelog_score": 3.4,
+  "tabelog_reviews": 178,
+  "review_summary": "20 latest Tabelog reviews (Nov 18, 2026): garden/room 16/20, old shop 9/20, courses 6/20, kaminari-age 3/20.",
+  "house_rules": [
+   "Non-smoking",
+   "Cards OK; no IC or QR",
+   "Raised tatami may be shared",
+   "Private rooms for 6-8"
+  ],
+  "rules_checked": "2026-11-18"
  },
  {
   "name_en": "Bazoku",

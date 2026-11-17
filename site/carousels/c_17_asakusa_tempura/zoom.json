@@ -1,0 +1,132 @@
+{
+ "id": "c_17_asakusa_tempura",
+ "reel": {
+  "cover_cap": "Asakusa tempura: two old houses"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Asakusa tempura: two old houses",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "list",
+   "caption": "Two tempura houses, hours and booking",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 208.953125,
+     "w": 992,
+     "h": 357.4375,
+     "cap": "1. Tempura Nakasei — Nakasei: since 1870"
+    },
+    {
+     "x": 44,
+     "y": 566.390625,
+     "w": 992,
+     "h": 300.75,
+     "cap": "2. Asakusa Tempura Aoi Marushin — Aoi Marushin: walk in"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "voices",
+   "caption": "What diners love most",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 206.953125,
+     "w": 992,
+     "h": 178.0625,
+     "cap": "Nakasei: The garden"
+    },
+    {
+     "x": 44,
+     "y": 385.015625,
+     "w": 992,
+     "h": 178.0625,
+     "cap": "Aoi Marushin: The tempura"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "map",
+   "caption": "Where they are",
+   "boxes": [
+    {
+     "x": 67,
+     "y": 1167,
+     "w": 946,
+     "h": 62,
+     "cap": "1. Aoi Marushin — Metro Asakusa 3 min"
+    },
+    {
+     "x": 67,
+     "y": 1229,
+     "w": 946,
+     "h": 62,
+     "cap": "2. Nakasei — Ginza Line / TX Asakusa 7 min"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "rules",
+   "caption": "Know before you go",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "1. Bookings"
+    },
+    {
+     "x": 548,
+     "y": 210.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "2. Nakasei books"
+    },
+    {
+     "x": 44,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "3. Closed days"
+    },
+    {
+     "x": 548,
+     "y": 562.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "4. Smoking"
+    },
+    {
+     "x": 44,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "5. Big bags"
+    },
+    {
+     "x": 548,
+     "y": 914.953125,
+     "w": 488,
+     "h": 336,
+     "cap": "6. Shared seats"
+    }
+   ]
+  },
+  {
+   "page": "06.jpg",
+   "type": "back",
+   "caption": "Before your tempura",
+   "boxes": []
+  }
+ ]
+}

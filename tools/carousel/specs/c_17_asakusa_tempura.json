@@ -1,0 +1,246 @@
+{
+ "id": "c_17_asakusa_tempura",
+ "issue": "No.17",
+ "place": "TOKYO · ASAKUSA",
+ "reel": {
+  "cover_cap": "Asakusa tempura: two old houses"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#6B3A1E",
+   "big": "天",
+   "big_size": 420,
+   "jp": "浅草で、\n[天ぷらの老舗]。",
+   "jp_size": 116,
+   "en": "Asakusa tempura: two old houses",
+   "en_size": 44,
+   "lines": [
+    [
+     "創業1870年と、\n1946年。",
+     "Since 1870 and since 1946"
+    ],
+    [
+     "予約の決まりが、\n店で違う。",
+     "Booking rules differ"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "TEMPURA · ASAKUSA",
+   "jp": "浅草の天ぷら、二軒",
+   "en": "Two tempura houses",
+   "reel_cap": "Two tempura houses, hours and booking",
+   "items": [
+    {
+     "jp": "天麩羅 中清",
+     "en": "Tempura Nakasei",
+     "area": "1870年創業 · 中庭 · Garden courtyard",
+     "badge": "TABELOG 3.40 · 178 REVIEWS",
+     "cap": "Nakasei: since 1870",
+     "facts": [
+      [
+       "OPEN",
+       "Mon, Thu, Fri 11:30–14:00, 17:00–21:00 · Sat, Sun, hol 11:30–20:00"
+      ],
+      [
+       "CLOSED",
+       "Tue and Wed"
+      ],
+      [
+       "BOOK",
+       "Bookings OK: 03-3841-4015"
+      ],
+      [
+       "PAY",
+       "Cards OK · no IC or QR"
+      ],
+      [
+       "SMOKE",
+       "Non-smoking"
+      ],
+      [
+       "SEATS",
+       "60 · rooms for 6–8"
+      ]
+     ]
+    },
+    {
+     "jp": "浅草天麩羅 葵丸進",
+     "en": "Asakusa Tempura Aoi Marushin",
+     "area": "1946年創業 · 天丼 · Tendon and tempura",
+     "badge": "TABELOG 3.46 · 642 REVIEWS",
+     "cap": "Aoi Marushin: walk in",
+     "facts": [
+      [
+       "OPEN",
+       "11:00–21:00 (LO 20:00)"
+      ],
+      [
+       "BOOK",
+       "No bookings for overseas travelers"
+      ],
+      [
+       "PAY",
+       "Cards, IC and QR"
+      ],
+      [
+       "SMOKE",
+       "Smoking room only"
+      ],
+      [
+       "SEATS",
+       "148"
+      ],
+      [
+       "BAGS",
+       "Front desk keeps big bags"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 18, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "中清",
+     "en": "Nakasei",
+     "praise": "The inner garden and pond, and the old-house rooms, come up in most reviews. Courses are mentioned often (6 of 20), and the kaminari-age by name (3 of 20).",
+     "loved_jp": "中庭",
+     "loved_en": "The garden",
+     "basis": "16 of 20 on the garden and room"
+    },
+    {
+     "jp": "葵丸進",
+     "en": "Aoi Marushin",
+     "praise": "Tempura and tendon in a big, long-running house. Reviews mention the batter (6 of 20), the sauce (5 of 20), and that it suits visitors on a tour (7 of 20).",
+     "loved_jp": "天ぷら",
+     "loved_en": "The tempura",
+     "basis": "13 of 20 on the tempura · 7 on the tendon"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "二軒の地図",
+   "reel_cap": "Where they are",
+   "stations": [
+    "Asakusa",
+    "Tawaramachi",
+    "Kuramae"
+   ],
+   "pins": [
+    {
+     "station": "Asakusa",
+     "jp": "葵丸進",
+     "en": "Aoi Marushin",
+     "walk": "Metro Asakusa 3 min"
+    },
+    {
+     "station": "Asakusa",
+     "jp": "中清",
+     "en": "Nakasei",
+     "walk": "Ginza Line / TX Asakusa 7 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "KNOW BEFORE YOU GO",
+   "jp": "行く前に、店の決まり",
+   "en": "Know before you go",
+   "sub": "from each shop's own Tabelog listing, Nov 18, 2026",
+   "reel_cap": "Know before you go",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "旅行者の予約",
+     "en": "Bookings",
+     "stat": "WALK IN",
+     "do": "Aoi Marushin does not take bookings from overseas travelers. Walk in."
+    },
+    {
+     "jp": "中清は予約可",
+     "en": "Nakasei books",
+     "stat": "BOOK",
+     "do": "Nakasei takes bookings: 03-3841-4015."
+    },
+    {
+     "jp": "休みの日",
+     "en": "Closed days",
+     "stat": "CLOSED",
+     "do": "Nakasei: Tue and Wed. Aoi Marushin's closed days are listed two ways; call ahead."
+    },
+    {
+     "jp": "煙草",
+     "en": "Smoking",
+     "stat": "NO SMOKE",
+     "do": "Nakasei is non-smoking. Aoi Marushin has a smoking room only."
+    },
+    {
+     "jp": "大きな荷物",
+     "en": "Big bags",
+     "stat": "BAGS",
+     "do": "Aoi Marushin keeps large suitcases and strollers at the front, with a number tag."
+    },
+    {
+     "jp": "相席",
+     "en": "Shared seats",
+     "stat": "SHARE",
+     "do": "At Nakasei, the raised tatami area may be shared."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "浅草の天ぷら、\n行く前に。",
+   "en": "Before your tempura",
+   "checks": [
+    [
+     "葵丸進は旅行者の予約不可",
+     "Aoi Marushin: no bookings for travelers"
+    ],
+    [
+     "中清は火・水が休み",
+     "Nakasei: closed Tue and Wed"
+    ],
+    [
+     "中清は電話で予約できる",
+     "Nakasei: book by phone"
+    ],
+    [
+     "大きな荷物は葵丸進で預けられる",
+     "Aoi Marushin keeps big bags"
+    ]
+   ]
+  }
+ ],
+ "hook": {
+  "q_jp": "浅草で、\nどの天ぷら？",
+  "q_en": "Asakusa tempura: two old houses, booking rules first",
+  "beats": [
+   {
+    "jp": "天麩羅 中清",
+    "en": "Nakasei, since 1870",
+    "fact": "Garden courtyard · closed Tue & Wed"
+   },
+   {
+    "jp": "浅草天麩羅 葵丸進",
+    "en": "Aoi Marushin, since 1946",
+    "fact": "No bookings for overseas travelers"
+   }
+  ]
+ }
+}

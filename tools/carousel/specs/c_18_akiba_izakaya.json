@@ -1,0 +1,246 @@
+{
+ "id": "c_18_akiba_izakaya",
+ "issue": "No.18",
+ "place": "TOKYO · AKIHABARA",
+ "reel": {
+  "cover_cap": "Akihabara after work: two izakaya"
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "bg": "#2E3B4E",
+   "big": "酒",
+   "big_size": 420,
+   "jp": "秋葉原で、\n[一杯]。",
+   "jp_size": 120,
+   "en": "Akihabara after work: two izakaya",
+   "en_size": 44,
+   "lines": [
+    [
+     "1954年の居酒屋と、\n駅前のやきとん。",
+     "A 1954 izakaya and a yakiton bar"
+    ],
+    [
+     "席料の有無まで、\n先に知っておく。",
+     "Cover charge or not, before you sit"
+    ]
+   ],
+   "sticker": [
+    "保存版",
+    "for your trip"
+   ]
+  },
+  {
+   "type": "list",
+   "kicker": "IZAKAYA · AKIHABARA",
+   "jp": "秋葉原の居酒屋、二軒",
+   "en": "Two izakaya",
+   "reel_cap": "Two izakaya, hours and charges",
+   "items": [
+    {
+     "jp": "赤津加",
+     "en": "Akatsuka",
+     "area": "1954年から · 木造 · Old wooden house",
+     "badge": "TABELOG 3.53",
+     "cap": "Akatsuka: since 1954",
+     "facts": [
+      [
+       "OPEN",
+       "Mon–Fri 11:30–13:30, 17:00–22:00 · Sat 17:00–21:00"
+      ],
+      [
+       "CLOSED",
+       "Sun, holidays, some Sat"
+      ],
+      [
+       "CHARGE",
+       "¥450 cover"
+      ],
+      [
+       "PAY",
+       "Lunch cash only · cards at dinner"
+      ],
+      [
+       "BOOK",
+       "Online 17:00–18:30, 2+ people"
+      ],
+      [
+       "SEATS",
+       "35 · room upstairs"
+      ]
+     ]
+    },
+    {
+     "jp": "やきとん酒場 とら八",
+     "en": "Yakiton Sakaba Torahachi",
+     "area": "JR秋葉原駅1分 · やきとん · Pork skewers",
+     "badge": "TABELOG 3.41 · 284 REVIEWS",
+     "cap": "Torahachi: 1 min from JR",
+     "facts": [
+      [
+       "OPEN",
+       "Mon–Sat 16:00–23:20 · Sun, hol –23:00"
+      ],
+      [
+       "CLOSED",
+       "New Year only"
+      ],
+      [
+       "CHARGE",
+       "No cover charge"
+      ],
+      [
+       "PAY",
+       "Cards, IC and QR"
+      ],
+      [
+       "BOOK",
+       "Bookings OK · Fri 2.5 h"
+      ],
+      [
+       "SMOKE",
+       "1F non-smoking"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "voices",
+   "kicker": "WHAT DINERS LOVE",
+   "jp": "口コミで人気なのは",
+   "en": "What diners love",
+   "sub": "20 most recent Tabelog reviews each, Nov 18, 2026",
+   "reel_cap": "What diners love most",
+   "items": [
+    {
+     "jp": "赤津加",
+     "en": "Akatsuka",
+     "praise": "An old wooden izakaya with a U-shaped counter. Fish dishes come up most among the food, and 5 of 20 reviews are weekday lunch visits.",
+     "loved_jp": "建物",
+     "loved_en": "The old building",
+     "basis": "12 of 20 on the building"
+    },
+    {
+     "jp": "とら八",
+     "en": "Torahachi",
+     "praise": "Grilled pork skewers first, then the stews (5 of 20). Reviews also mention quick service (5 of 20) and that it is right by the station (4 of 20).",
+     "loved_jp": "やきとん",
+     "loved_en": "The skewers",
+     "basis": "10 of 20 on the skewers · 5 on the stews"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "jp": "二軒の地図",
+   "reel_cap": "Where they are",
+   "stations": [
+    "Akihabara",
+    "Kanda",
+    "Suehirocho"
+   ],
+   "pins": [
+    {
+     "station": "Akihabara",
+     "jp": "とら八",
+     "en": "Torahachi",
+     "walk": "JR Akihabara 1 min"
+    },
+    {
+     "station": "Akihabara",
+     "jp": "赤津加",
+     "en": "Akatsuka",
+     "walk": "Akihabara 3 min"
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "kicker": "KNOW BEFORE YOU SIT",
+   "jp": "座る前に、店の決まり",
+   "en": "Know before you sit",
+   "sub": "from each shop's own Tabelog listing, Nov 18, 2026",
+   "reel_cap": "Know before you sit",
+   "grid_h": 1040,
+   "do_size": 26,
+   "items": [
+    {
+     "jp": "席料",
+     "en": "Cover charge",
+     "stat": "¥450",
+     "do": "Akatsuka charges ¥450 cover. Torahachi has no seat or otoshi charge."
+    },
+    {
+     "jp": "支払い",
+     "en": "Paying",
+     "stat": "PAY",
+     "do": "Akatsuka: lunch is cash only; cards at dinner. Torahachi: cards, IC and QR."
+    },
+    {
+     "jp": "予約",
+     "en": "Bookings",
+     "stat": "BOOK",
+     "do": "Akatsuka: online bookings for 17:00–18:30 only, not for one person. Torahachi takes bookings."
+    },
+    {
+     "jp": "時間制限",
+     "en": "Time limit",
+     "stat": "2.5 H",
+     "do": "Torahachi: on Fridays and before holidays, tables are 2.5 hours."
+    },
+    {
+     "jp": "煙草",
+     "en": "Smoking",
+     "stat": "SMOKE",
+     "do": "Torahachi: 1st floor non-smoking; 2nd and 3rd floors heated tobacco only."
+    },
+    {
+     "jp": "休みの日",
+     "en": "Closed days",
+     "stat": "CLOSED",
+     "do": "Akatsuka: Sundays, holidays and some Saturdays. Torahachi: open daily except New Year."
+    }
+   ]
+  },
+  {
+   "type": "back",
+   "jp": "秋葉原の一杯、\n行く前に。",
+   "en": "Before your drink in Akihabara",
+   "checks": [
+    [
+     "赤津加は日・祝が休み",
+     "Akatsuka: closed Sun and holidays"
+    ],
+    [
+     "赤津加の席料は450円",
+     "Akatsuka: ¥450 cover"
+    ],
+    [
+     "赤津加の昼は現金",
+     "Akatsuka lunch: cash only"
+    ],
+    [
+     "とら八は年末年始以外毎日",
+     "Torahachi: open daily"
+    ]
+   ]
+  }
+ ],
+ "hook": {
+  "q_jp": "秋葉原で、\nどこで一杯？",
+  "q_en": "Akihabara after work: two izakaya, charges first",
+  "beats": [
+   {
+    "jp": "赤津加",
+    "en": "Akatsuka, since 1954",
+    "fact": "Old wooden house · ¥450 cover"
+   },
+   {
+    "jp": "やきとん酒場 とら八",
+    "en": "Torahachi",
+    "fact": "1 min from JR · no cover charge"
+   }
+  ]
+ }
+}
