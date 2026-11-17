@@ -1,9 +1,10 @@
 {
- "at": "2026-11-17T07:36:42.942002+00:00",
- "item": "x_08_uruma_oatari",
+ "at": "2026-11-17T14:07:44.309452+00:00",
+ "item": "r_x_09_naha_night",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134160445779964"
+  "status": "FINISHED",
+  "id": "18134223565779964"
  },
  "published": false
 }
