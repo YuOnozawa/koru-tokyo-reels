@@ -1,9 +1,10 @@
 {
- "at": "2026-11-17T23:19:51.812396+00:00",
- "item": "c_17_asakusa_tempura",
+ "at": "2026-11-17T23:21:56.361575+00:00",
+ "item": "r_c_18_akiba_izakaya",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134307550779964"
+  "status": "FINISHED",
+  "id": "18134307562779964"
  },
  "published": false
 }
