@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-16T23:01:26.957185+00:00",
+ "fetched_at": "2026-11-17T08:00:30.046402+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 123,
+  "media_count": 125,
   "id": "28241506535529259",
   "followers_count": 15,
   "follows_count": 158
  },
  "media": [
+  {
+   "id": "18005252304040021",
+   "permalink": "https://www.instagram.com/reel/Df1B7fRoA3K/",
+   "timestamp": "2026-11-17T04:04:58+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Which curry in Jimbocho? 5 famous plates 👇\n\nCurry in Jimboch",
+   "reach": 7,
+   "views": 9,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1091,
+   "ig_reels_video_view_total_time": 10919
+  },
+  {
+   "id": "17994854538106346",
+   "permalink": "https://www.instagram.com/p/Df0rY6Mm8To/",
+   "timestamp": "2026-11-17T00:47:47+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Where an Akihabara office worker eats lunch 🥢 Yu's five week",
+   "reach": 1,
+   "views": 4,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "17915660934481737",
    "permalink": "https://www.instagram.com/p/DfzUWHpEeob/",
@@ -49,15 +81,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to book eel in Tokyo? 5 places 👇\n\nEel in East Tokyo: f",
-   "reach": 45,
-   "views": 51,
+   "reach": 69,
+   "views": 75,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1826,
-   "ig_reels_video_view_total_time": 89487
+   "ig_reels_avg_watch_time": 1496,
+   "ig_reels_video_view_total_time": 109213
   },
   {
    "id": "18131632009846656",
@@ -401,15 +433,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat after 10pm near Tokyo Station? Kanda 🌙 4 places",
-   "reach": 103,
-   "views": 110,
+   "reach": 104,
+   "views": 111,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5385,
-   "ig_reels_video_view_total_time": 581590
+   "ig_reels_avg_watch_time": 5368,
+   "ig_reels_video_view_total_time": 585215
   },
   {
    "id": "18098272352655337",
@@ -537,15 +569,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Do Tokyo restaurants take cards? Not all: 68 of the 299 East",
-   "reach": 131,
-   "views": 154,
+   "reach": 132,
+   "views": 155,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3089,
-   "ig_reels_video_view_total_time": 414040
+   "ig_reels_avg_watch_time": 3097,
+   "ig_reels_video_view_total_time": 418136
   },
   {
    "id": "18649763593053097",
@@ -554,15 +586,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Get the check fast in Tokyo 🧾\n\nSay お会計お願いします (okaikei onegai",
-   "reach": 100,
-   "views": 118,
+   "reach": 101,
+   "views": 119,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2443,
-   "ig_reels_video_view_total_time": 246752
+   "ig_reels_avg_watch_time": 2438,
+   "ig_reels_video_view_total_time": 248687
   },
   {
    "id": "18097590527243464",
@@ -801,46 +833,12 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 2716,
    "ig_reels_video_view_total_time": 336787
-  },
-  {
-   "id": "18111644201579093",
-   "permalink": "https://www.instagram.com/reel/DfZkgUlpiZv/",
-   "timestamp": "2026-11-06T12:08:23+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Kyoto-style ramen near Akihabara: Shinpuku Saikan 🍜 (Yu's pi",
-   "reach": 101,
-   "views": 106,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2808,
-   "ig_reels_video_view_total_time": 289277
-  },
-  {
-   "id": "17912694051310968",
-   "permalink": "https://www.instagram.com/reel/DfYtHamJLNZ/",
-   "timestamp": "2026-11-06T04:04:23+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Curry under ¥1,000 in a 16-seat shop? 🍛 Mochizuki Curry, Sue",
-   "reach": 90,
-   "views": 94,
-   "likes": 1,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3571,
-   "ig_reels_video_view_total_time": 328550
   }
  ],
  "account_daily": {
-  "reach": 167,
-  "views": 200,
-  "profile_views": 7,
+  "reach": 151,
+  "views": 174,
+  "profile_views": 1,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }
