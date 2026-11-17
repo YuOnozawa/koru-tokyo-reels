@@ -1,10 +1,9 @@
 {
- "at": "2026-11-17T14:07:44.309452+00:00",
- "item": "r_x_09_naha_night",
+ "at": "2026-11-17T14:09:57.476848+00:00",
+ "item": "x_09_naha_night",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18134223565779964"
+  "container": "18134224255779964"
  },
  "published": false
 }
