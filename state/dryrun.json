@@ -1,10 +1,9 @@
 {
- "at": "2026-11-17T23:21:56.361575+00:00",
- "item": "r_c_18_akiba_izakaya",
+ "at": "2026-11-17T23:23:58.567692+00:00",
+ "item": "c_18_akiba_izakaya",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18134307562779964"
+  "container": "18134307970779964"
  },
  "published": false
 }
