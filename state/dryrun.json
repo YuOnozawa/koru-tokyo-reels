@@ -1,10 +1,9 @@
 {
- "at": "2026-11-17T07:35:10.412373+00:00",
- "item": "r_x_08_uruma_oatari",
+ "at": "2026-11-17T07:36:42.942002+00:00",
+ "item": "x_08_uruma_oatari",
  "result": {
   "status_code": "FINISHED",
-  "status": "FINISHED",
-  "id": "18134160007779964"
+  "container": "18134160445779964"
  },
  "published": false
 }
