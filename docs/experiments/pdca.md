@@ -186,3 +186,6 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Done: hashtags trimmed to 5 on 10 queued captions. cover_url test stays.
 - Asked Yu: check Account Status (Settings → Account → Account status → "content may not be recommended").
 - Proposed test (needs Yu's go): reels led by moving pictures, text under ~15% of the screen, short subtitle line only; Yu sends 5–10 s clips.
+- 11/19 test started: tools/carousel/clean.py (Yu's photo full screen, one small subtitle box, text <10% of the frame).
+  Rebuilt r_x_07 (11/19 17:00), r_x_08, r_x_09, r_x_10 in this format. Control: hook reels with Yu photos (x_02 115, x_04 111, x_06 4?, x_03 12).
+  Type-only reels stay as hook reels for now (Koru-card version looked weak). Read each at 24 h.
