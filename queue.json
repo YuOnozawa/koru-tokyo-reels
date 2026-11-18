@@ -1563,19 +1563,19 @@
    "H15": "A"
   },
   "caption": "Where to eat breakfast in Tokyo? 5 places open early 👇\n\nBreakfast near Akihabara: five places that open early ☕ All within 5 minutes of a station\n\n① 6:30 Shin-Tagoto: standing soba and curry, since 1968 · open daily to 23:00 · cash or IC card\n② 7:00 Kanda Coffee En, by Kanda North Exit · weekdays from 7:00 (Sat 8:00, Sun 9:00) · 2nd floor is smoking\n③ 7:30 Saito Coffee: coffee and toast · weekdays from 7:30, closed Sun · cash only\n④ 7:30 Kanda Shinoda Sushi: inari sushi and norimaki to go · closed Tue · cash only, ends when sold out\n⑤ 8:00 DILL Coffee Parlor: coffee and cake · open daily · cards OK\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Shinoda's inari (15 of 20), DILL's cakes (11 of 20), Shin-Tagoto's curry (10 of 20).\n\nSave it for your first morning 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#tokyobreakfast #akihabara #kanda #japantravel #tokyotrip",
-  "cover": "covers/r_c_14_mornings.jpg"
+  "cover_off": "covers/r_c_14_mornings.jpg"
  },
  {
   "id": "r_x_07_naha_miso",
   "file": "videos/r_x_07_naha_miso.mp4",
-  "cover": "covers/r_x_07_naha_miso.jpg",
   "publish_at": "2026-11-19T17:00:00+09:00",
   "len": 14.2,
   "tests": {
    "H16": "hook reel",
    "H15": "B"
   },
-  "caption": "What's for breakfast in Naha, Okinawa? 👇\n\nExtra from Okinawa: miso soup for breakfast in Naha 🍲 Open from 7am\n\nTamaki Tofu no Misoshiru-ya, in Tsuji, Naha: a miso soup shop made with tofu from Tamaki Tofu\n· Yu had the misoyushi: miso soup with soft yushi tofu, vegetables, pork and a soft egg, with rice and small sides · ¥950 (large ¥1,050)\n· Also: miso soup ¥900, garlic wonton miso soup ¥1,000, yushi tofu ¥850, mini miso soup ¥500\n· Add an egg, natto or kimchi ¥150; swap the rice for juushii +¥100\n· Yu: it soaks right in, a good breakfast. There's a tatami room at the back, so groups are fine\n· Cash only, takeout OK (both on the shop's own sign) · 7:00–15:00, last order 14:00 · closed Wed (Tabelog)\n\nSave it for a morning in Naha 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #naha #okinawafood #misosoup #japantravel"
+  "caption": "What's for breakfast in Naha, Okinawa? 👇\n\nExtra from Okinawa: miso soup for breakfast in Naha 🍲 Open from 7am\n\nTamaki Tofu no Misoshiru-ya, in Tsuji, Naha: a miso soup shop made with tofu from Tamaki Tofu\n· Yu had the misoyushi: miso soup with soft yushi tofu, vegetables, pork and a soft egg, with rice and small sides · ¥950 (large ¥1,050)\n· Also: miso soup ¥900, garlic wonton miso soup ¥1,000, yushi tofu ¥850, mini miso soup ¥500\n· Add an egg, natto or kimchi ¥150; swap the rice for juushii +¥100\n· Yu: it soaks right in, a good breakfast. There's a tatami room at the back, so groups are fine\n· Cash only, takeout OK (both on the shop's own sign) · 7:00–15:00, last order 14:00 · closed Wed (Tabelog)\n\nSave it for a morning in Naha 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #naha #okinawafood #misosoup #japantravel",
+  "cover_off": "covers/r_x_07_naha_miso.jpg"
  },
  {
   "id": "c_14_mornings",
@@ -1623,7 +1623,7 @@
    "H15": "A"
   },
   "caption": "Which old coffee house in Ueno? Smoking or not 👇\n\nUeno's old coffee houses: four to know before you sit ☕ All within 5 minutes of Ueno Station\n\n① Galan: a big Showa-era room for coffee and parfaits · open daily 9:00–22:30 · smoking allowed at all seats · cash only\n② Kissa Kojo: coffee and cake from 9:00 · closed Sun · smoking allowed at all seats · cash or IC card\n③ Coffee Dokoro Bonaru: calm and non-smoking throughout · 11:00–21:30 (Sun to 20:00) · cash only · quieter on weekdays\n④ Madonna: coffee, and lunch too (omurice, hotcakes) · closed Wed · 1st floor non-smoking, 2nd floor smoking · cash only\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Galan's retro room (9 of 20), Bonaru's coffee (9 of 20), Kojo's room (8 of 20).\n\nSave it for a coffee break 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#ueno #kissaten #tokyocafe #japantravel #tokyotrip",
-  "cover": "covers/r_c_16_ueno_kissa.jpg"
+  "cover_off": "covers/r_c_16_ueno_kissa.jpg"
  },
  {
   "id": "r_c_15_kanda_soba",
@@ -1635,7 +1635,7 @@
    "H15": "B"
   },
   "caption": "Which soba in Kanda? 4 old houses near Akihabara 👇\n\nKanda soba: four houses near Akihabara 🥢 About 10 minutes' walk from the station\n\n① Kanda Matsuya, Soba Hyakumeiten 2024: a designated Tokyo historic building · closed Sun and Mon · no bookings, cash only\n② Kanda Yabu Soba, since 1880: duck soba and seiro · closed Wed · bookable, cards OK\n③ Shochikuan Masukawa, Soba Hyakumeiten 2024: a tempura and soba course (lunch ¥5,200 + tax) · closed Sat and Sun · 15 min late without a call = cancelled with a 100% fee · 5% service charge\n④ Kanda Nishikicho Sarashina: pale, fine sarashina soba · weekdays, to 18:30 · cash only, may sell out\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Masukawa's tempura (13 of 20), Sarashina's white soba (9 of 20), the history at Matsuya and Yabu (6 of 20 each).\n\nSave it for a soba lunch 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#soba #kanda #tokyofood #japantravel #tokyotrip",
-  "cover": "covers/r_c_15_kanda_soba.jpg"
+  "cover_off": "covers/r_c_15_kanda_soba.jpg"
  },
  {
   "id": "c_16_ueno_kissa",
@@ -1681,19 +1681,19 @@
    "H15": "A"
   },
   "caption": "A slow day in Ueno: where to eat? 👇\n\nUeno, slowly: a no-fail day 🌳 Coffee, the park, sweets and yoshoku, about 5 minutes from Akihabara on the JR\n\n① 8:00 Coffee Ojo: a Showa-era coffee house · open daily 8:00–19:00 · cash or PayPay only · 90-minute limit\n② Lunch: Innsyoutei, inside Ueno Park: lunch in a flower basket · book the basket sets (from ¥2,950 weekdays, ¥4,180 weekends) · cards OK\n③ Afternoon: Mihashi: anmitsu, cream anmitsu above all · no booking\n④ Dinner: Ponta Honke, Michelin Bib Gourmand 2026: pork katsuretsu, since 1905 · closed Mon · bookings for 2+ · no children under school age\n⑤ Or dinner: Kurofunetei: hayashi rice and stews · closed Mon · cards, IC and PayPay OK\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Ponta Honke's katsuretsu (13 of 20); Mihashi's anmitsu (14 of 20); Coffee Ojo's retro room (12 of 20).\n\nSave it for your Ueno day 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#ueno #uenopark #tokyofood #japantravel #tokyotrip",
-  "cover": "covers/r_c_13_ueno.jpg"
+  "cover_off": "covers/r_c_13_ueno.jpg"
  },
  {
   "id": "r_x_08_uruma_oatari",
   "file": "videos/r_x_08_uruma_oatari.mp4",
-  "cover": "covers/r_x_08_uruma_oatari.jpg",
   "publish_at": "2026-11-21T17:00:00+09:00",
   "len": 11.9,
   "tests": {
    "H16": "hook reel",
    "H15": "B"
   },
-  "caption": "A Fukuoka specialty, in Okinawa? 👇\n\nExtra from Okinawa: Hakata-style teppan yakiniku in Uruma 🔥\n\nTeppan Yakiniku Oatari, Uruma: a Fukuoka specialty, in Midorimachi, Uruma\n· Meat and cabbage on a sizzling iron plate, with rice, pickles and miso soup\n· Choose the size: one serving, 1.5, double or triple; rice small to extra large\n· Yu: rich flavor, the rice goes fast\n· Lunch 11:00–15:00 (LO 14:30), dinner 18:00–21:00 (LO 20:30) · open daily except New Year · no bookings\n· 20 seats, parking · cards, IC and QR pay OK (Tabelog, Nov 17)\n\nSave it for a drive in Okinawa 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #uruma #okinawafood #teppanyaki #japantravel"
+  "caption": "A Fukuoka specialty, in Okinawa? 👇\n\nExtra from Okinawa: Hakata-style teppan yakiniku in Uruma 🔥\n\nTeppan Yakiniku Oatari, Uruma: a Fukuoka specialty, in Midorimachi, Uruma\n· Meat and cabbage on a sizzling iron plate, with rice, pickles and miso soup\n· Choose the size: one serving, 1.5, double or triple; rice small to extra large\n· Yu: rich flavor, the rice goes fast\n· Lunch 11:00–15:00 (LO 14:30), dinner 18:00–21:00 (LO 20:30) · open daily except New Year · no bookings\n· 20 seats, parking · cards, IC and QR pay OK (Tabelog, Nov 17)\n\nSave it for a drive in Okinawa 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #uruma #okinawafood #teppanyaki #japantravel",
+  "cover_off": "covers/r_x_08_uruma_oatari.jpg"
  },
  {
   "id": "c_13_ueno",
@@ -1735,14 +1735,14 @@
  {
   "id": "r_c_17_asakusa_tempura",
   "file": "videos/r_c_17_asakusa_tempura.mp4",
-  "cover": "covers/r_c_17_asakusa_tempura.jpg",
   "publish_at": "2026-11-22T12:00:00+09:00",
   "len": 9.6,
   "tests": {
    "H16": "hook reel",
    "H15": "A"
   },
-  "caption": "Which tempura in Asakusa? 👇\n\nNo.17 · Asakusa tempura: two old houses 🍤\n\n1 · Tempura Nakasei (since 1870)\n· Mon, Thu, Fri 11:30–14:00, 17:00–21:00 · Sat, Sun, hol 11:30–20:00 · closed Tue & Wed\n· Bookings OK (03-3841-4015) · cards OK · non-smoking\n· Diners love: the inner garden and rooms (16 of 20 recent Tabelog reviews)\n\n2 · Asakusa Tempura Aoi Marushin (since 1946)\n· 11:00–21:00 (LO 20:00) · no bookings for overseas travelers, so walk in\n· Cards, IC and QR · big bags kept at the front desk\n· Diners love: the tempura (13 of 20), the tendon (7 of 20)\n\n(Tabelog, Nov 18)\n\nSave it for your Asakusa day 🔖 The full issue is in tonight's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#asakusa #tempura #tendon #tokyofood #japantravel #tokyotravel"
+  "caption": "Which tempura in Asakusa? 👇\n\nNo.17 · Asakusa tempura: two old houses 🍤\n\n1 · Tempura Nakasei (since 1870)\n· Mon, Thu, Fri 11:30–14:00, 17:00–21:00 · Sat, Sun, hol 11:30–20:00 · closed Tue & Wed\n· Bookings OK (03-3841-4015) · cards OK · non-smoking\n· Diners love: the inner garden and rooms (16 of 20 recent Tabelog reviews)\n\n2 · Asakusa Tempura Aoi Marushin (since 1946)\n· 11:00–21:00 (LO 20:00) · no bookings for overseas travelers, so walk in\n· Cards, IC and QR · big bags kept at the front desk\n· Diners love: the tempura (13 of 20), the tendon (7 of 20)\n\n(Tabelog, Nov 18)\n\nSave it for your Asakusa day 🔖 The full issue is in tonight's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#asakusa #tempura #tendon #tokyofood #japantravel #tokyotravel",
+  "cover_off": "covers/r_c_17_asakusa_tempura.jpg"
  },
  {
   "id": "r_c_09_late",
@@ -1755,7 +1755,7 @@
    "H13": "A"
   },
   "caption": "Still hungry after 10pm in Tokyo? 5 places 👇\n\nDinner after 10pm in East Tokyo 🌙 Five still serving\n\n① Ajibo (Kanda): lamb and Northeast Chinese · last order 22:30 (Sun 21:30) · cards\n② Negima Sanzo (Akihabara): yakitori and seafood · last order 23:30 daily\n③ Asakusa Sakaba Okamoto (Hoppy Street): stew and Hoppy until 23:00 · English menu · smoking at all seats\n④ Motsuyaki Daitoryo (Ueno): offal skewers under the Ameyoko tracks since 1950 · until 23:30 · cash only, no bookings\n⑤ Yokohama Ramen Asagaya (Ueno): the last bowl, until 3am daily · cards, IC, QR\n\nHours from each shop's Tabelog listing, checked Nov 12, 2026. Late hours change often: check on the day.\n\nSave it for your late night 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#tokyonightlife #latenighteats #tokyofood #ueno #asakusa #japantravel",
-  "cover": "covers/r_c_09_late.jpg"
+  "cover_off": "covers/r_c_09_late.jpg"
  },
  {
   "id": "c_17_asakusa_tempura",
@@ -1795,14 +1795,14 @@
  {
   "id": "r_c_18_akiba_izakaya",
   "file": "videos/r_c_18_akiba_izakaya.mp4",
-  "cover": "covers/r_c_18_akiba_izakaya.jpg",
   "publish_at": "2026-11-23T12:00:00+09:00",
   "len": 9.6,
   "tests": {
    "H16": "hook reel",
    "H15": "A"
   },
-  "caption": "Where to drink in Akihabara? 👇\n\nNo.18 · Akihabara after work: two izakaya 🍶\n\n1 · Akatsuka (since 1954): an old wooden izakaya\n· Mon–Fri 11:30–13:30, 17:00–22:00 · Sat 17:00–21:00 · closed Sun, holidays, some Sat\n· ¥450 cover · lunch cash only, cards at dinner\n· Diners love: the old building (12 of 20 recent Tabelog reviews)\n\n2 · Yakiton Sakaba Torahachi: 1 min from JR Akihabara\n· Mon–Sat 16:00–23:20 · Sun, hol to 23:00 · open daily except New Year\n· No cover charge · cards, IC, QR · Fri & pre-holiday tables 2.5 h\n· Diners love: the pork skewers (10 of 20), the stews (5 of 20)\n\n(Tabelog, Nov 18)\n\nSave it for your night in Akihabara 🔖 The full issue is in tonight's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#akihabara #izakaya #tokyofood #tokyonightlife #japantravel #tokyotravel"
+  "caption": "Where to drink in Akihabara? 👇\n\nNo.18 · Akihabara after work: two izakaya 🍶\n\n1 · Akatsuka (since 1954): an old wooden izakaya\n· Mon–Fri 11:30–13:30, 17:00–22:00 · Sat 17:00–21:00 · closed Sun, holidays, some Sat\n· ¥450 cover · lunch cash only, cards at dinner\n· Diners love: the old building (12 of 20 recent Tabelog reviews)\n\n2 · Yakiton Sakaba Torahachi: 1 min from JR Akihabara\n· Mon–Sat 16:00–23:20 · Sun, hol to 23:00 · open daily except New Year\n· No cover charge · cards, IC, QR · Fri & pre-holiday tables 2.5 h\n· Diners love: the pork skewers (10 of 20), the stews (5 of 20)\n\n(Tabelog, Nov 18)\n\nSave it for your night in Akihabara 🔖 The full issue is in tonight's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#akihabara #izakaya #tokyofood #tokyonightlife #japantravel #tokyotravel",
+  "cover_off": "covers/r_c_18_akiba_izakaya.jpg"
  },
  {
   "id": "r_x_05_kuramae",
@@ -1814,7 +1814,7 @@
    "H15": "B"
   },
   "caption": "Where to get sweets in Kuramae? 👇\n\nExtra: four sweet stops in Kuramae 🍫 About 15 minutes' walk from Asakusa\n\n① Dandelion Chocolate, Sweets TOKYO Hyakumeiten 2026: bean-to-bar chocolate and chocolate drinks · open daily 10:00–19:00 · cards OK\n② Clair de Lune: cakes · cafe 9:00–18:00 (LO 17:30) · VISA, JCB, IC, PayPay\n③ Kissaten Hangetsu: cream puffs; morning menu 9:00–11:30 · open daily to 19:00 · cash only\n④ Kuramae Cannele: canelés · closed Mon · cards OK\n\nWhat diners love, from the 20 latest Tabelog reviews of each: Cannele's canelés (15 of 20), Clair de Lune's cakes (14 of 20), Hangetsu's cream puffs (12 of 20).\n\nSave it for an Asakusa day 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#kuramae #tokyosweets #tokyocafe #japantravel #tokyotrip",
-  "cover": "covers/r_x_05_kuramae.jpg"
+  "cover_off": "covers/r_x_05_kuramae.jpg"
  },
  {
   "id": "c_18_akiba_izakaya",
@@ -1855,14 +1855,14 @@
  {
   "id": "r_x_09_naha_night",
   "file": "videos/r_x_09_naha_night.mp4",
-  "cover": "covers/r_x_09_naha_night.jpg",
   "publish_at": "2026-11-24T17:00:00+09:00",
   "len": 11.9,
   "tests": {
    "H16": "hook reel",
    "H15": "B"
   },
-  "caption": "Steak, awamori, then live jazz? 👇\n\nExtra from Okinawa: one night in Naha, three stops 🥩🍶🎹\n\n1 · Steak House Chaco Okinawa (Matsuyama): steaks over charcoal since 1973\n· Yu had the rib steak and a lobster. Yu: seriously good\n· Rib steak 8 oz ¥8,250 to 14 oz ¥11,880, tax incl., with soup, salad, bread or rice, and coffee, tea or ice cream\n· Lunch 12:00–14:00, dinner 17:00–21:30 (LO 21:00), Tue–Sat & holidays · closed Sun & Mon\n\n2 · Takayama Ryukyu Bettei (Matsuyama): a shochu and awamori bar\n· 19:00–04:00 · 22 seats · bookings OK · cards OK · smoking allowed at all seats\n· Yu's otoshi (table snack): umeboshi\n\n3 · Jazz Bar Swing Okinawa (Wakasa): the owner plays piano live; band nights regularly\n· Hours not listed online: check @algos.jazzbarswing\n\n(Gurunavi, Tabelog, official site, Nov 17)\n\nSave it for your night in Naha 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #naha #okinawafood #steak #awamori #jazzbar #japantravel"
+  "caption": "Steak, awamori, then live jazz? 👇\n\nExtra from Okinawa: one night in Naha, three stops 🥩🍶🎹\n\n1 · Steak House Chaco Okinawa (Matsuyama): steaks over charcoal since 1973\n· Yu had the rib steak and a lobster. Yu: seriously good\n· Rib steak 8 oz ¥8,250 to 14 oz ¥11,880, tax incl., with soup, salad, bread or rice, and coffee, tea or ice cream\n· Lunch 12:00–14:00, dinner 17:00–21:30 (LO 21:00), Tue–Sat & holidays · closed Sun & Mon\n\n2 · Takayama Ryukyu Bettei (Matsuyama): a shochu and awamori bar\n· 19:00–04:00 · 22 seats · bookings OK · cards OK · smoking allowed at all seats\n· Yu's otoshi (table snack): umeboshi\n\n3 · Jazz Bar Swing Okinawa (Wakasa): the owner plays piano live; band nights regularly\n· Hours not listed online: check @algos.jazzbarswing\n\n(Gurunavi, Tabelog, official site, Nov 17)\n\nSave it for your night in Naha 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #naha #okinawafood #steak #awamori #jazzbar #japantravel",
+  "cover_off": "covers/r_x_09_naha_night.jpg"
  },
  {
   "id": "x_10_naha_furinkazan",
@@ -1884,13 +1884,13 @@
  {
   "id": "r_x_10_naha_furinkazan",
   "file": "videos/r_x_10_naha_furinkazan.mp4",
-  "cover": "covers/r_x_10_naha_furinkazan.jpg",
   "publish_at": "2026-11-25T17:00:00+09:00",
   "len": 11.9,
   "tests": {
    "H16": "hook reel",
    "H15": "B"
   },
-  "caption": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi chazuke breakfast in Naha 🍵\n\nFuurinkazan, about 260 m from Kenchomae Station (Yui Rail)\n· Yu had set No.3, grilled mentaiko and takana (¥1,100): rice, the toppings, pickles and a pot of dashi to pour over, plus salmon and shiso-takana toppings. Yu: delicious\n· Six dashi chazuke sets, ¥1,100–1,750\n· Or a grilled fish from ¥650; +¥300 adds rice, miso soup and mozuku\n· 7:00–14:30 (LO 14:00), listed as open every day · counter seats\n\n(Menu at the shop; AutoReserve listing, Nov 18)\n\nSave it for a morning in Naha 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #naha #okinawafood #japanesebreakfast #ochazuke #japantravel"
+  "caption": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi chazuke breakfast in Naha 🍵\n\nFuurinkazan, about 260 m from Kenchomae Station (Yui Rail)\n· Yu had set No.3, grilled mentaiko and takana (¥1,100): rice, the toppings, pickles and a pot of dashi to pour over, plus salmon and shiso-takana toppings. Yu: delicious\n· Six dashi chazuke sets, ¥1,100–1,750\n· Or a grilled fish from ¥650; +¥300 adds rice, miso soup and mozuku\n· 7:00–14:30 (LO 14:00), listed as open every day · counter seats\n\n(Menu at the shop; AutoReserve listing, Nov 18)\n\nSave it for a morning in Naha 🔖 The full issue is in today's carousel post.\n\nwith KORU 🐕 field notes from Japan, by Yu (an office worker in Akihabara) and his dog Koru\nMusic: Mixkit (free license)\n\n#okinawa #naha #okinawafood #japanesebreakfast #ochazuke #japantravel",
+  "cover_off": "covers/r_x_10_naha_furinkazan.jpg"
  }
 ]

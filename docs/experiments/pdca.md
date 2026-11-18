@@ -157,3 +157,11 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Made: No.17 浅草の天ぷら (中清・葵丸進, 11/22 A) and No.18 秋葉原で一杯 (赤津加・とら八, 11/23 A). Two shops each:
   Tabelog review lists for 大黒家/三定/尾張屋/殿 did not load without Mac Chrome; issues use only shops with 20-review counts.
   Useful facts found: 葵丸進 takes no bookings from overseas travelers; 赤津加 ¥450 cover vs とら八 none.
+
+## 2026-11-19 08:00 Yu: 「ぜんっぜん数字伸びてなくね？」 — test: reel cover_url off
+- Fact: every reel since cover_url started (11/17) is low: Jimbocho 18, regulars 9, Asakusa 4, Naha Kokabu (Yu's photo!) 4.
+  Before: Yu-photo reels 110–115, eel 70, Kanazawa 53. Account reach/day fell from 150–200 to 29 (11/18). Followers 15 → 14. Likes 0 on every post.
+- Two changes landed at the same time: (a) custom cover_url on reels from 11/17, (b) no follow/like runs since 11/15 (Mac Chrome offline).
+- Test (reversible): cover_url removed from all 12 unposted reels (kept as cover_off). The first frame already shows the question over the photo,
+  so the grid thumbnail is not a blank red tile any more. Read r_c_14 (11/19 12:00) and r_x_07 (17:00) after 6 h and 24 h vs 4.
+  If reach stays under 20 with no cover, the cause is (b) or distribution; restart follow runs when Mac Chrome is back.
