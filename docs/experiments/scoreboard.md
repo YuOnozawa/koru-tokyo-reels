@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 20 | 131.2 | 31% | 0.4 | 0.0 | 0.5 |
+| A | 18 | 134.5 | 33% | 0.4 | 0.0 | 0.4 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -25,7 +25,7 @@ Metric: **ss** · A = seasonal decision reel · B = evergreen reels · status: r
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 108.0 | 19% | 0.9 | 0.0 | 0.0 |
+| A | 1 | 109.0 | 19% | 0.9 | 0.0 | 0.0 |
 | B | 2 | 121.5 | 31% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -35,7 +35,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 4 | 113.2 | 23% | 0.2 | 0.0 | 0.0 |
+| A | 4 | 113.5 | 24% | 0.2 | 0.0 | 0.0 |
 | B | 3 | 137.0 | 34% | 0.3 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
@@ -54,7 +54,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 15 | 2.2 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 16 | 2.1 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -63,8 +63,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 13 | 17.1 | 9% | 0.0 | 0.0 | 0.1 |
-| B | 11 | 24.5 | 18% | 1.1 | 0.0 | 0.0 |
+| A | 14 | 16.0 | 9% | 0.0 | 0.0 | 0.1 |
+| B | 12 | 22.8 | 17% | 1.0 | 0.0 | 0.0 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -73,10 +73,10 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 9 | 43.8 | 15% | 1.3 | 0.0 | 0.0 |
+| hook reel | 10 | 40.0 | 14% | 1.2 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
-**Suggested verdict:** hook reel wins (+112%)
+**Suggested verdict:** hook reel wins (+94%)
 
 ## H17 — Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues
 Metric: **ss** · A = travel · B = tokyo · status: running
@@ -93,7 +93,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 4 | 162.0 | 16% | 1.1 | 0.0 | 1.5 |
+| B | 2 | 221.5 | 19% | 1.2 | 0.0 | 2.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -103,17 +103,17 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 6 | 126.3 | 48% | 0.4 | 0.0 | 0.3 |
-| B | 9 | 140.2 | 22% | 0.7 | 0.0 | 0.7 |
+| B | 7 | 151.1 | 24% | 0.6 | 0.0 | 0.6 |
 
-**Suggested verdict:** A wins (+123%)
+**Suggested verdict:** A wins (+100%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 107.0 | 15% | 1.0 | 0.0 | 1.0 |
-| B | 2 | 213.5 | 16% | 1.2 | 0.0 | 2.0 |
+| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
+| B | 1 | 325.0 | 18% | 2.5 | 0.0 | 4.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -123,7 +123,6 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 3 | 187.3 | 22% | 0.8 | 0.0 | 1.3 |
-| B | 2 | 102.5 | 13% | 1.0 | 0.0 | 1.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -132,8 +131,8 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 106.5 | 16% | 0.0 | 0.0 | 0.0 |
-| B | 2 | 214.0 | 15% | 2.2 | 0.0 | 3.0 |
+| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
+| B | 1 | 325.0 | 18% | 2.5 | 0.0 | 4.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -142,7 +141,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 14 | 122.1 | 30% | 0.4 | 0.0 | 0.3 |
+| A | 12 | 125.4 | 33% | 0.3 | 0.0 | 0.2 |
 | B | 6 | 152.7 | 33% | 0.5 | 0.0 | 0.8 |
 
 **Suggested verdict:** no clear difference yet

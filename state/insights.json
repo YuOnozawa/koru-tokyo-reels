@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-18T07:37:15.247275+00:00",
+ "fetched_at": "2026-11-18T15:04:44.141081+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 129,
+  "media_count": 131,
   "id": "28241506535529259",
-  "followers_count": 15,
+  "followers_count": 14,
   "follows_count": 158
  },
  "media": [
+  {
+   "id": "18116619047334873",
+   "permalink": "https://www.instagram.com/p/Df4d1VukYZd/",
+   "timestamp": "2026-11-18T12:06:18+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "A day in Asakusa: five no-fail stops ⛩️ Morning to dinner, a",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "id": "18122465822066543",
+   "permalink": "https://www.instagram.com/reel/Df4JFLTyO35/",
+   "timestamp": "2026-11-18T09:05:28+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "What to eat in Naha, Okinawa? 👇\n\nExtra from Okinawa: a Japan",
+   "reach": 4,
+   "views": 4,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1223,
+   "ig_reels_video_view_total_time": 4895
+  },
   {
    "id": "18111652187620793",
    "permalink": "https://www.instagram.com/reel/Df3mufzSQWQ/",
@@ -17,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "How do you spend a no-fail day eating in Asakusa? 👇\n\nA day i",
-   "reach": 2,
-   "views": 2,
+   "reach": 4,
+   "views": 4,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1029,
-   "ig_reels_video_view_total_time": 2058
+   "ig_reels_avg_watch_time": 845,
+   "ig_reels_video_view_total_time": 3383
   },
   {
    "id": "17881429728562285",
@@ -35,7 +67,7 @@
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Extra from Okinawa: a Japanese counter in Naha 🍶 4 minutes f",
    "reach": 2,
-   "views": 4,
+   "views": 7,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -417,14 +449,14 @@
    "media_type": "VIDEO",
    "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
    "reach": 20,
-   "views": 24,
+   "views": 25,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2585,
-   "ig_reels_video_view_total_time": 49123
+   "ig_reels_avg_watch_time": 2502,
+   "ig_reels_video_view_total_time": 50053
   },
   {
    "id": "18084024866345280",
@@ -616,15 +648,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat near Ueno Park in autumn? 🍂 Ginkgo should turn ",
-   "reach": 108,
-   "views": 113,
+   "reach": 109,
+   "views": 116,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4022,
-   "ig_reels_video_view_total_time": 446446
+   "ig_reels_avg_watch_time": 4112,
+   "ig_reels_video_view_total_time": 460644
   },
   {
    "id": "18205248907331642",
@@ -795,47 +827,13 @@
    "total_interactions": 12,
    "ig_reels_avg_watch_time": 6514,
    "ig_reels_video_view_total_time": 2110637
-  },
-  {
-   "id": "18382389367240175",
-   "permalink": "https://www.instagram.com/reel/DfbR9ZKBa3E/",
-   "timestamp": "2026-11-07T04:04:49+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Want a cheap drink in Ueno before noon? 🍺 3 standing spots. ",
-   "reach": 103,
-   "views": 110,
-   "likes": 2,
-   "comments": 0,
-   "saved": 2,
-   "shares": 0,
-   "total_interactions": 4,
-   "ig_reels_avg_watch_time": 3768,
-   "ig_reels_video_view_total_time": 391878
-  },
-  {
-   "id": "18170888281497289",
-   "permalink": "https://www.instagram.com/reel/Dfa9Wn7hn82/",
-   "timestamp": "2026-11-07T01:04:45+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "3 eel restaurants with an English menu 🍱 Save this!\n\n1️⃣ Izu",
-   "reach": 102,
-   "views": 113,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3793,
-   "ig_reels_video_view_total_time": 394511
   }
  ],
  "account_daily": {
-  "reach": 172,
-  "views": 217,
+  "reach": 29,
+  "views": 58,
   "profile_views": 2,
   "profile_links_taps": 0,
-  "accounts_engaged": 2
+  "accounts_engaged": 1
  }
 }
