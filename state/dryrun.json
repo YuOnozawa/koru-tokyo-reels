@@ -1,9 +1,10 @@
 {
- "at": "2026-11-17T23:23:58.567692+00:00",
- "item": "c_18_akiba_izakaya",
+ "at": "2026-11-18T01:56:19.378623+00:00",
+ "item": "r_x_10_naha_furinkazan",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134307970779964"
+  "status": "FINISHED",
+  "id": "18134326114779964"
  },
  "published": false
 }
