@@ -9203,5 +9203,33 @@
   "lunch_ok": false,
   "dinner_ok": true,
   "house_rules": []
+ },
+ {
+  "name_en": "Fuurinkazan",
+  "name_ja": "風林火山",
+  "area": "Okinawa (Naha)",
+  "station": "Kenchomae (Yui Rail) ~260 m",
+  "walk_min": 4,
+  "genre": "Dashi chazuke, grilled fish breakfast",
+  "hours": "7:00-14:30 (LO 14:00) (AutoReserve, Nov 2026)",
+  "closed_days": "None listed (open Sun & holidays)",
+  "reservation": "unknown",
+  "lunch_price_yen": "1,100-1,750",
+  "dinner_price_yen": "n/a",
+  "budget_band": "¥1,000-2,000",
+  "awards": [],
+  "english_menu": "unknown",
+  "what_to_order": "Dashi chazuke set with grilled mentaiko and takana; salmon topping (Yu: delicious)",
+  "tourist_tip": "A set +¥300 (rice, miso soup, mozuku) with any grilled fish; B set +¥600 adds small dishes.",
+  "sources": [
+   "https://autoreserve.com/en/restaurants/NevnrDnyyarVGPDsFfEj"
+  ],
+  "kind": "meal",
+  "lunch_ok": true,
+  "dinner_ok": false,
+  "yu_pick": true,
+  "checked": "2026-11-18",
+  "rules_checked": "2026-11-18",
+  "house_rules": []
  }
 ]

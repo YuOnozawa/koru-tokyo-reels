@@ -1,0 +1,44 @@
+{
+ "id": "x_10_naha_furinkazan",
+ "issue": "番外編 EXTRA 10",
+ "place": "OKINAWA · NAHA",
+ "reel": {"cover_cap": "Extra: a dashi chazuke breakfast in Naha"},
+ "slides": [
+  {"type": "cover", "photo": "stock/yu/naha_furin_bowl.jpg", "pos": "center 60%",
+   "jp": "番外編\n那覇の朝、\n[だし茶漬け]。", "jp_size": 100,
+   "en": "Extra: a dashi chazuke breakfast in Naha", "en_size": 44,
+   "lines": [["朝7時から。", "Open from 7:00"], ["だしは、自分でかける。", "You pour the dashi yourself"]],
+   "sticker": ["Yu", "が行った"]},
+  {"type": "photo", "photo": "stock/yu/naha_furin_tray.jpg", "pos": "center 40%",
+   "kicker": "WHAT YU HAD",
+   "jp": "ごはんに、\nだしをかける。", "jp_size": 56,
+   "en": "Rice, toppings, and a pot of dashi",
+   "body": "Fuurinkazan, Naha. Yu had a dashi chazuke set (¥1,100 on the menu): rice, grilled mentaiko and takana greens, pickles, and a pot of dashi to pour over. He added salmon and shiso-takana as toppings. Yu: delicious.",
+   "cap": "Dashi chazuke set"},
+  {"type": "photo", "photo": "stock/yu/naha_furin_salmon.jpg", "pos": "center 50%",
+   "kicker": "THE MENU",
+   "jp": "焼き魚も、\n選べる。", "jp_size": 56,
+   "en": "Or pick a grilled fish",
+   "body": "Six dashi chazuke sets, ¥1,100–1,750. Grilled fish from ¥650 (mackerel); salted salmon ¥900 for two pieces, ¥450 for one. Add rice, miso soup and mozuku for +¥300 (A set), or every small dish too for +¥600 (B set). Toppings from ¥150. (Menu at the shop, Nov 2026)",
+   "cap": "Grilled salmon"},
+  {"type": "photo", "photo": "stock/yu/naha_furin_front.jpg", "pos": "center 40%",
+   "kicker": "THE SHOP",
+   "jp": "県庁前から、\n歩いてすぐ。", "jp_size": 56,
+   "en": "A short walk from Kenchomae",
+   "body": "Fuurinkazan, about 260 m from Kenchomae Station (Yui Rail). 7:00–14:30 (LO 14:00), listed as open every day, including Sundays and holidays. Counter seats. (AutoReserve listing, Nov 18)",
+   "cap": "Fuurinkazan, Naha"},
+  {"type": "back", "jp": "那覇の朝ごはん、\n行く前に。", "en": "Before your breakfast in Naha",
+   "checks": [["朝7時から、14時LO", "7:00 to 14:00 last order"], ["日曜・祝日も営業（掲載情報）", "Listed as open Sundays and holidays"], ["だし茶漬けは1,100円から", "Dashi chazuke from ¥1,100"], ["焼き魚は＋300円でセットに", "Grilled fish: +¥300 makes it a set"]],
+   "note": "Photos by Yu, Nov 2026 · info: menu at the shop, AutoReserve, Nov 18",
+   "photo": "stock/yu/naha_furin_salmon.jpg", "pos": "center 50%", "photo_h": 300}
+ ],
+ "hook": {
+  "q_jp": "那覇の朝、\nだし茶漬け。", "q_en": "Extra: breakfast in Naha from 7:00",
+  "photo": "stock/yu/naha_furin_bowl.jpg", "pos": [0.5, 0.6],
+  "beats": [
+   {"photo": "stock/yu/naha_furin_tray.jpg", "pos": [0.5, 0.4], "jp": "だしは自分で", "en": "Rice, toppings, a pot of dashi", "fact": "Sets from ¥1,100"},
+   {"photo": "stock/yu/naha_furin_salmon.jpg", "jp": "焼き魚も", "en": "Or a grilled fish", "fact": "+¥300: rice, miso soup, mozuku"},
+   {"photo": "stock/yu/naha_furin_front.jpg", "pos": [0.5, 0.4], "jp": "朝7時から", "en": "Near Kenchomae Station", "fact": "7:00–14:30 (LO 14:00)"}
+  ]
+ }
+}

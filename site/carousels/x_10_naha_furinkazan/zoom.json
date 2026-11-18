@@ -1,0 +1,62 @@
+{
+ "id": "x_10_naha_furinkazan",
+ "reel": {
+  "cover_cap": "Extra: a dashi chazuke breakfast in Naha"
+ },
+ "pages": [
+  {
+   "page": "01.jpg",
+   "type": "cover",
+   "caption": "Extra: a dashi chazuke breakfast in Naha",
+   "boxes": []
+  },
+  {
+   "page": "02.jpg",
+   "type": "photo",
+   "caption": "Rice, toppings, and a pot of dashi",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 949.390625,
+     "w": 992,
+     "h": 344.609375,
+     "cap": "Dashi chazuke set"
+    }
+   ]
+  },
+  {
+   "page": "03.jpg",
+   "type": "photo",
+   "caption": "Or pick a grilled fish",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 917,
+     "w": 992,
+     "h": 377,
+     "cap": "Grilled salmon"
+    }
+   ]
+  },
+  {
+   "page": "04.jpg",
+   "type": "photo",
+   "caption": "A short walk from Kenchomae",
+   "boxes": [
+    {
+     "x": 44,
+     "y": 949.390625,
+     "w": 992,
+     "h": 344.609375,
+     "cap": "Fuurinkazan, Naha"
+    }
+   ]
+  },
+  {
+   "page": "05.jpg",
+   "type": "back",
+   "caption": "Before your breakfast in Naha",
+   "boxes": []
+  }
+ ]
+}
