@@ -172,3 +172,17 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   The queue is full through 11/23 plus 11/24 B and 11/25 B (Yu's Okinawa extras); 11/24 A and 11/25 A stay open for tomorrow's run.
 - Tomorrow: if reach comes back without cover_url → keep it off, resume normal production. If not → propose to Yu: fewer posts
   (1 issue/day), Yu-photo issues first, and restart follow runs (needs Mac Chrome).
+
+## 2026-11-19 deeper read (Yu: 分析が浅い。フォローなしでも150あった。市場調査は？)
+- Correction: account reach "29" on 11/18 was a partial-day value (period resets 08:00 UTC). Full days were 150–200 through 11/17.
+- Correction: reels reach at 6 h is not final (noodles 14 → 113 at 14 h). r_x_06/r_c_12 must be read at 24 h+.
+- The real break is 11/12, not 11/17. Before 11/12: 20 of 20 reels got 100–150 (one 325), with stock footage + voiceover, little on-screen text,
+  even on days with no follow runs. From 11/12 (magazine relaunch: reels built from text-heavy pages, then hook reels with big type):
+  only 3 of 16 reels got ~110 (noodles, Kita-Senju, eel 70), the rest 4–39. Carousels 0–5 (followers only).
+- Instagram's own eligibility page lists, as not recommended: reels "where text covers most of the screen", visibly recycled content,
+  unoriginal/aggregated content; Account Status shows whether an account/post may be recommended. Mosseri: hashtags don't add reach;
+  cap of 5 hashtags since Dec 2025. Top signals: watch time, likes per reach, sends per reach.
+- New hypothesis: our post-11/12 reels are text-led (question blocks, list-row clips, slide pages) → often skipped for non-follower recommendation.
+- Done: hashtags trimmed to 5 on 10 queued captions. cover_url test stays.
+- Asked Yu: check Account Status (Settings → Account → Account status → "content may not be recommended").
+- Proposed test (needs Yu's go): reels led by moving pictures, text under ~15% of the screen, short subtitle line only; Yu sends 5–10 s clips.
