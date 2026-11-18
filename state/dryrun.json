@@ -1,9 +1,10 @@
 {
- "at": "2026-11-18T01:57:54.476350+00:00",
- "item": "x_10_naha_furinkazan",
+ "at": "2026-11-18T23:33:38.909209+00:00",
+ "item": "r_x_07_naha_miso",
  "result": {
   "status_code": "FINISHED",
-  "container": "18134326333779964"
+  "status": "FINISHED",
+  "id": "18134495071779964"
  },
  "published": false
 }
