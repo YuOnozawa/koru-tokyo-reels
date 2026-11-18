@@ -165,3 +165,10 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Test (reversible): cover_url removed from all 12 unposted reels (kept as cover_off). The first frame already shows the question over the photo,
   so the grid thumbnail is not a blank red tile any more. Read r_c_14 (11/19 12:00) and r_x_07 (17:00) after 6 h and 24 h vs 4.
   If reach stays under 20 with no cover, the cause is (b) or distribution; restart follow runs when Mac Chrome is back.
+
+## 2026-11-19 08:00 production run — no new issues on purpose
+- Numbers are in the memo above (reels 4–18 since 11/17, account reach 29/day, followers 14, likes 0 on all posts).
+- Decision: do not add more type-only A issues until the cover_url test reads (r_c_14 12:00, r_x_07 17:00 today).
+  The queue is full through 11/23 plus 11/24 B and 11/25 B (Yu's Okinawa extras); 11/24 A and 11/25 A stay open for tomorrow's run.
+- Tomorrow: if reach comes back without cover_url → keep it off, resume normal production. If not → propose to Yu: fewer posts
+  (1 issue/day), Yu-photo issues first, and restart follow runs (needs Mac Chrome).
