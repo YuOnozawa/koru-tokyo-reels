@@ -35,6 +35,10 @@ def style(qid, typ, ts):
         return 'v1 voice narration, no music'
     if d < '2026-11-14':
         return 'v2 page-flip + music'
+    if qid.startswith('r_v_'):
+        return 'v5 stock video + AI voice'
+    if qid.startswith('r_x_') and qid[4:6] >= '08' and d >= '2026-11-21':
+        return 'v4 clean photo + AI voice'
     if qid.startswith('r_x_') and qid[4:6] >= '07' and d >= '2026-11-19':
         return 'v4 clean photo + music'
     spec = f'tools/carousel/specs/{qid[2:]}.json'

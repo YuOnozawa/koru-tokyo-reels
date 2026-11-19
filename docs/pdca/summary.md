@@ -1,6 +1,6 @@
 # PDCA summary (auto)
 
-Updated 2026-11-19 22:28 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.
+Updated 2026-11-19 23:16 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.
 
 | style | n | median reach 24h | hit rate | median watch (s) |
 |---|---|---|---|---|

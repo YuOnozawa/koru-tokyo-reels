@@ -189,3 +189,10 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - 11/19 test started: tools/carousel/clean.py (Yu's photo full screen, one small subtitle box, text <10% of the frame).
   Rebuilt r_x_07 (11/19 17:00), r_x_08, r_x_09, r_x_10 in this format. Control: hook reels with Yu photos (x_02 115, x_04 111, x_06 4?, x_03 12).
   Type-only reels stay as hook reels for now (Koru-card version looked weak). Read each at 24 h.
+
+## 2026-11-20 08:00 production run (new loop: docs/pdca/)
+- Retro numbers in docs/pdca/summary.md: v1 (10/21–11/11, stock video or photos + AI voice, no music) 70/75 hit, median 108;
+  everything since 11/12 (music, stills, text-led) 2/16. Benchmarks (tokyocheapo, paolofromtokyo…): all top reels are real video.
+- Made (reel only, A slots): r_v_01 late night near Ueno/Akihabara (11/24 12:00), r_v_02 Sunday closures 96/310 (11/25 12:00).
+  Both = free stock video (Mixkit) + AI voice + one small subtitle (H5). Topics chosen for H3 (late night = our best ever, 321).
+- Running: H2 r_x_07 (clean + music) reads 11/20 18:00; H1 r_x_08–10 (clean photo + AI voice) from 11/21; H5 r_v_01–02 from 11/24.
