@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 18 | 134.5 | 33% | 0.4 | 0.0 | 0.4 |
+| A | 16 | 121.8 | 33% | 0.2 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -54,7 +54,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 16 | 2.1 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 17 | 2.0 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -63,8 +63,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 14 | 16.0 | 9% | 0.0 | 0.0 | 0.1 |
-| B | 12 | 22.8 | 17% | 1.0 | 0.0 | 0.0 |
+| A | 15 | 15.1 | 15% | 0.0 | 0.0 | 0.1 |
+| B | 13 | 21.2 | 16% | 0.9 | 0.0 | 0.0 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -73,10 +73,10 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| hook reel | 10 | 40.0 | 14% | 1.2 | 0.0 | 0.0 |
+| hook reel | 11 | 36.8 | 18% | 1.1 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
-**Suggested verdict:** hook reel wins (+94%)
+**Suggested verdict:** hook reel wins (+78%)
 
 ## H17 — Travel issues outside Tokyo (Yu's own trips, real photos) earn more saves per reach than Tokyo issues
 Metric: **ss** · A = travel · B = tokyo · status: running
@@ -93,7 +93,7 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 2 | 221.5 | 19% | 1.2 | 0.0 | 2.0 |
+| B | 1 | 118.0 | 20% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -102,10 +102,10 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 126.3 | 48% | 0.4 | 0.0 | 0.3 |
-| B | 7 | 151.1 | 24% | 0.6 | 0.0 | 0.6 |
+| A | 5 | 122.2 | 47% | 0.3 | 0.0 | 0.4 |
+| B | 6 | 122.2 | 25% | 0.3 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+100%)
+**Suggested verdict:** A wins (+88%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
@@ -113,7 +113,6 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 1 | 325.0 | 18% | 2.5 | 0.0 | 4.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -122,7 +121,7 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 187.3 | 22% | 0.8 | 0.0 | 1.3 |
+| A | 2 | 118.5 | 24% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -132,7 +131,6 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
-| B | 1 | 325.0 | 18% | 2.5 | 0.0 | 4.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -141,8 +139,8 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 12 | 125.4 | 33% | 0.3 | 0.0 | 0.2 |
-| B | 6 | 152.7 | 33% | 0.5 | 0.0 | 0.8 |
+| A | 11 | 123.5 | 32% | 0.2 | 0.0 | 0.2 |
+| B | 5 | 118.2 | 36% | 0.2 | 0.0 | 0.2 |
 
 **Suggested verdict:** no clear difference yet
 

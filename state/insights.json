@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-18T15:04:44.141081+00:00",
+ "fetched_at": "2026-11-19T07:33:25.700446+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 131,
+  "media_count": 133,
   "id": "28241506535529259",
   "followers_count": 14,
   "follows_count": 158
  },
  "media": [
+  {
+   "id": "18146622445610265",
+   "permalink": "https://www.instagram.com/reel/Df6LeLJBSrQ/",
+   "timestamp": "2026-11-19T04:04:36+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Where to eat breakfast in Tokyo? 5 places open early 👇\n\nBrea",
+   "reach": 2,
+   "views": 2,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 5936,
+   "ig_reels_video_view_total_time": 5936
+  },
+  {
+   "id": "18150867061572850",
+   "permalink": "https://www.instagram.com/p/Df5p-H9Edpf/",
+   "timestamp": "2026-11-18T23:11:35+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Extra from Okinawa: miso soup for breakfast in Naha 🍲 Open f",
+   "reach": 1,
+   "views": 2,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "18116619047334873",
    "permalink": "https://www.instagram.com/p/Df4d1VukYZd/",
@@ -32,15 +64,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "What to eat in Naha, Okinawa? 👇\n\nExtra from Okinawa: a Japan",
-   "reach": 4,
-   "views": 4,
+   "reach": 6,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1223,
-   "ig_reels_video_view_total_time": 4895
+   "ig_reels_avg_watch_time": 1057,
+   "ig_reels_video_view_total_time": 6347
   },
   {
    "id": "18111652187620793",
@@ -49,15 +81,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "How do you spend a no-fail day eating in Asakusa? 👇\n\nA day i",
-   "reach": 4,
+   "reach": 5,
    "views": 4,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 845,
-   "ig_reels_video_view_total_time": 3383
+   "ig_reels_avg_watch_time": 3864,
+   "ig_reels_video_view_total_time": 19323
   },
   {
    "id": "17881429728562285",
@@ -793,45 +825,11 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 3834,
    "ig_reels_video_view_total_time": 486998
-  },
-  {
-   "id": "17904577881370636",
-   "permalink": "https://www.instagram.com/reel/Dfcdf1OT6cF/",
-   "timestamp": "2026-11-07T15:04:52+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Soba for ¥510 at 6am, by Akihabara 🥢\n\nMinogasa: kakiage soba",
-   "reach": 147,
-   "views": 174,
-   "likes": 0,
-   "comments": 0,
-   "saved": 1,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4186,
-   "ig_reels_video_view_total_time": 619542
-  },
-  {
-   "id": "17984951474900659",
-   "permalink": "https://www.instagram.com/reel/DfcI3NkNa_N/",
-   "timestamp": "2026-11-07T12:05:04+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Hungry after 10pm in East Tokyo? 🌙 Save this!\n\n1️⃣ Garyu Tan",
-   "reach": 325,
-   "views": 348,
-   "likes": 4,
-   "comments": 0,
-   "saved": 4,
-   "shares": 4,
-   "total_interactions": 12,
-   "ig_reels_avg_watch_time": 6514,
-   "ig_reels_video_view_total_time": 2110637
   }
  ],
  "account_daily": {
-  "reach": 29,
-  "views": 58,
+  "reach": 35,
+  "views": 64,
   "profile_views": 2,
   "profile_links_taps": 0,
   "accounts_engaged": 1
