@@ -1280,6 +1280,55 @@
    "liked": true,
    "at": "2026-11-15T21:40Z",
    "source": "Akihabara recent"
+  },
+  {
+   "user": "ithinkvicdoesthings",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Sensoji recent"
+  },
+  {
+   "user": "sas_sees_the_world",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "not_la_monts",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "elisabethfallen",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Akihabara recent"
+  },
+  {
+   "user": "ryo_tanujaya",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Akihabara recent"
+  },
+  {
+   "user": "silvestreek",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Akihabara recent"
+  },
+  {
+   "user": "gengar4194",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-19T22:25Z",
+   "source": "Akihabara recent"
   }
  ],
  "candidates": [],
@@ -1443,7 +1492,8 @@
   "2026-11-12 21:20 JST run: 6 follows+likes (Ueno Park, Akihabara, Ameyoko feeds; total 11/12 JST: 21), 2 business skips, 2 comments (11/12 JST: 4/5). No keyword comments on our posts; inbox: dhiyatako and umie_abdulrahim followed back, no messages. Own comment deletable via hover → コメントのオプション → 削除.",
   "2026-11-13 06:20 JST run: 6 follows+likes (Ueno Park, Akihabara), 2 big skips, 2 comments (11/13 JST: 2/5). No keyword comments; no DMs; tedpetrovas followed back. Followers 11.",
   "2026-11-13 21:20 JST run: 3 follows+likes (Ueno Park), 2 business skips, 1 comment (11/13 JST: 9 follows, 3 comments). No keyword comments; no DMs. Followers 13. Location feeds thin today (9 English candidates).",
-  "2026-11-14 06:20 JST run: 4 follows+likes (Ueno Park, Akihabara; Shibuya/Golden Gai feeds tried, few English travelers), 1 comment (11/14 JST: 1/5). terrinauh is labelled an AI-generated profile by IG — skip such accounts. No keyword comments; no DMs. Followers 13."
+  "2026-11-14 06:20 JST run: 4 follows+likes (Ueno Park, Akihabara; Shibuya/Golden Gai feeds tried, few English travelers), 1 comment (11/14 JST: 1/5). terrinauh is labelled an AI-generated profile by IG — skip such accounts. No keyword comments; no DMs. Followers 13.",
+  "2026-11-20 07:10 JST run (Windows Chrome, Yu OK; switched account to koru.tokyo_guide at Yu request): 7 follows+likes (Sensoji, Ueno Park, Akihabara), 2 business skips, 2 comments (11/20 JST: 7 follows, 2/5 comments). No keyword comments; no DMs. Internal user-info API returns 404 on this browser; location POST works. follow_like business regex no longer counts tiktok/youtube links."
  ],
  "dm_log": [
   {
@@ -1521,7 +1571,9 @@
    "user": "alanwainwrightphotography",
    "why": "photographer, DM for work",
    "at": "2026-11-15T21:40Z"
-  }
+  },
+  "thehybridbro",
+  "everyone_coll"
  ],
  "comment_queue": [
   {
@@ -1689,6 +1741,20 @@
    "text": "Beautiful colours in Ueno Park! If you pass by again in the morning, Coffee Ojo is a Showa-era coffee house 4 min from Ueno Station, open daily from 8:00 (cash or PayPay).",
    "at": "2026-11-15T21:40Z",
    "basis": "shops.json Coffee Ojo (Tabelog Nov 14)"
+  },
+  {
+   "user": "ithinkvicdoesthings",
+   "post": "https://www.instagram.com/p/Df3aC25pD_C/",
+   "text": "That otoshi surprise catches so many people! If you want an izakaya with no seat or otoshi charge, Yakiton Torahachi is 1 min from JR Akihabara Station and opens at 16:00 every day (pork skewers).",
+   "at": "2026-11-19T22:25Z",
+   "basis": "shops.json Torahachi (Tabelog Nov 18)"
+  },
+  {
+   "user": "sas_sees_the_world",
+   "post": "https://www.instagram.com/p/Df6rs2pTv5R/",
+   "text": "Glühwein in Ueno Park at night sounds perfect! For dinner right inside the park, Innsyoutei serves until 22:00 Mon–Sat (last order 21:30), about 10 min from Ueno Station.",
+   "at": "2026-11-19T22:25Z",
+   "basis": "shops.json Innsyoutei (Tabelog Nov 14)"
   }
  ]
 }
