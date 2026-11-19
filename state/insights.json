@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-19T07:33:25.700446+00:00",
+ "fetched_at": "2026-11-19T15:04:45.915923+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 133,
+  "media_count": 135,
   "id": "28241506535529259",
   "followers_count": 14,
   "follows_count": 158
  },
  "media": [
+  {
+   "id": "18112310825351294",
+   "permalink": "https://www.instagram.com/p/Df7ClcCEToi/",
+   "timestamp": "2026-11-19T12:05:55+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Breakfast near Akihabara: five places that open early ☕ All ",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "id": "17950878402068364",
+   "permalink": "https://www.instagram.com/reel/Df6t0kDzetN/",
+   "timestamp": "2026-11-19T09:04:44+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "What's for breakfast in Naha, Okinawa? 👇\n\nExtra from Okinawa",
+   "reach": 2,
+   "views": 3,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3375,
+   "ig_reels_video_view_total_time": 10125
+  },
   {
    "id": "18146622445610265",
    "permalink": "https://www.instagram.com/reel/Df6LeLJBSrQ/",
@@ -17,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat breakfast in Tokyo? 5 places open early 👇\n\nBrea",
-   "reach": 2,
+   "reach": 3,
    "views": 2,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5936,
-   "ig_reels_video_view_total_time": 5936
+   "ig_reels_avg_watch_time": 3236,
+   "ig_reels_video_view_total_time": 6473
   },
   {
    "id": "18150867061572850",
@@ -791,47 +823,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 2869,
    "ig_reels_video_view_total_time": 335678
-  },
-  {
-   "id": "17877075954593565",
-   "permalink": "https://www.instagram.com/reel/DfdNizchbRk/",
-   "timestamp": "2026-11-07T22:04:43+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Eat like a local in Tokyo: 3 moves 🍜\n\n1️⃣ Slurp your noodles",
-   "reach": 118,
-   "views": 124,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3399,
-   "ig_reels_video_view_total_time": 401163
-  },
-  {
-   "id": "18136750582672186",
-   "permalink": "https://www.instagram.com/reel/Dfc5JdQMM8S/",
-   "timestamp": "2026-11-07T19:06:29+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Guess the price 🍜 A ¥580 · B ¥880 · C ¥1,480\n\nKyoto-style ra",
-   "reach": 126,
-   "views": 138,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3834,
-   "ig_reels_video_view_total_time": 486998
   }
  ],
  "account_daily": {
-  "reach": 35,
-  "views": 64,
+  "reach": 15,
+  "views": 23,
   "profile_views": 2,
   "profile_links_taps": 0,
-  "accounts_engaged": 1
+  "accounts_engaged": 0
  }
 }
