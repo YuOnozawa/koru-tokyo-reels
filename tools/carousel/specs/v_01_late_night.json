@@ -1,0 +1,51 @@
+{
+ "id": "v_01_late_night",
+ "note": "reel only (H5: free stock video + AI voice; H3: late-night topic). Facts: data/shops.json",
+ "hook": {
+  "q_jp": "夜10時すぎ、\nまだ開いてる4軒",
+  "q_en": "Hungry after 10pm near Ueno and Akihabara? 4 spots still open",
+  "video": "51238",
+  "vstart": 1,
+  "vpos": 0.5,
+  "say": "Hungry after ten p.m. near Ueno and Akihabara? Four spots still open.",
+  "beats": [
+   {
+    "video": "4447",
+    "vstart": 5,
+    "vpos": 0.45,
+    "jp": "朝3時まで：ラーメン",
+    "sub_en": "Yokohama Ramen Asagaya, Ueno · daily to 3:00",
+    "say": "Yokohama-style ramen near Ueno, open every day until three a.m."
+   },
+   {
+    "video": "4109",
+    "vstart": 2,
+    "vpos": 0.4,
+    "jp": "23時半まで：もつ焼き",
+    "sub_en": "Motsuyaki Daitoryo, Ueno · daily to 23:30",
+    "say": "Daitoryo, grilled skewers by Ueno Station, every day until eleven thirty."
+   },
+   {
+    "video": "4451",
+    "vstart": 3,
+    "vpos": 0.5,
+    "jp": "23時すぎまで：やきとん",
+    "sub_en": "Torahachi, 1 min from JR Akihabara · last order 22:40",
+    "say": "Torahachi, pork skewers one minute from Akihabara Station. Last order ten forty. No cover charge."
+   },
+   {
+    "video": "20085",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "23時まで：そば",
+    "sub_en": "Shin-Tagoto, Akihabara · daily 6:30–23:00",
+    "say": "Shin-Tagoto, standing soba in Akihabara, every day until eleven."
+   }
+  ],
+  "end_video": "46122",
+  "end_vstart": 2,
+  "end_jp": "保存して、最初の夜に。",
+  "end_en": "Save it for your first night in Tokyo",
+  "end_say": "Save this for your first night in Tokyo."
+ }
+}

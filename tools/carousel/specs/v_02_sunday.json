@@ -1,0 +1,43 @@
+{
+ "id": "v_02_sunday",
+ "note": "reel only (H5 + H3 'hack'). Numbers: closed_days of 310 East Tokyo places in data/shops.json, Nov 20 2026",
+ "hook": {
+  "q_jp": "日曜の東京、\n3軒に1軒は休み",
+  "q_en": "Sunday in Tokyo? Nearly 1 in 3 places I track are closed",
+  "video": "4404",
+  "vstart": 1,
+  "vpos": 0.5,
+  "say": "Planning Sunday in Tokyo? Of the three hundred ten places I track in east Tokyo, ninety-six close on Sundays.",
+  "beats": [
+   {
+    "video": "4403",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "310軒中96軒が日曜休み",
+    "sub_en": "96 of 310 close on some or all Sundays",
+    "say": "That's nearly one in three. Some close every Sunday, some only on certain Sundays."
+   },
+   {
+    "video": "4451",
+    "vstart": 4,
+    "vpos": 0.5,
+    "jp": "月曜休みも50軒",
+    "sub_en": "50 more close on Mondays",
+    "say": "Mondays are next. Fifty more close on Mondays."
+   },
+   {
+    "video": "51241",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "毎日開いてるのは86軒",
+    "sub_en": "86 are open every day",
+    "say": "Only eighty-six are open every day. Check the closed day before you go."
+   }
+  ],
+  "end_video": "4405",
+  "end_vstart": 1,
+  "end_jp": "保存して、日曜の前に。",
+  "end_en": "Save it before your Sunday",
+  "end_say": "Save this before your Sunday."
+ }
+}

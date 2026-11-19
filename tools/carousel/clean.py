@@ -80,6 +80,29 @@ def narrate(lines, path):
     return durs
 
 
+STOCKV = '/home/claude/render/stockv/mixkit_'
+
+
+def video_frames(clip, start, dur, pos=0.5):
+    """Real moving footage (H5): free stock clips (Mixkit, Yu OK 11/20) or Yu's own clips. Returns PIL frames, 9:16 cover."""
+    path = clip if os.path.exists(clip) else f'{STOCKV}{clip}.mp4'
+    d = f'/tmp/clean_v_{os.path.basename(path)}_{start}_{dur}'
+    if not os.path.isdir(d) or not os.listdir(d):
+        os.makedirs(d, exist_ok=True)
+        vf = f"scale=-2:{H}:flags=bicubic,crop={W}:{H}:(iw-{W})*{pos}:0,fps={FPS}"
+        subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-ss', str(start), '-t', str(dur + 0.2), '-i', path, '-vf', vf, '-q:v', '3', f'{d}/%05d.jpg'], check=True)
+    fs = sorted(glob.glob(d + '/*.jpg'))
+    return lambda i: Image.open(fs[min(i, len(fs) - 1)]).convert('RGB')
+
+
+def shade_top(f):
+    g = Image.new('L', (1, H))
+    for y in range(H):
+        g.putpixel((0, y), int(255 * (0.35 * max(0, 1 - y / 360))))
+    f.paste(Image.new('RGB', (W, H), (0, 0, 0)), (0, 0), g.resize((W, H)))
+    return f
+
+
 def main(cid, out=None, voice=False):
     spec = json.load(open(os.path.join(ROOT, 'tools/carousel/specs', cid + '.json')))
     hk = spec['hook']
@@ -99,30 +122,33 @@ def main(cid, out=None, voice=False):
         f.save(f'{tmp}/{n:05d}.jpg', quality=90); n += 1
 
     hp = load(hk.get('photo'))
-    q = hk['q_jp'].replace('\n', '')
+    q = hk.get('sub_jp') or hk['q_jp'].replace('\n', '')
     if durs: HOOK_T = durs[0]
+    hv = video_frames(hk['video'], hk.get('vstart', 0), HOOK_T, hk.get('vpos', 0.5)) if hk.get('video') else None
     for i in range(int(HOOK_T * FPS)):
         t = i / FPS
-        f = photo_frame(hp, hk.get('pos', [0.5, 0.5]), t, HOOK_T) if hp else koru_card(0, t, HOOK_T)
-        if hp: mast(f)
-        subtitle(f, q, hk.get('q_en', ''), 1.0)          # text from frame 0: the first frame is the thumbnail
+        f = shade_top(hv(i)) if hv else photo_frame(hp, hk.get('pos', [0.5, 0.5]), t, HOOK_T) if hp else koru_card(0, t, HOOK_T)
+        if hp or hv: mast(f)
+        subtitle(f, q, hk.get('sub_en') or hk.get('q_en', ''), 1.0)          # text from frame 0: the first frame is the thumbnail
         put(f)
     for bi, b in enumerate(hk['beats']):
         img = load(b.get('photo'))
         if durs: BEAT_T = durs[bi + 1]
+        bv = video_frames(b['video'], b.get('vstart', 0), BEAT_T, b.get('vpos', 0.5)) if b.get('video') else None
         line = b['jp'] + ('  ' + b['fact'] if False else '')
         for i in range(int(BEAT_T * FPS)):
             t = i / FPS
-            f = photo_frame(img, b.get('pos', [0.5, 0.5]), t, BEAT_T, bi % 2 == 0) if img else koru_card(bi + 1, t, BEAT_T)
-            if img: mast(f)
-            subtitle(f, b['jp'], (b.get('en', '') + ' · ' + b.get('fact', '')).strip(' ·'), t)
+            f = shade_top(bv(i)) if bv else photo_frame(img, b.get('pos', [0.5, 0.5]), t, BEAT_T, bi % 2 == 0) if img else koru_card(bi + 1, t, BEAT_T)
+            if img or bv: mast(f)
+            subtitle(f, b['jp'], b.get('sub_en') or (b.get('en', '') + ' · ' + b.get('fact', '')).strip(' ·'), t)
             put(f)
     if durs: END_T = durs[-1]
+    ev = video_frames(hk['end_video'], hk.get('end_vstart', 0), END_T, hk.get('end_vpos', 0.5)) if hk.get('end_video') else None
     for i in range(int(END_T * FPS)):
         t = i / FPS
-        f = photo_frame(hp, hk.get('pos', [0.5, 0.5]), HOOK_T + t, HOOK_T + END_T) if hp else koru_card(0, t, END_T)
-        if hp: mast(f)
-        subtitle(f, '保存して、旅のときに。', "Save it for your trip · full issue in today's carousel", t)
+        f = shade_top(ev(i)) if ev else photo_frame(hp, hk.get('pos', [0.5, 0.5]), HOOK_T + t, HOOK_T + END_T) if hp else koru_card(0, t, END_T)
+        if hp or ev: mast(f)
+        subtitle(f, hk.get('end_jp', '保存して、旅のときに。'), hk.get('end_en', "Save it for your trip · full issue in today's carousel"), t)
         put(f)
     music = sorted(glob.glob(os.path.join(ROOT, 'tools/carousel/music/*')))
     dur = n / FPS
