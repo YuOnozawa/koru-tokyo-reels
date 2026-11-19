@@ -1,6 +1,8 @@
 """Clean reel (2026-11-19 test): moving pictures first, text under ~10% of the screen.
 
-  python tools/carousel/clean.py <cid> [out.mp4]
+  python tools/carousel/clean.py <cid> [out.mp4] [--voice]
+  --voice: AI narration (Kokoro am_michael, no music) instead of the music track (H1 test, 11/20).
+  Optional spec['hook']['say'], beats[i]['say'], hook['end_say'] override the spoken lines.
 
 Why: from 11/12 our reels became text-led (pages, big question blocks, list-row clips) and only 3 of 16 reached non-followers.
 Instagram lists "reels where text covers most of the screen" as not recommended. Before 11/12, 20 of 20 reels (footage, little text) got 100-150.
@@ -63,9 +65,29 @@ def photo_frame(img, pos, t, dur, inward=True):
     return f
 
 
-def main(cid, out=None):
+def narrate(lines, path):
+    """AI voice (Kokoro, am_michael) per segment; returns segment durations (s) and writes one wav."""
+    import numpy as np, soundfile as sf
+    from kokoro_onnx import Kokoro
+    k = Kokoro('/home/claude/tts/kokoro-v1.0.onnx', '/home/claude/tts/voices-v1.0.bin')
+    parts, durs = [], []
+    for ln in lines:
+        a, sr = k.create(ln, voice='am_michael', speed=1.05, lang='en-us')
+        d = max(1.6, len(a) / sr + 0.35)
+        pad = np.zeros(int(d * sr) - len(a), dtype=a.dtype)
+        parts += [a, pad]; durs.append(d)
+    sf.write(path, np.concatenate(parts), sr)
+    return durs
+
+
+def main(cid, out=None, voice=False):
     spec = json.load(open(os.path.join(ROOT, 'tools/carousel/specs', cid + '.json')))
     hk = spec['hook']
+    global HOOK_T, BEAT_T, END_T
+    durs = None
+    if voice:
+        lines = [hk.get('say') or hk.get('q_en', '')] + [b.get('say') or f"{b.get('en','')}. {b.get('fact','')}." for b in hk['beats']] + [hk.get('end_say', 'Save this for your trip.')]
+        durs = narrate(lines, f'/tmp/clean_{cid}_voice.wav')
     out = out or os.path.join(ROOT, 'videos', f'r_{cid}.mp4')
     tmp = os.path.join('/tmp', f'clean_{cid}'); os.makedirs(tmp, exist_ok=True)
     for p in glob.glob(tmp + '/*.jpg'): os.remove(p)
@@ -78,6 +100,7 @@ def main(cid, out=None):
 
     hp = load(hk.get('photo'))
     q = hk['q_jp'].replace('\n', '')
+    if durs: HOOK_T = durs[0]
     for i in range(int(HOOK_T * FPS)):
         t = i / FPS
         f = photo_frame(hp, hk.get('pos', [0.5, 0.5]), t, HOOK_T) if hp else koru_card(0, t, HOOK_T)
@@ -86,6 +109,7 @@ def main(cid, out=None):
         put(f)
     for bi, b in enumerate(hk['beats']):
         img = load(b.get('photo'))
+        if durs: BEAT_T = durs[bi + 1]
         line = b['jp'] + ('  ' + b['fact'] if False else '')
         for i in range(int(BEAT_T * FPS)):
             t = i / FPS
@@ -93,6 +117,7 @@ def main(cid, out=None):
             if img: mast(f)
             subtitle(f, b['jp'], (b.get('en', '') + ' · ' + b.get('fact', '')).strip(' ·'), t)
             put(f)
+    if durs: END_T = durs[-1]
     for i in range(int(END_T * FPS)):
         t = i / FPS
         f = photo_frame(hp, hk.get('pos', [0.5, 0.5]), HOOK_T + t, HOOK_T + END_T) if hp else koru_card(0, t, END_T)
@@ -102,7 +127,9 @@ def main(cid, out=None):
     music = sorted(glob.glob(os.path.join(ROOT, 'tools/carousel/music/*')))
     dur = n / FPS
     cmd = ['ffmpeg', '-loglevel', 'error', '-y', '-framerate', str(FPS), '-i', f'{tmp}/%05d.jpg']
-    if music:
+    if voice:
+        cmd += ['-i', f'/tmp/clean_{cid}_voice.wav', '-map', '0:v', '-map', '1:a', '-c:a', 'aac', '-b:a', '160k']
+    elif music:
         cmd += ['-i', music[0], '-filter_complex', f'[1:a]atrim=0:{dur},afade=t=in:d=0.3,afade=t=out:st={dur-0.8}:d=0.8[a]', '-map', '0:v', '-map', '[a]', '-c:a', 'aac', '-b:a', '160k']
     cmd += ['-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', '-shortest', out]
     subprocess.run(cmd, check=True)
@@ -112,4 +139,5 @@ def main(cid, out=None):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
+    a = [x for x in sys.argv[1:] if not x.startswith('--')]
+    main(a[0], a[1] if len(a) > 1 else None, voice='--voice' in sys.argv)

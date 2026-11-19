@@ -122,13 +122,15 @@
     ],
     "jp": "炭火ステーキ",
     "en": "1 · Chaco, since 1973",
-    "fact": "Steaks grilled over charcoal"
+    "fact": "Steaks grilled over charcoal",
+    "say": "Stop one. Chaco, grilling steaks over charcoal since 1973."
    },
    {
     "photo": "stock/yu/naha_taka_shelf.jpg",
     "jp": "泡盛のバー",
     "en": "2 · Takayama",
-    "fact": "Open 19:00–04:00 · umeboshi to start"
+    "fact": "Open 19:00–04:00 · umeboshi to start",
+    "say": "Stop two. Takayama, a wall of awamori, open until four a.m."
    },
    {
     "photo": "stock/yu/naha_swing_nuts.jpg",
@@ -138,8 +140,11 @@
     ],
     "jp": "ジャズの生演奏",
     "en": "3 · Jazz Bar Swing",
-    "fact": "The owner plays piano live"
+    "fact": "The owner plays piano live",
+    "say": "Stop three. Jazz Bar Swing, where the owner plays piano live."
    }
-  ]
+  ],
+  "say": "One night in Naha. Three stops.",
+  "end_say": "Save this for your trip to Okinawa."
  }
 }

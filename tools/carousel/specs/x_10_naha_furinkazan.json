@@ -107,13 +107,15 @@
     ],
     "jp": "だしは自分で",
     "en": "Rice, toppings, a pot of dashi",
-    "fact": "Sets from ¥1,100"
+    "fact": "Sets from ¥1,100",
+    "say": "Rice, toppings, and a pot of dashi you pour yourself. Sets from eleven hundred yen."
    },
    {
     "photo": "stock/yu/naha_furin_salmon.jpg",
     "jp": "焼き魚も",
     "en": "Or a grilled fish",
-    "fact": "+¥300: rice, miso soup, mozuku"
+    "fact": "+¥300: rice, miso soup, mozuku",
+    "say": "Or pick a grilled fish. Three hundred yen more adds rice, miso soup and mozuku."
    },
    {
     "photo": "stock/yu/naha_furin_front.jpg",
@@ -123,8 +125,11 @@
     ],
     "jp": "朝7時から",
     "en": "Near Kenchomae Station",
-    "fact": "7:00–14:30 (LO 14:00)"
+    "fact": "7:00–14:30 (LO 14:00)",
+    "say": "Fuurinkazan, near Kenchomae Station. Seven to two-thirty."
    }
-  ]
+  ],
+  "say": "Breakfast in Naha, from seven a.m.",
+  "end_say": "Save this for your trip to Okinawa."
  }
 }

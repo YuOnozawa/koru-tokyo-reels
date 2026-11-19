@@ -96,13 +96,15 @@
     ],
     "jp": "鉄板焼肉",
     "en": "Teppan yakiniku",
-    "fact": "Meat and cabbage on a hot iron plate"
+    "fact": "Meat and cabbage on a hot iron plate",
+    "say": "Teppan yakiniku. Meat and cabbage on a sizzling iron plate."
    },
    {
     "photo": "stock/yu/oki_oatari_set.jpg",
     "jp": "ご飯が進む",
     "en": "Made for rice",
-    "fact": "Yu: rich flavor · with miso soup"
+    "fact": "Yu: rich flavor · with miso soup",
+    "say": "Made for rice. Yu says the flavor is rich, and the rice goes fast."
    },
    {
     "photo": "stock/yu/oki_oatari_front.jpg",
@@ -112,8 +114,11 @@
     ],
     "jp": "大当り うるま店",
     "en": "Oatari, Uruma",
-    "fact": "Lunch from 11:00 · open daily · parking"
+    "fact": "Lunch from 11:00 · open daily · parking",
+    "say": "Oatari, in Uruma. Lunch from eleven, open every day, with parking."
    }
-  ]
+  ],
+  "say": "A Hakata specialty, in Okinawa?",
+  "end_say": "Save this for your trip to Okinawa."
  }
 }
