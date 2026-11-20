@@ -53,7 +53,8 @@ now = datetime.now(timezone.utc)
 for mid, s in snaps.items():
     m = meta[mid]; s.sort()
     ts = m['timestamp']; age_now = (now - datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S%z')).total_seconds() / 3600
-    at24 = next((x for x in s if x[0] >= 20), None)
+    s = [x for x in s if x[1] is not None] or s
+    at24 = next((x for x in s if x[0] >= 20 and x[1] is not None), None)
     last = s[-1]
     qid = posted.get(mid, {}).get('id', '')
     rows.append(dict(id=qid or '?', media_id=mid, posted=ts[:16], type=m['media_product_type'], style=style(qid, m['media_product_type'], ts),
@@ -69,10 +70,10 @@ out = ['# PDCA summary (auto)', '', f'Updated {now:%Y-%m-%d %H:%M} UTC. Reach at
        '| style | n | median reach 24h | hit rate | median watch (s) |', '|---|---|---|---|---|']
 by = {}
 for r in rows:
-    if r['reach24'] != '': by.setdefault(r['style'], []).append(r)
+    if r['reach24'] not in ('', None): by.setdefault(r['style'], []).append(r)
 for k, v in sorted(by.items()):
     re = [x['reach24'] for x in v]; wa = [x['watch_s'] for x in v if x['watch_s'] != '']
-    out.append(f"| {k} | {len(v)} | {st.median(re):.0f} | {sum(x >= 80 for x in re)}/{len(v)} | {st.median(wa) if wa else '-'} |")
+    out.append(f"| {k} | {len(v)} | {st.median(re):.0f} | {sum(x >= 80 for x in re)}/{len(v)} | {round(st.median(wa),1) if wa else '-'} |")
 pend = [r for r in rows if r['reach24'] == '']
 out += ['', 'Pending (<20 h old): ' + ', '.join(f"{r['id']} {r['reach_last']}@{r['age_last']}h" for r in pend)]
 open('docs/pdca/summary.md', 'w').write('\n'.join(out) + '\n')
