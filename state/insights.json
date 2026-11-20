@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T07:28:50.162250+00:00",
+ "fetched_at": "2026-11-20T09:01:25.609657+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -824,9 +824,9 @@
   }
  ],
  "account_daily": {
-  "reach": 27,
-  "views": 39,
-  "profile_views": 7,
+  "reach": 15,
+  "views": 19,
+  "profile_views": 6,
   "profile_links_taps": 0,
   "accounts_engaged": 0
  }
