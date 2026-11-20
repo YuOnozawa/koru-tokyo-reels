@@ -1,0 +1,40 @@
+{
+ "id": "v_03_cash_only",
+ "note": "reel only (H5 + H3 hack). 77 of 310 East Tokyo places list 'cash only' in house_rules/tourist_tip (some only at lunch), data/shops.json Nov 21 2026",
+ "hook": {
+  "q_jp": "現金だけの店、\n310軒中77軒",
+  "q_en": "Cash only? 77 of the 310 places I track",
+  "video": "4447",
+  "vstart": 8,
+  "say": "Bring cash in east Tokyo. Seventy-seven of the three hundred ten places I track say cash only.",
+  "beats": [
+   {
+    "video": "4109",
+    "vstart": 5,
+    "vpos": 0.45,
+    "jp": "カレーの名店も",
+    "sub_en": "Curry Bondy, Jimbocho · cash only",
+    "say": "Even famous ones. Curry Bondy in Jimbocho takes cash only. No cards, no QR."
+   },
+   {
+    "video": "51257",
+    "vstart": 2,
+    "jp": "ラーメンも",
+    "sub_en": "Ramen Jiro Kanda Jimbocho · cash only",
+    "say": "Ramen Jiro in Jimbocho, cash only."
+   },
+   {
+    "video": "4451",
+    "vstart": 6,
+    "jp": "もつ焼きも",
+    "sub_en": "Motsuyaki Daitoryo, Ueno · cash only",
+    "say": "And Daitoryo, the skewer bar by Ueno Station."
+   }
+  ],
+  "end_video": "46122",
+  "end_vstart": 5,
+  "end_jp": "保存して、小銭も忘れずに。",
+  "end_en": "Save it, and keep some yen on you",
+  "end_say": "Keep some yen on you, and save this for your trip."
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "v_04_breakfast_early",
+ "note": "reel only (H5). Same topic as r_c_14_mornings (hook + music, reach 3) to compare format only. Facts: data/shops.json",
+ "hook": {
+  "q_jp": "朝8時前に食べられる店",
+  "q_en": "Breakfast before 8am near Akihabara",
+  "video": "48686",
+  "vstart": 0,
+  "say": "Jet-lagged and up early? Breakfast before eight a.m. near Akihabara.",
+  "beats": [
+   {
+    "video": "4454",
+    "vstart": 0,
+    "jp": "朝6時：かき揚げそば",
+    "sub_en": "Minogasa, Akihabara · from 6:00 (closed holidays)",
+    "say": "Minogasa opens at six. Kakiage tempura soba with fresh noodles."
+   },
+   {
+    "video": "4437",
+    "vstart": 2,
+    "jp": "朝6時半：立ち食いそば",
+    "sub_en": "Shin-Tagoto, Akihabara · daily from 6:30",
+    "say": "Shin-Tagoto, standing soba, every day from six thirty."
+   },
+   {
+    "video": "46354",
+    "vstart": 1,
+    "jp": "朝7時半：いなり寿司",
+    "sub_en": "Kanda Shinoda Sushi, Awajicho · from 7:30, closed Tue",
+    "say": "Kanda Shinoda Sushi, inari sushi from seven thirty. Closed on Tuesdays. Cash only."
+   }
+  ],
+  "end_video": "48686",
+  "end_vstart": 6,
+  "end_jp": "保存して、時差ぼけの朝に。",
+  "end_en": "Save it for your jet-lagged morning",
+  "end_say": "Save this for your first jet-lagged morning."
+ }
+}

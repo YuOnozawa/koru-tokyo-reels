@@ -196,3 +196,9 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Made (reel only, A slots): r_v_01 late night near Ueno/Akihabara (11/24 12:00), r_v_02 Sunday closures 96/310 (11/25 12:00).
   Both = free stock video (Mixkit) + AI voice + one small subtitle (H5). Topics chosen for H3 (late night = our best ever, 321).
 - Running: H2 r_x_07 (clean + music) reads 11/20 18:00; H1 r_x_08–10 (clean photo + AI voice) from 11/21; H5 r_v_01–02 from 11/24.
+
+## 2026-11-21 08:00 production run
+- summary.md: v1 (AI voice, no music) 91/98 hit, median 110; every music reel since 11/12 2/18; H2 (clean + music) 3. Carousels 18 of 18 under 5.
+- Made (reel only, 11/26): r_v_03 cash only (77 of 310 places say cash only), r_v_04 breakfast before 8am — same topic as r_c_14 (hook + music = 3),
+  so the only change is the format (H5: stock video + AI voice + one subtitle). Carousels paused for these slots (reach 0–3).
+- Follow runs back on (Windows Chrome): ronakbhaiyajee followed back 8 h after our comment.
