@@ -1385,6 +1385,20 @@
    "liked": true,
    "at": "2026-11-20T12:35Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "hichael.jpeg",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-20T21:35Z",
+   "source": "Akihabara recent"
+  },
+  {
+   "user": "diciassette_vixi",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-20T21:35Z",
+   "source": "Akihabara recent"
   }
  ],
  "candidates": [],
@@ -1550,7 +1564,8 @@
   "2026-11-13 21:20 JST run: 3 follows+likes (Ueno Park), 2 business skips, 1 comment (11/13 JST: 9 follows, 3 comments). No keyword comments; no DMs. Followers 13. Location feeds thin today (9 English candidates).",
   "2026-11-14 06:20 JST run: 4 follows+likes (Ueno Park, Akihabara; Shibuya/Golden Gai feeds tried, few English travelers), 1 comment (11/14 JST: 1/5). terrinauh is labelled an AI-generated profile by IG — skip such accounts. No keyword comments; no DMs. Followers 13.",
   "2026-11-20 07:10 JST run (Windows Chrome, Yu OK; switched account to koru.tokyo_guide at Yu request): 7 follows+likes (Sensoji, Ueno Park, Akihabara), 2 business skips, 2 comments (11/20 JST: 7 follows, 2/5 comments). No keyword comments; no DMs. Internal user-info API returns 404 on this browser; location POST works. follow_like business regex no longer counts tiktok/youtube links.",
-  "2026-11-20 21:20 JST run (Windows): 8 follows+likes (Ueno Park, Akihabara), 1 comment. JST 11/20 totals: 15 follows, 3 comments. ithinkvicdoesthings replied to our otoshi comment (no fact to add; not answered). No keyword comments, no DM requests. Warning check: \"コメントは制限されています\" on a post is not an account warning; regex now uses アクションがブロック/後でもう一度実行/Try Again Later/ご利用を制限."
+  "2026-11-20 21:20 JST run (Windows): 8 follows+likes (Ueno Park, Akihabara), 1 comment. JST 11/20 totals: 15 follows, 3 comments. ithinkvicdoesthings replied to our otoshi comment (no fact to add; not answered). No keyword comments, no DM requests. Warning check: \"コメントは制限されています\" on a post is not an account warning; regex now uses アクションがブロック/後でもう一度実行/Try Again Later/ご利用を制限.",
+  "2026-11-21 06:20 JST run (Windows): 2 follows+likes, 1 comment. Few new candidates (location recent mostly already seen; Sensoji/Ameyoko/Yanaka/Shibuya/Golden Gai returned none in 30 h window). ronakbhaiyajee followed back 8 h after our comment (comment → follow-back)."
  ],
  "dm_log": [
   {
@@ -1819,6 +1834,13 @@
    "text": "Lovely family day in Ueno! For a sweet break near the park, Anmitsu Mihashi is 3 min from JR Ueno Station, open 10:30–21:00 on weekdays (to 19:30 on weekends).",
    "at": "2026-11-20T12:35Z",
    "basis": "shops.json Anmitsu Mihashi (Tabelog Nov 2026)"
+  },
+  {
+   "user": "hichael.jpeg",
+   "post": "https://www.instagram.com/p/Df9_Wpzvr6t/",
+   "text": "Laundry break in Akihabara! When you get hungry, Shinpuku Saikan is 5 min from the station: dark soy-sauce ramen, 11:00–15:00 and 17:30–23:00.",
+   "at": "2026-11-20T21:35Z",
+   "basis": "shops.json Shinpuku Saikan"
   }
  ]
 }
