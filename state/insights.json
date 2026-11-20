@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-20T09:01:25.609657+00:00",
+ "fetched_at": "2026-11-20T15:04:31.336903+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 137,
+  "media_count": 138,
   "id": "28241506535529259",
-  "followers_count": 14,
-  "follows_count": 164
+  "followers_count": 15,
+  "follows_count": 172
  },
  "media": [
+  {
+   "id": "18182163697430315",
+   "permalink": "https://www.instagram.com/reel/Df9SwRDOKJb/",
+   "timestamp": "2026-11-20T09:06:17+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Which soba in Kanda? 4 old houses near Akihabara 👇\n\nKanda so",
+   "reach": 1,
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 629,
+   "ig_reels_video_view_total_time": 629
+  },
   {
    "id": "18038365853891667",
    "permalink": "https://www.instagram.com/reel/Df8wXbDBNTY/",
@@ -17,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Which old coffee house in Ueno? Smoking or not 👇\n\nUeno's old",
-   "reach": 11,
-   "views": 12,
+   "reach": 12,
+   "views": 13,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2676,
-   "ig_reels_video_view_total_time": 29441
+   "ig_reels_avg_watch_time": 2606,
+   "ig_reels_video_view_total_time": 31272
   },
   {
    "id": "18256520746313157",
@@ -804,29 +821,12 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 3062,
    "ig_reels_video_view_total_time": 382842
-  },
-  {
-   "id": "18027936167869374",
-   "permalink": "https://www.instagram.com/reel/DfeLae1NnBH/",
-   "timestamp": "2026-11-08T07:05:21+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "POV: your first ramen shop in Tokyo has no menu, just a mach",
-   "reach": 134,
-   "views": 154,
-   "likes": 1,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4503,
-   "ig_reels_video_view_total_time": 598931
   }
  ],
  "account_daily": {
-  "reach": 15,
-  "views": 19,
-  "profile_views": 6,
+  "reach": 17,
+  "views": 21,
+  "profile_views": 10,
   "profile_links_taps": 0,
   "accounts_engaged": 0
  }
