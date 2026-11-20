@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 11 | 120.7 | 32% | 0.3 | 0.0 | 0.2 |
+| A | 10 | 120.3 | 30% | 0.3 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -54,7 +54,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 19 | 1.8 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 20 | 1.8 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -63,8 +63,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 17 | 14.2 | 13% | 0.0 | 0.0 | 0.1 |
-| B | 16 | 17.5 | 16% | 0.8 | 0.0 | 0.0 |
+| A | 18 | 13.4 | 13% | 0.0 | 0.0 | 0.1 |
+| B | 16 | 17.6 | 16% | 0.8 | 0.0 | 0.0 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -74,7 +74,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | clean reel (text <10%) | 1 | 3.0 | 24% | 0.0 | 0.0 | 0.0 |
-| hook reel | 13 | 32.2 | 16% | 0.9 | 0.0 | 0.0 |
+| hook reel | 13 | 32.4 | 16% | 0.9 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -102,10 +102,10 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 4 | 121.0 | 46% | 0.4 | 0.0 | 0.5 |
+| A | 3 | 119.7 | 43% | 0.5 | 0.0 | 0.7 |
 | B | 6 | 122.2 | 25% | 0.3 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+81%)
+**Suggested verdict:** A wins (+71%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
@@ -140,7 +140,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 7 | 124.4 | 30% | 0.4 | 0.0 | 0.3 |
-| B | 4 | 114.2 | 35% | 0.2 | 0.0 | 0.0 |
+| B | 3 | 110.7 | 29% | 0.3 | 0.0 | 0.0 |
 
 **Suggested verdict:** no clear difference yet
 
