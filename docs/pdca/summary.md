@@ -1,12 +1,12 @@
 # PDCA summary (auto)
 
-Updated 2026-11-19 23:16 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.
+Updated 2026-11-20 07:29 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.
 
 | style | n | median reach 24h | hit rate | median watch (s) |
 |---|---|---|---|---|
-| carousel | 17 | 1 | 0/17 | - |
-| v1 voice narration, no music | 75 | 108 | 70/75 | 3.6 |
-| v2 page-flip + music | 6 | 13 | 0/6 | 2.35 |
+| carousel | 17 | 2 | 0/17 | - |
+| v1 voice narration, no music | 14 | 124 | 14/14 | 3.6 |
+| v2 page-flip + music | 6 | 18 | 0/6 | 2.35 |
 | v3 hook + music, Yu photo | 6 | 32 | 2/6 | 2.9 |
 | v3 hook + music, type only | 4 | 12 | 0/4 | 1.8 |
 

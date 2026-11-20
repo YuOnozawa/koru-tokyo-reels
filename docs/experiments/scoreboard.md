@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 14 | 121.8 | 34% | 0.2 | 0.0 | 0.2 |
+| A | 12 | 121.8 | 33% | 0.3 | 0.0 | 0.2 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -54,7 +54,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 18 | 1.9 | – | 0.0 | 0.0 | 0.0 |
+| carousel | 19 | 1.8 | – | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -63,8 +63,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 16 | 14.2 | 13% | 0.0 | 0.0 | 0.1 |
-| B | 14 | 19.9 | 18% | 0.9 | 0.0 | 0.0 |
+| A | 17 | 14.1 | 13% | 0.0 | 0.0 | 0.1 |
+| B | 15 | 18.6 | 18% | 0.8 | 0.0 | 0.0 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -73,8 +73,8 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| clean reel (text <10%) | 1 | 2.0 | 27% | 0.0 | 0.0 | 0.0 |
-| hook reel | 11 | 36.9 | 16% | 1.1 | 0.0 | 0.0 |
+| clean reel (text <10%) | 1 | 3.0 | 24% | 0.0 | 0.0 | 0.0 |
+| hook reel | 12 | 34.8 | 17% | 1.0 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -102,10 +102,10 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 122.2 | 47% | 0.3 | 0.0 | 0.4 |
+| A | 4 | 121.0 | 46% | 0.4 | 0.0 | 0.5 |
 | B | 6 | 122.2 | 25% | 0.3 | 0.0 | 0.0 |
 
-**Suggested verdict:** A wins (+88%)
+**Suggested verdict:** A wins (+81%)
 
 ## H4 — A question as the caption's first line gets more reach than a statement
 Metric: **reach** · A = question first line · B = statement first line · status: running
@@ -139,7 +139,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 9 | 123.8 | 33% | 0.3 | 0.0 | 0.2 |
+| A | 7 | 124.4 | 30% | 0.4 | 0.0 | 0.3 |
 | B | 5 | 118.2 | 36% | 0.2 | 0.0 | 0.2 |
 
 **Suggested verdict:** no clear difference yet
@@ -149,7 +149,7 @@ Metric: **comp** · A = new template (see 'tmpl') · B = standard v3 · status: 
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 125.0 | 38% | 0.0 | 0.0 | 0.5 |
+| A | 1 | 134.0 | 42% | 0.0 | 0.0 | 1.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 

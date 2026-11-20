@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-19T22:26:07.104788+00:00",
+ "fetched_at": "2026-11-20T07:28:50.162250+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 135,
+  "media_count": 137,
   "id": "28241506535529259",
   "followers_count": 14,
-  "follows_count": 165
+  "follows_count": 164
  },
  "media": [
+  {
+   "id": "18038365853891667",
+   "permalink": "https://www.instagram.com/reel/Df8wXbDBNTY/",
+   "timestamp": "2026-11-20T04:05:35+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Which old coffee house in Ueno? Smoking or not 👇\n\nUeno's old",
+   "reach": 11,
+   "views": 12,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2676,
+   "ig_reels_video_view_total_time": 29441
+  },
+  {
+   "id": "18256520746313157",
+   "permalink": "https://www.instagram.com/p/Df8b3MaHbar/",
+   "timestamp": "2026-11-20T01:06:03+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Kanda soba: four houses near Akihabara 🥢 About 10 minutes' w",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "18112310825351294",
    "permalink": "https://www.instagram.com/p/Df7ClcCEToi/",
@@ -17,8 +49,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Breakfast near Akihabara: five places that open early ☕ All ",
-   "reach": 0,
-   "views": 0,
+   "reach": 1,
+   "views": 1,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -32,15 +64,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "What's for breakfast in Naha, Okinawa? 👇\n\nExtra from Okinawa",
-   "reach": 2,
-   "views": 3,
+   "reach": 3,
+   "views": 5,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3375,
-   "ig_reels_video_view_total_time": 10125
+   "ig_reels_avg_watch_time": 2969,
+   "ig_reels_video_view_total_time": 11877
   },
   {
    "id": "18146622445610265",
@@ -789,46 +821,12 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 4503,
    "ig_reels_video_view_total_time": 598931
-  },
-  {
-   "id": "18121226530989704",
-   "permalink": "https://www.instagram.com/reel/Dfd2y2dzc1K/",
-   "timestamp": "2026-11-08T04:05:31+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Don't tip in Japan 🙅 Leftover money may be handed back.\n\nSay",
-   "reach": 127,
-   "views": 157,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3048,
-   "ig_reels_video_view_total_time": 384065
-  },
-  {
-   "id": "17873769462640373",
-   "permalink": "https://www.instagram.com/reel/DfdiYDwtcEO/",
-   "timestamp": "2026-11-08T01:06:43+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Tokyo wakes up early ☕ 6am soba, 7am coffee, 8am morning set",
-   "reach": 116,
-   "views": 130,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2869,
-   "ig_reels_video_view_total_time": 335678
   }
  ],
  "account_daily": {
-  "reach": 15,
-  "views": 23,
-  "profile_views": 2,
+  "reach": 27,
+  "views": 39,
+  "profile_views": 7,
   "profile_links_taps": 0,
   "accounts_engaged": 0
  }
