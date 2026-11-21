@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-20T20:30:57.919598+00:00",
+ "fetched_at": "2026-11-21T07:23:44.340124+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 139,
+  "media_count": 141,
   "id": "28241506535529259",
-  "followers_count": 15,
-  "follows_count": 172
+  "followers_count": 17,
+  "follows_count": 174
  },
  "media": [
+  {
+   "id": "18102627449081559",
+   "permalink": "https://www.instagram.com/reel/Df_VK2xxqsa/",
+   "timestamp": "2026-11-21T04:05:43+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "A slow day in Ueno: where to eat? 👇\n\nUeno, slowly: a no-fail",
+   "reach": 3,
+   "views": 4,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1438,
+   "ig_reels_video_view_total_time": 5755
+  },
+  {
+   "id": "17973056871016533",
+   "permalink": "https://www.instagram.com/p/Df--cWGFrxt/",
+   "timestamp": "2026-11-21T00:46:40+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Extra from Okinawa: Hakata-style teppan yakiniku in Uruma 🔥\n",
+   "reach": 1,
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "18119694190820902",
    "permalink": "https://www.instagram.com/p/Df98AAXm3s9/",
@@ -17,13 +49,13 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Ueno's old coffee houses: four to know before you sit ☕ All ",
-   "reach": 0,
-   "views": 0,
-   "likes": 0,
+   "reach": 1,
+   "views": 1,
+   "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 0
+   "total_interactions": 1
   },
   {
    "id": "18182163697430315",
@@ -32,15 +64,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Which soba in Kanda? 4 old houses near Akihabara 👇\n\nKanda so",
-   "reach": 2,
-   "views": 2,
+   "reach": 6,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 747,
-   "ig_reels_video_view_total_time": 1494
+   "ig_reels_avg_watch_time": 1538,
+   "ig_reels_video_view_total_time": 7693
   },
   {
    "id": "18038365853891667",
@@ -49,15 +81,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Which old coffee house in Ueno? Smoking or not 👇\n\nUeno's old",
-   "reach": 13,
-   "views": 14,
+   "reach": 14,
+   "views": 15,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2480,
-   "ig_reels_video_view_total_time": 32252
+   "ig_reels_avg_watch_time": 2369,
+   "ig_reels_video_view_total_time": 33177
   },
   {
    "id": "18256520746313157",
@@ -96,15 +128,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "What's for breakfast in Naha, Okinawa? 👇\n\nExtra from Okinawa",
-   "reach": 3,
-   "views": 5,
-   "likes": 0,
+   "reach": 4,
+   "views": 6,
+   "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2969,
-   "ig_reels_video_view_total_time": 11877
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4500,
+   "ig_reels_video_view_total_time": 27005
   },
   {
    "id": "18146622445610265",
@@ -113,15 +145,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat breakfast in Tokyo? 5 places open early 👇\n\nBrea",
-   "reach": 3,
+   "reach": 4,
    "views": 2,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3236,
-   "ig_reels_video_view_total_time": 6473
+   "ig_reels_avg_watch_time": 7232,
+   "ig_reels_video_view_total_time": 21696
   },
   {
    "id": "18150867061572850",
@@ -130,13 +162,13 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Extra from Okinawa: miso soup for breakfast in Naha 🍲 Open f",
-   "reach": 1,
-   "views": 2,
-   "likes": 0,
+   "reach": 2,
+   "views": 3,
+   "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 0
+   "total_interactions": 1
   },
   {
    "id": "18116619047334873",
@@ -145,8 +177,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "A day in Asakusa: five no-fail stops ⛩️ Morning to dinner, a",
-   "reach": 0,
-   "views": 0,
+   "reach": 1,
+   "views": 1,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -167,8 +199,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1057,
-   "ig_reels_video_view_total_time": 6347
+   "ig_reels_avg_watch_time": 3477,
+   "ig_reels_video_view_total_time": 24342
   },
   {
    "id": "18111652187620793",
@@ -184,8 +216,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3864,
-   "ig_reels_video_view_total_time": 19323
+   "ig_reels_avg_watch_time": 3475,
+   "ig_reels_video_view_total_time": 20854
   },
   {
    "id": "17881429728562285",
@@ -231,8 +263,8 @@
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 2844,
-   "ig_reels_video_view_total_time": 34132
+   "ig_reels_avg_watch_time": 2803,
+   "ig_reels_video_view_total_time": 36443
   },
   {
    "id": "18005252304040021",
@@ -248,8 +280,8 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1399,
-   "ig_reels_video_view_total_time": 27990
+   "ig_reels_avg_watch_time": 1384,
+   "ig_reels_video_view_total_time": 29070
   },
   {
    "id": "17994854538106346",
@@ -531,8 +563,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Extra: Tenkaippin's rich 'kotteri' ramen in Akihabara 🍜 a qu",
-   "reach": 4,
-   "views": 8,
+   "reach": 5,
+   "views": 9,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -674,15 +706,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat late in Asakusa? 🌙 Most of it goes dark early. ",
-   "reach": 152,
-   "views": 184,
+   "reach": 153,
+   "views": 187,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 6553,
-   "ig_reels_video_view_total_time": 1009277
+   "ig_reels_avg_watch_time": 6532,
+   "ig_reels_video_view_total_time": 1012489
   },
   {
    "id": "18120321499814568",
@@ -785,47 +817,13 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 4112,
    "ig_reels_video_view_total_time": 460644
-  },
-  {
-   "id": "18205248907331642",
-   "permalink": "https://www.instagram.com/reel/DffCRlIKBNA/",
-   "timestamp": "2026-11-08T15:04:43+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Do Tokyo restaurants take cards? Not all: 68 of the 299 East",
-   "reach": 132,
-   "views": 155,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3097,
-   "ig_reels_video_view_total_time": 418136
-  },
-  {
-   "id": "18649763593053097",
-   "permalink": "https://www.instagram.com/reel/DfetrEXB4Qq/",
-   "timestamp": "2026-11-08T12:04:44+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Get the check fast in Tokyo 🧾\n\nSay お会計お願いします (okaikei onegai",
-   "reach": 101,
-   "views": 119,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2438,
-   "ig_reels_video_view_total_time": 248687
   }
  ],
  "account_daily": {
-  "reach": 19,
-  "views": 23,
-  "profile_views": 10,
+  "reach": 27,
+  "views": 41,
+  "profile_views": 13,
   "profile_links_taps": 0,
-  "accounts_engaged": 0
+  "accounts_engaged": 1
  }
 }
