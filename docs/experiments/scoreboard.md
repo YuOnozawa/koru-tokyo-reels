@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 8 | 121.4 | 27% | 0.4 | 0.0 | 0.2 |
+| A | 6 | 125.2 | 30% | 0.4 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -16,7 +16,7 @@ Metric: **comp** · A = sauna series · B = food reels · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 41.7 | 20% | 0.0 | 0.0 | 0.0 |
+| A | 2 | 7.0 | 21% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -25,8 +25,6 @@ Metric: **ss** · A = seasonal decision reel · B = evergreen reels · status: r
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 109.0 | 19% | 0.9 | 0.0 | 0.0 |
-| B | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -35,7 +33,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 4 | 113.5 | 24% | 0.2 | 0.0 | 0.0 |
+| A | 3 | 115.0 | 25% | 0.0 | 0.0 | 0.0 |
 | B | 2 | 140.0 | 28% | 0.4 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -54,7 +52,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 21 | 1.9 | – | 0.0 | 0.0 | 0.1 |
+| carousel | 22 | 1.8 | – | 0.0 | 0.0 | 0.1 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -63,8 +61,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 19 | 13.1 | 15% | 0.0 | 0.0 | 0.1 |
-| B | 17 | 17.0 | 20% | 0.7 | 0.0 | 0.1 |
+| A | 20 | 12.6 | 15% | 0.0 | 0.0 | 0.1 |
+| B | 18 | 16.7 | 20% | 0.7 | 0.0 | 0.1 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -73,8 +71,9 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
+| clean + AI voice, no music (H1) | 1 | 9.0 | 15% | 0.0 | 0.0 | 0.0 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
-| hook reel | 14 | 30.7 | 18% | 0.9 | 0.0 | 0.0 |
+| hook reel | 14 | 31.1 | 19% | 0.9 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -93,7 +92,6 @@ Metric: **comp** · A = Yu photos · B = stock footage · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -103,7 +101,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 1 | 126.0 | 48% | 1.6 | 0.0 | 2.0 |
-| B | 6 | 122.3 | 25% | 0.3 | 0.0 | 0.0 |
+| B | 5 | 125.0 | 26% | 0.2 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -112,7 +110,6 @@ Metric: **reach** · A = question first line · B = statement first line · stat
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -121,7 +118,6 @@ Metric: **com** · A = comment ask · B = no ask · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -130,7 +126,6 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 1 | 111.0 | 18% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -139,7 +134,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 6 | 123.3 | 28% | 0.4 | 0.0 | 0.3 |
+| A | 4 | 130.0 | 32% | 0.4 | 0.0 | 0.5 |
 | B | 2 | 115.5 | 25% | 0.4 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._

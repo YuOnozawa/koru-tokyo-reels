@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-21T07:23:44.340124+00:00",
+ "fetched_at": "2026-11-21T15:04:13.472092+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 141,
+  "media_count": 143,
   "id": "28241506535529259",
   "followers_count": 17,
-  "follows_count": 174
+  "follows_count": 177
  },
  "media": [
+  {
+   "id": "18427367497156694",
+   "permalink": "https://www.instagram.com/p/DgAMJUiFMP2/",
+   "timestamp": "2026-11-21T12:05:39+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Ueno, slowly: a no-fail day 🌳 Coffee, the park, sweets and y",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "id": "18119759519520374",
+   "permalink": "https://www.instagram.com/reel/Df_3eOZBP8Z/",
+   "timestamp": "2026-11-21T09:05:25+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "A Fukuoka specialty, in Okinawa? 👇\n\nExtra from Okinawa: Haka",
+   "reach": 9,
+   "views": 9,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2880,
+   "ig_reels_video_view_total_time": 23047
+  },
   {
    "id": "18102627449081559",
    "permalink": "https://www.instagram.com/reel/Df_VK2xxqsa/",
@@ -17,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A slow day in Ueno: where to eat? 👇\n\nUeno, slowly: a no-fail",
-   "reach": 3,
-   "views": 4,
+   "reach": 5,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1438,
-   "ig_reels_video_view_total_time": 5755
+   "ig_reels_avg_watch_time": 1252,
+   "ig_reels_video_view_total_time": 7516
   },
   {
    "id": "17973056871016533",
@@ -64,15 +96,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Which soba in Kanda? 4 old houses near Akihabara 👇\n\nKanda so",
-   "reach": 6,
-   "views": 6,
+   "reach": 9,
+   "views": 8,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1538,
-   "ig_reels_video_view_total_time": 7693
+   "ig_reels_avg_watch_time": 2412,
+   "ig_reels_video_view_total_time": 19298
   },
   {
    "id": "18038365853891667",
@@ -783,46 +815,12 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 4282,
    "ig_reels_video_view_total_time": 535362
-  },
-  {
-   "id": "18653197063061888",
-   "permalink": "https://www.instagram.com/reel/DfgbiWARegQ/",
-   "timestamp": "2026-11-09T04:04:43+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "What do you eat after a Japanese sauna? 🧖 It's called sa-mes",
-   "reach": 111,
-   "views": 120,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3867,
-   "ig_reels_video_view_total_time": 444805
-  },
-  {
-   "id": "18127792153923876",
-   "permalink": "https://www.instagram.com/reel/DffyWdpi2ns/",
-   "timestamp": "2026-11-08T22:04:48+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Where to eat near Ueno Park in autumn? 🍂 Ginkgo should turn ",
-   "reach": 109,
-   "views": 116,
-   "likes": 0,
-   "comments": 0,
-   "saved": 1,
-   "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4112,
-   "ig_reels_video_view_total_time": 460644
   }
  ],
  "account_daily": {
-  "reach": 27,
-  "views": 41,
-  "profile_views": 13,
+  "reach": 26,
+  "views": 39,
+  "profile_views": 9,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }
