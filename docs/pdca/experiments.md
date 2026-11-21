@@ -38,4 +38,5 @@ Patterns: (1) every top reel is real moving video, none are still photos; (2) th
 | H3 | Expansion past ~100 needs watch ≥ 6 s; late-night and "money/etiquette hack" topics hold attention | Next 3 voice reels: one late-night, one hack, one normal; compare watch and reach | queued |
 | H5 | Real moving video beats still photos (all benchmarks are video) | Free stock video clips (Mixkit/Pexels, no credit needed — Yu OK 11/20) + Yu's clips when he has them, same voice; vs H1 stills+voice | next after H1 |
 | H6 | Timely, actionable topics get sends: illuminations near our areas, year-end/New Year hours of our shops (Dec 29–Jan 3) | 2 timely issues in Dec; metric = shares per reach | plan for Dec 1–15 |
+| H4a | Exact v1 format (compose_v3: stock video + AI voice + big text + chips, 6–11 s) still works today | r_h4_01 seat charge, r_h4_02 closed Mondays (11/27). v1 had s_03_sunday 294? / s_05_cash ~100 on similar topics | running from 11/27 |
 | H4 | Time (new-account boost ended) — not format | If H1 and H2 both fail, rerun one old v1 reel style (render_kit) with a new topic | backup |

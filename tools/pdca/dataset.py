@@ -35,6 +35,8 @@ def style(qid, typ, ts):
         return 'v1 voice narration, no music'
     if d < '2026-11-14':
         return 'v2 page-flip + music'
+    if qid.startswith('r_h4_'):
+        return 'v1 replica (H4)'
     if qid.startswith('r_v_'):
         return 'v5 stock video + AI voice'
     if qid.startswith('r_x_') and qid[4:6] >= '08' and d >= '2026-11-21':

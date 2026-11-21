@@ -202,3 +202,9 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Made (reel only, 11/26): r_v_03 cash only (77 of 310 places say cash only), r_v_04 breakfast before 8am — same topic as r_c_14 (hook + music = 3),
   so the only change is the format (H5: stock video + AI voice + one subtitle). Carousels paused for these slots (reach 0–3).
 - Follow runs back on (Windows Chrome): ronakbhaiyajee followed back 8 h after our comment.
+
+## 2026-11-22 08:00 production run
+- Early reads: r_x_08 (Yu photo + AI voice, H1) 10 at 10 h; Ueno reel 5 at 15 h. H1 reads at 24 h (18:00 today).
+- Made 11/27 (reel only): r_h4_01 seat charge (Akatsuka ¥450 vs Torahachi none), r_h4_02 closed Mondays (50/310) in the exact v1 format
+  (tools/app_reel/compose_v3.py: stock video + AI voice + big text + chips, 7–11 s). If this format still gets ~100, the cause is our new
+  formats; if it doesn't, the account/time changed (H4).

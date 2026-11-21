@@ -196,3 +196,14 @@ V3['y_01_tenkaippin'] = {'speed': 1.2, 'beats': [
   {'say': "Garlic and chili are already in. Don't want them? Say: {ninniku nuki de|nɪnnɪku nuki dɛ}.", 'photo': TK + 'kotteri.jpg', 'focus': (.55, .65), 'big': 'NO GARLIC?', 'hl': 1, 'chips': ['ニンニク抜きで', 'ninniku nuki de'], 'min': 2.6, 'note': TKN},
   {'say': "Add fried rice. Water is self-service.", 'photo': TK + 'fried_rice.jpg', 'focus': (.5, .5), 'big': '+ FRIED RICE', 'hl': 0, 'koru': 'Slurp!', 'min': 2.2, 'note': TKN},
 ]}
+
+# ---- 11/22: H4 test — exact v1 format (stock video + AI voice + big text + chips, short, no music) with new topics ----
+V3['h4_01_otoshi'] = {'speed': 1.25, 'beats': [
+  {'say': "Charged for a seat at a Tokyo izakaya? It happens.", 'video': SV + '4109.mp4', 'vstart': 2, 'tag': 'AKIHABARA · IZAKAYA', 'big': 'SEAT\nCHARGE?', 'hl': 1, 'size': 180, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Akatsuka|ɑkɑtsukɑ}, since 1954: four hundred fifty yen per seat.", 'video': SV + '51238.mp4', 'vstart': 2, 'tag': '1 · AKATSUKA', 'big': '¥450\nPER SEAT', 'hl': 0, 'chips': ['since 1954', 'lunch: cash only'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Torahachi|toɾɑhɑtʃi}, one minute from the station: no charge at all.", 'video': SV + '4447.mp4', 'vstart': 4, 'tag': '2 · TORAHACHI', 'big': 'NO\nCHARGE', 'hl': 1, 'chips': ['1 min from JR', 'cards OK'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}
+V3['h4_02_monday'] = {'speed': 1.25, 'beats': [
+  {'say': "Fifty of the three hundred ten places I track in east Tokyo close on Mondays.", 'video': SV + '4451.mp4', 'vstart': 2, 'big': '50 OF 310\nCLOSED MON', 'hl': 1, 'size': 160, 'min': 2.4, 'note': 'From 310 East Tokyo places I track · Footage: Mixkit'},
+  {'say': "Check the closed day before you go.", 'video': SV + '20085.mp4', 'vstart': 1, 'big': 'CHECK\nFIRST', 'hl': 0, 'chips': ['定休日は？', 'closed today?'], 'min': 1.8, 'note': 'Footage: Mixkit'},
+]}
