@@ -62,7 +62,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 20 | 12.6 | 15% | 0.0 | 0.0 | 0.1 |
-| B | 18 | 16.7 | 20% | 0.7 | 0.0 | 0.1 |
+| B | 18 | 16.8 | 20% | 0.7 | 0.0 | 0.1 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -71,7 +71,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| clean + AI voice, no music (H1) | 1 | 9.0 | 15% | 0.0 | 0.0 | 0.0 |
+| clean + AI voice, no music (H1) | 1 | 10.0 | 14% | 0.0 | 0.0 | 0.0 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
 | hook reel | 14 | 31.1 | 19% | 0.9 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |

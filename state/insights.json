@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-21T15:04:13.472092+00:00",
+ "fetched_at": "2026-11-21T19:27:42.847313+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
   "media_count": 143,
   "id": "28241506535529259",
-  "followers_count": 17,
+  "followers_count": 18,
   "follows_count": 177
  },
  "media": [
@@ -32,15 +32,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A Fukuoka specialty, in Okinawa? 👇\n\nExtra from Okinawa: Haka",
-   "reach": 9,
-   "views": 9,
+   "reach": 10,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2880,
-   "ig_reels_video_view_total_time": 23047
+   "ig_reels_avg_watch_time": 2756,
+   "ig_reels_video_view_total_time": 24806
   },
   {
    "id": "18102627449081559",
@@ -818,9 +818,9 @@
   }
  ],
  "account_daily": {
-  "reach": 26,
-  "views": 39,
-  "profile_views": 9,
+  "reach": 27,
+  "views": 40,
+  "profile_views": 10,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }
