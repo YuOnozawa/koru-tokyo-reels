@@ -1420,6 +1420,27 @@
    "liked": true,
    "at": "2026-11-21T12:40Z",
    "source": "Sensoji recent"
+  },
+  {
+   "user": "shiv_anshjain2025",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-21T21:35Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "noneleonora",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-21T21:35Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "maciejstaroniewicz",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-21T21:35Z",
+   "source": "Akihabara recent"
   }
  ],
  "candidates": [],
@@ -1590,7 +1611,8 @@
   "2026-11-20 07:10 JST run (Windows Chrome, Yu OK; switched account to koru.tokyo_guide at Yu request): 7 follows+likes (Sensoji, Ueno Park, Akihabara), 2 business skips, 2 comments (11/20 JST: 7 follows, 2/5 comments). No keyword comments; no DMs. Internal user-info API returns 404 on this browser; location POST works. follow_like business regex no longer counts tiktok/youtube links.",
   "2026-11-20 21:20 JST run (Windows): 8 follows+likes (Ueno Park, Akihabara), 1 comment. JST 11/20 totals: 15 follows, 3 comments. ithinkvicdoesthings replied to our otoshi comment (no fact to add; not answered). No keyword comments, no DM requests. Warning check: \"コメントは制限されています\" on a post is not an account warning; regex now uses アクションがブロック/後でもう一度実行/Try Again Later/ご利用を制限.",
   "2026-11-21 06:20 JST run (Windows): 2 follows+likes, 1 comment. Few new candidates (location recent mostly already seen; Sensoji/Ameyoko/Yanaka/Shibuya/Golden Gai returned none in 30 h window). ronakbhaiyajee followed back 8 h after our comment (comment → follow-back).",
-  "2026-11-21 21:20 JST run (Windows): 3 follows+likes, 0 comments (1 private, 2 over 10k skipped). Follow-backs since 11/20: ronakbhaiyajee (after comment), jay_2329, diciassette_vixi (followed + liked 2 reels and 2 posts)."
+  "2026-11-21 21:20 JST run (Windows): 3 follows+likes, 0 comments (1 private, 2 over 10k skipped). Follow-backs since 11/20: ronakbhaiyajee (after comment), jay_2329, diciassette_vixi (followed + liked 2 reels and 2 posts).",
+  "2026-11-22 06:20 JST run (Windows): 3 follows+likes, 1 comment; skipped chillandpug (lofi/AI-style account). terrinauh followed back."
  ],
  "dm_log": [
   {
@@ -1670,7 +1692,8 @@
    "at": "2026-11-15T21:40Z"
   },
   "thehybridbro",
-  "everyone_coll"
+  "everyone_coll",
+  "chillandpug"
  ],
  "comment_queue": [
   {
@@ -1866,6 +1889,13 @@
    "text": "Laundry break in Akihabara! When you get hungry, Shinpuku Saikan is 5 min from the station: dark soy-sauce ramen, 11:00–15:00 and 17:30–23:00.",
    "at": "2026-11-20T21:35Z",
    "basis": "shops.json Shinpuku Saikan"
+  },
+  {
+   "user": "shiv_anshjain2025",
+   "post": "https://www.instagram.com/p/DgAiB2YzTNs/",
+   "text": "Early Christmas in Ueno looks so fun! For a cheap snack nearby, Niku no Oyama (2 min from Ueno Station) sells menchi-katsu from ¥150, open until 22:00 on Sundays.",
+   "at": "2026-11-21T21:35Z",
+   "basis": "shops.json Niku no Oyama (Sun/hol 11:00-22:00)"
   }
  ]
 }
