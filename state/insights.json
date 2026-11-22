@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T15:04:24.047089+00:00",
+ "fetched_at": "2026-11-22T16:09:28.351599+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -32,15 +32,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Still hungry after 10pm in Tokyo? 5 places 👇\n\nDinner after 1",
-   "reach": 9,
-   "views": 9,
+   "reach": 10,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1542,
-   "ig_reels_video_view_total_time": 13881
+   "ig_reels_avg_watch_time": 1468,
+   "ig_reels_video_view_total_time": 14687
   },
   {
    "id": "18023734598949942",
@@ -49,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Which tempura in Asakusa? 👇\n\nNo.17 · Asakusa tempura: two ol",
-   "reach": 25,
-   "views": 32,
+   "reach": 27,
+   "views": 34,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2806,
-   "ig_reels_video_view_total_time": 70160
+   "ig_reels_avg_watch_time": 2745,
+   "ig_reels_video_view_total_time": 74127
   },
   {
    "id": "18101702135099957",
@@ -814,8 +814,8 @@
   }
  ],
  "account_daily": {
-  "reach": 65,
-  "views": 77,
+  "reach": 67,
+  "views": 79,
   "profile_views": 4,
   "profile_links_taps": 0,
   "accounts_engaged": 0
