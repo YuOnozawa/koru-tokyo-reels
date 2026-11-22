@@ -1,0 +1,25 @@
+{
+ "id": "v_05_asakusa_sweets",
+ "note": "reel only (H5 stock video + AI voice). Facts: data/shops.json Asakusa Kokonoe (checked 2026-10-31), Umezono (Tabelog hours Nov 2026, house_rules 2026-11-14). Footage: Mixkit, similar scenes, not these shops.",
+ "hook": {
+  "q_jp": "浅草のおやつ、\n160円から",
+  "sub_en": "Asakusa sweet break, from ¥160",
+  "video": "4452",
+  "vstart": 1,
+  "vpos": 0.5,
+  "say": "A sweet break in Asakusa, from one hundred sixty yen.",
+  "beats": [
+   {"video": "45086", "vstart": 1, "vpos": 0.5, "jp": "九重：揚げまんじゅう160円〜", "sub_en": "Kokonoe · fried red-bean manju from ¥160 · daily 10–19",
+    "say": "Koko-no-eh. Fried red bean buns from one hundred sixty yen. Open every day, ten to seven."},
+   {"video": "46015", "vstart": 1, "vpos": 0.5, "jp": "梅園：あわぜんざい703円〜", "sub_en": "Umezono · since 1854 · awa zenzai from ¥703",
+    "say": "Oomay-zono, since eighteen fifty-four. Warm millet mochi with red bean paste, from seven hundred three yen."},
+   {"video": "46017", "vstart": 1, "vpos": 0.5, "jp": "梅園は現金のみ・予約なし", "sub_en": "Umezono: cash only, no bookings",
+    "say": "Oomay-zono is cash only, and you can't book. Just walk in."}
+  ],
+  "end_video": "4404",
+  "end_vstart": 1,
+  "end_jp": "保存して、浅草の前に。",
+  "end_en": "Save it for Asakusa",
+  "end_say": "Save this for Asakusa."
+ }
+}

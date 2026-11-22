@@ -218,3 +218,9 @@ V3['h6_01_ueno_xmas'] = {'speed': 1.25, 'beats': [
   {'say': "By the {Saigo|sɑigoʊ} statue, noon to eleven p.m., every day.", 'video': SV + '46122.mp4', 'vstart': 2, 'tag': 'HAKAMAGOSHI PLAZA', 'big': '12:00–23:00', 'hl': 0, 'chips': ['every day', 'free entry'], 'note': 'Footage: Mixkit, similar scenes, not this event'},
   {'say': "After, skewers at {Daitoryo|dɑitoʊɾjoʊ} by the station, until eleven thirty.", 'video': SV + '4109.mp4', 'vstart': 4, 'tag': 'THEN: MOTSUYAKI DAITORYO', 'big': 'TO 23:30', 'hl': 1, 'chips': ['by Ueno Station', 'cash only'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not this shop'},
 ]}
+# ---- 11/23 run: H4a arm (exact v1 format), 11/28 17:00. Facts: data/shops.json Kamiya Bar (checked 2026-10-31) ----
+V3['h4_04_kamiya'] = {'speed': 1.25, 'beats': [
+  {'say': "A bar by {Asakusa|ɑsɑkusɑ} Station, open since eighteen eighty.", 'video': SV + '4109.mp4', 'vstart': 2, 'tag': 'ASAKUSA · SINCE 1880', 'big': 'KAMIYA\nBAR', 'hl': 1, 'size': 180, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not this bar'},
+  {'say': "Order {Denki Bran|dɛnki bɹæn}, the house brandy liqueur. Four hundred yen.", 'video': SV + '51241.mp4', 'vstart': 1, 'tag': '1 · DENKI BRAN', 'big': '¥400', 'hl': 0, 'size': 200, 'chips': ['house liqueur', 'since 1880'], 'note': 'Footage: Mixkit, similar scenes, not this bar'},
+  {'say': "Buy tickets at the register first. Cash only. Closed Tuesdays.", 'video': SV + '4451.mp4', 'vstart': 2, 'tag': '2 · HOW IT WORKS', 'big': 'TICKETS\nFIRST', 'hl': 1, 'chips': ['cash only', 'closed Tue'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not this bar'},
+]}
