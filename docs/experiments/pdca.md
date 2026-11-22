@@ -208,3 +208,10 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Made 11/27 (reel only): r_h4_01 seat charge (Akatsuka ¥450 vs Torahachi none), r_h4_02 closed Mondays (50/310) in the exact v1 format
   (tools/app_reel/compose_v3.py: stock video + AI voice + big text + chips, 7–11 s). If this format still gets ~100, the cause is our new
   formats; if it doesn't, the account/time changed (H4).
+
+## 2026-11-23 08:00 production run
+- summary.md (11/22 19:50 UTC): v1 91/98 batch, median 110; music arms median 3–32; H1 r_x_08 17. Followers 18. Early: r_c_17 Asakusa tempura 27 at 12 h (music arm control).
+- Today the T2 arm starts: r_h4_01 seat charge 12:00, r_h4_03 Kuramae 17:00 (exact v1 format). First real read of "is it the format or the account?" = 11/24 evening.
+- Made 11/28 (reel only, both inside running arms, one change each): r_v_05 Asakusa sweets (H5: stock video + AI voice; concrete dish + price,
+  Kokonoe ¥160 / Umezono ¥703), r_h4_04 Kamiya Bar (H4a v1 format; Denki Bran ¥400, buy tickets first, cash only). H5 n=5, H4a n=5 (incl. r_h6_01).
+- Stock: pulled the other 22 Mixkit clips from the stock-video release (autumn leaves, tea, sushi-making, ramen) — no beef/sukiyaki footage, so wagyu topics wait.
