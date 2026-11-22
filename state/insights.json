@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-21T19:27:42.847313+00:00",
+ "fetched_at": "2026-11-22T07:04:28.168671+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 143,
+  "media_count": 145,
   "id": "28241506535529259",
   "followers_count": 18,
-  "follows_count": 177
+  "follows_count": 180
  },
  "media": [
+  {
+   "id": "18023734598949942",
+   "permalink": "https://www.instagram.com/reel/DgB54v9h4xd/",
+   "timestamp": "2026-11-22T04:04:51+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Which tempura in Asakusa? 👇\n\nNo.17 · Asakusa tempura: two ol",
+   "reach": 6,
+   "views": 6,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 972,
+   "ig_reels_video_view_total_time": 5835
+  },
+  {
+   "id": "18101702135099957",
+   "permalink": "https://www.instagram.com/p/DgBlY--nKYw/",
+   "timestamp": "2026-11-22T01:05:29+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "Dinner after 10pm in East Tokyo 🌙 Five still serving\n\n① Ajib",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
   {
    "id": "18427367497156694",
    "permalink": "https://www.instagram.com/p/DgAMJUiFMP2/",
@@ -32,15 +64,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A Fukuoka specialty, in Okinawa? 👇\n\nExtra from Okinawa: Haka",
-   "reach": 10,
-   "views": 10,
+   "reach": 17,
+   "views": 17,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2756,
-   "ig_reels_video_view_total_time": 24806
+   "ig_reels_avg_watch_time": 3569,
+   "ig_reels_video_view_total_time": 57118
   },
   {
    "id": "18102627449081559",
@@ -49,15 +81,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A slow day in Ueno: where to eat? 👇\n\nUeno, slowly: a no-fail",
-   "reach": 5,
-   "views": 6,
+   "reach": 11,
+   "views": 12,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1252,
-   "ig_reels_video_view_total_time": 7516
+   "ig_reels_avg_watch_time": 1065,
+   "ig_reels_video_view_total_time": 12788
   },
   {
    "id": "17973056871016533",
@@ -386,8 +418,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "A Saturday eating in Kita-Senju 🍡 Four stops, about 10 minut",
-   "reach": 3,
-   "views": 6,
+   "reach": 4,
+   "views": 8,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -721,15 +753,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Where to eat after 10pm near Tokyo Station? Kanda 🌙 4 places",
-   "reach": 104,
-   "views": 111,
+   "reach": 105,
+   "views": 112,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5368,
-   "ig_reels_video_view_total_time": 585215
+   "ig_reels_avg_watch_time": 5330,
+   "ig_reels_video_view_total_time": 586300
   },
   {
    "id": "18098272352655337",
@@ -781,46 +813,12 @@
    "total_interactions": 1,
    "ig_reels_avg_watch_time": 3488,
    "ig_reels_video_view_total_time": 456935
-  },
-  {
-   "id": "18134451166667189",
-   "permalink": "https://www.instagram.com/reel/DfjAWr6hDoE/",
-   "timestamp": "2026-11-10T04:04:55+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Ramen open until 5:30am in Tokyo? 🌙 Garyu Tantanmen, Yushima",
-   "reach": 126,
-   "views": 159,
-   "likes": 2,
-   "comments": 0,
-   "saved": 0,
-   "shares": 2,
-   "total_interactions": 4,
-   "ig_reels_avg_watch_time": 3605,
-   "ig_reels_video_view_total_time": 457937
-  },
-  {
-   "id": "18170426356487110",
-   "permalink": "https://www.instagram.com/reel/DfiXNCvoLjd/",
-   "timestamp": "2026-11-09T22:05:19+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Where to eat ramen after 10pm in Akihabara? 🍜 3 counters, ch",
-   "reach": 124,
-   "views": 132,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4282,
-   "ig_reels_video_view_total_time": 535362
   }
  ],
  "account_daily": {
-  "reach": 27,
-  "views": 40,
-  "profile_views": 10,
+  "reach": 44,
+  "views": 66,
+  "profile_views": 11,
   "profile_links_taps": 0,
   "accounts_engaged": 1
  }
