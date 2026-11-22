@@ -68,14 +68,15 @@ os.makedirs('docs/pdca', exist_ok=True)
 with open('docs/pdca/dataset.csv', 'w', newline='') as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 
-out = ['# PDCA summary (auto)', '', f'Updated {now:%Y-%m-%d %H:%M} UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.', '',
-       '| style | n | median reach 24h | hit rate | median watch (s) |', '|---|---|---|---|---|']
+out = ['# PDCA summary (auto)', '', f'Updated {now:%Y-%m-%d %H:%M} UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.', '',
+       '| style | n | median reach 24h | batch ≥80 | hit ≥1,000 | best reach | median watch (s) |', '|---|---|---|---|---|---|---|']
 by = {}
 for r in rows:
     if r['reach24'] not in ('', None): by.setdefault(r['style'], []).append(r)
 for k, v in sorted(by.items()):
     re = [x['reach24'] for x in v]; wa = [x['watch_s'] for x in v if x['watch_s'] != '']
-    out.append(f"| {k} | {len(v)} | {st.median(re):.0f} | {sum(x >= 80 for x in re)}/{len(v)} | {round(st.median(wa),1) if wa else '-'} |")
+    la = [max(x['reach24'], x['reach_last'] or 0) for x in v]
+    out.append(f"| {k} | {len(v)} | {st.median(re):.0f} | {sum(x >= 80 for x in re)}/{len(v)} | {sum(x >= 1000 for x in la)}/{len(v)} | {max(la)} | {round(st.median(wa),1) if wa else '-'} |")
 pend = [r for r in rows if r['reach24'] == '']
 out += ['', 'Pending (<20 h old): ' + ', '.join(f"{r['id']} {r['reach_last']}@{r['age_last']}h" for r in pend)]
 open('docs/pdca/summary.md', 'w').write('\n'.join(out) + '\n')

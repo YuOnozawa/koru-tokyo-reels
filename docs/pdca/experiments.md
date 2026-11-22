@@ -2,7 +2,9 @@
 
 Loop: find what hits → work out why → test one change at a time → keep the winner → repeat.
 Numbers: docs/pdca/summary.md and dataset.csv (auto every 6 h). Reach is compared at 24 h.
-Decision rule: an arm needs n ≥ 3 reels; "works" = median reach24 ≥ 80 (the old test-batch floor) or ≥ 2× the control.
+Terms (Yu, 11/22): **batch** = reach24 ≥ 80 (passed the ~100 test batch, stage 1 only). **Hit** = reach ≥ 1,000 (2,000 is a clear hit). **Goal** = 10,000.
+No reel has ever been a hit: all-time best is c_08_late 325 (120 reels read). v1's "91/98" is the batch rate, not a hit rate.
+Decision rule: an arm needs n ≥ 3 reels; "recovers stage 1" = median reach24 ≥ 80 or ≥ 2× the control. "Works" (stage 2) = at least one reel in the arm ≥ 1,000.
 
 ## What we know (11/20 retro)
 - Stage 1 — getting the test batch: 70 of 75 reels from 10/21–11/11 reached ~100 non-followers in 24 h (median 108).
@@ -35,7 +37,7 @@ Patterns: (1) every top reel is real moving video, none are still photos; (2) th
 
 ## Weekly retro (11/22, week 11/16–11/22)
 - Reels posted: 14 (12 read at 24 h; r_c_17 / r_c_09 pending). Carousels: 9 (all 0–2 reach).
-- Reach24 median **10**, hit rate (≥80) **1/12**. Followers 14 → **18** (+4; the rise is from 11/20, when the follow runs came back).
+- Reach24 median **10**, batch (≥80) **1/12**, hits (≥1,000) **0**. Followers 14 → **18** (+4; the rise is from 11/20, when the follow runs came back).
 - Top 3: r_x_04_kitasenju 110 (Yu's own Saturday, his photos, one named neighborhood), r_c_08_eel 69 ("where to book eel", concrete & bookable), r_c_10_jimbocho 18.
 - Bottom 3: r_c_14_mornings 3 (watch 7.2 s but no batch), r_x_07_naha_miso 3 (Okinawa, stills + music), r_c_12_asakusa 5 (generic "5 no-fail stops" in the most-covered area).
 - Why (guess): both reels that got a batch are from 11/16 and are specific (one person's day / one dish you book); generic lists and Okinawa extras stall at <10.
@@ -43,13 +45,15 @@ Patterns: (1) every top reel is real moving video, none are still photos; (2) th
 - Benchmarks: not refreshed this week (no Chrome on this run).
 
 ### Winning pattern (as of 11/22)
-1. The only proven format is still v1: AI voice, no music, moving stock video, 6–11 s (91/98 hits). Every music + stills reel since 11/12: median ~8.
+0. Nothing has hit yet (best ever 325). Below is only what gets past the test batch — the 1,000+ pattern is still unknown.
+1. The only format that reliably passes the batch is v1: AI voice, no music, moving stock video, 6–11 s (91/98 batch, max 325). Every music + stills reel since 11/12: median ~8.
 2. Within the music era, what still lifts: Yu's own day in one named neighborhood (110) and a concrete, bookable dish (69) — not "5 places in Asakusa".
 3. Voice is helping but stills are not enough: stills + voice 17 vs stills + music 3.
 
 ### Next week (decide by 11/29) — only these two
+Both only fix stage 1 (getting the batch back). Stage 2 (1,000 → 10,000) needs its own test once the batch is back: H3 watch time + benchmark patterns (real video, ≤6-word hook, list in caption, timely topic).
 - **T1 = H5 (visual only):** stock video + AI voice (r_v_01–04, 11/24–26) vs stills + AI voice (H1: r_x_08/09/10). Same voice, change = video vs photo.
-- **T2 = H4a (format reproduction):** exact v1 compose (r_h4_01/02, 11/27). If it hits → the format, not account age, is the cause (closes H4).
+- **T2 = H4a (format reproduction):** exact v1 compose (r_h4_01/02, 11/27). If it passes the batch → the format, not account age, is the cause (closes H4).
 - Frozen until T1/T2 read: H3, H6, H7. No new style changes on the music arm (r_c_* keep running as the control).
 
 ## Hypotheses (ranked)
