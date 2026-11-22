@@ -30,13 +30,17 @@ Patterns: (1) every top reel is real moving video, none are still photos; (2) th
   With the full history: v1 (AI voice, no music; stock video or photos) 91/98 hit, median 110. Every music reel since 11/12: 2/18.
   → The common factor of the drop is music + stills, not text. Next reads: H1 (voice on stills) 11/22, H5 (voice on video) 11/25.
 
+- 11/22 18:00 read: H1 arm r_x_08 (Yu photos + AI voice, no music) = 17 at 24 h. Followers 15 → 18 (follow runs back since 11/20).
+  Still pending: H5 (stock video + voice) 11/25–26, H4a (exact v1 format) 11/27–28.
+
 ## Hypotheses (ranked)
 | # | Hypothesis | Test | Status |
 |---|---|---|---|
-| H1 | Voice narration (original audio) instead of the shared music track brings back the test batch | Same clean photo reels, narration instead of music: r_x_08 (11/21), r_x_09, r_x_10. Control r_x_07 (music). | running from 11/21 |
+| H1 | Voice narration (original audio) instead of the shared music track brings back the test batch | Same clean photo reels, narration instead of music: r_x_08 (11/21), r_x_09, r_x_10. Control r_x_07 (music). | **first read 11/22: r_x_08 = 17 at 24 h** (vs r_x_07 3, music reels median 8). Better, not a hit. r_x_09/10 read 11/25–26 |
 | H2 | Text-led visuals block recommendation | v4 clean (text <10%) + music: r_x_07 (11/19) | **not supported (11/20): reach24 = 3.** Less text alone does not bring the batch back |
 | H3 | Expansion past ~100 needs watch ≥ 6 s; late-night and "money/etiquette hack" topics hold attention | Next 3 voice reels: one late-night, one hack, one normal; compare watch and reach | queued |
 | H5 | Real moving video beats still photos (all benchmarks are video) | Free stock video clips (Mixkit/Pexels, no credit needed — Yu OK 11/20) + Yu's clips when he has them, same voice; vs H1 stills+voice | next after H1 |
 | H6 | Timely, actionable topics get sends: illuminations near our areas, year-end/New Year hours of our shops (Dec 29–Jan 3) | 2 timely issues in Dec; metric = shares per reach | plan for Dec 1–15 |
 | H4a | Exact v1 format (compose_v3: stock video + AI voice + big text + chips, 6–11 s) still works today | r_h4_01 seat charge, r_h4_02 closed Mondays (11/27). v1 had s_03_sunday 294? / s_05_cash ~100 on similar topics | running from 11/27 |
+| H7 | Volume/duplication: 4 posts a day, each issue posted twice (reel + carousel of the same pages), drags the account | If H4a/H5 hit while hook reels keep failing, cut to 1–2 reels a day and drop the paired carousel | idea |
 | H4 | Time (new-account boost ended) — not format | If H1 and H2 both fail, rerun one old v1 reel style (render_kit) with a new topic | backup |

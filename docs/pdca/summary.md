@@ -4,12 +4,12 @@ Updated 2026-11-22 09:01 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reac
 
 | style | n | median reach 24h | hit rate | median watch (s) |
 |---|---|---|---|---|
-| carousel | 21 | 1 | 0/21 | - |
+| carousel | 22 | 1 | 0/22 | - |
 | v1 voice narration, no music | 98 | 110 | 91/98 | 3.7 |
 | v2 page-flip + music | 6 | 13 | 0/6 | 2.4 |
 | v3 hook + music, Yu photo | 6 | 32 | 2/6 | 3.0 |
 | v3 hook + music, type only | 8 | 8 | 0/8 | 2.2 |
-| v4 clean photo + AI voice | 1 | 17 | 0/1 | 3.6 |
+| v4 clean photo + AI voice | 1 | 17 | 0/1 | 3.5 |
 | v4 clean photo + music | 1 | 3 | 0/1 | 4.5 |
 
-Pending (<20 h old): ? None@972h, c_13_ueno 0@19h, c_09_late 0@6h, r_c_17_asakusa_tempura 6@3h
+Pending (<20 h old): ? None@972h, c_09_late 0@8h, r_c_17_asakusa_tempura 8@5h, r_c_09_late 0@0h
