@@ -207,3 +207,8 @@ V3['h4_02_monday'] = {'speed': 1.25, 'beats': [
   {'say': "Fifty of the three hundred ten places I track in east Tokyo close on Mondays.", 'video': SV + '4451.mp4', 'vstart': 2, 'big': '50 OF 310\nCLOSED MON', 'hl': 1, 'size': 160, 'min': 2.4, 'note': 'From 310 East Tokyo places I track · Footage: Mixkit'},
   {'say': "Check the closed day before you go.", 'video': SV + '20085.mp4', 'vstart': 1, 'big': 'CHECK\nFIRST', 'hl': 0, 'chips': ['定休日は？', 'closed today?'], 'min': 1.8, 'note': 'Footage: Mixkit'},
 ]}
+V3['h4_03_kuramae'] = {'speed': 1.25, 'beats': [
+  {'say': "Sweets near {Asakusa|ɑsɑkusɑ}? {Kuramae|kuɾɑmɑɛ} is fifteen minutes' walk.", 'video': SV + '4437.mp4', 'vstart': 2, 'tag': 'NEAR ASAKUSA', 'big': 'KURAMAE\nSWEETS', 'hl': 1, 'size': 170, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "Dandelion Chocolate. Chocolate drinks, open every day, ten to seven.", 'video': SV + '48686.mp4', 'vstart': 1, 'tag': '1 · DANDELION CHOCOLATE', 'big': 'DAILY\n10–19', 'hl': 0, 'chips': ['chocolate drinks', 'cards OK'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Clair de Lune|klɛɹ də lun}. Cakes, and a cafe from nine a.m.", 'video': SV + '45086.mp4', 'vstart': 1, 'tag': '2 · CLAIR DE LUNE', 'big': 'CAKES\nFROM 9AM', 'hl': 1, 'chips': ['cafe to 18:00', 'VISA, JCB, IC'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}
