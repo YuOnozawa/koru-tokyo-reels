@@ -1441,6 +1441,13 @@
    "liked": true,
    "at": "2026-11-21T21:35Z",
    "source": "Akihabara recent"
+  },
+  {
+   "user": "shin_momc",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-22T12:35Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1576,7 +1583,8 @@
   "thefangfam",
   "clarecomino",
   "yanni.hew",
-  "mayeeeahh"
+  "mayeeeahh",
+  "jeanniebean1"
  ],
  "already_following": [
   "reefalon1",
@@ -1612,7 +1620,8 @@
   "2026-11-20 21:20 JST run (Windows): 8 follows+likes (Ueno Park, Akihabara), 1 comment. JST 11/20 totals: 15 follows, 3 comments. ithinkvicdoesthings replied to our otoshi comment (no fact to add; not answered). No keyword comments, no DM requests. Warning check: \"コメントは制限されています\" on a post is not an account warning; regex now uses アクションがブロック/後でもう一度実行/Try Again Later/ご利用を制限.",
   "2026-11-21 06:20 JST run (Windows): 2 follows+likes, 1 comment. Few new candidates (location recent mostly already seen; Sensoji/Ameyoko/Yanaka/Shibuya/Golden Gai returned none in 30 h window). ronakbhaiyajee followed back 8 h after our comment (comment → follow-back).",
   "2026-11-21 21:20 JST run (Windows): 3 follows+likes, 0 comments (1 private, 2 over 10k skipped). Follow-backs since 11/20: ronakbhaiyajee (after comment), jay_2329, diciassette_vixi (followed + liked 2 reels and 2 posts).",
-  "2026-11-22 06:20 JST run (Windows): 3 follows+likes, 1 comment; skipped chillandpug (lofi/AI-style account). terrinauh followed back."
+  "2026-11-22 06:20 JST run (Windows): 3 follows+likes, 1 comment; skipped chillandpug (lofi/AI-style account). terrinauh followed back.",
+  "2026-11-22 21:20 JST run (Windows): 1 follow+like, 1 comment. Few new candidates (Sunday night). shiv_anshjain2025 liked our comment."
  ],
  "dm_log": [
   {
@@ -1693,7 +1702,8 @@
   },
   "thehybridbro",
   "everyone_coll",
-  "chillandpug"
+  "chillandpug",
+  "hillaryangmunoz"
  ],
  "comment_queue": [
   {
@@ -1896,6 +1906,13 @@
    "text": "Early Christmas in Ueno looks so fun! For a cheap snack nearby, Niku no Oyama (2 min from Ueno Station) sells menchi-katsu from ¥150, open until 22:00 on Sundays.",
    "at": "2026-11-21T21:35Z",
    "basis": "shops.json Niku no Oyama (Sun/hol 11:00-22:00)"
+  },
+  {
+   "user": "shin_momc",
+   "post": "https://www.instagram.com/p/DgCp4wbFPTO/",
+   "text": "Lovely postcards from Ueno! If you explore again around lunch, Tonkatsu Yamabe is 1 min from Ueno-Hirokoji Station: pork loin cutlet sets, open daily 11:00–15:00 and 17:00–21:00.",
+   "at": "2026-11-22T12:35Z",
+   "basis": "shops.json Tonkatsu Yamabe Ueno"
   }
  ]
 }
