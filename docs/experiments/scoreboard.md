@@ -43,7 +43,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 75.0 | 22% | 0.0 | 0.0 | 0.0 |
+| A | 5 | 75.6 | 25% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -62,7 +62,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
 | A | 21 | 12.7 | 15% | 0.0 | 0.0 | 0.1 |
-| B | 20 | 15.6 | 19% | 0.6 | 0.0 | 0.1 |
+| B | 20 | 15.7 | 20% | 0.6 | 0.0 | 0.1 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -73,7 +73,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 |---|---|---|---|---|---|---|
 | clean + AI voice, no music (H1) | 1 | 18.0 | 18% | 0.0 | 0.0 | 0.0 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
-| hook reel | 16 | 28.1 | 17% | 0.8 | 0.0 | 0.0 |
+| hook reel | 16 | 28.3 | 18% | 0.8 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
