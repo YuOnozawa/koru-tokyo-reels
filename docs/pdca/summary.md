@@ -1,6 +1,6 @@
 # PDCA summary (auto)
 
-Updated 2026-11-22 16:09 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.
+Updated 2026-11-22 16:10 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reach ≥ 80.
 
 | style | n | median reach 24h | hit rate | median watch (s) |
 |---|---|---|---|---|
@@ -12,4 +12,4 @@ Updated 2026-11-22 16:09 UTC. Reach at 24 h (first snapshot ≥20 h). Hit = reac
 | v4 clean photo + AI voice | 1 | 17 | 0/1 | 3.5 |
 | v4 clean photo + music | 1 | 3 | 0/1 | 4.5 |
 
-Pending (<20 h old): ? None@972h, c_09_late 0@14h, r_c_17_asakusa_tempura 25@11h, r_c_09_late 9@6h, c_17_asakusa_tempura 0@3h
+Pending (<20 h old): ? None@972h, c_09_late 0@15h, r_c_17_asakusa_tempura 27@12h, r_c_09_late 10@7h, c_17_asakusa_tempura 0@4h
