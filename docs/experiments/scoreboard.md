@@ -7,7 +7,7 @@ Metric: **comp** · A = v3 stock footage · B = v2 text cards · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 3 | 125.0 | 30% | 0.0 | 0.0 | 0.0 |
+| A | 2 | 129.0 | 35% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -33,7 +33,7 @@ Metric: **com** · A = comment→DM map · B = link in bio · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 111.0 | 25% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 105.0 | 31% | 0.0 | 0.0 | 0.0 |
 | B | 1 | 153.0 | 38% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -43,7 +43,7 @@ Metric: **ss** · A = open-at-this-hour reels · B = other reels · status: runn
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 5 | 75.6 | 25% | 0.0 | 0.0 | 0.0 |
+| A | 4 | 66.8 | 26% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -52,7 +52,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 23 | 1.8 | – | 0.0 | 0.0 | 0.1 |
+| carousel | 24 | 1.8 | – | 0.0 | 0.0 | 0.1 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -61,8 +61,8 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 21 | 12.7 | 15% | 0.0 | 0.0 | 0.1 |
-| B | 20 | 15.7 | 20% | 0.6 | 0.0 | 0.1 |
+| A | 22 | 12.9 | 16% | 0.0 | 0.0 | 0.1 |
+| B | 20 | 16.0 | 20% | 0.6 | 0.0 | 0.1 |
 
 **Suggested verdict:** B wins (+inf%)
 
@@ -73,7 +73,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 |---|---|---|---|---|---|---|
 | clean + AI voice, no music (H1) | 1 | 18.0 | 18% | 0.0 | 0.0 | 0.0 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
-| hook reel | 16 | 28.3 | 18% | 0.8 | 0.0 | 0.0 |
+| hook reel | 16 | 29.7 | 19% | 0.8 | 0.0 | 0.0 |
 | magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -100,7 +100,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| B | 3 | 125.0 | 30% | 0.0 | 0.0 | 0.0 |
+| B | 2 | 129.0 | 35% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -133,7 +133,7 @@ Metric: **reach** · A = 00-13 JST · B = 16-23 JST · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 2 | 135.0 | 29% | 0.0 | 0.0 | 0.0 |
+| A | 1 | 153.0 | 38% | 0.0 | 0.0 | 0.0 |
 | B | 1 | 105.0 | 31% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
