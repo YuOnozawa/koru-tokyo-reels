@@ -212,3 +212,9 @@ V3['h4_03_kuramae'] = {'speed': 1.25, 'beats': [
   {'say': "Dandelion Chocolate. Chocolate drinks, open every day, ten to seven.", 'video': SV + '48686.mp4', 'vstart': 1, 'tag': '1 · DANDELION CHOCOLATE', 'big': 'DAILY\n10–19', 'hl': 0, 'chips': ['chocolate drinks', 'cards OK'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
   {'say': "{Clair de Lune|klɛɹ də lun}. Cakes, and a cafe from nine a.m.", 'video': SV + '45086.mp4', 'vstart': 1, 'tag': '2 · CLAIR DE LUNE', 'big': 'CAKES\nFROM 9AM', 'hl': 1, 'chips': ['cafe to 18:00', 'VISA, JCB, IC'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
 ]}
+# ---- 11/23: H6 timely (Ueno Christmas Advent 2026: Nov 6–Dec 25, free; enjoytokyo / metropolis) ----
+V3['h6_01_ueno_xmas'] = {'speed': 1.25, 'beats': [
+  {'say': "Ueno Park has a free Christmas market until December twenty-fifth.", 'video': SV + '4447.mp4', 'vstart': 3, 'tag': 'UENO PARK · FREE', 'big': 'XMAS MARKET\nTO DEC 25', 'hl': 1, 'size': 150, 'min': 2.4, 'note': 'Footage: Mixkit, similar scenes, not this event'},
+  {'say': "By the {Saigo|sɑigoʊ} statue, noon to eleven p.m., every day.", 'video': SV + '46122.mp4', 'vstart': 2, 'tag': 'HAKAMAGOSHI PLAZA', 'big': '12:00–23:00', 'hl': 0, 'chips': ['every day', 'free entry'], 'note': 'Footage: Mixkit, similar scenes, not this event'},
+  {'say': "After, skewers at {Daitoryo|dɑitoʊɾjoʊ} by the station, until eleven thirty.", 'video': SV + '4109.mp4', 'vstart': 4, 'tag': 'THEN: MOTSUYAKI DAITORYO', 'big': 'TO 23:30', 'hl': 1, 'chips': ['by Ueno Station', 'cash only'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not this shop'},
+]}
