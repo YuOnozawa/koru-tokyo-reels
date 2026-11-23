@@ -1497,6 +1497,27 @@
    "liked": true,
    "at": "2026-11-23T12:35Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "jackyyoucy",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-23T21:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "charlcipres",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-23T21:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "sheetalvgore",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-23T21:40Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1673,7 +1694,8 @@
   "2026-11-22 06:20 JST run (Windows): 3 follows+likes, 1 comment; skipped chillandpug (lofi/AI-style account). terrinauh followed back.",
   "2026-11-22 21:20 JST run (Windows): 1 follow+like, 1 comment. Few new candidates (Sunday night). shiv_anshjain2025 liked our comment.",
   "2026-11-23 06:20 JST run (Windows): 4 follows+likes, 1 comment. Candidate B (tokyocheapo commenters) tried: latest 2 posts had only a few comments, none planning a trip -> 0 follows; low yield, keep location scan as main source. Location pks: Ueno Park 28296527, Akihabara 412398549294497 (POST /api/v1/locations/<pk>/sections/ body tab=recent).",
-  "2026-11-23 21:20 JST run (Mac Chrome back): 3 follows+likes, 1 comment; crazydudepaul skipped (19k). shin_momc replied to our comment (\"I will check next time I come!\"). No keyword comments, 0 DM requests."
+  "2026-11-23 21:20 JST run (Mac Chrome back): 3 follows+likes, 1 comment; crazydudepaul skipped (19k). shin_momc replied to our comment (\"I will check next time I come!\"). No keyword comments, 0 DM requests.",
+  "2026-11-24 06:20 JST run (Mac): 3 follows+likes, 1 comment; mr_khleee skipped (business). ancocost replied thanks to our Shin-Tagoto comment. 0 DM requests, no keyword comments."
  ],
  "dm_log": [
   {
@@ -1755,7 +1777,8 @@
   "thehybridbro",
   "everyone_coll",
   "chillandpug",
-  "hillaryangmunoz"
+  "hillaryangmunoz",
+  "mr_khleee"
  ],
  "comment_queue": [
   {
@@ -1979,6 +2002,13 @@
    "text": "Great shot of the tracks! If you're back in Akihabara and hungry, Shin-Tagoto (2 min from the station) serves soba and steak curry, open daily 6:30–23:00.",
    "at": "2026-11-23T12:35Z",
    "basis": "shops.json Shin-Tagoto Akihabara (daily 6:30-23:00)"
+  },
+  {
+   "user": "jackyyoucy",
+   "post": "https://www.instagram.com/p/DgFuttwk4Fr/",
+   "text": "Day 4 looks lovely! If you want lunch nearby, Izuei Honten (3 min from Ueno-Hirokoji Station) serves unaju, eel over rice, from ¥3,630. Open 11:00–21:00.",
+   "at": "2026-11-23T21:40Z",
+   "basis": "shops.json Izuei Honten (11:00-21:00, unaju from 3630)"
   }
  ]
 }
