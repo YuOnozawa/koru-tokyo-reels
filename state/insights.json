@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T15:04:29.711243+00:00",
+ "fetched_at": "2026-11-23T23:00:58.197340+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -7,7 +7,7 @@
   "media_count": 151,
   "id": "28241506535529259",
   "followers_count": 18,
-  "follows_count": 188
+  "follows_count": 191
  },
  "media": [
   {
@@ -32,15 +32,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Sweets near Asakusa? Kuramae is 15 minutes' walk 🍫 Save this",
-   "reach": 6,
-   "views": 7,
+   "reach": 8,
+   "views": 9,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3246,
-   "ig_reels_video_view_total_time": 19480
+   "ig_reels_avg_watch_time": 2642,
+   "ig_reels_video_view_total_time": 21141
   },
   {
    "id": "18123289199051124",
@@ -49,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Charged for a seat at a Tokyo izakaya? 🍶\n\n· Akatsuka (Akihab",
-   "reach": 109,
-   "views": 133,
+   "reach": 112,
+   "views": 137,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4464,
-   "ig_reels_video_view_total_time": 491087
+   "ig_reels_avg_watch_time": 4403,
+   "ig_reels_video_view_total_time": 497617
   },
   {
    "id": "17911311240333665",
@@ -812,8 +812,8 @@
   }
  ],
  "account_daily": {
-  "reach": 175,
-  "views": 219,
+  "reach": 180,
+  "views": 226,
   "profile_views": 5,
   "profile_links_taps": 0,
   "accounts_engaged": 1

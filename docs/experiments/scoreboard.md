@@ -72,7 +72,7 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
 | hook reel | 16 | 31.6 | 19% | 0.8 | 0.0 | 0.0 |
 | magazine reel | 5 | 21.6 | 7% | 0.0 | 0.0 | 0.4 |
-| v1 replica: stock video + AI voice + big text, short (H4) | 2 | 57.5 | 37% | 8.3 | 0.0 | 0.0 |
+| v1 replica: stock video + AI voice + big text, short (H4) | 2 | 60.0 | 34% | 6.2 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
