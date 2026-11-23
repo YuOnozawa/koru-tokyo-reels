@@ -1,15 +1,47 @@
 {
- "fetched_at": "2026-11-23T07:51:51.698966+00:00",
+ "fetched_at": "2026-11-23T15:04:29.711243+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 149,
+  "media_count": 151,
   "id": "28241506535529259",
   "followers_count": 18,
-  "follows_count": 185
+  "follows_count": 188
  },
  "media": [
+  {
+   "id": "17956229841342946",
+   "permalink": "https://www.instagram.com/p/DgFV0x9FjR9/",
+   "timestamp": "2026-11-23T12:06:26+0000",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "caption_head": "No.18 · Akihabara after work: two izakaya 🍶\n\n1 · Akatsuka (s",
+   "reach": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "id": "18083193212718743",
+   "permalink": "https://www.instagram.com/reel/DgFBKFlCvsC/",
+   "timestamp": "2026-11-23T09:06:13+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Sweets near Asakusa? Kuramae is 15 minutes' walk 🍫 Save this",
+   "reach": 6,
+   "views": 7,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3246,
+   "ig_reels_video_view_total_time": 19480
+  },
   {
    "id": "18123289199051124",
    "permalink": "https://www.instagram.com/reel/DgEexzwB6U_/",
@@ -17,15 +49,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Charged for a seat at a Tokyo izakaya? 🍶\n\n· Akatsuka (Akihab",
-   "reach": 106,
-   "views": 130,
+   "reach": 109,
+   "views": 133,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4451,
-   "ig_reels_video_view_total_time": 476265
+   "ig_reels_avg_watch_time": 4464,
+   "ig_reels_video_view_total_time": 491087
   },
   {
    "id": "17911311240333665",
@@ -777,45 +809,13 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
-  },
-  {
-   "id": "18119335964589197",
-   "permalink": "https://www.instagram.com/p/Dfoer_nESCD/",
-   "timestamp": "2026-11-12T07:05:45+0000",
-   "media_product_type": "FEED",
-   "media_type": "CAROUSEL_ALBUM",
-   "caption_head": "Hello from Akihabara 👋 with KORU is a food notebook for trav",
-   "reach": 4,
-   "views": 16,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0
-  },
-  {
-   "id": "18150279943564056",
-   "permalink": "https://www.instagram.com/reel/DfoJ_ZmqtTY/",
-   "timestamp": "2026-11-12T04:05:33+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "A seafood night in Akihabara 🐟 Domannaka Akihabara Bettei, 2",
-   "reach": 16,
-   "views": 20,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3838,
-   "ig_reels_video_view_total_time": 69086
   }
  ],
  "account_daily": {
-  "reach": 199,
-  "views": 249,
-  "profile_views": 7,
+  "reach": 175,
+  "views": 219,
+  "profile_views": 5,
   "profile_links_taps": 0,
-  "accounts_engaged": 0
+  "accounts_engaged": 1
  }
 }

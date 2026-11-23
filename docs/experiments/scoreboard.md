@@ -49,7 +49,7 @@ Metric: **reach** · A = carousel · B = reel (old template) · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| carousel | 25 | 1.8 | – | 0.0 | 0.0 | 0.1 |
+| carousel | 25 | 1.6 | – | 0.0 | 0.0 | 0.1 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -58,7 +58,7 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 22 | 14.0 | 17% | 0.0 | 0.0 | 0.1 |
+| A | 22 | 13.3 | 17% | 0.0 | 0.0 | 0.1 |
 | B | 21 | 15.5 | 20% | 0.6 | 0.0 | 0.1 |
 
 **Suggested verdict:** B wins (+inf%)
@@ -71,8 +71,8 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 | clean + AI voice, no music (H1) | 1 | 18.0 | 18% | 0.0 | 0.0 | 0.0 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
 | hook reel | 16 | 31.6 | 19% | 0.8 | 0.0 | 0.0 |
-| magazine reel | 6 | 20.7 | 8% | 0.0 | 0.0 | 0.3 |
-| v1 replica: stock video + AI voice + big text, short (H4) | 1 | 106.0 | 42% | 0.0 | 0.0 | 0.0 |
+| magazine reel | 5 | 21.6 | 7% | 0.0 | 0.0 | 0.4 |
+| v1 replica: stock video + AI voice + big text, short (H4) | 2 | 57.5 | 37% | 8.3 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
