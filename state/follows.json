@@ -1476,6 +1476,27 @@
    "liked": true,
    "at": "2026-11-22T21:50Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "bastienquotidien",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-23T12:35Z",
+   "source": "Yanaka recent"
+  },
+  {
+   "user": "ancocost",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-23T12:35Z",
+   "source": "Akihabara recent"
+  },
+  {
+   "user": "nancy.gi__",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-23T12:35Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1534,7 +1555,8 @@
    "at": "2026-11-14T12:40Z"
   },
   "kevlinhappy",
-  "lisacirque"
+  "lisacirque",
+  "crazydudepaul"
  ],
  "skipped_private": [
   "julie_wilson89",
@@ -1650,7 +1672,8 @@
   "2026-11-21 21:20 JST run (Windows): 3 follows+likes, 0 comments (1 private, 2 over 10k skipped). Follow-backs since 11/20: ronakbhaiyajee (after comment), jay_2329, diciassette_vixi (followed + liked 2 reels and 2 posts).",
   "2026-11-22 06:20 JST run (Windows): 3 follows+likes, 1 comment; skipped chillandpug (lofi/AI-style account). terrinauh followed back.",
   "2026-11-22 21:20 JST run (Windows): 1 follow+like, 1 comment. Few new candidates (Sunday night). shiv_anshjain2025 liked our comment.",
-  "2026-11-23 06:20 JST run (Windows): 4 follows+likes, 1 comment. Candidate B (tokyocheapo commenters) tried: latest 2 posts had only a few comments, none planning a trip -> 0 follows; low yield, keep location scan as main source. Location pks: Ueno Park 28296527, Akihabara 412398549294497 (POST /api/v1/locations/<pk>/sections/ body tab=recent)."
+  "2026-11-23 06:20 JST run (Windows): 4 follows+likes, 1 comment. Candidate B (tokyocheapo commenters) tried: latest 2 posts had only a few comments, none planning a trip -> 0 follows; low yield, keep location scan as main source. Location pks: Ueno Park 28296527, Akihabara 412398549294497 (POST /api/v1/locations/<pk>/sections/ body tab=recent).",
+  "2026-11-23 21:20 JST run (Mac Chrome back): 3 follows+likes, 1 comment; crazydudepaul skipped (19k). shin_momc replied to our comment (\"I will check next time I come!\"). No keyword comments, 0 DM requests."
  ],
  "dm_log": [
   {
@@ -1949,6 +1972,13 @@
    "text": "Senso-ji looks lovely! For a warm sweet nearby, Umezono (2 min walk) serves awa zenzai, millet mochi with red bean paste, from ¥703. Weekends and holidays 10:00–18:00.",
    "at": "2026-11-22T21:50Z",
    "basis": "shops.json Umezono (Sat/Sun/hol 10:00-18:00)"
+  },
+  {
+   "user": "ancocost",
+   "post": "https://www.instagram.com/p/DgDzxGgMGn2/",
+   "text": "Great shot of the tracks! If you're back in Akihabara and hungry, Shin-Tagoto (2 min from the station) serves soba and steak curry, open daily 6:30–23:00.",
+   "at": "2026-11-23T12:35Z",
+   "basis": "shops.json Shin-Tagoto Akihabara (daily 6:30-23:00)"
   }
  ]
 }
