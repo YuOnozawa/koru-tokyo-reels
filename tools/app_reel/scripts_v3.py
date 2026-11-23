@@ -224,3 +224,16 @@ V3['h4_04_kamiya'] = {'speed': 1.25, 'beats': [
   {'say': "Order {Denki Bran|dɛnki bɹæn}, the house brandy liqueur. Four hundred yen.", 'video': SV + '51241.mp4', 'vstart': 1, 'tag': '1 · DENKI BRAN', 'big': '¥400', 'hl': 0, 'size': 200, 'chips': ['house liqueur', 'since 1880'], 'note': 'Footage: Mixkit, similar scenes, not this bar'},
   {'say': "Buy tickets at the register first. Cash only. Closed Tuesdays.", 'video': SV + '4451.mp4', 'vstart': 2, 'tag': '2 · HOW IT WORKS', 'big': 'TICKETS\nFIRST', 'hl': 1, 'chips': ['cash only', 'closed Tue'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not this bar'},
 ]}
+# ---- 11/24 run: H4a arm, 11/29. r_h4_01 (charges) got 112 at ~11 h vs r_h4_03 (sweets list) 8: test whether "rule/charge surprise" topics carry the v1 format.
+# Facts: data/shops.json Budouya (660 yen cover charge, evenings), Tori to Chuhai Torisu (400 yen + tax appetizer charge), Kurofunetei (no service or table charge);
+# smoking: house_rules/tourist_tip of Kissa Kojo, Okamoto, Coffee-sha Kura, Galan, Takioka, Garyu, New Bamboo (all seats) + Sabo Candle (nearly all) = 8; Coffee Dokoro Bonaru non-smoking throughout.
+V3['h4_05_cover'] = {'speed': 1.25, 'beats': [
+  {'say': "Paying before you order anything? Some Tokyo bars add a cover charge.", 'video': SV + '4451.mp4', 'vstart': 2, 'tag': 'KANDA · UENO', 'big': 'COVER\nCHARGE?', 'hl': 1, 'size': 180, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Budouya|budoːja} in {Kanda|kɑndɑ}: six hundred sixty yen in the evening. {Torisu|toɾisu}: four hundred yen plus tax.", 'video': SV + '51238.mp4', 'vstart': 2, 'tag': '1 · KANDA', 'big': '¥660\n¥400', 'hl': 0, 'chips': ['Budouya, evenings', 'Torisu, + tax'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Kurofunetei|kuɾofunetei} in {Ueno|ueno}: no service or table charge.", 'video': SV + '4447.mp4', 'vstart': 4, 'tag': '2 · KUROFUNETEI', 'big': 'NO\nCHARGE', 'hl': 1, 'chips': ['hayashi rice', 'closed Mon'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}
+V3['h4_06_smoking'] = {'speed': 1.25, 'beats': [
+  {'say': "Yes, some Tokyo cafés still let you smoke inside.", 'video': SV + '46015.mp4', 'vstart': 1, 'tag': 'TOKYO KISSATEN', 'big': 'SMOKING\nINSIDE', 'hl': 1, 'size': 170, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "Eight places on my list allow it at all or nearly all seats. {Galan|ɡɑɾɑn} in {Ueno|ueno} is one.", 'video': SV + '4447.mp4', 'vstart': 4, 'tag': '1 · ON MY LIST', 'big': '8\nPLACES', 'hl': 0, 'size': 150, 'chips': ['Galan, Ueno', 'Sabo Candle, Jimbocho'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "Want clean air? {Bonaru|bonɑɾu} in {Ueno|ueno} is smoke-free throughout.", 'video': SV + '48686.mp4', 'vstart': 2, 'tag': '2 · SMOKE-FREE', 'big': 'BONARU', 'hl': 1, 'size': 170, 'chips': ['non-smoking', 'cash only'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}

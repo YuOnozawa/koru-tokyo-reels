@@ -215,3 +215,10 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Made 11/28 (reel only, both inside running arms, one change each): r_v_05 Asakusa sweets (H5: stock video + AI voice; concrete dish + price,
   Kokonoe ¥160 / Umezono ¥703), r_h4_04 Kamiya Bar (H4a v1 format; Denki Bran ¥400, buy tickets first, cash only). H5 n=5, H4a n=5 (incl. r_h6_01).
 - Stock: pulled the other 22 Mixkit clips from the stock-video release (autumn leaves, tea, sushi-making, ramen) — no beef/sukiyaki footage, so wagyu topics wait.
+
+## 2026-11-24 08:00 production run
+- First T2 read: r_h4_01 seat charge (exact v1 format) **112 reach at ~11 h** — first reel past the 80 test batch since 11/12. r_h4_03 Kuramae sweets, same format, 8 at 6 h.
+  So the v1 format can still pass the batch (account isn't blocked); the topic seems to matter too: a surprising rule/charge beat a list of sweets shops. Final read at 24 h.
+- Made 11/29 (reel only, v1 format, one change = topic type): r_h4_05 cover charges (Budouya ¥660 / Torisu ¥400+tax / Kurofunetei none) — repeats the winning topic family;
+  r_h4_06 smoking inside kissaten (8 places on our list; Bonaru smoke-free) — another surprising rule.
+- If both pass 80 and the list-type reels don't: next week = v1 format + "rules/costs travelers don't expect" as the main series.
