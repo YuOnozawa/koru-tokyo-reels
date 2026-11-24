@@ -222,3 +222,9 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - Made 11/29 (reel only, v1 format, one change = topic type): r_h4_05 cover charges (Budouya ¥660 / Torisu ¥400+tax / Kurofunetei none) — repeats the winning topic family;
   r_h4_06 smoking inside kissaten (8 places on our list; Bonaru smoke-free) — another surprising rule.
 - If both pass 80 and the list-type reels don't: next week = v1 format + "rules/costs travelers don't expect" as the main series.
+
+## 2026-11-25 08:00 production run
+- 24 h reads: r_h4_01 seat charge (v1 format) **112**; r_h4_03 Kuramae sweets (v1 format) 9. **r_v_01 late night (H5 stock video + AI voice) 136 at 19 h, avg watch 8.0 s, 2 saves, 1 share** — best since 11/12.
+  r_x_09 Naha (Yu photos + voice) 27 at 14 h; carousels still 0. Followers 20 (+2 follow-backs from comments).
+- Pattern so far: both winners open with a traveler's problem ("charged for a seat?", "hungry after 10pm?"); both losers were "here are some shops" lists. Format matters less than the opening problem.
+- Made 11/30: r_v_06 "eating alone in Akihabara? sit at the counter" (H5, problem framing), r_h4_07 "travelling with kids? some places say no" (v1 format, rule topic).

@@ -237,3 +237,10 @@ V3['h4_06_smoking'] = {'speed': 1.25, 'beats': [
   {'say': "Eight places on my list allow it at all or nearly all seats. {Galan|ɡɑɾɑn} in {Ueno|ueno} is one.", 'video': SV + '4447.mp4', 'vstart': 4, 'tag': '1 · ON MY LIST', 'big': '8\nPLACES', 'hl': 0, 'size': 150, 'chips': ['Galan, Ueno', 'Sabo Candle, Jimbocho'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
   {'say': "Want clean air? {Bonaru|bonɑɾu} in {Ueno|ueno} is smoke-free throughout.", 'video': SV + '48686.mp4', 'vstart': 2, 'tag': '2 · SMOKE-FREE', 'big': 'BONARU', 'hl': 1, 'size': 170, 'chips': ['non-smoking', 'cash only'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
 ]}
+# ---- 11/25 run: H4a arm, 11/30 17:00. Rule topic (r_h4_01 charges 112; r_v_01 late night 136). Facts: data/shops.json house_rules/tourist_tip:
+# Ponta Honke "No children under school age"; Takayama Coffee "not for children under 12"; Kurofunetei "Children and strollers welcome"; Kanda Yabu Soba "Children welcome".
+V3['h4_07_kids'] = {'speed': 1.25, 'beats': [
+  {'say': "Travelling with kids? Some Tokyo restaurants say no.", 'video': SV + '4437.mp4', 'vstart': 2, 'tag': 'KANDA · UENO', 'big': 'NO\nKIDS?', 'hl': 1, 'size': 190, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Ponta Honke|pontɑ honke}: no children under school age. {Takayama|tɑkɑjɑmɑ} Coffee: not for under twelves.", 'video': SV + '4109.mp4', 'vstart': 2, 'tag': '1 · ADULTS ONLY', 'big': 'NOT FOR\nKIDS', 'hl': 0, 'size': 160, 'chips': ['Ponta Honke, Ueno', 'Takayama Coffee, Kanda'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "Kids welcome: {Kurofunetei|kuɾofunetei} in {Ueno|ueno}, strollers too, and {Kanda|kɑndɑ} {Yabu|jɑbu} Soba.", 'video': SV + '51239.mp4', 'vstart': 2, 'tag': '2 · KIDS WELCOME', 'big': 'KIDS\nWELCOME', 'hl': 1, 'size': 170, 'chips': ['Kurofunetei, Ueno', 'Kanda Yabu Soba'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}

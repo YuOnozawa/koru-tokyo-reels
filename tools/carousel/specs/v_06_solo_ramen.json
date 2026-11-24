@@ -1,0 +1,43 @@
+{
+ "id": "v_06_solo_ramen",
+ "note": "reel only (H5 stock video + AI voice, problem framing like r_v_01 late night = 136). Facts: data/shops.json Tanaka Soba-ten Akihabara, Aoshima Shokudo Akihabara. Footage: Mixkit, similar scenes, not these shops.",
+ "hook": {
+  "q_jp": "ひとり秋葉原、\nカウンターでラーメン",
+  "sub_en": "Eating alone in Akihabara? Sit at the counter",
+  "video": "4451",
+  "vstart": 1,
+  "vpos": 0.5,
+  "say": "Eating alone in Akihabara? Sit at the counter.",
+  "beats": [
+   {
+    "video": "46401",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "田中そば店：カウンター16席",
+    "sub_en": "Tanaka Soba-ten · 16 counter seats · daily 11–21",
+    "say": "Tanaka Soba-ten. Sixteen counter seats, open every day, eleven to nine."
+   },
+   {
+    "video": "51257",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "青島食堂：カウンター9席",
+    "sub_en": "Aoshima Shokudo · 9 counter seats · ginger soy ramen · closed Tue",
+    "say": "Aoshima Shokudo. Nine counter seats and ginger soy ramen. Eleven to five, closed Tuesdays."
+   },
+   {
+    "video": "4447",
+    "vstart": 3,
+    "vpos": 0.5,
+    "jp": "どちらも1000円以下",
+    "sub_en": "Both under ¥1,000 · no credit cards",
+    "say": "Both under one thousand yen. No credit cards, so bring cash."
+   }
+  ],
+  "end_video": "4454",
+  "end_vstart": 1,
+  "end_jp": "保存して、秋葉原の前に。",
+  "end_en": "Save it for Akihabara",
+  "end_say": "Save this for Akihabara."
+ }
+}
