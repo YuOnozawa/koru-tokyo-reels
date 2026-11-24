@@ -1,10 +1,10 @@
 # PDCA summary (auto)
 
-Updated 2026-11-24 22:36 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
+Updated 2026-11-24 23:01 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
 
 | style | n | median reach 24h | batch ≥80 | hit ≥1,000 | best reach | median watch (s) |
 |---|---|---|---|---|---|---|
-| carousel | 26 | 1 | 0/26 | 0/26 | 5 | - |
+| carousel | 27 | 1 | 0/27 | 0/27 | 6 | - |
 | v1 replica (H4) | 2 | 60 | 1/2 | 0/2 | 112 | 3.6 |
 | v1 voice narration, no music | 98 | 110 | 91/98 | 0/98 | 325 | 3.7 |
 | v2 page-flip + music | 6 | 13 | 0/6 | 0/6 | 39 | 2.4 |
@@ -13,4 +13,4 @@ Updated 2026-11-24 22:36 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = re
 | v4 clean photo + AI voice | 1 | 17 | 0/1 | 0/1 | 18 | 3.5 |
 | v4 clean photo + music | 1 | 3 | 0/1 | 0/1 | 4 | 4.5 |
 
-Pending (<20 h old): ? None@972h, x_09_naha_night 0@15h, r_v_01_late_night 126@11h, r_x_09_naha_night 9@6h
+Pending (<20 h old): ? None@972h, r_v_01_late_night 136@19h, r_x_09_naha_night 27@14h
