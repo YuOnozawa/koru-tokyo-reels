@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-24T15:04:26.510108+00:00",
+ "fetched_at": "2026-11-24T22:35:44.702923+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
   "media_count": 154,
   "id": "28241506535529259",
-  "followers_count": 19,
-  "follows_count": 194
+  "followers_count": 20,
+  "follows_count": 195
  },
  "media": [
   {
@@ -17,15 +17,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Steak, awamori, then live jazz? 👇\n\nExtra from Okinawa: one n",
-   "reach": 9,
-   "views": 10,
+   "reach": 27,
+   "views": 29,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 5202,
-   "ig_reels_video_view_total_time": 46818
+   "ig_reels_avg_watch_time": 3334,
+   "ig_reels_video_view_total_time": 93364
   },
   {
    "id": "18110169254212354",
@@ -34,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Hungry after 10pm near Ueno and Akihabara? 🌙 Save this.\n\n1 ·",
-   "reach": 126,
-   "views": 143,
+   "reach": 136,
+   "views": 153,
    "likes": 1,
    "comments": 0,
-   "saved": 1,
+   "saved": 2,
    "shares": 0,
-   "total_interactions": 2,
-   "ig_reels_avg_watch_time": 8280,
-   "ig_reels_video_view_total_time": 1035004
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 8031,
+   "ig_reels_video_view_total_time": 1084284
   },
   {
    "id": "18031754699880548",
@@ -787,8 +787,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Eight rules before you eat out in Tokyo 🗾 From 300 East Toky",
-   "reach": 5,
-   "views": 9,
+   "reach": 6,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -802,8 +802,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "A seafood night in Akihabara 🐟 Domannaka Akihabara Bettei, 2",
-   "reach": 3,
-   "views": 9,
+   "reach": 4,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -812,10 +812,10 @@
   }
  ],
  "account_daily": {
-  "reach": 147,
-  "views": 171,
-  "profile_views": 9,
+  "reach": 175,
+  "views": 202,
+  "profile_views": 11,
   "profile_links_taps": 0,
-  "accounts_engaged": 3
+  "accounts_engaged": 4
  }
 }
