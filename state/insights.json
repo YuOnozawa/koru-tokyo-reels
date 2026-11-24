@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-24T10:04:23.062735+00:00",
+ "fetched_at": "2026-11-24T15:04:26.510108+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
   "media_count": 154,
   "id": "28241506535529259",
-  "followers_count": 18,
-  "follows_count": 191
+  "followers_count": 19,
+  "follows_count": 194
  },
  "media": [
   {
@@ -17,15 +17,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Steak, awamori, then live jazz? 👇\n\nExtra from Okinawa: one n",
-   "reach": 0,
-   "views": 0,
+   "reach": 9,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 0,
-   "ig_reels_video_view_total_time": 0
+   "ig_reels_avg_watch_time": 5202,
+   "ig_reels_video_view_total_time": 46818
   },
   {
    "id": "18110169254212354",
@@ -34,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Hungry after 10pm near Ueno and Akihabara? 🌙 Save this.\n\n1 ·",
-   "reach": 121,
-   "views": 138,
+   "reach": 126,
+   "views": 143,
    "likes": 1,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 8370,
-   "ig_reels_video_view_total_time": 1004406
+   "ig_reels_avg_watch_time": 8280,
+   "ig_reels_video_view_total_time": 1035004
   },
   {
    "id": "18031754699880548",
@@ -812,9 +812,9 @@
   }
  ],
  "account_daily": {
-  "reach": 134,
-  "views": 155,
-  "profile_views": 4,
+  "reach": 147,
+  "views": 171,
+  "profile_views": 9,
   "profile_links_taps": 0,
   "accounts_engaged": 3
  }

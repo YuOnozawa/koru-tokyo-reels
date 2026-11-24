@@ -58,21 +58,21 @@ Metric: **ss** · A = no-fail / worth-it (awards, ¥4,000+, booking) · B = chea
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| A | 22 | 17.0 | 18% | 0.0 | 0.0 | 0.1 |
-| B | 23 | 14.2 | 18% | 0.5 | 0.0 | 0.1 |
+| A | 22 | 17.3 | 18% | 0.0 | 0.0 | 0.1 |
+| B | 23 | 14.6 | 20% | 0.5 | 0.0 | 0.1 |
 
-**Suggested verdict:** B wins (+1290%)
+**Suggested verdict:** B wins (+1348%)
 
 ## H16 — The slow magazine-flip reel (design D, ~25 s, no AI voice, real photos) beats the old AI-voice + stock-footage reel on reach and average watch time
 Metric: **reach** · A = magazine reel · B = old reel template · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| clean + AI voice, no music (H1) | 2 | 9.0 | 9% | 0.0 | 0.0 | 0.0 |
+| clean + AI voice, no music (H1) | 2 | 13.5 | 21% | 0.0 | 0.0 | 0.0 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
 | hook reel | 16 | 31.6 | 19% | 0.8 | 0.0 | 0.0 |
 | magazine reel | 3 | 16.3 | 5% | 0.0 | 0.0 | 0.0 |
-| stock video + AI voice (H5) | 1 | 121.0 | 26% | 0.8 | 0.0 | 1.0 |
+| stock video + AI voice (H5) | 1 | 126.0 | 25% | 0.8 | 0.0 | 1.0 |
 | v1 replica: stock video + AI voice + big text, short (H4) | 2 | 60.5 | 35% | 5.6 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
@@ -99,7 +99,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| late-night | 1 | 121.0 | 26% | 0.8 | 0.0 | 1.0 |
+| late-night | 1 | 126.0 | 25% | 0.8 | 0.0 | 1.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
