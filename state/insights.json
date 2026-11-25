@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-25T08:50:23.953371+00:00",
+ "fetched_at": "2026-11-25T15:04:43.534938+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 156,
+  "media_count": 157,
   "id": "28241506535529259",
   "followers_count": 21,
-  "follows_count": 195
+  "follows_count": 199
  },
  "media": [
+  {
+   "id": "18150747166603950",
+   "permalink": "https://www.instagram.com/reel/DgKKpCOOrLz/",
+   "timestamp": "2026-11-25T09:05:10+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi ",
+   "reach": 2,
+   "views": 3,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 1444,
+   "ig_reels_video_view_total_time": 2889
+  },
   {
    "id": "17954526096322878",
    "permalink": "https://www.instagram.com/reel/DgJl482gliq/",
@@ -796,27 +813,12 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 1035,
    "ig_reels_video_view_total_time": 11391
-  },
-  {
-   "id": "18065085257645590",
-   "permalink": "https://www.instagram.com/p/DfqaNhJFqsG/",
-   "timestamp": "2026-11-13T01:05:16+0000",
-   "media_product_type": "FEED",
-   "media_type": "CAROUSEL_ALBUM",
-   "caption_head": "Extra: Tenkaippin's rich 'kotteri' ramen in Akihabara 🍜 a qu",
-   "reach": 5,
-   "views": 11,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0
   }
  ],
  "account_daily": {
-  "reach": 184,
-  "views": 211,
-  "profile_views": 14,
+  "reach": 186,
+  "views": 214,
+  "profile_views": 16,
   "profile_links_taps": 0,
   "accounts_engaged": 3
  }
