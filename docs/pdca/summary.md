@@ -1,6 +1,6 @@
 # PDCA summary (auto)
 
-Updated 2026-11-24 23:01 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
+Updated 2026-11-25 08:50 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
 
 | style | n | median reach 24h | batch ≥80 | hit ≥1,000 | best reach | median watch (s) |
 |---|---|---|---|---|---|---|
