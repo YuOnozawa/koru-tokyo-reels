@@ -1,0 +1,43 @@
+{
+ "id": "v_07_vegetarian",
+ "note": "reel only (H5 stock video + AI voice, problem framing). Facts: data/shops.json Andhra Kitchen (tourist_tip: vegetarian options, cards), Kyushu Jangara Akihabara (Tabelog notes vegetarian options). Footage: Mixkit, similar scenes, not these shops.",
+ "hook": {
+  "q_jp": "ベジタリアン、\n秋葉原・御徒町で",
+  "sub_en": "Vegetarian near Akihabara? Two places to start",
+  "video": "4437",
+  "vstart": 1,
+  "vpos": 0.5,
+  "say": "Vegetarian near Akihabara? Here are two places to start.",
+  "beats": [
+   {
+    "video": "46015",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "アーンドラ・キッチン（御徒町）",
+    "sub_en": "Andhra Kitchen · South Indian · vegetarian options · lunch under ¥1,000",
+    "say": "Andhra Kitchen in Okachimachi. South Indian dosa and thali sets, with vegetarian options. Lunch is under one thousand yen."
+   },
+   {
+    "video": "46017",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "カードOK・地下1階",
+    "sub_en": "Cards OK · basement floor · 3 min from JR Okachimachi",
+    "say": "Cards are fine. It's in the basement, three minutes from Okachimachi Station."
+   },
+   {
+    "video": "46401",
+    "vstart": 1,
+    "vpos": 0.5,
+    "jp": "九州じゃんがら（秋葉原）",
+    "sub_en": "Kyushu Jangara · vegetarian options listed · daily 11–22",
+    "say": "Kyushu Jangara in Akihabara lists vegetarian options too. Open every day, eleven to ten."
+   }
+  ],
+  "end_video": "4454",
+  "end_vstart": 1,
+  "end_jp": "保存して、秋葉原の前に。",
+  "end_en": "Save it for Akihabara",
+  "end_say": "Save this for Akihabara."
+ }
+}

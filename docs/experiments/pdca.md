@@ -228,3 +228,8 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   r_x_09 Naha (Yu photos + voice) 27 at 14 h; carousels still 0. Followers 20 (+2 follow-backs from comments).
 - Pattern so far: both winners open with a traveler's problem ("charged for a seat?", "hungry after 10pm?"); both losers were "here are some shops" lists. Format matters less than the opening problem.
 - Made 11/30: r_v_06 "eating alone in Akihabara? sit at the counter" (H5, problem framing), r_h4_07 "travelling with kids? some places say no" (v1 format, rule topic).
+
+## 2026-11-26 08:00 production run
+- H5 (stock video + AI voice): r_v_01 late night 138 (24 h), r_v_02 Sunday 106 at 18 h — 2 of 2 past the batch; watch 7.9 s / 5.8 s vs v1's 3.7 s. Saves and shares appear only on these.
+- Photo + voice: r_x_09 59, r_x_10 8 at 13 h. Carousels 0–1 (28 of 28 under 80). Followers 21.
+- Made 12/1: r_v_07 vegetarian near Akihabara (H5, problem), r_h4_08 can tourists book? (v1, rule — Aoi Marushin takes no bookings from overseas travelers).

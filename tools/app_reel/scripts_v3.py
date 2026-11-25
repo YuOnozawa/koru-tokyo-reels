@@ -244,3 +244,10 @@ V3['h4_07_kids'] = {'speed': 1.25, 'beats': [
   {'say': "{Ponta Honke|pontɑ honke}: no children under school age. {Takayama|tɑkɑjɑmɑ} Coffee: not for under twelves.", 'video': SV + '4109.mp4', 'vstart': 2, 'tag': '1 · ADULTS ONLY', 'big': 'NOT FOR\nKIDS', 'hl': 0, 'size': 160, 'chips': ['Ponta Honke, Ueno', 'Takayama Coffee, Kanda'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
   {'say': "Kids welcome: {Kurofunetei|kuɾofunetei} in {Ueno|ueno}, strollers too, and {Kanda|kɑndɑ} {Yabu|jɑbu} Soba.", 'video': SV + '51239.mp4', 'vstart': 2, 'tag': '2 · KIDS WELCOME', 'big': 'KIDS\nWELCOME', 'hl': 1, 'size': 170, 'chips': ['Kurofunetei, Ueno', 'Kanda Yabu Soba'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
 ]}
+# ---- 11/26 run: H4a arm, 12/1 17:00. Rule topic. Facts: data/shops.json house_rules: Aoi Marushin "No bookings for overseas travelers";
+# Ponta Honke "Bookings for 2 or more"; Kurofunetei "Bookings 11:30-17:00 are for 1 hour 20 minutes".
+V3['h4_08_booking'] = {'speed': 1.25, 'beats': [
+  {'say': "Can tourists book a table in Tokyo? Not everywhere.", 'video': SV + '4452.mp4', 'vstart': 2, 'tag': 'ASAKUSA · UENO', 'big': 'CAN I\nBOOK?', 'hl': 1, 'size': 180, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Aoi Marushin|ɑoi mɑɾuʃin}, the tempura house in {Asakusa|ɑsɑkusɑ}: no bookings for overseas travelers.", 'video': SV + '4405.mp4', 'vstart': 2, 'tag': '1 · AOI MARUSHIN', 'big': 'NO\nBOOKINGS', 'hl': 0, 'size': 160, 'chips': ['overseas travelers', 'walk in'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Ponta Honke|pontɑ honke} books two or more only. {Kurofunetei|kuɾofunetei}: daytime bookings get one hour twenty.", 'video': SV + '51258.mp4', 'vstart': 2, 'tag': '2 · UENO', 'big': '2+ ONLY\n1H 20M', 'hl': 1, 'size': 140, 'chips': ['Ponta Honke', 'Kurofunetei'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}
