@@ -1546,6 +1546,34 @@
    "liked": true,
    "at": "2026-11-24T21:35Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "i.mcece",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-25T12:40Z",
+   "source": "Yanaka recent"
+  },
+  {
+   "user": "bfrndr",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-25T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "yhlim_0330",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-25T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "mary_an011",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-25T12:40Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1683,7 +1711,8 @@
   "clarecomino",
   "yanni.hew",
   "mayeeeahh",
-  "jeanniebean1"
+  "jeanniebean1",
+  "hsia.0_0"
  ],
  "already_following": [
   "reefalon1",
@@ -1725,7 +1754,8 @@
   "2026-11-23 21:20 JST run (Mac Chrome back): 3 follows+likes, 1 comment; crazydudepaul skipped (19k). shin_momc replied to our comment (\"I will check next time I come!\"). No keyword comments, 0 DM requests.",
   "2026-11-24 06:20 JST run (Mac): 3 follows+likes, 1 comment; mr_khleee skipped (business). ancocost replied thanks to our Shin-Tagoto comment. 0 DM requests, no keyword comments.",
   "2026-11-24 21:20 JST run (Mac): 3 follows+likes, 1 comment; aaronrolston skipped (business filter). the_tiny_fury liked a reel. 0 DM requests, no keyword comments.",
-  "2026-11-25 06:20 JST run (Mac): 1 follow+like, 1 comment; 3 skipped by business filter (photographers with links). Follow-backs: lorrainegabriellea (also replied thanks to our Kokonoe comment), puja_singh_malla. 0 DM requests."
+  "2026-11-25 06:20 JST run (Mac): 1 follow+like, 1 comment; 3 skipped by business filter (photographers with links). Follow-backs: lorrainegabriellea (also replied thanks to our Kokonoe comment), puja_singh_malla. 0 DM requests.",
+  "2026-11-25 21:20 JST run (Mac): 4 follows+likes, 1 comment. hsia.0_0 followed us from our Izuei comment (private, follow-back not sent). lorrainegabriellea followed. bar_quest_jp liked a reel. 0 DM requests."
  ],
  "dm_log": [
   {
@@ -1812,7 +1842,8 @@
   "aaronrolston",
   "motake",
   "flickedby_jay",
-  "ichimai.photo_id"
+  "ichimai.photo_id",
+  "greta.pdf"
  ],
  "comment_queue": [
   {
@@ -2057,6 +2088,13 @@
    "text": "Beautiful colours! If you want to warm up in Ueno, Coffee Dokoro Bonaru (3 min from Ueno-Hirokoji Station) is a smoke-free coffee house, open from 11:00. Cash only.",
    "at": "2026-11-24T21:35Z",
    "basis": "shops.json Coffee Dokoro Bonaru"
+  },
+  {
+   "user": "yhlim_0330",
+   "post": "https://www.instagram.com/p/DgJS3aBozfs/",
+   "text": "Day 8 already! If you're near Ueno again, Kurofunetei (2 min from Keisei Ueno) serves hayashi rice and omurice, with no service or table charge.",
+   "at": "2026-11-25T12:40Z",
+   "basis": "shops.json Kurofunetei house_rules"
   }
  ]
 }
