@@ -1581,6 +1581,20 @@
    "liked": false,
    "at": "2026-11-25T16:30Z",
    "source": "follow-back (Yu OK 11/26)"
+  },
+  {
+   "user": "txmna",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-25T21:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "jenny_gotre",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-25T21:40Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1763,7 +1777,8 @@
   "2026-11-24 21:20 JST run (Mac): 3 follows+likes, 1 comment; aaronrolston skipped (business filter). the_tiny_fury liked a reel. 0 DM requests, no keyword comments.",
   "2026-11-25 06:20 JST run (Mac): 1 follow+like, 1 comment; 3 skipped by business filter (photographers with links). Follow-backs: lorrainegabriellea (also replied thanks to our Kokonoe comment), puja_singh_malla. 0 DM requests.",
   "2026-11-25 21:20 JST run (Mac): 4 follows+likes, 1 comment. hsia.0_0 followed us from our Izuei comment (private, follow-back not sent). lorrainegabriellea followed. bar_quest_jp liked a reel. 0 DM requests.",
-  "2026-11-26 Yu: フォロー返していいよ -> follow back people who follow us, private accounts included (request). Sent request to hsia.0_0. Followers list (21) checked: everyone else already followed."
+  "2026-11-26 Yu: フォロー返していいよ -> follow back people who follow us, private accounts included (request). Sent request to hsia.0_0. Followers list (21) checked: everyone else already followed.",
+  "2026-11-26 06:20 JST run (Mac): 2 follows+likes, 1 comment; 2 skipped (business filter). No new followers to follow back (hsia.0_0 request pending). 0 DM requests."
  ],
  "dm_log": [
   {
@@ -1851,7 +1866,9 @@
   "motake",
   "flickedby_jay",
   "ichimai.photo_id",
-  "greta.pdf"
+  "greta.pdf",
+  "_ademone",
+  "artem.akmulin_music"
  ],
  "comment_queue": [
   {
@@ -2103,6 +2120,13 @@
    "text": "Day 8 already! If you're near Ueno again, Kurofunetei (2 min from Keisei Ueno) serves hayashi rice and omurice, with no service or table charge.",
    "at": "2026-11-25T12:40Z",
    "basis": "shops.json Kurofunetei house_rules"
+  },
+  {
+   "user": "txmna",
+   "post": "https://www.instagram.com/p/DgKg3QYTe0Z/",
+   "text": "Day 8 in Ueno looks great! For a classic lunch nearby, Ponta Honke (1 min from Ueno-Hirokoji) serves katsuretsu, pork loin cutlet, from ¥4,070. Lunch 11:00–14:00, closed Mondays.",
+   "at": "2026-11-25T21:40Z",
+   "basis": "shops.json Ponta Honke"
   }
  ]
 }
