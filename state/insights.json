@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T16:18:44.248236+00:00",
+ "fetched_at": "2026-11-25T21:49:10.653191+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -7,7 +7,7 @@
   "media_count": 157,
   "id": "28241506535529259",
   "followers_count": 21,
-  "follows_count": 199
+  "follows_count": 201
  },
  "media": [
   {
@@ -17,15 +17,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi ",
-   "reach": 3,
-   "views": 4,
-   "likes": 0,
+   "reach": 8,
+   "views": 10,
+   "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1873,
-   "ig_reels_video_view_total_time": 5620
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4433,
+   "ig_reels_video_view_total_time": 35467
   },
   {
    "id": "17954526096322878",
@@ -34,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Planning Sunday in Tokyo? 📅 Save this.\n\nOf the 310 East Toky",
-   "reach": 105,
-   "views": 113,
+   "reach": 106,
+   "views": 115,
    "likes": 1,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 5833,
-   "ig_reels_video_view_total_time": 618301
+   "ig_reels_avg_watch_time": 5799,
+   "ig_reels_video_view_total_time": 620502
   },
   {
    "id": "18112615325238038",
@@ -548,8 +548,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Where an Akihabara office worker eats lunch 🥢 Yu's five week",
-   "reach": 1,
-   "views": 4,
+   "reach": 2,
+   "views": 7,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -816,10 +816,10 @@
   }
  ],
  "account_daily": {
-  "reach": 186,
-  "views": 215,
-  "profile_views": 16,
+  "reach": 189,
+  "views": 226,
+  "profile_views": 17,
   "profile_links_taps": 0,
-  "accounts_engaged": 3
+  "accounts_engaged": 4
  }
 }
