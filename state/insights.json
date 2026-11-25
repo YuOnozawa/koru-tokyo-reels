@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T15:04:43.534938+00:00",
+ "fetched_at": "2026-11-25T16:18:44.248236+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -17,15 +17,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi ",
-   "reach": 2,
-   "views": 3,
+   "reach": 3,
+   "views": 4,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1444,
-   "ig_reels_video_view_total_time": 2889
+   "ig_reels_avg_watch_time": 1873,
+   "ig_reels_video_view_total_time": 5620
   },
   {
    "id": "17954526096322878",
@@ -817,7 +817,7 @@
  ],
  "account_daily": {
   "reach": 186,
-  "views": 214,
+  "views": 215,
   "profile_views": 16,
   "profile_links_taps": 0,
   "accounts_engaged": 3
