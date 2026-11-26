@@ -1,0 +1,21 @@
+{
+ "id": "v_08_three_pm",
+ "note": "reel only (H5 stock video + AI voice, problem framing). Count: data/shops.json, 315 shops, first-listed hours range at 15:00: 115 closed, 185 open (others unparsed). Picks open all afternoon, daily: Shin-Tagoto Akihabara, Tatsumiya Yodobashi Akiba, Kacchan (Ueno). Footage: Mixkit, similar scenes, not these shops.",
+ "hook": {
+  "q_jp": "午後3時、\nどこも閉まってる？",
+  "sub_en": "Hungry at 3pm in Tokyo? Many kitchens close",
+  "video": "4454", "vstart": 1, "vpos": 0.5,
+  "say": "Hungry at three p.m. in Tokyo? Over a third of the places on my list are closed then.",
+  "beats": [
+   {"video": "51257", "vstart": 1, "vpos": 0.5, "jp": "新田毎（秋葉原）6:30〜23:00", "sub_en": "Shin-Tagoto · soba and steak curry · daily 6:30–23:00",
+    "say": "Shin-Tagoto in Akihabara. Soba and steak curry, open every day, six thirty a.m. to eleven p.m."},
+   {"video": "46401", "vstart": 1, "vpos": 0.5, "jp": "たつ美屋（ヨドバシAkiba）", "sub_en": "Tatsumiya · sukiyaki set about ¥1,100 · daily 11–23",
+    "say": "Tatsumiya at Yodobashi Akiba. A sukiyaki set for about eleven hundred yen, eleven to eleven, every day."},
+   {"video": "51239", "vstart": 1, "vpos": 0.5, "jp": "かっちゃん（上野）11:30〜22:00", "sub_en": "Kacchan, Ueno · tempura + drinks set ¥1,300 · daily",
+    "say": "Kacchan in Ueno. Tempura with drinks for thirteen hundred yen, open all afternoon."}
+  ],
+  "end_video": "4401", "end_vstart": 1,
+  "end_jp": "保存して、午後のために。", "end_en": "Save it for the afternoon",
+  "end_say": "Save this for the afternoon."
+ }
+}

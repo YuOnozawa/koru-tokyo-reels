@@ -1,0 +1,21 @@
+{
+ "id": "v_09_asakusa_cheap",
+ "note": "reel only (H5 stock video + AI voice, problem framing). Facts: data/shops.json Bazoku, Asakusa Uoryori Enshuya, Asakusa Mangando Orange-dori Honten. Footage: Mixkit, similar scenes, not these shops.",
+ "hook": {
+  "q_jp": "浅草で、\n1000円以下のランチ",
+  "sub_en": "Lunch near Senso-ji under ¥1,000?",
+  "video": "4452", "vstart": 1, "vpos": 0.5,
+  "say": "Lunch near Senso-ji for under one thousand yen? Yes.",
+  "beats": [
+   {"video": "46789", "vstart": 1, "vpos": 0.5, "jp": "馬賊：手打ち担々麺", "sub_en": "Bazoku · hand-pulled noodles · under ¥1,000 · daily 11:15–20:30",
+    "say": "Bazoku. Hand-pulled noodles like tantanmen, under one thousand yen. Open every day."},
+   {"video": "46017", "vstart": 1, "vpos": 0.5, "jp": "遠州屋：魚定食880円", "sub_en": "Enshuya · fish set lunch ¥880 · Mon–Sat 11:30–14:00",
+    "say": "Enshuya, by Tawaramachi. A grilled or simmered fish set for eight hundred eighty yen. Weekday and Saturday lunch only."},
+   {"video": "45086", "vstart": 1, "vpos": 0.5, "jp": "満願堂：芋きん", "sub_en": "Mangando · sweet potato imo-kin · daily 10–20",
+    "say": "Then Mangando for imo-kin, a sweet potato cake. Open every day."}
+  ],
+  "end_video": "4404", "end_vstart": 1,
+  "end_jp": "保存して、浅草の前に。", "end_en": "Save it for Asakusa",
+  "end_say": "Save this for Asakusa."
+ }
+}

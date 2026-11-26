@@ -233,3 +233,9 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
 - H5 (stock video + AI voice): r_v_01 late night 138 (24 h), r_v_02 Sunday 106 at 18 h — 2 of 2 past the batch; watch 7.9 s / 5.8 s vs v1's 3.7 s. Saves and shares appear only on these.
 - Photo + voice: r_x_09 59, r_x_10 8 at 13 h. Carousels 0–1 (28 of 28 under 80). Followers 21.
 - Made 12/1: r_v_07 vegetarian near Akihabara (H5, problem), r_h4_08 can tourists book? (v1, rule — Aoi Marushin takes no bookings from overseas travelers).
+
+## 2026-11-27 08:00 production run
+- H5 (stock video + AI voice, problem opening): r_v_01 138, r_v_02 106, r_v_03 cash only 114 at 18 h, r_v_04 breakfast 67 at 13 h. 3–4 of 4 past the batch; median watch 6.8 s.
+  Photo + voice (v4) is 0/3 (median 17). Carousels 0/28. Followers 21.
+- Decision until the 11/29 retro: H5 is the main reel format. Made 12/2 as two H5 reels: "hungry at 3pm?" (115 of ~300 places closed at 3pm) and "Asakusa lunch under ¥1,000".
+- Still no 1,000+ hit. Next lever to test after the retro: hook strength (first 1 s) and posting more H5 per day vs carousels.
