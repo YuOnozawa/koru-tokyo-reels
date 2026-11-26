@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-26T08:35:17.537479+00:00",
+ "fetched_at": "2026-11-26T15:04:38.115529+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 158,
+  "media_count": 159,
   "id": "28241506535529259",
   "followers_count": 21,
-  "follows_count": 201
+  "follows_count": 203
  },
  "media": [
+  {
+   "id": "18018386306756588",
+   "permalink": "https://www.instagram.com/reel/DgMvbQVNdvg/",
+   "timestamp": "2026-11-26T09:05:05+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Up early with jet lag? Breakfast before 8am near Akihabara ☕",
+   "reach": 18,
+   "views": 21,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2564,
+   "ig_reels_video_view_total_time": 46160
+  },
   {
    "id": "18157143241528990",
    "permalink": "https://www.instagram.com/reel/DgMNCr5N8RE/",
@@ -17,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Bring cash in East Tokyo 💴 Save this.\n\nOf the 310 places I t",
-   "reach": 105,
-   "views": 112,
+   "reach": 110,
+   "views": 118,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4833,
-   "ig_reels_video_view_total_time": 517147
+   "ig_reels_avg_watch_time": 5034,
+   "ig_reels_video_view_total_time": 558819
   },
   {
    "id": "18150747166603950",
@@ -796,29 +813,12 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
-  },
-  {
-   "id": "18109382336298546",
-   "permalink": "https://www.instagram.com/reel/DfrRGzQJww5/",
-   "timestamp": "2026-11-13T09:05:13+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Extra: Tenkaippin's rich 'kotteri' ramen in Akihabara 🍜 a qu",
-   "reach": 9,
-   "views": 10,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2185,
-   "ig_reels_video_view_total_time": 19666
   }
  ],
  "account_daily": {
-  "reach": 142,
-  "views": 165,
-  "profile_views": 5,
+  "reach": 165,
+  "views": 191,
+  "profile_views": 6,
   "profile_links_taps": 0,
   "accounts_engaged": 3
  }
