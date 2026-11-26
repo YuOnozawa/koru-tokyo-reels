@@ -1,6 +1,6 @@
 # PDCA summary (auto)
 
-Updated 2026-11-26 21:43 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
+Updated 2026-11-26 23:02 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
 
 | style | n | median reach 24h | batch ≥80 | hit ≥1,000 | best reach | median watch (s) |
 |---|---|---|---|---|---|---|
@@ -14,4 +14,4 @@ Updated 2026-11-26 21:43 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = re
 | v4 clean photo + music | 1 | 3 | 0/1 | 0/1 | 4 | 4.5 |
 | v5 stock video + AI voice | 2 | 122 | 2/2 | 0/2 | 138 | 6.8 |
 
-Pending (<20 h old): ? None@972h, r_v_03_cash_only 110@11h, r_v_04_breakfast_early 18@6h
+Pending (<20 h old): ? None@972h, r_v_03_cash_only 114@18h, r_v_04_breakfast_early 67@13h

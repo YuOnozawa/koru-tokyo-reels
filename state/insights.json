@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T21:43:30.744486+00:00",
+ "fetched_at": "2026-11-26T23:01:46.552681+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -35,7 +35,7 @@
    "media_type": "VIDEO",
    "caption_head": "Bring cash in East Tokyo 💴 Save this.\n\nOf the 310 places I t",
    "reach": 114,
-   "views": 122,
+   "views": 123,
    "likes": 1,
    "comments": 0,
    "saved": 0,
@@ -68,15 +68,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Planning Sunday in Tokyo? 📅 Save this.\n\nOf the 310 East Toky",
-   "reach": 106,
-   "views": 115,
+   "reach": 107,
+   "views": 117,
    "likes": 1,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2,
-   "ig_reels_avg_watch_time": 5799,
-   "ig_reels_video_view_total_time": 620502
+   "ig_reels_avg_watch_time": 5801,
+   "ig_reels_video_view_total_time": 626559
   },
   {
    "id": "18112615325238038",
@@ -817,8 +817,8 @@
  ],
  "account_daily": {
   "reach": 218,
-  "views": 246,
-  "profile_views": 7,
+  "views": 248,
+  "profile_views": 8,
   "profile_links_taps": 0,
   "accounts_engaged": 3
  }
