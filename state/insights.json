@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-25T23:00:54.223890+00:00",
+ "fetched_at": "2026-11-26T08:35:17.537479+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 157,
+  "media_count": 158,
   "id": "28241506535529259",
   "followers_count": 21,
   "follows_count": 201
  },
  "media": [
+  {
+   "id": "18157143241528990",
+   "permalink": "https://www.instagram.com/reel/DgMNCr5N8RE/",
+   "timestamp": "2026-11-26T04:04:39+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Bring cash in East Tokyo 💴 Save this.\n\nOf the 310 places I t",
+   "reach": 105,
+   "views": 112,
+   "likes": 1,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4833,
+   "ig_reels_video_view_total_time": 517147
+  },
   {
    "id": "18150747166603950",
    "permalink": "https://www.instagram.com/reel/DgKKpCOOrLz/",
@@ -17,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi ",
-   "reach": 9,
-   "views": 11,
+   "reach": 10,
+   "views": 12,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4412,
-   "ig_reels_video_view_total_time": 39709
+   "ig_reels_avg_watch_time": 4070,
+   "ig_reels_video_view_total_time": 40708
   },
   {
    "id": "17954526096322878",
@@ -612,8 +629,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "A Saturday eating in Kita-Senju 🍡 Four stops, about 10 minut",
-   "reach": 4,
-   "views": 9,
+   "reach": 5,
+   "views": 13,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -796,30 +813,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 2185,
    "ig_reels_video_view_total_time": 19666
-  },
-  {
-   "id": "18122120930097419",
-   "permalink": "https://www.instagram.com/reel/Dfqu1efqddp/",
-   "timestamp": "2026-11-13T04:06:02+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Five dinners worth booking ahead in East Tokyo 🍽️ Award-list",
-   "reach": 10,
-   "views": 11,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1035,
-   "ig_reels_video_view_total_time": 11391
   }
  ],
  "account_daily": {
-  "reach": 190,
-  "views": 227,
-  "profile_views": 17,
+  "reach": 142,
+  "views": 165,
+  "profile_views": 5,
   "profile_links_taps": 0,
-  "accounts_engaged": 4
+  "accounts_engaged": 3
  }
 }
