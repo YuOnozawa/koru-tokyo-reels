@@ -1,10 +1,10 @@
 {
- "at": "2026-11-26T23:07:43.195747+00:00",
+ "at": "2026-11-26T23:09:53.827369+00:00",
  "item": "r_v_09_asakusa_cheap",
  "result": {
-  "status_code": "ERROR",
-  "status": "ERROR",
-  "id": "18136038643779964"
+  "status_code": "FINISHED",
+  "status": "FINISHED",
+  "id": "18136038940779964"
  },
  "published": false
 }
