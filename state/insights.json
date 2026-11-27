@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-26T23:01:46.552681+00:00",
+ "fetched_at": "2026-11-27T08:47:20.380684+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 159,
+  "media_count": 160,
   "id": "28241506535529259",
   "followers_count": 21,
   "follows_count": 206
  },
  "media": [
+  {
+   "id": "17944423269391665",
+   "permalink": "https://www.instagram.com/reel/DgOx5xuROXi/",
+   "timestamp": "2026-11-27T04:05:13+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Free Christmas market in Ueno Park, until Dec 25 🎄 Save this",
+   "reach": 56,
+   "views": 63,
+   "likes": 0,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 2366,
+   "ig_reels_video_view_total_time": 137273
+  },
   {
    "id": "18018386306756588",
    "permalink": "https://www.instagram.com/reel/DgMvbQVNdvg/",
@@ -17,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Up early with jet lag? Breakfast before 8am near Akihabara ☕",
-   "reach": 67,
-   "views": 70,
+   "reach": 75,
+   "views": 79,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2963,
-   "ig_reels_video_view_total_time": 198560
+   "ig_reels_avg_watch_time": 2993,
+   "ig_reels_video_view_total_time": 224491
   },
   {
    "id": "18157143241528990",
@@ -34,15 +51,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Bring cash in East Tokyo 💴 Save this.\n\nOf the 310 places I t",
-   "reach": 114,
+   "reach": 115,
    "views": 123,
    "likes": 1,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 5103,
-   "ig_reels_video_view_total_time": 586909
+   "ig_reels_avg_watch_time": 5086,
+   "ig_reels_video_view_total_time": 590018
   },
   {
    "id": "18150747166603950",
@@ -798,28 +815,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 937,
    "ig_reels_video_view_total_time": 30012
-  },
-  {
-   "id": "17913945969592238",
-   "permalink": "https://www.instagram.com/p/Dfrl6Mamxzu/",
-   "timestamp": "2026-11-13T12:06:44+0000",
-   "media_product_type": "FEED",
-   "media_type": "CAROUSEL_ALBUM",
-   "caption_head": "Five dinners worth booking ahead in East Tokyo 🍽️ Award-list",
-   "reach": 2,
-   "views": 6,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0
   }
  ],
  "account_daily": {
-  "reach": 218,
-  "views": 248,
-  "profile_views": 8,
+  "reach": 140,
+  "views": 155,
+  "profile_views": 7,
   "profile_links_taps": 0,
-  "accounts_engaged": 3
+  "accounts_engaged": 0
  }
 }
