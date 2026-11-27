@@ -239,3 +239,9 @@ Decision rule (until we have more volume): a variant "wins" if completion is ≥
   Photo + voice (v4) is 0/3 (median 17). Carousels 0/28. Followers 21.
 - Decision until the 11/29 retro: H5 is the main reel format. Made 12/2 as two H5 reels: "hungry at 3pm?" (115 of ~300 places closed at 3pm) and "Asakusa lunch under ¥1,000".
 - Still no 1,000+ hit. Next lever to test after the retro: hook strength (first 1 s) and posting more H5 per day vs carousels.
+
+## 2026-11-28 08:00 production run
+- Since 11/22, reels that open with a traveler's problem or a rule: r_v_01 138, r_v_02 107, r_v_03 115, r_v_04 75, r_h4_01 113, r_h6_01 98 at 17 h, r_h4_02 Monday 117 at 12 h. 6 of 7 past the batch.
+  List-type openers: r_h4_03 9. Photo + voice 0/3. Followers 23 (+8 since 11/20).
+- Made 12/3: r_v_10 "out of cash? 3 places that take cards" (H5), r_h4_09 "open until 11, last order 10" (v1, rule: 91 of 106 shops stop orders 30+ min early).
+- Watch today: r_v_05 Asakusa sweets is a list opener in the H5 format — if it stays under 80, the opener matters more than the format.

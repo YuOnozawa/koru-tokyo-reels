@@ -251,3 +251,10 @@ V3['h4_08_booking'] = {'speed': 1.25, 'beats': [
   {'say': "{Aoi Marushin|ɑoi mɑɾuʃin}, the tempura house in {Asakusa|ɑsɑkusɑ}: no bookings for overseas travelers.", 'video': SV + '4405.mp4', 'vstart': 2, 'tag': '1 · AOI MARUSHIN', 'big': 'NO\nBOOKINGS', 'hl': 0, 'size': 160, 'chips': ['overseas travelers', 'walk in'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
   {'say': "{Ponta Honke|pontɑ honke} books two or more only. {Kurofunetei|kuɾofunetei}: daytime bookings get one hour twenty.", 'video': SV + '51258.mp4', 'vstart': 2, 'tag': '2 · UENO', 'big': '2+ ONLY\n1H 20M', 'hl': 1, 'size': 140, 'chips': ['Ponta Honke', 'Kurofunetei'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
 ]}
+# ---- 11/28 run: H4a arm (v1 format), 12/3 17:00. Rule topic. Facts: data/shops.json hours with LO: 106 Tokyo shops list a last order; median 30 min before closing; 91 of 106 at least 30 min.
+# Tatsumiya Yodobashi Akiba 11:00-23:00 (LO 22:00); Yakiton Genki Mon-Sat 17:00-24:00 (LO 23:00).
+V3['h4_09_last_order'] = {'speed': 1.25, 'beats': [
+  {'say': "Open until eleven? In Tokyo, last order can be ten.", 'video': SV + '4447.mp4', 'vstart': 4, 'tag': 'TOKYO RULE', 'big': 'LAST\nORDER', 'hl': 1, 'size': 190, 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "{Tatsumiya|tɑtsumijɑ} in {Akihabara|ɑkihɑbɑɾɑ} closes at eleven. Last order: ten.", 'video': SV + '51241.mp4', 'vstart': 1, 'tag': '1 · TATSUMIYA', 'big': '23:00\nLO 22:00', 'hl': 1, 'size': 150, 'chips': ['sukiyaki set', 'cards OK'], 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+  {'say': "Most places on my list stop orders thirty minutes or more before closing. Arrive early.", 'video': SV + '4451.mp4', 'vstart': 2, 'tag': '2 · ON MY LIST', 'big': '91 OF 106', 'hl': 0, 'size': 150, 'chips': ['30+ min before close'], 'min': 2.2, 'note': 'Footage: Mixkit, similar scenes, not these shops'},
+]}

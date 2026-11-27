@@ -1,0 +1,21 @@
+{
+ "id": "v_10_cards",
+ "note": "reel only (H5 stock video + AI voice, problem framing; mirror of r_v_03 cash only = 115). Facts: data/shops.json Tatsumiya Yodobashi Akiba (credit cards accepted), Tempura Akimitsu (Visa/MC/Amex/Diners/JCB, PayPay), Anmitsu Mihashi Ueno (JCB, AMEX, e-money). Footage: Mixkit, similar scenes, not these shops.",
+ "hook": {
+  "q_jp": "現金が足りない？\nカードが使える3軒",
+  "sub_en": "Out of cash in Tokyo? 3 places that take cards",
+  "video": "4451", "vstart": 1, "vpos": 0.5,
+  "say": "Out of cash in Tokyo? Here are three places that take cards.",
+  "beats": [
+   {"video": "51255", "vstart": 1, "vpos": 0.5, "jp": "たつ美屋（秋葉原）すき焼き定食", "sub_en": "Tatsumiya, Akihabara · sukiyaki set about ¥1,100 · cards OK",
+    "say": "Tatsumiya in Akihabara. A sukiyaki set for about eleven hundred yen. Credit cards are fine."},
+   {"video": "45086", "vstart": 1, "vpos": 0.5, "jp": "天ぷら秋光（浅草）", "sub_en": "Tempura Akimitsu, Asakusa · Visa, Mastercard, Amex, JCB, PayPay",
+    "say": "Tempura Akimitsu in Asakusa. Visa, Mastercard, Amex, JCB and PayPay. Open every day."},
+   {"video": "48686", "vstart": 1, "vpos": 0.5, "jp": "みはし（上野）クリームあんみつ760円", "sub_en": "Anmitsu Mihashi, Ueno · cream anmitsu ¥760 · JCB, AMEX, IC",
+    "say": "Anmitsu Mihashi in Ueno. Cream anmitsu for seven hundred sixty yen. JCB, Amex and IC cards."}
+  ],
+  "end_video": "4401", "end_vstart": 1,
+  "end_jp": "保存して、旅のときに。", "end_en": "Save it for your trip",
+  "end_say": "Save this for your trip."
+ }
+}
