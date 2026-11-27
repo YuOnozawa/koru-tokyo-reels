@@ -1637,6 +1637,34 @@
    "liked": true,
    "at": "2026-11-26T21:40Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "anma_b_",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-27T12:40Z",
+   "source": "Yanaka recent"
+  },
+  {
+   "user": "jhun_1161",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-27T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "manozashi",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-27T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "joannastacey",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-27T12:40Z",
+   "source": "Akihabara recent"
   }
  ],
  "candidates": [],
@@ -1822,7 +1850,8 @@
   "2026-11-26 Yu: フォロー返していいよ -> follow back people who follow us, private accounts included (request). Sent request to hsia.0_0. Followers list (21) checked: everyone else already followed.",
   "2026-11-26 06:20 JST run (Mac): 2 follows+likes, 1 comment; 2 skipped (business filter). No new followers to follow back (hsia.0_0 request pending). 0 DM requests.",
   "2026-11-26 21:20 JST run (Mac): follow-back puja_thakuri0717; 2 follows+likes; 1 comment. danieljandersson liked a reel. hsia.0_0 request pending. 0 DM requests.",
-  "2026-11-27 06:20 JST run (Mac): 3 follows+likes, 1 comment; no new followers to follow back. 0 DM requests."
+  "2026-11-27 06:20 JST run (Mac): 3 follows+likes, 1 comment; no new followers to follow back. 0 DM requests.",
+  "2026-11-27 21:20 JST run (Mac only connected): 4 follows+likes, 1 comment. No new followers. 0 DM requests."
  ],
  "dm_log": [
   {
@@ -2187,6 +2216,13 @@
    "text": "Looks festive! If you want a late bite after the lights, Motsuyaki Daitoryo (2 min from JR Ueno) does grilled skewers from 2 for ¥180, open daily until 23:30.",
    "at": "2026-11-26T21:40Z",
    "basis": "shops.json Motsuyaki Daitoryo"
+  },
+  {
+   "user": "jhun_1161",
+   "post": "https://www.instagram.com/p/DgPdWV0klry/",
+   "text": "Lovely shots of the market! For a cheap bite nearby, Kacchan (1 min from JR Ueno) does a tempura and drinks set for ¥1,300, open daily 11:30–22:00.",
+   "at": "2026-11-27T12:40Z",
+   "basis": "shops.json Kacchan"
   }
  ]
 }
