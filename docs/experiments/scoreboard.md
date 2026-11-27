@@ -72,8 +72,8 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
 | hook reel | 16 | 31.7 | 19% | 0.8 | 0.0 | 0.0 |
 | stock video + AI voice (H5) | 4 | 108.8 | 21% | 0.6 | 0.0 | 0.8 |
-| v1 replica (H4) | 1 | 75.0 | 25% | 0.0 | 0.0 | 0.0 |
-| v1 replica: stock video + AI voice + big text, short (H4) | 3 | 78.3 | 46% | 4.0 | 0.0 | 0.0 |
+| v1 replica (H4) | 1 | 98.0 | 28% | 0.0 | 0.0 | 0.0 |
+| v1 replica: stock video + AI voice + big text, short (H4) | 3 | 79.7 | 45% | 4.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -126,7 +126,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| timely: Ueno Christmas market | 1 | 75.0 | 25% | 0.0 | 0.0 | 0.0 |
+| timely: Ueno Christmas market | 1 | 98.0 | 28% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 

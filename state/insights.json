@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T15:04:50.908497+00:00",
+ "fetched_at": "2026-11-27T21:27:08.795124+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
@@ -7,7 +7,7 @@
   "media_count": 161,
   "id": "28241506535529259",
   "followers_count": 23,
-  "follows_count": 210
+  "follows_count": 214
  },
  "media": [
   {
@@ -17,15 +17,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Closed on Monday? 📅\n\n50 of the 310 East Tokyo places I track",
-   "reach": 113,
-   "views": 144,
+   "reach": 117,
+   "views": 148,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4403,
-   "ig_reels_video_view_total_time": 488817
+   "ig_reels_avg_watch_time": 4336,
+   "ig_reels_video_view_total_time": 498672
   },
   {
    "id": "17944423269391665",
@@ -34,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Free Christmas market in Ueno Park, until Dec 25 🎄 Save this",
-   "reach": 75,
-   "views": 89,
+   "reach": 98,
+   "views": 118,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2758,
-   "ig_reels_video_view_total_time": 217918
+   "ig_reels_avg_watch_time": 3012,
+   "ig_reels_video_view_total_time": 307228
   },
   {
    "id": "18018386306756588",
@@ -818,8 +818,8 @@
   }
  ],
  "account_daily": {
-  "reach": 276,
-  "views": 324,
+  "reach": 300,
+  "views": 357,
   "profile_views": 11,
   "profile_links_taps": 0,
   "accounts_engaged": 1
