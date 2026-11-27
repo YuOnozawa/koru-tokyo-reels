@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-27T08:47:20.380684+00:00",
+ "fetched_at": "2026-11-27T15:04:50.908497+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 160,
+  "media_count": 161,
   "id": "28241506535529259",
-  "followers_count": 21,
-  "follows_count": 206
+  "followers_count": 23,
+  "follows_count": 210
  },
  "media": [
+  {
+   "id": "18127895179922943",
+   "permalink": "https://www.instagram.com/reel/DgPUU2ABCPq/",
+   "timestamp": "2026-11-27T09:06:04+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "Closed on Monday? 📅\n\n50 of the 310 East Tokyo places I track",
+   "reach": 113,
+   "views": 144,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 4403,
+   "ig_reels_video_view_total_time": 488817
+  },
   {
    "id": "17944423269391665",
    "permalink": "https://www.instagram.com/reel/DgOx5xuROXi/",
@@ -17,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Free Christmas market in Ueno Park, until Dec 25 🎄 Save this",
-   "reach": 56,
-   "views": 63,
+   "reach": 75,
+   "views": 89,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2366,
-   "ig_reels_video_view_total_time": 137273
+   "ig_reels_avg_watch_time": 2758,
+   "ig_reels_video_view_total_time": 217918
   },
   {
    "id": "18018386306756588",
@@ -68,15 +85,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Breakfast in Naha from 7:00? 👇\n\nExtra from Okinawa: a dashi ",
-   "reach": 10,
-   "views": 12,
-   "likes": 1,
+   "reach": 11,
+   "views": 13,
+   "likes": 2,
    "comments": 0,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4070,
-   "ig_reels_video_view_total_time": 40708
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 3885,
+   "ig_reels_video_view_total_time": 42738
   },
   {
    "id": "17954526096322878",
@@ -599,8 +616,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "Where an Akihabara office worker eats lunch 🥢 Yu's five week",
-   "reach": 2,
-   "views": 7,
+   "reach": 3,
+   "views": 9,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -663,8 +680,8 @@
    "media_product_type": "FEED",
    "media_type": "CAROUSEL_ALBUM",
    "caption_head": "A Saturday eating in Kita-Senju 🍡 Four stops, about 10 minut",
-   "reach": 5,
-   "views": 13,
+   "reach": 6,
+   "views": 15,
    "likes": 0,
    "comments": 0,
    "saved": 0,
@@ -798,30 +815,13 @@
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
-  },
-  {
-   "id": "17917675803507444",
-   "permalink": "https://www.instagram.com/reel/DfsAWyGoqJd/",
-   "timestamp": "2026-11-13T15:58:03+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "Free with every issue: the with KORU app 📒 Free, no sign-up\n",
-   "reach": 30,
-   "views": 31,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 937,
-   "ig_reels_video_view_total_time": 30012
   }
  ],
  "account_daily": {
-  "reach": 140,
-  "views": 155,
-  "profile_views": 7,
+  "reach": 276,
+  "views": 324,
+  "profile_views": 11,
   "profile_links_taps": 0,
-  "accounts_engaged": 0
+  "accounts_engaged": 1
  }
 }
