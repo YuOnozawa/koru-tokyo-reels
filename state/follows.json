@@ -1693,6 +1693,34 @@
    "liked": true,
    "at": "2026-11-27T21:40Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "ptown357",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-28T12:40Z",
+   "source": "Ameyoko recent"
+  },
+  {
+   "user": "noticed.by.kuma",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-28T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "noona_paenjoy",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-28T12:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "myrather_145",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-28T12:40Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1880,7 +1908,8 @@
   "2026-11-26 21:20 JST run (Mac): follow-back puja_thakuri0717; 2 follows+likes; 1 comment. danieljandersson liked a reel. hsia.0_0 request pending. 0 DM requests.",
   "2026-11-27 06:20 JST run (Mac): 3 follows+likes, 1 comment; no new followers to follow back. 0 DM requests.",
   "2026-11-27 21:20 JST run (Mac only connected): 4 follows+likes, 1 comment. No new followers. 0 DM requests.",
-  "2026-11-28 06:20 JST run (Mac): 4 follows+likes, 1 comment. Follow-backs from jhun_1161 (also replied thanks) and anma_b_ (already followed). 0 DM requests."
+  "2026-11-28 06:20 JST run (Mac): 4 follows+likes, 1 comment. Follow-backs from jhun_1161 (also replied thanks) and anma_b_ (already followed). 0 DM requests.",
+  "2026-11-28 21:20 JST run (Mac): 4 follows+likes, 1 comment. insanelyabroad followed back. 0 DM requests."
  ],
  "dm_log": [
   {
@@ -2259,6 +2288,13 @@
    "text": "Senso-ji is special! For a cheap lunch nearby, Bazoku (3 min from Asakusa Station) serves hand-pulled noodles like tantanmen for under ¥1,000, open daily 11:15–20:30.",
    "at": "2026-11-27T21:40Z",
    "basis": "shops.json Bazoku"
+  },
+  {
+   "user": "ptown357",
+   "post": "https://www.instagram.com/p/DgRspDDEvAa/",
+   "text": "Great first izakaya! Tip for the next one: many add a small seat charge that comes with a starter. Near Ameyoko, Motsuyaki Daitoryo (2 min from JR Ueno) has skewers from 2 for ¥180, open daily until 23:30.",
+   "at": "2026-11-28T12:40Z",
+   "basis": "shops.json Daitoryo; seat-charge facts as in r_h4_01 (Akatsuka ¥450 otoshi)"
   }
  ]
 }
