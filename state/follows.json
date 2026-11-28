@@ -1721,6 +1721,20 @@
    "liked": true,
    "at": "2026-11-28T12:40Z",
    "source": "Ueno Park recent"
+  },
+  {
+   "user": "garrisonmark",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-28T21:40Z",
+   "source": "Ueno Park recent"
+  },
+  {
+   "user": "leenateo",
+   "state": "following",
+   "liked": true,
+   "at": "2026-11-28T21:40Z",
+   "source": "Ueno Park recent"
   }
  ],
  "candidates": [],
@@ -1909,7 +1923,8 @@
   "2026-11-27 06:20 JST run (Mac): 3 follows+likes, 1 comment; no new followers to follow back. 0 DM requests.",
   "2026-11-27 21:20 JST run (Mac only connected): 4 follows+likes, 1 comment. No new followers. 0 DM requests.",
   "2026-11-28 06:20 JST run (Mac): 4 follows+likes, 1 comment. Follow-backs from jhun_1161 (also replied thanks) and anma_b_ (already followed). 0 DM requests.",
-  "2026-11-28 21:20 JST run (Mac): 4 follows+likes, 1 comment. insanelyabroad followed back. 0 DM requests."
+  "2026-11-28 21:20 JST run (Mac): 4 follows+likes, 1 comment. insanelyabroad followed back. 0 DM requests.",
+  "2026-11-29 06:20 JST run (Mac): 2 follows+likes, 2 comments (from now 2-3 comments per run, travelers only; no research questions to customers, Yu 11/29). ptown357 followed back after the izakaya comment. 0 DM requests."
  ],
  "dm_log": [
   {
@@ -2295,6 +2310,20 @@
    "text": "Great first izakaya! Tip for the next one: many add a small seat charge that comes with a starter. Near Ameyoko, Motsuyaki Daitoryo (2 min from JR Ueno) has skewers from 2 for ¥180, open daily until 23:30.",
    "at": "2026-11-28T12:40Z",
    "basis": "shops.json Daitoryo; seat-charge facts as in r_h4_01 (Akatsuka ¥450 otoshi)"
+  },
+  {
+   "user": "garrisonmark",
+   "post": "https://www.instagram.com/p/DgSfsRlH4jY/",
+   "text": "Great walk! If you're near Ueno again with the family, Kurofunetei (2 min from Keisei Ueno) welcomes children and strollers. Hayashi rice and omurice, no service or table charge. Closed Mondays.",
+   "at": "2026-11-28T21:40Z",
+   "basis": "shops.json Kurofunetei house_rules"
+  },
+  {
+   "user": "leenateo",
+   "post": "https://www.instagram.com/p/DgSd_mWnzz9/",
+   "text": "Beautiful autumn light! For a sweet stop by the park, Anmitsu Mihashi (3 min from JR Ueno) serves cream anmitsu for ¥760. Weekends 10:30–19:30, weekdays until 21:00.",
+   "at": "2026-11-28T21:40Z",
+   "basis": "shops.json Anmitsu Mihashi Ueno"
   }
  ]
 }
