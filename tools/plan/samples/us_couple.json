@@ -1,0 +1,11 @@
+{
+ "id": "sample_us_couple",
+ "label": "Sample traveler (invented): a couple from the USA, first trip to Japan",
+ "party": "couple", "kids": false,
+ "start": "2026-12-09", "days": 5,
+ "hotel": "Ueno",
+ "lunch_time": "12:30", "dinner_time": "19:00",
+ "lunch_bands": ["under1500", "1500-4000"],
+ "dinner_bands": ["4000-10000", "10000plus", "4000+", "1500-4000"],
+ "areas": [["Ueno", "Yushima", "Okachimachi"], ["Asakusa", "Kuramae"], ["Akihabara", "Suehirocho"], ["Kanda", "Jimbocho", "Ochanomizu"], ["Yushima", "Ueno", "Okachimachi"]]
+}

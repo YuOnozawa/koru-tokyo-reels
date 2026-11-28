@@ -37,3 +37,16 @@ Risk for A: hours must be re-verified before each delivery (data checked Nov 202
 - First simulation result (213 real meal shops, 10 meals in 5 Tokyo days): even a traveler who checks opening hours first is turned away
   at least once in 20-52% of trips (last order / children / booking), and 3.7-4.0 of 10 meals do not take credit cards.
   Late eaters (friends, solo) are hit most; families least.
+
+## 2026-11-29 results ("do it to the end", Yu)
+- **Segment chosen by simulation:** adults who eat dinner at ¥4,000+ places (couples first), from the USA / Australia, mostly first visit.
+  Without a plan, 84-92% of such trips are turned away at least once (last order, booking, age rules) even when the traveler checks opening hours;
+  with the plan 0-11% (docs/sales/trip_sim2.md). In the budget band the same figure is only 3-20%, so cheap-eats travelers are not the buyer.
+  This matches Yu's 11/12 direction (well-off adults who want good food, not cheap fun).
+- **Evidence check:** JTA departing-visitor survey: 43.7% report no trouble; ~6% report staff-communication trouble at restaurants, ~3% card trouble at restaurants
+  (docs/sales/evidence.md). Sell on gain (eat at the good places with confidence), print card/cash as information.
+- **Data:** booking / last order / service charge rules checked for 8 more upper-band shops on Tabelog (2 could not be fetched: Botan, Hon-Tosaya). Several stored hours were wrong and are fixed.
+- **Product A sample:** tools/plan/make_plan.py -> docs/sales/sample_plan_us_couple.pdf (7 pages, invented couple, 9-13 Dec 2026, 10 meals, every slot checked against the weekday).
+- **Delivery check (tools/plan/order_sim.py, 1,200 simulated orders):** complete plan for 100% of upper-budget orders, 92% of mid, 4% of budget
+  (too few budget shops have checked rules). Good enough for the chosen segment; budget orders are out of scope for now.
+- **Not done / needs Yu:** price and payment account; order form + sales page; a routine that re-checks hours before each delivery; photos.
