@@ -71,9 +71,9 @@ Metric: **reach** · A = magazine reel · B = old reel template · status: runni
 | clean + AI voice, no music (H1) | 3 | 29.7 | 17% | 0.0 | 0.0 | 0.7 |
 | clean reel (text <10%) | 1 | 4.0 | 36% | 0.0 | 0.0 | 1.0 |
 | hook reel | 15 | 30.4 | 20% | 0.8 | 0.0 | 0.0 |
-| stock video + AI voice (H5) | 5 | 93.0 | 20% | 0.5 | 0.0 | 0.6 |
-| v1 replica (H4) | 1 | 100.0 | 27% | 0.0 | 0.0 | 0.0 |
-| v1 replica: stock video + AI voice + big text, short (H4) | 4 | 76.2 | 43% | 3.4 | 0.0 | 0.0 |
+| stock video + AI voice (H5) | 5 | 93.8 | 20% | 0.5 | 0.0 | 0.6 |
+| v1 replica (H4) | 1 | 101.0 | 27% | 0.0 | 0.0 | 0.0 |
+| v1 replica: stock video + AI voice + big text, short (H4) | 4 | 83.0 | 42% | 3.3 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 
@@ -99,7 +99,7 @@ Metric: **comp** · A = <=12 s · B = 20 s+ · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| concrete dish + price | 1 | 30.0 | 17% | 0.0 | 0.0 | 0.0 |
+| concrete dish + price | 1 | 34.0 | 16% | 0.0 | 0.0 | 0.0 |
 | hack/data | 2 | 111.0 | 23% | 0.5 | 0.0 | 1.0 |
 | late-night | 1 | 138.0 | 24% | 1.4 | 0.0 | 1.0 |
 | same topic as r_c_14 (format only) | 1 | 75.0 | 13% | 0.0 | 0.0 | 0.0 |
@@ -127,7 +127,7 @@ Metric: **reach** · A = 5 hashtags · B = 2 hashtags · status: running
 
 | arm | n | reach | completion | saves+shares /100 | comments | likes |
 |---|---|---|---|---|---|---|
-| timely: Ueno Christmas market | 1 | 100.0 | 27% | 0.0 | 0.0 | 0.0 |
+| timely: Ueno Christmas market | 1 | 101.0 | 27% | 0.0 | 0.0 | 0.0 |
 
 _Not enough reels yet (need n≥3 per arm)._
 

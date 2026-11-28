@@ -1,18 +1,18 @@
 # PDCA summary (auto)
 
-Updated 2026-11-28 15:04 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
+Updated 2026-11-28 20:19 UTC. Reach at 24 h (first snapshot ≥20 h). Batch = reach ≥ 80 (passed the test batch). Hit = reach ≥ 1,000 (latest). Goal = 10,000.
 
 | style | n | median reach 24h | batch ≥80 | hit ≥1,000 | best reach | median watch (s) |
 |---|---|---|---|---|---|---|
 | carousel | 28 | 1 | 0/28 | 0/28 | 6 | - |
-| v1 replica (H4) | 3 | 112 | 2/3 | 0/3 | 123 | 4.4 |
+| v1 replica (H4) | 3 | 112 | 2/3 | 0/3 | 124 | 4.4 |
 | v1 voice narration, no music | 98 | 110 | 91/98 | 0/98 | 325 | 3.7 |
 | v2 page-flip + music | 6 | 13 | 0/6 | 0/6 | 39 | 2.4 |
 | v3 hook + music, Yu photo | 6 | 32 | 2/6 | 0/6 | 115 | 3.0 |
 | v3 hook + music, type only | 10 | 12 | 0/10 | 0/10 | 70 | 2.3 |
-| v3 hook ? | 1 | 99 | 1/1 | 0/1 | 99 | 3.0 |
+| v3 hook ? | 1 | 99 | 1/1 | 0/1 | 100 | 3.0 |
 | v4 clean photo + AI voice | 3 | 17 | 0/3 | 0/3 | 59 | 3.7 |
 | v4 clean photo + music | 1 | 3 | 0/1 | 0/1 | 4 | 4.5 |
 | v5 stock video + AI voice | 4 | 110 | 3/4 | 0/4 | 138 | 5.4 |
 
-Pending (<20 h old): ? None@972h, r_v_05_asakusa_sweets 25@4h
+Pending (<20 h old): ? None@972h, r_v_05_asakusa_sweets 30@11h, r_h4_04_kamiya 58@6h

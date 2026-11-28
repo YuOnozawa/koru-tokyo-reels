@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-28T15:04:14.849120+00:00",
+ "fetched_at": "2026-11-28T20:18:37.028495+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
   "media_count": 163,
   "id": "28241506535529259",
-  "followers_count": 24,
+  "followers_count": 25,
   "follows_count": 218
  },
  "media": [
@@ -17,15 +17,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A bar by Asakusa Station, open since 1880 🥃 Save this.\n\nKami",
-   "reach": 58,
-   "views": 70,
+   "reach": 85,
+   "views": 96,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 3748,
-   "ig_reels_video_view_total_time": 217393
+   "ig_reels_avg_watch_time": 3430,
+   "ig_reels_video_view_total_time": 291554
   },
   {
    "id": "17980119663170330",
@@ -34,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A sweet break in Asakusa, from ¥160 🍡 Save this.\n\n1 · Asakus",
-   "reach": 30,
-   "views": 32,
+   "reach": 34,
+   "views": 37,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4438,
-   "ig_reels_video_view_total_time": 137598
+   "ig_reels_avg_watch_time": 4116,
+   "ig_reels_video_view_total_time": 144093
   },
   {
    "id": "18127895179922943",
@@ -68,15 +68,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Free Christmas market in Ueno Park, until Dec 25 🎄 Save this",
-   "reach": 100,
-   "views": 120,
+   "reach": 101,
+   "views": 121,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 2992,
-   "ig_reels_video_view_total_time": 311194
+   "ig_reels_avg_watch_time": 2977,
+   "ig_reels_video_view_total_time": 312607
   },
   {
    "id": "18018386306756588",
@@ -820,9 +820,9 @@
   }
  ],
  "account_daily": {
-  "reach": 258,
-  "views": 325,
-  "profile_views": 10,
+  "reach": 285,
+  "views": 359,
+  "profile_views": 11,
   "profile_links_taps": 0,
   "accounts_engaged": 2
  }
