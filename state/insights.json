@@ -1,15 +1,32 @@
 {
- "fetched_at": "2026-11-28T08:02:08.675693+00:00",
+ "fetched_at": "2026-11-28T15:04:14.849120+00:00",
  "account": {
   "user_id": "17841423398900553",
   "username": "koru.tokyo_guide",
   "account_type": "MEDIA_CREATOR",
-  "media_count": 162,
+  "media_count": 163,
   "id": "28241506535529259",
-  "followers_count": 23,
-  "follows_count": 214
+  "followers_count": 24,
+  "follows_count": 218
  },
  "media": [
+  {
+   "id": "18108038957197086",
+   "permalink": "https://www.instagram.com/reel/DgR5AV7BMSA/",
+   "timestamp": "2026-11-28T09:05:00+0000",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "caption_head": "A bar by Asakusa Station, open since 1880 🥃 Save this.\n\nKami",
+   "reach": 58,
+   "views": 70,
+   "likes": 0,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 3748,
+   "ig_reels_video_view_total_time": 217393
+  },
   {
    "id": "17980119663170330",
    "permalink": "https://www.instagram.com/reel/DgRWqiCoV3L/",
@@ -17,15 +34,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "A sweet break in Asakusa, from ¥160 🍡 Save this.\n\n1 · Asakus",
-   "reach": 25,
-   "views": 28,
+   "reach": 30,
+   "views": 32,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4525,
-   "ig_reels_video_view_total_time": 117658
+   "ig_reels_avg_watch_time": 4438,
+   "ig_reels_video_view_total_time": 137598
   },
   {
    "id": "18127895179922943",
@@ -34,15 +51,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Closed on Monday? 📅\n\n50 of the 310 East Tokyo places I track",
-   "reach": 123,
+   "reach": 124,
    "views": 158,
    "likes": 0,
    "comments": 0,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 4375,
-   "ig_reels_video_view_total_time": 529472
+   "ig_reels_avg_watch_time": 4393,
+   "ig_reels_video_view_total_time": 535965
   },
   {
    "id": "17944423269391665",
@@ -51,15 +68,15 @@
    "media_product_type": "REELS",
    "media_type": "VIDEO",
    "caption_head": "Free Christmas market in Ueno Park, until Dec 25 🎄 Save this",
-   "reach": 99,
-   "views": 119,
+   "reach": 100,
+   "views": 120,
    "likes": 0,
    "comments": 0,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 3013,
-   "ig_reels_video_view_total_time": 310359
+   "ig_reels_avg_watch_time": 2992,
+   "ig_reels_video_view_total_time": 311194
   },
   {
    "id": "18018386306756588",
@@ -800,30 +817,13 @@
    "total_interactions": 0,
    "ig_reels_avg_watch_time": 3168,
    "ig_reels_video_view_total_time": 370747
-  },
-  {
-   "id": "18100109159451259",
-   "permalink": "https://www.instagram.com/reel/DftQk6OSk69/",
-   "timestamp": "2026-11-14T03:39:03+0000",
-   "media_product_type": "REELS",
-   "media_type": "VIDEO",
-   "caption_head": "What to eat in Kanazawa? 4 bites from Yu's trip 👇\n\nKanazawa,",
-   "reach": 53,
-   "views": 58,
-   "likes": 0,
-   "comments": 0,
-   "saved": 0,
-   "shares": 0,
-   "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1922,
-   "ig_reels_video_view_total_time": 103818
   }
  ],
  "account_daily": {
-  "reach": 195,
-  "views": 251,
-  "profile_views": 7,
+  "reach": 258,
+  "views": 325,
+  "profile_views": 10,
   "profile_links_taps": 0,
-  "accounts_engaged": 1
+  "accounts_engaged": 2
  }
 }
