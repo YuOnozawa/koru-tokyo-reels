@@ -30,8 +30,8 @@ Secondary: Australians 35–55 travelling as a couple or family, 13–14 nights,
 Tension with Yu's 11/12 direction ("adults, fairly well-off, want good food over cheap"): US visitors are 71% under 40. Australia fits "older, spends on food" better. Decide by who actually answers and pays.
 
 ## How we raise the resolution
-1. Self-identify reel: "Going to Tokyo? Comment: month + who with + first time?" (answers go to the Drive list).
-2. Ask the warm travelers one question (draft in chat; Yu approves before sending).
-3. Order form of the product asks country, month, party, first time.
+1. (dropped 11/29, Yu: no asking customers on SNS) Simulation on real data instead: tools/sim/trip_sim.py.
+2. Read public evidence ourselves: English reviews of our shops, trip reports, the JTA survey's detailed tables.
+3. The product's order form needs dates and party anyway; that is where country and month get recorded.
 4. Re-weight the 100 synthetic personas in tools/panel/personas.json to the survey shares above.
 5. Follow runs: only log people as prospects when their posts show a trip (day counts, route), not residents.

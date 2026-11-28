@@ -27,3 +27,13 @@ Risk for A: hours must be re-verified before each delivery (data checked Nov 202
 - Grow the list to 100: 2–3 comments per follow run (cap 5/day), log trip stage; self-identify reel ("Going to Tokyo? Comment your month").
 - Ask the 10 warmest people one question (draft in chat; send only after Yu approves).
 - Build a sample of A from shops.json; run persona check; then presale. Payment account = Yu.
+
+## 2026-11-29 update (Yu): do not ask customers on SNS
+- Dropped: the question to warm followers, and the "comment your month" reel. No research questions to customers.
+- Instead the gaps are filled by (1) government survey data (docs/sales/target.md), (2) mechanistic simulation on our own shop data
+  (tools/sim/trip_sim.py -> docs/sales/trip_sim.md), (3) public evidence (reviews, trip reports) read by us.
+- Note: the opinion-style persona panel (tools/panel) was tested twice against real reel results and had no predictive value
+  (Spearman -0.10 on 20 reels). So "would they like it / buy it" is not taken from role-played opinions. Purchase is tested by putting the product on sale.
+- First simulation result (213 real meal shops, 10 meals in 5 Tokyo days): even a traveler who checks opening hours first is turned away
+  at least once in 20-52% of trips (last order / children / booking), and 3.7-4.0 of 10 meals do not take credit cards.
+  Late eaters (friends, solo) are hit most; families least.
