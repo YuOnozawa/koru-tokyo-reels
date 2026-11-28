@@ -931,14 +931,14 @@
   "genre": "Monkfish hot pot (anko nabe)",
   "station": "Awajicho (Exit A3)",
   "walk_min": 3,
-  "hours": "Mon-Fri 11:30-14:00 (LO 13:30) & 17:00-22:00 (LO 21:00); Sat/Sun/hol 11:30-22:00 with no break",
-  "closed_days": "No regular closing day, but closed Sat/Sun/holidays from April to October",
+  "hours": "Tue-Fri 11:30-14:00 (LO 13:30), 17:00-22:00 (LO 21:00); Sat 11:30-15:00 (LO 14:00), 16:00-22:00 (LO 21:00); Sun and holidays 11:30-15:00 (LO 14:00), 16:00-21:00 (LO 20:00) (Tabelog, Nov 2026)",
+  "closed_days": "Monday (April-October: also Sundays and holidays)",
   "lunch_price_yen": "up to 3000",
   "dinner_price_yen": "10000-20000",
   "budget_band": "10000plus",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable (9 or more by phone)",
   "what_to_order": "Anko nabe (monkfish hot pot)",
   "tourist_tip": "Founded in 1830, in a 1930s building that Tokyo lists as historic. From April to October it is closed on weekends and holidays.",
   "yu_pick": false,
@@ -950,7 +950,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted",
+   "10% service charge after 16:00",
+   "Cards and QR payment OK",
+   "Children welcome",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13000338/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Tori Sukiyaki Botan",
@@ -1885,14 +1894,14 @@
   "genre": "Tempura",
   "station": "Yushima (Chiyoda Line)",
   "walk_min": 5,
-  "hours": "11:30-14:00, 17:00-21:00",
+  "hours": "Thu-Tue 11:30-14:00, 17:00-21:00 (Tabelog, Nov 2026)",
   "closed_days": "Wednesday",
   "lunch_price_yen": "1500-4000",
   "dinner_price_yen": "about 6000",
   "budget_band": "4000-10000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable",
   "what_to_order": "Tendon, ¥4,000 (weekday-only lunch tendon ¥1,500)",
   "tourist_tip": "Founded in 1909. Weekday lunch tendon is the cheapest way in.",
   "yu_pick": false,
@@ -1903,7 +1912,14 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted",
+   "Cards and PayPay OK",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13003602/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Sumibi Yakitori Torie Ueno-Hirokoji",
@@ -1912,14 +1928,14 @@
   "genre": "Yakitori",
   "station": "Ueno-Hirokoji (Ginza Line)",
   "walk_min": 1,
-  "hours": "Mon-Fri 17:30-23:00 (L.O. 22:15); Sat and holidays 17:00-22:30 (L.O. 21:45)",
+  "hours": "Mon-Fri 17:30-22:30 (LO 22:00); Sat and holidays 17:00-22:30 (LO 22:00) (Tabelog, Nov 2026; LO is for drinks)",
   "closed_days": "Sunday",
   "lunch_price_yen": "no lunch",
   "dinner_price_yen": "up to 10000",
   "budget_band": "4000-10000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable",
   "what_to_order": "Charcoal-grilled yakitori (no specific signature item verified)",
   "tourist_tip": "Reservations are accepted only through the restaurant's website.",
   "yu_pick": false,
@@ -1929,7 +1945,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted",
+   "Counter seats: age 13 and over only, and a course must be ordered",
+   "Small children only in the private room (ask first; room charge ¥5,000)",
+   "Cards and PayPay OK",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13128870/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Kacchan",
@@ -3723,14 +3748,14 @@
   "genre": "Yakiniku (Japanese BBQ)",
   "station": "Suehirocho (Ginza Line)",
   "walk_min": 1,
-  "hours": "17:00-24:00 (LO 23:00)",
+  "hours": "17:00-23:30 (LO 22:45) (Tabelog, Nov 2026)",
   "closed_days": "Monday",
   "lunch_price_yen": "n/a",
   "dinner_price_yen": "5000-10000",
   "budget_band": "4000-10000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable (one person, groups of 7+, or with children 6 and under: phone only)",
   "what_to_order": "Yakiniku grilled beef; the shop is also listed for rice bowls, sashimi-style meat and kakigori shaved ice",
   "tourist_tip": "2nd floor, dinner only. Reservations accepted. Amex and PayPay accepted.",
   "yu_pick": false,
@@ -3740,7 +3765,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted; solo diners book by phone",
+   "All tables 2 hours",
+   "10% service charge",
+   "No children under 3; age 6 and under in private rooms only",
+   "Cards OK; no e-money or QR",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13165294/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Tankiyo",
@@ -6469,7 +6504,7 @@
   "genre": "French (contemporary fine dining)",
   "station": "Asakusa",
   "walk_min": "unknown",
-  "hours": "Wed-Sun 11:30-12:30 and 18:00-19:30 (seating times)",
+  "hours": "Wed-Sun 11:30-15:00 (LO 12:30), 18:00-22:30 (LO 19:30) (Tabelog, Nov 2026)",
   "closed_days": "Monday and Tuesday",
   "lunch_price_yen": "unknown",
   "dinner_price_yen": "unknown",
@@ -6478,7 +6513,7 @@
    "Michelin Two Stars 2026"
   ],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "needed",
   "what_to_order": "Chef Noboru Arai's French tasting menu",
   "tourist_tip": "Credit cards accepted. Fixed seating windows, so arrive on time. In the Kannon-ura area, 4-10-5 Asakusa.",
   "yu_pick": false,
@@ -6488,7 +6523,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Booking required: set courses only, chosen when you book (lunch from ¥14,000, dinner from ¥28,000)",
+   "10% service charge",
+   "Children: elementary school age and up, eating the adult course",
+   "Cards and PayPay OK",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13008700/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Asadori",
@@ -8268,14 +8312,14 @@
   "genre": "Cheese restaurant (raclette)",
   "station": "Yushima (Chiyoda Line); JR Ueno 10 min",
   "walk_min": 1,
-  "hours": "Weekdays 18:00-23:30 (last order 22:30; bookings from 17:00); Sat 17:00-23:30",
-  "closed_days": "Sunday and public holidays (Sunday lunch is served at the sister shop near Yushima Tenjin)",
+  "hours": "Mon-Fri 18:00-23:30 (LO 22:30); Sat 17:00-23:30 (LO 22:30) (Tabelog, Nov 2026)",
+  "closed_days": "Sunday and public holidays",
   "lunch_price_yen": "n/a",
   "dinner_price_yen": "about 4500",
   "budget_band": "4000-10000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable",
   "what_to_order": "Raclette (melted cheese scraped over potatoes and other sides)",
   "tourist_tip": "Dinner only. Cards accepted (Visa, Master, JCB, Amex, Diners). Phone bookings accepted. 26 seats.",
   "yu_pick": false,
@@ -8285,7 +8329,17 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": false,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted",
+   "One drink per person required",
+   "2-hour tables when busy",
+   "Cards, IC cards and QR payment OK",
+   "Children welcome",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13080256/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Sakanoue Cafe",
@@ -8352,14 +8406,14 @@
   "genre": "Unagi (eel) and kaiseki",
   "station": "Keisei Ueno; also JR Ueno and Ueno-Hirokoji 3 min",
   "walk_min": 1,
-  "hours": "11:30-22:00",
+  "hours": "11:30-22:00 (LO 21:20) (Tabelog, Nov 2026)",
   "closed_days": "None (open daily)",
   "lunch_price_yen": "about 5000",
   "dinner_price_yen": "up to 15000",
   "budget_band": "4000-10000",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable",
   "what_to_order": "Kabayaki (grilled eel) over rice, e.g. 'Kabayaki Gohan Take' (9,500 yen); the seasonal 'Koetsu' set (5,000 yen) is the cheaper option",
   "tourist_tip": "Facing Shinobazu Pond near Keisei Ueno. Cards accepted. 120 seats with private rooms. Phone and online bookings accepted.",
   "yu_pick": false,
@@ -8369,7 +8423,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted",
+   "¥440 otoshi only if you order alcohol",
+   "10% service charge in private rooms only",
+   "Cards OK; no e-money or QR",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13003585/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Tanbo to Budo",
@@ -8667,14 +8730,14 @@
   "genre": "Japanese kappo (suppon soft-shell turtle, eel, seasonal courses)",
   "station": "Yushima (Chiyoda Line); also Suehirocho 4 min",
   "walk_min": 2,
-  "hours": "Mon-Sat lunch 11:30-14:00 (last order 13:30), dinner 17:30-22:00 (last order 20:00)",
-  "closed_days": "Sunday and public holidays",
+  "hours": "Mon, Tue, Thu, Fri 11:30-14:00 (LO 12:30), 17:30-21:30 (LO 19:00); Sat 11:30-14:00 (LO 12:30), 17:30-21:00 (LO 19:00) (Tabelog, Nov 2026)",
+  "closed_days": "Wednesday, Sunday and public holidays",
   "lunch_price_yen": "up to 6000",
   "dinner_price_yen": "10000-15000",
   "budget_band": "10000plus",
   "awards": [],
   "english_menu": "unknown",
-  "reservation": "unknown",
+  "reservation": "Bookable",
   "what_to_order": "Seasonal set courses (about 9,800-14,400 yen); suppon (soft-shell turtle) is a specialty",
   "tourist_tip": "Online reservations accepted. Cards and PayPay accepted. 24 seats with counter and private rooms.",
   "yu_pick": false,
@@ -8684,7 +8747,16 @@
   "checked": "2026-10-31",
   "kind": "meal",
   "lunch_ok": true,
-  "dinner_ok": true
+  "dinner_ok": true,
+  "house_rules": [
+   "Bookings accepted",
+   "Dinner last order 19:00",
+   "Cards, IC cards and PayPay OK",
+   "Children welcome",
+   "Non-smoking"
+  ],
+  "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13166177/",
+  "rules_checked": "2026-11-29"
  },
  {
   "name_en": "Ethnic Kitchen & Bar BAIDAM",
