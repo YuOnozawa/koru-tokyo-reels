@@ -9231,5 +9231,30 @@
   "checked": "2026-11-18",
   "rules_checked": "2026-11-18",
   "house_rules": []
+ },
+ {
+  "name_en": "Ramen Honda Mengyo (LaLaport Shin-Misato)",
+  "name_ja": "らぁめん 本田麺業（ららぽーと新三郷）",
+  "area": "Shin-Misato (Saitama)",
+  "station": "Shin-Misato (JR Musashino Line)",
+  "walk_min": null,
+  "what_to_order": "Niboshi kombu-sui tsukemen (dipping noodles in kelp water) ¥1,100 incl. tax; set: aburi chashu don +¥300",
+  "menu_prices_incl_tax": {
+   "shoyu ramen": 950,
+   "ajitama shoyu ramen": 1100,
+   "niboshi kombu-sui tsukemen": 1100,
+   "ajitama niboshi kombu-sui tsukemen": 1250,
+   "tokusei niboshi kombu-sui tsukemen": 1400,
+   "gokubuto abura-men": 900,
+   "don set (roast pork / aburi chashu / TKG)": 300
+  },
+  "yu_visit": "2026-11-28, Yu ate kombu-sui tsukemen + aburi chashu don set; Yu: 'まぁまぁかな' (so-so)",
+  "photos": [
+   "stock/yu/honda_tsukemen_misato.jpg"
+  ],
+  "sources": [
+   "menu board photographed by Yu, 2026-11-28 (prices only)"
+  ],
+  "note": "Outside our Tokyo areas (Saitama shopping mall food court). Not for a recommendation issue; usable as Yu's own photo for a how-to (e.g., how to eat kombu-sui tsukemen)."
  }
 ]
